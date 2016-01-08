@@ -1,0 +1,65 @@
+{
+	'entries':[
+
+	],
+	'namespaces':{
+		'media':'http://search.yahoo.com/mrss/',
+		'crunchyroll':'http://www.crunchyroll.com/rss'
+	},
+	'encoding':'utf-8',
+	'bozo':0,
+	'version':'rss20',
+	'feed':{
+		'crunchyroll_simulcast':'1',
+		'subtitle_detail':{
+			'base':'',
+			'language':None,
+			'type':'text/html',
+			'value':'Comix Wave Films is producing four episodes with the theme of “goodbyes and journeys,” entitled “Recipe,” “Transistor Smartphone,” “Summer Festival,” and “Clover”, as part of the Ultra Super Anime Time programming block broadcast in Japan.'
+		},
+		'image':{
+			'title':'Tabimachi Lateshow',
+			'link':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22661',
+			'href':'http://img1.ak.crunchyroll.com/i/spire1/2bb54872139ee152c76fbb7f4f88e12e1452118829_full.jpg',
+			'links':[
+				{
+					'href':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22661',
+					'type':'text/html',
+					'rel':'alternate'
+				}
+			],
+			'title_detail':{
+				'base':'',
+				'language':None,
+				'type':'text/plain',
+				'value':'Tabimachi Lateshow'
+			}
+		},
+		'links':[
+			{
+				'href':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22661',
+				'type':'text/html',
+				'rel':'alternate'
+			}
+		],
+		'rights':'Copyright © 2016 Crunchyroll Inc. All rights reserved.',
+		'language':'en-us',
+		'subtitle':'Comix Wave Films is producing four episodes with the theme of “goodbyes and journeys,” entitled “Recipe,” “Transistor Smartphone,” “Summer Festival,” and “Clover”, as part of the Ultra Super Anime Time programming block broadcast in Japan.',
+		'rating':'(PICS-1.1 "http://www.classify.org/safesurf/" l r (SS~~000 1))',
+		'title':'Tabimachi Lateshow Episodes',
+		'link':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22661',
+		'title_detail':{
+			'base':'',
+			'language':None,
+			'type':'text/plain',
+			'value':'Tabimachi Lateshow Episodes'
+		},
+		'ttl':'60',
+		'rights_detail':{
+			'base':'',
+			'language':None,
+			'type':'text/plain',
+			'value':'Copyright © 2016 Crunchyroll Inc. All rights reserved.'
+		}
+	}
+}

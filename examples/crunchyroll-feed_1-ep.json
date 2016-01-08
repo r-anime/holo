@@ -1,0 +1,184 @@
+{
+	'version':'rss20',
+	'entries':[
+		{
+			'crunchyroll_duration':'1445',
+			'media_credit':[
+				{
+					'role':'distribution company',
+					'content':'Crunchyroll Inc.'
+				}
+			],
+			'media_restriction':{
+				'type':'country',
+				'content':[
+					'ax', 'al', 'dz', 'as', 'ad', 'ao', 'ai', 'ag', 'ar', 'am', 'aw', 'au', 'at', 'az', 'bs', 'bh', 'bb', 'by', 'be', 'bz', 'bj', 'bm', 'bo', 'bq', 'ba', 'bw', 'br', 'bg', 'bf', 'bi', 'cm', 'ca', 'cv', 'ky', 'cf', 'td', 'cl', 'cx', 'cc', 'co', 'km', 'cg', 'cd', 'cr', 'ci', 'hr', 'cu', 'cw', 'cy', 'cz', 'dk', 'dj', 'dm', 'do', 'ec', 'eg', 'sv', 'gq', 'er', 'ee', 'et', 'fk', 'fo', 'fi', 'fr', 'gf', 'ga', 'gm', 'ge', 'de', 'gh', 'gi', 'gr', 'gl', 'gd', 'gp', 'gu', 'gt', 'gg', 'gn', 'gw', 'gy', 'ht', 'hm', 'va', 'hn', 'hu', 'is', 'ir', 'iq', 'ie', 'im', 'il', 'it', 'jm', 'je', 'jo', 'ke', 'kw', 'lv', 'lb', 'ls', 'lr', 'ly', 'li', 'lt', 'lu', 'mk', 'mg', 'mw', 'ml', 'mt', 'mq', 'mr', 'mu', 'yt', 'mx', 'md', 'mc', 'me', 'ms', 'ma', 'mz', 'na', 'nl', 'an', 'nz', 'ni', 'ne', 'ng', 'nf', 'mp', 'no', 'om', 'ps', 'pa', 'py', 'pe', 'pl', 'pt', 'pr', 'qa', 're', 'ro', 'ru', 'rw', 'bl', 'sh', 'kn', 'lc', 'mf', 'pm', 'vc', 'sm', 'st', 'sa', 'sn', 'rs', 'sc', 'sl', 'sx', 'sk', 'si', 'so', 'za', 'gs', 'ss', 'es', 'sd', 'sr', 'sj', 'sz', 'se', 'ch', 'sy', 'tz', 'tg', 'tt', 'tn', 'tr', 'tc', 'ug', 'ua', 'ae', 'gb', 'us', 'um', 'uy', 've', 'vg', 'vi', 'eh', 'ye', 'zm', 'zw'
+				],
+				'relationship':'allow'
+			},
+			'link':'http://www.crunchyroll.com/active-raid/episode-1-code-no-538-691715',
+			'published':'Thu, 07 Jan 2016 15:30:00 GMT',
+			'summary_detail':{
+				'type':'text/html',
+				'value':'<img src="http://img1.ak.crunchyroll.com/i/spire2-tmb/804d46aa04dcad82a5fcb72ee5d07ff11451963017_thumb.jpg"  /><br />',
+				'base':'',
+				'language':None
+			},
+			'crunchyroll_endpubdate':'Mon, 30 Nov 9998 08:00:00 GMT',
+			'media_content':[
+				{
+					'type':'video/mp4',
+					'medium':'video',
+					'duration':'1445'
+				}
+			],
+			'media_thumbnail':[
+				{
+					'width':'640',
+					'url':'http://img1.ak.crunchyroll.com/i/spire2-tmb/804d46aa04dcad82a5fcb72ee5d07ff11451963017_full.jpg',
+					'height':'360'
+				},
+				{
+					'width':'200',
+					'url':'http://img1.ak.crunchyroll.com/i/spire2-tmb/804d46aa04dcad82a5fcb72ee5d07ff11451963017_large.jpg',
+					'height':'112'
+				},
+				{
+					'width':'160',
+					'url':'http://img1.ak.crunchyroll.com/i/spire2-tmb/804d46aa04dcad82a5fcb72ee5d07ff11451963017_thumb.jpg',
+					'height':'90'
+				},
+				{
+					'width':'100',
+					'url':'http://img1.ak.crunchyroll.com/i/spire2-tmb/804d46aa04dcad82a5fcb72ee5d07ff11451963017_medium.jpg',
+					'height':'56'
+				},
+				{
+					'width':'50',
+					'url':'http://img1.ak.crunchyroll.com/i/spire2-tmb/804d46aa04dcad82a5fcb72ee5d07ff11451963017_small.jpg',
+					'height':'28'
+				}
+			],
+			'crunchyroll_episodenumber':'1',
+			'crunchyroll_subtitlelanguages':'en - us,es - la,es - es,fr - fr,pt - br,ar - me,it - it,de - de',
+			'guidislink':False,
+			'title':'Episode 1 - Code No. 538',
+			'crunchyroll_premiumendpubdate':'Mon, 30 Nov 9998 08:00:00 GMT',
+			'crunchyroll_mediaid':'691715',
+			'tags':[
+				{
+					'label':None,
+					'term':'Anime',
+					'scheme':None
+				},
+				{
+					'label':'Anime',
+					'term':'Movies_Anime_animation',
+					'scheme':'http://gdata.youtube.com/schemas/2007/categories.cat'
+				},
+				{
+					'label':None,
+					'term':'active raid',
+					'scheme':None
+				}
+			],
+			'credit':'Crunchyroll Inc.',
+			'crunchyroll_modifieddate':'Thu, 07 Jan 2016 21:15:08 GMT',
+			'media_keywords':'active raid',
+			'rating':'nonadult',
+			'crunchyroll_episodetitle':'Code No. 538',
+			'id':'http://www.crunchyroll.com/media-691715',
+			'crunchyroll_premiumpubdate':'Thu, 07 Jan 2016 15:30:00 GMT',
+			'links':[
+				{
+					'rel':'alternate',
+					'type':'text/html',
+					'href':'http://www.crunchyroll.com/active-raid/episode-1-code-no-538-691715'
+				},
+				{
+					'rel':'enclosure',
+					'type':'image/jpeg',
+					'length':'5538',
+					'href':'http://img1.ak.crunchyroll.com/i/spire2-tmb/804d46aa04dcad82a5fcb72ee5d07ff11451963017_thumb.jpg'
+				}
+			],
+			'media_rating':{
+				'scheme':'urn:simple',
+				'content':'nonadult'
+			},
+			'restriction':'ax al dz as ad ao ai ag ar am aw au at az bs bh bb by be bz bj bm bo bq ba bw br bg bf bi cm ca cv ky cf td cl cx cc co km cg cd cr ci hr cu cw cy cz dk dj dm do ec eg sv gq er ee et fk fo fi fr gf ga gm ge de gh gi gr gl gd gp gu gt gg gn gw gy ht hm va hn hu is ir iq ie im il it jm je jo ke kw lv lb ls lr ly li lt lu mk mg mw ml mt mq mr mu yt mx md mc me ms ma mz na nl an nz ni ne ng nf mp no om ps pa py pe pl pt pr qa re ro ru rw bl sh kn lc mf pm vc sm st sa sn rs sc sl sx sk si so za gs ss es sd sr sj sz se ch sy tz tg tt tn tr tc ug ua ae gb us um uy ve vg vi eh ye zm zw',
+			'published_parsed':time.struct_time(tm_year=2016, tm_mon=1,tm_mday=7, tm_hour=15, tm_min=30, tm_sec=0, tm_wday=3, tm_yday=7, tm_isdst=0),
+			'crunchyroll_freeendpubdate':'Mon, 30 Nov 9998 08:00:00 GMT',
+			'crunchyroll_freepubdate':'Thu, 14 Jan 2016 15:30:00 GMT',
+			'title_detail':{
+				'type':'text/plain',
+				'value':'Episode 1 - Code No. 538',
+				'base':'',
+				'language':None
+			},
+			'crunchyroll_publisher':'Sotsu',
+			'href':'',
+			'crunchyroll_seriestitle':'Active Raid',
+			'summary':'<img src="http://img1.ak.crunchyroll.com/i/spire2-tmb/804d46aa04dcad82a5fcb72ee5d07ff11451963017_thumb.jpg"  /><br />'
+		}
+	],
+	'feed':{
+		'subtitle':"Set in a futuristic Tokyo, Active Raid tells the story of “The Eighth,” a rash and careless unit of power-armored police called the “5th Special Public Security Section’s Mobile Assault Division.” After the Third Quicksand Disaster sinks Tokyo into a quagmire, the city's reconstruction efforts are carried out using high-output, reinforced exoskeletons called Willwears. But they can also be misused, and to combat the crimes involving them, the National Police Agency establishes at its Kichioji Branch the Special Public Security Fifth Division Third Mobile Assault Eighth Unit, AKA Unit 8.",
+		'link':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22633',
+		'rights_detail':{
+			'type':'text/plain',
+			'value':'Copyright © 2016 Crunchyroll Inc. All rights reserved.',
+			'base':'',
+			'language':None
+		},
+		'rights':'Copyright © 2016 Crunchyroll Inc. All rights reserved.',
+		'image':{
+			'links':[
+				{
+					'rel':'alternate',
+					'type':'text/html',
+					'href':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22633'
+				}
+			],
+			'title':'Active Raid',
+			'href':'http://img1.ak.crunchyroll.com/i/spire4/3827f06a8ff25bca630f08cf9e4f58261451941127_full.jpg',
+			'title_detail':{
+				'type':'text/plain',
+				'value':'Active Raid',
+				'base':'',
+				'language':None
+			},
+			'link':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22633'
+		},
+		'crunchyroll_simulcast':'1',
+		'subtitle_detail':{
+			'type':'text/html',
+			'value':"Set in a futuristic Tokyo, Active Raid tells the story of “The Eighth,” a rash and careless unit of power-armored police called the “5th Special Public Security Section’s Mobile Assault Division.” After the Third Quicksand Disaster sinks Tokyo into a quagmire, the city's reconstruction efforts are carried out using high-output, reinforced exoskeletons called Willwears. But they can also be misused, and to combat the crimes involving them, the National Police Agency establishes at its Kichioji Branch the Special Public Security Fifth Division Third Mobile Assault Eighth Unit, AKA Unit 8.",
+			'base':'',
+			'language':None
+		},
+		'title_detail':{
+			'type':'text/plain',
+			'value':'Active Raid Episodes',
+			'base':'',
+			'language':None
+		},
+		'rating':'(PICS-1.1 "http://www.classify.org/safesurf/" l r (SS~~000 1))',
+		'title':'Active Raid Episodes',
+		'links':[
+			{
+				'rel':'alternate',
+				'type':'text/html',
+				'href':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22633'
+			}
+		],
+		'ttl':'60',
+		'language':'en-us'
+	},
+	'namespaces':{
+		'crunchyroll':'http://www.crunchyroll.com/rss',
+		'media':'http://search.yahoo.com/mrss/'
+	},
+	'encoding':'utf-8',
+	'bozo':0
+}

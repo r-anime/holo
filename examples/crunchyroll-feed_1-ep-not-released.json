@@ -1,0 +1,141 @@
+{
+	'entries':[
+		{
+			'rating':'nonadult',
+			'media_credit':[
+				{
+					'content':'Crunchyroll Inc.',
+					'role':'distribution company'
+				}
+			],
+			'published':'Mon, 11 Jan 2016 20:35:00 GMT',
+			'crunchyroll_episodenumber':'1',
+			'crunchyroll_premiumendpubdate':'Mon, 30 Nov 9998 08:00:00 GMT',
+			'link':'http://www.crunchyroll.com/aokana-four-rhythm-across-the-blue/episode-1-691767',
+			'crunchyroll_endpubdate':'Mon, 30 Nov 9998 08:00:00 GMT',
+			'title_detail':{
+				'language':None,
+				'type':'text/plain',
+				'value':'Episode 1',
+				'base':''
+			},
+			'published_parsed':time.struct_time(tm_year=2016, tm_mon=1, tm_mday=11, tm_hour=20, tm_min=35, tm_sec=0, tm_wday=0, tm_yday=11, tm_isdst=0),
+			'crunchyroll_episodetitle':'',
+			'tags':[
+				{
+					'term':'Anime',
+					'scheme':None,
+					'label':None
+				},
+				{
+					'term':'Movies_Anime_animation',
+					'scheme':'http://gdata.youtube.com/schemas/2007/categories.cat',
+					'label':'Anime'
+				}
+			],
+			'summary_detail':{
+				'language':None,
+				'type':'text/html',
+				'value':'<img src="http://static.ak.crunchyroll.com/i/no_image_beta_thumb.jpg"  /><br />',
+				'base':''
+			},
+			'crunchyroll_premiumpubdate':'Mon, 11 Jan 2016 20:35:00 GMT',
+			'credit':'Crunchyroll Inc.',
+			'links':[
+				{
+					'type':'text/html',
+					'href':'http://www.crunchyroll.com/aokana-four-rhythm-across-the-blue/episode-1-691767',
+					'rel':'alternate'
+				}
+			],
+			'crunchyroll_publisher':'GONZO',
+			'guidislink':False,
+			'crunchyroll_modifieddate':'Tue, 05 Jan 2016 03:05:08 GMT',
+			'crunchyroll_freeendpubdate':'Mon, 30 Nov 9998 08:00:00 GMT',
+			'summary':'<img src="http://static.ak.crunchyroll.com/i/no_image_beta_thumb.jpg"  /><br />',
+			'media_rating':{
+				'scheme':'urn:simple',
+				'content':'nonadult'
+			},
+			'media_restriction':{
+				'relationship':'allow',
+				'type':'country',
+				'content':[
+					'ai', 'ag', 'aw', 'bs', 'bb', 'bz', 'bm', 'bq', 'ca', 'ky', 'cr', 'cu', 'cw', 'dm', 'do', 'sv', 'gl', 'gd', 'gp', 'gt', 'ht', 'hn', 'jm', 'mq', 'mx', 'ms', 'an', 'ni', 'pa', 'pr', 'bl', 'kn', 'lc', 'vc', 'sx', 'tt', 'tc', 'us', 'vg', 'vi', 'ar', 'bo', 'br', 'cl', 'co', 'ec', 'fk', 'gf', 'gy', 'py', 'pe', 'sr', 'uy', 've', 'cx', 'cc', 'dk', 'fo', 'fi', 'gg', 'ie', 'im', 'je', 'nl', 'no', 'se', 'gb', 'as', 'au', 'gu', 'nz', 'nf', 'mp', 'um', 'za', 'hm'
+				]
+			},
+			'title':'Episode 1',
+			'crunchyroll_mediaid':'691767',
+			'crunchyroll_seriestitle':'AOKANA: Four Rhythm Across the Blue',
+			'crunchyroll_freepubdate':'Mon, 18 Jan 2016 20:35:00 GMT',
+			'restriction':'ai ag aw bs bb bz bm bq ca ky cr cu cw dm do sv gl gd gp gt ht hn jm mq mx ms an ni pa pr bl kn lc vc sx tt tc us vg vi ar bo br cl co ec fk gf gy py pe sr uy ve cx cc dk fo fi gg ie im je nl no se gb as au gu nz nf mp um za hm',
+			'id':'http://www.crunchyroll.com/media-691767',
+			'media_content':[
+				{
+					'type':'video/mp4',
+					'medium':'video'
+				}
+			]
+		}
+	],
+	'encoding':'utf-8',
+	'feed':{
+		'rating':'(PICS-1.1 "http://www.classify.org/safesurf/" l r (SS~~000 1))',
+		'subtitle_detail':{
+			'language':None,
+			'type':'text/html',
+			'value':"The invention of Grav-Shoes, footwear that function as antigravity devices, drastically changes the world, as they give people the ability to freely soar the skies. Asuka Kurashina transfers into Kunahama High school, where she meets Masaya Hinata and Misaki Tobisawa, finds out about the aerial sport that's rapidly gaining popularity—Flying Circus—and immediately joins the school's FC Club. She and her teammates sometimes clash, but they also support one another in the pursuit of their respective goals as they take on formidable rivals and look to triumph in the summer FC tournament.",
+			'base':''
+		},
+		'links':[
+			{
+				'type':'text/html',
+				'href':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22647',
+				'rel':'alternate'
+			}
+		],
+		'subtitle':"The invention of Grav-Shoes, footwear that function as antigravity devices, drastically changes the world, as they give people the ability to freely soar the skies. Asuka Kurashina transfers into Kunahama High school, where she meets Masaya Hinata and Misaki Tobisawa, finds out about the aerial sport that's rapidly gaining popularity—Flying Circus—and immediately joins the school's FC Club. She and her teammates sometimes clash, but they also support one another in the pursuit of their respective goals as they take on formidable rivals and look to triumph in the summer FC tournament.",
+		'ttl':'60',
+		'rights':'Copyright © 2016 Crunchyroll Inc. All rights reserved.',
+		'image':{
+			'links':[
+				{
+					'type':'text/html',
+					'href':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22647',
+					'rel':'alternate'
+				}
+			],
+			'title_detail':{
+				'language':None,
+				'type':'text/plain',
+				'value':'AOKANA: Four Rhythm Across the Blue',
+				'base':''
+			},
+			'href':'http://img1.ak.crunchyroll.com/i/spire4/8fe19b785880bf2d92ad036316d98f621451956957_full.jpg',
+			'link':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22647',
+			'title':'AOKANA: Four Rhythm Across the Blue'
+		},
+		'link':'http://www.crunchyroll.com/syndication/feed?type=episodes&id=22647',
+		'language':'en-us',
+		'title_detail':{
+			'language':None,
+			'type':'text/plain',
+			'value':'AOKANA: Four Rhythm Across the Blue Episodes',
+			'base':''
+		},
+		'title':'AOKANA: Four Rhythm Across the Blue Episodes',
+		'rights_detail':{
+			'language':None,
+			'type':'text/plain',
+			'value':'Copyright © 2016 Crunchyroll Inc. All rights reserved.',
+			'base':''
+		},
+		'crunchyroll_simulcast':'1'
+	},
+	'bozo':0,
+	'namespaces':{
+		'crunchyroll':'http://www.crunchyroll.com/rss',
+		'media':'http://search.yahoo.com/mrss/'
+	},
+	'version':'rss20'
+}

@@ -4,6 +4,7 @@
 New episode discussion bot for /r/anime.
 
 ## Requirements
-* Python 3+ (targeting 3.5)
+* Python 3.2+ (targeting 3.5)
 * requests
+* feedparser
 * PRAW
