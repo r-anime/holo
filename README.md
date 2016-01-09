@@ -17,7 +17,7 @@ New episode discussion bot for /r/anime.
 ### Modules
 
 Name|Run freq|Command
--|-|-
+:--|:-:|:--
 Find new episodes|high|python holo.py
 Update shows|med|python holo.py -m showupdate
 Find new show|low (or manual)|python holo.py -m showfind
