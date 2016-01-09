@@ -9,15 +9,24 @@ version = "0.1"
 import os, sys
 from pathlib import Path
 import logging
-from logging import info, warning, error
-import database
+from logging import info, warning, error, exception
+
+from data import database
+import services
 
 # Ensure proper files can be access if running with cron
 os.chdir(str(Path(__file__).parent.parent))
 
+# Utilities
+
+def get_database(the_database):
+	db = database.living_in(the_database)
+	db.register_services(services.get_services())
+	return db
+
 # Do the things
 def main(module, db_name):
-	db = database.living_in(db_name)
+	db = get_database(db_name)
 	
 	try:
 		if module == "episodefind":
@@ -35,8 +44,7 @@ def main(module, db_name):
 		else:
 			warning("This should never happen or you broke it!")
 	except:
-		e = sys.exc_info()[0]
-		error("Unknown exception or error", e)
+		exception("Unknown exception or error")
 		db.rollback()
 	
 	db.close()

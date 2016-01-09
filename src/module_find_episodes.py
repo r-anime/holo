@@ -1,10 +1,14 @@
+from logging import debug, info
+
 from services import crunchyroll
 
 def main(db):
-	#cr = crunchyroll.Service()
-	#episode = cr.get_latest_episode("active-raid")
-	#episode = cr.get_latest_episode("kiznaiver")
-	#episode = cr.get_latest_episode("aokana-four-rhythm-across-the-blue")
-	#episode = cr.get_latest_episode("tabi-machi-late-show")
-	#print(episode)
-	pass
+	cr = crunchyroll.Service()
+	streams = db.get_service_streams(service=cr)
+	debug("{} streams found".format(len(streams)))
+	for stream in streams:
+		info("Checking stream \"{}\"".format(stream.show_key))
+		debug(stream)
+		episode = cr.get_latest_episode(stream.show_key)
+		debug(episode)
+		info("  Is live: {}".format(episode.is_live))

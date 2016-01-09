@@ -3,7 +3,7 @@ from logging import debug, warning, error
 # Request helpers
 
 from functools import wraps, lru_cache
-from time import perf_counter, sleep, strftime
+from time import perf_counter, sleep
 
 def rate_limit(wait_length):
 	last_time = 0
@@ -21,18 +21,6 @@ def rate_limit(wait_length):
 			return r
 		return rate_limited
 	return decorate
-
-# Structures
-
-class Episode:
-	def __init__(self, number, name, link, date):
-		self.number = number
-		self.name = name
-		self.link = link
-		self.date = date
-	
-	def __str__(self):
-		return "{} | Episode {}, {} ({})".format(strftime("%a %Y-%m-%d %H:%M:%S", self.date), self.number, self.name, self.link)
 
 # Service definition
 
@@ -89,3 +77,15 @@ class AbstractService:
 			return response.json()
 		debug("Response returning as text")
 		return response.text
+
+# Services
+
+def get_services():
+	return {"crunchyroll"}
+
+@lru_cache(maxsize=3)
+def get_service(key):
+	#TODO: make dynamic
+	if key == "crunchyroll":
+		from . import crunchyroll
+		return crunchyroll.Service()

@@ -1,6 +1,8 @@
 from logging import debug, info, warning, error
 import feedparser, re
-from . import AbstractService, Episode
+
+from . import AbstractService
+from data.models import Episode
 
 class Service(AbstractService):
 	_episode_rss = "http://crunchyroll.com/{id}.rss"
@@ -9,8 +11,8 @@ class Service(AbstractService):
 	def __init__(self):
 		super().__init__("crunchyroll")
 	
-	def get_latest_episode(self, show_id, **kwargs):
-		episodes = self._get_feed_episodes(show_id, **kwargs)
+	def get_latest_episode(self, show_key, **kwargs):
+		episodes = self._get_feed_episodes(show_key, **kwargs)
 		if not episodes or len(episodes) == 0:
 			debug("No episodes found")
 			return None
@@ -18,22 +20,22 @@ class Service(AbstractService):
 		# Hope the episodes were parsed in order and iterate down looking for the latest episode
 		# The show-specific feed was likely used, but not guaranteed
 		for episode in episodes:
-			if _is_valid_episode(episode, show_id):
+			if _is_valid_episode(episode, show_key):
 				return _digest_episode(episode)
 		
 		debug("Episode not found")
 		return None
 	
-	def _get_feed_episodes(self, show_id, **kwargs):
+	def _get_feed_episodes(self, show_key, **kwargs):
 		"""
 		Always returns a list.
 		"""
-		info("Getting episodes for Crunchyroll/{}".format(show_id))
+		info("Getting episodes for Crunchyroll/{}".format(show_key))
 		
 		# Sometimes shows don't have an RSS feed
 		# Use the backup global feed when it doesn't
-		if show_id is not None:
-			url = self._episode_rss.format(id=show_id)
+		if show_key is not None:
+			url = self._episode_rss.format(id=show_key)
 		else:
 			debug("  Using backup feed")
 			url = self._backup_rss
@@ -41,7 +43,7 @@ class Service(AbstractService):
 		# Send request
 		response = self.request(url, **kwargs)
 		if response is None:
-			error("Cannot get latest show for Crunchyroll/{}".format(show_id))
+			error("Cannot get latest show for Crunchyroll/{}".format(show_key))
 			return list()
 		
 		# Parse RSS feed
