@@ -2,7 +2,7 @@ from logging import debug, warning, error
 
 # Request helpers
 
-from functools import wraps
+from functools import wraps, lru_cache
 from time import perf_counter, sleep, strftime
 
 def rate_limit(wait_length):
@@ -56,6 +56,7 @@ class AbstractService:
 		"""
 		return None
 	
+	@lru_cache(maxsize=20)
 	@rate_limit(_ratelimit)
 	def request(self, url, json=False, proxy=None):
 		"""
