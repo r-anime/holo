@@ -19,15 +19,22 @@ os.chdir(str(Path(__file__).parent.parent))
 
 def get_database(the_database):
 	db = database.living_in(the_database)
-	db.register_services(services.get_services())
-	db.setup_test_data()
+	if db:
+		db.register_services(services.get_services())
+		db.setup_test_data()
 	return db
 
 # Do the things
 def main(config):
-	from logging import info, warning, exception
-	db = get_database(config.database)
+	from logging import info, warning, error, exception
 	
+	# Set things up
+	db = get_database(config.database)
+	if not db:
+		error("Cannot continue running without a database")
+		return
+	
+	# Run the requested module
 	try:
 		if config.module == "episodefind":
 			info("Finding new episodes")

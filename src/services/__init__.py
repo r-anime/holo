@@ -13,7 +13,7 @@ def rate_limit(wait_length):
 		def rate_limited(*args, **kwargs):
 			nonlocal last_time
 			diff = perf_counter() - last_time
-			if perf_counter() - last_time > wait_length:
+			if diff < wait_length:
 				sleep(wait_length - diff)
 			
 			r = f(*args, **kwargs)
@@ -78,12 +78,19 @@ class AbstractService:
 
 # Services
 
-def get_services():
-	return {"crunchyroll"}
+_services = None
 
-@lru_cache(maxsize=3)
-def get_service(key):
-	#TODO: make dynamic
-	if key == "crunchyroll":
+def get_services():
+	global _services
+	if _services is None:
+		_services = dict()
+		#TODO: find services in module (every file not __init__)
 		from . import crunchyroll
-		return crunchyroll.Service()
+		_services["crunchyroll"] = crunchyroll.Service()
+	
+	return _services
+
+def get_service(key):
+	if key in _services:
+		return _services[key]
+	return None

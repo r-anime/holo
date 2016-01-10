@@ -1,7 +1,23 @@
-from logging import debug, error
+from logging import debug, error, exception
 import sqlite3
+from functools import wraps
 
-from .models import Stream
+from .models import Show, Stream
+
+def db_error_default(default_value):
+	value = default_value
+	
+	def decorate(f):
+		@wraps(f)
+		def protected(*args, **kwargs):
+			nonlocal value
+			try:
+				return f(*args, **kwargs)
+			except:
+				exception("Database exception thrown")
+				return value
+		return protected
+	return decorate
 
 class DatabaseDatabase:
 	def __init__(self, db):
@@ -68,12 +84,26 @@ class DatabaseDatabase:
 		self.q.execute("""INSERT OR IGNORE INTO Streams (id, service, show, show_key, name)
 			VALUES (2, 1, ?, 'myriad-colors-phantom-world', 'Myriad Colors Phantom World')""", (self.q.lastrowid,))
 	
+	# Services
+	
 	def register_services(self, services):
 		self.q.execute("UPDATE Services SET enabled = 0")
 		for service in services:
 			self.q.execute("INSERT OR IGNORE INTO Services (key) VALUES (?)", (service,))
 			self.q.execute("UPDATE Services SET enabled = 1 WHERE key = ?", (service,))
 		self.commit()
+	
+	def get_services(self, enabled=True, disabled=False):
+		services = list()
+		if enabled:
+			self.q.execute("SELECT key FROM Services WHERE enabled = 1")
+			for service in self.q.fetchall():
+				services.append(service[0])
+		if disabled:
+			self.q.execute("SELECT key FROM Services WHERE enabled = 0")
+			for service in self.q.fetchall():
+				services.append(service[0])
+		return services
 	
 	def get_service_streams(self, service=None, service_key=None, active=True):
 		if service:
@@ -96,6 +126,28 @@ class DatabaseDatabase:
 		streams = [Stream(stream[0], stream[1], stream[2], stream[3], stream[4]) for stream in streams]
 		return streams
 	
+	# Shows
+	
+	@db_error_default(None)
+	def get_show(self, stream=None):
+		debug("Getting show from database")
+		
+		# Get show ID
+		show_id = None
+		if stream:
+			show_id = stream.show
+		
+		# Get show
+		if show_id is None:
+			error("Show ID not provided to get_show")
+			return None
+		self.q.execute("SELECT id, name, length, type FROM Shows WHERE id = ?", (show_id,))
+		show = self.q.fetchone()
+		show = Show(*show)
+		return show
+	
+	# Episodes
+	
 	def stream_has_episode(self, stream, episode_num):
 		self.q.execute("SELECT count(*) FROM Episodes WHERE show = ? AND episode = ?", (stream.show, episode_num))
 		num_found = self.q.fetchone()[0]
@@ -114,4 +166,5 @@ def living_in(the_database):
 		db.execute("PRAGMA foreign_keys=ON")
 	except sqlite3.OperationalError:
 		error("Failed to open database, {}".format(the_database))
+		return None
 	return DatabaseDatabase(db)
