@@ -50,7 +50,7 @@ class Service(AbstractService):
 		rss = feedparser.parse(response)
 		if not _verify_feed(rss):
 			warning("Parsed feed could not be verified, may have unexpected results")
-		print(rss)
+		#print(rss)
 		
 		return rss.get("entries", list())
 
@@ -84,7 +84,7 @@ def _digest_episode(feed_episode):
 	debug("Digesting episode")
 	
 	# Get data
-	num = feed_episode.crunchyroll_episodenumber
+	num = int(feed_episode.crunchyroll_episodenumber)
 	debug("  num={}".format(num))
 	name = feed_episode.title
 	debug("  name={}".format(name))

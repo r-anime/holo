@@ -28,9 +28,6 @@ from abc import abstractmethod
 import requests
 
 class AbstractService:
-	_useragent = "bot:Holo, /r/anime episode discussion wolf:v0.1 (by TheEnigmaBlade)"
-	_ratelimit = 1
-	
 	def __init__(self, key):
 		self.key = key
 	
@@ -45,13 +42,14 @@ class AbstractService:
 		return None
 	
 	@lru_cache(maxsize=20)
-	@rate_limit(_ratelimit)
-	def request(self, url, json=False, proxy=None):
+	@rate_limit(1)
+	def request(self, url, json=False, proxy=None, useragent=None):
 		"""
 		Sends a request to the service.
 		:param url: The request URL
 		:param json: If True, return the response as JSON
 		:param proxy: Optional proxy, a tuple of address and port
+		:param useragent: Ideally should always be set
 		:return: The response if successful, otherwise None
 		"""
 		if proxy is not None:
@@ -62,7 +60,7 @@ class AbstractService:
 				proxy = {"http": "http://{}:{}".format(*proxy)}
 				debug("Using proxy: {}", proxy)
 		
-		headers = {"User-Agent": self._useragent}
+		headers = {"User-Agent": useragent}
 		debug("Sending request")
 		debug("  URL={}".format(url))
 		debug("  Headers={}".format(headers))
