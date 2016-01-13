@@ -21,7 +21,7 @@ def get_database(the_database):
 	db = database.living_in(the_database)
 	if db:
 		db.register_services(services.get_service_handlers())
-		db.setup_test_data()
+		#db.setup_test_data()
 	return db
 
 # Do the things
@@ -87,7 +87,7 @@ if __name__ == "__main__":
 		logging.basicConfig(
 			format="%(asctime)s | %(levelname)s | %(message)s",
 			datefmt="%Y-%m-%d %H:%M:%S",
-			level=logging.WARNING, filename=log_file)
+			level=logging.INFO, filename=log_file)
 	else:
 		logging.basicConfig(format="%(levelname)s | %(message)s", level=logging.DEBUG)
 	logging.getLogger("requests").setLevel(logging.WARNING)

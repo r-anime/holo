@@ -52,4 +52,3 @@ class Stream:
 	
 	def __str__(self):
 		return "Stream: {} ({}@{}), {} {}".format(self.show, self.site_key, self.service, self.remote_offset, self.display_offset)
-	

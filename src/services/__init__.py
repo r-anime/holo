@@ -91,6 +91,10 @@ class AbstractService:
 _services = None
 
 def get_service_handlers():
+	"""
+	Creates an instance of every service in the services module and returns a mapping to their keys.
+	:return: A dict of service keys to an instance of the service
+	"""
 	global _services
 	if _services is None:
 		_services = dict()
@@ -101,6 +105,11 @@ def get_service_handlers():
 	return _services
 
 def get_service_handler(service):
+	"""
+	Returns an instance of a service handler representing the given service.
+	:param service: A service
+	:return: A service handler instance
+	"""
 	if service is not None and service.key in _services:
 		return _services[service.key]
 	return None
