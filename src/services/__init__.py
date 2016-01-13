@@ -1,6 +1,8 @@
 from logging import debug, warning, error
 
-# Request helpers
+##############
+# Requesting #
+##############
 
 from functools import wraps, lru_cache
 from time import perf_counter, sleep
@@ -22,35 +24,7 @@ def rate_limit(wait_length):
 		return rate_limited
 	return decorate
 
-# Service definition
-
-from abc import abstractmethod
-import requests
-
-class AbstractService:
-	def __init__(self, key, name):
-		self.key = key
-		self.name = name
-	
-	@abstractmethod
-	def get_latest_episode(self, show_id, **kwargs):
-		"""
-		Gets information on the latest episode for this service.
-		:param show_id: The ID of the show being checked
-		:param kwargs: Arguments passed to the request, such as proxy and authentication
-		:return: The latest episode
-		"""
-		return None
-	
-	@abstractmethod
-	def get_stream_link(self, stream):
-		"""
-		Creates a URL to a show's main stream page hosted by this service.
-		:param stream: The show's stream
-		:return: A URL to the stream's page
-		"""
-		return None
-	
+class Requestable:
 	@lru_cache(maxsize=20)
 	@rate_limit(1)
 	def request(self, url, json=False, proxy=None, useragent=None):
@@ -86,22 +60,55 @@ class AbstractService:
 		debug("Response returning as text")
 		return response.text
 
+###################
+# Service handler #
+###################
+
+from abc import abstractmethod, ABC
+import requests
+
+class AbstractServiceHandler(ABC, Requestable):
+	def __init__(self, key, name):
+		self.key = key
+		self.name = name
+	
+	@abstractmethod
+	def get_latest_episode(self, show_id, **kwargs):
+		"""
+		Gets information on the latest episode for this service.
+		:param show_id: The ID of the show being checked
+		:param kwargs: Arguments passed to the request, such as proxy and authentication
+		:return: The latest episode
+		"""
+		return None
+	
+	@abstractmethod
+	def get_stream_link(self, stream):
+		"""
+		Creates a URL to a show's main stream page hosted by this service.
+		:param stream: The show's stream
+		:return: A URL to the stream's page
+		"""
+		return None
+
 # Services
 
 _services = None
+
+def _ensure_service_handlers():
+	global _services
+	if _services is None:
+		_services = dict()
+		#TODO: find services in module (every file not __init__)
+		from . import crunchyroll
+		_services["crunchyroll"] = crunchyroll.ServiceHandler()
 
 def get_service_handlers():
 	"""
 	Creates an instance of every service in the services module and returns a mapping to their keys.
 	:return: A dict of service keys to an instance of the service
 	"""
-	global _services
-	if _services is None:
-		_services = dict()
-		#TODO: find services in module (every file not __init__)
-		from . import crunchyroll
-		_services["crunchyroll"] = crunchyroll.Service()
-	
+	_ensure_service_handlers()
 	return _services
 
 def get_service_handler(service):
@@ -110,6 +117,56 @@ def get_service_handler(service):
 	:param service: A service
 	:return: A service handler instance
 	"""
+	_ensure_service_handlers()
 	if service is not None and service.key in _services:
 		return _services[service.key]
+	return None
+
+################
+# Link handler #
+################
+
+class AbstractLinkHandler(ABC, Requestable):
+	def __init__(self, key, name):
+		self.key = key
+		self.name = name
+	
+	@abstractmethod
+	def get_link(self, link):
+		"""
+		Creates a URL using the information provided by a link object.
+		:param link: The link object
+		:return: A URL
+		"""
+		return None
+
+# Link sites
+
+_link_sites = None
+
+def _ensure_link_handlers():
+	global _link_sites
+	if _link_sites is None:
+		_link_sites = dict()
+		#TODO: find services in module (every file not __init__)
+		from . import links
+		_link_sites["mal"] = links.MyAnimeList()
+
+def get_link_handlers():
+	"""
+	Creates an instance of every link handler in the links module and returns a mapping to their keys.
+	:return: A dict of link handler keys to an instance of the link handler
+	"""
+	_ensure_link_handlers()
+	return _link_sites
+
+def get_link_handler(link_site):
+	"""
+	Returns an instance of a link handler representing the given link site.
+	:param link_site: A link site
+	:return: A link handler instance
+	"""
+	_ensure_link_handlers()
+	if link_site is not None and link_site.key in _link_sites:
+		return _link_sites[link_site.key]
 	return None

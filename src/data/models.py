@@ -52,3 +52,24 @@ class Stream:
 	
 	def __str__(self):
 		return "Stream: {} ({}@{}), {} {}".format(self.show, self.site_key, self.service, self.remote_offset, self.display_offset)
+
+class LinkSite:
+	def __init__(self, id, key, name, enabled):
+		# Note: arguments are order-sensitive
+		self.id = id
+		self.key = key
+		self.name = name
+		self.enabled = enabled == 1
+	
+	def __str__(self):
+		return "Link site: {} ({})".format(self.key, self.id, self.enabled)
+	
+class Link:
+	def __init__(self, link_site, show, site_key):
+		# Note: arguments are order-sensitive
+		self.link_site = link_site
+		self.show = show
+		self.site_key = site_key
+	
+	def __str__(self):
+		return "Link: {}@{}, show={}".format(self.site_key, self.link_site, self.show)

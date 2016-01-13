@@ -1,10 +1,10 @@
 from logging import debug, info, warning, error
 import feedparser, re
 
-from . import AbstractService
+from . import AbstractServiceHandler
 from data.models import Episode
 
-class Service(AbstractService):
+class ServiceHandler(AbstractServiceHandler):
 	_show_url = "http://crunchyroll.com/{id}"
 	_episode_rss = "http://crunchyroll.com/{id}.rss"
 	_backup_rss = "http://crunchyroll.com/rss/anime"

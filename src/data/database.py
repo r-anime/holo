@@ -2,7 +2,7 @@ from logging import debug, error, exception
 import sqlite3
 from functools import wraps
 
-from .models import Show, Stream, Service
+from .models import Show, Stream, Service, LinkSite, Link
 
 def db_error_default(default_value):
 	value = default_value
@@ -23,14 +23,15 @@ class DatabaseDatabase:
 	def __init__(self, db):
 		self._db = db
 		self.q = db.cursor()
-		self._verify_tables()
 	
 	def __getattr__(self, attr):
 		if attr in self.__dict__:
 			return getattr(self, attr)
 		return getattr(self._db, attr)
 	
-	def _verify_tables(self):
+	# Setup
+	
+	def setup_tables(self):
 		self.q.execute("""CREATE TABLE IF NOT EXISTS ShowTypes (
 			id		INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 			key		TEXT NOT NULL
@@ -73,20 +74,22 @@ class DatabaseDatabase:
 			FOREIGN KEY(show) REFERENCES Shows(id)
 		)""")
 		
-		self.commit()
-	
-	def setup_test_data(self):
-		self.q.execute("""INSERT OR IGNORE INTO Shows (id, name, length, type)
-			VALUES (1, 'GATE', 12, 1)""")
-		self.q.execute("""INSERT OR IGNORE INTO Streams (id, service, show, site_key, name)
-			VALUES (1, 1, ?, 'gate', 'GATE')""", (self.q.lastrowid,))
+		self.q.execute("""CREATE TABLE IF NOT EXISTS LinkSites (
+			id			INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+			key			TEXT NOT NULL UNIQUE,
+			name		TEXT NOT NULL,
+			enabled		INTEGER NOT NULL DEFAULT 1
+		)""")
 		
-		self.q.execute("""INSERT OR IGNORE INTO Shows (id, name, length, type)
-			VALUES (2, 'Myriad Colors Phantom World', 12, 1)""")
-		self.q.execute("""INSERT OR IGNORE INTO Streams (id, service, show, site_key, name)
-			VALUES (2, 1, ?, 'myriad-colors-phantom-world', 'Myriad Colors Phantom World')""", (self.q.lastrowid,))
-	
-	# Services
+		self.q.execute("""CREATE TABLE IF NOT EXISTS Links (
+			link_site	INTEGER NOT NULL,
+			show		INTEGER NOT NULL,
+			site_key	TEXT NOT NULL,
+			FOREIGN KEY(link_site) REFERENCES LinkSites(id)
+			FOREIGN KEY(show) REFERENCES Shows(id)
+		)""")
+		
+		self.commit()
 	
 	def register_services(self, services):
 		self.q.execute("UPDATE Services SET enabled = 0")
@@ -95,6 +98,16 @@ class DatabaseDatabase:
 			self.q.execute("INSERT OR IGNORE INTO Services (key) VALUES (?)", (service.key,))
 			self.q.execute("UPDATE Services SET name = ?, enabled = 1 WHERE key = ?", (service.name, service.key))
 		self.commit()
+		
+	def register_link_sites(self, sites):
+		self.q.execute("UPDATE LinkSites SET enabled = 0")
+		for site_key in sites:
+			site = sites[site_key]
+			self.q.execute("INSERT OR IGNORE INTO LinkSites (key) VALUES (?)", (site.key,))
+			self.q.execute("UPDATE LinkSites SET name = ?, enabled = 1 WHERE key = ?", (site.name, site.key))
+		self.commit()
+	
+	# Services
 	
 	@db_error_default(None)
 	def get_service(self, id=None, key=None):
@@ -149,6 +162,47 @@ class DatabaseDatabase:
 			return streams
 		else:
 			error("A service or show must be provided to get streams")
+			return list()
+	
+	# Links
+	
+	@db_error_default(None)
+	def get_link_site(self, id=None, key=None):
+		if id is not None:
+			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE id = ?", (id,))
+		elif key is not None:
+			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE key = ?", (key,))
+		else:
+			error("ID or key required to get link site")
+			return None
+		site = self.q.fetchone()
+		return LinkSite(*site)
+	
+	@db_error_default(None)
+	def get_link_sites(self, enabled=True, disabled=False):
+		sites = list()
+		if enabled:
+			self.q.execute("SELECT id, key, name, enabled FROM LinkSites WHERE enabled = 1")
+			for link in self.q.fetchall():
+				sites.append(Link(*link))
+		if disabled:
+			self.q.execute("SELECT id, key, name, enabled FROM LinkSites WHERE enabled = 0")
+			for link in self.q.fetchall():
+				sites.append(LinkSite(*link))
+		return sites
+	
+	@db_error_default(None)
+	def get_links(self, show=None):
+		if show is not None:
+			debug("Getting all links for show {}".format(show.id))
+			
+			# Get all streams with show ID
+			self.q.execute("SELECT link_site, show, site_key FROM Links WHERE show = ?", (show.id,))
+			links = self.q.fetchall()
+			links = [Link(*link) for link in links]
+			return links
+		else:
+			error("A show must be provided to get links")
 			return list()
 	
 	# Shows
