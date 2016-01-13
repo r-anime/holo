@@ -11,8 +11,10 @@ class Config:
 		self.r_password = None
 		self.r_oauth_key = None
 		self.r_oauth_secret = None
+		
 		self.post_title = None
 		self.post_body = None
+		self.post_formats = dict()
 	
 def from_file(file_path):
 	print("Loading config file")
@@ -45,6 +47,9 @@ def from_file(file_path):
 		sec = parsed["post"]
 		config.post_title = sec.get("title", None)
 		config.post_body = sec.get("body", None)
+		for key in sec:
+			if key.startswith("format_") and len(key) > 7:
+				config.post_formats[key[7:]] = sec[key]
 	
 	return config
 

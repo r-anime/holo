@@ -5,11 +5,12 @@ from . import AbstractService
 from data.models import Episode
 
 class Service(AbstractService):
+	_show_url = "http://crunchyroll.com/{id}"
 	_episode_rss = "http://crunchyroll.com/{id}.rss"
 	_backup_rss = "http://crunchyroll.com/rss/anime"
 	
 	def __init__(self):
-		super().__init__("crunchyroll")
+		super().__init__("crunchyroll", "Crunchyroll")
 	
 	def get_latest_episode(self, show_key, **kwargs):
 		episodes = self._get_feed_episodes(show_key, **kwargs)
@@ -25,6 +26,10 @@ class Service(AbstractService):
 		
 		debug("Episode not found")
 		return None
+	
+	def get_stream_link(self, stream):
+		# Just going to assume it's the correct service
+		return self._show_url.format(id=stream.site_key)
 	
 	def _get_feed_episodes(self, show_key, **kwargs):
 		"""
@@ -80,6 +85,8 @@ def _is_valid_episode(feed_episode, show_id):
 		return False
 	return True
 
+_episode_name_correct = re.compile("Episode \d+ - (.*)")
+
 def _digest_episode(feed_episode):
 	debug("Digesting episode")
 	
@@ -87,6 +94,10 @@ def _digest_episode(feed_episode):
 	num = int(feed_episode.crunchyroll_episodenumber)
 	debug("  num={}".format(num))
 	name = feed_episode.title
+	match = _episode_name_correct.match(name)
+	if match:
+		info("  Corrected title from \"{}\"".format(name))
+		name = match.group(1)
 	debug("  name={}".format(name))
 	link = feed_episode.link
 	debug("  link={}".format(link))

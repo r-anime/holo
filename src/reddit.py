@@ -66,8 +66,6 @@ def submit_text_post(subreddit, title, body):
 	_ensure_connection()
 	try:
 		info("Submitting post to {}".format(subreddit))
-		info("  title = {}".format(title))
-		info("  body = {}".format(body))
 		new_post = _r.submit(subreddit, title, text=body, send_replies=False)
 		return new_post
 	except:

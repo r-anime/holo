@@ -2,7 +2,7 @@ from logging import debug, error, exception
 import sqlite3
 from functools import wraps
 
-from .models import Show, Stream
+from .models import Show, Stream, Service
 
 def db_error_default(default_value):
 	value = default_value
@@ -38,24 +38,26 @@ class DatabaseDatabase:
 		self.q.executemany("INSERT OR IGNORE INTO ShowTypes (id, key) VALUES (?, ?)", [(1, "tv",), (2, "movie",), (3, "ova",)])
 		
 		self.q.execute("""CREATE TABLE IF NOT EXISTS Shows (
-			id		INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
-			name	TEXT NOT NULL,
-			length	INTEGER,
-			type	INTEGER NOT NULL,
+			id			INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+			name		TEXT NOT NULL,
+			length		INTEGER,
+			type		INTEGER NOT NULL,
+			has_source	INTEGER NOT NULL DEFAULT 0,
 			FOREIGN KEY(type) REFERENCES ShowTypes(id)
 		)""")
 		
 		self.q.execute("""CREATE TABLE IF NOT EXISTS Services (
-			id		INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
-			key		TEXT NOT NULL UNIQUE,
-			enabled	INTEGER NOT NULL DEFAULT 0
+			id			INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+			key			TEXT NOT NULL UNIQUE,
+			name		TEXT NOT NULL,
+			enabled		INTEGER NOT NULL DEFAULT 0
 		)""")
 		
 		self.q.execute("""CREATE TABLE IF NOT EXISTS Streams (
 			id			INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 			service		TEXT NOT NULL,
 			show		INTEGER NOT NULL,
-			show_key	TEXT NOT NULL,
+			site_key	TEXT NOT NULL,
 			name		TEXT,
 			remote_offset	INTEGER NOT NULL DEFAULT 0,
 			display_offset	INTEGER NOT NULL DEFAULT 0,
@@ -76,55 +78,78 @@ class DatabaseDatabase:
 	def setup_test_data(self):
 		self.q.execute("""INSERT OR IGNORE INTO Shows (id, name, length, type)
 			VALUES (1, 'GATE', 12, 1)""")
-		self.q.execute("""INSERT OR IGNORE INTO Streams (id, service, show, show_key, name)
+		self.q.execute("""INSERT OR IGNORE INTO Streams (id, service, show, site_key, name)
 			VALUES (1, 1, ?, 'gate', 'GATE')""", (self.q.lastrowid,))
 		
 		self.q.execute("""INSERT OR IGNORE INTO Shows (id, name, length, type)
 			VALUES (2, 'Myriad Colors Phantom World', 12, 1)""")
-		self.q.execute("""INSERT OR IGNORE INTO Streams (id, service, show, show_key, name)
+		self.q.execute("""INSERT OR IGNORE INTO Streams (id, service, show, site_key, name)
 			VALUES (2, 1, ?, 'myriad-colors-phantom-world', 'Myriad Colors Phantom World')""", (self.q.lastrowid,))
 	
 	# Services
 	
 	def register_services(self, services):
 		self.q.execute("UPDATE Services SET enabled = 0")
-		for service in services:
-			self.q.execute("INSERT OR IGNORE INTO Services (key) VALUES (?)", (service,))
-			self.q.execute("UPDATE Services SET enabled = 1 WHERE key = ?", (service,))
+		for service_key in services:
+			service = services[service_key]
+			self.q.execute("INSERT OR IGNORE INTO Services (key) VALUES (?)", (service.key,))
+			self.q.execute("UPDATE Services SET name = ?, enabled = 1 WHERE key = ?", (service.name, service.key))
 		self.commit()
 	
+	@db_error_default(None)
+	def get_service(self, id=None, key=None):
+		if id is not None:
+			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE id = ?", (id,))
+		elif key is not None:
+			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE key = ?", (key,))
+		else:
+			error("ID or key required to get service")
+			return None
+		service = self.q.fetchone()
+		return Service(*service)
+	
+	@db_error_default(None)
 	def get_services(self, enabled=True, disabled=False):
 		services = list()
 		if enabled:
-			self.q.execute("SELECT key FROM Services WHERE enabled = 1")
+			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE enabled = 1")
 			for service in self.q.fetchall():
-				services.append(service[0])
+				services.append(Service(*service))
 		if disabled:
-			self.q.execute("SELECT key FROM Services WHERE enabled = 0")
+			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE enabled = 0")
 			for service in self.q.fetchall():
-				services.append(service[0])
+				services.append(Service(*service))
 		return services
 	
-	def get_service_streams(self, service=None, service_key=None, active=True):
-		if service:
-			service_key = service.key
-		debug("Getting all streams for service {}".format(service_key))
-		if service_key is None:
+	@db_error_default(None)
+	def get_streams(self, service=None, show=None, active=True):
+		if service is not None:
+			debug("Getting all streams for service {}".format(service.key))
+			
+			# Get service ID
+			self.q.execute("SELECT id FROM Services WHERE key = ?", (service.key,))
+			service_id = self.q.fetchone()
+			if service_id is None:
+				error("Service \"{}\" not found".format(service.key))
+				return list()
+			service_id = service_id[0]
+			
+			# Get all streams with service ID
+			self.q.execute("SELECT service, show, site_key, name, remote_offset, display_offset, active FROM Streams WHERE service = ? AND active = ?", (service_id, 1 if active else 0))
+			streams = self.q.fetchall()
+			streams = [Stream(*stream) for stream in streams]
+			return streams
+		elif show is not None:
+			debug("Getting all streams for show {}".format(show.id))
+			
+			# Get all streams with show ID
+			self.q.execute("SELECT service, show, site_key, name, remote_offset, display_offset, active FROM Streams WHERE show = ? AND active = ?", (show.id, 1 if active else 0))
+			streams = self.q.fetchall()
+			streams = [Stream(*stream) for stream in streams]
+			return streams
+		else:
+			error("A service or show must be provided to get streams")
 			return list()
-		
-		# Get service ID
-		self.q.execute("SELECT id FROM Services WHERE key = ?", (service_key,))
-		service_id = self.q.fetchone()
-		if service_id is None:
-			error("Service \"{}\" not found".format(service_key))
-			return list()
-		service_id = service_id[0]
-		
-		# Get all streams with service ID
-		self.q.execute("SELECT service, show, show_key, remote_offset, display_offset FROM Streams WHERE service = ? AND active = ?", (service_id, 1 if active else 0))
-		streams = self.q.fetchall()
-		streams = [Stream(stream[0], stream[1], stream[2], stream[3], stream[4]) for stream in streams]
-		return streams
 	
 	# Shows
 	
@@ -141,7 +166,7 @@ class DatabaseDatabase:
 		if show_id is None:
 			error("Show ID not provided to get_show")
 			return None
-		self.q.execute("SELECT id, name, length, type FROM Shows WHERE id = ?", (show_id,))
+		self.q.execute("SELECT id, name, length, type, has_source FROM Shows WHERE id = ?", (show_id,))
 		show = self.q.fetchone()
 		show = Show(*show)
 		return show

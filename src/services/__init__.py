@@ -28,8 +28,9 @@ from abc import abstractmethod
 import requests
 
 class AbstractService:
-	def __init__(self, key):
+	def __init__(self, key, name):
 		self.key = key
+		self.name = name
 	
 	@abstractmethod
 	def get_latest_episode(self, show_id, **kwargs):
@@ -38,6 +39,15 @@ class AbstractService:
 		:param show_id: The ID of the show being checked
 		:param kwargs: Arguments passed to the request, such as proxy and authentication
 		:return: The latest episode
+		"""
+		return None
+	
+	@abstractmethod
+	def get_stream_link(self, stream):
+		"""
+		Creates a URL to a show's main stream page hosted by this service.
+		:param stream: The show's stream
+		:return: A URL to the stream's page
 		"""
 		return None
 	
@@ -80,7 +90,7 @@ class AbstractService:
 
 _services = None
 
-def get_services():
+def get_service_handlers():
 	global _services
 	if _services is None:
 		_services = dict()
@@ -90,7 +100,7 @@ def get_services():
 	
 	return _services
 
-def get_service(key):
-	if key in _services:
-		return _services[key]
+def get_service_handler(service):
+	if service is not None and service.key in _services:
+		return _services[service.key]
 	return None

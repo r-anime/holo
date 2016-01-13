@@ -20,7 +20,7 @@ os.chdir(str(Path(__file__).parent.parent))
 def get_database(the_database):
 	db = database.living_in(the_database)
 	if db:
-		db.register_services(services.get_services())
+		db.register_services(services.get_service_handlers())
 		db.setup_test_data()
 	return db
 
