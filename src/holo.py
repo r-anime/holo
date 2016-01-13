@@ -83,11 +83,11 @@ if __name__ == "__main__":
 	import logging
 	if args.no_input:
 		from datetime import datetime
-		log_file = datetime.now().strftime("%Y-%m-%dT%H:%M:%S") + ".log"
+		log_file = "logs/"+datetime.now().strftime("%Y-%m-%dT%H:%M:%S") + ".log"
 		logging.basicConfig(
 			format="%(asctime)s | %(levelname)s | %(message)s",
 			datefmt="%Y-%m-%d %H:%M:%S",
-			level=logging.INFO, filename=log_file)
+			level=logging.WARNING, filename=log_file)
 	else:
 		logging.basicConfig(format="%(levelname)s | %(message)s", level=logging.DEBUG)
 	logging.getLogger("requests").setLevel(logging.WARNING)
