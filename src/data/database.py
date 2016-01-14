@@ -82,10 +82,10 @@ class DatabaseDatabase:
 		)""")
 		
 		self.q.execute("""CREATE TABLE IF NOT EXISTS Links (
-			link_site	INTEGER NOT NULL,
 			show		INTEGER NOT NULL,
+			site		INTEGER NOT NULL,
 			site_key	TEXT NOT NULL,
-			FOREIGN KEY(link_site) REFERENCES LinkSites(id)
+			FOREIGN KEY(site) REFERENCES LinkSites(id)
 			FOREIGN KEY(show) REFERENCES Shows(id)
 		)""")
 		
@@ -95,7 +95,7 @@ class DatabaseDatabase:
 		self.q.execute("UPDATE Services SET enabled = 0")
 		for service_key in services:
 			service = services[service_key]
-			self.q.execute("INSERT OR IGNORE INTO Services (key) VALUES (?)", (service.key,))
+			self.q.execute("INSERT OR IGNORE INTO Services (key, name) VALUES (?, '')", (service.key,))
 			self.q.execute("UPDATE Services SET name = ?, enabled = 1 WHERE key = ?", (service.name, service.key))
 		self.commit()
 		
@@ -103,7 +103,7 @@ class DatabaseDatabase:
 		self.q.execute("UPDATE LinkSites SET enabled = 0")
 		for site_key in sites:
 			site = sites[site_key]
-			self.q.execute("INSERT OR IGNORE INTO LinkSites (key) VALUES (?)", (site.key,))
+			self.q.execute("INSERT OR IGNORE INTO LinkSites (key, name) VALUES (?, '')", (site.key,))
 			self.q.execute("UPDATE LinkSites SET name = ?, enabled = 1 WHERE key = ?", (site.name, site.key))
 		self.commit()
 	
@@ -169,9 +169,9 @@ class DatabaseDatabase:
 	@db_error_default(None)
 	def get_link_site(self, id=None, key=None):
 		if id is not None:
-			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE id = ?", (id,))
+			self.q.execute("SELECT id, key, name, enabled FROM LinkSites WHERE id = ?", (id,))
 		elif key is not None:
-			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE key = ?", (key,))
+			self.q.execute("SELECT id, key, name, enabled FROM LinkSites WHERE key = ?", (key,))
 		else:
 			error("ID or key required to get link site")
 			return None
@@ -197,7 +197,7 @@ class DatabaseDatabase:
 			debug("Getting all links for show {}".format(show.id))
 			
 			# Get all streams with show ID
-			self.q.execute("SELECT link_site, show, site_key FROM Links WHERE show = ?", (show.id,))
+			self.q.execute("SELECT site, show, site_key FROM Links WHERE show = ?", (show.id,))
 			links = self.q.fetchall()
 			links = [Link(*link) for link in links]
 			return links

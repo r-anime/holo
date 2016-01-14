@@ -37,7 +37,7 @@ def main(config):
 		elif config.module == "episodefind":
 			info("Finding new episodes")
 			import module_find_episodes as m
-			m.main(config, db)
+			m.main(config, db, debug=config.debug)
 		elif config.module == "showfind":
 			info("Finding new shows")
 			import module_find_shows as m
@@ -64,6 +64,7 @@ if __name__ == "__main__":
 	parser.add_argument("-d", "--database", dest="db_name", nargs=1, default=None, help="use or create the specified database location")
 	parser.add_argument("-s", "--subreddit", dest="subreddit", nargs=1, default=None, help="set the subreddit on which to make posts")
 	parser.add_argument("-v", "--version", action="version", version="{} v{}, {}".format(name, version, description))
+	parser.add_argument("--debug", action="store_true")
 	args = parser.parse_args()
 	
 	# Load config file
@@ -71,6 +72,7 @@ if __name__ == "__main__":
 	c = config_loader.from_file(args.config_file)
 	
 	# Override config with args
+	c.debug = args.debug
 	c.module = args.module[0]
 	if args.db_name is not None:
 		c.database = args.db_name
@@ -85,7 +87,7 @@ if __name__ == "__main__":
 		logging.basicConfig(
 			format="%(asctime)s | %(levelname)s | %(message)s",
 			datefmt="%Y-%m-%d %H:%M:%S",
-			level=logging.INFO, filename=log_file)
+			level=logging.DEBUG if c.debug else logging.INFO, filename=log_file)
 	else:
 		logging.basicConfig(format="%(levelname)s | %(message)s", level=logging.DEBUG)
 	logging.getLogger("requests").setLevel(logging.WARNING)

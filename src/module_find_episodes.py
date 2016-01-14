@@ -3,9 +3,8 @@ from logging import debug, info, error
 import services
 import reddit
 
-debug_no_submit = False
-
 def main(config, db, **kwargs):
+	debug_on = "debug" in kwargs and kwargs["debug"]
 	reddit.init_reddit(config)
 	
 	# Check services for new episodes
@@ -31,7 +30,7 @@ def main(config, db, **kwargs):
 				
 				# New episode!
 				if not already_seen:
-					post_url = _create_reddit_post(config, db, stream, episode, submit=not debug_no_submit)
+					post_url = _create_reddit_post(config, db, stream, episode, submit=not debug_on)
 					info("  Post URL: {}".format(post_url))
 					if post_url is not None:
 						db.store_episode(stream.show, episode_num, post_url)
@@ -67,6 +66,8 @@ def _format_post_text(db, text, formats, show, episode, stream):
 		text = safe_format(text, spoiler=_gen_text_spoiler(formats, show))
 	if "{streams}" in text:
 		text = safe_format(text, streams=_gen_text_streams(db, formats, show))
+	if "{links}" in text:
+		text = safe_format(text, links=_gen_text_links(db, formats, show))
 	text = safe_format(text, show_name=show.name, episode=episode_num, episode_name=episode.name)
 	return text.strip()
 
@@ -78,6 +79,7 @@ def _gen_text_spoiler(formats, show):
 	return ""
 
 def _gen_text_streams(db, formats, show):
+	debug("Generating stream text for show {}".format(show))
 	streams = db.get_streams(show=show)
 	stream_texts = list()
 	for stream in streams:
@@ -85,12 +87,23 @@ def _gen_text_streams(db, formats, show):
 			service = db.get_service(id=stream.service)
 			if service.enabled:
 				service_handler = services.get_service_handler(service)
-				
-				text = formats["stream"]
-				text = safe_format(text, service_name=service.name, stream_link=service_handler.get_stream_link(stream))
+				text = safe_format(formats["stream"], service_name=service.name, stream_link=service_handler.get_stream_link(stream))
 				stream_texts.append(text)
 	
 	return "\n".join(stream_texts)
+
+def _gen_text_links(db, formats, show):
+	debug("Generating stream text for show {}".format(show))
+	links = db.get_links(show=show)
+	link_texts = list()
+	for link in links:
+		site = db.get_link_site(id=link.site)
+		if site.enabled:
+			link_handler = services.get_link_handler(site)
+			text = safe_format(formats["link"], site_name=site.name, link=link_handler.get_link(link))
+			link_texts.append(text)
+			
+	return "\n".join(link_texts)
 
 # Helpers
 
@@ -99,4 +112,11 @@ class _SafeDict(dict):
 		return "{"+key+"}"
 
 def safe_format(s, **kwargs):
+	"""
+	A safer version of the default str.format(...) function.
+	Ignores unused keyword arguments and unused '{...}' placeholders instead of throwing a KeyError.
+	:param s: The string being formatted
+	:param kwargs: The format replacements
+	:return: A formatted string
+	"""
 	return s.format_map(_SafeDict(**kwargs))

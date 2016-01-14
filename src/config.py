@@ -2,6 +2,7 @@ import configparser
 
 class Config:
 	def __init__(self):
+		self.debug = False
 		self.module = None
 		self.database = None
 		self.useragent = None

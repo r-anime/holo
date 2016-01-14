@@ -65,11 +65,11 @@ class LinkSite:
 		return "Link site: {} ({})".format(self.key, self.id, self.enabled)
 	
 class Link:
-	def __init__(self, link_site, show, site_key):
+	def __init__(self, site, show, site_key):
 		# Note: arguments are order-sensitive
-		self.link_site = link_site
+		self.site = site
 		self.show = show
 		self.site_key = site_key
 	
 	def __str__(self):
-		return "Link: {}@{}, show={}".format(self.site_key, self.link_site, self.show)
+		return "Link: {}@{}, show={}".format(self.site_key, self.site, self.show)
