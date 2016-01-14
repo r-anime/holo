@@ -12,8 +12,8 @@ class ServiceHandler(AbstractServiceHandler):
 	def __init__(self):
 		super().__init__("crunchyroll", "Crunchyroll")
 	
-	def get_latest_episode(self, show_key, **kwargs):
-		episodes = self._get_feed_episodes(show_key, **kwargs)
+	def get_latest_episode(self, stream, **kwargs):
+		episodes = self._get_feed_episodes(stream.show_key, **kwargs)
 		if not episodes or len(episodes) == 0:
 			debug("No episodes found")
 			return None
@@ -21,7 +21,7 @@ class ServiceHandler(AbstractServiceHandler):
 		# Hope the episodes were parsed in order and iterate down looking for the latest episode
 		# The show-specific feed was likely used, but not guaranteed
 		for episode in episodes:
-			if _is_valid_episode(episode, show_key):
+			if _is_valid_episode(episode, stream.show_key):
 				return _digest_episode(episode)
 		
 		debug("Episode not found")
@@ -29,7 +29,7 @@ class ServiceHandler(AbstractServiceHandler):
 	
 	def get_stream_link(self, stream):
 		# Just going to assume it's the correct service
-		return self._show_url.format(id=stream.site_key)
+		return self._show_url.format(id=stream.show_key)
 	
 	def _get_feed_episodes(self, show_key, **kwargs):
 		"""
@@ -80,6 +80,7 @@ def _is_valid_episode(feed_episode, show_id):
 	if feed_episode.get("crunchyroll_isclip", False):
 		debug("Is PV, ignoring")
 		return False
+	# Sanity check
 	if _get_slug(feed_episode.link) != show_id:
 		debug("Wrong ID")
 		return False

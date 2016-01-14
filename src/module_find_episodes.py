@@ -13,11 +13,11 @@ def main(config, db, **kwargs):
 		service_handler = services.get_service_handler(service)
 		debug("{} streams found".format(len(streams)))
 		for stream in streams:
-			info("Checking stream \"{}\"".format(stream.site_key))
+			info("Checking stream \"{}\"".format(stream.show_key))
 			debug(stream)
 			
 			# Check latest episode
-			episode = service_handler.get_latest_episode(stream.site_key, useragent=config.useragent)
+			episode = service_handler.get_latest_episode(stream, useragent=config.useragent)
 			debug(episode)
 			info("  Is live: {}".format(episode.is_live))
 			

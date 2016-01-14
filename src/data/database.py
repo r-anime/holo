@@ -58,7 +58,8 @@ class DatabaseDatabase:
 			id			INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 			service		TEXT NOT NULL,
 			show		INTEGER NOT NULL,
-			site_key	TEXT NOT NULL,
+			show_id		TEXT,
+			show_key	TEXT NOT NULL,
 			name		TEXT,
 			remote_offset	INTEGER NOT NULL DEFAULT 0,
 			display_offset	INTEGER NOT NULL DEFAULT 0,
@@ -148,7 +149,7 @@ class DatabaseDatabase:
 			service_id = service_id[0]
 			
 			# Get all streams with service ID
-			self.q.execute("SELECT service, show, site_key, name, remote_offset, display_offset, active FROM Streams WHERE service = ? AND active = ?", (service_id, 1 if active else 0))
+			self.q.execute("SELECT service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE service = ? AND active = ?", (service_id, 1 if active else 0))
 			streams = self.q.fetchall()
 			streams = [Stream(*stream) for stream in streams]
 			return streams
@@ -156,7 +157,7 @@ class DatabaseDatabase:
 			debug("Getting all streams for show {}".format(show.id))
 			
 			# Get all streams with show ID
-			self.q.execute("SELECT service, show, site_key, name, remote_offset, display_offset, active FROM Streams WHERE show = ? AND active = ?", (show.id, 1 if active else 0))
+			self.q.execute("SELECT service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE show = ? AND active = ?", (show.id, 1 if active else 0))
 			streams = self.q.fetchall()
 			streams = [Stream(*stream) for stream in streams]
 			return streams

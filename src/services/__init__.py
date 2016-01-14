@@ -6,6 +6,8 @@ from logging import debug, warning, error
 
 from functools import wraps, lru_cache
 from time import perf_counter, sleep
+import requests
+from json import JSONDecodeError
 
 def rate_limit(wait_length):
 	last_time = 0
@@ -56,7 +58,11 @@ class Requestable:
 		
 		if json:
 			debug("Response returning as JSON")
-			return response.json()
+			try:
+				return response.json()
+			except JSONDecodeError as e:
+				error("Response is not JSON", exc_info=e)
+				return None
 		debug("Response returning as text")
 		return response.text
 
@@ -65,7 +71,6 @@ class Requestable:
 ###################
 
 from abc import abstractmethod, ABC
-import requests
 
 class AbstractServiceHandler(ABC, Requestable):
 	def __init__(self, key, name):
@@ -102,6 +107,8 @@ def _ensure_service_handlers():
 		#TODO: find services in module (every file not __init__)
 		from . import crunchyroll
 		_services["crunchyroll"] = crunchyroll.ServiceHandler()
+		from . import funimation
+		_services["funimation"] = funimation.ServiceHandler()
 
 def get_service_handlers():
 	"""
@@ -149,8 +156,8 @@ def _ensure_link_handlers():
 	if _link_sites is None:
 		_link_sites = dict()
 		#TODO: find services in module (every file not __init__)
-		from . import links
-		_link_sites["mal"] = links.MyAnimeList()
+		from .info import myanimelist
+		_link_sites["mal"] = myanimelist.LinkHandler()
 
 def get_link_handlers():
 	"""

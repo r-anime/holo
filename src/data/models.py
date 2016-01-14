@@ -18,7 +18,10 @@ class Episode:
 		self.number = number
 		self.name = name		# Not stored in database
 		self.link = link
-		self.date = datetime(*date[:6])
+		if isinstance(date, datetime):
+			self.date = date
+		else:
+			self.date = datetime(*date[:6])
 	
 	def __str__(self):
 		return "Episode: {} | Episode {}, {} ({})".format(self.date, self.number, self.name, self.link)
@@ -40,18 +43,19 @@ class Service:
 		return "Service: {} ({})".format(self.key, self.id, self.enabled)
 
 class Stream:
-	def __init__(self, service, show, site_key, site_name, remote_offset, display_offset, active):
+	def __init__(self, service, show, show_id, show_key, site_name, remote_offset, display_offset, active):
 		# Note: arguments are order-sensitive
 		self.service = service
 		self.show = show
-		self.site_key = site_key
+		self.show_id = show_id
+		self.show_key = show_key
 		self.site_name = site_name
 		self.remote_offset = remote_offset
 		self.display_offset = display_offset
 		self.active = active
 	
 	def __str__(self):
-		return "Stream: {} ({}@{}), {} {}".format(self.show, self.site_key, self.service, self.remote_offset, self.display_offset)
+		return "Stream: {} ({}@{}), {} {}".format(self.show, self.show_key, self.service, self.remote_offset, self.display_offset)
 
 class LinkSite:
 	def __init__(self, id, key, name, enabled):

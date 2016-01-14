@@ -2,7 +2,7 @@ from logging import debug, info, warning, error
 
 from . import AbstractLinkHandler
 
-class MyAnimeList(AbstractLinkHandler):
+class LinkHandler(AbstractLinkHandler):
 	_link_base = "http://myanimelist.net/anime/{id}/"
 	
 	def __init__(self):
