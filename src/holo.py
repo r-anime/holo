@@ -34,15 +34,15 @@ def main(config):
 			info("Registering services")
 			db.register_services(services.get_service_handlers())
 			db.register_link_sites(services.get_link_handlers())
-		elif config.module == "episodefind":
+		elif config.module == "episode":
 			info("Finding new episodes")
 			import module_find_episodes as m
 			m.main(config, db, debug=config.debug)
-		elif config.module == "showfind":
+		elif config.module == "find":
 			info("Finding new shows")
 			import module_find_shows as m
 			m.main(config, db)
-		elif config.module == "showupdate":
+		elif config.module == "update":
 			info("Updating shows")
 			import module_update_shows as m
 			m.main(config, db)
@@ -59,7 +59,7 @@ if __name__ == "__main__":
 	import argparse
 	parser = argparse.ArgumentParser(description="{}, {}".format(name, description))
 	parser.add_argument("--no-input", dest="no_input", action="store_true", help="run without stdin and write to a log file")
-	parser.add_argument("-m", "--module", dest="module", nargs=1, choices=["setup", "episodefind", "showupdate", "showfind"], default=["episodefind"], help="runs the specified module")
+	parser.add_argument("-m", "--module", dest="module", nargs=1, choices=["setup", "episode", "update", "find"], default=["episode"], help="runs the specified module")
 	parser.add_argument("-c", "--config", dest="config_file", nargs=1, default="config.ini", help="use or create the specified database location")
 	parser.add_argument("-d", "--database", dest="db_name", nargs=1, default=None, help="use or create the specified database location")
 	parser.add_argument("-s", "--subreddit", dest="subreddit", nargs=1, default=None, help="set the subreddit on which to make posts")
