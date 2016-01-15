@@ -7,6 +7,7 @@ New episode discussion bot for /r/anime.
 * Python 3.4+ (targeting 3.5)
 * requests
 * feedparser
+* beautifulsoup4 (thanks, MAL -_-)
 * PRAW
 
 ## Design notes

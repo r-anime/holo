@@ -4,6 +4,17 @@ from functools import wraps
 
 from .models import Show, Stream, Service, LinkSite, Link
 
+def db_error(f):
+	@wraps(f)
+	def protected(*args, **kwargs):
+		try:
+			f(*args, **kwargs)
+			return True
+		except:
+			exception("Database exception thrown")
+			return False
+	return protected
+
 def db_error_default(default_value):
 	value = default_value
 	
@@ -122,7 +133,7 @@ class DatabaseDatabase:
 		service = self.q.fetchone()
 		return Service(*service)
 	
-	@db_error_default(None)
+	@db_error_default(list())
 	def get_services(self, enabled=True, disabled=False):
 		services = list()
 		if enabled:
@@ -135,7 +146,7 @@ class DatabaseDatabase:
 				services.append(Service(*service))
 		return services
 	
-	@db_error_default(None)
+	@db_error_default(list())
 	def get_streams(self, service=None, show=None, active=True):
 		if service is not None:
 			debug("Getting all streams for service {}".format(service.key))
@@ -179,7 +190,7 @@ class DatabaseDatabase:
 		site = self.q.fetchone()
 		return LinkSite(*site)
 	
-	@db_error_default(None)
+	@db_error_default(list())
 	def get_link_sites(self, enabled=True, disabled=False):
 		sites = list()
 		if enabled:
@@ -192,7 +203,7 @@ class DatabaseDatabase:
 				sites.append(LinkSite(*link))
 		return sites
 	
-	@db_error_default(None)
+	@db_error_default(list())
 	def get_links(self, show=None):
 		if show is not None:
 			debug("Getting all links for show {}".format(show.id))
@@ -206,7 +217,25 @@ class DatabaseDatabase:
 			error("A show must be provided to get links")
 			return list()
 	
+	@db_error_default(None)
+	def get_link(self, show, link_site):
+		debug("Getting link for show {} and site {}".format(show.id, link_site.key))
+		
+		self.q.execute("SELECT site, show, site_key FROM Links WHERE show = ? AND site = ?", (show.id, link_site.id))
+		link = self.q.fetchone()
+		link = Link(*link)
+		return link
+	
 	# Shows
+	
+	@db_error_default(list())
+	def get_shows(self, missing_length=False):
+		shows = list()
+		if missing_length:
+			self.q.execute("SELECT id, name, length, type, has_source FROM Shows WHERE length IS NULL or length = ''")
+			for show in self.q.fetchall():
+				shows.append(Show(*show))
+		return shows
 	
 	@db_error_default(None)
 	def get_show(self, stream=None):
@@ -225,6 +254,12 @@ class DatabaseDatabase:
 		show = self.q.fetchone()
 		show = Show(*show)
 		return show
+	
+	@db_error
+	def set_show_episode_count(self, show, length):
+		debug("Updating show episode count in database: {}, {}".format(show.name, length))
+		self.q.execute("UPDATE Shows SET length = ? WHERE id = ?", (length, show.id))
+		self.commit()
 	
 	# Episodes
 	

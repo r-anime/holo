@@ -25,6 +25,8 @@ def main(config):
 		error("Cannot continue running without a database")
 		return
 	
+	services.setup_services(config)
+	
 	# Run the requested module
 	try:
 		debug("Running module {}".format(config.module))

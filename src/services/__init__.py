@@ -1,5 +1,20 @@
 from logging import debug, warning, error
 
+_service_configs = None
+
+def setup_services(config):
+	global _service_configs
+	_service_configs = config.services
+
+def _get_service_config(key):
+	if key in _service_configs:
+		return _service_configs[key]
+	return dict()
+
+def _make_service(service):
+	service.set_config(_get_service_config(service.key))
+	return service
+
 ##############
 # Requesting #
 ##############
@@ -8,6 +23,8 @@ from functools import wraps, lru_cache
 from time import perf_counter, sleep
 import requests
 from json import JSONDecodeError
+from xml.etree import cElementTree as xml_parser
+from bs4 import BeautifulSoup
 
 def rate_limit(wait_length):
 	last_time = 0
@@ -29,13 +46,16 @@ def rate_limit(wait_length):
 class Requestable:
 	@lru_cache(maxsize=20)
 	@rate_limit(1)
-	def request(self, url, json=False, proxy=None, useragent=None):
+	def request(self, url, json=False, xml=False, html=False, proxy=None, useragent=None, auth=None):
 		"""
 		Sends a request to the service.
 		:param url: The request URL
-		:param json: If True, return the response as JSON
+		:param json: If True, return the response as parsed JSON
+		:param xml: If True, return the response as parsed XML
+		:param html: If True, return the response as parsed HTML
 		:param proxy: Optional proxy, a tuple of address and port
 		:param useragent: Ideally should always be set
+		:param auth: Tuple of username and password to use for HTTP basic auth
 		:return: The response if successful, otherwise None
 		"""
 		if proxy is not None:
@@ -50,7 +70,7 @@ class Requestable:
 		debug("Sending request")
 		debug("  URL={}".format(url))
 		debug("  Headers={}".format(headers))
-		response = requests.get(url, headers=headers, proxies=proxy)
+		response = requests.get(url, headers=headers, proxies=proxy, auth=auth)
 		debug("  Status code: {}".format(response.status_code))
 		if not response.ok:
 			error("Response {}: {}".format(response.status_code, response.reason))
@@ -63,6 +83,16 @@ class Requestable:
 			except JSONDecodeError as e:
 				error("Response is not JSON", exc_info=e)
 				return None
+		if xml:
+			debug("Response returning as XML")
+			#TODO: error checking
+			raw_entry = xml_parser.fromstring(response.text)
+			entry = dict((attr.tag, attr.text) for attr in raw_entry)
+			return entry
+		if html:
+			debug("Returning response as HTML")
+			soup = BeautifulSoup(response.text, 'html.parser')
+			return soup
 		debug("Response returning as text")
 		return response.text
 
@@ -76,6 +106,10 @@ class AbstractServiceHandler(ABC, Requestable):
 	def __init__(self, key, name):
 		self.key = key
 		self.name = name
+		self.config = None
+	
+	def set_config(self, config):
+		self.config = config
 	
 	@abstractmethod
 	def get_latest_episode(self, show_id, **kwargs):
@@ -103,12 +137,11 @@ _services = None
 def _ensure_service_handlers():
 	global _services
 	if _services is None:
-		_services = dict()
-		#TODO: find services in module (every file not __init__)
-		from . import crunchyroll
-		_services["crunchyroll"] = crunchyroll.ServiceHandler()
-		from . import funimation
-		_services["funimation"] = funimation.ServiceHandler()
+		from . import stream
+		_services = {x.key: _make_service(x) for x in [
+			stream.crunchyroll.ServiceHandler(),
+			stream.funimation.ServiceHandler()
+		]}
 
 def get_service_handlers():
 	"""
@@ -133,10 +166,15 @@ def get_service_handler(service):
 # Link handler #
 ################
 
-class AbstractLinkHandler(ABC, Requestable):
+class AbstractInfoHandler(ABC, Requestable):
 	def __init__(self, key, name):
 		self.key = key
 		self.name = name
+		self.config = None
+	
+	def set_config(self, config):
+		debug("Setting config of {} to {}".format(self.key, config))
+		self.config = config
 	
 	@abstractmethod
 	def get_link(self, link):
@@ -146,6 +184,15 @@ class AbstractLinkHandler(ABC, Requestable):
 		:return: A URL
 		"""
 		return None
+	
+	@abstractmethod
+	def find_show(self, show):
+		return None
+	
+	@abstractmethod
+	def get_episode_count(self, show, link):
+		#raise NotImplementedError("get_episode_count not implemented for info handler {}".format(self.key))
+		return None
 
 # Link sites
 
@@ -154,10 +201,10 @@ _link_sites = None
 def _ensure_link_handlers():
 	global _link_sites
 	if _link_sites is None:
-		_link_sites = dict()
-		#TODO: find services in module (every file not __init__)
-		from .info import myanimelist
-		_link_sites["mal"] = myanimelist.LinkHandler()
+		from . import info
+		_link_sites = {x.key: _make_service(x) for x in [
+			info.myanimelist.InfoHandler()
+		]}
 
 def get_link_handlers():
 	"""

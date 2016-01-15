@@ -4,7 +4,6 @@ import services
 import reddit
 
 def main(config, db, **kwargs):
-	debug_on = "debug" in kwargs and kwargs["debug"]
 	reddit.init_reddit(config)
 	
 	# Check services for new episodes
@@ -30,7 +29,7 @@ def main(config, db, **kwargs):
 				
 				# New episode!
 				if not already_seen:
-					post_url = _create_reddit_post(config, db, stream, episode, submit=not debug_on)
+					post_url = _create_reddit_post(config, db, stream, episode, submit=not config.debug)
 					info("  Post URL: {}".format(post_url))
 					if post_url is not None:
 						db.store_episode(stream.show, episode_num, post_url)

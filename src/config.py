@@ -7,11 +7,14 @@ class Config:
 		self.database = None
 		self.useragent = None
 		self.ratelimit = 1.0
+		
 		self.subreddit = None
 		self.r_username = None
 		self.r_password = None
 		self.r_oauth_key = None
 		self.r_oauth_secret = None
+		
+		self.services = dict()
 		
 		self.post_title = None
 		self.post_body = None
@@ -43,6 +46,10 @@ def from_file(file_path):
 		config.r_password = sec.get("password", None)
 		config.r_oauth_key = sec.get("oauth_key", None)
 		config.r_oauth_secret = sec.get("oauth_secret", None)
+	
+	#if "service.mal" in parsed:
+	#	sec = parsed["service.mal"]
+	#	config.services["mal"] = {"username": sec.get("username", None), "password": sec.get("password", None)}
 	
 	if "post" in parsed:
 		sec = parsed["post"]

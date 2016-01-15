@@ -1,7 +1,7 @@
 from logging import debug, info, warning, error
 import feedparser, re
 
-from . import AbstractServiceHandler
+from .. import AbstractServiceHandler
 from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):

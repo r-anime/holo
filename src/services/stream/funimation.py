@@ -1,7 +1,7 @@
 from logging import debug, info, warning, error
 from datetime import datetime
 
-from . import AbstractServiceHandler
+from .. import AbstractServiceHandler
 from data.models import Episode
 
 # All shows: http://www.funimation.com/feeds/ps/shows?limit=100000
