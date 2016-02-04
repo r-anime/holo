@@ -68,6 +68,9 @@ class ServiceHandler(AbstractServiceHandler):
 		debug("  date={}".format(date))
 		
 		return Episode(num, name, link, date)
+	
+	def get_seasonal_shows(self, year=None, season=None, **kwargs):
+		return list()
 
 # Helpers
 

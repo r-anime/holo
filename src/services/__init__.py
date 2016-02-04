@@ -129,6 +129,10 @@ class AbstractServiceHandler(ABC, Requestable):
 		:return: A URL to the stream's page
 		"""
 		return None
+	
+	@abstractmethod
+	def get_seasonal_shows(self, year=None, season=None, **kwargs):
+		return list()
 
 # Services
 
@@ -193,6 +197,10 @@ class AbstractInfoHandler(ABC, Requestable):
 	def get_episode_count(self, show, link):
 		#raise NotImplementedError("get_episode_count not implemented for info handler {}".format(self.key))
 		return None
+	
+	@abstractmethod
+	def get_seasonal_shows(self, year=None, season=None):
+		return list()
 
 # Link sites
 

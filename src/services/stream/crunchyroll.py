@@ -58,6 +58,9 @@ class ServiceHandler(AbstractServiceHandler):
 		#print(rss)
 		
 		return rss.get("entries", list())
+	
+	def get_seasonal_shows(self, year=None, season=None, **kwargs):
+		return list()
 
 # Helpers
 

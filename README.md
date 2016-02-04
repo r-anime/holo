@@ -9,6 +9,7 @@ New episode discussion bot for /r/anime.
 * feedparser
 * beautifulsoup4 (thanks, MAL -_-)
 * PRAW
+* unidecode
 
 ## Design notes
 * Partitioned into multiple self-contained runnable modules

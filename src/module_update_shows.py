@@ -20,6 +20,7 @@ def _check_show_lengths(config, db, update_db=True):
 			site = db.get_link_site(key=handler.key)
 			link = db.get_link(show, site)
 			if link is None:
+				error("Failed to create link")
 				continue
 			
 			# Validate length

@@ -2,9 +2,11 @@ from logging import debug, info, warning, error
 import re
 
 from .. import AbstractInfoHandler
+from data.models import UnprocessedShow, ShowType
 
 class InfoHandler(AbstractInfoHandler):
 	_show_link_base = "http://myanimelist.net/anime/{id}/"
+	_season_show_url = "http://myanimelist.net/anime/season"
 	
 	def __init__(self):
 		super().__init__("mal", "MyAnimeList")
@@ -27,7 +29,7 @@ class InfoHandler(AbstractInfoHandler):
 			error("Cannot get episode count")
 			return None
 		
-		# Parse show page (ugh)
+		# Parse show page (ugh, HTML parsing)
 		count_sib = response.find("span", string="Episodes:")
 		if count_sib is None:
 			error("Failed to find episode count sibling")
@@ -40,6 +42,41 @@ class InfoHandler(AbstractInfoHandler):
 		
 		return count
 	
+	def get_seasonal_shows(self, year=None, season=None, **kwargs):
+		#TODO: use year and season if provided
+		debug("Getting season shows: year={}, season={}".format(year, season))
+		
+		# Request season page from MAL
+		url = self._season_show_url
+		response = self._mal_request(url, **kwargs)
+		if response is None:
+			error("Cannot get show list")
+			return list()
+		
+		# Parse page (ugh, HTML parsing. Where's the useful API, MAL?)
+		lists = response.find_all(class_="seasonal-anime-list")
+		if len(lists) == 0:
+			error("Invalid page? Lists not found")
+			return list()
+		new_list = lists[0].find_all(class_="seasonal-anime")
+		if len(new_list) == 0:
+			error("Invalid page? Shows not found in list")
+			return list()
+		
+		new_shows = list()
+		episode_count_regex = re.compile("(\d+|\?) eps?")
+		for show in new_list:
+			show_key = show.find(class_="genres")["id"]
+			title = show.find("a", class_="link-title").string
+			more_names = [title[:-11]] if title.lower().endswith("2nd season") else list()
+			show_type = ShowType.TV #TODO
+			episode_count = episode_count_regex.search(show.find(class_="eps").find(string=episode_count_regex)).group(1)
+			episode_count = None if episode_count == "?" else int(episode_count)
+			has_source = show.find(class_="source").string != "Original"
+			new_shows.append(UnprocessedShow(self.key, show_key, title, more_names, show_type, episode_count, has_source))
+		
+		return new_shows
+	
 	# Private
 	
 	def _mal_request(self, url, **kwargs):
@@ -49,3 +86,6 @@ class InfoHandler(AbstractInfoHandler):
 		
 		#auth = (self.config["username"], self.config["password"])
 		return self.request(url, auth=None, html=True, **kwargs)
+	
+	def _convert_type(self, mal_type):
+		return None

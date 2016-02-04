@@ -12,6 +12,10 @@ def main(config, db, **kwargs):
 		service_handler = services.get_service_handler(service)
 		debug("{} streams found".format(len(streams)))
 		for stream in streams:
+			show = db.get_show(stream=stream)
+			if not show.enabled:
+				continue
+				
 			info("Checking stream \"{}\"".format(stream.show_key))
 			debug(stream)
 			
@@ -29,15 +33,15 @@ def main(config, db, **kwargs):
 				
 				# New episode!
 				if not already_seen:
-					post_url = _create_reddit_post(config, db, stream, episode, submit=not config.debug)
+					post_url = _create_reddit_post(config, db, show, stream, episode, submit=not config.debug)
 					info("  Post URL: {}".format(post_url))
 					if post_url is not None:
-						db.store_episode(stream.show, episode_num, post_url)
+						db.add_episode(stream.show, episode_num, post_url)
 					else:
 						error("  Episode not submitted")
 
-def _create_reddit_post(config, db, stream, episode, submit=True):
-	title, body = _create_post_contents(config, db, stream, episode)
+def _create_reddit_post(config, db, show, stream, episode, submit=True):
+	title, body = _create_post_contents(config, db, show, stream, episode)
 	if submit:
 		new_post = reddit.submit_text_post(config.subreddit, title, body)
 		if new_post is not None:
@@ -47,9 +51,7 @@ def _create_reddit_post(config, db, stream, episode, submit=True):
 			error("Failed to submit post")
 	return None
 
-def _create_post_contents(config, db, stream, episode):
-	show = db.get_show(stream=stream)
-	
+def _create_post_contents(config, db, show, stream, episode):
 	debug("Formatting with formats:")
 	debug(config.post_formats)
 	title = _format_post_text(db, config.post_title, config.post_formats, show, episode, stream)

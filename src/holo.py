@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
+import sys
+if sys.version_info[0] != 3 or sys.version_info[1] < 4:
+	print("Holo requires Python version 3.4 or greater")
+	sys.exit(1)
 
 # Metadata
 name = "Holo"
 description = "episode discussion bot"
 version = "0.1"
 
-# Imports
+# Ensure proper files can be access if running with cron
 import os
 from pathlib import Path
-
-from data import database
-import services
-
-# Ensure proper files can be access if running with cron
 os.chdir(str(Path(__file__).parent.parent))
 
 # Do the things
+from data import database
+import services
+
 def main(config):
 	from logging import debug, info, warning, error, exception
 	

@@ -1,13 +1,21 @@
 from datetime import datetime
+import enum
+
+class ShowType(enum.Enum):
+	UNKNOWN = 0
+	TV = 1
+	MOVIE = 2
+	OVA = 3
 
 class Show:
-	def __init__(self, id, name, length, type, has_source):
+	def __init__(self, id, name, length, show_type, has_source, enabled):
 		# Note: arguments are order-sensitive
 		self.id = id
 		self.name = name
 		self.length = length
-		self.type = type
+		self.type = show_type
 		self.has_source = has_source == 1
+		self.enabled = enabled
 	
 	def __str__(self):
 		return "Show: {} (id={}, type={}, len={})".format(self.name, self.id, self.type, self.length)
@@ -67,7 +75,7 @@ class LinkSite:
 	
 	def __str__(self):
 		return "Link site: {} ({})".format(self.key, self.id, self.enabled)
-	
+
 class Link:
 	def __init__(self, site, show, site_key):
 		# Note: arguments are order-sensitive
@@ -77,3 +85,13 @@ class Link:
 	
 	def __str__(self):
 		return "Link: {}@{}, show={}".format(self.site_key, self.site, self.show)
+
+class UnprocessedShow:
+	def __init__(self, site_key, show_key, name, more_names, show_type, episode_count, has_source):
+		self.site_key = site_key
+		self.show_key = show_key
+		self.name = name
+		self.more_names = more_names
+		self.show_type = show_type
+		self.episode_count = episode_count
+		self.has_source = has_source
