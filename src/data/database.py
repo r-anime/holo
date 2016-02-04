@@ -172,6 +172,22 @@ class DatabaseDatabase:
 				services.append(Service(*service))
 		return services
 	
+	@db_error_default(None)
+	def get_stream(self, id=None):
+		if id is not None:
+			debug("Getting stream for id {}".format(id))
+			
+			self.q.execute("SELECT service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE id = ?", (id,))
+			stream = self.q.fetchone()
+			if stream is None:
+				error("Stream {} not found".format(id))
+				return None
+			stream = Stream(*stream)
+			return stream
+		else:
+			error("Nothing provided to get stream")
+			return None
+	
 	@db_error_default(list())
 	def get_streams(self, service=None, show=None, active=True):
 		if service is not None:
@@ -314,8 +330,8 @@ class DatabaseDatabase:
 		show = self.q.fetchone()
 		if show is None:
 			return None
-		show[4] = to_show_type(show[4])
-		show = Show(*show)
+		show_type = to_show_type(show[4])
+		show = Show(*show[:4], show_type, *show[5:])
 		return show
 	
 	@db_error_default(None)
