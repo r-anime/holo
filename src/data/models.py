@@ -51,13 +51,14 @@ class Service:
 		return "Service: {} ({})".format(self.key, self.id, self.enabled)
 
 class Stream:
-	def __init__(self, service, show, show_id, show_key, site_name, remote_offset, display_offset, active):
+	def __init__(self, id, service, show, show_id, show_key, name, remote_offset, display_offset, active):
 		# Note: arguments are order-sensitive
+		self.id = id
 		self.service = service
 		self.show = show
 		self.show_id = show_id
 		self.show_key = show_key
-		self.site_name = site_name
+		self.name = name
 		self.remote_offset = remote_offset
 		self.display_offset = display_offset
 		self.active = active
@@ -95,3 +96,12 @@ class UnprocessedShow:
 		self.show_type = show_type
 		self.episode_count = episode_count
 		self.has_source = has_source
+
+class UnprocessedStream:
+	def __init__(self, service_key, show_key, show_id, name, remote_offset, display_offset):
+		self.service_key = service_key
+		self.show_key = show_key
+		self.show_id = show_id
+		self.name = name
+		self.remote_offset = remote_offset
+		self.display_offset = display_offset

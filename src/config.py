@@ -47,9 +47,9 @@ def from_file(file_path):
 		config.r_oauth_key = sec.get("oauth_key", None)
 		config.r_oauth_secret = sec.get("oauth_secret", None)
 	
-	#if "service.mal" in parsed:
-	#	sec = parsed["service.mal"]
-	#	config.services["mal"] = {"username": sec.get("username", None), "password": sec.get("password", None)}
+	if "service.mal" in parsed:
+		sec = parsed["service.mal"]
+		config.services["mal"] = {"username": sec.get("username", None), "password": sec.get("password", None)}
 	
 	if "post" in parsed:
 		sec = parsed["post"]

@@ -93,7 +93,7 @@ class DatabaseDatabase:
 		self.q.execute("""CREATE TABLE IF NOT EXISTS Streams (
 			id			INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 			service		TEXT NOT NULL,
-			show		INTEGER NOT NULL,
+			show		INTEGER,
 			show_id		TEXT,
 			show_key	TEXT NOT NULL,
 			name		TEXT,
@@ -160,7 +160,7 @@ class DatabaseDatabase:
 		return Service(*service)
 	
 	@db_error_default(list())
-	def get_services(self, enabled=True, disabled=False):
+	def get_services(self, enabled=True, disabled=False) -> [Service]:
 		services = list()
 		if enabled:
 			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE enabled = 1")
@@ -177,7 +177,7 @@ class DatabaseDatabase:
 		if id is not None:
 			debug("Getting stream for id {}".format(id))
 			
-			self.q.execute("SELECT service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE id = ?", (id,))
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE id = ?", (id,))
 			stream = self.q.fetchone()
 			if stream is None:
 				error("Stream {} not found".format(id))
@@ -189,40 +189,52 @@ class DatabaseDatabase:
 			return None
 	
 	@db_error_default(list())
-	def get_streams(self, service=None, show=None, active=True):
+	def get_streams(self, service=None, show=None, active=True, unmatched=False):
+		# Not the best combination of options, but it's only the usage needed
 		if service is not None:
 			debug("Getting all streams for service {}".format(service.key))
-			
-			# Get service ID
-			self.q.execute("SELECT id FROM Services WHERE key = ?", (service.key,))
-			service_id = self.q.fetchone()
-			if service_id is None:
-				error("Service \"{}\" not found".format(service.key))
-				return list()
-			service_id = service_id[0]
-			
-			# Get all streams with service ID
-			self.q.execute("SELECT service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE service = ? AND active = ?", (service_id, 1 if active else 0))
-			streams = self.q.fetchall()
-			streams = [Stream(*stream) for stream in streams]
-			return streams
+			service = self.get_service(key=service.key)
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE service = ? AND active = ?", (service.id, 1 if active else 0))
 		elif show is not None:
 			debug("Getting all streams for show {}".format(show.id))
-			
-			# Get all streams with show ID
-			self.q.execute("SELECT service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE show = ? AND active = ?", (show.id, 1 if active else 0))
-			streams = self.q.fetchall()
-			streams = [Stream(*stream) for stream in streams]
-			return streams
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE show = ? AND active = ?", (show.id, 1 if active else 0))
+		elif unmatched:
+			debug("Getting unmatched streams")
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE show IS NULL")
 		else:
 			error("A service or show must be provided to get streams")
 			return list()
+		
+		streams = self.q.fetchall()
+		streams = [Stream(*stream) for stream in streams]
+		return streams
 	
 	@db_error_default(False)
 	def has_stream(self, service_key, key):
 		service = self.get_service(key=service_key)
 		self.q.execute("SELECT count(*) FROM Streams WHERE service = ? AND show_key = ?", (service.id, key))
 		return self.get_count() > 0
+	
+	@db_error
+	def add_stream(self, raw_stream, show_id, commit=True):
+		debug("Inserting stream: {}".format(raw_stream))
+		
+		service = self.get_service(key=raw_stream.service_key)
+		self.q.execute("INSERT INTO Streams (service, show, show_id, show_key, name, remote_offset, display_offset, active) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+					   (service.id, show_id, raw_stream.show_id, raw_stream.show_key, raw_stream.name, raw_stream.remote_offset, raw_stream.display_offset, show_id is not None))
+		if commit:
+			self.commit()
+	
+	@db_error
+	def update_stream(self, stream, show=None, active=None, commit=True):
+		debug("Updating stream: show={}".format(show))
+		if show is not None:
+			self.q.execute("UPDATE Streams SET show = ? WHERE id = ?", (show, stream.id))
+		if active is not None:
+			self.q.execute("UPDATE Streams SET active = ? WHERE id = ?", (active, stream.id))
+		
+		if commit:
+			self.commit()
 	
 	# Links
 	
@@ -314,19 +326,18 @@ class DatabaseDatabase:
 		return shows
 	
 	@db_error_default(None)
-	def get_show(self, stream=None):
+	def get_show(self, id=None, stream=None):
 		debug("Getting show from database")
 		
 		# Get show ID
-		show_id = None
-		if stream:
-			show_id = stream.show
+		if stream and not id:
+			id = stream.show
 		
 		# Get show
-		if show_id is None:
+		if id is None:
 			error("Show ID not provided to get_show")
 			return None
-		self.q.execute("SELECT id, name, length, type, has_source, enabled FROM Shows WHERE id = ?", (show_id,))
+		self.q.execute("SELECT id, name, length, type, has_source, enabled FROM Shows WHERE id = ?", (id,))
 		show = self.q.fetchone()
 		if show is None:
 			return None
@@ -344,13 +355,17 @@ class DatabaseDatabase:
 		has_source = raw_show.has_source
 		self.q.execute("INSERT INTO Shows (name, length, type, has_source) VALUES (?, ?, ?, ?)", (name, length, show_type, has_source))
 		show_id = self.q.lastrowid
-		
-		for name in [raw_show.name]+raw_show.more_names:
-			self.q.execute("INSERT INTO ShowNames (show, name) VALUES (?, ?)", (show_id, name))
+		self.add_show_names([raw_show.name]+raw_show.more_names, id=show_id, commit=commit)
 		
 		if commit:
 			self.commit()
 		return show_id
+	
+	@db_error
+	def add_show_names(self, *names, id=None, commit=True):
+		self.q.executemany("INSERT INTO ShowNames (show, name) VALUES (?, ?)", [(id, name) for name in names])
+		if commit:
+			self.commit()
 	
 	@db_error
 	def set_show_episode_count(self, show, length):
@@ -390,8 +405,6 @@ class DatabaseDatabase:
 # Helper methods
 
 ## Conversions
-
-
 
 def to_show_type(db_val):
 	for st in ShowType:

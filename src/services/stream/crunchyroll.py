@@ -2,12 +2,14 @@ from logging import debug, info, warning, error
 import feedparser, re
 
 from .. import AbstractServiceHandler
-from data.models import Episode
+from data.models import Episode, UnprocessedStream
 
 class ServiceHandler(AbstractServiceHandler):
 	_show_url = "http://crunchyroll.com/{id}"
+	_show_re = re.compile("crunchyroll.com/([\w-]+)", re.I)
 	_episode_rss = "http://crunchyroll.com/{id}.rss"
 	_backup_rss = "http://crunchyroll.com/rss/anime"
+	_season_url = "http://crunchyroll.com/lineup"
 	
 	def __init__(self):
 		super().__init__("crunchyroll", "Crunchyroll")
@@ -59,10 +61,54 @@ class ServiceHandler(AbstractServiceHandler):
 		
 		return rss.get("entries", list())
 	
-	def get_seasonal_shows(self, year=None, season=None, **kwargs):
-		return list()
+	def get_seasonal_streams(self, year=None, season=None, **kwargs):
+		debug("Getting season shows: year={}, season={}".format(year, season))
+		if year or season:
+			error("Year and season are not supported by {}".format(self.name))
+			return list()
+		
+		# Request page
+		response = self.request(self._season_url, html=True, **kwargs)
+		if response is None:
+			error("Failed to get seasonal streams page")
+			return list()
+		
+		# Find sections (continuing simulcast, new simulcast, new catalog)
+		lists = response.find_all(class_="lineup-grid")
+		if len(lists) < 2:
+			error("Unsupported structure of lineup page")
+			return list()
+		elif len(lists) != 3:
+			warning("Unexpected number of lineup grids")
+		
+		# Parse individual shows
+		# WARNING: Some may be dramas and there's nothing distinguishing them from anime
+		show_elements = lists[1].find_all(class_="element-lineup-anime")
+		raw_streams = list()
+		for show in show_elements:
+			#TODO: ignore not yet announced
+			title = show["title"]
+			debug("  Show: {}".format(title))
+			url = show["href"]
+			debug("  URL: {}".format(url))
+			url_match = self._show_re.search(url)
+			if not url_match:
+				error("Failed to parse show URL: {}".format(url))
+				continue
+			key = url_match.group(1)
+			debug("  Key: {}".format(key))
+			remote_offset, display_offset = self._get_stream_info(key)
+			
+			raw_stream = UnprocessedStream(self.key, key, None, title, remote_offset, display_offset)
+			raw_streams.append(raw_stream)
+		
+		return raw_streams
+	
+	def _get_stream_info(self, show_key):
+		#TODO: load show page and figure out offsets based on contents
+		return 0, 0
 
-# Helpers
+# Episode feeds
 
 def _verify_feed(feed):
 	debug("Verifying feed")
@@ -117,3 +163,5 @@ def _get_slug(episode_link):
 	if match:
 		return match.group(1)
 	return None
+
+# Season page

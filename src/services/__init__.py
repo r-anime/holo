@@ -23,7 +23,7 @@ from functools import wraps, lru_cache
 from time import perf_counter, sleep
 import requests
 from json import JSONDecodeError
-from xml.etree import cElementTree as xml_parser
+from xml.etree import ElementTree as xml_parser
 from bs4 import BeautifulSoup
 
 def rate_limit(wait_length):
@@ -72,7 +72,7 @@ class Requestable:
 		debug("  Headers={}".format(headers))
 		response = requests.get(url, headers=headers, proxies=proxy, auth=auth)
 		debug("  Status code: {}".format(response.status_code))
-		if not response.ok:
+		if not response.ok or response.status_code == 204:		#204 is a special case for MAL errors
 			error("Response {}: {}".format(response.status_code, response.reason))
 			return None
 		
@@ -87,8 +87,8 @@ class Requestable:
 			debug("Response returning as XML")
 			#TODO: error checking
 			raw_entry = xml_parser.fromstring(response.text)
-			entry = dict((attr.tag, attr.text) for attr in raw_entry)
-			return entry
+			#entry = dict((attr.tag, attr.text) for attr in raw_entry)
+			return raw_entry
 		if html:
 			debug("Returning response as HTML")
 			soup = BeautifulSoup(response.text, 'html.parser')
@@ -131,7 +131,7 @@ class AbstractServiceHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
-	def get_seasonal_shows(self, year=None, season=None, **kwargs):
+	def get_seasonal_streams(self, year=None, season=None, **kwargs):
 		return list()
 
 # Services
@@ -190,18 +190,18 @@ class AbstractInfoHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
-	def find_show(self, show):
+	def find_show(self, show_name, **kwargs):
 		return None
 	
 	@abstractmethod
-	def get_episode_count(self, show, link):
+	def get_episode_count(self, show, link, **kwargs):
 		#raise NotImplementedError("get_episode_count not implemented for info handler {}".format(self.key))
 		return None
 	
 	@abstractmethod
-	def get_seasonal_shows(self, year=None, season=None):
+	def get_seasonal_shows(self, year=None, season=None, **kwargs):
 		return list()
-
+	
 # Link sites
 
 _link_sites = None

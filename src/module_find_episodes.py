@@ -13,7 +13,7 @@ def main(config, db, **kwargs):
 		debug("{} streams found".format(len(streams)))
 		for stream in streams:
 			show = db.get_show(stream=stream)
-			if not show.enabled:
+			if show is None or not show.enabled:
 				continue
 				
 			info("Checking stream \"{}\"".format(stream.show_key))
