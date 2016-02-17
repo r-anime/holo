@@ -1,5 +1,7 @@
 from logging import debug, warning, error
 
+# Common
+
 _service_configs = None
 
 def setup_services(config):
@@ -14,6 +16,20 @@ def _get_service_config(key):
 def _make_service(service):
 	service.set_config(_get_service_config(service.key))
 	return service
+
+# Utilities
+
+def import_all_services(pkg, class_name):
+	import importlib
+	services = dict()
+	for name in pkg.__all__:
+		module = importlib.import_module("."+name, package=pkg.__name__)
+		if hasattr(module, class_name):
+			handler = getattr(module, class_name)()
+			services[handler.key] = _make_service(handler)
+		del module
+	del importlib
+	return services
 
 ##############
 # Requesting #
@@ -153,10 +169,7 @@ def _ensure_service_handlers():
 	global _services
 	if _services is None:
 		from . import stream
-		_services = {x.key: _make_service(x) for x in [
-			stream.crunchyroll.ServiceHandler(),
-			stream.funimation.ServiceHandler()
-		]}
+		_services = import_all_services(stream, "ServiceHandler")
 
 def get_service_handlers():
 	"""
@@ -242,10 +255,7 @@ def _ensure_link_handlers():
 	global _link_sites
 	if _link_sites is None:
 		from . import info
-		_link_sites = {x.key: _make_service(x) for x in [
-			info.myanimelist.InfoHandler(),
-			info.anidb.InfoHandler()
-		]}
+		_link_sites = import_all_services(info, "InfoHandler")
 
 def get_link_handlers():
 	"""
