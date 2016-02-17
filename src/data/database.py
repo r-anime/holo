@@ -87,7 +87,8 @@ class DatabaseDatabase:
 			id			INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 			key			TEXT NOT NULL UNIQUE,
 			name		TEXT NOT NULL,
-			enabled		INTEGER NOT NULL DEFAULT 0
+			enabled		INTEGER NOT NULL DEFAULT 0,
+			use_in_post	INTEGER NOT NULL DEFAULT 1
 		)""")
 		
 		self.q.execute("""CREATE TABLE IF NOT EXISTS Streams (
@@ -189,18 +190,21 @@ class DatabaseDatabase:
 			return None
 	
 	@db_error_default(list())
-	def get_streams(self, service=None, show=None, active=True, unmatched=False):
+	def get_streams(self, service=None, show=None, active=True, use_in_post=True, unmatched=False):
 		# Not the best combination of options, but it's only the usage needed
 		if service is not None:
 			debug("Getting all streams for service {}".format(service.key))
 			service = self.get_service(key=service.key)
-			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE service = ? AND active = ?", (service.id, 1 if active else 0))
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
+							WHERE service = ? AND active = ?", (service.id, 1 if active else 0))
 		elif show is not None:
 			debug("Getting all streams for show {}".format(show.id))
-			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE show = ? AND active = ?", (show.id, 1 if active else 0))
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
+							WHERE show = ? AND active = ? AND use_in_post = ?", (show.id, active, use_in_post))
 		elif unmatched:
 			debug("Getting unmatched streams")
-			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE show IS NULL")
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
+							WHERE show IS NULL")
 		else:
 			error("A service or show must be provided to get streams")
 			return list()

@@ -1,11 +1,11 @@
+# All shows: http://www.funimation.com/feeds/ps/shows?limit=100000
+# Single show: http://www.funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id=7556914
+
 from logging import debug, info, warning, error
 from datetime import datetime
 
 from .. import AbstractServiceHandler
 from data.models import Episode
-
-# All shows: http://www.funimation.com/feeds/ps/shows?limit=100000
-# Single show: http://www.funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id=7556914
 
 class ServiceHandler(AbstractServiceHandler):
 	_show_url = "http://funimation.com/shows/{id}"

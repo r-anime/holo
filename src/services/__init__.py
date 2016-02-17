@@ -27,6 +27,8 @@ def import_all_services(pkg, class_name):
 		if hasattr(module, class_name):
 			handler = getattr(module, class_name)()
 			services[handler.key] = _make_service(handler)
+		else:
+			warning("Service module {}.{} has no handler {}".format(pkg.__name__, name, class_name))
 		del module
 	del importlib
 	return services
