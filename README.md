@@ -4,12 +4,13 @@
 New episode discussion bot for /r/anime.
 
 ## Requirements
-* Python 3.4+ (targeting 3.5)
-* requests
-* feedparser
-* beautifulsoup4 (thanks, MAL -_-)
-* PRAW
-* unidecode
+* Python 3.5+
+* `requests`
+* `feedparser`
+* `beautifulsoup4` (thanks, MAL -_-)
+* `praw`
+* `praw-script-oauth`
+* `unidecode`
 
 ## Design notes
 * Partitioned into multiple self-contained runnable modules

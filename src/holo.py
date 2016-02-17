@@ -89,12 +89,13 @@ if __name__ == "__main__":
 		from datetime import datetime
 		log_file = "logs/{date}_{mod}.log".format(date=datetime.now().strftime("%Y-%m-%dT%H:%M:%S"), mod=c.module)
 		logging.basicConfig(
-			format="%(asctime)s | %(levelname)s | %(message)s",
+			format="%(asctime)s | %(name)s | %(levelname)s | %(message)s",
 			datefmt="%Y-%m-%d %H:%M:%S",
 			level=logging.DEBUG if c.debug else logging.INFO, filename=log_file)
 	else:
 		logging.basicConfig(format="%(levelname)s | %(message)s", level=logging.DEBUG)
 	logging.getLogger("requests").setLevel(logging.WARNING)
+	logging.getLogger("praw-script-oauth").setLevel(logging.WARNING)
 	
 	from logging import warning
 	err = config_loader.validate(c)
