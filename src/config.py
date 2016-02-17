@@ -16,6 +16,8 @@ class Config:
 		
 		self.services = dict()
 		
+		self.new_show_types = list()
+		
 		self.post_title = None
 		self.post_body = None
 		self.post_formats = dict()
@@ -50,6 +52,15 @@ def from_file(file_path):
 	if "service.mal" in parsed:
 		sec = parsed["service.mal"]
 		config.services["mal"] = {"username": sec.get("username", None), "password": sec.get("password", None)}
+	
+	if "service.anidb" in parsed:
+		sec = parsed["service.anidb"]
+		config.services["anidb"] = {"client": sec.get("client", None)}
+	
+	if "options" in parsed:
+		sec = parsed["options"]
+		from data.models import str_to_showtype
+		config.new_show_types.extend(map(lambda s: str_to_showtype(s), sec.get("new_show_types", "").split(" ")))
 	
 	if "post" in parsed:
 		sec = parsed["post"]

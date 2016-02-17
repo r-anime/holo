@@ -1,20 +1,26 @@
 from logging import debug, info, warning, error
 
 import services
+from data.models import ShowType
 
 def main(config, db, **kwargs):
 	#check_new_shows(config, db, update_db=not config.debug)
 	check_new_shows(config, db)
 	#match_show_streams(config, db, update_db=not config.debug)
-	match_show_streams(config, db)
+	#match_show_streams(config, db)
 	#check_new_streams(config, db, update_db=not config.debug)
-	check_new_streams(config, db)
+	#check_new_streams(config, db)
 
 # New shows
 
 def check_new_shows(config, db, update_db=True):
 	info("Checking for new shows")
 	for raw_show in _get_new_season_shows(config, db):
+		if raw_show.show_type is not ShowType.UNKNOWN and raw_show.show_type not in config.new_show_types:
+			debug("  Show isn't an allowed type ({})".format(raw_show.show_type))
+			debug("    name={}".format(raw_show.name))
+			continue
+			
 		if not db.has_link(raw_show.site_key, raw_show.show_key):
 			# Link doesn't doesn't exist in db
 			debug("New show link: {} on {}".format(raw_show.show_key, raw_show.site_key))
@@ -28,7 +34,7 @@ def check_new_shows(config, db, update_db=True):
 				if update_db:
 					show_id = db.add_show(raw_show, commit=False)
 			elif len(shows) == 1:
-				show_id = shows[0]
+				show_id = shows.pop()
 			else:
 				# Uh oh, multiple matches
 				#TODO: make sure this isn't triggered by multi-season shows
@@ -38,9 +44,9 @@ def check_new_shows(config, db, update_db=True):
 			# Add link to show
 			if show_id and update_db:
 				db.add_link(raw_show, show_id, commit=False)
-	
-	if update_db:
-		db.commit()
+		
+		if update_db:
+			db.commit()
 
 def _get_new_season_shows(config, db):
 	# Only checks link sites because their names are preferred
@@ -102,7 +108,7 @@ def _get_new_season_streams(config, db):
 # Match streams missing shows
 
 def match_show_streams(config, db, update_db=True):
-	debug("Matching streams to shows")
+	info("Matching streams to shows")
 	streams = db.get_streams(unmatched=True)
 	
 	if len(streams) == 0:

@@ -44,8 +44,10 @@ def rate_limit(wait_length):
 	return decorate
 
 class Requestable:
-	@lru_cache(maxsize=20)
-	@rate_limit(1)
+	rate_limit_wait = 1
+	
+	@lru_cache(maxsize=100)
+	@rate_limit(rate_limit_wait)
 	def request(self, url, json=False, xml=False, html=False, proxy=None, useragent=None, auth=None):
 		"""
 		Sends a request to the service.
@@ -132,6 +134,15 @@ class AbstractServiceHandler(ABC, Requestable):
 	
 	@abstractmethod
 	def get_seasonal_streams(self, year=None, season=None, **kwargs):
+		"""
+		Gets a list of streams for shows airing in a particular season.
+		If year and season are None, uses the current season.
+		Note: Not all sites may allow specific years and seasons.
+		:param year: 
+		:param season: 
+		:param kwargs: Extra arguments, particularly useragent
+		:return: A list of UnprocessedStreams (empty list if no shows or error)
+		"""
 		return list()
 
 # Services
@@ -191,15 +202,36 @@ class AbstractInfoHandler(ABC, Requestable):
 	
 	@abstractmethod
 	def find_show(self, show_name, **kwargs):
-		return None
+		"""
+		Searches the link site for a show with the specified name.
+		:param show_name: The desired show's name
+		:param kwargs: Extra arguments, particularly useragent
+		:return: A list of shows (empty list if no shows or error)
+		"""
+		return list()
 	
 	@abstractmethod
 	def get_episode_count(self, show, link, **kwargs):
-		#raise NotImplementedError("get_episode_count not implemented for info handler {}".format(self.key))
+		"""
+		Gets the episode count of the specified show on the site given by the link.
+		:param show: The show being checked
+		:param link: The link pointing to the site being checked
+		:param kwargs: Extra arguments, particularly useragent
+		:return: The episode count, otherwise None
+		"""
 		return None
 	
 	@abstractmethod
 	def get_seasonal_shows(self, year=None, season=None, **kwargs):
+		"""
+		Gets a list of shows airing in a particular season.
+		If year and season are None, uses the current season.
+		Note: Not all sites may allow specific years and seasons.
+		:param year: 
+		:param season: 
+		:param kwargs: Extra arguments, particularly useragent
+		:return: A list of UnprocessedShows (empty list if no shows or error)
+		"""
 		return list()
 	
 # Link sites
@@ -211,7 +243,8 @@ def _ensure_link_handlers():
 	if _link_sites is None:
 		from . import info
 		_link_sites = {x.key: _make_service(x) for x in [
-			info.myanimelist.InfoHandler()
+			info.myanimelist.InfoHandler(),
+			info.anidb.InfoHandler()
 		]}
 
 def get_link_handlers():
