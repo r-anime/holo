@@ -355,7 +355,7 @@ class DatabaseDatabase:
 		has_source = raw_show.has_source
 		self.q.execute("INSERT INTO Shows (name, length, type, has_source) VALUES (?, ?, ?, ?)", (name, length, show_type, has_source))
 		show_id = self.q.lastrowid
-		self.add_show_names([raw_show.name]+raw_show.more_names, id=show_id, commit=commit)
+		self.add_show_names(raw_show.name, *raw_show.more_names, id=show_id, commit=commit)
 		
 		if commit:
 			self.commit()
@@ -431,8 +431,18 @@ def _collate_alphanum(str1, str2):
 		return 1
 
 _alphanum_regex = re.compile("[^a-zA-Z0-9]+")
+_romanization_o = re.compile("\bwo\b")
 
 def _alphanum_convert(s):
+	#TODO: punctuation is important for some shows to distinguish between seasons (ex. K-On! and K-On!!)
+	
+	# Characters to words
+	s = s.replace("&", "and")
+	# Japanese romanization differences
+	s = _romanization_o.sub("o", s)
+	s = s.replace("uu", "u")
+	s = s.replace("wo", "o")
+	
 	s = _alphanum_regex.sub("", s)
 	s = s.lower()
 	return unidecode(s)

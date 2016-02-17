@@ -7,6 +7,18 @@ class ShowType(enum.Enum):
 	MOVIE = 2
 	OVA = 3
 
+def str_to_showtype(string):
+	if string is not None:
+		string = string.lower()
+		if string == "tv":
+			return ShowType.TV
+		if string == "movie":
+			return ShowType.MOVIE
+		if string == "ova":
+			return ShowType.OVA
+	return ShowType.UNKNOWN
+
+
 class Show:
 	def __init__(self, id, name, length, show_type, has_source, enabled):
 		# Note: arguments are order-sensitive

@@ -1,3 +1,6 @@
+# API information
+# 	http://myanimelist.net/modules.php?go=api
+
 from logging import debug, info, warning, error
 import re
 
@@ -67,8 +70,7 @@ class InfoHandler(AbstractInfoHandler):
 		debug("Getting season shows: year={}, season={}".format(year, season))
 		
 		# Request season page from MAL
-		url = self._season_show_url
-		response = self._mal_request(url, **kwargs)
+		response = self._mal_request(self._season_show_url, **kwargs)
 		if response is None:
 			error("Cannot get show list")
 			return list()
@@ -87,12 +89,14 @@ class InfoHandler(AbstractInfoHandler):
 		episode_count_regex = re.compile("(\d+|\?) eps?")
 		for show in new_list:
 			show_key = show.find(class_="genres")["id"]
-			title = show.find("a", class_="link-title").string
+			title = str(show.find("a", class_="link-title").string)
+			title = _normalize_title(title)
 			more_names = [title[:-11]] if title.lower().endswith("2nd season") else list()
-			show_type = ShowType.TV #TODO
+			show_type = ShowType.TV #TODO, changes based on section/list
 			episode_count = episode_count_regex.search(show.find(class_="eps").find(string=episode_count_regex)).group(1)
 			episode_count = None if episode_count == "?" else int(episode_count)
 			has_source = show.find(class_="source").string != "Original"
+			
 			new_shows.append(UnprocessedShow(self.key, show_key, title, more_names, show_type, episode_count, has_source))
 		
 		return new_shows
@@ -110,5 +114,9 @@ class InfoHandler(AbstractInfoHandler):
 		auth = (self.config["username"], self.config["password"])
 		return self.request(url, auth=auth, xml=True, **kwargs)
 	
-	def _convert_type(self, mal_type):
-		return None
+def _convert_type(mal_type):
+	return None
+	
+def _normalize_title(title):
+	title = re.sub(" \(TV\)", "", title)
+	return title
