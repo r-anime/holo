@@ -13,7 +13,7 @@ class ServiceHandler(AbstractServiceHandler):
 	_episode_url = "http://www.funimation.com/shows/{show_slug}/videos/official/{ep_slug}?watch=sub"
 	
 	def __init__(self):
-		super().__init__("funimation", "FUNimation")
+		super().__init__("funimation", "FUNimation", False)
 	
 	def get_latest_episode(self, stream, **kwargs):
 		episodes = self._get_feed_episodes(stream.show_id, **kwargs)

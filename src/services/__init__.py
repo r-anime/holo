@@ -43,6 +43,7 @@ import requests
 from json import JSONDecodeError
 from xml.etree import ElementTree as xml_parser
 from bs4 import BeautifulSoup
+import feedparser
 
 def rate_limit(wait_length):
 	last_time = 0
@@ -66,7 +67,7 @@ class Requestable:
 	
 	@lru_cache(maxsize=100)
 	@rate_limit(rate_limit_wait)
-	def request(self, url, json=False, xml=False, html=False, proxy=None, useragent=None, auth=None):
+	def request(self, url, json=False, xml=False, html=False, rss=False, proxy=None, useragent=None, auth=None):
 		"""
 		Sends a request to the service.
 		:param url: The request URL
@@ -113,6 +114,10 @@ class Requestable:
 			debug("Returning response as HTML")
 			soup = BeautifulSoup(response.text, 'html.parser')
 			return soup
+		if rss:
+			debug("Returning response as RSS feed")
+			rss = feedparser.parse(response.text)
+			return rss
 		debug("Response returning as text")
 		return response.text
 
@@ -123,10 +128,11 @@ class Requestable:
 from abc import abstractmethod, ABC
 
 class AbstractServiceHandler(ABC, Requestable):
-	def __init__(self, key, name):
+	def __init__(self, key, name, is_generic):
 		self.key = key
 		self.name = name
 		self.config = None
+		self.is_generic = is_generic
 	
 	def set_config(self, config):
 		self.config = config

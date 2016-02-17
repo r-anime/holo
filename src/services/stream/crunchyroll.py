@@ -1,5 +1,5 @@
 from logging import debug, info, warning, error
-import feedparser, re
+import re
 
 from .. import AbstractServiceHandler
 from data.models import Episode, UnprocessedStream
@@ -12,7 +12,7 @@ class ServiceHandler(AbstractServiceHandler):
 	_season_url = "http://crunchyroll.com/lineup"
 	
 	def __init__(self):
-		super().__init__("crunchyroll", "Crunchyroll")
+		super().__init__("crunchyroll", "Crunchyroll", False)
 	
 	def get_latest_episode(self, stream, **kwargs):
 		episodes = self._get_feed_episodes(stream.show_key, **kwargs)
@@ -48,18 +48,15 @@ class ServiceHandler(AbstractServiceHandler):
 			url = self._backup_rss
 		
 		# Send request
-		response = self.request(url, **kwargs)
+		response = self.request(url, rss=True, **kwargs)
 		if response is None:
 			error("Cannot get latest show for Crunchyroll/{}".format(show_key))
 			return list()
 		
 		# Parse RSS feed
-		rss = feedparser.parse(response)
-		if not _verify_feed(rss):
+		if not _verify_feed(response):
 			warning("Parsed feed could not be verified, may have unexpected results")
-		#print(rss)
-		
-		return rss.get("entries", list())
+		return response.get("entries", list())
 	
 	def get_seasonal_streams(self, year=None, season=None, **kwargs):
 		debug("Getting season shows: year={}, season={}".format(year, season))
@@ -121,7 +118,7 @@ def _verify_feed(feed):
 	if feed.feed.language != "en-us":
 		debug("  Language not en-us")
 		return False
-	debug("  Feed verified \U0001F44D")
+	debug("  Feed verified")
 	return True
 
 def _is_valid_episode(feed_episode, show_id):

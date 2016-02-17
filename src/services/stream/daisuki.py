@@ -9,7 +9,7 @@ from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):
 	def __init__(self):
-		super().__init__("daisuki", "Daisuki")
+		super().__init__("daisuki", "Daisuki", False)
 	
 	def get_latest_episode(self, stream, **kwargs):
 		return None

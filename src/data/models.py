@@ -40,7 +40,7 @@ class Episode:
 		self.link = link
 		if isinstance(date, datetime):
 			self.date = date
-		else:
+		elif date:
 			self.date = datetime(*date[:6])
 	
 	def __str__(self):
