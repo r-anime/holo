@@ -9,7 +9,7 @@ def main(config, db, **kwargs):
 	#match_show_streams(config, db, update_db=not config.debug)
 	#match_show_streams(config, db)
 	#check_new_streams(config, db, update_db=not config.debug)
-	#check_new_streams(config, db)
+	check_new_streams(config, db)
 
 # New shows
 

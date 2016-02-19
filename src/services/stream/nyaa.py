@@ -1,4 +1,5 @@
 # Show search: https://www.nyaa.eu/?page=search&cats=1_37&filter=2&term=
+# Show search (RSS): https://www.nyaa.eu/?page=rss&cats=1_37&filter=2&term=
 
 from logging import debug, info, warning, error
 from datetime import datetime, timedelta
@@ -8,7 +9,7 @@ from .. import AbstractServiceHandler
 from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):
-	_search_base = "https://www.nyaa.eu/?page=rss&cats=1_37&filter=2&term={q}"
+	_search_base = "https://{domain}/?page=rss&cats=1_37&filter=2&term={q}"
 	
 	def __init__(self):
 		super().__init__("nyaa", "Nyaa", True)
@@ -32,10 +33,12 @@ class ServiceHandler(AbstractServiceHandler):
 		Always returns a list.
 		"""
 		info("Getting episodes for Nyaa/{}".format(show_key))
-		
-		url = self._search_base.format(q=show_key)
+		if "domain" not in self.config:
+			error("  Domain not specified in config")
+			return list()
 		
 		# Send request
+		url = self._search_base.format(domain=self.config["domain"], q=show_key)
 		response = self.request(url, rss=True, **kwargs)
 		if response is None:
 			error("Cannot get latest show for Nyaa/{}".format(show_key))
@@ -81,10 +84,13 @@ def _digest_episode(feed_episode):
 		return Episode(episode_num, title, link, date)
 	return None
 
-_num_extractors = [
-	"\[horriblesubs\] .+ - (\d+)"
-]
-_num_extractors = [re.compile(x, re.I) for x in _num_extractors]
+_num_extractors = [re.compile(x, re.I) for x in [
+	"\[horriblesubs|commie|hiryuu|kuusou|fff\] .+ - (\d+)",		# " - " separator between show and episode
+	"\[orz\] .* (\d+)",											# No separator
+	"\[kaitou\]_.*_-_(\d+)",									# "_-_" separator
+	"\[doremi\]\..*\.(\d+)",									# "." separator
+	"\[.*?\][ _].*[ _](?:-[ _])?(\d+)"							# Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
+]]
 
 def _extract_episode_num(name):
 	debug("Extracting episode number from \"{}\"".format(name))
