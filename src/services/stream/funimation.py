@@ -1,5 +1,5 @@
 # All shows: http://www.funimation.com/feeds/ps/shows?limit=100000
-# Single show: http://www.funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id=7556914
+# Single show: http://www.funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id=7556914&limit=100000
 
 from logging import debug, info, warning, error
 from datetime import datetime
@@ -9,7 +9,7 @@ from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):
 	_show_url = "http://funimation.com/shows/{id}"
-	_episode_feed = "http://funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id={id}"
+	_episode_feed = "http://funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id={id}&limit=100000"
 	_episode_url = "http://www.funimation.com/shows/{show_slug}/videos/official/{ep_slug}?watch=sub"
 	
 	def __init__(self):
