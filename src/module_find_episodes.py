@@ -8,8 +8,9 @@ def main(config, db, **kwargs):
 	
 	# Check services for new episodes
 	for service in db.get_services(enabled=True):
-		streams = db.get_streams(service=service)
 		service_handler = services.get_service_handler(service)
+		
+		streams = db.get_streams(service=service)
 		debug("{} streams found".format(len(streams)))
 		for stream in streams:
 			show = db.get_show(stream=stream)
@@ -21,6 +22,10 @@ def main(config, db, **kwargs):
 			
 			# Check latest episode
 			episode = service_handler.get_latest_episode(stream, useragent=config.useragent)
+			if not episode:
+				info("  Show/episode not found")
+				continue
+			
 			debug(episode)
 			info("  Is live: {}".format(episode.is_live))
 			

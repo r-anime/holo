@@ -4,68 +4,76 @@
 
 from logging import debug, info, warning, error
 from datetime import datetime
+import re
 
 from .. import AbstractServiceHandler
 from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):
 	_show_url = "http://funimation.com/shows/{id}"
-	_episode_feed = "http://funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id={id}&limit=100000"
+	_episode_feed = "https://api-funimation.dadcdigital.com/xml/longlist/content/page/?id=shows&sort=&sort_direction=DESC&itemThemes=dateAddedShow&territory=US&offset=0&limit=30"
 	_episode_url = "http://www.funimation.com/shows/{show_slug}/videos/official/{ep_slug}?watch=sub"
 	
+	_re_episode_num = re.compile("Episode ([0-9]+)", re.I)
+	
 	def __init__(self):
-		super().__init__("funimation_old", "FUNimation", False)
+		super().__init__("funimation", "FUNimation", False)
 	
 	def get_latest_episode(self, stream, **kwargs):
-		episodes = self._get_feed_episodes(stream.show_id, **kwargs)
-		if not episodes or len(episodes) == 0:
-			debug("No episodes found")
+		shows = self._get_feed_shows(stream.show_id, **kwargs)
+		if not shows or len(shows) == 0:
+			debug("No shows found")
 			return None
 		
 		# Hope the episodes were parsed in order and iterate down looking for the latest episode
 		# The show-specific feed was likely used, but not guaranteed
-		for episode in episodes:
-			if _is_valid_episode(episode, stream.show_id):
+		for episode in shows:
+			if _is_valid_show(episode, stream.show_id):
 				return self._digest_episode(episode, stream)
 		
-		debug("Episode not found")
+		debug("Show not found")
 		return None
 	
 	def get_stream_link(self, stream):
 		# Just going to assume it's the correct service
 		return self._show_url.format(id=stream.show_key)
 	
-	def _get_feed_episodes(self, show_id, **kwargs):
+	def _get_feed_shows(self, show_id, **kwargs):
 		"""
 		Always returns a list.
 		"""
 		info("Getting episodes for Funimation/{}".format(show_id))
 		
 		# Send request
-		url = self._episode_feed.format(id=show_id)
-		response = self.request(url, json=True, **kwargs)
+		response = self.request(self._episode_feed, xml=True, **kwargs)
 		if response is None:
-			error("Cannot get latest show for Funimation/{}".format(show_id))
+			error("Cannot get latest shows feed".format(show_id))
 			return list()
 		
-		# Parse RSS feed
+		# Parse response
 		if not _verify_feed(response):
 			warning("Parsed feed could not be verified, may have unexpected results")
 		#print(rss)
 		
-		return response["videos"]
+		return response
 	
 	def _digest_episode(self, feed_episode, stream):
 		debug("Digesting episode")
 		
 		# Get data
-		num = feed_episode["number"]
+		content = feed_episode.find("content").find("metadata")
+		num_text = content.find("recentContentItem").text
+		num_match = self._re_episode_num.match(num_text)
+		if not num_match:
+			error("recentContentItem episode has unknown format: \"{}\"".format(num_text))
+		num = int(num_match.group(1))
 		debug("  num={}".format(num))
-		name = feed_episode["show_name"]
+		name = None #feed_episode["show_name"]		#FIXME
 		debug("  name={}".format(name))
-		link = self._episode_url.format(show_slug=stream.show_key, ep_slug=feed_episode["url"])
+		link = None #self._episode_url.format(show_slug=stream.show_key, ep_slug=feed_episode["url"])		#FIXME
 		debug("  link={}".format(link))
-		date = datetime.strptime(feed_episode["releaseDate"], "%Y/%m/%d")
+		#FIXME: content-metadata contains "<recentlyAdded>added {1458071999} ago"; could use timestamp
+		date = datetime.now() #datetime.strptime(feed_episode["releaseDate"], "%Y/%m/%d")
 		debug("  date={}".format(date))
 		
 		return Episode(num, name, link, date)
@@ -76,24 +84,14 @@ class ServiceHandler(AbstractServiceHandler):
 # Helpers
 
 def _verify_feed(feed):
-	debug("Verifying feed")
-	if "videos" not in feed:
-		debug("  Feed doesn't contain videos")
-		return False
 	return True
 
-def _is_valid_episode(feed_episode, show_id):
-	def get(key, default):
-		if key in feed_episode:
-			return feed_episode[key]
-		return default
-	
-	# Ignore dubs (HA!)
-	if get("has_subtitles", "false") != "true" or get("dub_sub", "dub") != "sub":
-		debug("Is dub, ignoring")
+def _is_valid_show(feed_episode, show_id):
+	block = feed_episode.find("id")
+	if block is None or block.text != show_id:
 		return False
-	# Sanity check
-	if get("show_id", "-1") != show_id:
-		debug("Wrong ID")
+	block = feed_episode.find("content")
+	if not block or not block.find("metadata"):
+		print("Content block not found")
 		return False
 	return True
