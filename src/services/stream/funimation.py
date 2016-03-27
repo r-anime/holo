@@ -10,13 +10,18 @@ from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):
 	_show_url = "http://funimation.com/shows/{id}"
+	_show_list = "http://www.funimation.com/feeds/ps/shows?limit=100000"
 	_episode_feed = "http://funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id={id}&limit=100000"
 	_episode_url = "http://www.funimation.com/shows/{show_slug}/videos/official/{ep_slug}?watch=sub"
 	
 	def __init__(self):
-		super().__init__("funimation_old", "FUNimation", False)
+		super().__init__("funimation", "FUNimation", False)
 	
 	def get_latest_episode(self, stream, **kwargs):
+		if not stream.show_id:
+			debug("ID required and not given")
+			return None
+		
 		episodes = self._get_feed_episodes(stream.show_id, **kwargs)
 		if not episodes or len(episodes) == 0:
 			debug("No episodes found")

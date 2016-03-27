@@ -17,7 +17,7 @@ class ServiceHandler(AbstractServiceHandler):
 	_re_episode_num = re.compile("Episode ([0-9]+)", re.I)
 	
 	def __init__(self):
-		super().__init__("funimation", "FUNimation", False)
+		super().__init__("funimation_new", "FUNimation", False)
 	
 	def get_latest_episode(self, stream, **kwargs):
 		shows = self._get_feed_shows(stream.show_id, **kwargs)
