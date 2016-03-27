@@ -151,9 +151,9 @@ class DatabaseDatabase:
 	@lru_cache(10)
 	def get_service(self, id=None, key=None):
 		if id is not None:
-			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE id = ?", (id,))
+			self.q.execute("SELECT id, key, name, enabled, use_in_post FROM Services WHERE id = ?", (id,))
 		elif key is not None:
-			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE key = ?", (key,))
+			self.q.execute("SELECT id, key, name, enabled, use_in_post FROM Services WHERE key = ?", (key,))
 		else:
 			error("ID or key required to get service")
 			return None
@@ -164,11 +164,11 @@ class DatabaseDatabase:
 	def get_services(self, enabled=True, disabled=False) -> [Service]:
 		services = list()
 		if enabled:
-			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE enabled = 1")
+			self.q.execute("SELECT id, key, name, enabled, use_in_post FROM Services WHERE enabled = 1")
 			for service in self.q.fetchall():
 				services.append(Service(*service))
 		if disabled:
-			self.q.execute("SELECT id, key, name, enabled FROM Services WHERE enabled = 0")
+			self.q.execute("SELECT id, key, name, enabled, use_in_post FROM Services WHERE enabled = 0")
 			for service in self.q.fetchall():
 				services.append(Service(*service))
 		return services
@@ -190,7 +190,7 @@ class DatabaseDatabase:
 			return None
 	
 	@db_error_default(list())
-	def get_streams(self, service=None, show=None, active=True, use_in_post=True, unmatched=False):
+	def get_streams(self, service=None, show=None, active=True, unmatched=False):
 		# Not the best combination of options, but it's only the usage needed
 		if service is not None:
 			debug("Getting all streams for service {}".format(service.key))
@@ -200,7 +200,7 @@ class DatabaseDatabase:
 		elif show is not None:
 			debug("Getting all streams for show {}".format(show.id))
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
-							WHERE show = ? AND active = ? AND use_in_post = ?", (show.id, active, use_in_post))
+							WHERE show = ? AND active = ?", (show.id, active))
 		elif unmatched:
 			debug("Getting unmatched streams")
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \

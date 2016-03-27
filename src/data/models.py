@@ -52,15 +52,16 @@ class Episode:
 		return now >= self.date
 
 class Service:
-	def __init__(self, id, key, name, enabled):
+	def __init__(self, id, key, name, enabled, use_in_post):
 		# Note: arguments are order-sensitive
 		self.id = id
 		self.key = key
 		self.name = name
 		self.enabled = enabled == 1
+		self.use_in_post = use_in_post == 1
 		
 	def __str__(self):
-		return "Service: {} ({})".format(self.key, self.id, self.enabled)
+		return "Service: {} ({})".format(self.key, self.id)
 
 class Stream:
 	def __init__(self, id, service, show, show_id, show_key, name, remote_offset, display_offset, active):
