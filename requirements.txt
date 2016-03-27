@@ -1,0 +1,7 @@
+praw<4
+praw-script-oauth==0.1.1
+beautifulsoup4==4.4.1
+feedparser==5.2.1
+requests==2.9.1
+Unidecode==0.4.19
+PyYAML==3.11
