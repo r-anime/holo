@@ -187,15 +187,18 @@ def get_service_handlers():
 	_ensure_service_handlers()
 	return _services
 
-def get_service_handler(service):
+def get_service_handler(service=None, key=None):
 	"""
-	Returns an instance of a service handler representing the given service.
+	Returns an instance of a service handler representing the given service or service key.
 	:param service: A service
+	:param key: A service key
 	:return: A service handler instance
 	"""
 	_ensure_service_handlers()
 	if service is not None and service.key in _services:
 		return _services[service.key]
+	if key is not None and key in _services:
+		return _services[key]
 	return None
 
 ################
@@ -209,7 +212,7 @@ class AbstractInfoHandler(ABC, Requestable):
 		self.config = None
 	
 	def set_config(self, config):
-		debug("Setting config of {} to {}".format(self.key, config))
+		#debug("Setting config of {} to {}".format(self.key, config))
 		self.config = config
 	
 	@abstractmethod
@@ -218,6 +221,17 @@ class AbstractInfoHandler(ABC, Requestable):
 		Creates a URL using the information provided by a link object.
 		:param link: The link object
 		:return: A URL
+		"""
+		return None
+	
+	@abstractmethod
+	def extract_show_id(self, url):
+		"""
+		Extracts a show's ID from its URL.
+		For example, 31737 is extracted from the MAL URL
+			http://myanimelist.net/anime/31737/Gakusen_Toshi_Asterisk_2nd_Season
+		:param url: 
+		:return: The show's service ID
 		"""
 		return None
 	
@@ -273,7 +287,7 @@ def get_link_handlers():
 	_ensure_link_handlers()
 	return _link_sites
 
-def get_link_handler(link_site):
+def get_link_handler(link_site=None, key=None):
 	"""
 	Returns an instance of a link handler representing the given link site.
 	:param link_site: A link site
@@ -282,4 +296,6 @@ def get_link_handler(link_site):
 	_ensure_link_handlers()
 	if link_site is not None and link_site.key in _link_sites:
 		return _link_sites[link_site.key]
+	if key is not None and key in _link_sites:
+		return _link_sites[key]
 	return None

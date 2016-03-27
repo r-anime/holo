@@ -9,6 +9,7 @@ from data.models import UnprocessedShow, ShowType
 
 class InfoHandler(AbstractInfoHandler):
 	_show_link_base = "http://myanimelist.net/anime/{id}/"
+	_show_link_matcher = "https?://(?:.+?\.)?myanimelist\.net/anime/([0-9]{5,})/"
 	_season_show_url = "http://myanimelist.net/anime/season"
 	
 	_api_search_base = "http://myanimelist.net/api/anime/search.xml?q={q}"
@@ -20,6 +21,13 @@ class InfoHandler(AbstractInfoHandler):
 		if link is None:
 			return None
 		return self._show_link_base.format(id=link.site_key)
+	
+	def extract_show_id(self, url):
+		if url is not None:
+			match = re.match(self._show_link_matcher, url, re.I)
+			if match:
+				return match.group(1)
+		return None
 	
 	def find_show(self, show_name, **kwargs):
 		url = self._api_search_base.format(q=show_name)

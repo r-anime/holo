@@ -297,7 +297,8 @@ class DatabaseDatabase:
 	@db_error_default(False)
 	def has_link(self, site_key, key):
 		site = self.get_link_site(key=site_key)
-		self.q.execute("SELECT count(*) FROM Links WHERE site = ? AND site_key = ?", (site.id, key))
+		self.q.execute("SELECT count(*) FROM Links WHERE site = ? AND site_key = ?",
+					   (site.id, key))
 		return self.get_count() > 0
 	
 	@db_error
@@ -310,7 +311,8 @@ class DatabaseDatabase:
 			return
 		site_key = raw_show.show_key
 		
-		self.q.execute("INSERT INTO Links (show, site, site_key) VALUES (?, ?, ?)", (show_id, site.id, site_key))
+		self.q.execute("INSERT INTO Links (show, site, site_key) VALUES (?, ?, ?)",
+					   (show_id, site.id, site_key))
 		if commit:
 			self.commit()
 	
@@ -365,6 +367,21 @@ class DatabaseDatabase:
 			self.commit()
 		return show_id
 	
+	@db_error_default(None)
+	def update_show(self, show_id, raw_show, commit=True):
+		debug("Updating show: {}".format(raw_show))
+		
+		#name = raw_show.name
+		length = raw_show.episode_count
+		show_type = from_show_type(raw_show.show_type)
+		has_source = raw_show.has_source
+		
+		self.q.execute("UPDATE Shows SET length = ?, type = ?, has_source = ? WHERE id = ?",
+					   (length, show_type, has_source, show_id))
+		
+		if commit:
+			self.commit()
+	
 	@db_error
 	def add_show_names(self, *names, id=None, commit=True):
 		self.q.executemany("INSERT INTO ShowNames (show, name) VALUES (?, ?)", [(id, name) for name in names])
@@ -395,11 +412,14 @@ class DatabaseDatabase:
 	# Searching
 	
 	@db_error_default(set())
-	def search_show_ids_by_names(self, *names):
+	def search_show_ids_by_names(self, *names, exact=False):
 		shows = set()
 		for name in names:
 			debug("Searching shows by name: {}".format(name))
-			self.q.execute("SELECT show, name FROM ShowNames WHERE name = ? COLLATE alphanum", (name,))
+			if exact:
+				self.q.execute("SELECT show, name FROM ShowNames WHERE name = ?", (name,))
+			else:
+				self.q.execute("SELECT show, name FROM ShowNames WHERE name = ? COLLATE alphanum", (name,))
 			matched = self.q.fetchall()
 			for match in matched:
 				debug("  Found match: {} | {}".format(match[0], match[1]))

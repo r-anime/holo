@@ -16,6 +16,7 @@ from data.models import UnprocessedShow, ShowType
 
 class InfoHandler(AbstractInfoHandler):
 	_show_link_base = "http://anidb.net/perl-bin/animedb.pl?show=anime&aid={id}"
+	_show_link_matcher = "https?://anidb\\.net/a([0-9]+)|https?://anidb\\.net/perl-bin/animedb\\.pl\\?(?:[^/]+&)aid=([0-9]+)"
 	_season_url = "http://anidb.net/perl-bin/animedb.pl?show=calendar&tvseries=1&ova=1&last.anime.month=1&last.anime.year=2016"
 	
 	_api_base = "http://api.anidb.net:9001/httpapi?client={client}&clientver={ver}&protover=1&request={request}"
@@ -28,6 +29,13 @@ class InfoHandler(AbstractInfoHandler):
 		if link is None:
 			return None
 		return self._show_link_base.format(id=link.site_key)
+	
+	def extract_show_id(self, url):
+		if url is not None:
+			match = re.match(self._show_link_matcher, url, re.I)
+			if match:
+				return match.group(1) or match.group(2)
+		return None
 	
 	def get_episode_count(self, show, link, **kwargs):
 		return None

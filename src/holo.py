@@ -18,7 +18,7 @@ os.chdir(str(Path(__file__).parent.parent))
 from data import database
 import services
 
-def main(config):
+def main(config, extra_args):
 	from logging import debug, info, warning, error, exception
 	
 	# Set things up
@@ -38,6 +38,10 @@ def main(config):
 			info("Registering services")
 			db.register_services(services.get_service_handlers())
 			db.register_link_sites(services.get_link_handlers())
+		elif config.module == "edit":
+			info("Editing database")
+			import module_edit as m
+			m.main(config, db, *extra_args)
 		elif config.module == "episode":
 			info("Finding new episodes")
 			import module_find_episodes as m
@@ -63,12 +67,13 @@ if __name__ == "__main__":
 	import argparse
 	parser = argparse.ArgumentParser(description="{}, {}".format(name, description))
 	parser.add_argument("--no-input", dest="no_input", action="store_true", help="run without stdin and write to a log file")
-	parser.add_argument("-m", "--module", dest="module", nargs=1, choices=["setup", "episode", "update", "find"], default=["episode"], help="runs the specified module")
+	parser.add_argument("-m", "--module", dest="module", nargs=1, choices=["setup", "edit", "episode", "update", "find"], default=["episode"], help="runs the specified module")
 	parser.add_argument("-c", "--config", dest="config_file", nargs=1, default="config.ini", help="use or create the specified database location")
 	parser.add_argument("-d", "--database", dest="db_name", nargs=1, default=None, help="use or create the specified database location")
 	parser.add_argument("-s", "--subreddit", dest="subreddit", nargs=1, default=None, help="set the subreddit on which to make posts")
 	parser.add_argument("-v", "--version", action="version", version="{} v{}, {}".format(name, version, description))
 	parser.add_argument("--debug", action="store_true")
+	parser.add_argument("extra", nargs="*")
 	args = parser.parse_args()
 	
 	# Load config file
@@ -101,4 +106,4 @@ if __name__ == "__main__":
 	err = config_loader.validate(c)
 	if err:
 		warning("Configuration state invalid: {}".format(err))
-	main(c)
+	main(c, args.extra)
