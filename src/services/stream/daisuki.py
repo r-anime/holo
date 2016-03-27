@@ -11,11 +11,23 @@ class ServiceHandler(AbstractServiceHandler):
 	def __init__(self):
 		super().__init__("daisuki", "Daisuki", False)
 	
+	# Episode finding
+	
 	def get_latest_episode(self, stream, **kwargs):
 		return None
 	
-	def get_stream_link(self, stream):
+	# Remote info getting
+	
+	def get_stream_info(self, stream, **kwargs):
 		return None
 	
 	def get_seasonal_streams(self, year=None, season=None, **kwargs):
 		return list()
+	
+	# Local info formatting
+	
+	def get_stream_link(self, stream):
+		return None
+	
+	def extract_show_key(self, url):
+		return None

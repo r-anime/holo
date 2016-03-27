@@ -157,6 +157,25 @@ class AbstractServiceHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
+	def extract_show_key(self, url):
+		"""
+		Extracts a show's key from its URL.
+		For example, "myriad-colors-phantom-world" is extracted from the Crunchyroll URL
+			http://www.crunchyroll.com/myriad-colors-phantom-world.rss
+		:param url: 
+		:return: The show's service key
+		"""
+		return None
+	
+	@abstractmethod
+	def get_stream_info(self, stream, **kwargs):
+		"""
+		Get information about the stream, including name and ID.
+		:param stream: The stream being checked
+		:return: An updated stream object if successful, otherwise None"""
+		return None
+	
+	@abstractmethod
 	def get_seasonal_streams(self, year=None, season=None, **kwargs):
 		"""
 		Gets a list of streams for shows airing in a particular season.

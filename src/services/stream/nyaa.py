@@ -14,6 +14,8 @@ class ServiceHandler(AbstractServiceHandler):
 	def __init__(self):
 		super().__init__("nyaa", "Nyaa", True)
 	
+	# Episode finding
+	
 	def get_latest_episode(self, stream, **kwargs):
 		episodes = self._get_feed_episodes(stream.show_key, **kwargs)
 		max_episode = None
@@ -52,6 +54,12 @@ class ServiceHandler(AbstractServiceHandler):
 	# Don't need these!
 	
 	def get_stream_link(self, stream):
+		return None
+	
+	def get_stream_info(self, stream, **kwargs):
+		return None
+	
+	def extract_show_key(self, url):
 		return None
 	
 	def get_seasonal_streams(self, year=None, season=None, **kwargs):

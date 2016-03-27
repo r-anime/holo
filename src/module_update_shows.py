@@ -3,7 +3,10 @@ from logging import debug, info, warning, error
 import services
 
 def main(config, db, **kwargs):
+	# Show lengths aren't always known at the start of the season
 	_check_show_lengths(config, db, update_db=not config.debug)
+	# Find data not provided by the edit module
+	_check_missing_stream_info(config, db, update_db=not config.debug)
 	
 def _check_show_lengths(config, db, update_db=True):
 	shows = db.get_shows(missing_length=True)
@@ -38,3 +41,24 @@ def _check_show_lengths(config, db, update_db=True):
 				db.set_show_episode_count(show, length)
 			else:
 				warning("Debug enabled, not updating database")
+
+def _check_missing_stream_info(config, db, update_db=True):
+	streams = db.get_streams(missing_name=True)
+	for stream in streams:
+		service_info = db.get_service(id=stream.service)
+		info("Updating missing steam info of {} ({}/{})".format(stream.name, service_info.name, stream.show_key))
+		
+		service = services.get_service_handler(key=service_info.key)
+		stream = service.get_stream_info(stream, useragent=config.useragent)
+		if not stream:
+			error("  Stream info not found")
+			continue
+		
+		debug("  name={}".format(stream.name))
+		debug("  key={}".format(stream.show_key))
+		debug("  id={}".format(stream.show_id))
+		if update_db:
+			db.update_stream(stream, name=stream.name, show_id=stream.show_id, show_key=stream.show_key, commit=False)
+	
+	if update_db:
+		db.commit()

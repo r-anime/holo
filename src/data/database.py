@@ -190,7 +190,7 @@ class DatabaseDatabase:
 			return None
 	
 	@db_error_default(list())
-	def get_streams(self, service=None, show=None, active=True, unmatched=False):
+	def get_streams(self, service=None, show=None, active=True, unmatched=False, missing_name=False):
 		# Not the best combination of options, but it's only the usage needed
 		if service is not None:
 			debug("Getting all streams for service {}".format(service.key))
@@ -205,6 +205,10 @@ class DatabaseDatabase:
 			debug("Getting unmatched streams")
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
 							WHERE show IS NULL")
+		elif missing_name:
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
+							WHERE (name IS NULL OR name = '') AND active = ?",
+				(active,))
 		else:
 			error("A service or show must be provided to get streams")
 			return list()
@@ -230,12 +234,18 @@ class DatabaseDatabase:
 			self.commit()
 	
 	@db_error
-	def update_stream(self, stream, show=None, active=None, commit=True):
-		debug("Updating stream: show={}".format(show))
+	def update_stream(self, stream, show=None, active=None, name=None, show_id=None, show_key=None, commit=True):
+		debug("Updating stream: id={}".format(stream.id))
 		if show is not None:
 			self.q.execute("UPDATE Streams SET show = ? WHERE id = ?", (show, stream.id))
 		if active is not None:
 			self.q.execute("UPDATE Streams SET active = ? WHERE id = ?", (active, stream.id))
+		if name is not None:
+			self.q.execute("UPDATE Streams SET name = ? WHERE id = ?", (name, stream.id))
+		if show_id is not None:
+			self.q.execute("UPDATE Streams SET show_id = ? WHERE id = ?", (show_id, stream.id))
+		if show_key is not None:
+			self.q.execute("UPDATE Streams SET show_key = ? WHERE id = ?", (show_key, stream.id))
 		
 		if commit:
 			self.commit()

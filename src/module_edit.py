@@ -19,11 +19,13 @@ def _edit_with_file(db, edit_file):
 	
 	info("Parsing show edit file \"{}\"".format(edit_file))
 	try:
-		with open(edit_file, "r") as f:
+		with open(edit_file, "r", encoding="UTF-8") as f:
 			parsed = list(yaml.load_all(f))
 	except yaml.YAMLError:
 		exception("Failed to parse edit file")
 		return
+	
+	debug("  num shows={}".format(len(parsed)))
 	
 	for doc in parsed:
 		name = doc["title"]
@@ -72,21 +74,21 @@ def _edit_with_file(db, edit_file):
 		# Streams
 		if "streams" in doc:
 			streams = doc["streams"]
-			for stream_key in streams:
-				url = streams[stream_key]
+			for service_key in streams:
+				url = streams[service_key]
 				if not url:
 					continue
 				
-				debug("  Stream {}: {}".format(stream_key, url))
-				stream_handler = services.get_service_handler(key=stream_key)
+				debug("  Stream {}: {}".format(service_key, url))
+				stream_handler = services.get_service_handler(key=service_key)
 				if stream_handler:
-					stream_id = stream_handler.extract_show_id(url)
-					debug("    id={}".format(stream_id))
+					stream_key = stream_handler.extract_show_key(url)
+					debug("    id={}".format(stream_key))
 					
-					if not db.has_stream(stream_key, stream_id):
-						s = UnprocessedStream(stream_key, stream_id, None, "", 0, 0)
+					if not db.has_stream(service_key, stream_key):
+						s = UnprocessedStream(service_key, stream_key, None, "", 0, 0)
 						db.add_stream(s, show_id, commit=False)
 				else:
 					error("    Stream handler not installed")
 			
-		return True
+	return True

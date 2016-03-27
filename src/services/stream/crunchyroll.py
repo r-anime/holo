@@ -14,6 +14,8 @@ class ServiceHandler(AbstractServiceHandler):
 	def __init__(self):
 		super().__init__("crunchyroll", "Crunchyroll", False)
 	
+	# Episode finding
+	
 	def get_latest_episode(self, stream, **kwargs):
 		episodes = self._get_feed_episodes(stream.show_key, **kwargs)
 		if not episodes or len(episodes) == 0:
@@ -29,23 +31,13 @@ class ServiceHandler(AbstractServiceHandler):
 		debug("Episode not found")
 		return None
 	
-	def get_stream_link(self, stream):
-		# Just going to assume it's the correct service
-		return self._show_url.format(id=stream.show_key)
-	
 	def _get_feed_episodes(self, show_key, **kwargs):
 		"""
 		Always returns a list.
 		"""
 		info("Getting episodes for Crunchyroll/{}".format(show_key))
 		
-		# Sometimes shows don't have an RSS feed
-		# Use the backup global feed when it doesn't
-		if show_key is not None:
-			url = self._episode_rss.format(id=show_key)
-		else:
-			debug("  Using backup feed")
-			url = self._backup_rss
+		url = self._get_feed_url(show_key)
 		
 		# Send request
 		response = self.request(url, rss=True, **kwargs)
@@ -58,7 +50,35 @@ class ServiceHandler(AbstractServiceHandler):
 			warning("Parsed feed could not be verified, may have unexpected results")
 		return response.get("entries", list())
 	
+	@classmethod
+	def _get_feed_url(cls, show_key):
+		# Sometimes shows don't have an RSS feed
+		# Use the backup global feed when it doesn't
+		if show_key is not None:
+			return cls._episode_rss.format(id=show_key)
+		else:
+			debug("  Using backup feed")
+			return cls._backup_rss
+	
+	# Remote info getting
+	
+	def get_stream_info(self, stream, **kwargs):
+		info("Getting stream info for Crunchyroll/{}".format(stream.show_key))
+		
+		url = self._get_feed_url(stream.show_key)
+		response = self.request(url, rss=True, **kwargs)
+		if response is None:
+			error("Cannot get feed")
+			return None
+		
+		if not _verify_feed(response):
+			warning("Parsed feed could not be verified, may have unexpected results")
+		
+		stream.name = response.feed.title
+		return stream
+	
 	def get_seasonal_streams(self, year=None, season=None, **kwargs):
+		#TODO finish
 		debug("Getting season shows: year={}, season={}".format(year, season))
 		if year or season:
 			error("Year and season are not supported by {}".format(self.name))
@@ -104,7 +124,19 @@ class ServiceHandler(AbstractServiceHandler):
 	def _get_stream_info(self, show_key):
 		#TODO: load show page and figure out offsets based on contents
 		return 0, 0
-
+	
+	# Local info formatting
+	
+	def get_stream_link(self, stream):
+		# Just going to assume it's the correct service
+		return self._show_url.format(id=stream.show_key)
+	
+	def extract_show_key(self, url):
+		match = self._show_re.search(url)
+		if match:
+			return match.group(1)
+		return None
+	
 # Episode feeds
 
 def _verify_feed(feed):

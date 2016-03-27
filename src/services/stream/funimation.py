@@ -4,6 +4,7 @@
 
 from logging import debug, info, warning, error
 from datetime import datetime
+import re
 
 from .. import AbstractServiceHandler
 from data.models import Episode
@@ -14,8 +15,12 @@ class ServiceHandler(AbstractServiceHandler):
 	_episode_feed = "http://funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id={id}&limit=100000"
 	_episode_url = "http://www.funimation.com/shows/{show_slug}/videos/official/{ep_slug}?watch=sub"
 	
+	_show_key_re = re.compile("funimation\.com/([^/]+)", re.I)
+	
 	def __init__(self):
 		super().__init__("funimation", "FUNimation", False)
+	
+	# Episode finding
 	
 	def get_latest_episode(self, stream, **kwargs):
 		if not stream.show_id:
@@ -35,10 +40,6 @@ class ServiceHandler(AbstractServiceHandler):
 		
 		debug("Episode not found")
 		return None
-	
-	def get_stream_link(self, stream):
-		# Just going to assume it's the correct service
-		return self._show_url.format(id=stream.show_key)
 	
 	def _get_feed_episodes(self, show_id, **kwargs):
 		"""
@@ -75,8 +76,42 @@ class ServiceHandler(AbstractServiceHandler):
 		
 		return Episode(num, name, link, date)
 	
+	# Remote info getting
+	
+	def get_stream_info(self, stream, **kwargs):
+		info("Getting stream info for Funimation/{}".format(stream.show_key))
+		
+		response = self.request(self._show_list, json=True, **kwargs)
+		if response is None:
+			error("Cannot get stream info")
+			return None
+		
+		for show_data in response:
+			show_key = self.extract_show_key(show_data["link"])
+			if show_key and show_key == stream.show_key:
+				name = show_data["series_name"]
+				id = show_data["asset_id"]
+				stream.name = name
+				stream.show_id = id
+				return stream
+		
+		return None
+	
 	def get_seasonal_streams(self, year=None, season=None, **kwargs):
+		#TODO
 		return list()
+	
+	# Local info formatting
+	
+	def get_stream_link(self, stream):
+		# Just going to assume it's the correct service
+		return self._show_url.format(id=stream.show_key)
+	
+	def extract_show_key(self, url):
+		match = self._show_key_re.search(url)
+		if match:
+			return match.group(1)
+		return None
 
 # Helpers
 
