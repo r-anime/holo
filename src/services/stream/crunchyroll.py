@@ -155,7 +155,7 @@ def _verify_feed(feed):
 
 def _is_valid_episode(feed_episode, show_id):
 	# We don't want non-episodes (PVs, VA interviews, etc.)
-	if feed_episode.get("crunchyroll_isclip", False):
+	if feed_episode.get("crunchyroll_isclip", False) or not hasattr(feed_episode, "crunchyroll_episodenumber"):
 		debug("Is PV, ignoring")
 		return False
 	# Sanity check
