@@ -186,7 +186,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11819
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/kumamiko/home
 ---
 title: Kyoukai no Rinne 2nd Season
 type: tv

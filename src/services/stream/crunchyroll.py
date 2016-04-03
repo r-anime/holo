@@ -1,4 +1,4 @@
-from logging import debug, info, warning, error
+from logging import debug, info, warning, error, exception
 import re
 
 from .. import AbstractServiceHandler
@@ -26,7 +26,11 @@ class ServiceHandler(AbstractServiceHandler):
 		# The show-specific feed was likely used, but not guaranteed
 		for episode in episodes:
 			if _is_valid_episode(episode, stream.show_key):
-				return _digest_episode(episode)
+				try:
+					return _digest_episode(episode)
+				except:
+					exception("Problem digesting episode for Crunchyroll/{}".format(stream.show_key))
+					return None
 		
 		debug("Episode not found")
 		return None
@@ -153,6 +157,7 @@ def _verify_feed(feed):
 	debug("  Feed verified")
 	return True
 
+
 def _is_valid_episode(feed_episode, show_id):
 	# We don't want non-episodes (PVs, VA interviews, etc.)
 	if feed_episode.get("crunchyroll_isclip", False) or not hasattr(feed_episode, "crunchyroll_episodenumber"):
@@ -165,12 +170,18 @@ def _is_valid_episode(feed_episode, show_id):
 	return True
 
 _episode_name_correct = re.compile("Episode \d+ - (.*)")
+_episode_count_fix = re.compile("([0-9]+)[abc]?", re.I)
 
 def _digest_episode(feed_episode):
 	debug("Digesting episode")
 	
 	# Get data
-	num = int(feed_episode.crunchyroll_episodenumber)
+	num_match = _episode_count_fix.match(feed_episode.crunchyroll_episodenumber)
+	if num_match:
+		num = int(num_match.group(1))
+	else:
+		warning("Unknown episode number format \"{}\"".format(feed_episode.crunchyroll_episodenumber))
+		num = 0
 	debug("  num={}".format(num))
 	name = feed_episode.title
 	match = _episode_name_correct.match(name)
