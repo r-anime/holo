@@ -46,7 +46,7 @@ info:
     anidb: ''
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/my-hero-academia/home
 ---
 title: Bungou Stray Dogs
 type: tv
@@ -76,7 +76,7 @@ info:
     anidb: ''
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/endride/home
 ---
 title: Flying Witch
 type: tv
@@ -95,7 +95,7 @@ info:
     mal: http://myanimelist.net/anime/31737/Gakusen_Toshi_Asterisk_2nd_Season
     anidb: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/the-asterisk-war
     funimation: ''
 ---
 title: 'Gyakuten Saiban: Sono "Shinjitsu", Igi Ari!'
@@ -155,7 +155,7 @@ info:
     mal: http://myanimelist.net/anime/31798/Kiznaiver
     anidb: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/kiznaiver
     funimation: ''
 ---
 title: Koutetsujou no Kabaneri
