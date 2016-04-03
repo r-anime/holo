@@ -46,7 +46,7 @@ def _check_missing_stream_info(config, db, update_db=True):
 	streams = db.get_streams(missing_name=True)
 	for stream in streams:
 		service_info = db.get_service(id=stream.service)
-		info("Updating missing steam info of {} ({}/{})".format(stream.name, service_info.name, stream.show_key))
+		info("Updating missing stream info of {} ({}/{})".format(stream.name, service_info.name, stream.show_key))
 		
 		service = services.get_service_handler(key=service_info.key)
 		stream = service.get_stream_info(stream, useragent=config.useragent)

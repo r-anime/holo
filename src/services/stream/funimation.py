@@ -15,7 +15,7 @@ class ServiceHandler(AbstractServiceHandler):
 	_episode_feed = "http://funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id={id}&limit=100000"
 	_episode_url = "http://www.funimation.com/shows/{show_slug}/videos/official/{ep_slug}?watch=sub"
 	
-	_show_key_re = re.compile("funimation\.com/([^/]+)", re.I)
+	_show_key_re = re.compile("funimation\.com/(?:shows/)?([^/]+)", re.I)
 	
 	def __init__(self):
 		super().__init__("funimation", "FUNimation", False)

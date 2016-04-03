@@ -93,8 +93,11 @@ class Requestable:
 		debug("  Headers={}".format(headers))
 		response = requests.get(url, headers=headers, proxies=proxy, auth=auth)
 		debug("  Status code: {}".format(response.status_code))
-		if not response.ok or response.status_code == 204:		#204 is a special case for MAL errors
+		if not response.ok or response.status_code == 204:		# 204 is a special case for MAL errors
 			error("Response {}: {}".format(response.status_code, response.reason))
+			return None
+		if len(response.text) == 0:		# Some sites *coughfunimationcough* may return successful empty responses for new shows
+			error("Empty response (probably funimation)")
 			return None
 		
 		if json:
