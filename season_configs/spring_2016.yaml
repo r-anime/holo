@@ -3,9 +3,9 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31080/Anne_Happy%E2%99%AA
-    anidb: ''
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11321
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/anne-happy
     funimation: ''
 ---
 title: Bakuon!!
@@ -13,7 +13,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/30795/Bakuon
-    anidb: ''
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11253
 streams:
     crunchyroll: ''
     funimation: ''
@@ -23,7 +23,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31904/Big_Order_TV
-    anidb: ''
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11724
 streams:
     crunchyroll: ''
     funimation: ''
@@ -33,7 +33,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31733/Bishoujo_Senshi_Sailor_Moon_Crystal_Season_III
-    anidb: ''
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11665
 streams:
     crunchyroll: ''
     funimation: ''
@@ -43,7 +43,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31964/Boku_no_Hero_Academia
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11739
 streams:
     crunchyroll: ''
     funimation: http://www.funimation.com/shows/my-hero-academia/home
@@ -53,7 +53,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31478/Bungou_Stray_Dogs
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11523
 streams:
     crunchyroll: ''
     funimation: ''
@@ -63,17 +63,17 @@ type: tv
 has_source: false
 info:
     mal: http://myanimelist.net/anime/32313/Concrete_Revolutio__Choujin_Gensou_-_The_Last_Song
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11836
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/concrete-revolutio
 ---
 title: Endride
 type: tv
 has_source: false
 info:
     mal: http://myanimelist.net/anime/32608/Endride
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11902
 streams:
     crunchyroll: ''
     funimation: http://www.funimation.com/shows/endride/home
@@ -83,7 +83,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31376/Flying_Witch
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11469
 streams:
     crunchyroll: ''
     funimation: ''
@@ -93,19 +93,19 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31737/Gakusen_Toshi_Asterisk_2nd_Season
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11673
 streams:
-    crunchyroll: http://www.crunchyroll.com/the-asterisk-war
-    funimation: ''
+    crunchyroll: http://www.crunchyroll.com/the-asterisk-war|12
+    funimation: http://www.funimation.com/shows/the-asterisk-war|12
 ---
-title: 'Gyakuten Saiban: Sono "Shinjitsu", Igi Ari!'
+title: 'Gyakuten Saiban: Sono "Shinjitsu", Igi Ari! (Ace Attorney)'
 type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31630/Gyakuten_Saiban__Sono_Shinjitsu_Igi_Ari
-    anidb: ''
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11598
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/ace-attorney
     funimation: ''
 ---
 title: Haifuri
@@ -113,19 +113,19 @@ type: tv
 has_source: false
 info:
     mal: http://myanimelist.net/anime/31500/Haifuri
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11533
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/haifuri
 ---
 title: Hundred
 type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31338/Hundred
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11234
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/hundred
     funimation: ''
 ---
 title: 'JoJo no Kimyou na Bouken: Diamond wa Kudakenai'
@@ -133,9 +133,9 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31933/JoJo_no_Kimyou_na_Bouken__Diamond_wa_Kudakenai
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11734
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/jojos-bizarre-adventure
     funimation: ''
 ---
 title: Joker Game
@@ -143,7 +143,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31405/Joker_Game
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11481
 streams:
     crunchyroll: ''
     funimation: ''
@@ -153,7 +153,7 @@ type: tv
 has_source: false
 info:
     mal: http://myanimelist.net/anime/31798/Kiznaiver
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11692
 streams:
     crunchyroll: http://www.crunchyroll.com/kiznaiver
     funimation: ''
@@ -163,7 +163,7 @@ type: tv
 has_source: false
 info:
     mal: http://myanimelist.net/anime/28623/Koutetsujou_no_Kabaneri
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=10951
 streams:
     crunchyroll: ''
     funimation: ''
@@ -173,17 +173,17 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31804/Kuma_Miko
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11694
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/kumamiko/home
 ---
 title: Kuromukuro
 type: tv
 has_source: false
 info:
     mal: http://myanimelist.net/anime/32245/Kuromukuro
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11819
 streams:
     crunchyroll: ''
     funimation: ''
@@ -193,7 +193,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31610/Kyoukai_no_Rinne_TV_2nd_Season
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11591
 streams:
     crunchyroll: ''
     funimation: ''
@@ -203,9 +203,9 @@ type: tv
 has_source: false
 info:
     mal: http://myanimelist.net/anime/32438/Mayoiga
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11863
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/the-lost-village
     funimation: ''
 ---
 title: Mobile Suit Gundam Unicorn RE:0096
@@ -215,7 +215,7 @@ info:
     mal: http://myanimelist.net/anime/32792/Mobile_Suit_Gundam_Unicorn_RE_0096
     anidb: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/mobile-suit-gundam-unicorn-re0096
     funimation: ''
 ---
 title: Netoge no Yome wa Onnanoko ja Nai to Omotta?
@@ -223,7 +223,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31404/Netoge_no_Yome_wa_Onnanoko_ja_Nai_to_Omotta
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11480
 streams:
     crunchyroll: ''
     funimation: ''
@@ -233,9 +233,9 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31240/Re_Zero_kara_Hajimeru_Isekai_Seikatsu
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11370
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/rezero-starting-life-in-another-world-
     funimation: ''
 ---
 title: Sakamoto desu ga?
@@ -243,7 +243,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/32542/Sakamoto_desu_ga
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11881
 streams:
     crunchyroll: ''
     funimation: ''
@@ -253,7 +253,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31564/Sansha_Sanyou
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11568
 streams:
     crunchyroll: ''
     funimation: ''
@@ -263,7 +263,7 @@ type: tv
 has_source: false
 info:
     mal: http://myanimelist.net/anime/32595/Seisen_Cerberus__Ryuukoku_no_Fatalit%C3%A9s
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11893
 streams:
     crunchyroll: ''
     funimation: ''
@@ -273,7 +273,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/32175/Shounen_Maid
-    anidb: ''
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11543
 streams:
     crunchyroll: ''
     funimation: ''
@@ -283,9 +283,9 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/32105/Sousei_no_Onmyouji
-    anidb: ''
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11785
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/twin-star-exorcists
     funimation: ''
 ---
 title: Tanaka-kun wa Itsumo Kedaruge
@@ -293,7 +293,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/32093/Tanaka-kun_wa_Itsumo_Kedaruge
-    anidb: ''
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11783
 streams:
     crunchyroll: ''
     funimation: ''
@@ -303,9 +303,9 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31430/Terra_Formars_Revenge
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11493
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/terraformars
     funimation: ''
 ---
 title: Usakame
@@ -313,7 +313,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/32454/Usakame
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11865
 streams:
     crunchyroll: ''
     funimation: ''
@@ -323,9 +323,9 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31098/Ushio_to_Tora_TV_2nd_Season
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11318
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/ushio-and-tora|26
     funimation: ''
 ---
 title: Wagamama High Spec
@@ -333,7 +333,7 @@ type: tv
 has_source: true
 info:
     mal: http://myanimelist.net/anime/31439/Wagamama_High_Spec
-    anidb: ''
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11498
 streams:
     crunchyroll: ''
     funimation: ''
@@ -347,3 +347,43 @@ info:
 streams:
     crunchyroll: ''
     funimation: ''
+---
+title: Pan de Peace
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31498/Pan_de_Peace
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11532
+streams:
+    crunchyroll: http://www.crunchyroll.com/pan-de-peace
+    funimation: ''
+---
+title: Uchuu Patrol Luluco
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32681/Uchuu_Patrol_Luluco
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11920
+streams:
+    crunchyroll: http://www.crunchyroll.com/space-patrol-luluco
+    funimation: ''
+---
+title: 'Kagewani: Shou'
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32682/Kagewani__Shou
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11921
+streams:
+    crunchyroll: http://www.crunchyroll.com/kagewani
+    funimation: ''
+---
+title: Ansatsu Kyoushitsu 2nd Season
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/30654/Ansatsu_Kyoushitsu_TV_2nd_Season
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11203
+streams:
+    crunchyroll: ''
+    funimation: http://www.funimation.com/shows/assassination-classroom/home|25

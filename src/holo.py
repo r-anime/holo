@@ -72,7 +72,7 @@ if __name__ == "__main__":
 	parser.add_argument("-d", "--database", dest="db_name", nargs=1, default=None, help="use or create the specified database location")
 	parser.add_argument("-s", "--subreddit", dest="subreddit", nargs=1, default=None, help="set the subreddit on which to make posts")
 	parser.add_argument("-v", "--version", action="version", version="{} v{}, {}".format(name, version, description))
-	parser.add_argument("--debug", action="store_true")
+	parser.add_argument("--debug", action="store_true", default=False)
 	parser.add_argument("extra", nargs="*")
 	args = parser.parse_args()
 	
@@ -96,9 +96,9 @@ if __name__ == "__main__":
 		logging.basicConfig(
 			format="%(asctime)s | %(name)s | %(levelname)s | %(message)s",
 			datefmt="%Y-%m-%d %H:%M:%S",
-			level=logging.DEBUG if c.debug else logging.INFO, filename=log_file)
+			level=logging.DEBUG if c.debug else logging.WARNING, filename=log_file)
 	else:
-		logging.basicConfig(format="%(levelname)s | %(message)s", level=logging.DEBUG)
+		logging.basicConfig(format="%(levelname)s | %(message)s", level=logging.DEBUG if c.debug else logging.INFO)
 	logging.getLogger("requests").setLevel(logging.WARNING)
 	logging.getLogger("praw-script-oauth").setLevel(logging.WARNING)
 	

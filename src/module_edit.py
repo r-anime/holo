@@ -78,6 +78,16 @@ def _edit_with_file(db, edit_file):
 				url = streams[service_key]
 				if not url:
 					continue
+				remote_offset = 0
+				try:
+					roi = url.rfind("|")
+					if roi > 0:
+						if roi+1 < len(url):
+							remote_offset = int(url[roi+1:])
+						url = url[:roi]
+				except:
+					exception("Improperly formatted stream URL \"{}\"".format(url))
+					continue
 				
 				debug("  Stream {}: {}".format(service_key, url))
 				stream_handler = services.get_service_handler(key=service_key)
@@ -86,7 +96,7 @@ def _edit_with_file(db, edit_file):
 					debug("    id={}".format(stream_key))
 					
 					if not db.has_stream(service_key, stream_key):
-						s = UnprocessedStream(service_key, stream_key, None, "", 0, 0)
+						s = UnprocessedStream(service_key, stream_key, None, "", remote_offset, 0)
 						db.add_stream(s, show_id, commit=False)
 				else:
 					error("    Stream handler not installed")

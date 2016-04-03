@@ -23,7 +23,6 @@ class Config:
 		self.post_formats = dict()
 	
 def from_file(file_path):
-	print("Loading config file")
 	config = Config()
 	
 	parsed = configparser.ConfigParser()
