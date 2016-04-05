@@ -113,11 +113,21 @@ if __name__ == "__main__":
 	logging.getLogger("praw-script-oauth").setLevel(logging.WARNING)
 	
 	from logging import info, warning
+	from time import time
+	
 	if use_log:
 		info("------------------------------------------------------------")
 	err = config_loader.validate(c)
 	if err:
 		warning("Configuration state invalid: {}".format(err))
+	
+	start_time = time()
 	main(c, args.extra)
+	end_time = time()
+	
+	time_diff = end_time - start_time
+	info("")
+	info("Run time: {:.6} seconds".format(time_diff))
+	
 	if use_log:
-		info("------------------------------------------------------------")
+		info("------------------------------------------------------------\n")
