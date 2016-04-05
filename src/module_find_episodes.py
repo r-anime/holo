@@ -1,13 +1,15 @@
 from logging import debug, info, error
 
 import services
+from data.models import Stream
 import reddit
 
 def main(config, db, **kwargs):
 	reddit.init_reddit(config)
 	
 	# Check services for new episodes
-	for service in db.get_services(enabled=True):
+	enabled_services = db.get_services(enabled=True)
+	for service in enabled_services:
 		service_handler = services.get_service_handler(service)
 		
 		streams = db.get_streams(service=service)
@@ -26,24 +28,50 @@ def main(config, db, **kwargs):
 				info("  Show/episode not found")
 				continue
 			
-			debug(episode)
-			info("  Is live: {}".format(episode.is_live))
-			
-			if episode.is_live:
-				# Adjust episode number with offset and check if already in database
-				episode_num = episode.number - stream.remote_offset
-				info("  Adjusted num: {}".format(episode_num))
-				already_seen = db.stream_has_episode(stream, episode_num)
-				info("  Already seen: {}".format(already_seen))
+			_process_new_episode(config, db, show, stream, episode)
+	
+	# Check generic services
+	other_shows = db.get_shows(missing_stream=True)
+	if len(other_shows) > 0:
+		info("Checking generic services for {} shows".format(len(other_shows)))
+	for show in other_shows:
+		info("  Checking show {} ({})".format(show.name, show.id))
+		stream = Stream.from_show(show)
+		for service in enabled_services:
+			service_handler = services.get_service_handler(service)
+			if service_handler.is_generic:
+				debug("    Checking service {}".format(service_handler.name))
+				episode = service_handler.get_latest_episode(stream, useragent=config.useragent)
+				if not episode:
+					debug("    No episode found")
+					continue
 				
-				# New episode!
-				if not already_seen:
-					post_url = _create_reddit_post(config, db, show, stream, episode, submit=not config.debug)
-					info("  Post URL: {}".format(post_url))
-					if post_url is not None:
-						db.add_episode(stream.show, episode_num, post_url)
-					else:
-						error("  Episode not submitted")
+				_process_new_episode(config, db, show, stream, episode)
+				break
+		else:
+			info("  No episode found")
+
+def _process_new_episode(config, db, show, stream, episode):
+	debug("Processing new episode")
+	debug(episode)
+	
+	if episode.is_live:
+		# Adjust episode number with offset and check if already in database
+		episode_num = episode.number - stream.remote_offset
+		info("  Adjusted num: {}".format(episode_num))
+		already_seen = db.stream_has_episode(stream, episode_num)
+		info("  Already seen: {}".format(already_seen))
+		
+		# New episode!
+		if not already_seen:
+			post_url = _create_reddit_post(config, db, show, stream, episode, submit=not config.debug)
+			info("  Post URL: {}".format(post_url))
+			if post_url is not None:
+				db.add_episode(stream.show, episode_num, post_url)
+			else:
+				error("  Episode not submitted")
+	else:
+		info("  Episode not live")
 
 def _create_reddit_post(config, db, show, stream, episode, submit=True):
 	title, body = _create_post_contents(config, db, show, stream, episode)
@@ -66,6 +94,7 @@ def _create_post_contents(config, db, show, stream, episode):
 	return title, body
 
 def _format_post_text(db, text, formats, show, episode, stream):
+	#TODO: change to a more block-based system (can exclude blocks without content)
 	episode_num = episode.number + stream.display_offset
 	
 	if "{spoiler}" in text:
@@ -74,6 +103,8 @@ def _format_post_text(db, text, formats, show, episode, stream):
 		text = safe_format(text, streams=_gen_text_streams(db, formats, show))
 	if "{links}" in text:
 		text = safe_format(text, links=_gen_text_links(db, formats, show))
+	if "{discussions}" in text:
+		text = safe_format(text, discussions=_gen_text_discussions(db, formats, show))
 	text = safe_format(text, show_name=show.name, episode=episode_num, episode_name=episode.name)
 	return text.strip()
 
@@ -87,16 +118,19 @@ def _gen_text_spoiler(formats, show):
 def _gen_text_streams(db, formats, show):
 	debug("Generating stream text for show {}".format(show))
 	streams = db.get_streams(show=show)
-	stream_texts = list()
-	for stream in streams:
-		if stream.active:
-			service = db.get_service(id=stream.service)
-			if service.enabled and service.use_in_post:
-				service_handler = services.get_service_handler(service)
-				text = safe_format(formats["stream"], service_name=service.name, stream_link=service_handler.get_stream_link(stream))
-				stream_texts.append(text)
-	
-	return "\n".join(stream_texts)
+	if len(streams) > 0:
+		stream_texts = list()
+		for stream in streams:
+			if stream.active:
+				service = db.get_service(id=stream.service)
+				if service.enabled and service.use_in_post:
+					service_handler = services.get_service_handler(service)
+					text = safe_format(formats["stream"], service_name=service.name, stream_link=service_handler.get_stream_link(stream))
+					stream_texts.append(text)
+		
+		return "\n".join(stream_texts)
+	else:
+		return "*None*"
 
 def _gen_text_links(db, formats, show):
 	debug("Generating stream text for show {}".format(show))
@@ -110,6 +144,19 @@ def _gen_text_links(db, formats, show):
 			link_texts.append(text)
 			
 	return "\n".join(link_texts)
+
+def _gen_text_discussions(db, formats, show):
+	#TODO
+	#if len(episodes) > 0:
+	#	header = formats["discussion_header"]
+	#	
+	#	episodes = 
+	#	table = list()
+	#	for :
+	#		text = safe_format(formats["discussion"], )
+	#	return "\n".join(header, *table)
+	#else:
+	return formats["discussion_none"]
 
 # Helpers
 

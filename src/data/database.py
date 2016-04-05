@@ -329,16 +329,19 @@ class DatabaseDatabase:
 	# Shows
 	
 	@db_error_default(list())
-	def get_shows(self, missing_length=False, enabled=True):
+	def get_shows(self, missing_length=False, missing_stream=False, enabled=True):
 		shows = list()
 		if missing_length:
 			self.q.execute("SELECT id, name, length, type, has_source, enabled FROM Shows WHERE (length IS NULL OR length = '') AND enabled = ?", (enabled,))
-			for show in self.q.fetchall():
-				shows.append(Show(*show))
+		elif missing_stream:
+			self.q.execute(
+				"SELECT id, name, length, type, has_source, enabled FROM Shows \
+				WHERE (SELECT count(show) FROM Streams stream WHERE stream.show = id AND stream.active = 1) = 0 AND enabled = ?",
+				(enabled,))
 		else:
 			self.q.execute("SELECT id, name, length, type, has_source, enabled FROM Shows WHERE enabled = ?", (enabled,))
-			for show in self.q.fetchall():
-				shows.append(Show(*show))
+		for show in self.q.fetchall():
+			shows.append(Show(*show))
 		return shows
 	
 	@db_error_default(None)

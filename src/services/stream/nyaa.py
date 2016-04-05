@@ -4,6 +4,7 @@
 from logging import debug, info, warning, error
 from datetime import datetime, timedelta
 import re
+from urllib.parse import quote as url_quote
 
 from .. import AbstractServiceHandler
 from data.models import Episode
@@ -35,12 +36,13 @@ class ServiceHandler(AbstractServiceHandler):
 		Always returns a list.
 		"""
 		info("Getting episodes for Nyaa/{}".format(show_key))
-		if "domain" not in self.config:
+		if "domain" not in self.config or not self.config["domain"]:
 			error("  Domain not specified in config")
 			return list()
 		
 		# Send request
-		url = self._search_base.format(domain=self.config["domain"], q=show_key)
+		query = url_quote(show_key, safe="", errors="ignore")
+		url = self._search_base.format(domain=self.config["domain"], q=query)
 		response = self.request(url, rss=True, **kwargs)
 		if response is None:
 			error("Cannot get latest show for Nyaa/{}".format(show_key))
@@ -78,7 +80,7 @@ def _verify_feed(feed):
 def _is_valid_episode(feed_episode):
 	episode_date = datetime(*feed_episode.published_parsed[:6])
 	date_diff = datetime.utcnow() - episode_date
-	if date_diff >= timedelta(days=1):
+	if date_diff >= timedelta(days=3):
 		debug("  Episode too old")
 		return False
 	return True
@@ -89,11 +91,11 @@ def _digest_episode(feed_episode):
 	if episode_num:								# Intended, checks if not None and > 0
 		date = feed_episode["published_parsed"]
 		link = feed_episode["id"]
-		return Episode(episode_num, title, link, date)
+		return Episode(episode_num, None, link, date)
 	return None
 
 _num_extractors = [re.compile(x, re.I) for x in [
-	"\[horriblesubs|commie|hiryuu|kuusou|fff\] .+ - (\d+)",		# " - " separator between show and episode
+	"\[(?:horriblesubs|commie|hiryuu|kuusou|fff)\] .+ - (\d+)",	# " - " separator between show and episode
 	"\[orz\] .* (\d+)",											# No separator
 	"\[kaitou\]_.*_-_(\d+)",									# "_-_" separator
 	"\[doremi\]\..*\.(\d+)",									# "." separator

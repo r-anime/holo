@@ -223,6 +223,14 @@ def get_service_handler(service=None, key=None):
 		return _services[key]
 	return None
 
+@lru_cache(maxsize=1)
+def get_genereic_service_handlers(services=None, keys=None):
+	_ensure_service_handlers()
+	if keys is None:
+		if services is not None:
+			keys = {s.key for s in services}
+	return [_services[key] for key in _services if (len(keys) == 0 or key in keys) and _services[key].is_generic]
+
 ################
 # Link handler #
 ################

@@ -78,6 +78,10 @@ class Stream:
 	
 	def __str__(self):
 		return "Stream: {} ({}@{}), {} {}".format(self.show, self.show_key, self.service, self.remote_offset, self.display_offset)
+	
+	@classmethod
+	def from_show(cls, show):
+		return Stream(-1, -1, show.id, -1, show.name, show.name, 0, 0, 1)
 
 class LinkSite:
 	def __init__(self, id, key, name, enabled):

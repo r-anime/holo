@@ -15,7 +15,7 @@ info:
     mal: http://myanimelist.net/anime/30795/Bakuon
     anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11253
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/bakuon
     funimation: ''
 ---
 title: Big Order
@@ -265,7 +265,7 @@ info:
     mal: http://myanimelist.net/anime/32595/Seisen_Cerberus__Ryuukoku_no_Fatalit%C3%A9s
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11893
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/cerberus
     funimation: ''
 ---
 title: Shounen Maid
