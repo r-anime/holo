@@ -35,7 +35,7 @@ info:
     mal: http://myanimelist.net/anime/31733/Bishoujo_Senshi_Sailor_Moon_Crystal_Season_III
     anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11665
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/sailor-moon-crystal|26
     funimation: ''
 ---
 title: Boku no Hero Academia
@@ -55,7 +55,7 @@ info:
     mal: http://myanimelist.net/anime/31478/Bungou_Stray_Dogs
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11523
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/bungo-stray-dogs
     funimation: ''
 ---
 title: 'Concrete Revolutio: Choujin Gensou - The Last Song'
@@ -145,7 +145,7 @@ info:
     mal: http://myanimelist.net/anime/31405/Joker_Game
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11481
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/joker-game
     funimation: ''
 ---
 title: Kiznaiver
