@@ -256,7 +256,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11568
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/three-leaves-three-colors/home
 ---
 title: 'Seisen Cerberus: Ryuukoku no Fatalités'
 type: tv
@@ -295,7 +295,7 @@ info:
     mal: http://myanimelist.net/anime/32093/Tanaka-kun_wa_Itsumo_Kedaruge
     anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11783
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/tanaka-kun-is-always-listless
     funimation: ''
 ---
 title: Terra Formars Revenge
