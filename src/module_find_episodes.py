@@ -105,7 +105,9 @@ def _format_post_text(db, text, formats, show, episode, stream):
 		text = safe_format(text, links=_gen_text_links(db, formats, show))
 	if "{discussions}" in text:
 		text = safe_format(text, discussions=_gen_text_discussions(db, formats, show))
-	text = safe_format(text, show_name=show.name, episode=episode_num, episode_name=episode.name)
+	
+	episode_name = ": {}".format(episode.name) if episode.name else ""
+	text = safe_format(text, show_name=show.name, episode=episode_num, episode_name=episode_name)
 	return text.strip()
 
 # Generating text parts
