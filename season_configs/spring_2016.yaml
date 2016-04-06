@@ -426,3 +426,14 @@ info:
 streams:
     crunchyroll: ''
     funimation: http://www.funimation.com/shows/assassination-classroom/home|25
+---
+title: Super Lovers
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31680/Super_Lovers
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11209
+    anilist: http://anilist.co/anime/21177/SUPERLOVERS
+streams:
+    crunchyroll: http://www.crunchyroll.com/super-lovers/episode-1-forest-green-702609
+    funimation: ''
