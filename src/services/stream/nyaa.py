@@ -4,7 +4,7 @@
 from logging import debug, info, warning, error
 from datetime import datetime, timedelta
 import re
-from urllib.parse import quote as url_quote
+from urllib.parse import quote_plus as url_quote
 
 from .. import AbstractServiceHandler
 from data.models import Episode
