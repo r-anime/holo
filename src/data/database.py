@@ -335,8 +335,8 @@ class DatabaseDatabase:
 			self.q.execute("SELECT id, name, length, type, has_source, enabled FROM Shows WHERE (length IS NULL OR length = '') AND enabled = ?", (enabled,))
 		elif missing_stream:
 			self.q.execute(
-				"SELECT id, name, length, type, has_source, enabled FROM Shows \
-				WHERE (SELECT count(show) FROM Streams stream WHERE stream.show = id AND stream.active = 1) = 0 AND enabled = ?",
+				"SELECT id, name, length, type, has_source, enabled FROM Shows show \
+				WHERE (SELECT count(*) FROM Streams stream WHERE stream.show = show.id AND stream.active = 1) = 0 AND enabled = ?",
 				(enabled,))
 		else:
 			self.q.execute("SELECT id, name, length, type, has_source, enabled FROM Shows WHERE enabled = ?", (enabled,))
