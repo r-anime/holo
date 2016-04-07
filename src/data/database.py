@@ -218,8 +218,7 @@ class DatabaseDatabase:
 							WHERE show IS NULL")
 		elif missing_name:
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
-							WHERE (name IS NULL OR name = '') AND active = ?",
-				(active,))
+							WHERE (name IS NULL OR name = '') AND active = ?", (active,))
 		else:
 			error("A service or show must be provided to get streams")
 			return list()

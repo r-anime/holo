@@ -41,7 +41,10 @@ class ServiceHandler(AbstractServiceHandler):
 			return list()
 		
 		# Send request
-		query = url_quote(show_key, safe="", errors="ignore")
+		query = re.sub("[`~!@#$%^&*()+=:;,.<>?/|\\'\"]+", "", show_key)
+		debug("  query={}".format(query))
+		query = url_quote(query, safe="", errors="ignore")
+		
 		url = self._search_base.format(domain=self.config["domain"], q=query)
 		response = self.request(url, rss=True, **kwargs)
 		if response is None:

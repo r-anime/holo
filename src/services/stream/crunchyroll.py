@@ -66,6 +66,8 @@ class ServiceHandler(AbstractServiceHandler):
 	
 	# Remote info getting
 	
+	_title_fix = re.compile("(.*) Episodes", re.I)
+	
 	def get_stream_info(self, stream, **kwargs):
 		info("Getting stream info for Crunchyroll/{}".format(stream.show_key))
 		
@@ -79,6 +81,9 @@ class ServiceHandler(AbstractServiceHandler):
 			warning("Parsed feed could not be verified, may have unexpected results")
 		
 		stream.name = response.feed.title
+		match = self._title_fix.match(stream.name)
+		if match:
+			stream.name = match.group(1)
 		return stream
 	
 	def get_seasonal_streams(self, year=None, season=None, **kwargs):
