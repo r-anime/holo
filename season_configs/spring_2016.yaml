@@ -127,7 +127,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11533
     anilist: http://anilist.co/anime/21316/HaiFuri
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/haifuru
     funimation: http://www.funimation.com/shows/haifuri
 ---
 title: Hundred
@@ -436,4 +436,15 @@ info:
     anilist: http://anilist.co/anime/21177/SUPERLOVERS
 streams:
     crunchyroll: http://www.crunchyroll.com/super-lovers/episode-1-forest-green-702609
+    funimation: ''
+---
+title: Tonkatsu DJ Agetarou
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31370/Tonkatsu_DJ_Agetarou
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11466
+    anilist: https://anilist.co/anime/21297/TonkatsuDJAgetarou
+streams:
+    crunchyroll: http://www.crunchyroll.com/tonkatsu-dj-agetaro
     funimation: ''
