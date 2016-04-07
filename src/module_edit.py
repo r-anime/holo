@@ -89,15 +89,19 @@ def _edit_with_file(db, edit_file):
 					exception("Improperly formatted stream URL \"{}\"".format(url))
 					continue
 				
-				debug("  Stream {}: {}".format(service_key, url))
+				info("  Stream {}: {}".format(service_key, url))
 				stream_handler = services.get_service_handler(key=service_key)
 				if stream_handler:
-					stream_key = stream_handler.extract_show_key(url)
-					debug("    id={}".format(stream_key))
+					show_key = stream_handler.extract_show_key(url)
+					debug("    id={}".format(show_key))
 					
-					if not db.has_stream(service_key, stream_key):
-						s = UnprocessedStream(service_key, stream_key, None, "", remote_offset, 0)
+					if not db.has_stream(service_key, show_key):
+						s = UnprocessedStream(service_key, show_key, None, "", remote_offset, 0)
 						db.add_stream(s, show_id, commit=False)
+					else:
+						service = db.get_service(key=service_key)
+						s = db.get_stream(service_tuple=(service, show_key))
+						db.update_stream(s, show_key=show_key, remote_offset=remote_offset, commit=False)
 				else:
 					error("    Stream handler not installed")
 			

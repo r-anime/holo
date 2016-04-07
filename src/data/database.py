@@ -174,11 +174,22 @@ class DatabaseDatabase:
 		return services
 	
 	@db_error_default(None)
-	def get_stream(self, id=None):
+	def get_stream(self, id=None, service_tuple=None):
 		if id is not None:
 			debug("Getting stream for id {}".format(id))
 			
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE id = ?", (id,))
+			stream = self.q.fetchone()
+			if stream is None:
+				error("Stream {} not found".format(id))
+				return None
+			stream = Stream(*stream)
+			return stream
+		elif service_tuple is not None:
+			service, show_key = service_tuple
+			debug("Getting stream for {}/{}".format(service, show_key))
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams WHERE service = ? AND show_key = ?",
+						   (service.id, show_key))
 			stream = self.q.fetchone()
 			if stream is None:
 				error("Stream {} not found".format(id))
@@ -234,7 +245,7 @@ class DatabaseDatabase:
 			self.commit()
 	
 	@db_error
-	def update_stream(self, stream, show=None, active=None, name=None, show_id=None, show_key=None, commit=True):
+	def update_stream(self, stream, show=None, active=None, name=None, show_id=None, show_key=None, remote_offset=None, commit=True):
 		debug("Updating stream: id={}".format(stream.id))
 		if show is not None:
 			self.q.execute("UPDATE Streams SET show = ? WHERE id = ?", (show, stream.id))
@@ -246,6 +257,8 @@ class DatabaseDatabase:
 			self.q.execute("UPDATE Streams SET show_id = ? WHERE id = ?", (show_id, stream.id))
 		if show_key is not None:
 			self.q.execute("UPDATE Streams SET show_key = ? WHERE id = ?", (show_key, stream.id))
+		if remote_offset is not None:
+			self.q.execute("UPDATE Streams SET remote_offset = ? WHERE id = ?", (remote_offset, stream.id))
 		
 		if commit:
 			self.commit()

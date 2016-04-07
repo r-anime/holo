@@ -3,7 +3,7 @@
 # Single show: http://www.funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id=7556914&limit=100000
 
 from logging import debug, info, warning, error
-from datetime import datetime
+from datetime import datetime, date, timedelta
 import re
 
 from .. import AbstractServiceHandler
@@ -32,11 +32,21 @@ class ServiceHandler(AbstractServiceHandler):
 			debug("No episodes found")
 			return None
 		
-		# Hope the episodes were parsed in order and iterate down looking for the latest episode
-		# The show-specific feed was likely used, but not guaranteed
+		# Find all valid episodes
+		valid_episodes = list()
 		for episode in episodes:
 			if _is_valid_episode(episode, stream.show_id):
-				return self._digest_episode(episode, stream)
+				valid_episodes.append(self._digest_episode(episode, stream))
+		if len(valid_episodes) == 0:
+			debug("No episodes found")
+			return None
+		
+		valid_episodes = sorted(valid_episodes, key=lambda e: e.date, reverse=True)
+		today = date.today()			# Uses local time instead of UTC, but probably doesn't matter too much on a day scale
+		for episode in valid_episodes:
+			if today <= episode.date.date():
+				debug("{}: {}".format(episode.number, episode.date))
+				return episode
 		
 		debug("Episode not found")
 		return None

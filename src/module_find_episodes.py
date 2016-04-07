@@ -57,9 +57,9 @@ def _process_new_episode(config, db, show, stream, episode):
 	
 	if episode.is_live:
 		# Adjust episode number with offset and check if already in database
-		episode_num = episode.number - stream.remote_offset
-		info("  Adjusted num: {}".format(episode_num))
-		already_seen = db.stream_has_episode(stream, episode_num)
+		episode.number = episode.number - stream.remote_offset
+		info("  Adjusted num: {}".format(episode.number))
+		already_seen = db.stream_has_episode(stream, episode.number)
 		info("  Already seen: {}".format(already_seen))
 		
 		# New episode!
@@ -67,7 +67,7 @@ def _process_new_episode(config, db, show, stream, episode):
 			post_url = _create_reddit_post(config, db, show, stream, episode, submit=not config.debug)
 			info("  Post URL: {}".format(post_url))
 			if post_url is not None:
-				db.add_episode(stream.show, episode_num, post_url)
+				db.add_episode(stream.show, episode.number, post_url)
 			else:
 				error("  Episode not submitted")
 	else:
