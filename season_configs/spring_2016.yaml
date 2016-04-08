@@ -413,7 +413,8 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11921
     anilist: http://anilist.co/anime/21636/KagewaniShou
 streams:
-    crunchyroll: http://www.crunchyroll.com/kagewani
+    crunchyroll: ''
+	#Note: Crunchyroll hasn't updated the RSS feed with new episodes - http://www.crunchyroll.com/kagewani
     funimation: ''
 ---
 title: Ansatsu Kyoushitsu 2nd Season
