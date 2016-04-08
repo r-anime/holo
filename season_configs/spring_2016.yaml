@@ -28,7 +28,7 @@ info:
     anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11724
     anilist: http://anilist.co/anime/21445/BigOrder
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/big-order
     funimation: ''
 ---
 title: Bishoujo Senshi Sailor Moon Crystal Season 3
@@ -94,7 +94,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11469
     anilist: http://anilist.co/anime/21284/flyingwitch
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/flying-witch
     funimation: ''
 ---
 title: Gakusen Toshi Asterisk 2nd Season
@@ -270,7 +270,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11881
     anilist: http://anilist.co/anime/21595/Sakamotodesuga
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/havent-you-heard-im-sakamoto
     funimation: ''
 ---
 title: Sansha Sanyou
