@@ -10,7 +10,7 @@ from .. import AbstractServiceHandler
 from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):
-	_search_base = "https://{domain}/?page=rss&cats=1_37&filter=2&term={q}"
+	_search_base = "https://{domain}/?page=rss&cats=1_37&filter=0&term={q}"
 	
 	def __init__(self):
 		super().__init__("nyaa", "Nyaa", True)
@@ -41,7 +41,8 @@ class ServiceHandler(AbstractServiceHandler):
 			return list()
 		
 		# Send request
-		query = re.sub("[`~!@#$%^&*()+=:;,.<>?/|\\'\"]+", "", show_key)
+		query = re.sub("[`~!@#$%^&*()+=:;,.<>?/|\\'\"]+", " ", show_key)
+		query = re.sub("  ", " ", query)
 		debug("  query={}".format(query))
 		query = url_quote(query, safe="", errors="ignore")
 		
