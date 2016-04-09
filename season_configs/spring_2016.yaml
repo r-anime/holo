@@ -215,7 +215,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11591
     anilist: http://anilist.co/anime/21357/KyoukainoRinne2
 streams:
-    crunchyroll: http://www.crunchyroll.com/rin-ne
+    crunchyroll: http://www.crunchyroll.com/rin-ne|25
     funimation: ''
 ---
 title: Mayoiga
