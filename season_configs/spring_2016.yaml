@@ -127,7 +127,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11533
     anilist: http://anilist.co/anime/21316/HaiFuri
 streams:
-    crunchyroll: http://www.crunchyroll.com/haifuru
+    crunchyroll: http://www.crunchyroll.com/haifuri
     funimation: http://www.funimation.com/shows/haifuri
 ---
 title: Hundred
@@ -215,7 +215,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11591
     anilist: http://anilist.co/anime/21357/KyoukainoRinne2
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/rin-ne
     funimation: ''
 ---
 title: Mayoiga
@@ -347,7 +347,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11865
     anilist: http://anilist.co/anime/21570/Usakame
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/usakame
     funimation: ''
 ---
 title: Ushio to Tora 2nd Season
@@ -369,7 +369,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11498
     anilist: http://anilist.co/anime/21302/WagamamaHighSpec
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/wagamama-high-spec
     funimation: ''
 ---
 title: Kono Subarashii Sekai ni Shukufuku wo! OVA
