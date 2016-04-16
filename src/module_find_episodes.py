@@ -31,7 +31,7 @@ def main(config, db, **kwargs):
 			_process_new_episode(config, db, show, stream, episode)
 	
 	# Check generic services
-	other_shows = db.get_shows(missing_stream=True)
+	other_shows = set(db.get_shows(missing_stream=True)) | set(db.get_shows(delayed=True))
 	if len(other_shows) > 0:
 		info("Checking generic services for {} shows".format(len(other_shows)))
 	for show in other_shows:
@@ -68,6 +68,8 @@ def _process_new_episode(config, db, show, stream, episode):
 			info("  Post URL: {}".format(post_url))
 			if post_url is not None:
 				db.add_episode(stream.show, episode.number, post_url)
+				if show.delayed:
+					db.set_show_delayed(show, False)
 			else:
 				error("  Episode not submitted")
 	else:

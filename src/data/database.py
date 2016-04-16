@@ -75,6 +75,7 @@ class DatabaseDatabase:
 			type		INTEGER NOT NULL,
 			has_source	INTEGER NOT NULL DEFAULT 0,
 			enabled		INTEGER NOT NULL DEFAULT 1,
+			delayed		INTEGER NOT NULL DEFAULT 0,
 			FOREIGN KEY(type) REFERENCES ShowTypes(id)
 		)""")
 		
@@ -341,17 +342,19 @@ class DatabaseDatabase:
 	# Shows
 	
 	@db_error_default(list())
-	def get_shows(self, missing_length=False, missing_stream=False, enabled=True):
+	def get_shows(self, missing_length=False, missing_stream=False, enabled=True, delayed=False):
 		shows = list()
 		if missing_length:
-			self.q.execute("SELECT id, name, length, type, has_source, enabled FROM Shows WHERE (length IS NULL OR length = '') AND enabled = ?", (enabled,))
+			self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE (length IS NULL OR length = '') AND enabled = ?", (enabled,))
 		elif missing_stream:
 			self.q.execute(
-				"SELECT id, name, length, type, has_source, enabled FROM Shows show \
+				"SELECT id, name, length, type, has_source, enabled, delayed FROM Shows show \
 				WHERE (SELECT count(*) FROM Streams stream WHERE stream.show = show.id AND stream.active = 1) = 0 AND enabled = ?",
 				(enabled,))
+		elif delayed:
+			self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE delayed = 1 AND enabled = ?", (enabled,))
 		else:
-			self.q.execute("SELECT id, name, length, type, has_source, enabled FROM Shows WHERE enabled = ?", (enabled,))
+			self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE enabled = ?", (enabled,))
 		for show in self.q.fetchall():
 			shows.append(Show(*show))
 		return shows
@@ -368,7 +371,7 @@ class DatabaseDatabase:
 		if id is None:
 			error("Show ID not provided to get_show")
 			return None
-		self.q.execute("SELECT id, name, length, type, has_source, enabled FROM Shows WHERE id = ?", (id,))
+		self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE id = ?", (id,))
 		show = self.q.fetchone()
 		if show is None:
 			return None
@@ -417,6 +420,12 @@ class DatabaseDatabase:
 	def set_show_episode_count(self, show, length):
 		debug("Updating show episode count in database: {}, {}".format(show.name, length))
 		self.q.execute("UPDATE Shows SET length = ? WHERE id = ?", (length, show.id))
+		self.commit()
+	
+	@db_error
+	def set_show_delayed(self, show, delayed=True):
+		debug("Marking show {} as delayed: {}".format(show.name, delayed))
+		self.q.execute("UPDATE Shows SET delayed = ? WHERE id = ?", (delayed, show.id))
 		self.commit()
 	
 	# Episodes

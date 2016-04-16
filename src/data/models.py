@@ -18,16 +18,27 @@ def str_to_showtype(string):
 			return ShowType.OVA
 	return ShowType.UNKNOWN
 
+class DbEqMixin:
+	def __eq__(self, other):
+		return self.id == other.id
+	
+	def __ne__(self, other):
+		return self.id != other.id
+	
+	def __hash__(self):
+		return hash(self.id)
 
-class Show:
-	def __init__(self, id, name, length, show_type, has_source, enabled):
+class Show(DbEqMixin):
+	def __init__(self, id, name, length, show_type, has_source, enabled, delayed):
 		# Note: arguments are order-sensitive
+		# Should probably be moved to keyword args, but not sure the best method on the database side
 		self.id = id
 		self.name = name
 		self.length = length
 		self.type = show_type
 		self.has_source = has_source == 1
 		self.enabled = enabled
+		self.delayed = delayed
 	
 	def __str__(self):
 		return "Show: {} (id={}, type={}, len={})".format(self.name, self.id, self.type, self.length)
@@ -51,7 +62,7 @@ class Episode:
 		now = datetime.now() if local else datetime.utcnow()
 		return now >= self.date
 
-class Service:
+class Service(DbEqMixin):
 	def __init__(self, id, key, name, enabled, use_in_post):
 		# Note: arguments are order-sensitive
 		self.id = id
@@ -63,7 +74,7 @@ class Service:
 	def __str__(self):
 		return "Service: {} ({})".format(self.key, self.id)
 
-class Stream:
+class Stream(DbEqMixin):
 	def __init__(self, id, service, show, show_id, show_key, name, remote_offset, display_offset, active):
 		# Note: arguments are order-sensitive
 		self.id = id
@@ -83,7 +94,7 @@ class Stream:
 	def from_show(cls, show):
 		return Stream(-1, -1, show.id, -1, show.name, show.name, 0, 0, 1)
 
-class LinkSite:
+class LinkSite(DbEqMixin):
 	def __init__(self, id, key, name, enabled):
 		# Note: arguments are order-sensitive
 		self.id = id
