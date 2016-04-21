@@ -249,7 +249,7 @@ info:
     anilist: http://anilist.co/anime/21290/NetogenoYomewaOnnanokojaNaitoOmotta
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/netoge/home
 ---
 title: Re:Zero kara Hajimeru Isekai Seikatsu
 type: tv
@@ -449,3 +449,14 @@ info:
 streams:
     crunchyroll: http://www.crunchyroll.com/tonkatsu-dj-agetaro
     funimation: ''
+---
+title: Rainbow Days
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/31414/Nijiiro_Days
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11487
+    anilist: http://anilist.co/anime/21292/NijiiroDays
+streams:
+    crunchyroll: ''
+    funimation: http://www.funimation.com/shows/rainbow-days|14
