@@ -150,17 +150,15 @@ def _gen_text_links(db, formats, show):
 	return "\n".join(link_texts)
 
 def _gen_text_discussions(db, formats, show):
-	#TODO
-	#if len(episodes) > 0:
-	#	header = formats["discussion_header"]
-	#	
-	#	episodes = 
-	#	table = list()
-	#	for :
-	#		text = safe_format(formats["discussion"], )
-	#	return "\n".join(header, *table)
-	#else:
-	return formats["discussion_none"]
+	episodes = db.get_episodes(show)
+	debug("Num previous episodes: {}".format(len(episodes)))
+	if len(episodes) > 0:
+		table = [formats["discussion_header"]]
+		for episode in episodes:
+			table.append(safe_format(formats["discussion"], episode_num=episode.number, episode_link=episode.link))
+		return "\n".join(table)
+	else:
+		return formats["discussion_none"]
 
 # Helpers
 

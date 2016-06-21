@@ -3,7 +3,7 @@ import sqlite3, re
 from functools import wraps, lru_cache
 from unidecode import unidecode
 
-from .models import Show, ShowType, Stream, Service, LinkSite, Link
+from .models import Show, ShowType, Stream, Service, LinkSite, Link, Episode
 
 def living_in(the_database):
 	# wow wow
@@ -442,6 +442,18 @@ class DatabaseDatabase:
 		debug("Inserting episode {} for show {} ({})".format(episode_num, show_id, post_url))
 		self.q.execute("INSERT INTO Episodes (show, episode, post_url) VALUES (?, ?, ?)", (show_id, episode_num, post_url))
 		self.commit()
+	
+	@db_error_default(list())
+	def get_episodes(self, show, ensure_sorted=True):
+		episodes = list()
+		self.q.execute("SELECT episode, post_url FROM Episodes WHERE show = ?", (show.id,))
+		for data in self.q.fetchall():
+			episodes.append(Episode(data[0], None, data[1], None))
+		
+		if ensure_sorted:
+			episodes = sorted(episodes, key=lambda e: e.number)
+		
+		return episodes
 	
 	# Searching
 	
