@@ -99,11 +99,12 @@ def _digest_episode(feed_episode):
 	return None
 
 _num_extractors = [re.compile(x, re.I) for x in [
-	"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs)\] .+ - (\d+)",	# " - " separator between show and episode
-	"\[orz\] .* (\d+)",											# No separator
-	"\[kaitou\]_.*_-_(\d+)",									# "_-_" separator
-	"\[doremi\]\..*\.(\d+)",									# "." separator
-	"\[.*?\][ _][^\(\[]*[ _](?:-[ _])?(\d+)"					# Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
+	# " - " separator between show and episode
+	"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs|kabaneri\.org)\] .+ - (\d+)\b",
+	"\[orz\] .* (\d+)\b",										# No separator
+	"\[kaitou\]_.*_-_(\d+)\b",									# "_-_" separator
+	"\[doremi\]\..*\.(\d+)\b",									# "." separator
+	"\[.*?\][ _][^\(\[]*[ _](?:-[ _])?(\d+)\b"					# Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 ]]
 
 def _extract_episode_num(name):
