@@ -1,5 +1,10 @@
 import configparser
 
+class WhitespaceFriendlyConfigParser(configparser.ConfigParser):
+	def get(self, section, option, *args, **kwargs):
+		val = super().get(section, option, *args, **kwargs)
+		return val.strip('"')
+
 class Config:
 	def __init__(self):
 		self.debug = False
@@ -19,13 +24,14 @@ class Config:
 		self.new_show_types = list()
 		
 		self.post_title = None
+		self.post_title_postfix_final = None
 		self.post_body = None
 		self.post_formats = dict()
 	
 def from_file(file_path):
 	config = Config()
 	
-	parsed = configparser.ConfigParser()
+	parsed = WhitespaceFriendlyConfigParser()
 	success = parsed.read(file_path)
 	if len(success) == 0:
 		print("Failed to load config file")
@@ -70,6 +76,7 @@ def from_file(file_path):
 	if "post" in parsed:
 		sec = parsed["post"]
 		config.post_title = sec.get("title", None)
+		config.post_title_postfix_final = sec.get("title_postfix_final", None)
 		config.post_body = sec.get("body", None)
 		for key in sec:
 			if key.startswith("format_") and len(key) > 7:
