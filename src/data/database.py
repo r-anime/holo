@@ -345,7 +345,7 @@ class DatabaseDatabase:
 	def get_shows(self, missing_length=False, missing_stream=False, enabled=True, delayed=False):
 		shows = list()
 		if missing_length:
-			self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE (length IS NULL OR length = '') AND enabled = ?", (enabled,))
+			self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE (length IS NULL OR length = '' OR length = 0) AND enabled = ?", (enabled,))
 		elif missing_stream:
 			self.q.execute(
 				"SELECT id, name, length, type, has_source, enabled, delayed FROM Shows show \
