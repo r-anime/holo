@@ -2,7 +2,10 @@
 config.ini
 *.sqlite
 *.sqlite-journal
+*.sqlite-backup
 *.sql
+oauth_store.txt
+logs/
 
 # Created by https://www.gitignore.io/api/python,virtualenv
 
