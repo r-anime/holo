@@ -89,7 +89,8 @@ def _create_reddit_post(config, db, show, stream, episode, submit=True):
 def _create_post_contents(config, db, show, stream, episode):
 	debug("Formatting with formats:")
 	debug(config.post_formats)
-	title = _format_post_text(db, config.post_title, config.post_formats, show, episode, stream)
+	title = _create_post_title(config, show, episode)
+	title = _format_post_text(db, title, config.post_formats, show, episode, stream)
 	info("Title:\n"+title)
 	body = _format_post_text(db, config.post_body, config.post_formats, show, episode, stream)
 	info("Body:\n"+body)
@@ -111,6 +112,12 @@ def _format_post_text(db, text, formats, show, episode, stream):
 	episode_name = ": {}".format(episode.name) if episode.name else ""
 	text = safe_format(text, show_name=show.name, episode=episode_num, episode_name=episode_name)
 	return text.strip()
+
+def _create_post_title(config, show, episode):
+	title = config.post_title
+	if episode.number == show.length and config.post_title_postfix_final:
+		title += config.post_title_postfix_final
+	return title
 
 # Generating text parts
 
