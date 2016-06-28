@@ -1,0 +1,474 @@
+# Funimation shows without URLs:
+#   Servamp
+#   Danganronpa 3
+#   Hatsukoi Monster (First Love Monster)
+#   Handa-kun
+#   Time Travel Shoujo (Time Travel Girl)
+#   Scared Rider XechS (Scar-red Rider Xechs)
+#   Binan Koukou Chikyuu Bouei-bu LOVE! LOVE! (Cute High Earth Defense Club LOVE! LOVE!)
+#   Regalia: The Three Sacred Stars
+
+# Missing shows:
+#   ReLIFE - all episodes airing at once ._.
+
+title: 91 Days
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/32998/91_Days
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12014
+    anilist: http://anilist.co/anime/21711/91Days
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: 'ACTIVE RAID: Kidou Kyoushuushitsu Dai Hakkei 2'
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/32301/Active_Raid__Kidou_Kyoushuushitsu_Dai_Hachi_Gakari_2nd
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11831
+    anilist: http://anilist.co/anime/21534/ACTIVERAID:KidouKyoushuushitsuDaiHakkei2
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Amaama to Inazuma
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32828/Amaama_to_Inazuma
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11952
+    anilist: http://anilist.co/anime/21659/AmaamatoInazuma
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Amanchu!
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31771/Amanchu
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11683
+    anilist: http://anilist.co/anime/21406/Amanchu!
+streams:
+    crunchyroll: http://www.crunchyroll.com/amanchu
+    funimation: ''
+---
+title: Ange Vierge
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/32171/Ange_Vierge
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=10962
+    anilist: http://anilist.co/anime/21439/AngeVierge
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: 'Arslan Senki: Fuujin Ranbu'
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31821/Arslan_Senki_TV__Fuujin_Ranbu
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11699
+    anilist: http://anilist.co/anime/21424/ArslanSenki:FuujinRanbu
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: 'B-Project: Kodou＊Ambitious'
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/33046/B-Project__KodouAmbitious
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12044
+    anilist: http://anilist.co/anime/21751/B-PROJECT:Kodou%EF%BC%8AAmbitious
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Battery
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32947/Battery
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11996
+    anilist: http://anilist.co/anime/21702/BATTERY
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Berserk
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32379/Berserk_2016
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11851
+    anilist: http://anilist.co/anime/21560/BERSERK(2016)
+streams:
+    crunchyroll: http://www.crunchyroll.com/berserk
+    funimation: ''
+---
+title: Binan Koukou Chikyuu Bouei-bu LOVE! LOVE!
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/31417/Binan_Koukou_Chikyuu_Bouei-bu_LOVE_LOVE
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11488
+    anilist: http://anilist.co/anime/21293/BINANKOUKOUCHIKYUUBOUEIBULOVE!LOVE!
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Cheer Danshi!!
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/32483/Cheer_Danshi
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12019
+    anilist: http://anilist.co/anime/21713/CheerDanshi!!
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: D.Gray-man Hallow
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32370/DGray-man_Hallow
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11848
+    anilist: http://anilist.co/anime/21558/D.Gray-manHALLOW
+streams:
+    crunchyroll: ''
+    funimation: http://www.funimation.com/shows/dgray-man
+---
+title: 'Danganronpa 3: The End of Kibougamine Gakuen - Mirai-Hen'
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/32189/Danganronpa_3__The_End_of_Kibougamine_Gakuen_-_Mirai-hen
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11804
+    anilist: http://anilist.co/anime/21509/DANGANRONPA3:TheEndofKibougamineGakuen-Mirai-Hen
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: 'Danganronpa 3: The End of Kibougamine Gakuen - Zetsubou-hen'
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/33028/Danganronpa_3__The_End_of_Kibougamine_Gakuen_-_Zetsubou-hen
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12035
+    anilist: http://anilist.co/anime/21825/DANGANRONPA3:TheEndofKibougamineGakuen-Zetsubou-hen
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Days
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32494/Days_TV
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11875
+    anilist: http://anilist.co/anime/21578/DAYS
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Fate/kaleid liner PRISMA☆ILLYA 3rei!!
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31706/Fate_kaleid_liner_Prisma%E2%98%86Illya_3rei
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11639
+    anilist: http://anilist.co/anime/21379/FatekaleidlinerPRISMA%E2%98%86ILLYA3rei!!
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Fukigen na Mononokean
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32696/Fukigen_na_Mononokean
+    anidb: ''
+    anilist: http://anilist.co/anime/21643/FukigennaMononokean
+streams:
+    crunchyroll: http://www.crunchyroll.com/the-morose-mononokean
+    funimation: ''
+---
+title: Handa-kun
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32648/Handa-kun
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11908
+    anilist: http://anilist.co/anime/21626/handa-kun
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Hatsukoi Monster
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31109/Hatsukoi_Monster
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11326
+    anilist: http://anilist.co/anime/21242/HATSUKOIMONSTER
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: 'Hitori no Shita: The Outcast'
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/33421/Hitori_no_Shita__The_Outcast
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12200
+    anilist: http://anilist.co/anime/21840/HitorinoShita:theoutcast
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Kono Bijutsu-bu ni wa Mondai ga Aru!
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31952/Kono_Bijutsubu_ni_wa_Mondai_ga_Aru
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11735
+    anilist: http://anilist.co/anime/21457/KonoBijutsu-buniwaMondaigaAru!
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Love Live! Sunshine!!
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/32526/Love_Live_Sunshine
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11878
+    anilist: http://anilist.co/anime/21584/LoveLive!Sunshine!!
+streams:
+    crunchyroll: ''
+    funimation: http://www.funimation.com/shows/love-live-sunshine
+---
+title: Mahou Shoujo? Naria☆Girls
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/33394/Mahou_Shoujo_Naria%E2%98%86Girls
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12158
+    anilist: http://anilist.co/anime/21835/MahouShoujo?Naria%E2%98%86Girls
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Masou Gakuen HxH
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31845/Masou_Gakuen_HxH
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11638
+    anilist: http://anilist.co/anime/21378/MasouGakuenHxH
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Mob Psycho 100
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32182/Mob_Psycho_100
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11803
+    anilist: http://anilist.co/anime/21507/MobPsycho100
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Momokuri
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/30014/Momokuri
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11073
+    anilist: http://anilist.co/anime/21841/momokuri(TV)
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: 'Nanatsu no Taizai: Seisen no Shirushi'
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31722/Nanatsu_no_Taizai__Seisen_no_Shirushi
+    anidb: ''
+    anilist: http://anilist.co/anime/21385/NanatsunoTaizai:SeisennoShirushi
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: 'Nejimaki Seirei Senki: Tenkyou no Alderamin'
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31764/Nejimaki_Seirei_Senki__Tenkyou_no_Alderamin
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11679
+    anilist: http://anilist.co/anime/21410/NejimakiSeireiSenki:TenkyounoAlderamin
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: New Game!
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31953/New_Game
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11736
+    anilist: http://anilist.co/anime/21455/NEWGAME!
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Orange
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32729/Orange
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11938
+    anilist: http://anilist.co/anime/21647/orange
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Qualidea Code
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/32360/Qualidea_Code
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11846
+    anilist: http://anilist.co/anime/21557/QUALIDEACODE
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: 'Regalia: The Three Sacred Stars'
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/32961/Regalia__The_Three_Sacred_Stars
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12003
+    anilist: http://anilist.co/anime/21707/Regalia:TheThreeSacredStars
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Rewrite
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31716/Rewrite
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11643
+    anilist: http://anilist.co/anime/21382/Rewrite
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Saiki Kusuo no Ψ Nan
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/33255/Saiki_Kusuo_no_%CE%A8-nan_TV
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12112
+    anilist: http://anilist.co/anime/21804/SaikiKusuono%CE%A8Nan(TV)
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Scared Rider XechS
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/33113/Scared_Rider_Xechs
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12065
+    anilist: http://anilist.co/anime/21747/ScaredRiderXechS
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Servamp
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/31229/Servamp
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11366
+    anilist: http://anilist.co/anime/21269/SERVAMP
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: 'Shokugeki no Souma: Ni no Sara'
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/32282/Shokugeki_no_Souma__Ni_no_Sara
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11828
+    anilist: http://anilist.co/anime/21518/SHOKUGEKINOSOUMA:NinoSara
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Taboo Tattoo
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/29758/Taboo_Tattoo
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11039
+    anilist: http://anilist.co/anime/21031/TABOOTATTOO
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Tales of Zestiria the X
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/30911/Tales_of_Zestiria_the_X
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11273
+    anilist: http://anilist.co/anime/21221/TalesofZestiriatheX
+streams:
+    crunchyroll: ''
+    funimation: http://www.funimation.com/shows/tales-of-zestiria-the-x
+---
+title: 'Time Travel Shoujo: Mari Waka to 8-nin no Kagakusha-tachi'
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/33341/Time_Travel_Shoujo__Mari_Waka_to_8-nin_no_Kagakusha-tachi
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12137
+    anilist: http://anilist.co/anime/21824/TimeTravelShoujo:MariWakato8-ninnoKagakusha-tachi
+streams:
+    crunchyroll: ''
+    funimation: ''
+---
+title: Tsukiuta. The Animation
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/33037/Tsukiuta_The_Animation
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=10925
+    anilist: http://anilist.co/anime/20950/TSUKIUTA.THEANIMATION
+streams:
+    crunchyroll: ''
+    funimation: http://www.funimation.com/shows/tsukiuta-the-animation
+---
+title: Macross Δ
+type: tv
+has_source: false
+info:
+    mal: http://myanimelist.net/anime/28013/Macross_%CE%94
+    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=10569
+    anilist: http://anilist.co/anime/20680/Macross%CE%94
+streams:
+    crunchyroll: ''
+    funimation: ''
