@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="tk.Toplevel" id="mainwindow">
+    <property name="height">400</property>
+    <property name="padx">2</property>
+    <property name="pady">2</property>
+    <property name="title" translatable="yes">Holo config editor</property>
+    <property name="width">400</property>
+    <child>
+      <object class="ttk.Label" id="open_label">
+        <property name="foreground">#808080</property>
+        <property name="text" translatable="yes">File: default.yaml (0 shows)</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+          <property name="sticky">w</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Frame" id="content_frame">
+        <property name="height">200</property>
+        <property name="width">300</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+        <child>
+          <object class="ttk.Label" id="name_label">
+            <property name="text" translatable="yes">Name:</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="ipady">0</property>
+              <property name="pady">4</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">e</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Entry" id="name_input">
+            <property name="textvariable">string:name</property>
+            <property name="width">34</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="type_label">
+            <property name="text" translatable="yes">Type:</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="pady">2</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="sticky">e</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Combobox" id="type_combobox">
+            <property name="justify">left</property>
+            <property name="state">readonly</property>
+            <property name="textvariable">string:type</property>
+            <property name="values">tv ova movie</property>
+            <property name="width">11</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Checkbutton" id="has_source_checkbox">
+            <property name="variable">boolean:has_source</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="has_source_label">
+            <property name="text" translatable="yes">Has source</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+              <property name="sticky">e</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Labelframe" id="info_frame">
+            <property name="height">200</property>
+            <property name="text" translatable="yes">Info</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">2</property>
+              <property name="propagate">True</property>
+              <property name="row">3</property>
+            </layout>
+            <child>
+              <object class="ttk.Label" id="info_mal_label">
+                <property name="text" translatable="yes">mal</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="pady">2</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                  <property name="sticky">e</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="info_mal_url">
+                <property name="textvariable">string:mal_url</property>
+                <property name="width">38</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="info_anidb_label">
+                <property name="text" translatable="yes">anidb</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="pady">2</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                  <property name="sticky">e</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="info_anidb_url">
+                <property name="textvariable">string:anidb_url</property>
+                <property name="width">38</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+			<child>
+              <object class="ttk.Label" id="info_anilist_label">
+                <property name="text" translatable="yes">anilist</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="pady">2</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                  <property name="sticky">e</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="info_anilist_url">
+                <property name="textvariable">string:anilist_url</property>
+                <property name="width">38</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Labelframe" id="stream_frame">
+            <property name="height">200</property>
+            <property name="text" translatable="yes">Streams</property>
+            <property name="width">200</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">2</property>
+              <property name="propagate">True</property>
+              <property name="row">4</property>
+              <columns>
+                <column id="0">
+                  <property name="weight">0</property>
+                </column>
+              </columns>
+              <rows>
+                <row id="0">
+                  <property name="weight">0</property>
+                </row>
+                <row id="1">
+                  <property name="weight">0</property>
+                </row>
+              </rows>
+            </layout>
+            <child>
+              <object class="ttk.Label" id="stream_crunchyroll_label">
+                <property name="text" translatable="yes">crunchyroll</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="pady">2</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="stream_crunchyroll_url">
+                <property name="textvariable">string:crunchyroll_url</property>
+                <property name="width">33</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="stream_funimation_label">
+                <property name="text" translatable="yes">funimation</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="pady">2</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="stream_funimation_url">
+                <property name="textvariable">string:funimation_url</property>
+                <property name="width">33</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Frame" id="button_frame">
+        <property name="height">200</property>
+        <property name="width">300</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+        </layout>
+        <child>
+          <object class="ttk.Entry" id="find_textbox">
+            <property name="textvariable">string:find_text</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="find_button">
+            <property name="command">on_find_button_clicked</property>
+            <property name="compound">bottom</property>
+            <property name="text" translatable="yes">Find</property>
+            <property name="width">6</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="save_button">
+            <property name="command">on_save_button_clicked</property>
+            <property name="text" translatable="yes">Save</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="next_button">
+            <property name="command">on_next_button_clicked</property>
+            <property name="text" translatable="yes">&gt;</property>
+            <property name="width">2</property>
+            <layout>
+              <property name="column">3</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
