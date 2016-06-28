@@ -69,9 +69,9 @@ def from_file(file_path):
 	
 	if "options" in parsed:
 		sec = parsed["options"]
-		config.debug = sec["debug"]
+		config.debug = sec.getboolean("debug", False)
 		from data.models import str_to_showtype
-		config.new_show_types.extend(map(lambda s: str_to_showtype(s), sec.get("new_show_types", "").split(" ")))
+		config.new_show_types.extend(map(lambda s: str_to_showtype(s.strip()), sec.get("new_show_types", "").split(",")))
 	
 	if "post" in parsed:
 		sec = parsed["post"]

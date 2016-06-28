@@ -82,7 +82,7 @@ if __name__ == "__main__":
 	c = config_loader.from_file(args.config_file[0])
 	
 	# Override config with args
-	c.debug = args.debug
+	c.debug |= args.debug
 	c.module = args.module[0]
 	c.log_dir = args.log_dir[0]
 	if args.db_name is not None:
@@ -121,6 +121,8 @@ if __name__ == "__main__":
 	if err:
 		warning("Configuration state invalid: {}".format(err))
 	
+	if c.debug:
+		info("DEBUG MODE ENABLED")
 	start_time = time()
 	main(c, args.extra)
 	end_time = time()
