@@ -104,7 +104,7 @@ class ServiceHandler(AbstractServiceHandler):
 		if len(lists) < 2:
 			error("Unsupported structure of lineup page")
 			return list()
-		elif len(lists) != 3:
+		elif len(lists) < 2 or len(lists) > 3:
 			warning("Unexpected number of lineup grids")
 		
 		# Parse individual shows
@@ -112,21 +112,21 @@ class ServiceHandler(AbstractServiceHandler):
 		show_elements = lists[1].find_all(class_="element-lineup-anime")
 		raw_streams = list()
 		for show in show_elements:
-			#TODO: ignore not yet announced
 			title = show["title"]
-			debug("  Show: {}".format(title))
-			url = show["href"]
-			debug("  URL: {}".format(url))
-			url_match = self._show_re.search(url)
-			if not url_match:
-				error("Failed to parse show URL: {}".format(url))
-				continue
-			key = url_match.group(1)
-			debug("  Key: {}".format(key))
-			remote_offset, display_offset = self._get_stream_info(key)
-			
-			raw_stream = UnprocessedStream(self.key, key, None, title, remote_offset, display_offset)
-			raw_streams.append(raw_stream)
+			if "to be announced" not in title.lower():
+				debug("  Show: {}".format(title))
+				url = show["href"]
+				debug("  URL: {}".format(url))
+				url_match = self._show_re.search(url)
+				if not url_match:
+					error("Failed to parse show URL: {}".format(url))
+					continue
+				key = url_match.group(1)
+				debug("  Key: {}".format(key))
+				remote_offset, display_offset = self._get_stream_info(key)
+				
+				raw_stream = UnprocessedStream(self.key, key, None, title, remote_offset, display_offset)
+				raw_streams.append(raw_stream)
 		
 		return raw_streams
 	
