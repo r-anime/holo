@@ -104,11 +104,11 @@ _exludors = [re.compile(x, re.I) for x in [
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
-	r"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs)\] .+ - (\d+)\b",
-	r"\[orz\] .+ (\d+)\b",											# No separator
-	r"\[(?:kaitou|gg)\]_.+_-_(\d+)\b",								# "_-_" separator
-	r"\[doremi\]\..+\.(\d+)\b",										# "." separator
-	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)\b"						# Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
+	r"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs)\] .+ - (\d+) ",
+	r"\[orz\] .+ (\d+) ",											# No separator
+	r"\[(?:kaitou|gg)\]_.+_-_(\d+)_",								# "_-_" separator
+	r"\[doremi\]\..+\.(\d+)",										# "." separator
+	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]"						# Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 ]]
 
 def _extract_episode_num(name):
