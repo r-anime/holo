@@ -30,7 +30,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11831
     anilist: http://anilist.co/anime/21534/ACTIVERAID:KidouKyoushuushitsuDaiHakkei2
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/active-raid|12
     funimation: ''
 ---
 title: Amaama to Inazuma
@@ -349,7 +349,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11846
     anilist: http://anilist.co/anime/21557/QUALIDEACODE
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/qualidea-code
     funimation: ''
 ---
 title: 'Regalia: The Three Sacred Stars'
@@ -371,7 +371,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11643
     anilist: http://anilist.co/anime/21382/Rewrite
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/rewrite
     funimation: ''
 ---
 title: Saiki Kusuo no Ψ Nan
