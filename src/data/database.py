@@ -59,6 +59,9 @@ class DatabaseDatabase:
 	def get_count(self):
 		return self.q.fetchone()[0]
 	
+	def save(self):
+		self.commit()
+	
 	# Setup
 	
 	def setup_tables(self):
@@ -428,14 +431,29 @@ class DatabaseDatabase:
 		self.q.execute("UPDATE Shows SET delayed = ? WHERE id = ?", (delayed, show.id))
 		self.commit()
 	
+	@db_error
+	def set_show_enabled(self, show, enabled=True, commit=True):
+		debug("Marking show {} as {}".format(show.name, "enabled" if enabled else "disabled"))
+		self.q.execute("UPDATE Shows SET enabled = ? WHERE id = ?", (enabled, show.id))
+		if commit:
+			self.commit()
+	
 	# Episodes
 	
 	@db_error_default(True)
 	def stream_has_episode(self, stream, episode_num):
 		self.q.execute("SELECT count(*) FROM Episodes WHERE show = ? AND episode = ?", (stream.show, episode_num))
-		num_found = self.q.fetchone()[0]
+		num_found = self.get_count()
 		debug("Found {} entries matching show {}, episode {}".format(num_found, stream.show, episode_num))
 		return num_found > 0
+	
+	@db_error_default(None)
+	def get_latest_episode(self, show):
+		self.q.execute("SELECT episode, post_url FROM Episodes WHERE show = ? ORDER BY episode DESC LIMIT 1", (show.id,))
+		data = self.q.fetchone()
+		if data is not None:
+			return Episode(data[0], None, data[1], None)
+		return None
 	
 	@db_error
 	def add_episode(self, show_id, episode_num, post_url):
@@ -505,6 +523,7 @@ _romanization_o = re.compile("\bwo\b")
 
 def _alphanum_convert(s):
 	#TODO: punctuation is important for some shows to distinguish between seasons (ex. K-On! and K-On!!)
+	# 6/28/16: The purpose of this function is weak collation; use of punctuation to distinguish between seasons can be done later when handling multiple found shows.
 	
 	# Characters to words
 	s = s.replace("&", "and")

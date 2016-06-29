@@ -5,6 +5,8 @@ import services
 def main(config, db, **kwargs):
 	# Show lengths aren't always known at the start of the season
 	_check_show_lengths(config, db, update_db=not config.debug)
+	# Check if shows have finished and disable them if they have
+	_disable_finished_shows(config, db, update_db=not config.debug)
 	# Find data not provided by the edit module
 	_check_missing_stream_info(config, db, update_db=not config.debug)
 	
@@ -41,6 +43,20 @@ def _check_show_lengths(config, db, update_db=True):
 				db.set_show_episode_count(show, length)
 			else:
 				warning("Debug enabled, not updating database")
+
+def _disable_finished_shows(config, db, update_db=True):
+	info("Checking for disabled shows")
+	shows = db.get_shows()
+	for show in shows:
+		latest_episode = db.get_latest_episode(show)
+		if latest_episode is not None and latest_episode.number >= show.length:
+			info("  Disabling show \"{}\"".format(show.name))
+			if latest_episode.number > show.length:
+				warning("    Episode number ({}) greater than show length ({})".format(latest_episode.number, show.length))
+			if update_db:
+				db.set_show_enabled(show, enabled=False, commit=False)
+	if update_db:
+		db.save()
 
 def _check_missing_stream_info(config, db, update_db=True):
 	streams = db.get_streams(missing_name=True)
