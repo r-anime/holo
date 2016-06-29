@@ -10,7 +10,8 @@ from .. import AbstractServiceHandler
 from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):
-	_search_base = "https://{domain}/?page=rss&cats=1_37&filter=0&term={q}"
+	#TODO: more extensible exclude using config
+	_search_base = "https://{domain}/?page=rss&cats=1_37&filter=2&term={q}&exclude=169660"
 	
 	def __init__(self):
 		super().__init__("nyaa", "Nyaa", True)
@@ -98,20 +99,26 @@ def _digest_episode(feed_episode):
 		return Episode(episode_num, None, link, date)
 	return None
 
+_exludors = [re.compile(x, re.I) for x in [
+	"\.srt$"
+]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
-	"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs|kabaneri\.org)\] .+ - (\d+)\b",
-	"\[orz\] .* (\d+)\b",										# No separator
-	"\[kaitou\]_.*_-_(\d+)\b",									# "_-_" separator
-	"\[doremi\]\..*\.(\d+)\b",									# "." separator
-	"\[.*?\][ _][^\(\[]*[ _](?:-[ _])?(\d+)\b"					# Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
+	r"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs)\] .+ - (\d+)\b",
+	r"\[orz\] .+ (\d+)\b",											# No separator
+	r"\[(?:kaitou|gg)\]_.+_-_(\d+)\b",								# "_-_" separator
+	r"\[doremi\]\..+\.(\d+)\b",										# "." separator
+	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)\b"						# Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 ]]
 
 def _extract_episode_num(name):
 	debug("Extracting episode number from \"{}\"".format(name))
+	if any(ex.search(name) is not None for ex in _exludors):
+		debug("  Excluded")
+		return None
 	for regex in _num_extractors:
 		match = regex.match(name)
-		if match:
+		if match is not None:
 			num = int(match.group(1))
 			debug("  Match found, num={}".format(num))
 			return num
