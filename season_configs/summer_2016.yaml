@@ -7,7 +7,10 @@
 #   Scared Rider XechS (Scar-red Rider Xechs)
 #   Binan Koukou Chikyuu Bouei-bu LOVE! LOVE! (Cute High Earth Defense Club LOVE! LOVE!)
 #   Regalia: The Three Sacred Stars
-
+# 
+# Crunchyroll shows without URLs:
+#   Amaama to Inazuma (sweetness & lightning)
+# 
 # Missing shows:
 #   ReLIFE - all episodes airing at once ._.
 
@@ -415,7 +418,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11828
     anilist: http://anilist.co/anime/21518/SHOKUGEKINOSOUMA:NinoSara
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/food-wars-shokugeki-no-soma|24
     funimation: ''
 ---
 title: Taboo Tattoo
@@ -471,4 +474,15 @@ info:
     anilist: http://anilist.co/anime/20680/Macross%CE%94
 streams:
     crunchyroll: ''
+    funimation: ''
+---
+title: Fudanshi Koukou Seikatsu
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/33222/Fudanshi_Koukou_Seikatsu
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12095
+    anilist: http://anilist.co/anime/21782/FUDANSHIKOUKOUSEIKATSU
+streams:
+    crunchyroll: http://www.crunchyroll.com/the-highschool-life-of-a-fudanshi
     funimation: ''
