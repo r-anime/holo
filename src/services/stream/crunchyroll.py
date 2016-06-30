@@ -24,6 +24,7 @@ class ServiceHandler(AbstractServiceHandler):
 		
 		# Hope the episodes were parsed in order and iterate down looking for the latest episode
 		# The show-specific feed was likely used, but not guaranteed
+		#FIXME: order is not guaranteed :/
 		for episode in episodes:
 			if _is_valid_episode(episode, stream.show_key):
 				try:
