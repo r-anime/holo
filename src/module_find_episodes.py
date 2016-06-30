@@ -61,7 +61,7 @@ def _process_new_episode(config, db, show, stream, episode):
 		info("  Adjusted num: {}".format(episode.number))
 		#already_seen = db.stream_has_episode(stream, episode.number)
 		latest_episode = db.get_latest_episode(show)
-		already_seen = latest_episode is not None and latest_episode.number >= episode.number
+		already_seen = (latest_episode is not None and latest_episode.number >= episode.number) or episode.number <= 0
 		info("  Already seen: {}".format(already_seen))
 		
 		# New episode!
