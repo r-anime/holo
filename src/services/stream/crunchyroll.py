@@ -16,25 +16,28 @@ class ServiceHandler(AbstractServiceHandler):
 	
 	# Episode finding
 	
+	# TODO: move to super class, use common get episodes function
 	def get_latest_episode(self, stream, **kwargs):
 		episodes = self._get_feed_episodes(stream.show_key, **kwargs)
 		if not episodes or len(episodes) == 0:
 			debug("No episodes found")
 			return None
 		
-		# Hope the episodes were parsed in order and iterate down looking for the latest episode
-		# The show-specific feed was likely used, but not guaranteed
-		#FIXME: order is not guaranteed :/
-		for episode in episodes:
-			if _is_valid_episode(episode, stream.show_key):
+		# Digest episode data from feed and find the latest episode
+		latest_episode = None
+		for episode_data in episodes:
+			if _is_valid_episode(episode_data, stream.show_key):
 				try:
-					return _digest_episode(episode)
+					episode = _digest_episode(episode_data)
+					if latest_episode is None or episode.number > latest_episode.number:
+						latest_episode = episode
 				except:
 					exception("Problem digesting episode for Crunchyroll/{}".format(stream.show_key))
 					return None
 		
-		debug("Episode not found")
-		return None
+		if latest_episode is None:
+			debug("Episode not found")
+		return latest_episode
 	
 	def _get_feed_episodes(self, show_key, **kwargs):
 		"""
