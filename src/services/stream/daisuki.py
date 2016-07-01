@@ -13,8 +13,8 @@ class ServiceHandler(AbstractServiceHandler):
 	
 	# Episode finding
 	
-	def get_latest_episode(self, stream, **kwargs):
-		return None
+	def get_all_episodes(self, stream, **kwargs):
+		return []
 	
 	# Remote info getting
 	

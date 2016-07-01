@@ -1,4 +1,5 @@
 from logging import debug, warning, error
+from types import ModuleType
 
 # Common
 
@@ -19,7 +20,7 @@ def _make_service(service):
 
 # Utilities
 
-def import_all_services(pkg, class_name):
+def import_all_services(pkg: ModuleType, class_name):
 	import importlib
 	services = dict()
 	for name in pkg.__all__:
@@ -129,6 +130,7 @@ class Requestable:
 ###################
 
 from abc import abstractmethod, ABC
+from datetime import date
 
 class AbstractServiceHandler(ABC, Requestable):
 	def __init__(self, key, name, is_generic):
@@ -140,15 +142,38 @@ class AbstractServiceHandler(ABC, Requestable):
 	def set_config(self, config):
 		self.config = config
 	
-	@abstractmethod
-	def get_latest_episode(self, show_id, **kwargs):
+	def get_latest_episode(self, stream, **kwargs):
 		"""
 		Gets information on the latest episode for this service.
-		:param show_id: The ID of the show being checked
+		:param stream: The stream being checked
 		:param kwargs: Arguments passed to the request, such as proxy and authentication
-		:return: The latest episode
+		:return: The latest episode, or None if no episodes are found and valid
 		"""
-		return None
+		episodes = self.get_published_episodes(stream, **kwargs)
+		return max(episodes, key=lambda e: e.number, default=None)
+	
+	def get_published_episodes(self, stream, **kwargs):
+		"""
+		Gets all possible live episodes for a given stream. Not all older episodes are
+		guaranteed to be returned due to potential API limitations.
+		:param stream: The stream being checked
+		:param kwargs: Arguments passed to the request, such as proxy and authentication
+		:return: A list of live episodes
+		"""
+		episodes = self.get_all_episodes(stream, **kwargs)
+		today = date.today()										#NOTE: Uses local time instead of UTC, but probably doesn't matter too much on a day scale
+		return filter(lambda e: e.date.date() <= today, episodes)
+	
+	@abstractmethod
+	def get_all_episodes(self, stream, **kwargs):
+		"""
+		Gets all possible episodes for a given stream. Not all older episodes are
+		guaranteed to be returned due to potential API limitations.
+		:param stream: The stream being checked
+		:param kwargs: Arguments passed to the request, such as proxy and authentication
+		:return: A list of live episodes
+		"""
+		return list()
 	
 	@abstractmethod
 	def get_stream_link(self, stream):

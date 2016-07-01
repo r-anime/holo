@@ -2,8 +2,8 @@
 # 			 http://www.funimation.com/feeds/ps/shows?sort=SortOptionLatestSubscription (limit no workie)
 # Single show: http://www.funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id=7556914&limit=100000
 
-from logging import debug, info, warning, error
-from datetime import datetime, date, timedelta
+from logging import debug, info, warning, error, exception
+from datetime import datetime
 import re
 
 from .. import AbstractServiceHandler
@@ -22,34 +22,30 @@ class ServiceHandler(AbstractServiceHandler):
 	
 	# Episode finding
 	
-	def get_latest_episode(self, stream, **kwargs):
+	def get_all_episodes(self, stream, **kwargs):
+		info("Getting live episodes for Funimation/{} ({})".format(stream.show_key, stream.show_id))
 		if not stream.show_id:
-			debug("ID required and not given")
-			return None
+			debug("  ID required and not given")
+			return []
 		
-		episodes = self._get_feed_episodes(stream.show_id, **kwargs)
-		if not episodes or len(episodes) == 0:
-			debug("No episodes found")
-			return None
+		episode_datas = self._get_feed_episodes(stream.show_id, **kwargs)
 		
-		# Find all valid episodes
-		valid_episodes = list()
-		for episode in episodes:
-			if _is_valid_episode(episode, stream.show_id):
-				valid_episodes.append(self._digest_episode(episode, stream))
-		if len(valid_episodes) == 0:
-			debug("No episodes found")
-			return None
+		# Check data validity and digest
+		episodes = []
+		for episode_data in episode_datas:
+			if _is_valid_episode(episode_data, stream.show_id):
+				try:
+					episodes.append(self._digest_episode(episode_data, stream))
+				except:
+					exception("Problem digesting episode for Funimation/{} ({})".format(stream.show_key, stream.show_id))
 		
-		valid_episodes = sorted(valid_episodes, key=lambda e: e.date, reverse=True)
-		today = date.today()			# Uses local time instead of UTC, but probably doesn't matter too much on a day scale
-		for episode in valid_episodes:
-			if today <= episode.date.date():
-				debug("{}: {}".format(episode.number, episode.date))
-				return episode
-		
-		debug("Episode not found")
-		return None
+		if len(episode_datas) > 0:
+			debug("  {} episodes found, {} valid", len(episode_datas), len(episodes))
+			if len(episode_datas) != len(episodes):
+				warning("  Not all episodes processed")
+		else:
+			debug("  No episodes found")
+		return episodes
 	
 	def _get_feed_episodes(self, show_id, **kwargs):
 		"""
