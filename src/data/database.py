@@ -2,8 +2,9 @@ from logging import debug, error, exception
 import sqlite3, re
 from functools import wraps, lru_cache
 from unidecode import unidecode
+from typing import Set
 
-from .models import Show, ShowType, Stream, Service, LinkSite, Link, Episode
+from .models import Show, ShowType, Stream, Service, LinkSite, Link, Episode, UnprocessedStream, UnprocessedShow
 
 def living_in(the_database):
 	# wow wow
@@ -153,7 +154,7 @@ class DatabaseDatabase:
 	
 	@db_error_default(None)
 	@lru_cache(10)
-	def get_service(self, id=None, key=None):
+	def get_service(self, id=None, key=None) -> Service:
 		if id is not None:
 			self.q.execute("SELECT id, key, name, enabled, use_in_post FROM Services WHERE id = ?", (id,))
 		elif key is not None:
@@ -178,7 +179,7 @@ class DatabaseDatabase:
 		return services
 	
 	@db_error_default(None)
-	def get_stream(self, id=None, service_tuple=None):
+	def get_stream(self, id=None, service_tuple=None) -> Stream:
 		if id is not None:
 			debug("Getting stream for id {}".format(id))
 			
@@ -205,7 +206,7 @@ class DatabaseDatabase:
 			return None
 	
 	@db_error_default(list())
-	def get_streams(self, service=None, show=None, active=True, unmatched=False, missing_name=False):
+	def get_streams(self, service=None, show=None, active=True, unmatched=False, missing_name=False) -> [Stream]:
 		# Not the best combination of options, but it's only the usage needed
 		if service is not None:
 			debug("Getting all streams for service {}".format(service.key))
@@ -232,13 +233,13 @@ class DatabaseDatabase:
 		return streams
 	
 	@db_error_default(False)
-	def has_stream(self, service_key, key):
+	def has_stream(self, service_key, key) -> bool:
 		service = self.get_service(key=service_key)
 		self.q.execute("SELECT count(*) FROM Streams WHERE service = ? AND show_key = ?", (service.id, key))
 		return self.get_count() > 0
 	
 	@db_error
-	def add_stream(self, raw_stream, show_id, commit=True):
+	def add_stream(self, raw_stream: UnprocessedStream, show_id, commit=True):
 		debug("Inserting stream: {}".format(raw_stream))
 		
 		service = self.get_service(key=raw_stream.service_key)
@@ -248,7 +249,7 @@ class DatabaseDatabase:
 			self.commit()
 	
 	@db_error
-	def update_stream(self, stream, show=None, active=None, name=None, show_id=None, show_key=None, remote_offset=None, commit=True):
+	def update_stream(self, stream: Stream, show=None, active=None, name=None, show_id=None, show_key=None, remote_offset=None, commit=True):
 		debug("Updating stream: id={}".format(stream.id))
 		if show is not None:
 			self.q.execute("UPDATE Streams SET show = ? WHERE id = ?", (show, stream.id))
@@ -269,7 +270,7 @@ class DatabaseDatabase:
 	# Links
 	
 	@db_error_default(None)
-	def get_link_site(self, id=None, key=None):
+	def get_link_site(self, id=None, key=None) -> LinkSite:
 		if id is not None:
 			self.q.execute("SELECT id, key, name, enabled FROM LinkSites WHERE id = ?", (id,))
 		elif key is not None:
@@ -283,7 +284,7 @@ class DatabaseDatabase:
 		return LinkSite(*site)
 	
 	@db_error_default(list())
-	def get_link_sites(self, enabled=True, disabled=False):
+	def get_link_sites(self, enabled=True, disabled=False) -> [LinkSite]:
 		sites = list()
 		if enabled:
 			self.q.execute("SELECT id, key, name, enabled FROM LinkSites WHERE enabled = 1")
@@ -296,7 +297,7 @@ class DatabaseDatabase:
 		return sites
 	
 	@db_error_default(list())
-	def get_links(self, show=None):
+	def get_links(self, show=None) -> [Link]:
 		if show is not None:
 			debug("Getting all links for show {}".format(show.id))
 			
@@ -310,7 +311,7 @@ class DatabaseDatabase:
 			return list()
 	
 	@db_error_default(None)
-	def get_link(self, show, link_site):
+	def get_link(self, show, link_site) -> Link:
 		debug("Getting link for show {} and site {}".format(show.id, link_site.key))
 		
 		self.q.execute("SELECT site, show, site_key FROM Links WHERE show = ? AND site = ?", (show.id, link_site.id))
@@ -321,14 +322,14 @@ class DatabaseDatabase:
 		return link
 	
 	@db_error_default(False)
-	def has_link(self, site_key, key):
+	def has_link(self, site_key, key) -> bool:
 		site = self.get_link_site(key=site_key)
 		self.q.execute("SELECT count(*) FROM Links WHERE site = ? AND site_key = ?",
 					   (site.id, key))
 		return self.get_count() > 0
 	
 	@db_error
-	def add_link(self, raw_show, show_id, commit=True):
+	def add_link(self, raw_show: UnprocessedShow, show_id, commit=True):
 		debug("Inserting link: {}/{}".format(show_id, raw_show))
 		
 		site = self.get_link_site(key=raw_show.site_key)
@@ -345,7 +346,7 @@ class DatabaseDatabase:
 	# Shows
 	
 	@db_error_default(list())
-	def get_shows(self, missing_length=False, missing_stream=False, enabled=True, delayed=False):
+	def get_shows(self, missing_length=False, missing_stream=False, enabled=True, delayed=False) -> [Show]:
 		shows = list()
 		if missing_length:
 			self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE (length IS NULL OR length = '' OR length = 0) AND enabled = ?", (enabled,))
@@ -363,7 +364,7 @@ class DatabaseDatabase:
 		return shows
 	
 	@db_error_default(None)
-	def get_show(self, id=None, stream=None):
+	def get_show(self, id=None, stream=None) -> Show:
 		debug("Getting show from database")
 		
 		# Get show ID
@@ -383,7 +384,7 @@ class DatabaseDatabase:
 		return show
 	
 	@db_error_default(None)
-	def add_show(self, raw_show, commit=True):
+	def add_show(self, raw_show: UnprocessedShow, commit=True) -> int:
 		debug("Inserting show: {}".format(raw_show))
 		
 		name = raw_show.name
@@ -426,13 +427,13 @@ class DatabaseDatabase:
 		self.commit()
 	
 	@db_error
-	def set_show_delayed(self, show, delayed=True):
+	def set_show_delayed(self, show: Show, delayed=True):
 		debug("Marking show {} as delayed: {}".format(show.name, delayed))
 		self.q.execute("UPDATE Shows SET delayed = ? WHERE id = ?", (delayed, show.id))
 		self.commit()
 	
 	@db_error
-	def set_show_enabled(self, show, enabled=True, commit=True):
+	def set_show_enabled(self, show: Show, enabled=True, commit=True):
 		debug("Marking show {} as {}".format(show.name, "enabled" if enabled else "disabled"))
 		self.q.execute("UPDATE Shows SET enabled = ? WHERE id = ?", (enabled, show.id))
 		if commit:
@@ -441,14 +442,14 @@ class DatabaseDatabase:
 	# Episodes
 	
 	@db_error_default(True)
-	def stream_has_episode(self, stream, episode_num):
+	def stream_has_episode(self, stream: Stream, episode_num) -> bool:
 		self.q.execute("SELECT count(*) FROM Episodes WHERE show = ? AND episode = ?", (stream.show, episode_num))
 		num_found = self.get_count()
 		debug("Found {} entries matching show {}, episode {}".format(num_found, stream.show, episode_num))
 		return num_found > 0
 	
 	@db_error_default(None)
-	def get_latest_episode(self, show):
+	def get_latest_episode(self, show: Show) -> Episode:
 		self.q.execute("SELECT episode, post_url FROM Episodes WHERE show = ? ORDER BY episode DESC LIMIT 1", (show.id,))
 		data = self.q.fetchone()
 		if data is not None:
@@ -462,7 +463,7 @@ class DatabaseDatabase:
 		self.commit()
 	
 	@db_error_default(list())
-	def get_episodes(self, show, ensure_sorted=True):
+	def get_episodes(self, show, ensure_sorted=True) -> [Episode]:
 		episodes = list()
 		self.q.execute("SELECT episode, post_url FROM Episodes WHERE show = ?", (show.id,))
 		for data in self.q.fetchall():
@@ -470,13 +471,12 @@ class DatabaseDatabase:
 		
 		if ensure_sorted:
 			episodes = sorted(episodes, key=lambda e: e.number)
-		
 		return episodes
 	
 	# Searching
 	
 	@db_error_default(set())
-	def search_show_ids_by_names(self, *names, exact=False):
+	def search_show_ids_by_names(self, *names, exact=False) -> Set[Show]:
 		shows = set()
 		for name in names:
 			debug("Searching shows by name: {}".format(name))
@@ -494,13 +494,13 @@ class DatabaseDatabase:
 
 ## Conversions
 
-def to_show_type(db_val):
+def to_show_type(db_val: str) -> ShowType:
 	for st in ShowType:
 		if st.value == db_val:
 			return st
 	return ShowType.UNKNOWN
 
-def from_show_type(st):
+def from_show_type(st: ShowType) -> str:
 	if st is None:
 		return None
 	return st.value
