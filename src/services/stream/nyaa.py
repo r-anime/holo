@@ -1,7 +1,7 @@
 # Show search: https://www.nyaa.eu/?page=search&cats=1_37&filter=2&term=
 # Show search (RSS): https://www.nyaa.eu/?page=rss&cats=1_37&filter=2&term=
 
-from logging import debug, info, warning, error
+from logging import debug, info, warning, error, exception
 from datetime import datetime, timedelta
 import re
 from urllib.parse import quote_plus as url_quote
@@ -18,19 +18,24 @@ class ServiceHandler(AbstractServiceHandler):
 	
 	# Episode finding
 	
-	def get_latest_episode(self, stream, **kwargs):
-		episodes = self._get_feed_episodes(stream.show_key, **kwargs)
-		max_episode = None
-		for episode in episodes:
-			debug("Checking episode")
-			if _is_valid_episode(episode):
-				episode = _digest_episode(episode)
-				if episode:
-					if max_episode is None:
-						max_episode = episode
-					else:
-						max_episode = max(max_episode, episode, key=lambda x: x.number)
-		return max_episode
+	def get_all_episodes(self, stream, **kwargs):
+		info("Getting live episodes for Nyaa/{}".format(stream.show_key))
+		episode_datas = self._get_feed_episodes(stream.show_key, **kwargs)
+		
+		# Check data validity and digest
+		episodes = []
+		for episode_data in episode_datas:
+			if _is_valid_episode(episode_data):
+				try:
+					episodes.append(_digest_episode(episode_data))
+				except:
+					exception("Problem digesting episode for Crunchyroll/{}".format(stream.show_key))
+		
+		if len(episode_datas) > 0:
+			debug("  {} episodes found, {} valid", len(episode_datas), len(episodes))
+		else:
+			debug("  No episodes found")
+		return episodes
 	
 	def _get_feed_episodes(self, show_key, **kwargs):
 		"""

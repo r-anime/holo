@@ -2,7 +2,7 @@
 # 			 http://www.funimation.com/feeds/ps/shows?sort=SortOptionLatestSubscription (limit no workie)
 # Single show: http://www.funimation.com/feeds/ps/videos?ut=FunimationSubscriptionUser&show_id=7556914&limit=100000
 
-from logging import debug, info, warning, error
+from logging import debug, info, warning, error, exception
 from datetime import datetime
 import re
 
@@ -19,20 +19,29 @@ class ServiceHandler(AbstractServiceHandler):
 	def __init__(self):
 		super().__init__("funimation_new", "FUNimation", False)
 	
-	def get_latest_episode(self, stream, **kwargs):
-		shows = self._get_feed_shows(stream.show_id, **kwargs)
-		if not shows or len(shows) == 0:
-			debug("No shows found")
-			return None
+	def get_all_episodes(self, stream, **kwargs):
+		info("Getting live episodes for Funimation_new/{} ({})".format(stream.show_key, stream.show_id))
+		if not stream.show_id:
+			debug("  ID required and not given")
+			return []
 		
-		# Hope the episodes were parsed in order and iterate down looking for the latest episode
-		# The show-specific feed was likely used, but not guaranteed
-		for episode in shows:
-			if _is_valid_show(episode, stream.show_id):
-				return self._digest_episode(episode, stream)
+		episode_datas = self._get_feed_shows(stream.show_id, **kwargs)
 		
-		debug("Show not found")
-		return None
+		episodes = []
+		for episode_data in episode_datas:
+			if _is_valid_episode(episode_data, stream.show_id):
+				try:
+					episodes.append(self._digest_episode(episode_data, stream))
+				except:
+					exception("Problem digesting episode for Funimation_new/{} ({})".format(stream.show_key, stream.show_id))
+		
+		if len(episode_datas) > 0:
+			debug("  {} episodes found, {} valid", len(episode_datas), len(episodes))
+			if len(episode_datas) != len(episodes):
+				warning("  Not all episodes processed")
+		else:
+			debug("  No episodes found")
+		return episodes
 	
 	def get_stream_link(self, stream):
 		# Just going to assume it's the correct service
@@ -93,7 +102,7 @@ class ServiceHandler(AbstractServiceHandler):
 def _verify_feed(feed):
 	return True
 
-def _is_valid_show(feed_episode, show_id):
+def _is_valid_episode(feed_episode, show_id):
 	block = feed_episode.find("id")
 	if block is None or block.text != show_id:
 		return False
