@@ -1,18 +1,14 @@
 # Funimation shows without URLs:
-#   Servamp
-#   Danganronpa 3
-#   Hatsukoi Monster (First Love Monster)
+#   Danganronpa 3 (both shows on the same URL?)
 #   Handa-kun
-#   Time Travel Shoujo (Time Travel Girl)
-#   Scared Rider XechS (Scar-red Rider Xechs)
-#   Binan Koukou Chikyuu Bouei-bu LOVE! LOVE! (Cute High Earth Defense Club LOVE! LOVE!)
 #   Regalia: The Three Sacred Stars
 # 
 # Crunchyroll shows without URLs:
 #   Amaama to Inazuma (sweetness & lightning)
 # 
 # Missing shows:
-#   ReLIFE - all episodes airing at once ._.
+#   ReLIFE - all episodes aired at once ._.
+#   Momokuri - airing two episodes at a time
 
 title: 91 Days
 type: tv
@@ -88,7 +84,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12044
     anilist: http://anilist.co/anime/21751/B-PROJECT:Kodou%EF%BC%8AAmbitious
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/b-project
     funimation: ''
 ---
 title: Battery
@@ -122,7 +118,7 @@ info:
     anilist: http://anilist.co/anime/21293/BINANKOUKOUCHIKYUUBOUEIBULOVE!LOVE!
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/cute-high-earth-defense-club-love|12
 ---
 title: Cheer Danshi!!
 type: tv
@@ -133,7 +129,7 @@ info:
     anilist: http://anilist.co/anime/21713/CheerDanshi!!
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/cheer-boys
 ---
 title: D.Gray-man Hallow
 type: tv
@@ -176,7 +172,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11875
     anilist: http://anilist.co/anime/21578/DAYS
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/days
     funimation: ''
 ---
 title: Fate/kaleid liner PRISMA☆ILLYA 3rei!!
@@ -221,7 +217,7 @@ info:
     anilist: http://anilist.co/anime/21242/HATSUKOIMONSTER
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/first-love-monster
 ---
 title: 'Hitori no Shita: The Outcast'
 type: tv
@@ -288,17 +284,17 @@ info:
 streams:
     crunchyroll: ''
     funimation: ''
----
-title: Momokuri
-type: tv
-has_source: true
-info:
-    mal: http://myanimelist.net/anime/30014/Momokuri
-    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11073
-    anilist: http://anilist.co/anime/21841/momokuri(TV)
-streams:
-    crunchyroll: ''
-    funimation: ''
+#---
+#title: Momokuri
+#type: tv
+#has_source: true
+#info:
+#    mal: http://myanimelist.net/anime/30014/Momokuri
+#    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11073
+#    anilist: http://anilist.co/anime/21841/momokuri(TV)
+#streams:
+#    crunchyroll: ''
+#    funimation: ''
 ---
 title: 'Nanatsu no Taizai: Seisen no Shirushi'
 type: tv
@@ -397,7 +393,7 @@ info:
     anilist: http://anilist.co/anime/21747/ScaredRiderXechS
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/scar-red-rider-xechs
 ---
 title: Servamp
 type: tv
@@ -408,7 +404,7 @@ info:
     anilist: http://anilist.co/anime/21269/SERVAMP
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/servamp
 ---
 title: 'Shokugeki no Souma: Ni no Sara'
 type: tv
@@ -452,7 +448,7 @@ info:
     anilist: http://anilist.co/anime/21824/TimeTravelShoujo:MariWakato8-ninnoKagakusha-tachi
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/time-travel-girl
 ---
 title: Tsukiuta. The Animation
 type: tv
