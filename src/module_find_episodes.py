@@ -58,7 +58,8 @@ def _process_new_episode(config, db, show, stream, episode):
 	debug("Processing new episode")
 	debug(episode)
 	
-	if episode.is_live and episode.date.date() > yesterday:
+	#FIXME: nyaa service not adding date to episode, maybe move to is_recent property in Episode
+	if episode.is_live and (episode.date is None or episode.date.date() > yesterday):
 		# Adjust episode number with offset and check if already in database
 		episode.number = episode.number - stream.remote_offset
 		info("  Adjusted num: {}".format(episode.number))
