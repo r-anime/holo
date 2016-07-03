@@ -1,4 +1,5 @@
 from logging import debug, info, error
+from datetime import date, timedelta
 
 import services
 from data.models import Stream
@@ -51,11 +52,13 @@ def main(config, db, **kwargs):
 		else:
 			info("  No episode found")
 
+yesterday = date.today() - timedelta(days=1)
+
 def _process_new_episode(config, db, show, stream, episode):
 	debug("Processing new episode")
 	debug(episode)
 	
-	if episode.is_live:
+	if episode.is_live and episode.date.date() > yesterday:
 		# Adjust episode number with offset and check if already in database
 		episode.number = episode.number - stream.remote_offset
 		info("  Adjusted num: {}".format(episode.number))

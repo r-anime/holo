@@ -36,7 +36,7 @@ class ServiceHandler(AbstractServiceHandler):
 					exception("Problem digesting episode for Funimation_new/{} ({})".format(stream.show_key, stream.show_id))
 		
 		if len(episode_datas) > 0:
-			debug("  {} episodes found, {} valid", len(episode_datas), len(episodes))
+			debug("  {} episodes found, {} valid".format(len(episode_datas), len(episodes)))
 			if len(episode_datas) != len(episodes):
 				warning("  Not all episodes processed")
 		else:
