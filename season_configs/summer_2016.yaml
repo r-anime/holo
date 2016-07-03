@@ -337,7 +337,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11938
     anilist: http://anilist.co/anime/21647/orange
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/orange
     funimation: ''
 ---
 title: Qualidea Code

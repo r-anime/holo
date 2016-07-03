@@ -30,7 +30,7 @@ class ServiceHandler(AbstractServiceHandler):
 					exception("Problem digesting episode for Crunchyroll/{}".format(stream.show_key))
 		
 		if len(episode_datas) > 0:
-			debug("  {} episodes found, {} valid", len(episode_datas), len(episodes))
+			debug("  {} episodes found, {} valid".format(len(episode_datas), len(episodes)))
 		else:
 			debug("  No episodes found")
 		return episodes

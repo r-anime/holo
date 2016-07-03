@@ -32,7 +32,7 @@ class ServiceHandler(AbstractServiceHandler):
 					exception("Problem digesting episode for Crunchyroll/{}".format(stream.show_key))
 		
 		if len(episode_datas) > 0:
-			debug("  {} episodes found, {} valid", len(episode_datas), len(episodes))
+			debug("  {} episodes found, {} valid".format(len(episode_datas), len(episodes)))
 		else:
 			debug("  No episodes found")
 		return episodes
@@ -90,7 +90,7 @@ def _verify_feed(feed):
 def _is_valid_episode(feed_episode):
 	episode_date = datetime(*feed_episode.published_parsed[:6])
 	date_diff = datetime.utcnow() - episode_date
-	if date_diff >= timedelta(days=3):
+	if date_diff >= timedelta(days=2):
 		debug("  Episode too old")
 		return False
 	return True
