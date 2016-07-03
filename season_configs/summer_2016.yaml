@@ -3,9 +3,6 @@
 #   Handa-kun
 #   Regalia: The Three Sacred Stars
 # 
-# Crunchyroll shows without URLs:
-#   Amaama to Inazuma (sweetness & lightning)
-# 
 # Missing shows:
 #   ReLIFE - all episodes aired at once ._.
 #   Momokuri - airing two episodes at a time
@@ -40,7 +37,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11952
     anilist: http://anilist.co/anime/21659/AmaamatoInazuma
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/sweetness-lightning
     funimation: ''
 ---
 title: Amanchu!
@@ -117,7 +114,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11488
     anilist: http://anilist.co/anime/21293/BINANKOUKOUCHIKYUUBOUEIBULOVE!LOVE!
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/cute-high-earth-defense-club-love|12
     funimation: http://www.funimation.com/shows/cute-high-earth-defense-club-love|12
 ---
 title: Cheer Danshi!!
@@ -227,7 +224,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12200
     anilist: http://anilist.co/anime/21840/HitorinoShita:theoutcast
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/hitorinoshita-the-outcast
     funimation: ''
 ---
 title: Kono Bijutsu-bu ni wa Mondai ga Aru!
@@ -249,7 +246,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11878
     anilist: http://anilist.co/anime/21584/LoveLive!Sunshine!!
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/love-live-sunshine
     funimation: http://www.funimation.com/shows/love-live-sunshine
 ---
 title: Mahou Shoujo? Naria☆Girls
@@ -271,7 +268,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11638
     anilist: http://anilist.co/anime/21378/MasouGakuenHxH
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/hybrid-x-heart-magias-academy-ataraxia
     funimation: ''
 ---
 title: Mob Psycho 100
@@ -326,7 +323,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11736
     anilist: http://anilist.co/anime/21455/NEWGAME!
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/new-game
     funimation: ''
 ---
 title: Orange
