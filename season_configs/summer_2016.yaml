@@ -59,7 +59,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=10962
     anilist: http://anilist.co/anime/21439/AngeVierge
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/ange-vierge
     funimation: ''
 ---
 title: 'Arslan Senki: Fuujin Ranbu'
@@ -180,7 +180,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11639
     anilist: http://anilist.co/anime/21379/FatekaleidlinerPRISMA%E2%98%86ILLYA3rei!!
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/fatekaleid-liner-prisma-illya
     funimation: ''
 ---
 title: Fukigen na Mononokean
@@ -422,7 +422,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11039
     anilist: http://anilist.co/anime/21031/TABOOTATTOO
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/taboo-tattoo
     funimation: ''
 ---
 title: Tales of Zestiria the X
