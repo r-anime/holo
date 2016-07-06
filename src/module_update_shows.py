@@ -49,7 +49,7 @@ def _disable_finished_shows(config, db, update_db=True):
 	shows = db.get_shows()
 	for show in shows:
 		latest_episode = db.get_latest_episode(show)
-		if latest_episode is not None and latest_episode.number >= show.length:
+		if latest_episode is not None and 0 < show.length <= latest_episode.number:
 			info("  Disabling show \"{}\"".format(show.name))
 			if latest_episode.number > show.length:
 				warning("    Episode number ({}) greater than show length ({})".format(latest_episode.number, show.length))
