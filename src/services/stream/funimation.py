@@ -22,6 +22,7 @@ class ServiceHandler(AbstractServiceHandler):
 	
 	# Episode finding
 	
+	#TODO: Ignore old seasons
 	def get_all_episodes(self, stream, **kwargs):
 		info("Getting live episodes for Funimation/{} ({})".format(stream.show_key, stream.show_id))
 		if not stream.show_id:

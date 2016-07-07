@@ -235,7 +235,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11735
     anilist: http://anilist.co/anime/21457/KonoBijutsu-buniwaMondaigaAru!
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/this-art-club-has-a-problem
     funimation: ''
 ---
 title: Love Live! Sunshine!!
@@ -257,7 +257,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12158
     anilist: http://anilist.co/anime/21835/MahouShoujo?Naria%E2%98%86Girls
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/naria-girls
     funimation: ''
 ---
 title: Masou Gakuen HxH
@@ -279,7 +279,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11803
     anilist: http://anilist.co/anime/21507/MobPsycho100
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/mob-psycho-100
     funimation: ''
 #---
 #title: Momokuri
