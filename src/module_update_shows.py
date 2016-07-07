@@ -3,12 +3,12 @@ from logging import debug, info, warning, error
 import services
 
 def main(config, db, **kwargs):
+	# Find data not provided by the edit module
+	_check_missing_stream_info(config, db, update_db=not config.debug)
 	# Show lengths aren't always known at the start of the season
 	_check_show_lengths(config, db, update_db=not config.debug)
 	# Check if shows have finished and disable them if they have
 	_disable_finished_shows(config, db, update_db=not config.debug)
-	# Find data not provided by the edit module
-	_check_missing_stream_info(config, db, update_db=not config.debug)
 	
 def _check_show_lengths(config, db, update_db=True):
 	shows = db.get_shows(missing_length=True)
