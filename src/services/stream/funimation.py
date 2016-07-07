@@ -138,6 +138,10 @@ def _is_valid_episode(feed_episode, show_id):
 	if get("has_subtitles", "false") != "true" or get("dub_sub", "dub") != "sub":
 		debug("Is dub, ignoring")
 		return False
+	# Ignore non-episodes
+	video_type = get("video_type", "Unknown")
+	if video_type != "Episode":
+		debug("Is not episode ({}), ignoring".format(video_type))
 	# Sanity check
 	if get("show_id", "-1") != show_id:
 		debug("Wrong ID")
