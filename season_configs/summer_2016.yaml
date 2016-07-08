@@ -1,7 +1,6 @@
 # Funimation shows without URLs:
 #   Danganronpa 3 (both shows on the same URL?)
 #   Handa-kun
-#   Regalia: The Three Sacred Stars
 # 
 # Missing shows:
 #   ReLIFE - all episodes aired at once ._.
@@ -15,7 +14,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12014
     anilist: http://anilist.co/anime/21711/91Days
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/91-days
     funimation: ''
 ---
 title: 'ACTIVE RAID: Kidou Kyoushuushitsu Dai Hakkei 2'
@@ -114,7 +113,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11488
     anilist: http://anilist.co/anime/21293/BINANKOUKOUCHIKYUUBOUEIBULOVE!LOVE!
 streams:
-    crunchyroll: http://www.crunchyroll.com/cute-high-earth-defense-club-love|12
+    crunchyroll: http://www.crunchyroll.com/cute-high-earth-defense-club-love
     funimation: http://www.funimation.com/shows/cute-high-earth-defense-club-love|12
 ---
 title: Cheer Danshi!!
@@ -312,7 +311,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11679
     anilist: http://anilist.co/anime/21410/NejimakiSeireiSenki:TenkyounoAlderamin
 streams:
-    crunchyroll: ''
+    crunchyroll: http://www.crunchyroll.com/alderamin-on-the-sky
     funimation: ''
 ---
 title: New Game!
