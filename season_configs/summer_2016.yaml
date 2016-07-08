@@ -357,7 +357,7 @@ info:
     anilist: http://anilist.co/anime/21707/Regalia:TheThreeSacredStars
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/regalia-the-three-sacred-stars
 ---
 title: Rewrite
 type: tv
@@ -479,3 +479,14 @@ info:
 streams:
     crunchyroll: http://www.crunchyroll.com/the-highschool-life-of-a-fudanshi
     funimation: ''
+---
+title: Planetarian
+type: tv
+has_source: true
+info:
+    mal: http://myanimelist.net/anime/33091/Planetarian__Chiisana_Hoshi_no_Yume
+    anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12085
+    anilist: https://anilist.co/anime/21732/planetarianChiisanaHoshinoYume
+streams:
+    crunchyroll: ''
+    funimation: http://www.funimation.com/shows/planetarian
