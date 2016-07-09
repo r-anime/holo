@@ -202,7 +202,7 @@ info:
     anilist: http://anilist.co/anime/21626/handa-kun
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/handa-kun
 ---
 title: Hatsukoi Monster
 type: tv
