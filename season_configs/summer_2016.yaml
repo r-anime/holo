@@ -1,10 +1,9 @@
 # Funimation shows without URLs:
 #   Danganronpa 3 (both shows on the same URL?)
-#   Handa-kun
 # 
 # Missing shows:
 #   ReLIFE - all episodes aired at once ._.
-#   Momokuri - airing two episodes at a time
+#   Momokuri - re-airing, airing two episodes at a time
 
 title: 91 Days
 type: tv
@@ -70,7 +69,7 @@ info:
     anilist: http://anilist.co/anime/21424/ArslanSenki:FuujinRanbu
 streams:
     crunchyroll: ''
-    funimation: ''
+    funimation: http://www.funimation.com/shows/the-heroic-legend-of-arslan/home|25
 ---
 title: 'B-Project: Kodou＊Ambitious'
 type: tv
@@ -410,7 +409,7 @@ info:
     anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11828
     anilist: http://anilist.co/anime/21518/SHOKUGEKINOSOUMA:NinoSara
 streams:
-    crunchyroll: http://www.crunchyroll.com/food-wars-shokugeki-no-soma|24
+    crunchyroll: http://www.crunchyroll.com/food-wars-shokugeki-no-soma
     funimation: ''
 ---
 title: Taboo Tattoo
