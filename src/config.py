@@ -22,6 +22,7 @@ class Config:
 		self.services = dict()
 		
 		self.new_show_types = list()
+		self.record_scores = False
 		
 		self.post_title = None
 		self.post_title_postfix_final = None
@@ -72,6 +73,7 @@ def from_file(file_path):
 		config.debug = sec.getboolean("debug", False)
 		from data.models import str_to_showtype
 		config.new_show_types.extend(map(lambda s: str_to_showtype(s.strip()), sec.get("new_show_types", "").split(",")))
+		config.record_scores = sec.getboolean("record_scores", False)
 	
 	if "post" in parsed:
 		sec = parsed["post"]

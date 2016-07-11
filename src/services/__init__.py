@@ -312,6 +312,17 @@ class AbstractInfoHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
+	def get_show_score(self, show, link, **kwargs):
+		"""
+		Gets the score of the specified show on the site given by the link.
+		:param show: The show being checked
+		:param link: The link pointing to the site being checked
+		:param kwargs: Extra arguments, particularly useragent
+		:return: The show's score, otherwise None
+		"""
+		return None
+	
+	@abstractmethod
 	def get_seasonal_shows(self, year=None, season=None, **kwargs):
 		"""
 		Gets a list of shows airing in a particular season.

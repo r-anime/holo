@@ -5,6 +5,9 @@ import services
 def main(config, db, **kwargs):
 	# Find data not provided by the edit module
 	_check_missing_stream_info(config, db, update_db=not config.debug)
+	# Check for new show scores
+	if config.record_scores:
+		_check_new_episode_scores(config, db, update_db=not config.debug)
 	# Show lengths aren't always known at the start of the season
 	_check_show_lengths(config, db, update_db=not config.debug)
 	# Check if shows have finished and disable them if they have
@@ -78,3 +81,29 @@ def _check_missing_stream_info(config, db, update_db=True):
 	
 	if update_db:
 		db.commit()
+
+def _check_new_episode_scores(config, db, update_db):
+	shows = db.get_shows(enabled=True)
+	for show in shows:
+		latest_episode = db.get_latest_episode(show)
+		if latest_episode is not None:
+			scores = db.get_episode_scores(show, latest_episode)
+			# Check if any scores have been found rather than checking for each service
+			if len(scores) == 0:
+				for handler in services.get_link_handlers().values():
+					info("  Checking {} ({})".format(handler.name, handler.key))
+					
+					# Get show link to site represented by the handler
+					site = db.get_link_site(key=handler.key)
+					link = db.get_link(show, site)
+					if link is None:
+						error("Failed to create link")
+						continue
+					
+					new_score = handler.get_show_score(show, link, useragent=config.useragent)
+					if new_score is not None:
+						debug("    Score: {}".format(new_score))
+						db.add_episode_score(show, latest_episode, site, new_score, commit=False)
+				
+				if update_db:
+					db.commit()
