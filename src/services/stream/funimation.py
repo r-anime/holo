@@ -143,6 +143,7 @@ def _is_valid_episode(feed_episode, show_id):
 	video_type = get("video_type", "Unknown")
 	if video_type != "Episode":
 		debug("Is not episode ({}), ignoring".format(video_type))
+		return False
 	# Sanity check
 	if get("show_id", "-1") != show_id:
 		debug("Wrong ID")
