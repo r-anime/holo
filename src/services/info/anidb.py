@@ -40,6 +40,9 @@ class InfoHandler(AbstractInfoHandler):
 	def get_episode_count(self, show, link, **kwargs):
 		return None
 	
+	def get_show_score(self, show, link, **kwargs):
+		return None
+	
 	def get_seasonal_shows(self, year=None, season=None, **kwargs):
 		#TODO: use year and season if provided
 		debug("Getting season shows: year={}, season={}".format(year, season))

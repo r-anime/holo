@@ -4,7 +4,7 @@ from functools import wraps, lru_cache
 from unidecode import unidecode
 from typing import Set
 
-from .models import Show, ShowType, Stream, Service, LinkSite, Link, Episode, UnprocessedStream, UnprocessedShow
+from .models import Show, ShowType, Stream, Service, LinkSite, Link, Episode, EpisodeScore, UnprocessedStream, UnprocessedShow
 
 def living_in(the_database):
 	# wow wow
@@ -130,6 +130,15 @@ class DatabaseDatabase:
 			site_key	TEXT NOT NULL,
 			FOREIGN KEY(site) REFERENCES LinkSites(id)
 			FOREIGN KEY(show) REFERENCES Shows(id)
+		)""")
+		
+		self.q.execute("""CREATE TABLE IF NOT EXISTS Scores (
+			show		INTEGER NOT NULL,
+			episode		INTEGER NOT NULL,
+			site		INTEGER NOT NULL,
+			score		REAL NOT NULL,
+			FOREIGN KEY(show) REFERENCES Shows(id),
+			FOREIGN KEY(site) REFERENCES LinkSites(id)
 		)""")
 		
 		self.commit()
@@ -472,6 +481,24 @@ class DatabaseDatabase:
 		if ensure_sorted:
 			episodes = sorted(episodes, key=lambda e: e.number)
 		return episodes
+	
+	# Scores
+	
+	@db_error_default(list())
+	def get_show_scores(self, show: Show) -> [EpisodeScore]:
+		self.q.execute("SELECT episode, site, score FROM Scores WHERE show=?", (show.id,))
+		return [EpisodeScore(show.id, *s) for s in self.q.fetchall()]
+	
+	@db_error_default(list())
+	def get_episode_scores(self, show: Show, episode: Episode) -> [EpisodeScore]:
+		self.q.execute("SELECT site, score FROM Scores WHERE show=? AND episode=?", (show.id, episode.number))
+		return [EpisodeScore(show.id, episode.number, *s) for s in self.q.fetchall()]
+	
+	@db_error
+	def add_episode_score(self, show: Show, episode: Episode, site: LinkSite, score: float, commit=True):
+		self.q.execute("INSERT INTO Scores (show, episode, site, score) VALUES (?, ?, ?, ?)", (show.id, episode.number, site.id, score))
+		if commit:
+			self.commit()
 	
 	# Searching
 	

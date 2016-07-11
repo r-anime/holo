@@ -62,6 +62,13 @@ class Episode:
 		now = datetime.now() if local else datetime.utcnow()
 		return now >= self.date
 
+class EpisodeScore:
+	def __init__(self, show_id, episode, site_id, score):
+		self.show_id = show_id
+		self.episode = episode
+		self.site_id = site_id
+		self.score = score
+
 class Service(DbEqMixin):
 	def __init__(self, id, key, name, enabled, use_in_post):
 		# Note: arguments are order-sensitive
