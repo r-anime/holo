@@ -57,7 +57,7 @@ class InfoHandler(AbstractInfoHandler):
 		url = self._show_link_base.format(id=link.site_key)
 		response = self._mal_request(url, **kwargs)
 		if response is None:
-			error("Cannot get episode count")
+			error("Cannot get show page")
 			return None
 		
 		# Parse show page (ugh, HTML parsing)
@@ -65,16 +65,34 @@ class InfoHandler(AbstractInfoHandler):
 		if count_sib is None:
 			error("Failed to find episode count sibling")
 			return None
-		count = count_sib.find_next_sibling(string=re.compile("\d+"))
-		if count is None:
-			debug("  Count not found")
+		count_elem = count_sib.find_next_sibling(string=re.compile("\d+"))
+		if count_elem is None:
+			warning("  Count not found")
 			return None
-		count = int(count.strip())
+		count = int(count_elem.strip())
+		debug("  Count: {}".format(count))
 		
 		return count
 	
 	def get_show_score(self, show, link, **kwargs):
-		return None
+		debug("Getting show score")
+		
+		# Request show page
+		url = self._show_link_base.format(id=link.site_key)
+		response = self._mal_request(url, **kwargs)
+		if response is None:
+			error("Cannot get show page")
+			return None
+		
+		# Find score
+		score_elem = response.find("span", attrs={"itemprop": "ratingValue"})
+		if score_elem is None:
+			warning("  Count not found")
+			return None
+		score = float(score_elem.string)
+		debug("  Score: {}".format(score))
+		
+		return score
 	
 	def get_seasonal_shows(self, year=None, season=None, **kwargs):
 		#TODO: use year and season if provided

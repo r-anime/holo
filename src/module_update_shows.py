@@ -4,16 +4,18 @@ import services
 
 def main(config, db, **kwargs):
 	# Find data not provided by the edit module
-	_check_missing_stream_info(config, db, update_db=not config.debug)
+	#_check_missing_stream_info(config, db, update_db=not config.debug)
 	# Check for new show scores
 	if config.record_scores:
 		_check_new_episode_scores(config, db, update_db=not config.debug)
 	# Show lengths aren't always known at the start of the season
-	_check_show_lengths(config, db, update_db=not config.debug)
+	#_check_show_lengths(config, db, update_db=not config.debug)
 	# Check if shows have finished and disable them if they have
-	_disable_finished_shows(config, db, update_db=not config.debug)
+	#_disable_finished_shows(config, db, update_db=not config.debug)
 	
 def _check_show_lengths(config, db, update_db=True):
+	info("Checking show lengths")
+	
 	shows = db.get_shows(missing_length=True)
 	for show in shows:
 		info("Updating episode count of {} ({})".format(show.name, show.id))
@@ -49,6 +51,7 @@ def _check_show_lengths(config, db, update_db=True):
 
 def _disable_finished_shows(config, db, update_db=True):
 	info("Checking for disabled shows")
+	
 	shows = db.get_shows()
 	for show in shows:
 		latest_episode = db.get_latest_episode(show)
@@ -62,6 +65,8 @@ def _disable_finished_shows(config, db, update_db=True):
 		db.save()
 
 def _check_missing_stream_info(config, db, update_db=True):
+	info("Checking for missing stream info")
+	
 	streams = db.get_streams(missing_name=True)
 	for stream in streams:
 		service_info = db.get_service(id=stream.service)
@@ -83,10 +88,14 @@ def _check_missing_stream_info(config, db, update_db=True):
 		db.commit()
 
 def _check_new_episode_scores(config, db, update_db):
+	info("Checking for new episode scores")
+	
 	shows = db.get_shows(enabled=True)
 	for show in shows:
 		latest_episode = db.get_latest_episode(show)
 		if latest_episode is not None:
+			info("For show {} ({}), episode {}".format(show.name, show.id, latest_episode .number))
+			
 			scores = db.get_episode_scores(show, latest_episode)
 			# Check if any scores have been found rather than checking for each service
 			if len(scores) == 0:
@@ -102,8 +111,10 @@ def _check_new_episode_scores(config, db, update_db):
 					
 					new_score = handler.get_show_score(show, link, useragent=config.useragent)
 					if new_score is not None:
-						debug("    Score: {}".format(new_score))
+						info("    Score: {}".format(new_score))
 						db.add_episode_score(show, latest_episode, site, new_score, commit=False)
 				
 				if update_db:
 					db.commit()
+			else:
+				info("  Already has scores, ignoring")
