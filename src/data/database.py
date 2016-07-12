@@ -494,6 +494,17 @@ class DatabaseDatabase:
 		self.q.execute("SELECT site, score FROM Scores WHERE show=? AND episode=?", (show.id, episode.number))
 		return [EpisodeScore(show.id, episode.number, *s) for s in self.q.fetchall()]
 	
+	@db_error_default(None)
+	def get_episode_score_avg(self, show: Show, episode: Episode) -> EpisodeScore:
+		debug("Calculating avg score for {} ({})".format(show.name, show.id))
+		self.q.execute("SELECT score FROM Scores WHERE show=? AND episode=?", (show.id, episode.number))
+		scores = [s[0] for s in self.q.fetchall()]
+		if len(scores) > 0:
+			score = sum(scores)/len(scores)
+			debug("  Score: {} (from {} scores)".format(score, len(scores)))
+			return score
+		return None
+	
 	@db_error
 	def add_episode_score(self, show: Show, episode: Episode, site: LinkSite, score: float, commit=True):
 		self.q.execute("INSERT INTO Scores (show, episode, site, score) VALUES (?, ?, ?, ?)", (show.id, episode.number, site.id, score))

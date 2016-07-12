@@ -168,7 +168,8 @@ def _gen_text_discussions(db, formats, show):
 	if len(episodes) > 0:
 		table = [formats["discussion_header"]]
 		for episode in episodes:
-			table.append(safe_format(formats["discussion"], episode_num=episode.number, episode_link=episode.link))
+			score = db.get_episode_score_avg(show, episode)
+			table.append(safe_format(formats["discussion"], episode_num=episode.number, episode_link=episode.link, episode_score=score if score else ""))
 		return "\n".join(table)
 	else:
 		return formats["discussion_none"]
