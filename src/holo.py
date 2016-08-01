@@ -7,7 +7,7 @@ if sys.version_info[0] != 3 or sys.version_info[1] < 5:
 # Metadata
 name = "Holo"
 description = "episode discussion bot"
-version = "0.1.1"
+version = "0.1.2"
 
 # Ensure proper files can be access if running with cron
 import os
@@ -79,7 +79,8 @@ if __name__ == "__main__":
 	
 	# Load config file
 	import config as config_loader
-	c = config_loader.from_file(args.config_file[0])
+	config_file = os.environ["HOLO_CONFIG"] if "HOLO_CONFIG" in os.environ else args.config_file[0]
+	c = config_loader.from_file(config_file)
 	
 	# Override config with args
 	c.debug |= args.debug

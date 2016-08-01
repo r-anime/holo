@@ -1,4 +1,5 @@
 import configparser
+from logging import warning
 
 class WhitespaceFriendlyConfigParser(configparser.ConfigParser):
 	def get(self, section, option, *args, **kwargs):
