@@ -82,6 +82,14 @@ class Service(DbEqMixin):
 		return "Service: {} ({})".format(self.key, self.id)
 
 class Stream(DbEqMixin):
+	"""
+		remote_offset: relative to a start episode of 1
+			If a stream numbers new seasons after ones before, remote_offset should be positive.
+			If a stream numbers starting before 1 (ex. 0), remote_offset should be negative.
+		display_offset: relative to the internal numbering starting at 1
+			If a show should be displayed with higher numbering (ex. continuing after a split cour), display_offset should be positive.
+			If a show should be numbered lower than 1 (ex. 0), display_offset should be negative.
+	"""
 	def __init__(self, id, service, show, show_id, show_key, name, remote_offset, display_offset, active):
 		# Note: arguments are order-sensitive
 		self.id = id
@@ -100,6 +108,14 @@ class Stream(DbEqMixin):
 	@classmethod
 	def from_show(cls, show):
 		return Stream(-1, -1, show.id, -1, show.name, show.name, 0, 0, 1)
+	
+	def to_internal_episode(self, episode):
+		episode.number -= self.remote_offset
+		return episode
+	
+	def to_display_episode(self, episode):
+		episode.number += self.display_offset
+		return episode
 
 class LinkSite(DbEqMixin):
 	def __init__(self, id, key, name, enabled):
