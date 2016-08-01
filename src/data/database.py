@@ -374,7 +374,7 @@ class DatabaseDatabase:
 	
 	@db_error_default(None)
 	def get_show(self, id=None, stream=None) -> Show:
-		debug("Getting show from database")
+		#debug("Getting show from database")
 		
 		# Get show ID
 		if stream and not id:

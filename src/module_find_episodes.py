@@ -52,17 +52,21 @@ def main(config, db, **kwargs):
 		else:
 			info("  No episode found")
 
-yesterday = date.today() - timedelta(days=1)
+#yesterday = date.today() - timedelta(days=1)
 
 def _process_new_episode(config, db, show, stream, episode):
 	debug("Processing new episode")
 	debug(episode)
 	
-	#FIXME: nyaa service not adding date to episode, maybe move to is_recent property in Episode
-	if episode.is_live and (episode.date is None or episode.date.date() > yesterday):
-		# Adjust episode number with offset and check if already in database
-		episode.number = episode.number - stream.remote_offset
+	info("  Date: {}".format(episode.date))
+	info("  Is life: {}".format(episode.is_live))
+	#if episode.is_live and (episode.date is None or episode.date.date() > yesterday):
+	if episode.is_live:
+		# Adjust episode to internal numbering
+		episode = stream.to_internal_episode(episode)
 		info("  Adjusted num: {}".format(episode.number))
+		
+		# Check if already in database
 		#already_seen = db.stream_has_episode(stream, episode.number)
 		latest_episode = db.get_latest_episode(show)
 		already_seen = (latest_episode is not None and latest_episode.number >= episode.number) or episode.number <= 0
@@ -82,6 +86,8 @@ def _process_new_episode(config, db, show, stream, episode):
 		info("  Episode not live")
 
 def _create_reddit_post(config, db, show, stream, episode, submit=True):
+	episode = stream.to_display_episode(episode)
+	
 	title, body = _create_post_contents(config, db, show, stream, episode)
 	if submit:
 		new_post = reddit.submit_text_post(config.subreddit, title, body)
@@ -93,8 +99,6 @@ def _create_reddit_post(config, db, show, stream, episode, submit=True):
 	return None
 
 def _create_post_contents(config, db, show, stream, episode):
-	debug("Formatting with formats:")
-	debug(config.post_formats)
 	title = _create_post_title(config, show, episode)
 	title = _format_post_text(db, title, config.post_formats, show, episode, stream)
 	info("Title:\n"+title)
@@ -104,8 +108,6 @@ def _create_post_contents(config, db, show, stream, episode):
 
 def _format_post_text(db, text, formats, show, episode, stream):
 	#TODO: change to a more block-based system (can exclude blocks without content)
-	episode_num = episode.number + stream.display_offset
-	
 	if "{spoiler}" in text:
 		text = safe_format(text, spoiler=_gen_text_spoiler(formats, show))
 	if "{streams}" in text:
@@ -113,10 +115,10 @@ def _format_post_text(db, text, formats, show, episode, stream):
 	if "{links}" in text:
 		text = safe_format(text, links=_gen_text_links(db, formats, show))
 	if "{discussions}" in text:
-		text = safe_format(text, discussions=_gen_text_discussions(db, formats, show))
+		text = safe_format(text, discussions=_gen_text_discussions(db, formats, show, stream))
 	
 	episode_name = ": {}".format(episode.name) if episode.name else ""
-	text = safe_format(text, show_name=show.name, episode=episode_num, episode_name=episode_name)
+	text = safe_format(text, show_name=show.name, episode=episode.number, episode_name=episode_name)
 	return text.strip()
 
 def _create_post_title(config, show, episode):
@@ -162,12 +164,13 @@ def _gen_text_links(db, formats, show):
 			
 	return "\n".join(link_texts)
 
-def _gen_text_discussions(db, formats, show):
+def _gen_text_discussions(db, formats, show, stream):
 	episodes = db.get_episodes(show)
 	debug("Num previous episodes: {}".format(len(episodes)))
 	if len(episodes) > 0:
 		table = [formats["discussion_header"]]
 		for episode in episodes:
+			episode = stream.to_display_episode(episode)
 			score = db.get_episode_score_avg(show, episode)
 			table.append(safe_format(formats["discussion"], episode_num=episode.number, episode_link=episode.link, episode_score=score if score else ""))
 		return "\n".join(table)
