@@ -65,11 +65,15 @@ def _process_new_episode(config, db, show, stream, episode):
 		# Adjust episode to internal numbering
 		episode = stream.to_internal_episode(episode)
 		info("  Adjusted num: {}".format(episode.number))
+		if episode.number < 0:
+			error("Episode number cannot be negative")
+			return
 		
 		# Check if already in database
 		#already_seen = db.stream_has_episode(stream, episode.number)
 		latest_episode = db.get_latest_episode(show)
-		already_seen = (latest_episode is not None and latest_episode.number >= episode.number) or episode.number <= 0
+		info("  Latest ep num: {}".format("none" if latest_episode is None else latest_episode.number))
+		already_seen = latest_episode is not None and latest_episode.number >= episode.number
 		info("  Already seen: {}".format(already_seen))
 		
 		# New episode!

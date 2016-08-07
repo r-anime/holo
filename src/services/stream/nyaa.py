@@ -27,7 +27,9 @@ class ServiceHandler(AbstractServiceHandler):
 		for episode_data in episode_datas:
 			if _is_valid_episode(episode_data):
 				try:
-					episodes.append(_digest_episode(episode_data))
+					episode = _digest_episode(episode_data)
+					if episode is not None:
+						episodes.append(episode)
 				except:
 					exception("Problem digesting episode for Crunchyroll/{}".format(stream.show_key))
 		
