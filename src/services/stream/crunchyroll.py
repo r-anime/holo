@@ -191,7 +191,7 @@ def _digest_episode(feed_episode):
 	name = feed_episode.title
 	match = _episode_name_correct.match(name)
 	if match:
-		info("  Corrected title from \"{}\"".format(name))
+		debug("  Corrected title from \"{}\"".format(name))
 		name = match.group(1)
 	debug("  name={}".format(name))
 	link = feed_episode.link
