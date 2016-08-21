@@ -1,5 +1,6 @@
 from datetime import datetime
 import enum
+import copy
 
 class ShowType(enum.Enum):
 	UNKNOWN = 0
@@ -110,12 +111,14 @@ class Stream(DbEqMixin):
 		return Stream(-1, -1, show.id, -1, show.name, show.name, 0, 0, 1)
 	
 	def to_internal_episode(self, episode):
-		episode.number -= self.remote_offset
-		return episode
+		e = copy.copy(episode)
+		e.number -= self.remote_offset
+		return e
 	
 	def to_display_episode(self, episode):
-		episode.number += self.display_offset
-		return episode
+		e = copy.copy(episode)
+		e.number += self.display_offset
+		return e
 
 class LinkSite(DbEqMixin):
 	def __init__(self, id, key, name, enabled):

@@ -63,9 +63,9 @@ def _process_new_episode(config, db, show, stream, episode):
 	#if episode.is_live and (episode.date is None or episode.date.date() > yesterday):
 	if episode.is_live:
 		# Adjust episode to internal numbering
-		episode = stream.to_internal_episode(episode)
-		info("  Adjusted num: {}".format(episode.number))
-		if episode.number < 0:
+		int_episode = stream.to_internal_episode(episode)
+		info("  Adjusted num: {}".format(int_episode.number))
+		if int_episode.number < 0:
 			error("Episode number cannot be negative")
 			return
 		
@@ -73,15 +73,15 @@ def _process_new_episode(config, db, show, stream, episode):
 		#already_seen = db.stream_has_episode(stream, episode.number)
 		latest_episode = db.get_latest_episode(show)
 		info("  Latest ep num: {}".format("none" if latest_episode is None else latest_episode.number))
-		already_seen = latest_episode is not None and latest_episode.number >= episode.number
+		already_seen = latest_episode is not None and latest_episode.number >= int_episode.number
 		info("  Already seen: {}".format(already_seen))
 		
 		# New episode!
 		if not already_seen:
-			post_url = _create_reddit_post(config, db, show, stream, episode, submit=not config.debug)
+			post_url = _create_reddit_post(config, db, show, stream, int_episode, submit=not config.debug)
 			info("  Post URL: {}".format(post_url))
 			if post_url is not None:
-				db.add_episode(stream.show, episode.number, post_url)
+				db.add_episode(stream.show, int_episode.number, post_url)
 				if show.delayed:
 					db.set_show_delayed(show, False)
 			else:
@@ -90,9 +90,9 @@ def _process_new_episode(config, db, show, stream, episode):
 		info("  Episode not live")
 
 def _create_reddit_post(config, db, show, stream, episode, submit=True):
-	episode = stream.to_display_episode(episode)
+	display_episode = stream.to_display_episode(episode)
 	
-	title, body = _create_post_contents(config, db, show, stream, episode)
+	title, body = _create_post_contents(config, db, show, stream, display_episode)
 	if submit:
 		new_post = reddit.submit_text_post(config.subreddit, title, body)
 		if new_post is not None:
