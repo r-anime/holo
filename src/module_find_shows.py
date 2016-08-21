@@ -5,11 +5,11 @@ from data.models import ShowType
 
 def main(config, db, **kwargs):
 	#check_new_shows(config, db, update_db=not config.debug)
-	check_new_shows(config, db)
+	#check_new_shows(config, db)
 	#match_show_streams(config, db, update_db=not config.debug)
 	#match_show_streams(config, db)
-	#check_new_streams(config, db, update_db=not config.debug)
-	check_new_streams(config, db)
+	check_new_streams(config, db, update_db=not config.debug)
+	#check_new_streams(config, db)
 
 # New shows
 
@@ -99,11 +99,12 @@ def _get_new_season_streams(config, db):
 			warning("Service handler for {} not installed".format(service.key))
 			continue
 		
-		handler = handlers.get(service.key)
-		info("  Checking {} ({})".format(handler.name, handler.key))
-		raw_stream = handler.get_seasonal_streams(useragent=config.useragent)
-		for raw_stream in raw_stream:
-			yield raw_stream
+		if service.enabled:
+			handler = handlers.get(service.key)
+			info("  Checking {} ({})".format(handler.name, handler.key))
+			raw_stream = handler.get_seasonal_streams(useragent=config.useragent)
+			for raw_stream in raw_stream:
+				yield raw_stream
 
 # Match streams missing shows
 
