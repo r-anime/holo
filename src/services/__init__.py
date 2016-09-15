@@ -130,7 +130,7 @@ class Requestable:
 ###################
 
 from abc import abstractmethod, ABC
-from datetime import date
+from datetime import datetime
 
 class AbstractServiceHandler(ABC, Requestable):
 	def __init__(self, key, name, is_generic):
@@ -161,8 +161,8 @@ class AbstractServiceHandler(ABC, Requestable):
 		:return: A list of live episodes
 		"""
 		episodes = self.get_all_episodes(stream, **kwargs)
-		today = date.today()										#NOTE: Uses local time instead of UTC, but probably doesn't matter too much on a day scale
-		return filter(lambda e: e.date.date() <= today, episodes)
+		today = datetime.utcnow().date()							#NOTE: Uses local time instead of UTC, but probably doesn't matter too much on a day scale
+		return filter(lambda e: e.date.date() <= today, episodes)	# Update 9/14/16: It actually matters.
 	
 	@abstractmethod
 	def get_all_episodes(self, stream, **kwargs):
