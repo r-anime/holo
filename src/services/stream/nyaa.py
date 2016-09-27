@@ -10,8 +10,7 @@ from .. import AbstractServiceHandler
 from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):
-	#TODO: more extensible exclude using config
-	_search_base = "https://{domain}/?page=rss&cats=1_37&filter=2&term={q}&exclude=169660"
+	_search_base = "https://{domain}/?page=rss&cats=1_37&filter={filter}&term={q}&exclude={excludes}"
 	
 	def __init__(self):
 		super().__init__("nyaa", "Nyaa", True)
@@ -54,7 +53,10 @@ class ServiceHandler(AbstractServiceHandler):
 		debug("  query={}".format(query))
 		query = url_quote(query, safe="", errors="ignore")
 		
-		url = self._search_base.format(domain=self.config["domain"], q=query)
+		domain = self.config.get("domain", "nyaa.se")
+		filter_ = self.config.get("filter", "2")
+		excludes = self.config.get("excluded_users", "").replace(" ", "")
+		url = self._search_base.format(domain=domain, filter=filter_, excludes=excludes, q=query)
 		response = self.request(url, rss=True, **kwargs)
 		if response is None:
 			error("Cannot get latest show for Nyaa/{}".format(show_key))
