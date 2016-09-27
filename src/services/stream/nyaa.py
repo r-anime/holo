@@ -109,11 +109,12 @@ def _digest_episode(feed_episode):
 	return None
 
 _exludors = [re.compile(x, re.I) for x in [
-	"\.srt$"
+	"\.srt$",
+	r"\b(batch|vol(ume|\.)? ?\d+|dvd|bd|bluray|dub|dubbed)\b"
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
-	r"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs)\] .+ - (\d+) ",
+	r"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs|hitoku)\] .+ - (\d+) ",
 	r"\[orz\] .+ (\d+) ",											# No separator
 	r"\[(?:kaitou|gg)\]_.+_-_(\d+)_",								# "_-_" separator
 	r"\[doremi\]\..+\.(\d+)",										# "." separator
