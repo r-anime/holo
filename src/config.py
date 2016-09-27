@@ -56,19 +56,6 @@ def from_file(file_path):
 		config.r_oauth_key = sec.get("oauth_key", None)
 		config.r_oauth_secret = sec.get("oauth_secret", None)
 	
-	#TODO: make dynamic
-	if "service.mal" in parsed:
-		sec = parsed["service.mal"]
-		config.services["mal"] = {"username": sec.get("username", None), "password": sec.get("password", None)}
-	
-	if "service.anidb" in parsed:
-		sec = parsed["service.anidb"]
-		config.services["anidb"] = {"client": sec.get("client", None)}
-	
-	if "service.nyaa" in parsed:
-		sec = parsed["service.nyaa"]
-		config.services["nyaa"] = {"domain": sec.get("domain", None)}
-	
 	if "options" in parsed:
 		sec = parsed["options"]
 		config.debug = sec.getboolean("debug", False)
@@ -84,6 +71,12 @@ def from_file(file_path):
 		for key in sec:
 			if key.startswith("format_") and len(key) > 7:
 				config.post_formats[key[7:]] = sec[key]
+	
+	# Services
+	for key in parsed:
+		if key.startswith("service."):
+			service = key[8:]
+			config.services[service] = parsed[key]
 	
 	return config
 

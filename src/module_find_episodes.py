@@ -59,7 +59,7 @@ def _process_new_episode(config, db, show, stream, episode):
 	debug(episode)
 	
 	info("  Date: {}".format(episode.date))
-	info("  Is life: {}".format(episode.is_live))
+	info("  Is live: {}".format(episode.is_live))
 	#if episode.is_live and (episode.date is None or episode.date.date() > yesterday):
 	if episode.is_live:
 		# Adjust episode to internal numbering
