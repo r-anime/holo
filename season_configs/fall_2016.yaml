@@ -84,7 +84,7 @@ info:
   anilist: ''
   mal: https://myanimelist.net/anime/33377/Trickster__Edogawa_Ranpo_Shounen_Tanteidan_yori
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/trickster
   funimation: ''
 ---
 title: Nanbaka
@@ -403,7 +403,7 @@ info:
   anilist: ''
   mal: https://myanimelist.net/anime/33299/Magic_Kyun_Renaissance
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/magic-kyun-renaissance
   funimation: ''
 ---
 title: Soushin Shoujo Matoi
