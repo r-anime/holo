@@ -8,6 +8,8 @@ import reddit
 def main(config, db, **kwargs):
 	reddit.init_reddit(config)
 	
+	has_new_episode = []
+	
 	# Check services for new episodes
 	enabled_services = db.get_services(enabled=True)
 	for service in enabled_services:
@@ -29,7 +31,8 @@ def main(config, db, **kwargs):
 				info("  Show/episode not found")
 				continue
 			
-			_process_new_episode(config, db, show, stream, episode)
+			if _process_new_episode(config, db, show, stream, episode):
+				has_new_episode.append(show)
 	
 	# Check generic services
 	other_shows = set(db.get_shows(missing_stream=True)) | set(db.get_shows(delayed=True))
@@ -47,10 +50,18 @@ def main(config, db, **kwargs):
 					debug("    No episode found")
 					continue
 				
-				_process_new_episode(config, db, show, stream, episode)
+				if _process_new_episode(config, db, show, stream, episode):
+					has_new_episode.append(show)
+				
 				break
 		else:
 			info("  No episode found")
+	
+	debug("")
+	debug("Summary of shows with new episodes:")
+	for show in has_new_episode:
+		debug("  {}".format(show.name))
+	debug("")
 
 #yesterday = date.today() - timedelta(days=1)
 
@@ -67,7 +78,7 @@ def _process_new_episode(config, db, show, stream, episode):
 		info("  Adjusted num: {}".format(int_episode.number))
 		if int_episode.number < 0:
 			error("Episode number cannot be negative")
-			return
+			return False
 		
 		# Check if already in database
 		#already_seen = db.stream_has_episode(stream, episode.number)
@@ -86,8 +97,12 @@ def _process_new_episode(config, db, show, stream, episode):
 					db.set_show_delayed(show, False)
 			else:
 				error("  Episode not submitted")
+			
+			return True
 	else:
 		info("  Episode not live")
+	
+	return False
 
 def _create_reddit_post(config, db, show, stream, episode, submit=True):
 	display_episode = stream.to_display_episode(episode)
