@@ -91,11 +91,11 @@ title: Nanbaka
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
+  anidb: https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11075
+  anilist: https://anilist.co/anime/21051/Nanbaka
   mal: https://myanimelist.net/anime/30016/Nanbaka
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/nanbaka
   funimation: ''
 ---
 title: Shuumatsu no Izetta
