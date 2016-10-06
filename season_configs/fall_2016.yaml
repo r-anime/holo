@@ -73,7 +73,7 @@ info:
   anilist: ''
   mal: https://myanimelist.net/anime/32686/Keijo
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/keijo
   funimation: ''
 ---
 title: 'Trickster: Edogawa Ranpo "Shounen Tanteidan" yori'
@@ -326,7 +326,7 @@ info:
   anilist: ''
   mal: https://myanimelist.net/anime/32979/Flip_Flappers
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/flip-flappers
   funimation: ''
 ---
 title: ClassicaLoid
