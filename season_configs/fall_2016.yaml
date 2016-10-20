@@ -31,9 +31,9 @@ info:
   anilist: ''
   mal: https://myanimelist.net/anime/32962/Occultic_Nine
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/occulticnine
   funimation: ''
-  daisuki: ''
+  daisuki: http://www.daisuki.net/anime/detail.OcculticNine.html
 ---
 title: Drifters
 type: tv
@@ -103,7 +103,7 @@ info:
   anilist: ''
   mal: https://myanimelist.net/anime/30016/Nanbaka
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/nanbaka
   funimation: ''
   daisuki: ''
 ---
@@ -151,7 +151,7 @@ info:
   anilist: ''
   mal: https://myanimelist.net/anime/33023/Touken_Ranbu__Hanamaru
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/touken-ranbu-hanamaru
   funimation: ''
   daisuki: ''
 ---
@@ -283,7 +283,7 @@ info:
   anilist: ''
   mal: https://myanimelist.net/anime/32607/Giarlish_Number
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/girlish-number
   funimation: ''
   daisuki: ''
 ---
@@ -295,9 +295,9 @@ info:
   anilist: ''
   mal: https://myanimelist.net/anime/33051/Mobile_Suit_Gundam__Iron-Blooded_Orphans_2nd_Season
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/mobile-suit-gundam-iron-blooded-orphans
   funimation: ''
-  daisuki: ''
+  daisuki: http://www.daisuki.net/anime/detail.MOBILESUITGUNDAMIRONBLOODEDORPHANS.html
 ---
 title: Brave Witches
 type: tv
@@ -345,7 +345,7 @@ info:
 streams:
   crunchyroll: ''
   funimation: ''
-  daisuki: ''
+  daisuki: http://www.daisuki.net/anime/detail.MAGICOFSTELLA.html
 ---
 title: Flip Flappers
 type: tv
@@ -393,7 +393,7 @@ info:
 streams:
   crunchyroll: ''
   funimation: ''
-  daisuki: ''
+  daisuki: http://www.daisuki.net/anime/detail.LongRiders.html
 ---
 title: 'Show By Rock!! #'
 type: tv
@@ -485,9 +485,9 @@ has_source: true
 info:
   anidb: ''
   anilist: ''
-  mal: ''
+  mal: https://myanimelist.net/anime/31631/Monster_Hunter_Stories__Ride_On
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/monster-hunter-stories-ride-on
   funimation: ''
   daisuki: ''
 ---
@@ -545,9 +545,9 @@ has_source: true
 info:
   anidb: ''
   anilist: ''
-  mal: ''
+  mal: https://myanimelist.net/anime/33031/Shakunetsu_no_Takkyuu_Musume
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/scorching-ping-pong-girls
   funimation: ''
   daisuki: ''
 ---
@@ -557,9 +557,9 @@ has_source: true
 info:
   anidb: ''
   anilist: ''
-  mal: ''
+  mal: https://myanimelist.net/anime/33462/Bernard-jou_Iwaku
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/miss-bernard-said
   funimation: ''
   daisuki: ''
 ---
@@ -583,7 +583,7 @@ info:
   anilist: ''
   mal: https://myanimelist.net/anime/33811/Teekyuu_8
 streams:
-  crunchyroll: ''
+  crunchyroll: http://www.crunchyroll.com/teekyu
   funimation: ''
   daisuki: ''
 ---
