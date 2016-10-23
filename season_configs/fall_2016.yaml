@@ -75,8 +75,8 @@ title: Keijo!!!!!!!!
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
+  anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11922
+  anilist: https://anilist.co/anime/21639/KEIJO
   mal: https://myanimelist.net/anime/32686/Keijo
 streams:
   crunchyroll: http://www.crunchyroll.com/keijo
@@ -111,7 +111,7 @@ title: Shuumatsu no Izetta
 type: tv
 has_source: false
 info:
-  anidb: ''
+  anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12201
   anilist: ''
   mal: https://myanimelist.net/anime/33433/Shuumatsu_no_Izetta
 streams:
@@ -123,8 +123,8 @@ title: Yuri!!! on Ice
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
+  anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12012
+  anilist: https://anilist.co/anime/21709/YurionICE
   mal: https://myanimelist.net/anime/32995/Yuri_on_Ice
 streams:
   crunchyroll: http://www.crunchyroll.com/yuri-on-ice
@@ -291,13 +291,13 @@ title: 'Mobile Suit Gundam: Iron-Blooded Orphans 2nd Season'
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
+  anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12048
+  anilist: https://anilist.co/anime/21749/KidouSenshiGundamTekketsunoOrphans2
   mal: https://myanimelist.net/anime/33051/Mobile_Suit_Gundam__Iron-Blooded_Orphans_2nd_Season
 streams:
   crunchyroll: ''
   funimation: ''
-  daisuki: ''
+  daisuki: http://www.daisuki.net/us/en/anime/detail.MOBILESUITGUNDAMIRONBLOODEDORPHANS.html
 ---
 title: Brave Witches
 type: tv
@@ -351,8 +351,8 @@ title: Flip Flappers
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
+  anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12007
+  anilist: https://anilist.co/anime/21714/FLIPFLAPPERS
   mal: https://myanimelist.net/anime/32979/Flip_Flappers
 streams:
   crunchyroll: http://www.crunchyroll.com/flip-flappers
