@@ -34,7 +34,7 @@ class InfoHandler(AbstractInfoHandler):
 		return None
 	
 	def get_seasonal_shows(self, year=None, season=None, **kwargs):
-		debug("Getting season shows: year={}, season={}".format(year, season))
+		#debug("Getting season shows: year={}, season={}".format(year, season))
 		
 		# Request season page from AniDB
 		#url = self._season_url.format(year=year, season=season)
