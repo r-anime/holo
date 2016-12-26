@@ -3,15 +3,63 @@ from logging import debug, info, warning, error
 import services
 from data.models import ShowType
 
-def main(config, db, **kwargs):
+def main(config, db, output_yaml, output_file=None, **kwargs):
+	if output_yaml and output_file:
+		debug("Using output file: {}".format(output_file))
+		create_season_config(config, db, output_file)
 	#check_new_shows(config, db, update_db=not config.debug)
 	#check_new_shows(config, db)
 	#match_show_streams(config, db, update_db=not config.debug)
 	#match_show_streams(config, db)
-	check_new_streams(config, db, update_db=not config.debug)
+	#check_new_streams(config, db, update_db=not config.debug)
 	#check_new_streams(config, db)
 
 # New shows
+
+from collections import OrderedDict
+import yaml
+
+# Retain order of OrderedDict when dumping yaml
+represent_dict_order = lambda self, data:  self.represent_mapping('tag:yaml.org,2002:map', data.items())
+yaml.add_representer(OrderedDict, represent_dict_order)  
+
+def create_season_config(config, db, output_file):
+	info("Checking for new shows")
+	shows = []
+	
+	link_handlers = services.get_link_handlers()
+	service_handlers = services.get_service_handlers()
+	
+	for site in db.get_link_sites():
+		if site.key not in link_handlers:
+			warning("Link site handler for {} not installed".format(site.key))
+			continue
+		
+		site_handler = link_handlers.get(site.key)
+		for raw_show in site_handler.get_seasonal_shows(useragent=config.useragent):
+			if raw_show.show_type is not ShowType.UNKNOWN and raw_show.show_type not in config.new_show_types:
+				debug("  Show isn't an allowed type ({})".format(raw_show.show_type))
+				debug("    name={}".format(raw_show.name))
+				continue
+			#if raw_show.name in shows:
+			#	debug("  Show already seen")
+			#	debug("    name={}".format(raw_show.name))
+			#	continue
+			
+			debug("New show: {}".format(raw_show.name))
+			
+			d = OrderedDict([
+				("title", raw_show.name),
+				("type", raw_show.show_type.name.lower()),
+				("has_source", raw_show.has_source),
+				("info", OrderedDict([(i, "") for i in sorted(link_handlers.keys())])),
+				("streams", OrderedDict([(s, "") for s in sorted(service_handlers.keys()) if not service_handlers[s].is_generic and s in ["crunchyroll", "funimation"]]))
+			])
+			shows.append(d)
+	
+	debug("Outputting new shows")
+	with open(output_file, "w", encoding="utf-8") as f:
+		yaml.dump_all(shows, f, explicit_start=True, default_flow_style=False)
 
 def check_new_shows(config, db, update_db=True):
 	info("Checking for new shows")

@@ -7,7 +7,7 @@ if sys.version_info[0] != 3 or sys.version_info[1] < 5:
 # Metadata
 name = "Holo"
 description = "episode discussion bot"
-version = "0.1.2"
+version = "0.1.3"
 
 # Ensure proper files can be access if running with cron
 import os
@@ -18,7 +18,7 @@ os.chdir(str(Path(__file__).parent.parent))
 from data import database
 import services
 
-def main(config, extra_args):
+def main(config, args, extra_args):
 	from logging import debug, info, warning, error, exception
 	
 	# Set things up
@@ -49,7 +49,11 @@ def main(config, extra_args):
 		elif config.module == "find":
 			info("Finding new shows")
 			import module_find_shows as m
-			m.main(config, db)
+			if args.output[0] == "db":
+				m.main(config, db, False)
+			elif args.output[0] == "yaml":
+				f = extra_args[0] if len(extra_args) > 0 else "find_output.yaml"
+				m.main(config, db, True, output_file=f)
 		elif config.module == "update":
 			info("Updating shows")
 			import module_update_shows as m
@@ -71,6 +75,7 @@ if __name__ == "__main__":
 	parser.add_argument("-c", "--config", dest="config_file", nargs=1, default=["config.ini"], help="use or create the specified database location")
 	parser.add_argument("-d", "--database", dest="db_name", nargs=1, default=None, help="use or create the specified database location")
 	parser.add_argument("-s", "--subreddit", dest="subreddit", nargs=1, default=None, help="set the subreddit on which to make posts")
+	parser.add_argument("-o", "--output", dest="output", nargs=1, default="db", help="set the output mode (db or yaml) if supported")
 	parser.add_argument("-L", "--log-dir", dest="log_dir", nargs=1, default=["logs"], help="set the log directory")
 	parser.add_argument("-v", "--version", action="version", version="{} v{}, {}".format(name, version, description))
 	parser.add_argument("--debug", action="store_true", default=False)
@@ -125,7 +130,7 @@ if __name__ == "__main__":
 	if c.debug:
 		info("DEBUG MODE ENABLED")
 	start_time = time()
-	main(c, args.extra)
+	main(c, args, args.extra)
 	end_time = time()
 	
 	time_diff = end_time - start_time

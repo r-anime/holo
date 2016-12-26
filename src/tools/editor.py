@@ -16,7 +16,7 @@ current_docs = []
 current_doc = 0
 
 info_keys = ["mal", "anidb", "anilist"]
-stream_keys = ["crunchyroll", "funimation"]
+stream_keys = ["crunchyroll", "funimation", "daisuki"]
 
 def load_current_file():
 	print("Loading current file: {}".format(current_file))

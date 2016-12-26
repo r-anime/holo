@@ -44,6 +44,8 @@ class InfoHandler(AbstractInfoHandler):
 		return None
 	
 	def get_seasonal_shows(self, year=None, season=None, **kwargs):
+		return []
+		
 		#TODO: use year and season if provided
 		debug("Getting season shows: year={}, season={}".format(year, season))
 		
