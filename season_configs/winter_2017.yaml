@@ -37,7 +37,7 @@ info:
   anilist: 'https://anilist.co/anime/21701/KuzunoHonkai'
   mal: 'https://myanimelist.net/anime/32949/Kuzu_no_Honkai'
 streams:
-  crunchyroll: ''
+  Amazon: 'https://www.amazon.com/Scums-Wish/dp/B01NCUV2FV'
 ---
 title: Little Witch Academia
 type: tv
@@ -147,7 +147,7 @@ info:
   anilist: 'https://anilist.co/anime/21696/UraraMeirochou'
   mal: 'https://myanimelist.net/anime/32924/Urara_Meirochou'
 streams:
-  crunchyroll: ''
+  TheAnimeNetwork: 'http://www.theanimenetwork.com/Watch-Anime/Urara-Meirocho'
 ---
 title: 'Rewrite: Moon and Terra'
 type: tv
@@ -297,7 +297,7 @@ info:
   anilist: 'https://anilist.co/anime/97590/Onihei'
   mal: 'https://myanimelist.net/anime/33983/Onihei'
 streams:
-  crunchyroll: ''
+  Amazon: 'https://www.amazon.com/Tanbei-of-Chigashira/dp/B01MR4S1XJ'
 ---
 title: Nyanko Days
 type: tv
@@ -317,7 +317,7 @@ info:
   anilist: 'https://anilist.co/anime/87435/BanGDream'
   mal: 'https://myanimelist.net/anime/33573/BanG_Dream'
 streams:
-  crunchyroll: ''
+  TheAnimeNetwork: 'http://www.theanimenetwork.com/Watch-Anime/BanG-Dream'
 ---
 title: Idol Jihen
 type: tv
