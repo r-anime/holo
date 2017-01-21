@@ -3,39 +3,39 @@ title: Kono Subarashii Sekai ni Shukufuku wo! 2
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11992'
+  anilist: 'https://anilist.co/anime/21699/KonoSubarashiiSekainiShukufukuwo2'
+  mal: 'https://myanimelist.net/anime/32937/Kono_Subarashii_Sekai_ni_Shukufuku_wo_2'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/konosuba-gods-blessing-on-this-wonderful-world'
 ---
 title: 'Ao no Exorcist: Kyoto Fujouou-hen'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12240'
+  anilist: 'https://anilist.co/anime/21861/AonoExorcistKyotoFujououhen'
+  mal: 'https://myanimelist.net/anime/33506/Ao_no_Exorcist__Kyoto_Fujouou-hen'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/blue-exorcist'
 ---
 title: Masamune-kun no Revenge
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12234'
+  anilist: 'https://anilist.co/anime/21857/MasamunekunnoRevenge'
+  mal: 'https://myanimelist.net/anime/33487/Masamune-kun_no_Revenge'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/masamune-kuns-revenge'
 ---
 title: Kuzu no Honkai
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11998'
+  anilist: 'https://anilist.co/anime/21701/KuzunoHonkai'
+  mal: 'https://myanimelist.net/anime/32949/Kuzu_no_Honkai'
 streams:
   crunchyroll: ''
 ---
@@ -43,9 +43,9 @@ title: Little Witch Academia
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12235'
+  anilist: 'https://anilist.co/anime/21858/LittleWitchAcademiaTV'
+  mal: 'https://myanimelist.net/anime/33489/Little_Witch_Academia_TV'
 streams:
   crunchyroll: ''
 ---
@@ -53,79 +53,79 @@ title: Fuuka
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12300'
+  anilist: 'https://anilist.co/anime/21887/Fuuka'
+  mal: 'https://myanimelist.net/anime/33743/Fuuka'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/fuuka'
 ---
 title: Seiren
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12327'
+  anilist: 'https://anilist.co/anime/97730/Seiren'
+  mal: 'https://myanimelist.net/anime/33836/Seiren'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/seiren'
 ---
 title: Youjo Senki
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11905'
+  anilist: 'https://anilist.co/anime/21613/YoujoSenki'
+  mal: 'https://myanimelist.net/anime/32615/Youjo_Senki'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/saga-of-tanya-the-evil'
 ---
 title: "Ch\xE4oS;Child"
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11166'
+  anilist: 'https://anilist.co/anime/21126/ChaosChild'
+  mal: 'https://myanimelist.net/anime/30485/Ch%C3%A4oS_Child'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/chaoschild'
 ---
 title: Akiba's Trip The Animation
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12411'
+  anilist: 'https://anilist.co/anime/97636/AKIBASTRIPTHEANIMATION'
+  mal: 'https://myanimelist.net/anime/34051/Akibas_Trip_The_Animation'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/akibas-trip-the-animation'
 ---
 title: Hand Shakers
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12008'
+  anilist: 'https://anilist.co/anime/21731/HandShakers'
+  mal: 'https://myanimelist.net/anime/32981/Hand_Shakers'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/hand-shakers'
 ---
 title: Demi-chan wa Kataritai
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12374'
+  anilist: 'https://anilist.co/anime/97592/DemichanwaKataritai'
+  mal: 'https://myanimelist.net/anime/33988/Demi-chan_wa_Kataritai'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/interviews-with-monster-girls'
 ---
 title: Tales of Zestiria the X 2nd Season
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12256'
+  anilist: 'https://anilist.co/anime/97645/TalesofZestiriatheX2'
+  mal: 'https://myanimelist.net/anime/34086/Tales_of_Zestiria_the_X_2nd_Season'
 streams:
   crunchyroll: ''
 ---
@@ -133,19 +133,19 @@ title: Gintama.
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12419'
+  anilist: 'https://anilist.co/anime/97889/Gintama2017'
+  mal: 'https://myanimelist.net/anime/34096/Gintama'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/gintama'
 ---
 title: Urara Meirochou
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11985'
+  anilist: 'https://anilist.co/anime/21696/UraraMeirochou'
+  mal: 'https://myanimelist.net/anime/32924/Urara_Meirochou'
 streams:
   crunchyroll: ''
 ---
@@ -153,119 +153,119 @@ title: 'Rewrite: Moon and Terra'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12429'
+  anilist: 'https://anilist.co/anime/97665/Rewrite2ndSeasonMoonHenTerraHen'
+  mal: 'https://myanimelist.net/anime/34126/Rewrite_2nd_Season'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/rewrite'
 ---
 title: 'Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12062'
+  anilist: 'https://anilist.co/anime/21733/ShouwaGenrokuRakugoShinjuuSukerokuFutatabihen'
+  mal: 'https://myanimelist.net/anime/33095/Shouwa_Genroku_Rakugo_Shinjuu__Sukeroku_Futatabi-hen'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/showa-genroku-rakugo-shinju'
 ---
 title: 'ACCA: 13-ku Kansatsu-ka'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12136'
+  anilist: 'https://anilist.co/anime/21823/ACCA13kuKansatsuka'
+  mal: 'https://myanimelist.net/anime/33337/ACCA__13-ku_Kansatsu-ka'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/acca-13-territory-inspection-dept'
 ---
 title: Kobayashi-san Chi no Maid Dragon
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12091'
+  anilist: 'https://anilist.co/anime/21776/KobayashisanChinoMaidragon'
+  mal: 'https://myanimelist.net/anime/33206/Kobayashi-san_Chi_no_Maid_Dragon'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/miss-kobayashis-dragon-maid'
 ---
 title: Super Lovers 2
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12197'
+  anilist: 'https://anilist.co/anime/21836/SUPERLOVERS2'
+  mal: 'https://myanimelist.net/anime/33417/Super_Lovers_2'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/super-lovers'
 ---
 title: 'Chain Chronicle: Haecceitas no Hikari'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=10971'
+  anilist: 'https://anilist.co/anime/20986/CHAINCHRONICLEHaecceitasnoHikari'
+  mal: 'https://myanimelist.net/anime/28833/Chain_Chronicle__Haecceitas_no_Hikari'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/chain-chronicle-the-light-of-haecceitas-'
 ---
 title: "\u0113lDLIVE"
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11970'
+  anilist: 'https://anilist.co/anime/21677/lDLIVE'
+  mal: 'https://myanimelist.net/anime/32878/%C4%93lDLIVE'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/eldlive'
 ---
 title: 'Yowamushi Pedal: New Generation'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11689'
+  anilist: 'https://anilist.co/anime/21407/YowamushiPedalNEWGENERATION'
+  mal: 'https://myanimelist.net/anime/31783/Yowamushi_Pedal__New_Generation'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/yowamushi-pedal-new-generation'
 ---
 title: Spiritpact
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12656'
+  anilist: 'https://anilist.co/anime/98031/SPIRITPACT'
+  mal: 'https://myanimelist.net/anime/34551/Spiritpact'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/spiritpact'
 ---
 title: Gabriel DropOut
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12290'
+  anilist: 'https://anilist.co/anime/21878/GabrielDropOut'
+  mal: 'https://myanimelist.net/anime/33731/Gabriel_DropOut'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/gabriel-dropout'
 ---
 title: 'Schoolgirl Strikers: Animation Channel'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12502'
+  anilist: 'https://anilist.co/anime/97776/SCHOOLGIRLSTRIKERSAnimationChannel'
+  mal: 'https://myanimelist.net/anime/34289/Schoolgirl_Strikers__Animation_Channel'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/schoolgirl-strikers'
 ---
 title: 'Reikenzan: Eichi e no Shikaku'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12030'
+  anilist: 'https://anilist.co/anime/21744/ReikenzanEichienoShikaku'
+  mal: 'https://myanimelist.net/anime/33019/Reikenzan__Eichi_e_no_Shikaku'
 streams:
   crunchyroll: ''
 ---
@@ -273,29 +273,29 @@ title: Minami Kamakura Koukou Joshi Jitensha-bu
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11492'
+  anilist: 'https://anilist.co/anime/21298/MinamiKamakuraKoukouJoshiJitenshaBu'
+  mal: 'https://myanimelist.net/anime/31422/Minami_Kamakura_Koukou_Joshi_Jitensha-bu'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/minami-kamakura-high-school-girls-cycling-club'
 ---
 title: One Room
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12550'
+  anilist: 'https://anilist.co/anime/97857/OneRoom'
+  mal: 'https://myanimelist.net/anime/34392/One_Room'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/oneroom'
 ---
 title: Onihei
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12369'
+  anilist: 'https://anilist.co/anime/97590/Onihei'
+  mal: 'https://myanimelist.net/anime/33983/Onihei'
 streams:
   crunchyroll: ''
 ---
@@ -303,19 +303,19 @@ title: Nyanko Days
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12433'
+  anilist: 'https://anilist.co/anime/97673/nyankodays'
+  mal: 'https://myanimelist.net/anime/34148/Nyanko_Days'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/nyanko-days'
 ---
 title: BanG Dream!
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12262'
+  anilist: 'https://anilist.co/anime/87435/BanGDream'
+  mal: 'https://myanimelist.net/anime/33573/BanG_Dream'
 streams:
   crunchyroll: ''
 ---
@@ -323,79 +323,79 @@ title: Idol Jihen
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12400'
+  anilist: 'https://anilist.co/anime/97618/IdolJihen'
+  mal: 'https://myanimelist.net/anime/34028/Idol_Jihen'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/idol-incidents'
 ---
 title: 'Marginal#4: Kiss kara Tsukuru Big Bang'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11928'
+  anilist: 'https://anilist.co/anime/21645/Marginal4KISSKaraTsukuruBigBang'
+  mal: 'https://myanimelist.net/anime/33788/Marginal4__Kiss_kara_Tsukuru_Big_Bang'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/marginal-4-the-animation'
 ---
 title: Yami Shibai 4th Season
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12575'
+  anilist: 'https://anilist.co/anime/97890/YamiShibai4'
+  mal: 'https://myanimelist.net/anime/34467/Yami_Shibai_4th_Season'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/yamishibai-japanese-ghost-stories'
 ---
 title: 'Piace: Watashi no Italian'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12223'
+  anilist: 'https://anilist.co/anime/21842/PiaceWatashinoItalian'
+  mal: 'https://myanimelist.net/anime/33447/Piace__Watashi_no_Italian'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/piacevole'
 ---
 title: 'Choboraunyopomi Gekijou Dai San Maku Ai Mai Mii: Surgical Friends'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12506'
+  anilist: 'https://anilist.co/anime/97818/ChoboraunyopomiGekijouDaiNiMakuaimaimiSurgicalFriends'
+  mal: 'https://myanimelist.net/anime/34295/Choboraunyopomi_Gekijou_Dai_San_Maku_Ai_Mai_Mii__Surgical_Friends'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/ai-mai-mi-surgical-friends'
 ---
 title: 'Chiruran: Nibun no Ichi'
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12418'
+  anilist: 'https://anilist.co/anime/97745/ChiruranNibunnoIchi'
+  mal: 'https://myanimelist.net/anime/34088/Chiruran__Nibun_no_Ichi'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/chiruran-12'
 ---
 title: Kemono Friends
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12057'
+  anilist: 'https://anilist.co/anime/87496/KemonoFriends'
+  mal: 'https://myanimelist.net/anime/33089/Kemono_Friends'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/kemono-friends'
 ---
 title: Chou Shounen Tanteidan Neo
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11953'
+  anilist: 'https://anilist.co/anime/98045/ChouShounenTanteidanNeo'
+  mal: 'https://myanimelist.net/anime/32830/Chou_Shounen_Tanteidan_Neo'
 streams:
   crunchyroll: ''
 ---
@@ -403,9 +403,9 @@ title: "Kirakira\u2606Precure A La Mode"
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12503'
+  anilist: 'https://anilist.co/anime/98059/KirakiraPrecureAlamode'
+  mal: 'https://myanimelist.net/anime/34290/Kirakira%E2%98%86Precure_A_La_Mode'
 streams:
   crunchyroll: ''
 ---
@@ -413,19 +413,19 @@ title: Forest Fairy Five
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12714'
+  anilist: 'https://anilist.co/anime/97709/MorinoYouseiKinokonoMusume'
+  mal: 'https://myanimelist.net/anime/34223/Forest_Fairy_Five'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/forest-fairy-five'
 ---
 title: 'Nananin no Ayakashi: Chimi Chimi Mouryou!! Gendai Monogatari'
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12514'
+  anilist: 'https://anilist.co/anime/98051/NananinnoAyakashiChimiChimiMouryouGendaiMonogatari'
+  mal: 'https://myanimelist.net/anime/34309/Nananin_no_Ayakashi__Chimi_Chimi_Mouryou_Gendai_Monogatari'
 streams:
   crunchyroll: ''
 ---
@@ -433,9 +433,9 @@ title: Kochinpa! Dainiki
 type: tv
 has_source: true
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12617'
+  anilist: 'https://anilist.co/anime/98090/KochinPaDainiki'
+  mal: 'https://myanimelist.net/anime/34503/Kochinpa_Dainiki'
 streams:
   crunchyroll: ''
 ---
@@ -443,9 +443,9 @@ title: Inazma Delivery
 type: tv
 has_source: false
 info:
-  anidb: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12607'
   anilist: ''
-  mal: ''
+  mal: 'https://myanimelist.net/anime/34502/Inazma_Delivery'
 streams:
   crunchyroll: ''
 ---
@@ -453,9 +453,9 @@ title: Sentai Hero Sukiyaki Force
 type: tv
 has_source: false
 info:
-  anidb: ''
-  anilist: ''
-  mal: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12572'
+  anilist: 'https://anilist.co/anime/97887/SentaiHeroesSUKIYAKIFORCE'
+  mal: 'https://myanimelist.net/anime/34456/Sentai_Hero_Sukiyaki_Force'
 streams:
   crunchyroll: ''
 ---
@@ -463,8 +463,8 @@ title: Gan Gan Ganko-chan
 type: tv
 has_source: true
 info:
-  anidb: ''
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12595'
   anilist: ''
-  mal: ''
+  mal: 'https://myanimelist.net/anime/34488/Gan_Gan_Ganko-chan'
 streams:
   crunchyroll: ''
