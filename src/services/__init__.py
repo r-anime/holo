@@ -220,7 +220,7 @@ _services = dict()
 
 def _ensure_service_handlers():
 	global _services
-	if _services is None:
+	if _services is None or len(_services) == 0:
 		from . import stream
 		_services = import_all_services(stream, "ServiceHandler")
 
@@ -301,7 +301,7 @@ class AbstractInfoHandler(ABC, Requestable):
 		return list()
 	
 	@abstractmethod
-	def find_show_info(self, show_id: str, **kwargs):
+	def find_show_info(self, show_id: str, **kwargs) -> Optional[UnprocessedShow]:
 		return None
 	
 	@abstractmethod
@@ -344,7 +344,7 @@ _link_sites = dict()
 
 def _ensure_link_handlers():
 	global _link_sites
-	if _link_sites is None:
+	if _link_sites is None or len(_link_sites) == 0:
 		from . import info
 		_link_sites = import_all_services(info, "InfoHandler")
 

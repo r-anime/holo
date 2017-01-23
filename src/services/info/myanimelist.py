@@ -73,7 +73,7 @@ class InfoHandler(AbstractInfoHandler):
 		names = [name_english]
 		return UnprocessedShow(self.key, id, None, names, ShowType.UNKNOWN, 0, False)
 	
-	def get_episode_count(self, show, link, **kwargs):
+	def get_episode_count(self, link, **kwargs):
 		debug("Getting episode count")
 		
 		# Request show page from MAL
