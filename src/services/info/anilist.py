@@ -27,7 +27,7 @@ class InfoHandler(AbstractInfoHandler):
 				return match.group(1)
 		return None
 	
-	def get_episode_count(self, show, link, **kwargs):
+	def get_episode_count(self, link, **kwargs):
 		return None
 	
 	def get_show_score(self, show, link, **kwargs):
@@ -49,6 +49,9 @@ class InfoHandler(AbstractInfoHandler):
 	
 	def find_show(self, show_name, **kwargs):
 		return list()
+	
+	def find_show_info(self, show_id, **kwargs):
+		return None
 	
 	def _site_request(self, url, **kwargs):
 		return self.request(url, html=True, **kwargs)

@@ -179,7 +179,7 @@ class DatabaseDatabase:
 		return Service(*service)
 	
 	@db_error_default(list())
-	def get_services(self, enabled=True, disabled=False) -> List(Service):
+	def get_services(self, enabled=True, disabled=False) -> List[Service]:
 		services = list()
 		if enabled:
 			self.q.execute("SELECT id, key, name, enabled, use_in_post FROM Services WHERE enabled = 1")
@@ -219,7 +219,7 @@ class DatabaseDatabase:
 			return None
 	
 	@db_error_default(list())
-	def get_streams(self, service=None, show=None, active=True, unmatched=False, missing_name=False) -> List(Stream):
+	def get_streams(self, service=None, show=None, active=True, unmatched=False, missing_name=False) -> List[Stream]:
 		# Not the best combination of options, but it's only the usage needed
 		if service is not None:
 			debug("Getting all streams for service {}".format(service.key))
@@ -297,7 +297,7 @@ class DatabaseDatabase:
 		return LinkSite(*site)
 	
 	@db_error_default(list())
-	def get_link_sites(self, enabled=True, disabled=False) -> List(LinkSite):
+	def get_link_sites(self, enabled=True, disabled=False) -> List[LinkSite]:
 		sites = list()
 		if enabled:
 			self.q.execute("SELECT id, key, name, enabled FROM LinkSites WHERE enabled = 1")
@@ -310,7 +310,7 @@ class DatabaseDatabase:
 		return sites
 	
 	@db_error_default(list())
-	def get_links(self, show:Show=None) -> List(Link):
+	def get_links(self, show:Show=None) -> List[Link]:
 		if show is not None:
 			debug("Getting all links for show {}".format(show.id))
 			
