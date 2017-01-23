@@ -50,6 +50,29 @@ class InfoHandler(AbstractInfoHandler):
 		
 		return shows
 	
+	def find_show_info(self, show_id, **kwargs):
+		debug("Getting show info for {}".format(show_id))
+		
+		# Request show page from MAL
+		url = self._show_link_base.format(id=show_id)
+		response = self._mal_request(url, **kwargs)
+		if response is None:
+			error("Cannot get show page")
+			return None
+			
+		# Parse show page
+		names_sib = response.find("h2", string="Alternative Titles")
+		# English
+		name_elem = names_sib.find_next_sibling("div")
+		if name_elem is None:
+			warning("  Name elem not found")
+			return None
+		name_english = name_elem.string
+		info("  English: {}".format(name_english))
+		
+		names = [name_english]
+		return UnprocessedShow(self.key, id, None, names, ShowType.UNKNOWN, 0, False)
+	
 	def get_episode_count(self, show, link, **kwargs):
 		debug("Getting episode count")
 		

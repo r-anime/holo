@@ -34,7 +34,7 @@ def _check_show_lengths(config, db, update_db=True):
 				continue
 			
 			# Validate length
-			new_length = handler.get_episode_count(show, link, useragent=config.useragent)
+			new_length = handler.get_episode_count(link, useragent=config.useragent)
 			if new_length is not None:
 				debug("    Lists length: {}".format(new_length))
 				if length is not None and new_length != length:

@@ -1,5 +1,7 @@
 from logging import debug, warning, error
+from abc import abstractmethod, ABC
 from types import ModuleType
+from typing import List, Dict, Optional, Iterable
 
 # Common
 
@@ -20,7 +22,7 @@ def _make_service(service):
 
 # Utilities
 
-def import_all_services(pkg: ModuleType, class_name):
+def import_all_services(pkg: ModuleType, class_name: str):
 	import importlib
 	services = dict()
 	for name in pkg.__all__:
@@ -129,8 +131,8 @@ class Requestable:
 # Service handler #
 ###################
 
-from abc import abstractmethod, ABC
 from datetime import datetime
+from data.models import Episode, Stream, UnprocessedStream
 
 class AbstractServiceHandler(ABC, Requestable):
 	def __init__(self, key, name, is_generic):
@@ -142,7 +144,7 @@ class AbstractServiceHandler(ABC, Requestable):
 	def set_config(self, config):
 		self.config = config
 	
-	def get_latest_episode(self, stream, **kwargs):
+	def get_latest_episode(self, stream: Stream, **kwargs) -> Optional[Episode]:
 		"""
 		Gets information on the latest episode for this service.
 		:param stream: The stream being checked
@@ -152,20 +154,20 @@ class AbstractServiceHandler(ABC, Requestable):
 		episodes = self.get_published_episodes(stream, **kwargs)
 		return max(episodes, key=lambda e: e.number, default=None)
 	
-	def get_published_episodes(self, stream, **kwargs):
+	def get_published_episodes(self, stream: Stream, **kwargs) -> Iterable[Episode]:
 		"""
 		Gets all possible live episodes for a given stream. Not all older episodes are
 		guaranteed to be returned due to potential API limitations.
 		:param stream: The stream being checked
 		:param kwargs: Arguments passed to the request, such as proxy and authentication
-		:return: A list of live episodes
+		:return: An iterable of live episodes
 		"""
 		episodes = self.get_all_episodes(stream, **kwargs)
 		today = datetime.utcnow().date()							#NOTE: Uses local time instead of UTC, but probably doesn't matter too much on a day scale
 		return filter(lambda e: e.date.date() <= today, episodes)	# Update 9/14/16: It actually matters.
 	
 	@abstractmethod
-	def get_all_episodes(self, stream, **kwargs):
+	def get_all_episodes(self, stream: Stream, **kwargs) -> Iterable[Episode]:
 		"""
 		Gets all possible episodes for a given stream. Not all older episodes are
 		guaranteed to be returned due to potential API limitations.
@@ -176,7 +178,7 @@ class AbstractServiceHandler(ABC, Requestable):
 		return list()
 	
 	@abstractmethod
-	def get_stream_link(self, stream):
+	def get_stream_link(self, stream: Stream) -> Optional[str]:
 		"""
 		Creates a URL to a show's main stream page hosted by this service.
 		:param stream: The show's stream
@@ -185,7 +187,7 @@ class AbstractServiceHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
-	def extract_show_key(self, url):
+	def extract_show_key(self, url: str) -> Optional[str]:
 		"""
 		Extracts a show's key from its URL.
 		For example, "myriad-colors-phantom-world" is extracted from the Crunchyroll URL
@@ -196,7 +198,7 @@ class AbstractServiceHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
-	def get_stream_info(self, stream, **kwargs):
+	def get_stream_info(self, stream: Stream, **kwargs) -> Optional[Stream]:
 		"""
 		Get information about the stream, including name and ID.
 		:param stream: The stream being checked
@@ -204,13 +206,9 @@ class AbstractServiceHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
-	def get_seasonal_streams(self, year=None, season=None, **kwargs):
+	def get_seasonal_streams(self, **kwargs) -> List[UnprocessedStream]:
 		"""
-		Gets a list of streams for shows airing in a particular season.
-		If year and season are None, uses the current season.
-		Note: Not all sites may allow specific years and seasons.
-		:param year: 
-		:param season: 
+		Gets a list of streams for the current or nearly upcoming season.
 		:param kwargs: Extra arguments, particularly useragent
 		:return: A list of UnprocessedStreams (empty list if no shows or error)
 		"""
@@ -218,7 +216,7 @@ class AbstractServiceHandler(ABC, Requestable):
 
 # Services
 
-_services = None
+_services = dict()
 
 def _ensure_service_handlers():
 	global _services
@@ -226,7 +224,7 @@ def _ensure_service_handlers():
 		from . import stream
 		_services = import_all_services(stream, "ServiceHandler")
 
-def get_service_handlers():
+def get_service_handlers() -> Dict[str, AbstractServiceHandler]:
 	"""
 	Creates an instance of every service in the services module and returns a mapping to their keys.
 	:return: A dict of service keys to an instance of the service
@@ -234,7 +232,7 @@ def get_service_handlers():
 	_ensure_service_handlers()
 	return _services
 
-def get_service_handler(service=None, key=None):
+def get_service_handler(service=None, key:str=None) -> Optional[AbstractServiceHandler]:
 	"""
 	Returns an instance of a service handler representing the given service or service key.
 	:param service: A service
@@ -249,7 +247,7 @@ def get_service_handler(service=None, key=None):
 	return None
 
 @lru_cache(maxsize=1)
-def get_genereic_service_handlers(services=None, keys=None):
+def get_genereic_service_handlers(services=None, keys=None) -> List[AbstractServiceHandler]:
 	_ensure_service_handlers()
 	if keys is None:
 		if services is not None:
@@ -259,6 +257,8 @@ def get_genereic_service_handlers(services=None, keys=None):
 ################
 # Link handler #
 ################
+
+from data.models import Show, EpisodeScore, UnprocessedShow, Link
 
 class AbstractInfoHandler(ABC, Requestable):
 	def __init__(self, key, name):
@@ -271,7 +271,7 @@ class AbstractInfoHandler(ABC, Requestable):
 		self.config = config
 	
 	@abstractmethod
-	def get_link(self, link):
+	def get_link(self, link: Link) -> Optional[str]:
 		"""
 		Creates a URL using the information provided by a link object.
 		:param link: The link object
@@ -280,7 +280,7 @@ class AbstractInfoHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
-	def extract_show_id(self, url):
+	def extract_show_id(self, url: str) -> Optional[str]:
 		"""
 		Extracts a show's ID from its URL.
 		For example, 31737 is extracted from the MAL URL
@@ -291,7 +291,7 @@ class AbstractInfoHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
-	def find_show(self, show_name, **kwargs):
+	def find_show(self, show_name: str, **kwargs) -> List[Show]:
 		"""
 		Searches the link site for a show with the specified name.
 		:param show_name: The desired show's name
@@ -301,10 +301,13 @@ class AbstractInfoHandler(ABC, Requestable):
 		return list()
 	
 	@abstractmethod
-	def get_episode_count(self, show, link, **kwargs):
+	def find_show_info(self, show_id: str, **kwargs):
+		return None
+	
+	@abstractmethod
+	def get_episode_count(self, link: Link, **kwargs) -> Optional[int]:
 		"""
 		Gets the episode count of the specified show on the site given by the link.
-		:param show: The show being checked
 		:param link: The link pointing to the site being checked
 		:param kwargs: Extra arguments, particularly useragent
 		:return: The episode count, otherwise None
@@ -312,7 +315,7 @@ class AbstractInfoHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
-	def get_show_score(self, show, link, **kwargs):
+	def get_show_score(self, show, link, **kwargs) -> Optional[EpisodeScore]:
 		"""
 		Gets the score of the specified show on the site given by the link.
 		:param show: The show being checked
@@ -323,7 +326,7 @@ class AbstractInfoHandler(ABC, Requestable):
 		return None
 	
 	@abstractmethod
-	def get_seasonal_shows(self, year=None, season=None, **kwargs):
+	def get_seasonal_shows(self, year=None, season=None, **kwargs) -> List[UnprocessedShow]:
 		"""
 		Gets a list of shows airing in a particular season.
 		If year and season are None, uses the current season.
@@ -337,7 +340,7 @@ class AbstractInfoHandler(ABC, Requestable):
 	
 # Link sites
 
-_link_sites = None
+_link_sites = dict()
 
 def _ensure_link_handlers():
 	global _link_sites
@@ -345,7 +348,7 @@ def _ensure_link_handlers():
 		from . import info
 		_link_sites = import_all_services(info, "InfoHandler")
 
-def get_link_handlers():
+def get_link_handlers() -> Dict[str, AbstractInfoHandler]:
 	"""
 	Creates an instance of every link handler in the links module and returns a mapping to their keys.
 	:return: A dict of link handler keys to an instance of the link handler
@@ -353,10 +356,11 @@ def get_link_handlers():
 	_ensure_link_handlers()
 	return _link_sites
 
-def get_link_handler(link_site=None, key=None):
+def get_link_handler(link_site=None, key:str=None) -> Optional[AbstractInfoHandler]:
 	"""
 	Returns an instance of a link handler representing the given link site.
 	:param link_site: A link site
+	:param key: A link site key
 	:return: A link handler instance
 	"""
 	_ensure_link_handlers()

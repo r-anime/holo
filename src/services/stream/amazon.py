@@ -1,6 +1,7 @@
-# Shows in a region: https://motto.daisuki.net/api2/search/mode:1
-# Specific show: https://motto.daisuki.net/api2/seriesdetail/SHOW_ID
-# Public show page: http://www.daisuki.net/us/en/anime/detail.SHOW_KEY.html
+# https://www.amazon.com/dp/B01NCUV2FV
+# https://www.amazon.com/-/dp/B01NCUV2FV
+# https://www.amazon.com/Scums-Wish/dp/B01NCUV2FV
+# https://www.amazon.com/gp/product/B01NCUV2FV
 
 from logging import debug, info, warning, error
 import re
@@ -8,12 +9,12 @@ import re
 from .. import AbstractServiceHandler
 
 class ServiceHandler(AbstractServiceHandler):
-	_show_url = "http://funimation.com/shows/{key}"
+	_show_url = "https://www.amazon.com/dp/{key}"
 	
-	_show_key_re = re.compile("daisuki\.net/[a-z]{2}/[a-z]{2}/anime/detail\.([^/.]+)(?:\.html)?", re.I)
+	_show_key_re = re.compile(r"amazon\.com/(?:(?:[\w-]+/)?dp|gp/product)/([a-z0-9]+)/?", re.I)
 	
 	def __init__(self):
-		super().__init__("daisuki", "Daisuki", False)
+		super().__init__("amazon", "Amazon", False)
 	
 	# Episode finding
 	

@@ -1,6 +1,4 @@
-# Shows in a region: https://motto.daisuki.net/api2/search/mode:1
-# Specific show: https://motto.daisuki.net/api2/seriesdetail/SHOW_ID
-# Public show page: http://www.daisuki.net/us/en/anime/detail.SHOW_KEY.html
+# http://www.theanimenetwork.com/Watch-Anime/Urara-Meirocho
 
 from logging import debug, info, warning, error
 import re
@@ -8,12 +6,12 @@ import re
 from .. import AbstractServiceHandler
 
 class ServiceHandler(AbstractServiceHandler):
-	_show_url = "http://funimation.com/shows/{key}"
+	_show_url = "https://www.theanimenetwork.com/Watch-Anime/{key}"
 	
-	_show_key_re = re.compile("daisuki\.net/[a-z]{2}/[a-z]{2}/anime/detail\.([^/.]+)(?:\.html)?", re.I)
+	_show_key_re = re.compile(r"theanimenetwork\.com/Watch-Anime/([^/]+)/?", re.I)
 	
 	def __init__(self):
-		super().__init__("daisuki", "Daisuki", False)
+		super().__init__("amazon", "Amazon", False)
 	
 	# Episode finding
 	

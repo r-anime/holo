@@ -78,7 +78,7 @@ class ServiceHandler(AbstractServiceHandler):
 	def extract_show_key(self, url):
 		return None
 	
-	def get_seasonal_streams(self, year=None, season=None, **kwargs):
+	def get_seasonal_streams(self, **kwargs):
 		return list()
 
 # Feed parsing
