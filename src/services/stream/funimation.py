@@ -104,8 +104,7 @@ class ServiceHandler(AbstractServiceHandler):
 		
 		return None
 	
-	def get_seasonal_streams(self, year=None, season=None, **kwargs):
-		#TODO
+	def get_seasonal_streams(self, **kwargs):
 		return list()
 	
 	# Local info formatting

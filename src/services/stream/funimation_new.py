@@ -91,7 +91,7 @@ class ServiceHandler(AbstractServiceHandler):
 		# TODO important
 		return None
 	
-	def get_seasonal_streams(self, year=None, season=None, **kwargs):
+	def get_seasonal_streams(self, **kwargs):
 		return list()
 	
 	def extract_show_key(self, url):

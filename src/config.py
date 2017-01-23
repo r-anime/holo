@@ -25,19 +25,26 @@ class Config:
 		self.new_show_types = list()
 		self.record_scores = False
 		
+		self.discovery_primary_source = None
+		self.discovery_secondary_sources = list()
+		self.discovery_stream_sources = list()
+		
 		self.post_title = None
 		self.post_title_postfix_final = None
 		self.post_body = None
 		self.post_formats = dict()
 	
 def from_file(file_path):
-	config = Config()
+	if file_path.find(".") < 0:
+		file_path += ".ini"
 	
 	parsed = WhitespaceFriendlyConfigParser()
 	success = parsed.read(file_path)
 	if len(success) == 0:
 		print("Failed to load config file")
-		return config
+		return None
+	
+	config = Config()
 	
 	if "data" in parsed:
 		sec = parsed["data"]
@@ -60,8 +67,14 @@ def from_file(file_path):
 		sec = parsed["options"]
 		config.debug = sec.getboolean("debug", False)
 		from data.models import str_to_showtype
-		config.new_show_types.extend(map(lambda s: str_to_showtype(s.strip()), sec.get("new_show_types", "").split(",")))
+		config.new_show_types.extend(map(lambda s: str_to_showtype(s.strip()), sec.get("new_show_types", "").split(" ")))
 		config.record_scores = sec.getboolean("record_scores", False)
+	
+	if "options.discovery" in parsed:
+		sec = parsed["options.discovery"]
+		config.discovery_primary_source = sec.get("primary_source", None)
+		config.discovery_secondary_sources = sec.get("secondary_sources", "").split(" ")
+		config.discovery_stream_sources = sec.get("stream_sources", "").split(" ")
 	
 	if "post" in parsed:
 		sec = parsed["post"]

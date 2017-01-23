@@ -1,5 +1,5 @@
 # Custom
-config.ini
+config_debug.ini
 *.sqlite
 *.sqlite-journal
 *.sqlite-backup

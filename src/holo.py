@@ -7,7 +7,7 @@ if sys.version_info[0] != 3 or sys.version_info[1] < 5:
 # Metadata
 name = "Holo"
 description = "episode discussion bot"
-version = "0.1.3"
+version = "0.1.4"
 
 # Ensure proper files can be access if running with cron
 import os
@@ -86,6 +86,9 @@ if __name__ == "__main__":
 	import config as config_loader
 	config_file = os.environ["HOLO_CONFIG"] if "HOLO_CONFIG" in os.environ else args.config_file[0]
 	c = config_loader.from_file(config_file)
+	if c is None:
+		print("Cannot start without a valid configuration file")
+		sys.exit(2)
 	
 	# Override config with args
 	c.debug |= args.debug

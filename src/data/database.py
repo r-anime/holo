@@ -2,12 +2,16 @@ from logging import debug, error, exception
 import sqlite3, re
 from functools import wraps, lru_cache
 from unidecode import unidecode
-from typing import Set
+from typing import Set, List, Optional
 
 from .models import Show, ShowType, Stream, Service, LinkSite, Link, Episode, EpisodeScore, UnprocessedStream, UnprocessedShow
 
 def living_in(the_database):
-	# wow wow
+	"""
+	wow wow
+	:param the_database: 
+	:return: 
+	"""
 	try:
 		db = sqlite3.connect(the_database)
 		db.execute("PRAGMA foreign_keys=ON")
@@ -163,7 +167,7 @@ class DatabaseDatabase:
 	
 	@db_error_default(None)
 	@lru_cache(10)
-	def get_service(self, id=None, key=None) -> Service:
+	def get_service(self, id=None, key=None) -> Optional[Service]:
 		if id is not None:
 			self.q.execute("SELECT id, key, name, enabled, use_in_post FROM Services WHERE id = ?", (id,))
 		elif key is not None:
@@ -175,7 +179,7 @@ class DatabaseDatabase:
 		return Service(*service)
 	
 	@db_error_default(list())
-	def get_services(self, enabled=True, disabled=False) -> [Service]:
+	def get_services(self, enabled=True, disabled=False) -> List(Service):
 		services = list()
 		if enabled:
 			self.q.execute("SELECT id, key, name, enabled, use_in_post FROM Services WHERE enabled = 1")
@@ -188,7 +192,7 @@ class DatabaseDatabase:
 		return services
 	
 	@db_error_default(None)
-	def get_stream(self, id=None, service_tuple=None) -> Stream:
+	def get_stream(self, id=None, service_tuple=None) -> Optional[Stream]:
 		if id is not None:
 			debug("Getting stream for id {}".format(id))
 			
@@ -215,7 +219,7 @@ class DatabaseDatabase:
 			return None
 	
 	@db_error_default(list())
-	def get_streams(self, service=None, show=None, active=True, unmatched=False, missing_name=False) -> [Stream]:
+	def get_streams(self, service=None, show=None, active=True, unmatched=False, missing_name=False) -> List(Stream):
 		# Not the best combination of options, but it's only the usage needed
 		if service is not None:
 			debug("Getting all streams for service {}".format(service.key))
@@ -279,7 +283,7 @@ class DatabaseDatabase:
 	# Links
 	
 	@db_error_default(None)
-	def get_link_site(self, id=None, key=None) -> LinkSite:
+	def get_link_site(self, id:str=None, key:str=None) -> Optional[LinkSite]:
 		if id is not None:
 			self.q.execute("SELECT id, key, name, enabled FROM LinkSites WHERE id = ?", (id,))
 		elif key is not None:
@@ -293,7 +297,7 @@ class DatabaseDatabase:
 		return LinkSite(*site)
 	
 	@db_error_default(list())
-	def get_link_sites(self, enabled=True, disabled=False) -> [LinkSite]:
+	def get_link_sites(self, enabled=True, disabled=False) -> List(LinkSite):
 		sites = list()
 		if enabled:
 			self.q.execute("SELECT id, key, name, enabled FROM LinkSites WHERE enabled = 1")
@@ -306,7 +310,7 @@ class DatabaseDatabase:
 		return sites
 	
 	@db_error_default(list())
-	def get_links(self, show=None) -> [Link]:
+	def get_links(self, show:Show=None) -> List(Link):
 		if show is not None:
 			debug("Getting all links for show {}".format(show.id))
 			
@@ -320,7 +324,7 @@ class DatabaseDatabase:
 			return list()
 	
 	@db_error_default(None)
-	def get_link(self, show, link_site) -> Link:
+	def get_link(self, show: Show, link_site: LinkSite) -> Optional[Link]:
 		debug("Getting link for show {} and site {}".format(show.id, link_site.key))
 		
 		self.q.execute("SELECT site, show, site_key FROM Links WHERE show = ? AND site = ?", (show.id, link_site.id))
@@ -373,7 +377,7 @@ class DatabaseDatabase:
 		return shows
 	
 	@db_error_default(None)
-	def get_show(self, id=None, stream=None) -> Show:
+	def get_show(self, id=None, stream=None) -> Optional[Show]:
 		#debug("Getting show from database")
 		
 		# Get show ID
@@ -409,7 +413,7 @@ class DatabaseDatabase:
 		return show_id
 	
 	@db_error_default(None)
-	def update_show(self, show_id, raw_show, commit=True):
+	def update_show(self, show_id: str, raw_show: UnprocessedShow, commit=True):
 		debug("Updating show: {}".format(raw_show))
 		
 		#name = raw_show.name
@@ -458,7 +462,7 @@ class DatabaseDatabase:
 		return num_found > 0
 	
 	@db_error_default(None)
-	def get_latest_episode(self, show: Show) -> Episode:
+	def get_latest_episode(self, show: Show) -> Optional[Episode]:
 		self.q.execute("SELECT episode, post_url FROM Episodes WHERE show = ? ORDER BY episode DESC LIMIT 1", (show.id,))
 		data = self.q.fetchone()
 		if data is not None:
@@ -472,7 +476,7 @@ class DatabaseDatabase:
 		self.commit()
 	
 	@db_error_default(list())
-	def get_episodes(self, show, ensure_sorted=True) -> [Episode]:
+	def get_episodes(self, show, ensure_sorted=True) -> List[Episode]:
 		episodes = list()
 		self.q.execute("SELECT episode, post_url FROM Episodes WHERE show = ?", (show.id,))
 		for data in self.q.fetchall():
@@ -485,24 +489,24 @@ class DatabaseDatabase:
 	# Scores
 	
 	@db_error_default(list())
-	def get_show_scores(self, show: Show) -> [EpisodeScore]:
+	def get_show_scores(self, show: Show) -> List[EpisodeScore]:
 		self.q.execute("SELECT episode, site, score FROM Scores WHERE show=?", (show.id,))
 		return [EpisodeScore(show.id, *s) for s in self.q.fetchall()]
 	
 	@db_error_default(list())
-	def get_episode_scores(self, show: Show, episode: Episode) -> [EpisodeScore]:
+	def get_episode_scores(self, show: Show, episode: Episode) -> List[EpisodeScore]:
 		self.q.execute("SELECT site, score FROM Scores WHERE show=? AND episode=?", (show.id, episode.number))
 		return [EpisodeScore(show.id, episode.number, *s) for s in self.q.fetchall()]
 	
 	@db_error_default(None)
-	def get_episode_score_avg(self, show: Show, episode: Episode) -> EpisodeScore:
+	def get_episode_score_avg(self, show: Show, episode: Episode) -> Optional[EpisodeScore]:
 		debug("Calculating avg score for {} ({})".format(show.name, show.id))
 		self.q.execute("SELECT score FROM Scores WHERE show=? AND episode=?", (show.id, episode.number))
 		scores = [s[0] for s in self.q.fetchall()]
 		if len(scores) > 0:
 			score = sum(scores)/len(scores)
 			debug("  Score: {} (from {} scores)".format(score, len(scores)))
-			return score
+			return EpisodeScore(show.id, episode.number, None, score)
 		return None
 	
 	@db_error
@@ -538,7 +542,7 @@ def to_show_type(db_val: str) -> ShowType:
 			return st
 	return ShowType.UNKNOWN
 
-def from_show_type(st: ShowType) -> str:
+def from_show_type(st: ShowType) -> Optional[str]:
 	if st is None:
 		return None
 	return st.value

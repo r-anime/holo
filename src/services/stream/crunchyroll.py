@@ -87,12 +87,8 @@ class ServiceHandler(AbstractServiceHandler):
 			stream.name = match.group(1)
 		return stream
 	
-	def get_seasonal_streams(self, year=None, season=None, **kwargs):
-		#TODO finish
-		debug("Getting season shows: year={}, season={}".format(year, season))
-		if year or season:
-			error("Year and season are not supported by {}".format(self.name))
-			return list()
+	def get_seasonal_streams(self, **kwargs):
+		debug("Getting season shows")
 		
 		# Request page
 		response = self.request(self._season_url, html=True, **kwargs)
