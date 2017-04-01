@@ -383,8 +383,8 @@ title: 'The Snack World'
 type: tv
 has_source: false
 info:
-  anidb: 'https://anilist.co/anime/98297/TheSnackWorld'
-  anilist: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11180'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11180'
+  anilist: 'https://anilist.co/anime/98297/TheSnackWorld'
   mal: 'https://myanimelist.net/anime/32596/The_Snack_World_TV'
 streams:
   crunchyroll: ''
