@@ -7,7 +7,7 @@ info:
   anilist: 'https://anilist.co/anime/20958/ShingekinoKyojin2'
   mal: 'https://myanimelist.net/anime/25777/Shingeki_no_Kyojin_Season_2'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/attack-on-titan'
 ---
 title: 'Boku no Hero Academia 2nd Season'
 type: tv
@@ -67,7 +67,7 @@ info:
   anilist: 'https://anilist.co/anime/21361/GRANBLUEFANTASYTheAnimation'
   mal: 'https://myanimelist.net/anime/31629/Granblue_Fantasy_The_Animation'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/granblue-fantasy-the-animation'
 ---
 title: 'Rokudenashi Majutsu Koushi to Akashic Records'
 type: tv
