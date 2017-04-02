@@ -478,3 +478,13 @@ info:
   mal: 'https://myanimelist.net/anime/34670/Monster_Strike_2'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/monster-strike'
+  ---
+title: 'Sekai no Yami Zukan'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12947'
+  anilist: 'https://anilist.co/anime/98442/SekainoYamiZukan'
+  mal: 'https://myanimelist.net/anime/35069/Sekai_no_Yami_Zukan'
+streams:
+  crunchyroll: http://www.crunchyroll.com/the-world-yamizukan'
