@@ -237,7 +237,7 @@ info:
   anilist: 'https://anilist.co/anime/97821/AlicetoZouroku'
   mal: 'https://myanimelist.net/anime/34350/Alice_to_Zouroku'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/alice-zoroku'
 ---
 title: 'Tsugumomo'
 type: tv
