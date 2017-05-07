@@ -97,7 +97,7 @@ info:
   anilist: 'https://anilist.co/anime/20705/sinNanatsunoTaizai'
   mal: 'https://myanimelist.net/anime/33834/Sin__Nanatsu_no_Taizai'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/seven-mortal-sins'
 ---
 title: 'Zero kara Hajimeru Mahou no Sho'
 type: tv
@@ -117,7 +117,7 @@ info:
   anilist: 'https://anilist.co/anime/21517/RenaiBoukun'
   mal: 'https://myanimelist.net/anime/32262/Renai_Boukun'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/love-tyrant'
 ---
 title: 'Busou Shoujo Machiavellianism'
 type: tv
@@ -157,7 +157,7 @@ info:
   anilist: 'https://anilist.co/anime/21452/SeikaisuruKado'
   mal: 'https://myanimelist.net/anime/32032/Seikaisuru_Kado'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/kado-the-right-answer'
 ---
 title: 'Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?'
 type: tv  
@@ -167,7 +167,7 @@ info:
   anilist: 'https://anilist.co/anime/21860/ShuumatsuNaniShitemasukaIsogashiidesukaSukutteMoratteIidesuka'
   mal: 'https://myanimelist.net/anime/33502/Shuumatsu_Nani_Shitemasu_ka_Isogashii_desu_ka_Sukutte_Moratte_Ii_desu_ka'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/worldend-what-do-you-do-at-the-end-of-the-world-are-you-busy-will-you-save-us'
 ---
 title: 'Fukumenkei Noise'
 type: tv
@@ -177,7 +177,7 @@ info:
   anilist: 'https://anilist.co/anime/21773/FukumenkeiNoise'
   mal: 'https://myanimelist.net/anime/33203/Fukumenkei_Noise'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/anonymous-noise'
 ---
 title: 'Berserk (2017)'
 type: tv
@@ -207,7 +207,7 @@ info:
   anilist: 'https://anilist.co/anime/97642/UchoutenKazoku2'
   mal: 'https://myanimelist.net/anime/34076/Uchouten_Kazoku_2'
 streams:
-  crunchyroll: 'http://www.crunchyroll.com/the-eccentric-family'
+  crunchyroll: 'http://www.crunchyroll.com/the-eccentric-family-2'
 ---
 title: 'Natsume Yuujinchou Roku'
 type: tv
@@ -217,7 +217,7 @@ info:
   anilist: 'https://anilist.co/anime/97983/NatsumeYuujinchouRoku'
   mal: 'https://myanimelist.net/anime/34591/Natsume_Yuujinchou_Roku'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/natsume-yujin-cho-6'
 ---
 title: 'Tsuki ga Kirei'
 type: tv
@@ -247,7 +247,7 @@ info:
   anilist: 'https://anilist.co/anime/97625/Tsugumomo'
   mal: 'https://myanimelist.net/anime/34019/Tsugumomo'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/tsugumomo'
 ---
 title: 'Gin no Guardian'
 type: tv
@@ -457,7 +457,7 @@ info:
   anilist: 'https://anilist.co/anime/97909/KenkaBanchouOtomeGirlBeatsBoys'
   mal: 'https://myanimelist.net/anime/34501/Kenka_Banchou_Otome__Girl_Beats_Boys'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/kenka-bancho-otome-girl-beats-boys-'
 ---
 title: 'Boruto: Naruto Next Generations'
 type: tv
@@ -487,4 +487,4 @@ info:
   anilist: 'https://anilist.co/anime/98442/SekainoYamiZukan'
   mal: 'https://myanimelist.net/anime/35069/Sekai_no_Yami_Zukan'
 streams:
-  crunchyroll: http://www.crunchyroll.com/the-world-yamizukan'
+  crunchyroll: 'http://www.crunchyroll.com/the-world-yamizukan'
