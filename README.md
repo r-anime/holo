@@ -1,7 +1,11 @@
 ![Holo, of course.](holo.png)
 
 # Holo
-New episode discussion bot for /r/anime.
+Anime episode discussion post bot for [/r/anime](https://reddit.com/r/anime/). Monitors online stream services for newly published episodes and submits a post for each to Reddit.
+
+Currently operates under the account [/u/Holo_of_Yoitsu](https://www.reddit.com/user/Holo_of_Yoitsu/).
+
+Season configurations (show names and associated service URLs for each anime season) can be found in `season_configs`. Each can be loaded using the `edit` module.
 
 ## Requirements
 * Python 3.5+
