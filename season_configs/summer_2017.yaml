@@ -57,7 +57,7 @@ info:
   anilist: 'https://anilist.co/anime/21738/HinaLogifromLuckLogic'
   mal: 'https://myanimelist.net/anime/34834/Hina_Logi__From_Luck___Logic'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/hina-logic-from-luck-logic'
 ---
 title: 'Gamers!'
 type: tv
@@ -117,7 +117,7 @@ info:
   anilist: 'https://anilist.co/anime/21672/SenkiZesshouSymphogearAXZ'
   mal: 'https://myanimelist.net/anime/32836/Senki_Zesshou_Symphogear_AXZ'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/symphogear'
 ---
 title: 'Dive!!'
 type: tv
@@ -147,7 +147,7 @@ info:
   anilist: 'https://anilist.co/anime/97617/IsekaiShokudou'
   mal: 'https://myanimelist.net/anime/34012/Isekai_Shokudou'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/restaurant-to-another-world'
 ---
 title: 'Kakegurui'
 type: tv
@@ -197,7 +197,7 @@ info:
   anilist: 'https://anilist.co/anime/87498/SaiyuukiReloadBlast'
   mal: 'https://myanimelist.net/anime/33726/Saiyuuki_Reload_Blast'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/saiyuki-reload-blast'
 ---
 title: 'Made in Abyss'
 type: tv
@@ -367,7 +367,7 @@ info:
   anilist: 'https://anilist.co/anime/98519/CentaurnoNayami'
   mal: 'https://myanimelist.net/anime/34525/Centaur_no_Nayami'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/a-centaurs-life'
 ---
 title: 'Netsuzou Trap -NTR-'
 type: tv
