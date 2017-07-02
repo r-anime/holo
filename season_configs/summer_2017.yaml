@@ -95,7 +95,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12700'
   anilist: 'https://anilist.co/anime/98005/BallroomeYoukoso'
-  mal: 'https://myanimelist.net/manga/48347/Ballroom_e_Youkoso'
+  mal: 'https://myanimelist.net/anime/34636/Ballroom_e_Youkoso'
 streams:
   crunchyroll: ''
 ---
@@ -233,9 +233,9 @@ title: 'Keppeki Danshi! Aoyama-kun'
 type: tv
 has_source: true
 info:
-  anidb: 'https://myanimelist.net/anime/34825/Keppeki_Danshi_Aoyama-kun'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12762'
   anilist: 'https://anilist.co/anime/98205/KeppekiDanshiAoyamakun'
-  mal: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12762'
+  mal: 'https://myanimelist.net/anime/34825/Keppeki_Danshi_Aoyama-kun'
 streams:
   crunchyroll: ''
 ---
@@ -343,9 +343,9 @@ title: 'Princess Principal'
 type: tv
 has_source: false
 info:
-  anidb: 'https://myanimelist.net/anime/35240/Princess_Principal'
-  anilist: 'https://anilist.co/anime/98505'
-  mal: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13031'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13031'
+  anilist: 'https://anilist.co/anime/98505/PrincessPrincipal'
+  mal: 'https://myanimelist.net/anime/35240/Princess_Principal'
 streams:
   crunchyroll: ''
 ---
