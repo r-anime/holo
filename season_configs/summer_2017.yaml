@@ -247,7 +247,7 @@ info:
   anilist: 'https://anilist.co/anime/97979/NanaMaruSanBatsu'
   mal: 'https://myanimelist.net/anime/34580/Nana_Maru_San_Batsu'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/fastest-finger-first'
 ---
 title: 'Tenshi no 3P!'
 type: tv
@@ -397,7 +397,7 @@ info:
   anilist: 'https://anilist.co/anime/98291/TsurezureChildren'
   mal: 'https://myanimelist.net/anime/34902/Tsurezure_Children'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/tsuredure-children'
 ---
 title: 'Aho Girl'
 type: tv
@@ -407,7 +407,7 @@ info:
   anilist: 'https://anilist.co/anime/98251/AhoGirl'
   mal: 'https://myanimelist.net/anime/34881/Aho_Girl'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/aho-girl'
 ---
 title: 'Teekyuu 9'
 type: tv
