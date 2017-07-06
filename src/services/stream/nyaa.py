@@ -10,7 +10,7 @@ from .. import AbstractServiceHandler
 from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):
-	_search_base = "https://{domain}/?page=rss&cats=1_37&filter={filter}&term={q}&exclude={excludes}"
+	_search_base = "https://{domain}/?page=rss&c=1_2&f={filter}&q={q}&exclude={excludes}"
 	
 	def __init__(self):
 		super().__init__("nyaa", "Nyaa", True)
@@ -53,7 +53,7 @@ class ServiceHandler(AbstractServiceHandler):
 		debug("  query={}".format(query))
 		query = url_quote(query, safe="", errors="ignore")
 		
-		domain = self.config.get("domain", "nyaa.se")
+		domain = self.config.get("domain", "nyaa.si")
 		filter_ = self.config.get("filter", "2")
 		excludes = self.config.get("excluded_users", "").replace(" ", "")
 		url = self._search_base.format(domain=domain, filter=filter_, excludes=excludes, q=query)
