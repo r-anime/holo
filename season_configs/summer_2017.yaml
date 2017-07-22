@@ -67,7 +67,7 @@ info:
   anilist: 'https://anilist.co/anime/97766/Gamers'
   mal: 'https://myanimelist.net/anime/34280/Gamers'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/gamers'
 ---
 title: 'Knight''s & Magic'
 type: tv
@@ -227,7 +227,7 @@ info:
   anilist: 'https://anilist.co/anime/98379/JigokuShoujoYoinoTogi'
   mal: 'https://myanimelist.net/anime/34966/Jigoku_Shoujo__Yoi_no_Togi'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/hell-girl-fourth-twilight'
 ---
 title: 'Keppeki Danshi! Aoyama-kun'
 type: tv
@@ -387,7 +387,7 @@ info:
   anilist: 'https://anilist.co/anime/21568/NoratoOujotoNoranekoHeart'
   mal: 'https://myanimelist.net/anime/32447/Nora_to_Oujo_to_Noraneko_Heart'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/nora-princess-and-stray-cat'
 ---
 title: 'Tsurezure Children'
 type: tv
@@ -417,7 +417,7 @@ info:
   anilist: 'https://anilist.co/anime/98566/Teekyuu9'
   mal: 'https://myanimelist.net/anime/35370/Teekyuu_9'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/teekyu'
 ---
 title: 'Piko Tarou no Lullaby Lullaby'
 type: tv
@@ -447,7 +447,7 @@ info:
   anilist: 'https://anilist.co/anime/98715/IkemenSengokuTokioKakeruKoi'
   mal: 'https://myanimelist.net/anime/34337/Ikemen_Sengoku__Toki_wo_Kakeru_ga_Koi_wa_Hajimaranai'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/ikemen-sengoku-bromances-across-time'
 ---
 title: 'Yami Shibai 5'
 type: tv
