@@ -495,7 +495,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13421'
   anilist: 'https://anilist.co/anime/99994/PinguintheCity'
-  mal: ''
+  mal: 'https://myanimelist.net/anime/36259/Pingu_in_the_City'
 streams:
   crunchyroll: ''
 ---
