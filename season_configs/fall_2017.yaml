@@ -7,7 +7,7 @@ info:
   anilist: 'https://anilist.co/anime/98436/MahoutsukainoYome'
   mal: 'https://myanimelist.net/anime/35062/Mahoutsukai_no_Yome'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/the-ancient-magus-bride'
 ---
 title: 'Kekkai Sensen & Beyond'
 type: tv
@@ -37,7 +37,7 @@ info:
   anilist: 'https://anilist.co/anime/99255/ShokugekinoSoumaSannoSara'
   mal: 'https://myanimelist.net/anime/35788/Shokugeki_no_Souma__San_no_Sara'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/food-wars-shokugeki-no-soma'
 ---
 title: 'Black Clover'
 type: tv
@@ -47,7 +47,7 @@ info:
   anilist: 'https://anilist.co/anime/97940/BlackClover'
   mal: 'https://myanimelist.net/anime/34572/Black_Clover_TV'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/black-clover'
 ---
 title: 'Inuyashiki'
 type: tv
@@ -147,7 +147,7 @@ info:
   anilist: 'https://anilist.co/anime/98443/JuuniTaisen'
   mal: 'https://myanimelist.net/anime/35076/Juuni_Taisen'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/juni-taisen-zodiac-war'
 ---
 title: 'Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou'
 type: tv
@@ -287,7 +287,7 @@ info:
   anilist: 'https://anilist.co/anime/98565'
   mal: 'https://myanimelist.net/anime/35067/Osomatsu-san_2'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/mr-osomatsu'
 ---
 title: 'Garo: Vanishing Line'
 type: tv
@@ -307,7 +307,7 @@ info:
   anilist: 'https://anilist.co/anime/99714/GintamaShinsaku'
   mal: 'https://myanimelist.net/anime/35843/Gintama_2017'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/gintama'
 ---
 title: 'Anime-Gataris'
 type: tv
@@ -347,7 +347,7 @@ info:
   anilist: 'https://anilist.co/anime/98603/SengokuNightBlood'
   mal: 'https://myanimelist.net/anime/35251/Sengoku_Night_Blood'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/sengoku-night-blood'
 ---
 title: 'Robomasters The Animated Series'
 type: tv
@@ -367,7 +367,7 @@ info:
   anilist: 'https://anilist.co/anime/98310/TheIdolmsterSideM'
   mal: 'https://myanimelist.net/anime/34915/The_iDOLMSTER_Side_M'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/the-idolmster-side-m'
 ---
 title: 'Urahara'
 type: tv
@@ -457,7 +457,7 @@ info:
   anilist: 'https://anilist.co/anime/98657/OsakewaFuufuniNatteKara'
   mal: 'https://myanimelist.net/anime/35484/Osake_wa_Fuufu_ni_Natte_kara'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/love-is-like-a-cocktail'
 ---
 title: 'Omiai Aite wa Oshiego, Tsuyoki na, Mondaiji.'
 type: tv
@@ -495,7 +495,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13421'
   anilist: 'https://anilist.co/anime/99994/PinguintheCity'
-  mal: ''
+  mal: 'https://myanimelist.net/anime/36259/Pingu_in_the_City'
 streams:
   crunchyroll: ''
 ---
