@@ -277,7 +277,7 @@ info:
   anilist: 'https://anilist.co/anime/98506/KonohanaKitan'
   mal: 'https://myanimelist.net/anime/35241/Konohana_Kitan'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/konohana-kitan'
 ---
 title: 'Osomatsu-san 2'
 type: tv
@@ -377,7 +377,7 @@ info:
   anilist: 'https://anilist.co/anime/98513/URAHARA'
   mal: 'https://myanimelist.net/anime/35250/Urahara'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/urahara'
 ---
 title: 'Itsudatte Bokura no Koi wa 10 Centi Datta.'
 type: tv
@@ -487,7 +487,7 @@ info:
   anilist: 'https://anilist.co/anime/99742/CinderellaGirlsGekijou2ndSeason'
   mal: 'https://myanimelist.net/anime/35883/Cinderella_Girls_Gekijou_2nd_Season'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/the-idolmster-cinderella-girls-theater'
 ---
 title: 'Pingu in the City'
 type: tv
