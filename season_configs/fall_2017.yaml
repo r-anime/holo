@@ -27,7 +27,7 @@ info:
   anilist: 'https://anilist.co/anime/21555/Diesirae'
   mal: 'https://myanimelist.net/anime/32271/Dies_Irae'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/dies-irae'
 ---
 title: 'Shokugeki no Souma: San no Sara'
 type: tv
@@ -77,7 +77,7 @@ info:
   anilist: 'https://anilist.co/anime/98448/KinonoTabiTheBeautifulWorldtheAnimatedSeries'
   mal: 'https://myanimelist.net/anime/35079/Kino_no_Tabi__The_Beautiful_World_-_The_Animated_Series'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/kinos-journey-the-beautiful-world-the-animated-series'
 ---
 title: 'Just Because!'
 type: tv
@@ -207,7 +207,7 @@ info:
   anilist: 'https://anilist.co/anime/99698/OusamaGameTheAnimation'
   mal: 'https://myanimelist.net/anime/36027/Ousama_Game_The_Animation'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/kings-game'
 ---
 title: 'Houseki no Kuni'
 type: tv
@@ -267,7 +267,7 @@ info:
   anilist: 'https://anilist.co/anime/99726/NetjuunoSusume'
   mal: 'https://myanimelist.net/anime/36038/Net-juu_no_Susume'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/recovery-of-an-mmo-junkie'
 ---
 title: 'Konohana Kitan'
 type: tv
@@ -337,7 +337,7 @@ info:
   anilist: 'https://anilist.co/anime/97904/TSUKIPROTHEANIMATION'
   mal: 'https://myanimelist.net/anime/34474/Tsukipro_The_Animation'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/tsukipro-the-animation'
 ---
 title: 'Sengoku Night Blood'
 type: tv
@@ -477,7 +477,7 @@ info:
   anilist: 'https://anilist.co/anime/97876/TaishouChicchaisan'
   mal: 'https://myanimelist.net/anime/34411/Taishou_Chicchai-san'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/taisho-mebiusline-chicchaisan'
 ---
 title: 'Cinderella Girls Gekijou 2nd Season'
 type: tv
@@ -527,4 +527,4 @@ info:
   anilist: 'https://anilist.co/anime/99741/Amecon'
   mal: 'https://myanimelist.net/anime/35923/Ame-iro_Cocoa_Series__Ame-co'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/rainy-cocoa'
