@@ -317,7 +317,7 @@ info:
   anilist: 'https://anilist.co/anime/98607/AnimeGataris'
   mal: 'https://myanimelist.net/anime/35427/Animegataris'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/anime-gataris'
 ---
 title: 'Two Car'
 type: tv
@@ -407,7 +407,7 @@ info:
   anilist: 'https://anilist.co/anime/97933/WakeUpGirlsShinShou'
   mal: 'https://myanimelist.net/anime/34522/Wake_Up_Girls_Shin_Shou'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/wake-up-girls'
 ---
 title: 'ClassicaLoid 2nd Season'
 type: tv
@@ -437,7 +437,7 @@ info:
   anilist: 'https://anilist.co/anime/98521/TimeBokanGyakushuunoSanOkunin'
   mal: 'https://myanimelist.net/anime/35254/Time_Bokan__Gyakushuu_no_San_Akuni'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/time-bokan-24'
 ---
 title: 'Cardfight!! Vanguard G: Z'
 type: tv
@@ -507,7 +507,7 @@ info:
   anilist: 'https://anilist.co/anime/99391/LoveKomeWeLoveRice2'
   mal: 'https://myanimelist.net/anime/35818/Love_Kome__We_Love_Rice_2nd_Season'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/love-rice'
 ---
 title: 'Oretacha Youkai Ningen'
 type: tv
