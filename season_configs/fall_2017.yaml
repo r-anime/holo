@@ -137,7 +137,7 @@ info:
   anilist: 'https://anilist.co/anime/98349/LoveLiveSunshine2'
   mal: 'https://myanimelist.net/anime/34973/Love_Live_Sunshine_2nd_Season'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/love-live-sunshine'
 ---
 title: 'Juuni Taisen'
 type: tv
@@ -227,7 +227,7 @@ info:
   anilist: 'https://anilist.co/anime/98630/CodeRealizeSouseinoHimegimi'
   mal: 'https://myanimelist.net/anime/31456/Code_Realize__Sousei_no_Himegimi'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/code-realize-guardian-of-rebirth'
 ---
 title: 'Shoujo Shuumatsu Ryokou'
 type: tv
@@ -257,7 +257,7 @@ info:
   anilist: 'https://anilist.co/anime/97994/BlendS'
   mal: 'https://myanimelist.net/anime/34618/Blend_S'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/blend-s'
 ---
 title: 'Net-juu no Susume'
 type: tv
@@ -327,7 +327,7 @@ info:
   anilist: 'https://anilist.co/anime/99672/TwoCar'
   mal: 'https://myanimelist.net/anime/36009/Two_Car'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/twocar'
 ---
 title: 'Tsukipro The Animation'
 type: tv
