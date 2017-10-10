@@ -187,7 +187,7 @@ info:
   anilist: 'https://anilist.co/anime/98596/ImoutosaeIrebaIi'
   mal: 'https://myanimelist.net/anime/35413/Imouto_sae_Ireba_Ii'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/a-sisters-all-you-need'
 ---
 title: 'Saredo Tsumibito wa Ryuu to Odoru'
 type: tv
@@ -447,7 +447,7 @@ info:
   anilist: 'https://anilist.co/anime/99733/CardfightVanguardGZ'
   mal: 'https://myanimelist.net/anime/36022/Cardfight_Vanguard_G__Z'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/cardfight-vanguard-g'
 ---
 title: 'Osake wa Fuufu ni Natte kara'
 type: tv
@@ -528,3 +528,24 @@ info:
   mal: 'https://myanimelist.net/anime/35923/Ame-iro_Cocoa_Series__Ame-co'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/rainy-cocoa'
+---
+title: 'Evil or Live'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13417'
+  anilist: 'https://anilist.co/anime/100226/EVILORLIVE'
+  mal: 'https://myanimelist.net/anime/36245/Evil_or_Live'
+streams:
+  crunchyroll: http://www.crunchyroll.com/evil-or-live'
+
+---
+title: 'Monster Strike: Kieyuku Uchuu-hen'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13486'
+  anilist: 'https://anilist.co/anime/100262/MonsterStrikeKieyukuUchuuhen'
+  mal: 'https://myanimelist.net/anime/36246/Monster_Strike__Kieyuku_Uchuu-hen?q=monster%20strike'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/monster-strike'
