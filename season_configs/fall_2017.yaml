@@ -528,3 +528,24 @@ info:
   mal: 'https://myanimelist.net/anime/35923/Ame-iro_Cocoa_Series__Ame-co'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/rainy-cocoa'
+---
+title: 'Evil or Live'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13417'
+  anilist: 'https://anilist.co/anime/100226/EVILORLIVE'
+  mal: 'https://myanimelist.net/anime/36245/Evil_or_Live'
+streams:
+  crunchyroll: http://www.crunchyroll.com/evil-or-live'
+
+---
+title: 'Monster Strike: Kieyuku Uchuu-hen'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13486'
+  anilist: 'https://anilist.co/anime/100262/MonsterStrikeKieyukuUchuuhen'
+  mal: 'https://myanimelist.net/anime/36246/Monster_Strike__Kieyuku_Uchuu-hen?q=monster%20strike'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/monster-strike'
