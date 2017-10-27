@@ -5,6 +5,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12942'
   anilist: 'https://anilist.co/anime/98436/MahoutsukainoYome'
+  kitsu: 'https://kitsu.io/anime/mahou-tsukai-no-yome'
   mal: 'https://myanimelist.net/anime/35062/Mahoutsukai_no_Yome'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/the-ancient-magus-bride'
@@ -15,6 +16,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12571'
   anilist: 'https://anilist.co/anime/97886/KekkaiSensenBeyond'
+  kitsu: 'https://kitsu.io/anime/kekkai-sensen-beyond'
   mal: 'https://myanimelist.net/anime/34451/Kekkai_Sensen___Beyond'
 streams:
   crunchyroll: ''
@@ -25,6 +27,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11204'
   anilist: 'https://anilist.co/anime/21555/Diesirae'
+  kitsu: 'https://kitsu.io/anime/dies-irae'
   mal: 'https://myanimelist.net/anime/32271/Dies_Irae'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/dies-irae'
@@ -35,6 +38,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13244'
   anilist: 'https://anilist.co/anime/99255/ShokugekinoSoumaSannoSara'
+  kitsu: 'https://kitsu.io/anime/shokugeki-no-souma-san-no-sara'
   mal: 'https://myanimelist.net/anime/35788/Shokugeki_no_Souma__San_no_Sara'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/food-wars-shokugeki-no-soma'
@@ -45,6 +49,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12665'
   anilist: 'https://anilist.co/anime/97940/BlackClover'
+  kitsu: 'https://kitsu.io/anime/black-clover-tv'
   mal: 'https://myanimelist.net/anime/34572/Black_Clover_TV'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/black-clover'
@@ -55,6 +60,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12653'
   anilist: 'https://anilist.co/anime/97922/Inuyashiki'
+  kitsu: 'https://kitsu.io/anime/inuyashiki'
   mal: 'https://myanimelist.net/anime/34542/Inuyashiki'
 streams:
   crunchyroll: ''
@@ -65,6 +71,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13106'
   anilist: 'https://anilist.co/anime/98572/HimoutoUmaruchanR'
+  kitsu: 'https://kitsu.io/anime/himouto-umaru-chan-r'
   mal: 'https://myanimelist.net/anime/35376/Himouto_Umaru-chan_R'
 streams:
   crunchyroll: ''
@@ -75,6 +82,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12959'
   anilist: 'https://anilist.co/anime/98448/KinonoTabiTheBeautifulWorldtheAnimatedSeries'
+  kitsu: 'https://kitsu.io/anime/kino-no-tabi-the-beautiful-world-the-animated-series'
   mal: 'https://myanimelist.net/anime/35079/Kino_no_Tabi__The_Beautiful_World_-_The_Animated_Series'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/kinos-journey-the-beautiful-world-the-animated-series'
@@ -85,6 +93,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13199'
   anilist: 'https://anilist.co/anime/98820/JustBecause'
+  kitsu: 'https://kitsu.io/anime/just-because'
   mal: 'https://myanimelist.net/anime/35639/Just_Because'
 streams:
   crunchyroll: ''
@@ -95,6 +104,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12227'
   anilist: 'https://anilist.co/anime/21855/UQHolderMahouSenseiNegima2'
+  kitsu: 'https://kitsu.io/anime/uq-holder'
   mal: 'https://myanimelist.net/anime/33478/UQ_Holder__Mahou_Sensei_Negima_2'
 streams:
   crunchyroll: ''
@@ -105,6 +115,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12994'
   anilist: 'https://anilist.co/anime/98478/3gatsunoLion2'
+  kitsu: 'https://kitsu.io/anime/sangatsu-no-lion-2'
   mal: 'https://myanimelist.net/anime/35180/3-gatsu_no_Lion_2nd_Season'
 streams:
   crunchyroll: ''
@@ -115,6 +126,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12712'
   anilist: 'https://anilist.co/anime/98449/KujiranoKorawaSajouniUtau'
+  kitsu: 'https://kitsu.io/anime/kujira-no-kora-wa-sajou-ni-utau'
   mal: 'https://myanimelist.net/anime/34712/Kujira_no_Kora_wa_Sajou_ni_Utau'
 streams:
   crunchyroll: ''
@@ -125,6 +137,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13217'
   anilist: 'https://anilist.co/anime/98951/BokunoKanojogaMajimeSugiruShojoBitchnaKen'
+  kitsu: 'https://kitsu.io/anime/boku-no-kanojo-ga-majimesugiru-sho-bitch-na-ken'
   mal: 'https://myanimelist.net/anime/35712/Boku_no_Kanojo_ga_Majimesugiru_Sho-bitch_na_Ken'
 streams:
   crunchyroll: ''
@@ -135,6 +148,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12897'
   anilist: 'https://anilist.co/anime/98349/LoveLiveSunshine2'
+  kitsu: 'https://kitsu.io/anime/love-live-sunshine-2nd-season'
   mal: 'https://myanimelist.net/anime/34973/Love_Live_Sunshine_2nd_Season'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/love-live-sunshine'
@@ -145,6 +159,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12956'
   anilist: 'https://anilist.co/anime/98443/JuuniTaisen'
+  kitsu: 'https://kitsu.io/anime/juuni-taisen'
   mal: 'https://myanimelist.net/anime/35076/Juuni_Taisen'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/juni-taisen-zodiac-war'
@@ -155,6 +170,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12501'
   anilist: 'https://anilist.co/anime/97769/YuukiYuunawaYuushadeAruYuushanoShou'
+  kitsu: 'https://kitsu.io/anime/yuuki-yuuna-wa-yuusha-de-aru-washio-sumi-no-shou'
   mal: 'https://myanimelist.net/anime/34284/Yuuki_Yuuna_wa_Yuusha_de_Aru__Washio_Sumi_no_Shou'
 streams:
   crunchyroll: ''
@@ -165,6 +181,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12500'
   anilist: 'https://anilist.co/anime/97769/YuukiYuunawaYuushadeAruYuushanoShou'
+  kitsu: 'https://kitsu.io/anime/yuuki-yuuna-wa-yuusha-de-aru-yuusha-no-shou-tv'
   mal: 'https://myanimelist.net/anime/34445/Yuuki_Yuuna_wa_Yuusha_de_Aru__Yuusha_no_Shou'
 streams:
   crunchyroll: ''
@@ -175,6 +192,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13311'
   anilist: 'https://anilist.co/anime/99636/DiaHorizon'
+  kitsu: 'https://kitsu.io/anime/dia-horizon-hi'
   mal: 'https://myanimelist.net/anime/35999/Dia_Horizon'
 streams:
   crunchyroll: ''
@@ -185,6 +203,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11352'
   anilist: 'https://anilist.co/anime/98596/ImoutosaeIrebaIi'
+  kitsu: 'https://kitsu.io/anime/imouto-sae-ireba-ii'
   mal: 'https://myanimelist.net/anime/35413/Imouto_sae_Ireba_Ii'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/a-sisters-all-you-need'
@@ -195,6 +214,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12337'
   anilist: 'https://anilist.co/anime/87504/SaredoTsumibitowaRyuutoOdoru'
+  kitsu: 'https://kitsu.io/anime/saredo-tsumibito-wa-ryuu-to-odoru'
   mal: 'https://myanimelist.net/anime/33889/Saredo_Tsumibito_wa_Ryuu_to_Odoru'
 streams:
   crunchyroll: ''
@@ -205,6 +225,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13335'
   anilist: 'https://anilist.co/anime/99698/OusamaGameTheAnimation'
+  kitsu: 'https://kitsu.io/anime/ousama-game-the-animation'
   mal: 'https://myanimelist.net/anime/36027/Ousama_Game_The_Animation'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/kings-game'
@@ -215,6 +236,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13165'
   anilist: 'https://anilist.co/anime/98707/HousekinoKuni'
+  kitsu: 'https://kitsu.io/anime/houseki-no-kuni-tv'
   mal: 'https://myanimelist.net/anime/35557/Houseki_no_Kuni_TV'
 streams:
   crunchyroll: ''
@@ -225,6 +247,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11516'
   anilist: 'https://anilist.co/anime/98630/CodeRealizeSouseinoHimegimi'
+  kitsu: 'https://kitsu.io/anime/code-realize-sousei-no-himegimi'
   mal: 'https://myanimelist.net/anime/31456/Code_Realize__Sousei_no_Himegimi'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/code-realize-guardian-of-rebirth'
@@ -235,6 +258,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13256'
   anilist: 'https://anilist.co/anime/99420/ShoujoShuumatsuRyokou'
+  kitsu: 'https://kitsu.io/anime/shoujo-shuumatsu-ryokou'
   mal: 'https://myanimelist.net/anime/35838/Shoujo_Shuumatsu_Ryokou'
 streams:
   crunchyroll: ''
@@ -245,6 +269,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12954'
   anilist: 'https://anilist.co/anime/98438/HoozukinoReitetsu2'
+  kitsu: 'https://kitsu.io/anime/hoozuki-no-reitetsu-2nd-season'
   mal: 'https://myanimelist.net/anime/35075/Hoozuki_no_Reitetsu_2nd_Season'
 streams:
   crunchyroll: ''
@@ -255,6 +280,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12694'
   anilist: 'https://anilist.co/anime/97994/BlendS'
+  kitsu: 'https://kitsu.io/anime/blend-s'
   mal: 'https://myanimelist.net/anime/34618/Blend_S'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/blend-s'
@@ -265,6 +291,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13345'
   anilist: 'https://anilist.co/anime/99726/NetjuunoSusume'
+  kitsu: 'https://kitsu.io/anime/net-juu-no-susume'
   mal: 'https://myanimelist.net/anime/36038/Net-juu_no_Susume'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/recovery-of-an-mmo-junkie'
@@ -275,6 +302,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13030'
   anilist: 'https://anilist.co/anime/98506/KonohanaKitan'
+  kitsu: 'https://kitsu.io/anime/konohana-kitan'
   mal: 'https://myanimelist.net/anime/35241/Konohana_Kitan'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/konohana-kitan'
@@ -285,6 +313,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12944'
   anilist: 'https://anilist.co/anime/98565'
+  kitsu: 'https://kitsu.io/anime/osomatsu-san-2'
   mal: 'https://myanimelist.net/anime/35067/Osomatsu-san_2'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/mr-osomatsu'
@@ -295,6 +324,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13390'
   anilist: 'https://anilist.co/anime/99796/GAROVANISHINGLINE'
+  kitsu: 'https://kitsu.io/anime/garo-vanishing-line'
   mal: 'https://myanimelist.net/anime/36144/Vanishing_Line'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/garo-vanishing-line-'
@@ -305,6 +335,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12419'
   anilist: 'https://anilist.co/anime/99714/GintamaShinsaku'
+  kitsu: 'https://kitsu.io/anime/gintama-porori-hen'
   mal: 'https://myanimelist.net/anime/35843/Gintama_2017'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/gintama'
@@ -315,6 +346,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13114'
   anilist: 'https://anilist.co/anime/98607/AnimeGataris'
+  kitsu: 'https://kitsu.io/anime/animegataris'
   mal: 'https://myanimelist.net/anime/35427/Animegataris'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/anime-gataris'
@@ -325,6 +357,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13322'
   anilist: 'https://anilist.co/anime/99672/TwoCar'
+  kitsu: 'https://kitsu.io/anime/two-car'
   mal: 'https://myanimelist.net/anime/36009/Two_Car'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/twocar'
@@ -335,6 +368,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12578'
   anilist: 'https://anilist.co/anime/97904/TSUKIPROTHEANIMATION'
+  kitsu: 'https://kitsu.io/anime/tsukipro-the-animation'
   mal: 'https://myanimelist.net/anime/34474/Tsukipro_The_Animation'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/tsukipro-the-animation'
@@ -345,6 +379,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13036'
   anilist: 'https://anilist.co/anime/98603/SengokuNightBlood'
+  kitsu: 'https://kitsu.io/anime/sengoku-night-blood'
   mal: 'https://myanimelist.net/anime/35251/Sengoku_Night_Blood'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/sengoku-night-blood'
@@ -355,6 +390,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12815'
   anilist: 'https://anilist.co/anime/98526/RobomastersTheAnimatedSeries'
+  kitsu: 'https://kitsu.io/anime/robomasters-the-animated-series'
   mal: 'https://myanimelist.net/anime/34903/RoboMasters_the_Animated_Series'
 streams:
   crunchyroll: ''
@@ -365,6 +401,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12820'
   anilist: 'https://anilist.co/anime/98310/TheIdolmsterSideM'
+  kitsu: 'https://kitsu.io/anime/the-idolmaster-side-m'
   mal: 'https://myanimelist.net/anime/34915/The_iDOLMSTER_Side_M'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/the-idolmster-side-m'
@@ -375,6 +412,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13035'
   anilist: 'https://anilist.co/anime/98513/URAHARA'
+  kitsu: 'https://kitsu.io/anime/urahara'
   mal: 'https://myanimelist.net/anime/35250/Urahara'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/urahara'
@@ -385,6 +423,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13038'
   anilist: 'https://anilist.co/anime/98977/ItsudatteBokuranoKoiwa10cmdatta'
+  kitsu: 'https://kitsu.io/anime/itsudatte-bokura-no-koi-wa-10-centi-datta'
   mal: 'https://myanimelist.net/anime/36220/Itsudatte_Bokura_no_Koi_wa_10_Centi_Datta'
 streams:
   crunchyroll: ''
@@ -395,6 +434,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12034'
   anilist: 'https://anilist.co/anime/21756'
+  kitsu: 'https://kitsu.io/anime/infini-t-force'
   mal: 'https://myanimelist.net/anime/33027/Infini-T_Forc'
 streams:
   crunchyroll: ''
@@ -405,6 +445,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12625'
   anilist: 'https://anilist.co/anime/97933/WakeUpGirlsShinShou'
+  kitsu: 'https://kitsu.io/anime/wake-up-girls-shin-shou'
   mal: 'https://myanimelist.net/anime/34522/Wake_Up_Girls_Shin_Shou'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/wake-up-girls'
@@ -415,6 +456,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13069'
   anilist: 'https://anilist.co/anime/98546/ClassicaLoid2'
+  kitsu: 'https://kitsu.io/anime/classicaloid-2nd-season'
   mal: 'https://myanimelist.net/anime/35334/ClassicaLoid_2nd_Season'
 streams:
   crunchyroll: ''
@@ -425,6 +467,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12731'
   anilist: 'https://anilist.co/anime/98108/DYNAMICCHORD'
+  kitsu: 'https://kitsu.io/anime/dynamic-chord'
   mal: 'https://myanimelist.net/anime/34771/Dynamic_Chord'
 streams:
   crunchyroll: ''
@@ -435,6 +478,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13039'
   anilist: 'https://anilist.co/anime/98521/TimeBokanGyakushuunoSanOkunin'
+  kitsu: 'https://kitsu.io/anime/time-bokan-gyakushuu-no-san-akunin'
   mal: 'https://myanimelist.net/anime/35254/Time_Bokan__Gyakushuu_no_San_Akuni'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/time-bokan-24'
@@ -445,6 +489,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13329'
   anilist: 'https://anilist.co/anime/99733/CardfightVanguardGZ'
+  kitsu: 'https://kitsu.io/anime/cardfight-vanguard-g-z'
   mal: 'https://myanimelist.net/anime/36022/Cardfight_Vanguard_G__Z'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/cardfight-vanguard-g'
@@ -455,6 +500,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13147'
   anilist: 'https://anilist.co/anime/98657/OsakewaFuufuniNatteKara'
+  kitsu: 'https://kitsu.io/anime/osake-wa-fuufu-ni-natte-kara'
   mal: 'https://myanimelist.net/anime/35484/Osake_wa_Fuufu_ni_Natte_kara'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/love-is-like-a-cocktail'
@@ -465,6 +511,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13402'
   anilist: 'https://anilist.co/anime/99894/OmiaiAitewaOshiegoTsuyokinaMondaiji'
+  kitsu: 'https://kitsu.io/anime/omiai-aite-wa-oshiego-tsuyokina-mondaiji'
   mal: 'https://myanimelist.net/anime/36198/Omiai_Aite_wa_Oshiego_Tsuyokina_Mondaiji'
 streams:
   crunchyroll: ''
@@ -475,6 +522,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12557'
   anilist: 'https://anilist.co/anime/97876/TaishouChicchaisan'
+  kitsu: 'https://kitsu.io/anime/taishou-chicchai-san'
   mal: 'https://myanimelist.net/anime/34411/Taishou_Chicchai-san'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/taisho-mebiusline-chicchaisan'
@@ -485,6 +533,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13274'
   anilist: 'https://anilist.co/anime/99742/CinderellaGirlsGekijou2ndSeason'
+  kitsu: 'https://kitsu.io/anime/cinderella-girls-gekijou-2nd-season'
   mal: 'https://myanimelist.net/anime/35883/Cinderella_Girls_Gekijou_2nd_Season'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/the-idolmster-cinderella-girls-theater'
@@ -495,6 +544,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13421'
   anilist: 'https://anilist.co/anime/99994/PinguintheCity'
+  kitsu: 'https://kitsu.io/anime/pingu-in-the-city'
   mal: 'https://myanimelist.net/anime/36259/Pingu_in_the_City'
 streams:
   crunchyroll: ''
@@ -505,6 +555,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13249'
   anilist: 'https://anilist.co/anime/99391/LoveKomeWeLoveRice2'
+  kitsu: 'https://kitsu.io/anime/love-kome-we-love-rice-2nd-season'
   mal: 'https://myanimelist.net/anime/35818/Love_Kome__We_Love_Rice_2nd_Season'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/love-rice'
@@ -515,6 +566,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13389'
   anilist: 'https://anilist.co/anime/99856/OretachaYoukaiNingen'
+  kitsu: 'https://kitsu.io/anime/oretacha-youkai-ningen'
   mal: 'https://myanimelist.net/anime/36135/Oretacha_Youkai_Ningen'
 streams:
   crunchyroll: ''
@@ -525,6 +577,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13282'
   anilist: 'https://anilist.co/anime/99741/Amecon'
+  kitsu: 'https://kitsu.io/anime/ame-iro-cocoa-series-ame-con'
   mal: 'https://myanimelist.net/anime/35923/Ame-iro_Cocoa_Series__Ame-co'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/rainy-cocoa'
@@ -535,6 +588,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13417'
   anilist: 'https://anilist.co/anime/100226/EVILORLIVE'
+  kitsu: 'https://kitsu.io/anime/evil-or-live'
   mal: 'https://myanimelist.net/anime/36245/Evil_or_Live'
 streams:
   crunchyroll: http://www.crunchyroll.com/evil-or-live'
@@ -546,6 +600,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13486'
   anilist: 'https://anilist.co/anime/100262/MonsterStrikeKieyukuUchuuhen'
+  kitsu: 'https://kitsu.io/anime/monster-strike-kieyuku-uchuu-hen'
   mal: 'https://myanimelist.net/anime/36246/Monster_Strike__Kieyuku_Uchuu-hen?q=monster%20strike'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/monster-strike'
