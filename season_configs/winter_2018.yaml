@@ -1,0 +1,495 @@
+---
+title: 'Violet Evergarden'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12138'
+  anilist: 'https://anilist.co/anime/21827/VioletEvergarden'
+  kitsu: 'https://kitsu.io/anime/violet-evergarden'
+  mal: 'https://myanimelist.net/anime/33352/Violet_Evergarden'
+streams:
+  crunchyroll: ''
+---
+title: 'Overlord II'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12952'
+  anilist: 'https://anilist.co/anime/98437/Overlord2'
+  kitsu: 'https://kitsu.io/anime/overlord-ii'
+  mal: 'https://myanimelist.net/anime/35073/Overlord_II'
+streams:
+  crunchyroll: ''
+---
+title: 'Fate/Extra Last Encore'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12046'
+  anilist: 'https://anilist.co/anime/21717/FateEXTRALastEncore'
+  kitsu: 'https://kitsu.io/anime/fate-extra-last-encore'
+  mal: 'https://myanimelist.net/anime/33047/Fate_Extra_Last_Encore'
+streams:
+  crunchyroll: ''
+---
+title: 'Nanatsu no Taizai: Imashime no Fukkatsu'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11646'
+  anilist: 'https://anilist.co/anime/99539/NanatsunoTaizaiImashimenoFukkatsu'
+  kitsu: 'https://kitsu.io/anime/nanatsu-no-taizai-imashime-no-fukkatsu'
+  mal: 'https://myanimelist.net/anime/34577/Nanatsu_no_Taizai__Imashime_no_Fukkatsu'
+streams:
+  crunchyroll: ''
+---
+title: 'citrus'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12545'
+  anilist: 'https://anilist.co/anime/97832/citrus'
+  kitsu: 'https://kitsu.io/anime/citrus'
+  mal: 'https://myanimelist.net/anime/34382/Citrus'
+streams:
+  crunchyroll: ''
+---
+title: 'Death March Kara Hajimaru Isekai Kyousoukyoku'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12603'
+  anilist: 'https://anilist.co/anime/97907/DeathMarchKaraHajimaruIsekaiKyousoukyoku'
+  kitsu: 'https://kitsu.io/anime/death-march-kara-hajimaru-isekai-kyousoukyoku'
+  mal: 'https://myanimelist.net/anime/34497/Death_March_kara_Hajimaru_Isekai_Kyousoukyoku'
+streams:
+  crunchyroll: ''
+---
+title: 'Cardcaptor Sakura: Clear Card-hen'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12140'
+  anilist: 'https://anilist.co/anime/97881/CardcaptorSakuraClearCardhen'
+  kitsu: 'https://kitsu.io/anime/cardcaptor-sakura-clear-card-hen'
+  mal: 'https://myanimelist.net/anime/33354/Cardcaptor_Sakura__Clear_Card-hen'
+streams:
+  crunchyroll: ''
+---
+title: 'DARLING in the FRANKXX'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13259'
+  anilist: 'https://anilist.co/anime/99423/DarlingintheFranxx'
+  kitsu: 'https://kitsu.io/anime/darling-in-the-frankxx'
+  mal: 'https://myanimelist.net/anime/35849/Darling_in_the_FranXX'
+streams:
+  crunchyroll: ''
+---
+title: 'Koi wa Ameagari no You ni'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12906'
+  anilist: 'https://anilist.co/anime/98385/KoiwaAmeagarinoYouni'
+  kitsu: 'https://kitsu.io/anime/koi-wa-ameagari-no-you-ni'
+  mal: 'https://myanimelist.net/anime/34984/Koi_wa_Ameagari_no_You_ni'
+streams:
+  crunchyroll: ''
+---
+title: 'Grancrest Senki'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12496'
+  anilist: 'https://anilist.co/anime/97768/GrancrestSenki'
+  kitsu: 'https://kitsu.io/anime/grancrest-senki'
+  mal: 'https://myanimelist.net/anime/34279/Grancrest_Senki'
+streams:
+  crunchyroll: ''
+---
+title: 'Saiki Kusuo no Ψ Nan 2'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12691'
+  anilist: 'https://anilist.co/anime/98034/SaikiKusuonoNan2'
+  kitsu: 'https://kitsu.io/anime/saiki-kusuo-no-psi-nan-2'
+  mal: https://myanimelist.net/anime/34612/Saiki_Kusuo_no_%CE%A8-nan_2'
+streams:
+  crunchyroll: ''
+---
+title: 'Pop Team Epic'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13067'
+  anilist: 'https://anilist.co/anime/98549/PopTeamEpic'
+  kitsu: 'https://kitsu.io/anime/pop-team-epic'
+  mal: 'https://myanimelist.net/anime/35330/Poputepipikku'
+streams:
+  crunchyroll: ''
+---
+title: 'Karakai Jouzu no Takagi-san'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13270'
+  anilist: 'https://anilist.co/anime/99468/KarakaiJouzunoTakagisan'
+  kitsu: 'https://kitsu.io/anime/karakai-jouzu-no-takagi-san'
+  mal: 'https://myanimelist.net/anime/35860/Karakai_Jouzu_no_Takagi-san'
+streams:
+  crunchyroll: ''
+---
+title: 'Beatless'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13500'
+  anilist: 'https://anilist.co/anime/100245/Beatless'
+  kitsu: 'https://kitsu.io/anime/beatless'
+  mal: 'https://myanimelist.net/anime/36516/Beatless'
+streams:
+  crunchyroll: ''
+---
+title: 'Kokkoku'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13513'
+  anilist: 'https://anilist.co/anime/100332/Kokkoku'
+  kitsu: 'https://kitsu.io/anime/kokkoku'
+  mal: 'https://myanimelist.net/anime/36548/Kokkoku'
+streams:
+  crunchyroll: ''
+---
+title: 'Hakata Tonkotsu Ramens'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13276'
+  anilist: 'https://anilist.co/anime/99483/HakataTonkotsuRamens'
+  kitsu: 'https://kitsu.io/anime/hakata-tonkotsu-ramens'
+  mal: 'https://myanimelist.net/anime/35889/Hakata_Tonkotsu_Ramens'
+streams:
+  crunchyroll: ''
+---
+title: 'Ito Junji: Collection'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13385'
+  anilist: 'https://anilist.co/anime/99940/ItoJunjiCollection'
+  kitsu: 'https://kitsu.io/anime/itou-junji-collection'
+  mal: 'https://myanimelist.net/anime/36124/Ito_Junji__Collection'
+streams:
+  crunchyroll: ''
+---
+title: 'Yuru Camp△'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12743'
+  anilist: 'https://anilist.co/anime/98444/YuruCamp'
+  kitsu: 'https://kitsu.io/anime/yuru-camp'
+  mal: 'https://myanimelist.net/anime/34798/Yuru_Camp△'
+streams:
+  crunchyroll: ''
+---
+title: 'Mitsuboshi Colors'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12957'
+  anilist: 'https://anilist.co/anime/98439/MitsuboshiColors'
+  kitsu: 'https://kitsu.io/anime/mitsuboshi-colors'
+  mal: 'https://myanimelist.net/anime/35078/Mitsuboshi_Colors'
+streams:
+  crunchyroll: ''
+---
+title: 'Hakumei to Mikochi'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13362'
+  anilist: 'https://anilist.co/anime/99748/HakumeitoMikochi'
+  kitsu: 'https://kitsu.io/anime/hakumei-no-mikochi'
+  mal: 'https://myanimelist.net/anime/36094/Hakumei_to_Mikochi'
+streams:
+  crunchyroll: ''
+---
+title: 'Touken Ranbu: Hanamaru 2'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12790'
+  anilist: 'https://anilist.co/anime/98520/ZokuToukenRanbuHanamaru'
+  kitsu: 'https://kitsu.io/anime/touken-ranbu-hanamaru-2'
+  mal: 'https://myanimelist.net/anime/34863/Touken_Ranbu__Hanamaru_2'
+streams:
+  crunchyroll: ''
+---
+title: 'Gakuen Babysitters'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13023'
+  anilist: 'https://anilist.co/anime/98503/GakuenBabysitters'
+  kitsu: 'https://kitsu.io/anime/gakuen-babysitters'
+  mal: 'https://myanimelist.net/anime/35222/Gakuen_Babysitters'
+streams:
+  crunchyroll: ''
+---
+title: 'Toji no Miko'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13172'
+  anilist: 'https://anilist.co/anime/98747/TojinoMiko'
+  kitsu: 'https://kitsu.io/anime/toji-no-miko'
+  mal: 'https://myanimelist.net/anime/35589/Toji_no_Miko'
+streams:
+  crunchyroll: ''
+---
+title: 'Gin no Guardian 2nd Season'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13237'
+  anilist: 'https://anilist.co/anime/99148/GinnoGuardian2'
+  kitsu: 'https://kitsu.io/anime/gin-no-guardian-2nd-season'
+  mal: 'https://myanimelist.net/anime/35757/Gin_no_Guardian_2nd_Season'
+streams:
+  crunchyroll: ''
+---
+title: 'Märchen Mädchen'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13309'
+  anilist: 'https://anilist.co/anime/99720/MrchenMdchen'
+  kitsu: 'https://kitsu.io/anime/marchen-madchen'
+  mal: 'https://myanimelist.net/anime/35997/Märchen_Mädchen'
+streams:
+  crunchyroll: ''
+---
+title: 'IDOLiSH7'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12339'
+  anilist: 'https://anilist.co/anime/87495/IDOLiSH7'
+  kitsu: 'https://kitsu.io/anime/idolish7'
+  mal: 'https://myanimelist.net/anime/33899/IDOLiSH7'
+streams:
+  crunchyroll: ''
+---
+title: 'Ryuuou no Oshigoto!'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13281'
+  anilist: 'https://anilist.co/anime/99507/RyuuounoOshigoto'
+  kitsu: 'https://kitsu.io/anime/ryuuou-no-oshigoto'
+  mal: 'https://myanimelist.net/anime/35905/Ryuuou_no_Oshigoto'
+streams:
+  crunchyroll: ''
+---
+title: 'Yowamushi Pedal: Glory Line'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anilist.co/anime/99476/YowamushiPedalGLORYLINE'
+  anilist: 'https://anilist.co/anime/99476/YowamushiPedalGLORYLINE'
+  kitsu: 'https://kitsu.io/anime/yowamushi-pedal-4th-season'
+  mal: 'https://myanimelist.net/anime/35789/Yowamushi_Pedal__Glory_Line'
+streams:
+  crunchyroll: ''
+---
+title: 'Ramen Daisuki Koizumi-san'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13053'
+  anilist: 'https://anilist.co/anime/98529/RamenDaisukiKoizumisan'
+  kitsu: 'https://kitsu.io/anime/ramen-daisuki-koizumi-san'
+  mal: 'https://myanimelist.net/anime/35298/Ramen_Daisuki_Koizumi-san'
+streams:
+  crunchyroll: ''
+---
+title: 'Sanrio Danshi'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12781'
+  anilist: 'https://anilist.co/anime/98217/SanrioDanshi'
+  kitsu: 'https://kitsu.io/anime/sanrio-danshi'
+  mal: 'https://myanimelist.net/anime/34839/Sanrio_Danshi'
+streams:
+  crunchyroll: ''
+---
+title: 'Slow Start'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13160'
+  anilist: 'https://anilist.co/anime/98693/SlowStart'
+  kitsu: 'https://kitsu.io/anime/slow-start'
+  mal: 'https://myanimelist.net/anime/35540/Slow_Start'
+streams:
+  crunchyroll: ''
+---
+title: 'Killing Bites'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12888'
+  anilist: 'https://anilist.co/anime/98389/KillingBites'
+  kitsu: 'https://kitsu.io/anime/killing-bites'
+  mal: 'https://myanimelist.net/anime/34964/Killing_Bites'
+streams:
+  crunchyroll: ''
+---
+title: 'Sora yori mo Tooi Basho'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13257'
+  anilist: 'https://anilist.co/anime/99426/UchuuyorimoTooiBasho'
+  kitsu: 'https://kitsu.io/anime/a-place-further-than-the-universe'
+  mal: 'https://myanimelist.net/anime/35839/Sora_yori_mo_Tooi_Basho'
+streams:
+  crunchyroll: ''
+---
+title: 'Basilisk: Ouka Ninpouchou'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13291'
+  anilist: 'https://anilist.co/anime/99569/BasiliskOukaNinpouchou'
+  kitsu: 'https://kitsu.io/anime/basilisk-ouka-ninpouchou'
+  mal: 'https://myanimelist.net/anime/35964/Basilisk__Ouka_Ninpouchou'
+streams:
+  crunchyroll: ''
+---
+title: 'Miira no Kaikata'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13252'
+  anilist: 'https://anilist.co/anime/99390/MiiranoKaikata'
+  kitsu: 'https://kitsu.io/anime/miira-no-kaikata'
+  mal: 'https://myanimelist.net/anime/35828/Miira_no_Kaikata'
+streams:
+  crunchyroll: ''
+---
+title: 'Hakyuu Houshin Engi'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13336'
+  anilist: 'https://anilist.co/anime/99727/HakyuuHoushinEngi'
+  kitsu: 'https://kitsu.io/anime/houshin-engi'
+  mal: 'https://myanimelist.net/anime/36029/Hakyuu_Houshin_Engi'
+streams:
+  crunchyroll: ''
+---
+title: 'Hitori no Shita: The Outcast 2nd Season'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13068'
+  anilist: 'https://anilist.co/anime/98574/HitorinoShitaTheOutcast2ndSeason'
+  kitsu: 'https://kitsu.io/anime/hitori-no-shita-the-outcast-2nd-season'
+  mal: 'https://myanimelist.net/anime/35333/Hitori_no_Shita__The_Outcast_2nd_Season'
+streams:
+  crunchyroll: ''
+---
+title: 'Dame x Prince Anime Caravan'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13300'
+  anilist: 'https://anilist.co/anime/99637/DamePrinceANIMECARAVAN'
+  kitsu: 'https://kitsu.io/anime/dame-x-prince-anime-caravan'
+  mal: 'https://myanimelist.net/anime/35988/Dame_x_Prince_Anime_Caravan'
+streams:
+  crunchyroll: ''
+---
+title: 'Nanatsu no Bitoku'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13599'
+  anilist: 'https://anilist.co/anime/100644/NanatsunoBitoku'
+  kitsu: ''
+  mal: 'https://myanimelist.net/anime/36847/Nanatsu_no_Bitoku'
+streams:
+  crunchyroll: ''
+---
+title: 'Hugtto! Precure'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13526'
+  anilist: 'https://anilist.co/anime/100661/HugttoPrecure'
+  kitsu: 'https://kitsu.io/anime/hugtto-precure'
+  mal: 'https://myanimelist.net/anime/36593/Hugtto_Precure'
+streams:
+  crunchyroll: ''
+---
+title: 'Shinkansen Henkei Robo Shinkalion The Animation'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13507'
+  anilist: 'https://anilist.co/anime/100620/ShinkansenHenkeiRoboShinkalion'
+  kitsu: ''
+  mal: 'https://myanimelist.net/anime/36531/Shinkansen_Henkei_Robo_Shinkalion_The_Animation'
+streams:
+  crunchyroll: ''
+---
+title: 'Dagashi Kashi 2'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13355'
+  anilist: 'https://anilist.co/anime/99734/DagashiKashi2'
+  kitsu: 'https://kitsu.io/anime/dagashi-kashi-2nd-season'
+  mal: 'https://myanimelist.net/anime/36049/Dagashi_Kashi_2'
+streams:
+  crunchyroll: ''
+---
+title: 'Takunomi.'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13376'
+  anilist: 'https://anilist.co/anime/99753/Takunomi'
+  kitsu: 'https://kitsu.io/anime/takunomi'
+  mal: 'https://myanimelist.net/anime/36108/Takunomi'
+streams:
+  crunchyroll: ''
+---
+title: 'Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku 2nd Season'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13401'
+  anilist: 'https://anilist.co/anime/99888/KaijuuGirlsUltraKaijuuGijinkaKeikaku2'
+  kitsu: ''
+  mal: 'https://myanimelist.net/anime/36196/Kaijuu_Girls__Ultra_Kaijuu_Gijinka_Keikaku_2nd_Season'
+streams:
+  crunchyroll: ''
+---
+title: 'gd Men'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13582'
+  anilist: 'https://anilist.co/anime/100527/gdMen'
+  kitsu: ''
+  mal: 'https://myanimelist.net/anime/36797/gdMen'
+streams:
+  crunchyroll: ''
