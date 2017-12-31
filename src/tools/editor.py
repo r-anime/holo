@@ -15,7 +15,7 @@ current_file = "default.yaml"
 current_docs = []
 current_doc = 0
 
-info_keys = ["mal", "anidb", "anilist"]
+info_keys = ["mal", "anidb", "anilist", "kitsu"]
 stream_keys = ["crunchyroll", "funimation", "daisuki"]
 
 def load_current_file():
