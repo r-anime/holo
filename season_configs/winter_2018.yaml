@@ -76,13 +76,13 @@ info:
 streams:
   crunchyroll: ''
 ---
-title: 'DARLING in the FRANKXX'
+title: 'DARLING in the FRANXX'
 type: tv
 has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13259'
   anilist: 'https://anilist.co/anime/99423/DarlingintheFranxx'
-  kitsu: 'https://kitsu.io/anime/darling-in-the-frankxx'
+  kitsu: 'https://kitsu.io/anime/darling-in-the-franxx'
   mal: 'https://myanimelist.net/anime/35849/Darling_in_the_FranXX'
 streams:
   crunchyroll: ''
@@ -214,18 +214,18 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13362'
   anilist: 'https://anilist.co/anime/99748/HakumeitoMikochi'
-  kitsu: 'https://kitsu.io/anime/hakumei-no-mikochi'
+  kitsu: 'https://kitsu.io/anime/hakumei-to-mikochi'
   mal: 'https://myanimelist.net/anime/36094/Hakumei_to_Mikochi'
 streams:
   crunchyroll: ''
 ---
-title: 'Touken Ranbu: Hanamaru 2'
+title: 'Zoku Touken Ranbu: Hanamaru'
 type: tv
 has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12790'
   anilist: 'https://anilist.co/anime/98520/ZokuToukenRanbuHanamaru'
-  kitsu: 'https://kitsu.io/anime/touken-ranbu-hanamaru-2'
+  kitsu: 'https://kitsu.io/anime/zoku-touken-ranbu-hanamaru'
   mal: 'https://myanimelist.net/anime/34863/Touken_Ranbu__Hanamaru_2'
 streams:
   crunchyroll: ''
@@ -302,7 +302,7 @@ has_source: true
 info:
   anidb: 'https://anilist.co/anime/99476/YowamushiPedalGLORYLINE'
   anilist: 'https://anilist.co/anime/99476/YowamushiPedalGLORYLINE'
-  kitsu: 'https://kitsu.io/anime/yowamushi-pedal-4th-season'
+  kitsu: 'https://kitsu.io/anime/yowamushi-pedal-glory-line'
   mal: 'https://myanimelist.net/anime/35789/Yowamushi_Pedal__Glory_Line'
 streams:
   crunchyroll: ''
@@ -390,7 +390,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13336'
   anilist: 'https://anilist.co/anime/99727/HakyuuHoushinEngi'
-  kitsu: 'https://kitsu.io/anime/houshin-engi'
+  kitsu: 'https://kitsu.io/anime/hakyuu-houshin-engi'
   mal: 'https://myanimelist.net/anime/36029/Hakyuu_Houshin_Engi'
 streams:
   crunchyroll: ''
@@ -423,7 +423,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13599'
   anilist: 'https://anilist.co/anime/100644/NanatsunoBitoku'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/nanatsu-no-bitoku'
   mal: 'https://myanimelist.net/anime/36847/Nanatsu_no_Bitoku'
 streams:
   crunchyroll: ''
@@ -445,7 +445,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13507'
   anilist: 'https://anilist.co/anime/100620/ShinkansenHenkeiRoboShinkalion'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/shinkansen-henkei-robo-shinkalion-the-animation'
   mal: 'https://myanimelist.net/anime/36531/Shinkansen_Henkei_Robo_Shinkalion_The_Animation'
 streams:
   crunchyroll: ''
@@ -456,7 +456,7 @@ has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13355'
   anilist: 'https://anilist.co/anime/99734/DagashiKashi2'
-  kitsu: 'https://kitsu.io/anime/dagashi-kashi-2nd-season'
+  kitsu: 'https://kitsu.io/anime/dagashi-kashi-2'
   mal: 'https://myanimelist.net/anime/36049/Dagashi_Kashi_2'
 streams:
   crunchyroll: ''
@@ -478,7 +478,7 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13401'
   anilist: 'https://anilist.co/anime/99888/KaijuuGirlsUltraKaijuuGijinkaKeikaku2'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season'
   mal: 'https://myanimelist.net/anime/36196/Kaijuu_Girls__Ultra_Kaijuu_Gijinka_Keikaku_2nd_Season'
 streams:
   crunchyroll: ''
@@ -489,7 +489,18 @@ has_source: false
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13582'
   anilist: 'https://anilist.co/anime/100527/gdMen'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/gdgd-mens-party'
   mal: 'https://myanimelist.net/anime/36797/gdMen'
+streams:
+  crunchyroll: ''
+---
+title: 'Gintama.: Shirogane no Tamashii-hen'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13263'
+  anilist: 'https://anilist.co/anime/100784/GintamaGinnoTamashiihen'
+  kitsu: 'https://kitsu.io/anime/gintama-shirogane-no-tamashii-hen'
+  mal: 'https://myanimelist.net/anime/36838/Gintama__Shirogane_no_Tamashii-hen'
 streams:
   crunchyroll: ''
