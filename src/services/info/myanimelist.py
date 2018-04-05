@@ -9,7 +9,7 @@ from data.models import UnprocessedShow, ShowType
 
 class InfoHandler(AbstractInfoHandler):
 	_show_link_base = "http://myanimelist.net/anime/{id}/"
-	_show_link_matcher = "https?://(?:.+?\.)?myanimelist\.net/anime/([0-9]{5,})/"
+	_show_link_matcher = "https?://(?:.+?\.)?myanimelist\.net/anime/([0-9]{5,})"
 	_season_show_url = "http://myanimelist.net/anime/season"
 	
 	_api_search_base = "http://myanimelist.net/api/anime/search.xml?q={q}"
@@ -109,10 +109,11 @@ class InfoHandler(AbstractInfoHandler):
 		
 		# Find score
 		score_elem = response.find("span", attrs={"itemprop": "ratingValue"})
-		if score_elem is None:
+		try:
+			score = float(score_elem.string)
+		except:
 			warning("  Count not found")
 			return None
-		score = float(score_elem.string)
 		debug("  Score: {}".format(score))
 		
 		return score
