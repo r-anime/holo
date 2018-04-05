@@ -48,8 +48,8 @@ class ServiceHandler(AbstractServiceHandler):
 			return list()
 		
 		# Send request
-		query = re.sub("[`~!@#$%^&*()+=:;,.<>?/|\\'\"]+", " ", show_key)
-		query = re.sub("  ", " ", query)
+		query = re.sub("[-`~!@#$%^&*()+=:;,.<>?/|\\'\"]+", " ", show_key)
+		query = re.sub(" +", " ", query)
 		debug("  query={}".format(query))
 		query = url_quote(query, safe="", errors="ignore")
 		
