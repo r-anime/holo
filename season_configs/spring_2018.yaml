@@ -411,3 +411,271 @@ info:
   mal: 'https://myanimelist.net/anime/36266'
   anilist: 'https://anilist.co/anime/100010/MahouShoujoSite'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13424'
+---
+title: 'Boku no Hero Academia Season 3'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36456'
+  anilist: 'https://anilist.co/anime/100166/BokunoHeroAcademia3'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13485'
+streams:
+  crunchyroll: ''
+---
+title: 'Major 2nd'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36565'
+  anilist: 'https://anilist.co/anime/100306/Major2nd'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13518'
+---
+title: 'Amanchu! Advance'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36800'
+  anilist: 'https://anilist.co/anime/100532/AmanchuAdvance'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13583'
+---
+title: 'Devils Line'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/35928'
+  anilist: 'https://anilist.co/anime/99531/DevilsLine'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13283'
+#streams:
+#  hidive: ''
+---
+title: 'Sword Art Online Alternative: Gun Gale Online'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36475'
+  anilist: 'https://anilist.co/anime/100183/SwordArtOnlineAlternativeGunGaleOnline'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13494'
+streams:
+  crunchyroll: ''
+---
+title: 'Persona 5 the Animation'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36023'
+  anilist: 'https://anilist.co/anime/99693/Persona5TheAnimation'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13331'
+streams:
+  crunchyroll: ''
+---
+title: 'Hoozuki no Reitetsu Season 2'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/35075'
+  anilist: 'https://anilist.co/anime/98438/HoozukinoReitetsu2'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13704'
+#streams:
+#  hidive: ''
+---
+title: 'Wakaokami wa Shougakusei!'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37433'
+  anilist: 'https://anilist.co/anime/101277/WakaokamiwaShougakusei'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13875'
+---
+title: 'Layton Mystery Tanteisha: Katri no Nazotoki File'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/37023'
+  anilist: 'https://anilist.co/anime/100785/LaytonMysteryTanteishaKatorinoNazotokiFile'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13497'
+---
+title: 'Hugtto! Precure'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/36593'
+  anilist: 'https://anilist.co/anime/100661/HugttoPrecure'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13526'
+---
+title: 'Cutie Honey Universe'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36976'
+  anilist: 'https://anilist.co/anime/100814/CutieHoneyUniverse'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13676'
+#streams:
+#  hidive: ''
+---
+title: 'Nil Admirari no Tenbin: Teito Genwaku Kitan'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/33850'
+  anilist: 'https://anilist.co/anime/99963/NilAdmirarinoTenbin'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12333'
+---
+title: 'Caligula'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36828'
+  anilist: 'https://anilist.co/anime/100569/Caligula'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13592'
+streams:
+  crunchyroll: ''
+---
+title: 'Shokugeki no Souma: San no Sara - Toutsuki Ressha-hen'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36949'
+  anilist: 'https://anilist.co/anime/100773/ShokugekinoSoumaSannoSaraTootsukiResshahen'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13658'
+streams:
+  crunchyroll: ''
+---
+title: 'Piano no Mori'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36652'
+  anilist: 'https://anilist.co/anime/100401/PianonoMoriTV'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13537'
+---
+title: 'Binan Koukou Chikyuu Bouei-bu Happy Kiss!'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/37036'
+  anilist: 'https://anilist.co/anime/101046/BinanKoukouChikyuuBoueibuHAPPYKISS'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13706'
+---
+title: 'Shiyan Pin Jiating'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36397'
+  anilist: 'https://anilist.co/anime/98477/ShiyanPinJiating'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12739'
+---
+title: 'Golden Kamuy'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36028'
+  anilist: 'https://anilist.co/anime/99699/GoldenKamui'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13337'
+streams:
+  crunchyroll: ''
+---
+title: 'Fumikiri Jikan'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37188'
+  anilist: 'https://anilist.co/anime/101002/FumikiriJikan'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13753'
+---
+title: 'Ladyspo'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/37448'
+  anilist: 'https://anilist.co/anime/101314/Ladyspo'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13897'
+---
+title: 'High School DxD Hero'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34281'
+  anilist: 'https://anilist.co/anime/97767/HighSchoolDxDHERO'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12498'
+streams:
+  crunchyroll: ''
+---
+title: 'Rokuhoudou Yotsuiro Biyori'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36513'
+  anilist: 'https://anilist.co/anime/100727/RokuhoudouYotsuiroBiyori'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13502'
+---
+title: 'Last Period: Owarinaki Rasen no Monogatari'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37254'
+  anilist: 'https://anilist.co/anime/101044/LastPeriodOwarinakiRasennoMonogatari'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13779'
+---
+title: 'Butlers: Chitose Momotose Monogatari'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/36309'
+  anilist: 'https://anilist.co/anime/100083/ButlersChitoseMomotoseMonogatari'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13437'
+---
+title: 'Steins;Gate 0'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/30484'
+  anilist: 'https://anilist.co/anime/21127/SteinsGate0'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11167'
+streams:
+  crunchyroll: ''
+---
+title: 'Isekai Izakaya: Koto Aitheria no Izakaya Nobu'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34420'
+  anilist: 'https://anilist.co/anime/97873/IsekaiIzakayaKotoAitherianoIzakayaNobu'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12562'
+streams:
+  crunchyroll: ''
+---
+title: 'Hisone to Maso-tan'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/36884'
+  anilist: 'https://anilist.co/anime/100673/HisonetoMasotan'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13625'
+---
+title: 'Wotaku ni Koi wa Muzukashii'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/35968'
+  anilist: 'https://anilist.co/anime/99578/WotakuniKoiwaMuzukashii'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13293'
+---
+title: 'Dorei-ku The Animation'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36525'
+  anilist: 'https://anilist.co/anime/100251/DoreikuTheAnimation'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13505'
+#streams:
+#  hidive: ''
+---
+title: 'Full Metal Panic! Invisible Victory'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/31931'
+  anilist: 'https://anilist.co/anime/21451/FullMetalPanicInvisibleVictory'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11731'
+streams:
+  crunchyroll: ''
