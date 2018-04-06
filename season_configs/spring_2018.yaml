@@ -1,0 +1,413 @@
+title: 'Black Clover'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34572/Black_Clover'
+  anilist: 'https://anilist.co/anime/97940'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12665'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/black-clover'
+---
+title: 'Gundam Build Divers'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/37245/Gundam_Build_Divers'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13774'
+  anilist: 'https://anilist.co/anime/101036/'
+  kitsu: 'https://kitsu.io/anime/gundam-build-divers'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/gundam-build-divers'
+#  youtube: 'https://www.youtube.com/user/GundamInfo/videos'
+---
+title: 'Uchuu Senkan Tiramisu'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/36267/Uchuu_Senkan_Tiramisu'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13426'
+#  official: 'http://tiramisu-anime.com/'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/space-battleship-tiramisu'
+---
+title: 'Basilisk: Ouka Ninpouchou'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/35964/Basilisk__Ouka_Ninpouchou'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13291'
+---
+title: 'Captain Tsubasa (2018)'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36934/Captain_Tsubasa_2018'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13655'
+---
+title: 'Souten no Ken Re:Genesis'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36655/Souten_no_Ken_Re_Genesis'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13540'
+  anilist: 'https://anilist.co/anime/100408/SoutennoKenREGENESIS'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/fist-of-the-blue-sky-regenesis'
+---
+title: 'Kakuriyo no Yadomeshi'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36754/Kakuriyo_no_Yadomeshi'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13564'
+  anilist: 'https://anilist.co/anime/100500/KakuriyonoYadomeshi'
+#  official: 'http://kakuriyo-anime.com/'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/kakuriyo-bed-breakfast-for-spirits-'
+---
+title: 'Omae wa Mada Gunma wo Shiranai'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37258/Omae_wa_Mada_Gunma_wo_Shiranai'
+---
+title: 'Mahou Shoujo Ore'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=10770'
+  anilist: 'https://anilist.co/anime/100715/MahouShoujoOre'
+  kitsu: 'https://kitsu.io/anime/mahou-shoujo-ore'
+  mal: 'https://myanimelist.net/anime/36902/Mahou_Shoujo_Ore'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/magical-girl-ore'
+---
+title: 'Uma Musume: Pretty Derby'
+type: tv
+has_source: true
+info:
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=13034'
+  anilist: 'https://anilist.co/anime/98514'
+  kitsu: 'https://kitsu.io/anime/uma-musume-pretty-derby-tv'
+  mal: 'https://myanimelist.net/anime/35249/Uma_Musume__Pretty_Derby_TV'
+#  official: 'http://anime-umamusume.jp/'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/umamusume-pretty-derby'
+---
+title: 'Cardcaptor Sakura: Clear Card-hen'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12140'
+  anilist: 'https://anilist.co/anime/97881/CardcaptorSakuraClearCardhen'
+  kitsu: 'https://kitsu.io/anime/cardcaptor-sakura-clear-card-hen'
+  mal: 'https://myanimelist.net/anime/33354/Cardcaptor_Sakura__Clear_Card-hen'
+streams:
+  crunchyroll: ''
+---
+title: 'DARLING in the FRANXX'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13259'
+  anilist: 'https://anilist.co/anime/99423/DarlingintheFranxx'
+  kitsu: 'https://kitsu.io/anime/darling-in-the-franxx'
+  mal: 'https://myanimelist.net/anime/35849/Darling_in_the_FranXX'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/darling-in-the-franxx'
+---
+title: 'Grancrest Senki'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12496'
+  anilist: 'https://anilist.co/anime/97768/GrancrestSenki'
+  kitsu: 'https://kitsu.io/anime/grancrest-senki'
+  mal: 'https://myanimelist.net/anime/34279/Grancrest_Senki'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/record-of-grancrest-war'
+---
+title: 'Beatless'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13500'
+  anilist: 'https://anilist.co/anime/100245/Beatless'
+  kitsu: 'https://kitsu.io/anime/beatless'
+  mal: 'https://myanimelist.net/anime/36516/Beatless'
+#streams:
+#  amazon: 'https://www.amazon.com/dp/B079159WLM'
+#  amazon_uk: 'https://www.amazon.co.uk/dp/B078Z6T59G'
+---
+title: 'Toji no Miko'
+type: tv
+has_source: false
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13172'
+  anilist: 'https://anilist.co/anime/98747/TojinoMiko'
+  kitsu: 'https://kitsu.io/anime/toji-no-miko'
+  mal: 'https://myanimelist.net/anime/35589/Toji_no_Miko'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/katana-maidens-toji-no-miko'
+---
+title: 'Yowamushi Pedal: Glory Line'
+type: tv
+has_source: true
+info:
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13245'
+  anilist: 'https://anilist.co/anime/99476/YowamushiPedalGLORYLINE'
+  kitsu: 'https://kitsu.io/anime/yowamushi-pedal-glory-line'
+  mal: 'https://myanimelist.net/anime/35789/Yowamushi_Pedal__Glory_Line'
+streams:
+  crunchyroll: ''
+---
+title: 'Ginga Eiyuu Densetsu: Die Neue These - Kaikou'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/31433/Ginga_Eiyuu_Densetsu__Die_Neue_These_-_Kaikou'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11495'
+  anilist: 'https://anilist.co/anime/20628/GingaEiyuuDensetsuDieNeueTheseKaikou'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/legend-of-the-galactic-heroes-die-neue-these'
+---
+title: 'Tokyo Ghoul:re'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36511/Tokyo_Ghoul_re'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13499'
+streams:
+  funimation: 'https://www.funimation.com/shows/tokyo-ghoul'
+#  hulu: 'https://www.hulu.com/watch/1248730'
+#  animelab: ''
+---
+title: 'Tachibanakan To Lie Angle'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36943/Tachibanakan_Triangle'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13656'
+  anilist: 'https://anilist.co/anime/100762/TachibanakantoLieAngle'
+#  official: 'http://tachibanakan-anime.com/'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/love-to-lie-angle'
+---
+title: 'Lupin III: Part 5'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/35857/Lupin_III__Part_V'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13266'
+  anilist: 'https://anilist.co/anime/100957/LupinIIIPartV'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/lupin-the-3rd-part-5'
+---
+title: 'Saiki Kusuo no Ψ-nan (TV) 2'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34612/Saiki_Kusuo_no_%CE%A8-nan_TV_2'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12691'
+---
+title: '3D Kanojo: Real Girl'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36793/3D_Kanojo__Real_Girl'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13581'
+  anilist: 'https://anilist.co/anime/100526/3DKanojo'
+#  official: 'http://www.3dkanojo-anime.com/'
+#streams:
+#  hidive: 'https://www.hidive.com/tv/real-girl'
+---
+title: 'Alice or Alice: Siscon Niisan to Futago no Imouto'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36001/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13313'
+---
+title: 'Juushinki Pandora'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/33531/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12252'
+---
+title: 'Aikatsu Friends!'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/37204/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13755'
+---
+title: 'Tada-kun wa Koi o Shinai'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/36470/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13492'
+  anilist: 'https://anilist.co/anime/100179/TadakunwaKoiwoShinai'
+#streams:
+#  hidive: 'https://www.hidive.com/stream/tada-never-falls-in-love/'
+---
+title: 'Comic Girls'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/35756/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13238'
+  anilist: 'https://anilist.co/anime/99131/ComicGirls'
+#  official: 'http://www.comic-girls.com/'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/comic-girls'
+#  animeondemand: 'https://www.anime-on-demand.de/anime/282'
+---
+title: 'Sword Gai: The Animation'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/27783/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14000'
+---
+title: 'Megalo Box'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/36563/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13517'
+  anilist: 'https://anilist.co/anime/100298/MegaloBox'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/megalobox'
+---
+title: 'Saredo Tsumibito wa Ryuu to Odoru'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/33889/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12337'
+  anilist: 'https://anilist.co/anime/87504/SaredoTsumibitowaRyuutoOdoru'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/dances-with-the-dragons'
+---
+title: 'Emiya-San Chi no Kyou no Gohan'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/37033/Emiya-san_Chi_no_Kyou_no_Gohan'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13705'
+  anilist: 'https://anilist.co/anime/100855/EmiyasanChinoKyounoGohan'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/todays-menu-for-the-emiya-family'
+---
+title: 'Nanatsu no Taizai: Imashime no Fukkatsu'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34577'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11646'
+  anilist: 'https://anilist.co/anime/99539/NanatsunoTaizaiImashimenoFukkatsu'
+---
+title: 'Boruto: Naruto Next Generations'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34566/'
+  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12661'
+  anilist: 'https://anilist.co/anime/97938/BorutoNarutoNextGenerations'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/boruto-naruto-next-generations'
+---
+title: 'Gegege no Kitarou (2018)'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37140/Gegege_no_Kitarou_2018'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13742'
+  anilist: 'https://anilist.co/anime/100978/GegegenoKitarou2018'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/gegege-no-kitaro'
+---
+title: 'IDOLISH7'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/33899/IDOLiSH7'
+  anilist: 'https://anilist.co/anime/87495/Idolish7'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12339'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/idolish7/'
+---
+title: 'Hinamatsuri'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36296'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13434'
+  anilist: 'https://anilist.co/anime/100077/Hinamatsuri'
+streams:
+  crunchyroll: ''
+---
+title: 'Hakyuu Houshin Engi'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36029'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13336'
+  anilist: 'https://anilist.co/anime/99727/HakyuuHoushinEngi'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/hakyu-hoshin-engi'
+  funimation: ''
+---
+title: 'Gurazeni'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/35183'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12995'
+  anilist: 'https://anilist.co/anime/98479/Gurazeni'
+streams:
+  crunchyroll: ''
+---
+title: 'Akkun to Kanojo'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36864'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13613'
+  anilist: 'https://anilist.co/anime/100645/AkkuntoKanojo'
+---
+title: 'Lost Song'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/34338'
+  anilist: 'https://anilist.co/anime/98073/LOSTSONG'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12523'
+#streams:
+#  netflix: ''
+---
+title: 'Lostorage Conflated WIXOSS'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/34607'
+  anilist: 'https://anilist.co/anime/98473/LostorageConflatedWIXOSS'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12686'
+---
+title: 'Nobunaga no Shinobi: Anegawa Ishiyama-hen'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37126'
+  anilist: 'https://anilist.co/anime/100966/NobunaganoShinobiAnegawaIshiyamahen'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13740'
+---
+title: 'Mahou Shoujo Site'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36266'
+  anilist: 'https://anilist.co/anime/100010/MahouShoujoSite'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13424'
