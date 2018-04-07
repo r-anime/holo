@@ -206,12 +206,13 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/lupin-the-3rd-part-5'
 ---
-title: 'Saiki Kusuo no Ψ-nan (TV) 2'
+title: 'Saiki Kusuo no Psi-nan 2'
 type: tv
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/34612/Saiki_Kusuo_no_%CE%A8-nan_TV_2'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12691'
+  anilist: 'https://anilist.co/anime/98034/SaikiKusuonoNan2'
 ---
 title: '3D Kanojo: Real Girl'
 type: tv
@@ -440,7 +441,7 @@ info:
   anilist: 'https://anilist.co/anime/100166/BokunoHeroAcademia3'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13485'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/my-hero-academia'
 ---
 title: 'Major 2nd'
 type: tv
@@ -459,6 +460,8 @@ info:
   mal: 'https://myanimelist.net/anime/36800'
   anilist: 'https://anilist.co/anime/100532/AmanchuAdvance'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13583'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/amanchu'
 ---
 title: 'Devils Line'
 type: tv
@@ -478,7 +481,7 @@ info:
   anilist: 'https://anilist.co/anime/100183/SwordArtOnlineAlternativeGunGaleOnline'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13494'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/sword-art-online-alternative-gun-gale-online'
 ---
 title: 'Persona 5 the Animation'
 type: tv
@@ -488,7 +491,7 @@ info:
   anilist: 'https://anilist.co/anime/99693/Persona5TheAnimation'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13331'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/persona5-the-animation'
 ---
 title: 'Hoozuki no Reitetsu Season 2'
 type: tv
@@ -498,7 +501,7 @@ info:
   anilist: 'https://anilist.co/anime/98438/HoozukinoReitetsu2'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13704'
 #streams:
-#  hidive: ''
+#  hidive: 'https://www.hidive.com/tv/hozukis-coolheadedness-2'
 ---
 title: 'Wakaokami wa Shougakusei!'
 type: tv
