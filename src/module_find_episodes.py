@@ -35,7 +35,7 @@ def main(config, db, **kwargs):
 				has_new_episode.append(show)
 	
 	# Check generic services
-	other_shows = set(db.get_shows(missing_stream=False)) | set(db.get_shows(delayed=True))
+	other_shows = set(db.get_shows(missing_stream=True)) | set(db.get_shows(delayed=True))
 	if len(other_shows) > 0:
 		info("Checking generic services for {} shows".format(len(other_shows)))
 	for show in other_shows:
