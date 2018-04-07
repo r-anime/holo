@@ -36,6 +36,9 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/35964/Basilisk__Ouka_Ninpouchou'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13291'
+  anilist: 'https://anilist.co/anime/99569/BasiliskOukaNinpouchou'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/basilisk-the-ouka-ninja-scrolls'
 ---
 title: 'Captain Tsubasa (2018)'
 type: tv
@@ -159,7 +162,7 @@ info:
   kitsu: 'https://kitsu.io/anime/yowamushi-pedal-glory-line'
   mal: 'https://myanimelist.net/anime/35789/Yowamushi_Pedal__Glory_Line'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/yowamushi-pedal-new-generation'
 ---
 title: 'Ginga Eiyuu Densetsu: Die Neue These - Kaikou'
 type: tv
@@ -403,6 +406,8 @@ info:
   mal: 'https://myanimelist.net/anime/34607'
   anilist: 'https://anilist.co/anime/98473/LostorageConflatedWIXOSS'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12686'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/lostorage-incited-wixoss'
 ---
 title: 'Nobunaga no Shinobi: Anegawa Ishiyama-hen'
 type: tv
@@ -411,6 +416,9 @@ info:
   mal: 'https://myanimelist.net/anime/37126'
   anilist: 'https://anilist.co/anime/100966/NobunaganoShinobiAnegawaIshiyamahen'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13740'
+#  official: 'https://nobunaga-no-shinobi.com/'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/ninja-girl-samurai-master'
 ---
 title: 'Mahou Shoujo Site'
 type: tv
@@ -441,6 +449,8 @@ info:
   mal: 'https://myanimelist.net/anime/36565'
   anilist: 'https://anilist.co/anime/100306/Major2nd'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13518'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/major-2nd'
 ---
 title: 'Amanchu! Advance'
 type: tv
