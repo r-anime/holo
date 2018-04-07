@@ -92,6 +92,7 @@ def _process_new_episode(config, db, show, stream, episode):
 			post_url = _create_reddit_post(config, db, show, stream, int_episode, submit=not config.debug)
 			info("  Post URL: {}".format(post_url))
 			if post_url is not None:
+				post_url = post_url.replace("http:", "https:")
 				db.add_episode(stream.show, int_episode.number, post_url)
 				if show.delayed:
 					db.set_show_delayed(show, False)
