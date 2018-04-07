@@ -227,6 +227,10 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36001/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13313'
+  anilist: 'https://anilist.co/anime/99638/AliceorAlice'
+#  official: 'http://alice-or-alice.com/'
+#streams:
+#  hidive: 'https://www.hidive.com/stream/alice-or-alice/2018040401'
 ---
 title: 'Juushinki Pandora'
 type: tv
@@ -346,8 +350,9 @@ info:
   mal: 'https://myanimelist.net/anime/36296'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13434'
   anilist: 'https://anilist.co/anime/100077/Hinamatsuri'
+#  official: 'http://hina-matsuri.net/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/hinamatsuri'
 ---
 title: 'Hakyuu Houshin Engi'
 type: tv
@@ -377,6 +382,9 @@ info:
   mal: 'https://myanimelist.net/anime/36864'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13613'
   anilist: 'https://anilist.co/anime/100645/AkkuntoKanojo'
+#  official: 'http://akkun-kanojo.jp/'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/my-sweet-tyrant'
 ---
 title: 'Lost Song'
 type: tv
@@ -411,6 +419,10 @@ info:
   mal: 'https://myanimelist.net/anime/36266'
   anilist: 'https://anilist.co/anime/100010/MahouShoujoSite'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13424'
+#  official: 'http://mahoushoujyo-anime.com/'
+#streams:
+#  amazon: 'https://www.amazon.com/Magical-Girl-Site/dp/B07CBHV9N1'
+#  amazon_uk: 'https://www.amazon.co.uk/Magical-Girl-Site/dp/B07BYPXF1V'
 ---
 title: 'Boku no Hero Academia Season 3'
 type: tv
