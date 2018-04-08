@@ -73,6 +73,10 @@ type: tv
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37258/Omae_wa_Mada_Gunma_wo_Shiranai'
+  anilist: 'https://anilist.co/anime/101042/OmaewaMadaGunmawoShiranai'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13781'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/you-dont-know-gunma-yet'
 ---
 title: 'Mahou Shoujo Ore'
 type: tv
@@ -106,7 +110,7 @@ info:
   kitsu: 'https://kitsu.io/anime/cardcaptor-sakura-clear-card-hen'
   mal: 'https://myanimelist.net/anime/33354/Cardcaptor_Sakura__Clear_Card-hen'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/cardcaptor-sakura-clear-card'
 ---
 title: 'DARLING in the FRANXX'
 type: tv
@@ -377,7 +381,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12995'
   anilist: 'https://anilist.co/anime/98479/Gurazeni'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/gurazeni-money-pitch'
 ---
 title: 'Akkun to Kanojo'
 type: tv
@@ -535,7 +539,7 @@ info:
   anilist: 'https://anilist.co/anime/100814/CutieHoneyUniverse'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13676'
 #streams:
-#  hidive: ''
+#  hidive: 'https://www.hidive.com/tv/cutie-honey-universe'
 ---
 title: 'Nil Admirari no Tenbin: Teito Genwaku Kitan'
 type: tv
@@ -544,6 +548,8 @@ info:
   mal: 'https://myanimelist.net/anime/33850'
   anilist: 'https://anilist.co/anime/99963/NilAdmirarinoTenbin'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12333'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/libra-of-nil-admirari'
 ---
 title: 'Caligula'
 type: tv
@@ -553,7 +559,7 @@ info:
   anilist: 'https://anilist.co/anime/100569/Caligula'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13592'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/caligula'
 ---
 title: 'Shokugeki no Souma: San no Sara - Toutsuki Ressha-hen'
 type: tv
@@ -580,6 +586,8 @@ info:
   mal: 'https://myanimelist.net/anime/37036'
   anilist: 'https://anilist.co/anime/101046/BinanKoukouChikyuuBoueibuHAPPYKISS'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13706'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/cute-high-earth-defense-club-love'
 ---
 title: 'Shiyan Pin Jiating'
 type: tv
