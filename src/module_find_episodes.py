@@ -188,12 +188,17 @@ def _gen_text_discussions(db, formats, show, stream):
 	episodes = db.get_episodes(show)
 	debug("Num previous episodes: {}".format(len(episodes)))
 	if len(episodes) > 0:
-		table = [formats["discussion_header"]]
+		table = []
 		for episode in episodes:
 			episode = stream.to_display_episode(episode)
 			score = db.get_episode_score_avg(show, episode)
 			table.append(safe_format(formats["discussion"], episode=episode.number, link=episode.link, score=score.score if score else ""))
-		return "\n".join(table)
+
+		num_columns = 1 + (len(table) - 1) // 20
+		format_head, format_align = formats["discussion_header"], formats["discussion_align"]
+		table_head = '|'.join(num_columns * [format_head]) + '\n' + '|'.join(num_columns * [format_align])
+		table = ['|'.join(table[i::20]) for i in range(20)]
+		return table_head + "\n" + "\n".join(table)
 	else:
 		return formats["discussion_none"]
 
