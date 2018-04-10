@@ -238,7 +238,7 @@ info:
   anilist: 'https://anilist.co/anime/99638/AliceorAlice'
 #  official: 'http://alice-or-alice.com/'
 #streams:
-#  hidive: 'https://www.hidive.com/stream/alice-or-alice/2018040401'
+#  hidive: 'https://www.hidive.com/tv/alice-or-alice/'
 ---
 title: 'Juushinki Pandora'
 type: tv
@@ -262,7 +262,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13492'
   anilist: 'https://anilist.co/anime/100179/TadakunwaKoiwoShinai'
 #streams:
-#  hidive: 'https://www.hidive.com/stream/tada-never-falls-in-love/'
+#  hidive: 'https://www.hidive.com/tv/tada-never-falls-in-love/'
 ---
 title: 'Comic Girls'
 type: tv
@@ -475,7 +475,7 @@ info:
   anilist: 'https://anilist.co/anime/99531/DevilsLine'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13283'
 #streams:
-#  hidive: ''
+#  hidive: 'https://www.hidive.com/tv/devils-line'
 ---
 title: 'Sword Art Online Alternative: Gun Gale Online'
 type: tv
@@ -569,7 +569,7 @@ info:
   anilist: 'https://anilist.co/anime/100773/ShokugekinoSoumaSannoSaraTootsukiResshahen'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13658'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/food-wars-shokugeki-no-soma|12'
 ---
 title: 'Piano no Mori'
 type: tv
@@ -605,7 +605,7 @@ info:
   anilist: 'https://anilist.co/anime/99699/GoldenKamui'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13337'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/golden-kamuy'
 ---
 title: 'Fumikiri Jikan'
 type: tv
@@ -614,6 +614,8 @@ info:
   mal: 'https://myanimelist.net/anime/37188'
   anilist: 'https://anilist.co/anime/101002/FumikiriJikan'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13753'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/crossing-time'
 ---
 title: 'Ladyspo'
 type: tv
