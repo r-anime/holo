@@ -118,6 +118,7 @@ _num_extractors = [re.compile(x, re.I) for x in [
 	r"\[orz\] .+ (\d+) ",											# No separator
 	r"\[(?:kaitou|gg)\]_.+_-_(\d+)_",								# "_-_" separator
 	r"\[doremi\]\..+\.(\d+)",										# "." separator
+	r"\[anon\] .+ (\d+)",
 	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]"					# Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 ]]
 
