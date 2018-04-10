@@ -226,8 +226,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13581'
   anilist: 'https://anilist.co/anime/100526/3DKanojo'
 #  official: 'http://www.3dkanojo-anime.com/'
-#streams:
-#  hidive: 'https://www.hidive.com/tv/real-girl'
+streams:
+  hidive: 'https://www.hidive.com/tv/real-girl'
 ---
 title: 'Alice or Alice: Siscon Niisan to Futago no Imouto'
 type: tv
@@ -237,8 +237,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13313'
   anilist: 'https://anilist.co/anime/99638/AliceorAlice'
 #  official: 'http://alice-or-alice.com/'
-#streams:
-#  hidive: 'https://www.hidive.com/tv/alice-or-alice/'
+streams:
+  hidive: 'https://www.hidive.com/tv/alice-or-alice/'
 ---
 title: 'Juushinki Pandora'
 type: tv
@@ -261,8 +261,8 @@ info:
   mal: 'https://myanimelist.net/anime/36470/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13492'
   anilist: 'https://anilist.co/anime/100179/TadakunwaKoiwoShinai'
-#streams:
-#  hidive: 'https://www.hidive.com/tv/tada-never-falls-in-love/'
+streams:
+  hidive: 'https://www.hidive.com/tv/tada-never-falls-in-love/'
 ---
 title: 'Comic Girls'
 type: tv
@@ -474,8 +474,8 @@ info:
   mal: 'https://myanimelist.net/anime/35928'
   anilist: 'https://anilist.co/anime/99531/DevilsLine'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13283'
-#streams:
-#  hidive: 'https://www.hidive.com/tv/devils-line'
+streams:
+  hidive: 'https://www.hidive.com/tv/devils-line'
 ---
 title: 'Sword Art Online Alternative: Gun Gale Online'
 type: tv
@@ -504,8 +504,8 @@ info:
   mal: 'https://myanimelist.net/anime/35075'
   anilist: 'https://anilist.co/anime/98438/HoozukinoReitetsu2'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13704'
-#streams:
-#  hidive: 'https://www.hidive.com/tv/hozukis-coolheadedness-2'
+streams:
+  hidive: 'https://www.hidive.com/tv/hozukis-coolheadedness-2'
 ---
 title: 'Wakaokami wa Shougakusei!'
 type: tv
@@ -538,8 +538,8 @@ info:
   mal: 'https://myanimelist.net/anime/36976'
   anilist: 'https://anilist.co/anime/100814/CutieHoneyUniverse'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13676'
-#streams:
-#  hidive: 'https://www.hidive.com/tv/cutie-honey-universe'
+streams:
+  hidive: 'https://www.hidive.com/tv/cutie-honey-universe'
 ---
 title: 'Nil Admirari no Tenbin: Teito Genwaku Kitan'
 type: tv
@@ -702,8 +702,8 @@ info:
   mal: 'https://myanimelist.net/anime/36525'
   anilist: 'https://anilist.co/anime/100251/DoreikuTheAnimation'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13505'
-#streams:
-#  hidive: ''
+streams:
+  hidive: ''
 ---
 title: 'Full Metal Panic! Invisible Victory'
 type: tv
