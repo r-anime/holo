@@ -102,7 +102,7 @@ def _is_valid_episode(feed_episode):
 def _digest_episode(feed_episode):
 	title = feed_episode["title"]
 	episode_num = _extract_episode_num(title)
-	if episode_num:								# Intended, checks if not None and > 0
+	if episode_num is not None and episode_num >= 0:
 		date = feed_episode["published_parsed"] or datetime.utcnow()
 		link = feed_episode["id"]
 		return Episode(episode_num, None, link, date)
