@@ -642,6 +642,8 @@ info:
   mal: 'https://myanimelist.net/anime/36513'
   anilist: 'https://anilist.co/anime/100727/RokuhoudouYotsuiroBiyori'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13502'
+streams:
+  crunchyroll: ''
 ---
 title: 'Last Period: Owarinaki Rasen no Monogatari'
 type: tv
