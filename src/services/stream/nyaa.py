@@ -102,7 +102,7 @@ def _is_valid_episode(feed_episode):
 def _digest_episode(feed_episode):
 	title = feed_episode["title"]
 	episode_num = _extract_episode_num(title)
-	if episode_num is not None and episode_num >= 0:
+	if episode_num is not None and 0 <= episode_num < 720:
 		date = feed_episode["published_parsed"] or datetime.utcnow()
 		link = feed_episode["id"]
 		return Episode(episode_num, None, link, date)
@@ -114,12 +114,12 @@ _exludors = [re.compile(x, re.I) for x in [
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
-	r"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs|hitoku|erai-raws|davinci)\] .+ - (\d+) ",
-	r"\[orz\] .+ (\d+) ", # No separator
+	r"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs|hitoku|erai-raws|davinci|asenshi|mezashite)\] .+ - (\d+) ",
+	r"\[(?:orz|hayaku)\] .+ (\d+) ", # No separator
 	r"\[(?:kaitou|gg)\]_.+_-_(\d+)_", # "_-_" separator
 	r"\[doremi\]\..+\.(\d+)", # "." separator
 	r"\[anon\] .+? (\d{2,})",
-#	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]" # Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format // DISABLED because filter = 0
+	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]" # Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format // DISABLED because filter = 0
 ]]
 
 def _extract_episode_num(name):
