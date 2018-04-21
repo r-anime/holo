@@ -184,8 +184,8 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36511/Tokyo_Ghoul_re'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13499'
-streams:
-  funimation: 'https://www.funimation.com/shows/tokyo-ghoul'
+#streams:
+#  funimation: 'https://www.funimation.com/shows/tokyo-ghoul'
 #  hulu: 'https://www.hulu.com/watch/1248730'
 #  animelab: ''
 ---
@@ -423,7 +423,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13740'
 #  official: 'https://nobunaga-no-shinobi.com/'
 streams:
-  crunchyroll: 'http://www.crunchyroll.com/ninja-girl-samurai-master'
+  crunchyroll: 'http://www.crunchyroll.com/ninja-girl-samurai-master|52'
 ---
 title: 'Mahou Shoujo Site'
 type: tv
@@ -445,7 +445,7 @@ info:
   anilist: 'https://anilist.co/anime/100166/BokunoHeroAcademia3'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13485'
 streams:
-  crunchyroll: 'http://www.crunchyroll.com/my-hero-academia'
+  crunchyroll: 'http://www.crunchyroll.com/my-hero-academia|38'
 ---
 title: 'Major 2nd'
 type: tv
@@ -501,11 +501,11 @@ title: 'Hoozuki no Reitetsu Season 2'
 type: tv
 has_source: true
 info:
-  mal: 'https://myanimelist.net/anime/35075'
+  mal: 'https://myanimelist.net/anime/37029'
   anilist: 'https://anilist.co/anime/98438/HoozukinoReitetsu2'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13704'
 streams:
-  hidive: 'https://www.hidive.com/tv/hozukis-coolheadedness-2'
+  hidive: 'https://www.hidive.com/tv/hozukis-coolheadedness-2|13'
 ---
 title: 'Wakaokami wa Shougakusei!'
 type: tv
@@ -515,7 +515,7 @@ info:
   anilist: 'https://anilist.co/anime/101277/WakaokamiwaShougakusei'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13875'
 ---
-title: 'Layton Mystery Tanteisha: Katri no Nazotoki File'
+title: "Layton's Mystery Detective Agency - Katry's Mystery Solving Files"
 type: tv
 has_source: false
 info:
@@ -589,14 +589,6 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/cute-high-earth-defense-club-love'
 ---
-title: 'Shiyan Pin Jiating'
-type: tv
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/36397'
-  anilist: 'https://anilist.co/anime/98477/ShiyanPinJiating'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12739'
----
 title: 'Golden Kamuy'
 type: tv
 has_source: true
@@ -642,6 +634,8 @@ info:
   mal: 'https://myanimelist.net/anime/36513'
   anilist: 'https://anilist.co/anime/100727/RokuhoudouYotsuiroBiyori'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13502'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/yotsuiro-biyori'
 ---
 title: 'Last Period: Owarinaki Rasen no Monogatari'
 type: tv
@@ -650,6 +644,8 @@ info:
   mal: 'https://myanimelist.net/anime/37254'
   anilist: 'https://anilist.co/anime/101044/LastPeriodOwarinakiRasennoMonogatari'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13779'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/last-period-the-journey-to-the-end-of-the-despair'
 ---
 title: 'Butlers: Chitose Momotose Monogatari'
 type: tv
@@ -658,6 +654,8 @@ info:
   mal: 'https://myanimelist.net/anime/36309'
   anilist: 'https://anilist.co/anime/100083/ButlersChitoseMomotoseMonogatari'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13437'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/butlers-x-battlers'
 ---
 title: 'Steins;Gate 0'
 type: tv
@@ -667,7 +665,7 @@ info:
   anilist: 'https://anilist.co/anime/21127/SteinsGate0'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11167'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/steinsgate-0'
 ---
 title: 'Isekai Izakaya: Koto Aitheria no Izakaya Nobu'
 type: tv
@@ -677,9 +675,9 @@ info:
   anilist: 'https://anilist.co/anime/97873/IsekaiIzakayaKotoAitherianoIzakayaNobu'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12562'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/isekai-izakaya-japanese-food-from-another-world'
 ---
-title: 'Hisone to Maso-tan'
+title: 'Hisone to Masotan'
 type: tv
 has_source: false
 info:
@@ -694,6 +692,8 @@ info:
   mal: 'https://myanimelist.net/anime/35968'
   anilist: 'https://anilist.co/anime/99578/WotakuniKoiwaMuzukashii'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13293'
+#streams:
+#  amazon_uk: 'https://www.amazon.co.uk/dp/B07C321BQ4/'
 ---
 title: 'Dorei-ku The Animation'
 type: tv
@@ -703,7 +703,7 @@ info:
   anilist: 'https://anilist.co/anime/100251/DoreikuTheAnimation'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13505'
 streams:
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/doreiku-the-animation/'
 ---
 title: 'Full Metal Panic! Invisible Victory'
 type: tv
@@ -713,4 +713,4 @@ info:
   anilist: 'https://anilist.co/anime/21451/FullMetalPanicInvisibleVictory'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11731'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/full-metal-panic-invisible-victory'
