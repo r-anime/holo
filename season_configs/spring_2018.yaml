@@ -7,7 +7,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12665'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/black-clover'
-  funimation: 'https://www.funimation.com/shows/black-clover/'
+#  funimation: 'https://www.funimation.com/shows/black-clover/'
 ---
 title: 'Gundam Build Divers'
 type: tv
@@ -30,7 +30,7 @@ info:
 #  official: 'http://tiramisu-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/space-battleship-tiramisu'
-  funimation: 'https://www.funimation.com/shows/space-battleship-tiramisu/'
+#  funimation: 'https://www.funimation.com/shows/space-battleship-tiramisu/'
 ---
 title: 'Basilisk: Ouka Ninpouchou'
 type: tv
@@ -41,7 +41,7 @@ info:
   anilist: 'https://anilist.co/anime/99569/BasiliskOukaNinpouchou'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/basilisk-the-ouka-ninja-scrolls'
-  funimation: 'https://www.funimation.com/shows/basilisk-the-ouka-ninja-scrolls/'
+#  funimation: 'https://www.funimation.com/shows/basilisk-the-ouka-ninja-scrolls/'
 ---
 title: 'Captain Tsubasa (2018)'
 type: tv
@@ -70,7 +70,7 @@ info:
 #  official: 'http://kakuriyo-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/kakuriyo-bed-breakfast-for-spirits-'
-  funimation: 'https://www.funimation.com/shows/kakuriyo-bed-breakfast-for-spirits-/'
+#  funimation: 'https://www.funimation.com/shows/kakuriyo-bed-breakfast-for-spirits-/'
 ---
 title: 'Omae wa Mada Gunma wo Shiranai'
 type: tv
@@ -115,7 +115,7 @@ info:
   mal: 'https://myanimelist.net/anime/33354/Cardcaptor_Sakura__Clear_Card-hen'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/cardcaptor-sakura-clear-card'
-  funimation: 'https://www.funimation.com/shows/cardcaptor-sakura-clear-card/'
+#  funimation: 'https://www.funimation.com/shows/cardcaptor-sakura-clear-card/'
 ---
 title: 'DARLING in the FRANXX'
 type: tv
@@ -127,7 +127,7 @@ info:
   mal: 'https://myanimelist.net/anime/35849/Darling_in_the_FranXX'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/darling-in-the-franxx'
-  funimation: 'https://www.funimation.com/shows/darling-in-the-franxx/'
+#  funimation: 'https://www.funimation.com/shows/darling-in-the-franxx/'
 ---
 title: 'Grancrest Senki'
 type: tv
@@ -163,7 +163,7 @@ info:
   mal: 'https://myanimelist.net/anime/35589/Toji_no_Miko'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/katana-maidens-toji-no-miko'
-  funimation: 'https://www.funimation.com/shows/katana-maidens-toji-no-miko/'
+#  funimation: 'https://www.funimation.com/shows/katana-maidens-toji-no-miko/'
 ---
 title: 'Yowamushi Pedal: Glory Line'
 type: tv
@@ -185,7 +185,7 @@ info:
   anilist: 'https://anilist.co/anime/20628/GingaEiyuuDensetsuDieNeueTheseKaikou'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/legend-of-the-galactic-heroes-die-neue-these'
-  funimation: 'https://www.funimation.com/shows/legend-of-the-galactic-heroes-die-neue-these/'
+#  funimation: 'https://www.funimation.com/shows/legend-of-the-galactic-heroes-die-neue-these/'
 ---
 title: 'Tokyo Ghoul:re'
 type: tv
@@ -193,8 +193,8 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36511/Tokyo_Ghoul_re'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13499'
-streams:
-  funimation: 'https://www.funimation.com/shows/tokyo-ghoul'
+#streams:
+#  funimation: 'https://www.funimation.com/shows/tokyo-ghoul'
 #  hulu: 'https://www.hulu.com/watch/1248730'
 #  animelab: 'https://www.animelab.com/shows/tokyo-ghoul'
 ---
@@ -311,7 +311,7 @@ info:
   anilist: 'https://anilist.co/anime/87504/SaredoTsumibitowaRyuutoOdoru'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/dances-with-the-dragons'
-  funimation: 'https://www.funimation.com/shows/dances-with-the-dragons/'
+#  funimation: 'https://www.funimation.com/shows/dances-with-the-dragons/'
 ---
 title: 'Emiya-San Chi no Kyou no Gohan'
 type: tv
@@ -372,7 +372,7 @@ info:
 #  official: 'http://hina-matsuri.net/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/hinamatsuri'
-  funimation: 'https://www.funimation.com/shows/hinamatsuri/'
+#  funimation: 'https://www.funimation.com/shows/hinamatsuri/'
 ---
 title: 'Hakyuu Houshin Engi'
 type: tv
@@ -383,7 +383,7 @@ info:
   anilist: 'https://anilist.co/anime/99727/HakyuuHoushinEngi'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/hakyu-hoshin-engi'
-  funimation: 'https://www.funimation.com/shows/hakyu-hoshin-engi/'
+#  funimation: 'https://www.funimation.com/shows/hakyu-hoshin-engi/'
 ---
 title: 'Gurazeni'
 type: tv
@@ -458,7 +458,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13485'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/my-hero-academia|38'
-  funimation: 'https://www.funimation.com/shows/my-hero-academia/'
+#  funimation: 'https://www.funimation.com/shows/my-hero-academia/'
 ---
 title: 'Major 2nd'
 type: tv
@@ -613,7 +613,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13337'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/golden-kamuy'
-  funimation: 'https://www.funimation.com/shows/golden-kamuy/'
+#  funimation: 'https://www.funimation.com/shows/golden-kamuy/'
 ---
 title: 'Fumikiri Jikan'
 type: tv
@@ -642,7 +642,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12498'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/high-school-dxd'
-  funimation: 'https://www.funimation.com/shows/high-school-dxd/'
+#  funimation: 'https://www.funimation.com/shows/high-school-dxd/'
 ---
 title: 'Rokuhoudou Yotsuiro Biyori'
 type: tv
@@ -683,7 +683,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11167'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/steinsgate-0'
-  funimation: 'https://www.funimation.com/shows/steinsgate/'
+#  funimation: 'https://www.funimation.com/shows/steinsgate/'
 #  animelab: 'https://www.animelab.com/shows/steinsgate-0'
 ---
 title: 'Isekai Izakaya: Koto Aitheria no Izakaya Nobu'
@@ -733,4 +733,4 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11731'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/full-metal-panic-invisible-victory'
-  funimation: 'https://www.funimation.com/shows/full-metal-panic/'
+#  funimation: 'https://www.funimation.com/shows/full-metal-panic/'
