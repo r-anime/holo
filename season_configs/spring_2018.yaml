@@ -133,6 +133,7 @@ info:
   mal: 'https://myanimelist.net/anime/34279/Grancrest_Senki'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/record-of-grancrest-war'
+#  animelab: 'https://www.animelab.com/shows/record-of-grancrest-war'
 ---
 title: 'Beatless'
 type: tv
@@ -187,7 +188,7 @@ info:
 #streams:
 #  funimation: 'https://www.funimation.com/shows/tokyo-ghoul'
 #  hulu: 'https://www.hulu.com/watch/1248730'
-#  animelab: ''
+#  animelab: 'https://www.animelab.com/shows/tokyo-ghoul'
 ---
 title: 'Tachibanakan To Lie Angle'
 type: tv
@@ -340,6 +341,7 @@ info:
   anilist: 'https://anilist.co/anime/100978/GegegenoKitarou2018'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/gegege-no-kitaro'
+#  animelab: 'https://www.animelab.com/shows/gegege-no-kitaro'
 ---
 title: 'IDOLISH7'
 type: tv
@@ -486,6 +488,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13494'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/sword-art-online-alternative-gun-gale-online'
+#  animelab: 'https://www.animelab.com/shows/sword-art-online-alternative-gun-gale-online'
 ---
 title: 'Persona 5 the Animation'
 type: tv
@@ -496,6 +499,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13331'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/persona5-the-animation'
+#  animelab: 'https://www.animelab.com/shows/persona-5-the-animation'
 ---
 title: 'Hoozuki no Reitetsu Season 2'
 type: tv
@@ -666,6 +670,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11167'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/steinsgate-0'
+#  animelab: 'https://www.animelab.com/shows/steinsgate-0'
 ---
 title: 'Isekai Izakaya: Koto Aitheria no Izakaya Nobu'
 type: tv
