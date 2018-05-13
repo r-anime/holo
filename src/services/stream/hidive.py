@@ -86,7 +86,8 @@ class ServiceHandler(AbstractServiceHandler):
 
 _episode_re = re.compile("https://www.hidive.com/stream/[\w-]+/s\d{2}e(\d{3})", re.I)
 _episode_re_alter = re.compile("https://www.hidive.com/stream/[\w-]+/\d{4}\d{2}\d{2}(\d{2})", re.I)
-_episode_name_correct = re.compile("(?:E\d+|Shorts) | (.*)")
+_episode_name_correct = re.compile("(?:E\d+|Shorts) \| (.*)")
+_episode_name_invalid = re.compile(".*coming soon.*", re.I)
 
 def _is_valid_episode(episode_data, show_key):
     # Possibly other cases to watch ?
@@ -115,6 +116,9 @@ def _digest_episode(feed_episode):
     if name_match:
         debug(f"  Corrected title from {name}")
         name = name_match.group(1)
+    if _episode_name_invalid.match(name):
+        warning(f"  Episode title not found")
+        name = None
 
     link = episode_link
     date = datetime.utcnow() # Not included in stream !
