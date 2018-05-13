@@ -128,6 +128,7 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/darling-in-the-franxx'
 #  funimation: 'https://www.funimation.com/shows/darling-in-the-franxx/'
+#  hulu: 'https://www.hulu.com/darling-in-the-franxx'
 ---
 title: 'Grancrest Senki'
 type: tv
@@ -459,6 +460,7 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/my-hero-academia|38'
 #  funimation: 'https://www.funimation.com/shows/my-hero-academia/'
+#  hulu: 'https://www.hulu.com/my-hero-academia'
 ---
 title: 'Major 2nd'
 type: tv
@@ -499,6 +501,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13494'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/sword-art-online-alternative-gun-gale-online'
+#  hulu: 'https://www.hulu.com/sword-art-online-alternative-gun-gale-online'
 #  animelab: 'https://www.animelab.com/shows/sword-art-online-alternative-gun-gale-online'
 ---
 title: 'Persona 5 the Animation'
