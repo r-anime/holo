@@ -19,7 +19,7 @@ info:
   kitsu: 'https://kitsu.io/anime/gundam-build-divers'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/gundam-build-divers'
-  youtube: 'https://www.youtube.com/playlist?list=PLJV1h9xQ7Hx-zsp8lYI4dubgEeNia46mr'
+  youtube|Youtube: 'https://www.youtube.com/playlist?list=PLJV1h9xQ7Hx-zsp8lYI4dubgEeNia46mr'
 ---
 title: 'Uchuu Senkan Tiramisu'
 type: tv
@@ -641,7 +641,7 @@ info:
   anilist: 'https://anilist.co/anime/97767/HighSchoolDxDHERO'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12498'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/high-school-dxd'
+  crunchyroll_nsfw|Crunchyroll: 'https://www.crunchyroll.com/high-school-dxd'
   funimation|Funimation: 'https://www.funimation.com/shows/high-school-dxd/'
 ---
 title: 'Rokuhoudou Yotsuiro Biyori'
