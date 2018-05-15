@@ -102,6 +102,10 @@ def _edit_with_file(db, edit_file):
 						service = db.get_service(key=service_key)
 						s = db.get_stream(service_tuple=(service, show_key))
 						db.update_stream(s, show_key=show_key, remote_offset=remote_offset, commit=False)
+				elif "|" in service_key:
+					# Lite stream
+					service, service_name = service_key.split("|", maxsplit=1)
+					db.add_lite_stream(show_id, service, service_name, url)
 				else:
 					error("    Stream handler not installed")
 			
