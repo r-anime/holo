@@ -4,7 +4,7 @@ from functools import wraps, lru_cache
 from unidecode import unidecode
 from typing import Set, List, Optional
 
-from .models import Show, ShowType, Stream, Service, LinkSite, Link, Episode, EpisodeScore, UnprocessedStream, UnprocessedShow
+from .models import Show, ShowType, Stream, LiteStream, Service, LinkSite, Link, Episode, EpisodeScore, UnprocessedStream, UnprocessedShow
 
 def living_in(the_database):
 	"""
@@ -145,6 +145,15 @@ class DatabaseDatabase:
 			FOREIGN KEY(show) REFERENCES Shows(id),
 			FOREIGN KEY(site) REFERENCES LinkSites(id)
 		)""")
+
+		self.q.execute("""CREATE TABLE IF NOT EXISTS LiteStreams (
+			show		INTEGER NOT NULL,
+			service		TEXT,
+			service_name	TEXT NOT NULL,
+			url		TEXT,
+                        UNIQUE(show, service) ON CONFLICT REPLACE,
+			FOREIGN KEY(show) REFERENCES Shows(id)
+		)""")
 		
 		self.commit()
 	
@@ -245,7 +254,7 @@ class DatabaseDatabase:
 		streams = self.q.fetchall()
 		streams = [Stream(*stream) for stream in streams]
 		return streams
-	
+
 	@db_error_default(False)
 	def has_stream(self, service_key, key) -> bool:
 		service = self.get_service(key=service_key)
@@ -280,6 +289,36 @@ class DatabaseDatabase:
 		
 		if commit:
 			self.commit()
+
+	#Infos
+	
+	@db_error_default(list())
+	def get_lite_streams(self, service=None, show=None, missing_link=False) -> List[LiteStream]:
+		if service is not None:
+			debug(f"Getting all lite streams for service key {service}")
+			self.q.execute("SELECT show, service, service_name, url FROM LiteStreams \
+							WHERE service = ?", (service,))
+		elif show is not None:
+			debug(f"Getting all lite streams for show {show}")
+			self.q.execute("SELECT show, service, service_name, url FROM LiteStreams \
+							WHERE show = ?", (show.id,))
+		elif missing_link:
+			debug("Getting lite streams without link")
+			self.q.execute("SELECT show, service, service_name, url FROM LiteStreams \
+							WHERE url IS NULL")
+		else:
+			error("A service or show must be provided to get lite streams")
+			return list()
+
+		lite_streams = self.q.fetchall()
+		lite_streams = [LiteStream(*lite_stream) for lite_stream in lite_streams]
+		return lite_streams
+
+	@db_error
+	def add_lite_stream(self, show, service, service_name, url):
+		debug(f"Inserting lite stream {service} ({url}) for show {show}")
+		self.q.execute("INSERT INTO LiteStreams (show, service, service_name, url) values (?, ?, ?, ?)", (show, service, service_name, url))
+		self.commit()
 	
 	# Links
 	

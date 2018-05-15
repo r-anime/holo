@@ -141,6 +141,17 @@ class Link:
 	def __str__(self):
 		return "Link: {}@{}, show={}".format(self.site_key, self.site, self.show)
 
+class LiteStream:
+	def __init__(self, show, service, service_name, url):
+		# Note: arguments are order-sensitive
+		self.show = show
+		self.service = service
+		self.service_name = service_name
+		self.url = url
+
+	def __str__(self):
+		return f"LiteStream: {self.service}|{self.service_name}, show={self.show}, url={self.url}"
+
 class UnprocessedShow:
 	def __init__(self, site_key, show_key, name, more_names, show_type, episode_count, has_source):
 		self.site_key = site_key
