@@ -156,17 +156,24 @@ def _gen_text_spoiler(formats, show):
 
 def _gen_text_streams(db, formats, show):
 	debug("Generating stream text for show {}".format(show))
+	stream_texts = list()
+
 	streams = db.get_streams(show=show)
-	if len(streams) > 0:
-		stream_texts = list()
-		for stream in streams:
-			if stream.active:
-				service = db.get_service(id=stream.service)
-				if service.enabled and service.use_in_post:
-					service_handler = services.get_service_handler(service)
-					text = safe_format(formats["stream"], service_name=service.name, stream_link=service_handler.get_stream_link(stream))
-					stream_texts.append(text)
+	for stream in streams:
+		if stream.active:
+			service = db.get_service(id=stream.service)
+			if service.enabled and service.use_in_post:
+				service_handler = services.get_service_handler(service)
+				text = safe_format(formats["stream"], service_name=service.name, stream_link=service_handler.get_stream_link(stream))
+				stream_texts.append(text)
 		
+	print(show)
+	lite_streams = db.get_lite_streams(show=show)
+	for lite_stream in lite_streams:
+		text = safe_format(formats["stream"], service_name=lite_stream.service_name, stream_link=lite_stream.url)
+		stream_texts.append(text)
+
+	if len(stream_texts) > 0:
 		return "\n".join(stream_texts)
 	else:
 		return "*None*"
