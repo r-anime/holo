@@ -27,7 +27,7 @@ has_source: false
 info:
   mal: 'https://myanimelist.net/anime/36267/Uchuu_Senkan_Tiramisu'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13426'
-#  official: 'http://tiramisu-anime.com/'
+  official: 'http://tiramisu-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/space-battleship-tiramisu'
   funimation|Funimation: 'https://www.funimation.com/shows/space-battleship-tiramisu/'
@@ -67,7 +67,7 @@ info:
   mal: 'https://myanimelist.net/anime/36754/Kakuriyo_no_Yadomeshi'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13564'
   anilist: 'https://anilist.co/anime/100500/KakuriyonoYadomeshi'
-#  official: 'http://kakuriyo-anime.com/'
+  official: 'http://kakuriyo-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/kakuriyo-bed-breakfast-for-spirits-'
   funimation|Funimation: 'https://www.funimation.com/shows/kakuriyo-bed-breakfast-for-spirits-/'
@@ -101,7 +101,7 @@ info:
   anilist: 'https://anilist.co/anime/98514'
   kitsu: 'https://kitsu.io/anime/uma-musume-pretty-derby-tv'
   mal: 'https://myanimelist.net/anime/35249/Uma_Musume__Pretty_Derby_TV'
-#  official: 'http://anime-umamusume.jp/'
+  official: 'http://anime-umamusume.jp/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/umamusume-pretty-derby'
 ---
@@ -206,7 +206,7 @@ info:
   mal: 'https://myanimelist.net/anime/36943/Tachibanakan_Triangle'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13656'
   anilist: 'https://anilist.co/anime/100762/TachibanakantoLieAngle'
-#  official: 'http://tachibanakan-anime.com/'
+  official: 'http://tachibanakan-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/love-to-lie-angle'
 ---
@@ -235,7 +235,7 @@ info:
   mal: 'https://myanimelist.net/anime/36793/3D_Kanojo__Real_Girl'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13581'
   anilist: 'https://anilist.co/anime/100526/3DKanojo'
-#  official: 'http://www.3dkanojo-anime.com/'
+  official: 'http://www.3dkanojo-anime.com/'
 streams:
   hidive: 'https://www.hidive.com/tv/real-girl'
 ---
@@ -246,7 +246,7 @@ info:
   mal: 'https://myanimelist.net/anime/36001/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13313'
   anilist: 'https://anilist.co/anime/99638/AliceorAlice'
-#  official: 'http://alice-or-alice.com/'
+  official: 'http://alice-or-alice.com/'
 streams:
   hidive: 'https://www.hidive.com/tv/alice-or-alice/'
 ---
@@ -281,7 +281,7 @@ info:
   mal: 'https://myanimelist.net/anime/35756/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13238'
   anilist: 'https://anilist.co/anime/99131/ComicGirls'
-#  official: 'http://www.comic-girls.com/'
+  official: 'http://www.comic-girls.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/comic-girls'
 ---
@@ -369,7 +369,7 @@ info:
   mal: 'https://myanimelist.net/anime/36296'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13434'
   anilist: 'https://anilist.co/anime/100077/Hinamatsuri'
-#  official: 'http://hina-matsuri.net/'
+  official: 'http://hina-matsuri.net/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/hinamatsuri'
   funimation|Funimation: 'https://www.funimation.com/shows/hinamatsuri/'
@@ -402,7 +402,7 @@ info:
   mal: 'https://myanimelist.net/anime/36864'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13613'
   anilist: 'https://anilist.co/anime/100645/AkkuntoKanojo'
-#  official: 'http://akkun-kanojo.jp/'
+  official: 'http://akkun-kanojo.jp/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/my-sweet-tyrant'
 ---
@@ -431,7 +431,7 @@ info:
   mal: 'https://myanimelist.net/anime/37126'
   anilist: 'https://anilist.co/anime/100966/NobunaganoShinobiAnegawaIshiyamahen'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13740'
-#  official: 'https://nobunaga-no-shinobi.com/'
+  official: 'https://nobunaga-no-shinobi.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/ninja-girl-samurai-master|52'
 ---
@@ -442,7 +442,7 @@ info:
   mal: 'https://myanimelist.net/anime/36266'
   anilist: 'https://anilist.co/anime/100010/MahouShoujoSite'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13424'
-#  official: 'http://mahoushoujyo-anime.com/'
+  official: 'http://mahoushoujyo-anime.com/'
 streams:
   amazon|Amazon US: 'https://www.amazon.com/Magical-Girl-Site/dp/B07CBHV9N1'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/Magical-Girl-Site/dp/B07BYPXF1V'
