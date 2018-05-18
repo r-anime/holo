@@ -735,3 +735,11 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/full-metal-panic-invisible-victory'
   funimation|Funimation: 'https://www.funimation.com/shows/full-metal-panic/'
+---
+title: 'Pastel Life'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/37778/'
+  anilist: 'https://anilist.co/anime/101596/PastelLife'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14049'
