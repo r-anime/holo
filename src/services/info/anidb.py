@@ -1,11 +1,11 @@
 # API information
-# 	http://wiki.anidb.net/w/HTTP_API_Definition
+# 	https://wiki.anidb.net/w/HTTP_API_Definition
 # Limits
 # 	- 1 page every 2 seconds
 #	- Avoid calling same function multiple times per day
 #
 # Season page
-# 	http://anidb.net/perl-bin/animedb.pl?tvseries=1&show=calendar
+# 	https://anidb.net/perl-bin/animedb.pl?tvseries=1&show=calendar
 # 	- Based on year and month, defaults to current month
 
 from logging import debug, info, warning, error
@@ -15,9 +15,9 @@ from .. import AbstractInfoHandler
 from data.models import UnprocessedShow, ShowType
 
 class InfoHandler(AbstractInfoHandler):
-	_show_link_base = "http://anidb.net/perl-bin/animedb.pl?show=anime&aid={id}"
+	_show_link_base = "https://anidb.net/perl-bin/animedb.pl?show=anime&aid={id}"
 	_show_link_matcher = "https?://anidb\\.net/a([0-9]+)|https?://anidb\\.net/perl-bin/animedb\\.pl\\?(?:[^/]+&)aid=([0-9]+)"
-	_season_url = "http://anidb.net/perl-bin/animedb.pl?show=calendar&tvseries=1&ova=1&last.anime.month=1&last.anime.year=2016"
+	_season_url = "https://anidb.net/perl-bin/animedb.pl?show=calendar&tvseries=1&ova=1&last.anime.month=1&last.anime.year=2016"
 	
 	_api_base = "http://api.anidb.net:9001/httpapi?client={client}&clientver={ver}&protover=1&request={request}"
 	

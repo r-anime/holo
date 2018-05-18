@@ -1,5 +1,5 @@
 # API information
-# 	http://myanimelist.net/modules.php?go=api
+# 	https://myanimelist.net/modules.php?go=api
 
 from logging import debug, info, warning, error
 import re
@@ -8,11 +8,11 @@ from .. import AbstractInfoHandler
 from data.models import UnprocessedShow, ShowType
 
 class InfoHandler(AbstractInfoHandler):
-	_show_link_base = "http://myanimelist.net/anime/{id}/"
+	_show_link_base = "https://myanimelist.net/anime/{id}/"
 	_show_link_matcher = "https?://(?:.+?\.)?myanimelist\.net/anime/([0-9]{5,})"
-	_season_show_url = "http://myanimelist.net/anime/season"
+	_season_show_url = "https://myanimelist.net/anime/season"
 	
-	_api_search_base = "http://myanimelist.net/api/anime/search.xml?q={q}"
+	_api_search_base = "https://myanimelist.net/api/anime/search.xml?q={q}"
 	
 	def __init__(self):
 		super().__init__("mal", "MyAnimeList")
