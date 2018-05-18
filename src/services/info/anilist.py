@@ -1,4 +1,4 @@
-# API docs: http://anilist-api.readthedocs.org/en/latest/
+# API docs: https://anilist-api.readthedocs.org/en/latest/
 
 from logging import debug, info, warning, error
 import re
@@ -7,9 +7,9 @@ from .. import AbstractInfoHandler
 from data.models import UnprocessedShow, ShowType
 
 class InfoHandler(AbstractInfoHandler):
-	_show_link_base = "http://anilist.co/anime/{id}"
+	_show_link_base = "https://anilist.co/anime/{id}"
 	_show_link_matcher = "https?://anilist\\.co/anime/([0-9]+)"
-	_season_url = "http://anilist.co/api/browse/anime?year={year}&season={season}&type=Tv"
+	_season_url = "https://anilist.co/api/browse/anime?year={year}&season={season}&type=Tv"
 	
 	def __init__(self):
 		super().__init__("anilist", "AniList")
