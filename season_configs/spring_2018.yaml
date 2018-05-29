@@ -1,14 +1,3 @@
-title: 'Black Clover'
-type: tv
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/34572/Black_Clover'
-  anilist: 'https://anilist.co/anime/97940'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12665'
-streams:
-  crunchyroll: 'https://www.crunchyroll.com/black-clover'
-  funimation|Funimation: 'https://www.funimation.com/shows/black-clover/'
----
 title: 'Gundam Build Divers'
 type: tv
 has_source: false
@@ -31,17 +20,6 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/space-battleship-tiramisu'
   funimation|Funimation: 'https://www.funimation.com/shows/space-battleship-tiramisu/'
----
-title: 'Basilisk: Ouka Ninpouchou'
-type: tv
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/35964/Basilisk__Ouka_Ninpouchou'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13291'
-  anilist: 'https://anilist.co/anime/99569/BasiliskOukaNinpouchou'
-streams:
-  crunchyroll: 'http://www.crunchyroll.com/basilisk-the-ouka-ninja-scrolls'
-  funimation|Funimation: 'https://www.funimation.com/shows/basilisk-the-ouka-ninja-scrolls/'
 ---
 title: 'Captain Tsubasa (2018)'
 type: tv
@@ -105,18 +83,6 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/umamusume-pretty-derby'
 ---
-title: 'Cardcaptor Sakura: Clear Card-hen'
-type: tv
-has_source: true
-info:
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12140'
-  anilist: 'https://anilist.co/anime/97881/CardcaptorSakuraClearCardhen'
-  kitsu: 'https://kitsu.io/anime/cardcaptor-sakura-clear-card-hen'
-  mal: 'https://myanimelist.net/anime/33354/Cardcaptor_Sakura__Clear_Card-hen'
-streams:
-  crunchyroll: 'http://www.crunchyroll.com/cardcaptor-sakura-clear-card'
-  funimation|Funimation: 'https://www.funimation.com/shows/cardcaptor-sakura-clear-card/'
----
 title: 'DARLING in the FRANXX'
 type: tv
 has_source: false
@@ -129,53 +95,6 @@ streams:
   crunchyroll: 'http://www.crunchyroll.com/darling-in-the-franxx'
   funimation|Funimation: 'https://www.funimation.com/shows/darling-in-the-franxx/'
   hulu|Hulu: 'https://www.hulu.com/darling-in-the-franxx'
----
-title: 'Grancrest Senki'
-type: tv
-has_source: true
-info:
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12496'
-  anilist: 'https://anilist.co/anime/97768/GrancrestSenki'
-  kitsu: 'https://kitsu.io/anime/grancrest-senki'
-  mal: 'https://myanimelist.net/anime/34279/Grancrest_Senki'
-streams:
-  crunchyroll: 'http://www.crunchyroll.com/record-of-grancrest-war'
-  animelab|AnimeLab: 'https://www.animelab.com/shows/record-of-grancrest-war'
----
-title: 'Beatless'
-type: tv
-has_source: true
-info:
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13500'
-  anilist: 'https://anilist.co/anime/100245/Beatless'
-  kitsu: 'https://kitsu.io/anime/beatless'
-  mal: 'https://myanimelist.net/anime/36516/Beatless'
-streams:
-  amazon|Amazon US: 'https://www.amazon.com/dp/B079159WLM'
-  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B078Z6T59G'
----
-title: 'Toji no Miko'
-type: tv
-has_source: false
-info:
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13172'
-  anilist: 'https://anilist.co/anime/98747/TojinoMiko'
-  kitsu: 'https://kitsu.io/anime/toji-no-miko'
-  mal: 'https://myanimelist.net/anime/35589/Toji_no_Miko'
-streams:
-  crunchyroll: 'http://www.crunchyroll.com/katana-maidens-toji-no-miko'
-  funimation|Funimation: 'https://www.funimation.com/shows/katana-maidens-toji-no-miko/'
----
-title: 'Yowamushi Pedal: Glory Line'
-type: tv
-has_source: true
-info:
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13245'
-  anilist: 'https://anilist.co/anime/99476/YowamushiPedalGLORYLINE'
-  kitsu: 'https://kitsu.io/anime/yowamushi-pedal-glory-line'
-  mal: 'https://myanimelist.net/anime/35789/Yowamushi_Pedal__Glory_Line'
-streams:
-  crunchyroll: 'http://www.crunchyroll.com/yowamushi-pedal-new-generation'
 ---
 title: 'Ginga Eiyuu Densetsu: Die Neue These - Kaikou'
 type: tv
@@ -219,14 +138,6 @@ info:
   anilist: 'https://anilist.co/anime/100957/LupinIIIPartV'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/lupin-the-3rd-part-5'
----
-title: 'Saiki Kusuo no Psi-nan 2'
-type: tv
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/34612/Saiki_Kusuo_no_%CE%A8-nan_TV_2'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12691'
-  anilist: 'https://anilist.co/anime/98034/SaikiKusuonoNan2'
 ---
 title: '3D Kanojo: Real Girl'
 type: tv
@@ -323,24 +234,6 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/todays-menu-for-the-emiya-family'
 ---
-title: 'Nanatsu no Taizai: Imashime no Fukkatsu'
-type: tv
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/34577'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11646'
-  anilist: 'https://anilist.co/anime/99539/NanatsunoTaizaiImashimenoFukkatsu'
----
-title: 'Boruto: Naruto Next Generations'
-type: tv
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/34566/'
-  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12661'
-  anilist: 'https://anilist.co/anime/97938/BorutoNarutoNextGenerations'
-streams:
-  crunchyroll: 'http://www.crunchyroll.com/boruto-naruto-next-generations'
----
 title: 'Gegege no Kitarou (2018)'
 type: tv
 has_source: true
@@ -351,16 +244,6 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/gegege-no-kitaro'
   animelab|AnimeLab: 'https://www.animelab.com/shows/gegege-no-kitaro'
----
-title: 'IDOLISH7'
-type: tv
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/33899/IDOLiSH7'
-  anilist: 'https://anilist.co/anime/87495/Idolish7'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12339'
-streams:
-  crunchyroll: 'http://www.crunchyroll.com/idolish7/'
 ---
 title: 'Hinamatsuri'
 type: tv
@@ -373,17 +256,6 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/hinamatsuri'
   funimation|Funimation: 'https://www.funimation.com/shows/hinamatsuri/'
----
-title: 'Hakyuu Houshin Engi'
-type: tv
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/36029'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13336'
-  anilist: 'https://anilist.co/anime/99727/HakyuuHoushinEngi'
-streams:
-  crunchyroll: 'http://www.crunchyroll.com/hakyu-hoshin-engi'
-  funimation|Funimation: 'https://www.funimation.com/shows/hakyu-hoshin-engi/'
 ---
 title: 'Gurazeni'
 type: tv
@@ -537,14 +409,6 @@ info:
   mal: 'https://myanimelist.net/anime/37023'
   anilist: 'https://anilist.co/anime/100785/LaytonMysteryTanteishaKatorinoNazotokiFile'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13497'
----
-title: 'Hugtto! Precure'
-type: tv
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/36593'
-  anilist: 'https://anilist.co/anime/100661/HugttoPrecure'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13526'
 ---
 title: 'Cutie Honey Universe'
 type: tv
