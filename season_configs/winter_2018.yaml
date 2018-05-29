@@ -40,8 +40,6 @@ info:
   anilist: 'https://anilist.co/anime/99539/NanatsunoTaizaiImashimenoFukkatsu'
   kitsu: 'https://kitsu.io/anime/nanatsu-no-taizai-imashime-no-fukkatsu'
   mal: 'https://myanimelist.net/anime/34577/Nanatsu_no_Taizai__Imashime_no_Fukkatsu'
-streams:
-  crunchyroll: ''
 ---
 title: 'citrus'
 type: tv
@@ -74,7 +72,8 @@ info:
   kitsu: 'https://kitsu.io/anime/cardcaptor-sakura-clear-card-hen'
   mal: 'https://myanimelist.net/anime/33354/Cardcaptor_Sakura__Clear_Card-hen'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/cardcaptor-sakura-clear-card'
+  funimation|Funimation: 'https://www.funimation.com/shows/cardcaptor-sakura-clear-card/'
 ---
 title: 'DARLING in the FRANXX'
 type: tv
@@ -107,18 +106,17 @@ info:
   kitsu: 'https://kitsu.io/anime/grancrest-senki'
   mal: 'https://myanimelist.net/anime/34279/Grancrest_Senki'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/record-of-grancrest-war'
+  animelab|AnimeLab: 'https://www.animelab.com/shows/record-of-grancrest-war'
 ---
-title: 'Saiki Kusuo no Ψ Nan 2'
+title: 'Saiki Kusuo no Psi-nan 2'
 type: tv
 has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12691'
   anilist: 'https://anilist.co/anime/98034/SaikiKusuonoNan2'
   kitsu: 'https://kitsu.io/anime/saiki-kusuo-no-psi-nan-2'
-  mal: https://myanimelist.net/anime/34612/Saiki_Kusuo_no_%CE%A8-nan_2'
-streams:
-  crunchyroll: ''
+  mal: 'https://myanimelist.net/anime/34612/Saiki_Kusuo_no_%CE%A8-nan_2'
 ---
 title: 'Pop Team Epic'
 type: tv
@@ -151,7 +149,8 @@ info:
   kitsu: 'https://kitsu.io/anime/beatless'
   mal: 'https://myanimelist.net/anime/36516/Beatless'
 streams:
-  crunchyroll: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B079159WLM'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B078Z6T59G'
 ---
 title: 'Kokkoku'
 type: tv
@@ -250,7 +249,8 @@ info:
   kitsu: 'https://kitsu.io/anime/toji-no-miko'
   mal: 'https://myanimelist.net/anime/35589/Toji_no_Miko'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/katana-maidens-toji-no-miko'
+  funimation|Funimation: 'https://www.funimation.com/shows/katana-maidens-toji-no-miko/'
 ---
 title: 'Gin no Guardian 2nd Season'
 type: tv
@@ -283,7 +283,7 @@ info:
   kitsu: 'https://kitsu.io/anime/idolish7'
   mal: 'https://myanimelist.net/anime/33899/IDOLiSH7'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/idolish7/'
 ---
 title: 'Ryuuou no Oshigoto!'
 type: tv
@@ -305,7 +305,7 @@ info:
   kitsu: 'https://kitsu.io/anime/yowamushi-pedal-glory-line'
   mal: 'https://myanimelist.net/anime/35789/Yowamushi_Pedal__Glory_Line'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/yowamushi-pedal-new-generation'
 ---
 title: 'Ramen Daisuki Koizumi-san'
 type: tv
@@ -371,7 +371,8 @@ info:
   kitsu: 'https://kitsu.io/anime/basilisk-ouka-ninpouchou'
   mal: 'https://myanimelist.net/anime/35964/Basilisk__Ouka_Ninpouchou'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/basilisk-the-ouka-ninja-scrolls'
+  funimation|Funimation: 'https://www.funimation.com/shows/basilisk-the-ouka-ninja-scrolls/'
 ---
 title: 'Miira no Kaikata'
 type: tv
@@ -393,7 +394,8 @@ info:
   kitsu: 'https://kitsu.io/anime/hakyuu-houshin-engi'
   mal: 'https://myanimelist.net/anime/36029/Hakyuu_Houshin_Engi'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/hakyu-hoshin-engi'
+  funimation|Funimation: 'https://www.funimation.com/shows/hakyu-hoshin-engi/'
 ---
 title: 'Hitori no Shita: The Outcast 2nd Season'
 type: tv
@@ -436,8 +438,6 @@ info:
   anilist: 'https://anilist.co/anime/100661/HugttoPrecure'
   kitsu: 'https://kitsu.io/anime/hugtto-precure'
   mal: 'https://myanimelist.net/anime/36593/Hugtto_Precure'
-streams:
-  crunchyroll: ''
 ---
 title: 'Shinkansen Henkei Robo Shinkalion The Animation'
 type: tv
