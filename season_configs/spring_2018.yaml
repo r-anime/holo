@@ -607,15 +607,3 @@ info:
   mal: 'https://myanimelist.net/anime/37778/'
   anilist: 'https://anilist.co/anime/101596/PastelLife'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14049'
----
-title: 'To Be Heroine'
-type: tv
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/35044/'
-  anilist: 'https://anilist.co/anime/98575/'
-  anidb: 'http://anidb.net/perl-bin/animedb.pl?show=anime&aid=12939'
-  kitsu: 'https://kitsu.io/anime/to-be-heroine'
-  official: 'http://tobe-hero.com/season2/'
-streams:
-  crunchyroll: 'http://www.crunchyroll.com/to-be-heroine'
