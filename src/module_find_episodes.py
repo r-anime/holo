@@ -26,13 +26,14 @@ def main(config, db, **kwargs):
 			debug(stream)
 			
 			# Check latest episode
-			episode = service_handler.get_latest_episode(stream, useragent=config.useragent)
-			if not episode:
+			episodes = service_handler.get_published_episodes(stream, useragent=config.useragent)
+			if not episodes:
 				info("  Show/episode not found")
 				continue
-			
-			if _process_new_episode(config, db, show, stream, episode):
-				has_new_episode.append(show)
+
+			for episode in sorted(episodes, key=lambda e: e.number):
+				if _process_new_episode(config, db, show, stream, episode):
+					has_new_episode.append(show)
 	
 	# Check generic services
 	other_shows = set(db.get_shows(missing_stream=True)) | set(db.get_shows(delayed=True))
@@ -45,13 +46,14 @@ def main(config, db, **kwargs):
 			service_handler = services.get_service_handler(service)
 			if service_handler.is_generic:
 				debug("    Checking service {}".format(service_handler.name))
-				episode = service_handler.get_latest_episode(stream, useragent=config.useragent)
-				if not episode:
+				episodes = service_handler.get_published_episodes(stream, useragent=config.useragent)
+				if not episodes:
 					debug("    No episode found")
 					continue
 				
-				if _process_new_episode(config, db, show, stream, episode):
-					has_new_episode.append(show)
+				for episode in sorted(episodes, key=lambda e: e.number):
+					if _process_new_episode(config, db, show, stream, episode):
+						has_new_episode.append(show)
 				
 				break
 		else:
