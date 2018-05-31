@@ -53,9 +53,7 @@ class ServiceHandler(AbstractServiceHandler):
 		# Parse RSS feed
 		if not _verify_feed(response):
 			warning("Parsed feed could not be verified, may have unexpected results")
-		# Reverse the list to get early entries first
-		# Required to post multiple threads when several episodes are released at once
-		return list(reversed(response.get("entries", list())))
+		return response.get("entries", list())
 	
 	@classmethod
 	def _get_feed_url(cls, show_key):
