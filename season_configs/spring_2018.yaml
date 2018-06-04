@@ -16,6 +16,7 @@ has_source: false
 info:
   mal: 'https://myanimelist.net/anime/36267/Uchuu_Senkan_Tiramisu'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13426'
+  kitsu: 'https://kitsu.io/anime/40875'
   official: 'http://tiramisu-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/space-battleship-tiramisu'
@@ -27,6 +28,7 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36934/Captain_Tsubasa_2018'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13655'
+  kitsu: 'https://kitsu.io/anime/14182'
 ---
 title: 'Souten no Ken Re:Genesis'
 type: tv
@@ -35,6 +37,7 @@ info:
   mal: 'https://myanimelist.net/anime/36655/Souten_no_Ken_Re_Genesis'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13540'
   anilist: 'https://anilist.co/anime/100408/SoutennoKenREGENESIS'
+  kitsu: 'https://kitsu.io/anime/13983'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/fist-of-the-blue-sky-regenesis'
 ---
@@ -45,6 +48,7 @@ info:
   mal: 'https://myanimelist.net/anime/36754/Kakuriyo_no_Yadomeshi'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13564'
   anilist: 'https://anilist.co/anime/100500/KakuriyonoYadomeshi'
+  kitsu: 'https://kitsu.io/anime/40580'
   official: 'http://kakuriyo-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/kakuriyo-bed-breakfast-for-spirits-'
@@ -57,6 +61,7 @@ info:
   mal: 'https://myanimelist.net/anime/37258/Omae_wa_Mada_Gunma_wo_Shiranai'
   anilist: 'https://anilist.co/anime/101042/OmaewaMadaGunmawoShiranai'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13781'
+  kitsu: 'https://kitsu.io/anime/41146'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/you-dont-know-gunma-yet'
 ---
@@ -103,6 +108,7 @@ info:
   mal: 'https://myanimelist.net/anime/31433/Ginga_Eiyuu_Densetsu__Die_Neue_These_-_Kaikou'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11495'
   anilist: 'https://anilist.co/anime/20628/GingaEiyuuDensetsuDieNeueTheseKaikou'
+  kitsu: 'https://kitsu.io/anime/11331'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/legend-of-the-galactic-heroes-die-neue-these'
   funimation|Funimation: 'https://www.funimation.com/shows/legend-of-the-galactic-heroes-die-neue-these/'
@@ -113,6 +119,7 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36511/Tokyo_Ghoul_re'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13499'
+  kitsu: 'https://kitsu.io/anime/13929'
 streams:
   funimation|Funimation: 'https://www.funimation.com/shows/tokyo-ghoul'
   hulu|Hulu: 'https://www.hulu.com/watch/1248730'
@@ -125,6 +132,7 @@ info:
   mal: 'https://myanimelist.net/anime/36943/Tachibanakan_Triangle'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13656'
   anilist: 'https://anilist.co/anime/100762/TachibanakantoLieAngle'
+  kitsu: 'https://kitsu.io/anime/41016'
   official: 'http://tachibanakan-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/love-to-lie-angle'
@@ -136,6 +144,7 @@ info:
   mal: 'https://myanimelist.net/anime/35857/Lupin_III__Part_V'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13266'
   anilist: 'https://anilist.co/anime/100957/LupinIIIPartV'
+  kitsu: 'https://kitsu.io/anime/13749'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/lupin-the-3rd-part-5'
 ---
@@ -146,6 +155,7 @@ info:
   mal: 'https://myanimelist.net/anime/36793/3D_Kanojo__Real_Girl'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13581'
   anilist: 'https://anilist.co/anime/100526/3DKanojo'
+  kitsu: 'https://kitsu.io/anime/14276'
   official: 'http://www.3dkanojo-anime.com/'
 streams:
   hidive: 'https://www.hidive.com/tv/real-girl'
@@ -157,6 +167,7 @@ info:
   mal: 'https://myanimelist.net/anime/36001/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13313'
   anilist: 'https://anilist.co/anime/99638/AliceorAlice'
+  kitsu: 'https://kitsu.io/anime/13679'
   official: 'http://alice-or-alice.com/'
 streams:
   hidive: 'https://www.hidive.com/tv/alice-or-alice/'
@@ -167,6 +178,7 @@ has_source: false
 info:
   mal: 'https://myanimelist.net/anime/33531/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12252'
+  kitsu: 'https://kitsu.io/anime/12297'
 ---
 title: 'Aikatsu Friends!'
 type: tv
@@ -174,6 +186,7 @@ has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37204/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13755'
+  kitsu: 'https://kitsu.io/anime/41015'
 ---
 title: 'Tada-kun wa Koi o Shinai'
 type: tv
@@ -182,6 +195,7 @@ info:
   mal: 'https://myanimelist.net/anime/36470/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13492'
   anilist: 'https://anilist.co/anime/100179/TadakunwaKoiwoShinai'
+  kitsu: 'https://kitsu.io/anime/13888'
 streams:
   hidive: 'https://www.hidive.com/tv/tada-never-falls-in-love/'
 ---
@@ -192,6 +206,7 @@ info:
   mal: 'https://myanimelist.net/anime/35756/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13238'
   anilist: 'https://anilist.co/anime/99131/ComicGirls'
+  kitsu: 'https://kitsu.io/anime/13722'
   official: 'http://www.comic-girls.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/comic-girls'
@@ -202,6 +217,7 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/27783/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14000'
+  kitsu: 'https://kitsu.io/anime/9730'
 ---
 title: 'Megalo Box'
 type: tv
@@ -210,6 +226,7 @@ info:
   mal: 'https://myanimelist.net/anime/36563/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13517'
   anilist: 'https://anilist.co/anime/100298/MegaloBox'
+  kitsu: 'https://kitsu.io/anime/13949'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/megalobox'
 ---
@@ -220,6 +237,7 @@ info:
   mal: 'https://myanimelist.net/anime/33889/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12337'
   anilist: 'https://anilist.co/anime/87504/SaredoTsumibitowaRyuutoOdoru'
+  kitsu: 'https://kitsu.io/anime/12626'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/dances-with-the-dragons'
   funimation|Funimation: 'https://www.funimation.com/shows/dances-with-the-dragons/'
@@ -231,6 +249,7 @@ info:
   mal: 'https://myanimelist.net/anime/37033/Emiya-san_Chi_no_Kyou_no_Gohan'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13705'
   anilist: 'https://anilist.co/anime/100855/EmiyasanChinoKyounoGohan'
+  kitsu: 'https://kitsu.io/anime/14154'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/todays-menu-for-the-emiya-family'
 ---
@@ -241,6 +260,7 @@ info:
   mal: 'https://myanimelist.net/anime/37140/Gegege_no_Kitarou_2018'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13742'
   anilist: 'https://anilist.co/anime/100978/GegegenoKitarou2018'
+  kitsu: 'https://kitsu.io/anime/14246'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/gegege-no-kitaro'
   animelab|AnimeLab: 'https://www.animelab.com/shows/gegege-no-kitaro'
@@ -252,6 +272,7 @@ info:
   mal: 'https://myanimelist.net/anime/36296'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13434'
   anilist: 'https://anilist.co/anime/100077/Hinamatsuri'
+  kitsu: 'https://kitsu.io/anime/14018'
   official: 'http://hina-matsuri.net/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/hinamatsuri'
@@ -264,6 +285,7 @@ info:
   mal: 'https://myanimelist.net/anime/35183'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12995'
   anilist: 'https://anilist.co/anime/98479/Gurazeni'
+  kitsu: 'https://kitsu.io/anime/13981'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/gurazeni-money-pitch'
 ---
@@ -274,6 +296,7 @@ info:
   mal: 'https://myanimelist.net/anime/36864'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13613'
   anilist: 'https://anilist.co/anime/100645/AkkuntoKanojo'
+  kitsu: 'https://kitsu.io/anime/14202'
   official: 'http://akkun-kanojo.jp/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/my-sweet-tyrant'
@@ -285,6 +308,7 @@ info:
   mal: 'https://myanimelist.net/anime/34338'
   anilist: 'https://anilist.co/anime/98073/LOSTSONG'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12523'
+  kitsu: 'https://kitsu.io/anime/12722'
 ---
 title: 'Lostorage Conflated WIXOSS'
 type: tv
@@ -293,6 +317,7 @@ info:
   mal: 'https://myanimelist.net/anime/34607'
   anilist: 'https://anilist.co/anime/98473/LostorageConflatedWIXOSS'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12686'
+  kitsu: 'https://kitsu.io/anime/13720'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/lostorage-incited-wixoss'
 ---
@@ -303,6 +328,7 @@ info:
   mal: 'https://myanimelist.net/anime/37126'
   anilist: 'https://anilist.co/anime/100966/NobunaganoShinobiAnegawaIshiyamahen'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13740'
+  kitsu: 'https://kitsu.io/anime/14207'
   official: 'https://nobunaga-no-shinobi.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/ninja-girl-samurai-master|52'
@@ -314,6 +340,7 @@ info:
   mal: 'https://myanimelist.net/anime/36266'
   anilist: 'https://anilist.co/anime/100010/MahouShoujoSite'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13424'
+  kitsu: 'https://kitsu.io/anime/14137'
   official: 'http://mahoushoujyo-anime.com/'
 streams:
   amazon|Amazon US: 'https://www.amazon.com/Magical-Girl-Site/dp/B07CBHV9N1'
@@ -326,6 +353,7 @@ info:
   mal: 'https://myanimelist.net/anime/36456'
   anilist: 'https://anilist.co/anime/100166/BokunoHeroAcademia3'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13485'
+  kitsu: 'https://kitsu.io/anime/13881'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/my-hero-academia|38'
   funimation|Funimation: 'https://www.funimation.com/shows/my-hero-academia/'
@@ -338,6 +366,7 @@ info:
   mal: 'https://myanimelist.net/anime/36565'
   anilist: 'https://anilist.co/anime/100306/Major2nd'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13518'
+  kitsu: 'https://kitsu.io/anime/13952'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/major-2nd'
 ---
@@ -348,6 +377,7 @@ info:
   mal: 'https://myanimelist.net/anime/36800'
   anilist: 'https://anilist.co/anime/100532/AmanchuAdvance'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13583'
+  kitsu: 'https://kitsu.io/anime/14015'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/amanchu'
 ---
@@ -358,6 +388,7 @@ info:
   mal: 'https://myanimelist.net/anime/35928'
   anilist: 'https://anilist.co/anime/99531/DevilsLine'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13283'
+  kitsu: 'https://kitsu.io/anime/13708'
 streams:
   hidive: 'https://www.hidive.com/tv/devils-line'
 ---
@@ -368,6 +399,7 @@ info:
   mal: 'https://myanimelist.net/anime/36475'
   anilist: 'https://anilist.co/anime/100183/SwordArtOnlineAlternativeGunGaleOnline'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13494'
+  kitsu: 'https://kitsu.io/anime/13894'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/sword-art-online-alternative-gun-gale-online'
   hulu|Hulu: 'https://www.hulu.com/sword-art-online-alternative-gun-gale-online'
@@ -380,6 +412,7 @@ info:
   mal: 'https://myanimelist.net/anime/36023'
   anilist: 'https://anilist.co/anime/99693/Persona5TheAnimation'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13331'
+  kitsu: 'https://kitsu.io/anime/13684'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/persona5-the-animation'
   animelab|AnimeLab: 'https://www.animelab.com/shows/persona-5-the-animation'
@@ -391,6 +424,7 @@ info:
   mal: 'https://myanimelist.net/anime/37029'
   anilist: 'https://anilist.co/anime/98438/HoozukinoReitetsu2'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13704'
+  kitsu: 'https://kitsu.io/anime/14157'
 streams:
   hidive: 'https://www.hidive.com/tv/hozukis-coolheadedness-2|13'
 ---
@@ -401,6 +435,7 @@ info:
   mal: 'https://myanimelist.net/anime/37433'
   anilist: 'https://anilist.co/anime/101277/WakaokamiwaShougakusei'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13875'
+  kitsu: 'https://kitsu.io/anime/41070'
 ---
 title: "Layton's Mystery Detective Agency - Katry's Mystery Solving Files"
 type: tv
@@ -409,6 +444,7 @@ info:
   mal: 'https://myanimelist.net/anime/37023'
   anilist: 'https://anilist.co/anime/100785/LaytonMysteryTanteishaKatorinoNazotokiFile'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13497'
+  kitsu: 'https://kitsu.io/anime/40578'
 ---
 title: 'Cutie Honey Universe'
 type: tv
@@ -417,6 +453,7 @@ info:
   mal: 'https://myanimelist.net/anime/36976'
   anilist: 'https://anilist.co/anime/100814/CutieHoneyUniverse'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13676'
+  kitsu: 'https://kitsu.io/anime/14142'
 streams:
   hidive: 'https://www.hidive.com/tv/cutie-honey-universe'
 ---
@@ -427,6 +464,7 @@ info:
   mal: 'https://myanimelist.net/anime/33850'
   anilist: 'https://anilist.co/anime/99963/NilAdmirarinoTenbin'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12333'
+  kitsu: 'https://kitsu.io/anime/12762'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/libra-of-nil-admirari'
 ---
@@ -437,6 +475,7 @@ info:
   mal: 'https://myanimelist.net/anime/36828'
   anilist: 'https://anilist.co/anime/100569/Caligula'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13592'
+  kitsu: 'https://kitsu.io/anime/14019'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/caligula'
 ---
@@ -447,6 +486,7 @@ info:
   mal: 'https://myanimelist.net/anime/36949'
   anilist: 'https://anilist.co/anime/100773/ShokugekinoSoumaSannoSaraTootsukiResshahen'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13658'
+  kitsu: 'https://kitsu.io/anime/14092'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/food-wars-shokugeki-no-soma|12'
 ---
@@ -457,6 +497,7 @@ info:
   mal: 'https://myanimelist.net/anime/36652'
   anilist: 'https://anilist.co/anime/100401/PianonoMoriTV'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13537'
+  kitsu: 'https://kitsu.io/anime/13984'
 ---
 title: 'Binan Koukou Chikyuu Bouei-bu Happy Kiss!'
 type: tv
@@ -465,6 +506,7 @@ info:
   mal: 'https://myanimelist.net/anime/37036'
   anilist: 'https://anilist.co/anime/101046/BinanKoukouChikyuuBoueibuHAPPYKISS'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13706'
+  kitsu: 'https://kitsu.io/anime/41018'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/cute-high-earth-defense-club-love'
 ---
@@ -475,6 +517,7 @@ info:
   mal: 'https://myanimelist.net/anime/36028'
   anilist: 'https://anilist.co/anime/99699/GoldenKamui'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13337'
+  kitsu: 'https://kitsu.io/anime/13689'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/golden-kamuy'
   funimation|Funimation: 'https://www.funimation.com/shows/golden-kamuy/'
@@ -486,6 +529,7 @@ info:
   mal: 'https://myanimelist.net/anime/37188'
   anilist: 'https://anilist.co/anime/101002/FumikiriJikan'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13753'
+  kitsu: 'https://kitsu.io/anime/41086'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/crossing-time'
 ---
@@ -496,6 +540,7 @@ info:
   mal: 'https://myanimelist.net/anime/37448'
   anilist: 'https://anilist.co/anime/101314/Ladyspo'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13897'
+  kitsu: 'https://kitsu.io/anime/41054'
 ---
 title: 'High School DxD Hero'
 type: tv
@@ -504,6 +549,7 @@ info:
   mal: 'https://myanimelist.net/anime/34281'
   anilist: 'https://anilist.co/anime/97767/HighSchoolDxDHERO'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12498'
+  kitsu: 'https://kitsu.io/anime/12677'
 streams:
   crunchyroll_nsfw|Crunchyroll: 'https://www.crunchyroll.com/high-school-dxd'
   funimation|Funimation: 'https://www.funimation.com/shows/high-school-dxd/'
@@ -515,6 +561,7 @@ info:
   mal: 'https://myanimelist.net/anime/36513'
   anilist: 'https://anilist.co/anime/100727/RokuhoudouYotsuiroBiyori'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13502'
+  kitsu: 'https://kitsu.io/anime/13932'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/yotsuiro-biyori'
 ---
@@ -525,6 +572,7 @@ info:
   mal: 'https://myanimelist.net/anime/37254'
   anilist: 'https://anilist.co/anime/101044/LastPeriodOwarinakiRasennoMonogatari'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13779'
+  kitsu: 'https://kitsu.io/anime/41131'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/last-period-the-journey-to-the-end-of-the-despair'
 ---
@@ -535,6 +583,7 @@ info:
   mal: 'https://myanimelist.net/anime/36309'
   anilist: 'https://anilist.co/anime/100083/ButlersChitoseMomotoseMonogatari'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13437'
+  kitsu: 'https://kitsu.io/anime/14037'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/butlers-x-battlers'
 ---
@@ -545,6 +594,7 @@ info:
   mal: 'https://myanimelist.net/anime/30484'
   anilist: 'https://anilist.co/anime/21127/SteinsGate0'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11167'
+  kitsu: 'https://kitsu.io/anime/10788'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/steinsgate-0'
   funimation|Funimation: 'https://www.funimation.com/shows/steinsgate/'
@@ -557,6 +607,7 @@ info:
   mal: 'https://myanimelist.net/anime/34420'
   anilist: 'https://anilist.co/anime/97873/IsekaiIzakayaKotoAitherianoIzakayaNobu'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12562'
+  kitsu: 'https://kitsu.io/anime/13466'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/isekai-izakaya-japanese-food-from-another-world'
 ---
@@ -567,6 +618,7 @@ info:
   mal: 'https://myanimelist.net/anime/36884'
   anilist: 'https://anilist.co/anime/100673/HisonetoMasotan'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13625'
+  kitsu: 'https://kitsu.io/anime/14042'
 ---
 title: 'Wotaku ni Koi wa Muzukashii'
 type: tv
@@ -575,6 +627,7 @@ info:
   mal: 'https://myanimelist.net/anime/35968'
   anilist: 'https://anilist.co/anime/99578/WotakuniKoiwaMuzukashii'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13293'
+  kitsu: 'https://kitsu.io/anime/13660'
 streams:
   amazon|Amazon US: 'https://www.amazon.com/dp/B07C3WT7H8/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07C321BQ4/'
@@ -586,6 +639,7 @@ info:
   mal: 'https://myanimelist.net/anime/36525'
   anilist: 'https://anilist.co/anime/100251/DoreikuTheAnimation'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13505'
+  kitsu: 'https://kitsu.io/anime/40960'
 streams:
   hidive: 'https://www.hidive.com/tv/doreiku-the-animation/'
 ---
@@ -596,6 +650,7 @@ info:
   mal: 'https://myanimelist.net/anime/31931'
   anilist: 'https://anilist.co/anime/21451/FullMetalPanicInvisibleVictory'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11731'
+  kitsu: 'https://kitsu.io/anime/11460'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/full-metal-panic-invisible-victory'
   funimation|Funimation: 'https://www.funimation.com/shows/full-metal-panic/'
@@ -607,6 +662,7 @@ info:
   mal: 'https://myanimelist.net/anime/37778/'
   anilist: 'https://anilist.co/anime/101596/PastelLife'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14049'
+  kitsu: 'https://kitsu.io/anime/41304'
 ---
 title: 'To Be Heroine'
 type: tv
