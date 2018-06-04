@@ -5,7 +5,7 @@ info:
   mal: 'https://myanimelist.net/anime/37769/Aguu__Tensai_Ningyou'
   anilist: 'https://anilist.co/anime/101631'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14044'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/41380'
   official: 'http://aguu-anime.com/'
 streams:
   crunchyroll: ''
@@ -309,7 +309,7 @@ info:
   mal: 'https://myanimelist.net/anime/37458/Kyoto_Teramachi_Sanjou_no_Holmes'
   anilist: 'https://anilist.co/anime/101292'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13904'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/41381'
   official: 'http://kyototeramachi-holmes.com/'
 streams:
   crunchyroll: ''
@@ -517,7 +517,7 @@ info:
   mal: 'https://myanimelist.net/anime/36817/Sunoharasou_no_Kanrinin-san'
   anilist: 'https://anilist.co/anime/100556'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13589'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/41379'
   official: 'http://sunoharasou-anime.com/'
 streams:
   crunchyroll: ''
@@ -565,7 +565,7 @@ info:
   mal: 'https://myanimelist.net/anime/33966/Yume_Oukoku_to_Nemureru_100_Nin_no_Ouji-sama'
   anilist: 'https://anilist.co/anime/97604'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12362'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/41378'
   official: 'http://yume-100-anime.com/'
 streams:
   crunchyroll: ''
@@ -645,7 +645,7 @@ info:
   mal: 'https://myanimelist.net/anime/37422/Cinderella_Girls_Gekijou_3rd_Season'
   anilist: 'https://anilist.co/anime/101267'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13859'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/41377'
   official: 'http://cingeki-anime.com/'
 streams:
   crunchyroll: ''
@@ -661,7 +661,7 @@ info:
   mal: 'https://myanimelist.net/anime/37646/Hataraku_Onii-san_No_2'
   anilist: 'https://anilist.co/anime/101435'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13995'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/41376'
   official: 'http://www.hataoni.jp/'
 streams:
   crunchyroll: ''
