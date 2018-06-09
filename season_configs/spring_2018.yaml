@@ -114,6 +114,7 @@ info:
   mal: 'https://myanimelist.net/anime/36511/Tokyo_Ghoul_re'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13499'
 streams:
+  crunchyroll: 'http://www.crunchyroll.com/tokyo-ghoul-re'
   funimation|Funimation: 'https://www.funimation.com/shows/tokyo-ghoul'
   hulu|Hulu: 'https://www.hulu.com/watch/1248730'
   animelab|AnimeLab: 'https://www.animelab.com/shows/tokyo-ghoul'
