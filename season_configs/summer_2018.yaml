@@ -110,6 +110,23 @@ streams:
   amazon_uk|Amazon UK: ''
   funimation|Funimation: ''
 ---
+title: 'FLCL Progressive'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/33010/FLCL_Progressive'
+  anilist: 'https://anilist.co/anime/21746/FLCL-Progressive/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12023'
+  kitsu: 'https://kitsu.io/anime/flcl-progressive'
+  official: 'http://flcl-anime.com/'
+streams:
+  adultswim|Adult Swim: 'http://www.adultswim.com/videos/flcl/freebie-honey/'
+  crunchyroll: ''
+  hidive: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  funimation|Funimation: ''
+---
 title: 'FLCL Alternative'
 type: tv
 has_source: false
