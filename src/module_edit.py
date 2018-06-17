@@ -41,6 +41,7 @@ def _edit_with_file(db, edit_file):
 		
 		show = UnprocessedShow(None, None, name, [], stype, length, has_source)
 		found_ids = db.search_show_ids_by_names(name, exact=True)
+		debug("Found ids: {found_ids}")
 		if len(found_ids) == 0:
 			show_id = db.add_show(show, commit=False)
 		elif len(found_ids) == 1:
@@ -90,16 +91,18 @@ def _edit_with_file(db, edit_file):
 					continue
 				
 				info("  Stream {}: {}".format(service_key, url))
-				stream_handler = services.get_service_handler(key=service_key)
+
+				service_id = service_key.split('|')[0]
+				stream_handler = services.get_service_handler(key=service_id)
 				if stream_handler:
 					show_key = stream_handler.extract_show_key(url)
 					debug("    id={}".format(show_key))
 					
-					if not db.has_stream(service_key, show_key):
-						s = UnprocessedStream(service_key, show_key, None, "", remote_offset, 0)
+					if not db.has_stream(service_id, show_key):
+						s = UnprocessedStream(service_id, show_key, None, "", remote_offset, 0)
 						db.add_stream(s, show_id, commit=False)
 					else:
-						service = db.get_service(key=service_key)
+						service = db.get_service(key=service_id)
 						s = db.get_stream(service_tuple=(service, show_key))
 						db.update_stream(s, show_key=show_key, remote_offset=remote_offset, commit=False)
 				elif "|" in service_key:
