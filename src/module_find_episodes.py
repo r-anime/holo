@@ -146,7 +146,7 @@ def _format_post_text(db, text, formats, show, episode, stream):
 def _create_post_title(config, show, episode):
 	title = config.post_title
 	if episode.number == show.length and config.post_title_postfix_final:
-		title += config.post_title_postfix_final
+		title += ' ' + config.post_title_postfix_final
 	return title
 
 # Generating text parts
