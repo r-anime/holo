@@ -120,6 +120,7 @@ _num_extractors = [re.compile(x, re.I) for x in [
 	r".+_(\d+)\[(?:please_sub_this_viz)\]", # "_-_" separator
 	r"\[doremi\]\..+\.(\d+)", # "." separator
 	r"\[anon\] .+? (\d{2,})",
+	r"\[seiya\] .+ - (\d+) \[.+\]",
 	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]", # Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 	r".*?[ _](\d+)[ _]\[\d+p\]", # No tag followed by quality
 ]]
