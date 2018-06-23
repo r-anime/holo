@@ -123,6 +123,8 @@ _num_extractors = [re.compile(x, re.I) for x in [
 	r"\[seiya\] .+ - (\d+) \[.+\]",
 	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]", # Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 	r".*?[ _](\d+)[ _]\[\d+p\]", # No tag followed by quality
+	r".*?episode[ _](\d+)", # Completely unformatted, but with the "Episode XX" text
+	r".*[ _]-[ _](\d+)(?:[ _].*)?$", # - separator
 ]]
 
 def _extract_episode_num(name):
