@@ -40,12 +40,14 @@ def _check_show_lengths(config, db, update_db=True):
 				debug("    Lists length: {}".format(new_length))
 				if length is not None and new_length != length:
 					warning("    Conflict between lengths {} and {}".format(new_length, length))
-				elif show.length is not None and new_length != show.length:
-					warning("    Updating length from {} to {}".format(show.length, new_length))
 				length = new_length
 		
 		# Length found, update database
 		if length is not None:
+			if show.length == length:
+				continue
+			elif show.length is not None:
+				warning("    Updating length from {} to {}".format(show.length, length))
 			info("New episode count: {}".format(length))
 			if update_db:
 				db.set_show_episode_count(show, length)
