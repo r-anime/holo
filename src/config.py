@@ -81,6 +81,7 @@ def from_file(file_path):
 		config.post_title = sec.get("title", None)
 		config.post_title_postfix_final = sec.get("title_postfix_final", None)
 		config.post_body = sec.get("body", None)
+		config.post_poll_title = sec.get("poll_title", None)
 		for key in sec:
 			if key.startswith("format_") and len(key) > 7:
 				config.post_formats[key[7:]] = sec[key]
