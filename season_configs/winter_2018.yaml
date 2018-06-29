@@ -505,7 +505,7 @@ info:
 streams:
   crunchyroll: ''
 ---
-title: 'Uchuu Senkan Yamato 2202: Ai no Senshi-tachi'
+title: 'Space Battleship Yamato 2202'
 type: tv
 has_source: false
 info:
@@ -514,5 +514,5 @@ info:
   anilist: 'https://anilist.co/anime/21730/'
   kitsu: 'https://kitsu.io/anime/uchuu-senkan-yamato-2202-ai-no-senshi-tachi-2018'
 streams:
-  crunchyroll: 'http://www.crunchyroll.com/star-blazers-space-battleship-yamato'
+  crunchyrollwtfwhyisyourrssnotworking|Crunchyroll: 'http://www.crunchyroll.com/star-blazers-space-battleship-yamato'
   funimation|Funimation: 'https://www.funimation.com/shows/star-blazers/'
