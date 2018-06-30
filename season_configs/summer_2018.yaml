@@ -185,7 +185,7 @@ info:
   kitsu: 'https://kitsu.io/anime/hanebado'
   official: 'http://hanebad.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/hanebado'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -297,7 +297,7 @@ info:
   kitsu: 'https://kitsu.io/anime/island'
   official: 'http://never-island.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/island'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
