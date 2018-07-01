@@ -73,3 +73,6 @@ target/
 # virtualenv
 venv/
 ENV/
+
+# Linux
+*~
