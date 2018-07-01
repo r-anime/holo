@@ -16,8 +16,7 @@ def main(config, db, **kwargs):
 def _check_show_lengths(config, db, update_db=True):
 	info("Checking show lengths")
 	
-	#shows = db.get_shows(missing_length=True)
-	shows = db.get_shows() # Length could be wrong, recheck
+	shows = db.get_shows(missing_length=True)
 	for show in shows:
 		info("Updating episode count of {} ({})".format(show.name, show.id))
 		length = None
@@ -44,10 +43,6 @@ def _check_show_lengths(config, db, update_db=True):
 		
 		# Length found, update database
 		if length is not None:
-			if show.length == length:
-				continue
-			elif show.length is not None:
-				warning("    Updating length from {} to {}".format(show.length, length))
 			info("New episode count: {}".format(length))
 			if update_db:
 				db.set_show_episode_count(show, length)
