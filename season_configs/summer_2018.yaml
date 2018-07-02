@@ -185,7 +185,7 @@ info:
   kitsu: 'https://kitsu.io/anime/hanebado'
   official: 'http://hanebad.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/hanebado'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -297,7 +297,7 @@ info:
   kitsu: 'https://kitsu.io/anime/island'
   official: 'http://never-island.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/island'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -393,11 +393,11 @@ info:
   kitsu: 'https://kitsu.io/anime/overlord-iii'
   official: 'http://overlord-anime.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/overlord'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/overlord/'
 ---
 title: 'Phantom in the Twilight'
 type: tv
@@ -489,11 +489,11 @@ info:
   kitsu: 'https://kitsu.io/anime/shingeki-no-kyojin-3'
   official: 'https://shingeki.tv/season3/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/attack-on-titan|37'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/attack-on-titan/'
 ---
 title: 'Shinya! Tensai Bakabon'
 type: tv
@@ -681,7 +681,7 @@ info:
   kitsu: 'https://kitsu.io/anime/41376'
   official: 'http://www.hataoni.jp/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/working-buddies'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -697,7 +697,7 @@ info:
   kitsu: 'https://kitsu.io/anime/one-room-2nd-season'
   official: 'http://oneroom-anime.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/oneroom'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -729,8 +729,18 @@ info:
   kitsu: 'https://kitsu.io/anime/yami-shibai-6th-season'
   official: 'http://www.tv-tokyo.co.jp/anime/yamishibai/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/yamishibai-japanese-ghost-stories'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   funimation|Funimation: ''
+---
+title: 'Kouchuu Ouja Mushiking: Mori no Tami no Densetsu'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/04050/'
+  anilist: 'https://anilist.co/anime/4050/Kouchuu-Ouja-Mushiking-Mori-no-Tami-no-Densetsu/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=2816'
+  kitsu: 'https://kitsu.io/anime/kabutomushi-ouja-mushiking-mori-no-tami-no-densetsu'
+  official: 'http://mushiking.com/'

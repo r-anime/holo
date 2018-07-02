@@ -504,3 +504,15 @@ info:
   mal: 'https://myanimelist.net/anime/36838/Gintama__Shirogane_no_Tamashii-hen'
 streams:
   crunchyroll: ''
+---
+title: 'Space Battleship Yamato 2202'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/33064/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12051'
+  anilist: 'https://anilist.co/anime/21730/'
+  kitsu: 'https://kitsu.io/anime/uchuu-senkan-yamato-2202-ai-no-senshi-tachi-2018'
+streams:
+  crunchyrollwtfwhyisyourrssnotworking|Crunchyroll: 'http://www.crunchyroll.com/star-blazers-space-battleship-yamato'
+  funimation|Funimation: 'https://www.funimation.com/shows/star-blazers/'
