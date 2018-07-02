@@ -110,7 +110,7 @@ def _digest_episode(feed_episode):
 
 _exludors = [re.compile(x, re.I) for x in [
 	"\.srt$",
-	r"\b(batch|vol(ume|\.)? ?\d+|dvd|bd|bluray|dub|dubbed)\b"
+	r"\b(batch|vol(ume|\.)? ?\d+|bd|bluray|dub|dubbed)\b"
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
