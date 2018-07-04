@@ -104,7 +104,7 @@ info:
   kitsu: 'https://kitsu.io/anime/chuukan-kanriroku-tonegawa'
   official: 'http://www.tonegawa-anime.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/mr-tonegawa-middle-management-blues'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -458,7 +458,7 @@ info:
   official: 'https://noble.marv.jp/anime/'
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/the-thousand-musketeers'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   funimation|Funimation: ''
