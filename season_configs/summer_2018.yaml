@@ -281,7 +281,7 @@ info:
   kitsu: 'https://kitsu.io/anime/isekai-maou-to-shoukan-shoujo-no-dorei-majutsu'
   official: 'http://isekaimaou-anime.com/'
 streams:
-  crunchyroll: ''
+  crunchyrollnsfw|Crunchyroll: 'http://www.crunchyroll.com/how-not-to-summon-a-demon-lord'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -586,7 +586,7 @@ info:
   official: 'http://yume-100-anime.com/'
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/100-sleeping-princes-the-kingdom-of-dreams'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   funimation|Funimation: ''
