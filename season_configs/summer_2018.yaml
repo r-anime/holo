@@ -74,8 +74,8 @@ info:
 streams:
   crunchyroll: ''
   hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B07F8H7SHY/'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07F835N2K/'
   funimation|Funimation: ''
 ---
 title: 'Chio-chan no Tsuugakuro'
