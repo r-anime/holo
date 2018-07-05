@@ -475,8 +475,8 @@ info:
 streams:
   crunchyroll: ''
   hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B07F8K3RVS/'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07F8GVQR8'
   funimation|Funimation: ''
 ---
 title: 'Shingeki no Kyojin Season 3'
