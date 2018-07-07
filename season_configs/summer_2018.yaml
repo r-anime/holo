@@ -76,6 +76,7 @@ streams:
   hidive: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07F8H7SHY/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07F835N2K/'
+  prime|Prime Video International: 'https://www.primevideo.com/detail/0G0XIRHP3SKCHL2U5VK7ZW45AU/ref=sr_hom_c_unkc_1_7?sr=1-7&qid=1530870151'
   funimation|Funimation: ''
 ---
 title: 'Chio-chan no Tsuugakuro'
@@ -88,7 +89,7 @@ info:
   kitsu: 'https://kitsu.io/anime/chio-chan-no-tsuugakuro'
   official: 'http://chiochan.jp/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/chios-school-road'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -217,7 +218,7 @@ info:
   kitsu: 'https://kitsu.io/anime/harukana-receive'
   official: 'http://www.harukana-receive.jp/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/harukana-receive'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -425,7 +426,7 @@ info:
   kitsu: 'https://kitsu.io/anime/planet-with'
   official: 'http://planet-with.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/planet-with'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -441,7 +442,7 @@ info:
   kitsu: 'https://kitsu.io/anime/satsuriku-no-tenshi'
   official: 'http://satsuriku.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/angels-of-death'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -477,6 +478,7 @@ streams:
   hidive: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07F8K3RVS/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07F8GVQR8'
+  prime|Prime Video International: 'https://www.primevideo.com/detail/0K64D00TCHCHVDKABAJ62Z8U2C/ref=sr_hom_c_unkc_1_8?sr=1-8&qid=1530870194'
   funimation|Funimation: ''
 ---
 title: 'Shingeki no Kyojin Season 3'
