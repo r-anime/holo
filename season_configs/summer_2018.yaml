@@ -266,7 +266,7 @@ info:
   kitsu: 'https://kitsu.io/anime/hyakuren-no-haou-to-seiyaku-no-valkyria'
   official: 'http://hyakuren-anime.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/the-master-of-ragnarok-blesser-of-einherjar'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -378,7 +378,7 @@ info:
   kitsu: 'https://kitsu.io/anime/ongaku-shoujo-tv'
   official: 'http://ongaku-shoujo.jp/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/music-girls'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
