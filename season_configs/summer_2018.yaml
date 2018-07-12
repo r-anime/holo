@@ -24,7 +24,7 @@ info:
   kitsu: 'https://kitsu.io/anime/angolmois-genkou-kassenki'
   official: 'http://angolmois-anime.jp/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/angolmois-record-of-mongol-invasion'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -154,7 +154,7 @@ info:
   kitsu: 'https://kitsu.io/anime/free-dive-to-the-future'
   official: 'http://df.iwatobi-sc.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/free-iwatobi-swim-club'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -316,8 +316,8 @@ info:
 streams:
   crunchyroll: ''
   hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B07FCH16QZ'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07F9YC387'
   funimation|Funimation: ''
 ---
 title: 'Kyoto Teramachi Sanjou no Holmes'
@@ -330,7 +330,7 @@ info:
   kitsu: 'https://kitsu.io/anime/41381'
   official: 'http://kyototeramachi-holmes.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/holmes-of-kyoto'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -399,6 +399,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/overlord/'
+  hulu|Hulu: 'https://www.hulu.com/overlord'
 ---
 title: 'Phantom in the Twilight'
 type: tv
@@ -410,7 +411,7 @@ info:
   kitsu: 'https://kitsu.io/anime/Phantom%20in%20the%20Twilight'
   official: 'http://phantowa.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/phantom-in-the-twilight'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -507,7 +508,7 @@ info:
   kitsu: 'https://kitsu.io/anime/shinya-tensai-bakabon'
   official: 'http://shinya-bakabon.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/late-night-the-genius-bakabon'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
