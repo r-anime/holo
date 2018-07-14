@@ -528,7 +528,7 @@ info:
   official: 'https://revuestarlight.com/'
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/revue-starlight'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   funimation|Funimation: ''
