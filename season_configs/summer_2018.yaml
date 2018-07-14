@@ -172,9 +172,10 @@ info:
 streams:
   crunchyroll: ''
   hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B07FFW6Q7Y/'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07FFM8GRC/'
   funimation|Funimation: ''
+  prime|Prime Video International: 'https://www.primevideo.com/detail/0R9VJMVT7G1I5K03IUINLFHRBO/ref=sr_hom_c_unkc_1_11?sr=1-11&qid=1531513064'
 ---
 title: 'Hanebado!'
 type: tv
@@ -204,9 +205,10 @@ info:
 streams:
   crunchyroll: ''
   hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B07FJX3LV5/'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07FLPTT4S/'
   funimation|Funimation: ''
+  prime|Prime Video International: 'https://www.primevideo.com/detail/0JP2KOCTCK273FDG78308B6ZUW/ref=sr_hom_c_unkc_1_10?sr=1-10&qid=1531513008'
 ---
 title: 'Harukana Receive'
 type: tv
@@ -319,6 +321,7 @@ streams:
   amazon|Amazon US: 'https://www.amazon.com/dp/B07FCH16QZ'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07F9YC387'
   funimation|Funimation: ''
+  prime|Prime Video International: 'https://www.primevideo.com/detail/0SP0YIS05HRN7BOYGXAKF1MQB0/ref=sr_hom_c_unkc_1_3?sr=1-3&qid=1531512941'
 ---
 title: 'Kyoto Teramachi Sanjou no Holmes'
 type: tv
