@@ -760,5 +760,15 @@ info:
   official: 'http://www.zombie-girl.net/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=9285'
   kitsu: 'https://kitsu.io/anime/aru-zombie-shoujo-no-sainan'
-sreams:
+streams:
   crunchyroll_nsfw|Crunchyroll: 'http://www.crunchyroll.com/calamity-of-a-zombie-girl?skip_wall=1'
+---
+title: 'Baki'
+type: tv
+has_source: true
+info:
+  official: 'https://baki-anime.jp/'
+  mal: 'https://myanimelist.net/anime/34443/Baki'
+  anilist: 'https://anilist.co/anime/97888/Baki-NEW-GRAPPLER-BAKI/'
+  kitsu: 'https://kitsu.io/anime/baki-ona'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12569'
