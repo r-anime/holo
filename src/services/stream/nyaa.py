@@ -76,7 +76,8 @@ class ServiceHandler(AbstractServiceHandler):
 		return None
 	
 	def extract_show_key(self, url):
-		return None
+		# The show key for Nyaa is just the search string
+		return url
 	
 	def get_seasonal_streams(self, **kwargs):
 		return list()
