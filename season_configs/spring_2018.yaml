@@ -446,6 +446,8 @@ info:
   anilist: 'https://anilist.co/anime/100785/LaytonMysteryTanteishaKatorinoNazotokiFile'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13497'
   kitsu: 'https://kitsu.io/anime/40578'
+streams:
+  nyaa: 'Layton Mystery File'
 ---
 title: 'Cutie Honey Universe'
 type: tv
