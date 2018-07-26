@@ -191,7 +191,7 @@ streams:
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/hanebado/'
 ---
 title: 'Happy Sugar Life'
 type: tv
@@ -224,7 +224,7 @@ streams:
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/harukana-receive/'
 ---
 title: 'Hataraku Saibou'
 type: tv
@@ -272,7 +272,7 @@ streams:
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-master-of-ragnarok-blesser-of-einherjar/'
 ---
 title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu'
 type: tv
@@ -288,7 +288,7 @@ streams:
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/how-not-to-summon-a-demon-lord/'
 ---
 title: 'Island'
 type: tv
@@ -304,7 +304,7 @@ streams:
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/island/'
 ---
 title: 'Jashin-chan Dropkick'
 type: tv
@@ -450,7 +450,7 @@ streams:
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/angels-of-death/'
 ---
 title: 'Senjuushi'
 type: tv
