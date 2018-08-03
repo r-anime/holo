@@ -30,7 +30,7 @@ class DbEqMixin:
 		return hash(self.id)
 
 class Show(DbEqMixin):
-	def __init__(self, id, name, length, show_type, has_source, enabled, delayed):
+	def __init__(self, id, name, length, show_type, has_source, is_nsfw, enabled, delayed):
 		# Note: arguments are order-sensitive
 		# Should probably be moved to keyword args, but not sure the best method on the database side
 		self.id = id
@@ -38,6 +38,7 @@ class Show(DbEqMixin):
 		self.length = length
 		self.type = show_type
 		self.has_source = has_source == 1
+		self.is_nsfw = is_nsfw == 1
 		self.enabled = enabled
 		self.delayed = delayed
 	
@@ -153,7 +154,7 @@ class LiteStream:
 		return f"LiteStream: {self.service}|{self.service_name}, show={self.show}, url={self.url}"
 
 class UnprocessedShow:
-	def __init__(self, site_key, show_key, name, more_names, show_type, episode_count, has_source):
+	def __init__(self, site_key, show_key, name, more_names, show_type, episode_count, has_source, is_nsfw):
 		self.site_key = site_key
 		self.show_key = show_key
 		self.name = name
@@ -161,6 +162,7 @@ class UnprocessedShow:
 		self.show_type = show_type
 		self.episode_count = episode_count
 		self.has_source = has_source
+		self.is_nsfw = is_nsfw
 
 class UnprocessedStream:
 	def __init__(self, service_key, show_key, show_id, name, remote_offset, display_offset):

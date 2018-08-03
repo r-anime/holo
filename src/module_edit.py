@@ -32,14 +32,16 @@ def _edit_with_file(db, edit_file):
 		stype = str_to_showtype(doc["type"])		# convert to enum?
 		length = doc["length"] if "length" in doc else 0
 		has_source = doc["has_source"]
+		is_nsfw = False # TODO
 		
 		info("Adding show \"{}\" ({})".format(name, stype))
 		debug("  has_source={}".format(has_source))
+		debug("  is_nsfw={}".format(is_nsfw))
 		if stype == ShowType.UNKNOWN:
 			error("Invalid show type \"{}\"".format(stype))
 			return False
 		
-		show = UnprocessedShow(None, None, name, [], stype, length, has_source)
+		show = UnprocessedShow(None, None, name, [], stype, length, has_source, is_nsfw)
 		found_ids = db.search_show_ids_by_names(name, exact=True)
 		debug("Found ids: {found_ids}")
 		if len(found_ids) == 0:
