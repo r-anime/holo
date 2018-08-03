@@ -30,9 +30,9 @@ def _edit_with_file(db, edit_file):
 	for doc in parsed:
 		name = doc["title"]
 		stype = str_to_showtype(doc["type"])		# convert to enum?
-		length = doc["length"] if "length" in doc else 0
-		has_source = doc["has_source"]
-		is_nsfw = False # TODO
+		length = doc.get("length", 0)
+		has_source = doc.get("has_source", False)
+		is_nsfw = doc.get("is_nsfw", False)
 		
 		info("Adding show \"{}\" ({})".format(name, stype))
 		debug("  has_source={}".format(has_source))
