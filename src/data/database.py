@@ -82,6 +82,7 @@ class DatabaseDatabase:
 			length		INTEGER,
 			type		INTEGER NOT NULL,
 			has_source	INTEGER NOT NULL DEFAULT 0,
+			is_nsfw		INTEGER NOT NULL DEFAULT 0,
 			enabled		INTEGER NOT NULL DEFAULT 1,
 			delayed		INTEGER NOT NULL DEFAULT 0,
 			FOREIGN KEY(type) REFERENCES ShowTypes(id)
@@ -402,16 +403,16 @@ class DatabaseDatabase:
 	def get_shows(self, missing_length=False, missing_stream=False, enabled=True, delayed=False) -> [Show]:
 		shows = list()
 		if missing_length:
-			self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE (length IS NULL OR length = '' OR length = 0) AND enabled = ?", (enabled,))
+			self.q.execute("SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows WHERE (length IS NULL OR length = '' OR length = 0) AND enabled = ?", (enabled,))
 		elif missing_stream:
 			self.q.execute(
-				"SELECT id, name, length, type, has_source, enabled, delayed FROM Shows show \
+				"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows show \
 				WHERE (SELECT count(*) FROM Streams stream WHERE stream.show = show.id AND stream.active = 1) = 0 AND enabled = ?",
 				(enabled,))
 		elif delayed:
-			self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE delayed = 1 AND enabled = ?", (enabled,))
+			self.q.execute("SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows WHERE delayed = 1 AND enabled = ?", (enabled,))
 		else:
-			self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE enabled = ?", (enabled,))
+			self.q.execute("SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows WHERE enabled = ?", (enabled,))
 		for show in self.q.fetchall():
 			shows.append(Show(*show))
 		return shows
@@ -428,7 +429,7 @@ class DatabaseDatabase:
 		if id is None:
 			error("Show ID not provided to get_show")
 			return None
-		self.q.execute("SELECT id, name, length, type, has_source, enabled, delayed FROM Shows WHERE id = ?", (id,))
+		self.q.execute("SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows WHERE id = ?", (id,))
 		show = self.q.fetchone()
 		if show is None:
 			return None
@@ -444,7 +445,8 @@ class DatabaseDatabase:
 		length = raw_show.episode_count
 		show_type = from_show_type(raw_show.show_type)
 		has_source = raw_show.has_source
-		self.q.execute("INSERT INTO Shows (name, length, type, has_source) VALUES (?, ?, ?, ?)", (name, length, show_type, has_source))
+		is_nsfw = raw_show.is_nsfw
+		self.q.execute("INSERT INTO Shows (name, length, type, has_source, is_nsfw) VALUES (?, ?, ?, ?, ?)", (name, length, show_type, has_source, is_nsfw))
 		show_id = self.q.lastrowid
 		self.add_show_names(raw_show.name, *raw_show.more_names, id=show_id, commit=commit)
 		
@@ -460,9 +462,10 @@ class DatabaseDatabase:
 		length = raw_show.episode_count
 		show_type = from_show_type(raw_show.show_type)
 		has_source = raw_show.has_source
+		is_nsfw = raw_show.is_nsfw
 		
-		self.q.execute("UPDATE Shows SET length = ?, type = ?, has_source = ? WHERE id = ?",
-					   (length, show_type, has_source, show_id))
+		self.q.execute("UPDATE Shows SET length = ?, type = ?, has_source = ?, is_nsfw = ? WHERE id = ?",
+					   (length, show_type, has_source, is_nsfw, show_id))
 		
 		if commit:
 			self.commit()
