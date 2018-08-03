@@ -141,6 +141,24 @@ class Link:
 	def __str__(self):
 		return "Link: {}@{}, show={}".format(self.site_key, self.site, self.show)
 
+class Poll:
+	def __init__(self, show_id, episode, poll_id, date, score):
+		self.show_id = show_id
+		self.episode = episode
+		self.poll_id = poll_id
+		if isinstance(date, datetime):
+			self.date = date
+		elif date:
+			self.date = datetime(*date[:6])
+		self.score = score
+
+	@property
+	def has_score(self):
+		return self.score is not None
+
+	def __str__(self):
+		return f"Poll {self.show_id}/{self.episode} (Score {self.score})"
+
 class LiteStream:
 	def __init__(self, show, service, service_name, url):
 		# Note: arguments are order-sensitive
