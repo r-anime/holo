@@ -38,6 +38,7 @@ def main(config, args, extra_args):
 			info("Registering services")
 			db.register_services(services.get_service_handlers())
 			db.register_link_sites(services.get_link_handlers())
+			db.register_poll_sites(services.get_poll_handlers())
 		elif config.module == "edit":
 			info("Editing database")
 			import module_edit as m

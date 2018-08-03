@@ -154,6 +154,21 @@ class DatabaseDatabase:
                         UNIQUE(show, service) ON CONFLICT REPLACE,
 			FOREIGN KEY(show) REFERENCES Shows(id)
 		)""")
+
+		self.q.execute("""CREATE TABLE IF NOT EXISTS PollSites (
+			id		INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+			key		TEXT NOT NULL UNIQUE
+		)""")
+
+		self.q.execute("""CREATE TABLE IF NOT EXISTS Polls (
+			show		INTEGER NOT NULL,
+			episode		INTEGER NOT NULL,
+			poll_id		TEXT NOT NULL,
+			timestamp	INTEGER NOT NULL,
+			score		REAL,
+			FOREIGN KEY(show) REFERENCES Shows(id),
+			UNIQUE(show, episode)
+		)""")
 		
 		self.commit()
 	
@@ -171,6 +186,12 @@ class DatabaseDatabase:
 			site = sites[site_key]
 			self.q.execute("INSERT OR IGNORE INTO LinkSites (key, name) VALUES (?, '')", (site.key,))
 			self.q.execute("UPDATE LinkSites SET name = ?, enabled = 1 WHERE key = ?", (site.name, site.key))
+		self.commit()
+
+	def register_poll_sites(self, polls):
+		for poll_key in polls:
+			poll = polls[poll_key]
+			self.q.execute("INSERT OR IGNORE INTO PollSites (key) VALUES (?)", (poll.key,))
 		self.commit()
 	
 	# Services
