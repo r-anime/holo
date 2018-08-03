@@ -113,5 +113,12 @@ def _edit_with_file(db, edit_file):
 					db.add_lite_stream(show_id, service, service_name, url)
 				else:
 					error("    Stream handler not installed")
+
+		# Aliases
+		if "alias" in doc:
+			aliases = doc["alias"]
+			for alias in aliases:
+				db.add_alias(show_id, alias)
+			info(f"Added {len(aliases)} alias{'es' if len(aliases) > 1 else ''}")
 			
 	return True
