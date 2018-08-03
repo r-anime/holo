@@ -92,6 +92,13 @@ class DatabaseDatabase:
 			show		INTEGER NOT NULL,
 			name		TEXT NOT NULL
 		)""")
+
+		self.q.execute("""CREATE TABLE IF NOT EXISTS Aliases (
+			show		INTEGER NOT NULL,
+			alias		TEXT NOT NULL,
+			FOREIGN KEY(show) REFERENCES Shows(id),
+			UNIQUE(show, alias) ON CONFLICT IGNORE
+		)""")
 		
 		self.q.execute("""CREATE TABLE IF NOT EXISTS Services (
 			id			INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
@@ -436,6 +443,11 @@ class DatabaseDatabase:
 		show_type = to_show_type(show[4])
 		show = Show(*show[:4], show_type, *show[5:])
 		return show
+
+	@db_error_default(list())
+	def get_aliases(self, show: Show) -> [str]:
+		self.q.execute("SELECT alias FROM Aliases where show = ?", (show.id,))
+		return [s for s, in self.q.fetchall()]
 	
 	@db_error_default(None)
 	def add_show(self, raw_show: UnprocessedShow, commit=True) -> int:
@@ -453,6 +465,12 @@ class DatabaseDatabase:
 		if commit:
 			self.commit()
 		return show_id
+
+	@db_error
+	def add_alias(self, show_id: int, alias: str, commit=True):
+		self.q.execute("INSERT INTO Aliases (show, alias) VALUES (?, ?)", (show_id, alias))
+		if commit:
+			self.commit()
 	
 	@db_error_default(None)
 	def update_show(self, show_id: str, raw_show: UnprocessedShow, commit=True):
