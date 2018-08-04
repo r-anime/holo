@@ -206,8 +206,18 @@ def _gen_text_discussions(db, formats, show, stream):
 		table = []
 		for episode in episodes:
 			episode = stream.to_display_episode(episode)
-			score = db.get_episode_score_avg(show, episode)
-			table.append(safe_format(formats["discussion"], episode=episode.number, link=episode.link, score=score.score if score else ""))
+			poll_handler = services.get_default_poll_handler()
+			poll = db.get_poll(show, episode)
+			if poll is None:
+				score = None
+				poll_link = None
+			elif poll.has_score():
+				score = poll.score
+				poll_link = poll_handler.get_results_link(poll)
+			else:
+				score = poll_handler.get_score(poll)
+				poll_link = poll_handler.get_results_link(poll)
+			table.append(safe_format(formats["discussion"], episode=episode.number, link=episode.link, score=score if score else "", poll_link=poll_link if poll_link else ""))
 
 		num_columns = 1 + (len(table) - 1) // 20
 		format_head, format_align = formats["discussion_header"], formats["discussion_align"]
