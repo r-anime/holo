@@ -36,22 +36,22 @@ class PollHandler(AbstractPollHandler):
 	def create_poll(self, title, **kwargs):
 		#headers = _poll_post_headers
 		#headers['User-Agent'] = config.useragent
-		data = _poll_post_data
+		data = self._poll_post_data
 		data['poll-1[question]'] = title
 		#resp = requests.post(_poll_post_url, data = data, headers = headers, **kwargs)
-		resp = requests.post(_poll_post_url, data = data, **kwargs)
+		resp = requests.post(self._poll_post_url, data = data, **kwargs)
 
 		if resp.ok:
-			match = _poll_id_re.match(resp.url)
+			match = self._poll_id_re.match(resp.url)
 			return match.group(1)
 		else:
 			return None
 
 	def get_link(self, poll):
-		return _poll_link.format(id = poll.id)
+		return self._poll_link.format(id = poll.id)
 
 	def get_results_link(self, poll):
-		return _poll_results_link.format(id = poll.id)
+		return self._poll_results_link.format(id = poll.id)
 
 	def get_poll_score(self, poll):
 		return None #TODO
