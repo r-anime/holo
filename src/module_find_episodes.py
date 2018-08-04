@@ -211,7 +211,7 @@ def _gen_text_discussions(db, formats, show, stream):
 			if poll is None:
 				score = None
 				poll_link = None
-			elif poll.has_score():
+			elif poll.has_score:
 				score = poll.score
 				poll_link = poll_handler.get_results_link(poll)
 			else:
