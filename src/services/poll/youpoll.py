@@ -26,8 +26,8 @@ class PollHandler(AbstractPollHandler):
 	                   'responses-input': '',
 	                   }
 
-	_poll_id_re = re.compile('https://youpoll.me/(\d+)', re.I)
-	_poll_link = 'https://youpoll.me/{id}'
+	_poll_id_re = re.compile('youpoll.me/(\d+)', re.I)
+	_poll_link = 'https://youpoll.me/{id}/'
 	_poll_results_link = 'https://youpoll.me/{id}/r'
 
 	def __init__(self):
@@ -42,7 +42,7 @@ class PollHandler(AbstractPollHandler):
 		resp = requests.post(self._poll_post_url, data = data, **kwargs)
 
 		if resp.ok:
-			match = self._poll_id_re.match(resp.url)
+			match = self._poll_id_re.search(resp.url)
 			return match.group(1)
 		else:
 			return None
@@ -53,5 +53,7 @@ class PollHandler(AbstractPollHandler):
 	def get_results_link(self, poll):
 		return self._poll_results_link.format(id = poll.id)
 
-	def get_poll_score(self, poll):
-		return None #TODO
+	def get_score(self, poll):
+		response = self.request(self.get_results_link(poll), html = True)
+		value_text = response.find("span", class_="rating-mean-value").text
+		return float(value_text)
