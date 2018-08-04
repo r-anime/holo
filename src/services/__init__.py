@@ -385,12 +385,11 @@ class AbstractPollHandler(ABC, Requestable):
 		self.config = config
 
 	@abstractmethod
-	def create_poll(self, show, episode) -> Optional[Poll]:
+	def create_poll(self, title) -> Optional[str]:
 		"""
 		Create a new Poll.
-		:param show: The show for this poll (must have a title)
-		:param episode: The episode
-		:return: the Poll object
+		:param title: title of this poll
+		:return: the id of the poll
 		"""
 		return None
 
@@ -398,6 +397,15 @@ class AbstractPollHandler(ABC, Requestable):
 	def get_link(self, poll: Poll) -> Optional[str]:
 		"""
 		Creates a URL using the information provided by the poll object.
+		:param poll: the Poll object
+		:return: a URL
+		"""
+		return None
+
+	@abstractmethod
+	def get_results_link(self, poll: Poll) -> Optional[str]:
+		"""
+		Creates a URL for the poll results using the information provided by the poll object.
 		:param poll: the Poll object
 		:return: a URL
 		"""

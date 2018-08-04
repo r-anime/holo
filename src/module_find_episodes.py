@@ -215,9 +215,16 @@ def _gen_text_discussions(db, formats, show, stream):
 		return formats["discussion_none"]
 
 def _gen_text_poll(config, formats, show, episode):
-	poll_url = poll.create_poll(config, show.name, episode.number)
-	if poll_url is not None:
-		poll_results_url = poll_url.strip('/') + '/r'
+	handler = services.get_default_poll_handler()
+	title = config.post_poll_title.format(show = show.name, episode = episode.number)
+
+	poll_id = handler.create_poll(config, title, headers = {'User-Agent': config.useragent})
+	if poll_id:
+		site = db.get_poll_site(key=handler.key)
+		db.add_poll(show, episode, site, poll_id)
+		poll = db.get_poll(show, episode)
+		poll_url = handler.get_link(poll)
+		poll_results_url = handler.get_results_link(poll)
 		return safe_format(formats["poll"], poll_url=poll_url, poll_results_url=poll_results_url)
 	else:
 		return ""
