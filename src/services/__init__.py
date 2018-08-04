@@ -412,7 +412,7 @@ class AbstractPollHandler(ABC, Requestable):
 		return None
 
 	@abstractmethod
-	def get_poll_score(self, poll: Poll) -> Optional[float]:
+	def get_score(self, poll: Poll) -> Optional[float]:
 		"""
 		Return the score of this poll.
 		:param poll: the Poll object
