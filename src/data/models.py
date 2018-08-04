@@ -141,15 +141,24 @@ class Link:
 	def __str__(self):
 		return "Link: {}@{}, show={}".format(self.site_key, self.site, self.show)
 
+class PollSite(DbEqMixin):
+	def __init__(self, id, key):
+		self.id = id
+		self.key = key
+
+	def __str__(self):
+		return f"Poll site: {self.key}"
+
 class Poll:
-	def __init__(self, show_id, episode, poll_id, date, score):
+	def __init__(self, show_id, episode, service, id, date, score):
 		self.show_id = show_id
 		self.episode = episode
-		self.poll_id = poll_id
+		self.service_id = service
+		self.id = id
 		if isinstance(date, datetime):
 			self.date = date
-		elif date:
-			self.date = datetime(*date[:6])
+		else:
+			self.date = datetime.fromtimestamp(int(date))
 		self.score = score
 
 	@property
