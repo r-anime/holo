@@ -118,6 +118,10 @@ def _create_reddit_post(config, db, show, stream, episode, submit=True):
 		if new_post is not None:
 			new_post.flair.select(flair_episode_template_id)
 			debug("Post successful")
+			new_post.mod.spoiler()
+			if show.is_nsfw:
+				new_post.mod.nsfw()
+				info("Set tag NSFW")
 			return reddit.get_shortlink_from_id(new_post.id)
 		else:
 			error("Failed to submit post")
@@ -141,6 +145,8 @@ def _format_post_text(db, text, formats, show, episode, stream):
 		text = safe_format(text, links=_gen_text_links(db, formats, show))
 	if "{discussions}" in text:
 		text = safe_format(text, discussions=_gen_text_discussions(db, formats, show, stream))
+	if "{aliases}" in text:
+		text = safe_format(text, aliases=_gen_text_aliases(db, formats, show))
 	
 	episode_name = ": {}".format(episode.name) if episode.name else ""
 	text = safe_format(text, show_name=show.name, episode=episode.number, episode_name=episode_name)
@@ -213,6 +219,12 @@ def _gen_text_discussions(db, formats, show, stream):
 		return table_head + "\n" + "\n".join(table)
 	else:
 		return formats["discussion_none"]
+
+def _gen_text_aliases(db, formats, show):
+	aliases = db.get_aliases(show)
+	if len(aliases) == 0:
+		return ""
+	return safe_format(formats["aliases"], aliases=", ".join(aliases))
 
 # Helpers
 
