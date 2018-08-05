@@ -369,3 +369,77 @@ def get_link_handler(link_site=None, key:str=None) -> Optional[AbstractInfoHandl
 	if key is not None and key in _link_sites:
 		return _link_sites[key]
 	return None
+
+################
+# Poll handler #
+################
+
+from data.models import Poll
+
+class AbstractPollHandler(ABC, Requestable):
+	def __init__(self, key):
+		self.key = key
+		self.config = None
+
+	def set_config(self, config):
+		self.config = config
+
+	@abstractmethod
+	def create_poll(self, title) -> Optional[str]:
+		"""
+		Create a new Poll.
+		:param title: title of this poll
+		:return: the id of the poll
+		"""
+		return None
+
+	@abstractmethod
+	def get_link(self, poll: Poll) -> Optional[str]:
+		"""
+		Creates a URL using the information provided by the poll object.
+		:param poll: the Poll object
+		:return: a URL
+		"""
+		return None
+
+	@abstractmethod
+	def get_results_link(self, poll: Poll) -> Optional[str]:
+		"""
+		Creates a URL for the poll results using the information provided by the poll object.
+		:param poll: the Poll object
+		:return: a URL
+		"""
+		return None
+
+	@abstractmethod
+	def get_score(self, poll: Poll) -> Optional[float]:
+		"""
+		Return the score of this poll.
+		:param poll: the Poll object
+		:return: the score on a 1-10 scale
+		"""
+		return None
+
+_poll_sites = dict()
+
+def _ensure_poll_handlers():
+	global _poll_sites
+	if _poll_sites is None or len(_poll_sites) == 0:
+		from . import poll
+		_poll_sites = import_all_services(poll, "PollHandler")
+
+def get_poll_handlers() -> Dict[str, AbstractPollHandler]:
+	"""
+	Creates an instance of every poll handler in the polls module and returns a mapping to their keys.
+	:return: a dict of poll handler keys to the instance of th poll handler
+	"""
+	_ensure_poll_handlers()
+	return _poll_sites
+
+def get_default_poll_handler() -> AbstractPollHandler:
+	"""
+	Returns an instance of the default poll handler.
+	:return: the handler
+	"""
+	_ensure_poll_handlers()
+	return _poll_sites["youpoll"]

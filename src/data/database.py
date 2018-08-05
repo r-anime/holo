@@ -3,8 +3,9 @@ import sqlite3, re
 from functools import wraps, lru_cache
 from unidecode import unidecode
 from typing import Set, List, Optional
+from datetime import datetime, timezone
 
-from .models import Show, ShowType, Stream, LiteStream, Service, LinkSite, Link, Episode, EpisodeScore, UnprocessedStream, UnprocessedShow
+from .models import Show, ShowType, Stream, LiteStream, Service, LinkSite, Link, Episode, EpisodeScore, UnprocessedStream, UnprocessedShow, PollSite, Poll
 
 def living_in(the_database):
 	"""
@@ -162,6 +163,23 @@ class DatabaseDatabase:
                         UNIQUE(show, service) ON CONFLICT REPLACE,
 			FOREIGN KEY(show) REFERENCES Shows(id)
 		)""")
+
+		self.q.execute("""CREATE TABLE IF NOT EXISTS PollSites (
+			id		INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+			key		TEXT NOT NULL UNIQUE
+		)""")
+
+		self.q.execute("""CREATE TABLE IF NOT EXISTS Polls (
+			show		INTEGER NOT NULL,
+			episode		INTEGER NOT NULL,
+			poll_service	INTEGER NOT NULL,
+			poll_id		TEXT NOT NULL,
+			timestamp	INTEGER NOT NULL,
+			score		REAL,
+			FOREIGN KEY(show) REFERENCES Shows(id),
+			FOREIGN KEY(poll_service) REFERENCES PollSites(id),
+			UNIQUE(show, episode)
+		)""")
 		
 		self.commit()
 	
@@ -179,6 +197,12 @@ class DatabaseDatabase:
 			site = sites[site_key]
 			self.q.execute("INSERT OR IGNORE INTO LinkSites (key, name) VALUES (?, '')", (site.key,))
 			self.q.execute("UPDATE LinkSites SET name = ?, enabled = 1 WHERE key = ?", (site.name, site.key))
+		self.commit()
+
+	def register_poll_sites(self, polls):
+		for poll_key in polls:
+			poll = polls[poll_key]
+			self.q.execute("INSERT OR IGNORE INTO PollSites (key) VALUES (?)", (poll.key,))
 		self.commit()
 	
 	# Services
@@ -575,6 +599,57 @@ class DatabaseDatabase:
 		self.q.execute("INSERT INTO Scores (show, episode, site, score) VALUES (?, ?, ?, ?)", (show.id, episode.number, site.id, score))
 		if commit:
 			self.commit()
+
+	# Polls
+
+	@db_error_default(None)
+	def get_poll_site(self, id:str=None, key:str=None) -> Optional[PollSite]:
+		if id is not None:
+			self.q.execute("SELECT id, key FROM PollSites WHERE id = ?", (id,))
+		elif key is not None:
+			self.q.execute("SELECT id, key FROM PollSites WHERE key = ?", (key,))
+		else:
+			error("ID or key required to get poll site")
+			return None
+		site = self.q.fetchone()
+		if site is None:
+			return None
+		return PollSite(*site)
+
+	@db_error
+	def add_poll(self, show: Show, episode: Episode, site: PollSite, poll_id, commit=True):
+		ts = int(datetime.now(timezone.utc).timestamp())
+		self.q.execute("INSERT INTO Polls (show, episode, poll_service, poll_id, timestamp) VALUES (?, ?, ?, ?, ?)", (show.id, episode.number, site.id, poll_id, ts))
+		if commit:
+			self.commit()
+
+	@db_error
+	def update_poll_score(self, poll: Poll, score, commit=True):
+		self.q.execute("UPDATE Polls SET score = ? WHERE show = ? AND episode = ?", (score, poll.show_id, poll.episode))
+		if commit:
+			self.commit()
+
+	@db_error_default(None)
+	def get_poll(self, show: Show, episode: Episode):
+		self.q.execute("SELECT show, episode, poll_service, poll_id, timestamp, score FROM Polls WHERE show = ? AND episode = ?", (show.id, episode.number))
+		poll = self.q.fetchone()
+		if poll is None:
+			return None
+		return Poll(*poll)
+
+	@db_error_default(list())
+	def get_polls(self, show: Show=None, missing_score=False):
+		polls = list()
+		if show is not None:
+			self.q.execute("SELECT show, episode, poll_service, poll_id, timestamp, score FROM Polls WHERE show = ?", (show.id,))
+		elif missing_score:
+			self.q.execute("SELECT show, episode, poll_service, poll_id, timestamp, score FROM Polls WHERE score is NULL")
+		else:
+			error("Need to select a show to get polls")
+			return list()
+		for poll in self.q.fetchall():
+			polls.append(Poll(*poll))
+		return polls
 	
 	# Searching
 	

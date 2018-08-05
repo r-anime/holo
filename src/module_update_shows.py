@@ -1,4 +1,5 @@
 from logging import debug, info, warning, error
+from datetime import datetime, timedelta
 
 import services
 
@@ -12,6 +13,8 @@ def main(config, db, **kwargs):
 	_check_show_lengths(config, db, update_db=not config.debug)
 	# Check if shows have finished and disable them if they have
 	_disable_finished_shows(config, db, update_db=not config.debug)
+	# Record poll scores to avoid querying them every time
+	_record_poll_scores(config, db, update_db=not config.debug)
 	
 def _check_show_lengths(config, db, update_db=True):
 	info("Checking show lengths")
@@ -118,3 +121,19 @@ def _check_new_episode_scores(config, db, update_db):
 					db.commit()
 			else:
 				info("  Already has scores, ignoring")
+
+def _record_poll_scores(config, db, update_db):
+	polls = db.get_polls(missing_score=True)
+	handler = services.get_default_poll_handler()
+	info(f"Record scores for service {handler.key}")
+
+	updated = 0
+	for poll in polls:
+		if datetime.now() - poll.date > timedelta(days=7):
+			score = handler.get_score(poll)
+			info(f"Updating poll score for show {poll.show_id} / episode {poll.episode} ({score})")
+			if score:
+				db.update_poll_score(poll, score, commit=update_db)
+				updated += 1
+
+	info(f"{updated} scores recorded, {len(polls) - updated} scores not updated")
