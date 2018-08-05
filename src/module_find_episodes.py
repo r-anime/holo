@@ -4,6 +4,7 @@ from datetime import date, timedelta
 import services
 from data.models import Stream
 import reddit
+from tools import poll
 
 def main(config, db, **kwargs):
 	reddit.init_reddit(config)
@@ -129,13 +130,13 @@ def _create_reddit_post(config, db, show, stream, episode, submit=True):
 
 def _create_post_contents(config, db, show, stream, episode):
 	title = _create_post_title(config, show, episode)
-	title = _format_post_text(db, title, config.post_formats, show, episode, stream)
+	title = _format_post_text(config, db, title, config.post_formats, show, episode, stream)
 	info("Title:\n"+title)
-	body = _format_post_text(db, config.post_body, config.post_formats, show, episode, stream)
+	body = _format_post_text(config, db, config.post_body, config.post_formats, show, episode, stream)
 	info("Body:\n"+body)
 	return title, body
 
-def _format_post_text(db, text, formats, show, episode, stream):
+def _format_post_text(config, db, text, formats, show, episode, stream):
 	#TODO: change to a more block-based system (can exclude blocks without content)
 	if "{spoiler}" in text:
 		text = safe_format(text, spoiler=_gen_text_spoiler(formats, show))
@@ -145,8 +146,13 @@ def _format_post_text(db, text, formats, show, episode, stream):
 		text = safe_format(text, links=_gen_text_links(db, formats, show))
 	if "{discussions}" in text:
 		text = safe_format(text, discussions=_gen_text_discussions(db, formats, show, stream))
+<<<<<<< HEAD
 	if "{aliases}" in text:
 		text = safe_format(text, aliases=_gen_text_aliases(db, formats, show))
+=======
+	if "{poll}" in text:
+		text = safe_format(text, poll=_gen_text_poll(db, config, formats, show, episode))
+>>>>>>> poll
 	
 	episode_name = ": {}".format(episode.name) if episode.name else ""
 	text = safe_format(text, show_name=show.name, episode=episode.number, episode_name=episode_name)
@@ -209,8 +215,18 @@ def _gen_text_discussions(db, formats, show, stream):
 		table = []
 		for episode in episodes:
 			episode = stream.to_display_episode(episode)
-			score = db.get_episode_score_avg(show, episode)
-			table.append(safe_format(formats["discussion"], episode=episode.number, link=episode.link, score=score.score if score else ""))
+			poll_handler = services.get_default_poll_handler()
+			poll = db.get_poll(show, episode)
+			if poll is None:
+				score = None
+				poll_link = None
+			elif poll.has_score:
+				score = poll.score
+				poll_link = poll_handler.get_results_link(poll)
+			else:
+				score = poll_handler.get_score(poll)
+				poll_link = poll_handler.get_results_link(poll)
+			table.append(safe_format(formats["discussion"], episode=episode.number, link=episode.link, score=score if score else "", poll_link=poll_link if poll_link else "http://localhost")) # Need valid link even when empty
 
 		num_columns = 1 + (len(table) - 1) // 20
 		format_head, format_align = formats["discussion_header"], formats["discussion_align"]
@@ -225,6 +241,21 @@ def _gen_text_aliases(db, formats, show):
 	if len(aliases) == 0:
 		return ""
 	return safe_format(formats["aliases"], aliases=", ".join(aliases))
+
+def _gen_text_poll(db, config, formats, show, episode):
+	handler = services.get_default_poll_handler()
+	title = config.post_poll_title.format(show = show.name, episode = episode.number)
+
+	poll_id = handler.create_poll(title, headers = {'User-Agent': config.useragent})
+	if poll_id:
+		site = db.get_poll_site(key=handler.key)
+		db.add_poll(show, episode, site, poll_id)
+		poll = db.get_poll(show, episode)
+		poll_url = handler.get_link(poll)
+		poll_results_url = handler.get_results_link(poll)
+		return safe_format(formats["poll"], poll_url=poll_url, poll_results_url=poll_results_url)
+	else:
+		return ""
 
 # Helpers
 
