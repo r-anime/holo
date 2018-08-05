@@ -30,16 +30,18 @@ def _edit_with_file(db, edit_file):
 	for doc in parsed:
 		name = doc["title"]
 		stype = str_to_showtype(doc["type"])		# convert to enum?
-		length = doc["length"] if "length" in doc else 0
-		has_source = doc["has_source"]
+		length = doc.get("length", 0)
+		has_source = doc.get("has_source", False)
+		is_nsfw = doc.get("is_nsfw", False)
 		
 		info("Adding show \"{}\" ({})".format(name, stype))
 		debug("  has_source={}".format(has_source))
+		debug("  is_nsfw={}".format(is_nsfw))
 		if stype == ShowType.UNKNOWN:
 			error("Invalid show type \"{}\"".format(stype))
 			return False
 		
-		show = UnprocessedShow(None, None, name, [], stype, length, has_source)
+		show = UnprocessedShow(None, None, name, [], stype, length, has_source, is_nsfw)
 		found_ids = db.search_show_ids_by_names(name, exact=True)
 		debug("Found ids: {found_ids}")
 		if len(found_ids) == 0:
@@ -111,5 +113,12 @@ def _edit_with_file(db, edit_file):
 					db.add_lite_stream(show_id, service, service_name, url)
 				else:
 					error("    Stream handler not installed")
+
+		# Aliases
+		if "alias" in doc:
+			aliases = doc["alias"]
+			for alias in aliases:
+				db.add_alias(show_id, alias)
+			info(f"Added {len(aliases)} alias{'es' if len(aliases) > 1 else ''}")
 			
 	return True

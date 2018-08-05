@@ -1,6 +1,5 @@
 title: 'Aguu: Tensai Ningyou'
 type: tv
-has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37769/Aguu__Tensai_Ningyou'
   anilist: 'https://anilist.co/anime/101631'
@@ -163,6 +162,7 @@ streams:
 title: 'Grand Blue'
 type: tv
 has_source: true
+is_nsfw: true
 info:
   mal: 'https://myanimelist.net/anime/37105/Grand_Blue'
   anilist: 'https://anilist.co/anime/100922'
@@ -213,6 +213,7 @@ streams:
 title: 'Harukana Receive'
 type: tv
 has_source: true
+is_nsfw: true
 info:
   mal: 'https://myanimelist.net/anime/35983/Harukana_Receive'
   anilist: 'https://anilist.co/anime/99586'
@@ -261,6 +262,7 @@ streams:
 title: 'Hyakuren no Haou to Seiyaku no Valkyria'
 type: tv
 has_source: true
+is_nsfw: true
 info:
   mal: 'https://myanimelist.net/anime/37446/Hyakuren_no_Haou_to_Seiyaku_no_Valkyria'
   anilist: 'https://anilist.co/anime/101289'
@@ -277,6 +279,7 @@ streams:
 title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu'
 type: tv
 has_source: true
+is_nsfw: true
 info:
   mal: 'https://myanimelist.net/anime/37210/Isekai_Maou_to_Shoukan_Shoujo_no_Dorei_Majutsu'
   anilist: 'https://anilist.co/anime/101004'
@@ -537,6 +540,7 @@ streams:
 title: 'Sunohara-sou no Kanrinin-san'
 type: tv
 has_source: true
+is_nsfw: true
 info:
   mal: 'https://myanimelist.net/anime/36817/Sunoharasou_no_Kanrinin-san'
   anilist: 'https://anilist.co/anime/100556'
@@ -601,6 +605,7 @@ streams:
 title: 'Yuragi-sou no Yuuna-san'
 type: tv
 has_source: true
+is_nsfw: true
 info:
   mal: 'https://myanimelist.net/anime/36726/Yuragi-sou_no_Yuuna-san'
   anilist: 'https://anilist.co/anime/100483'
