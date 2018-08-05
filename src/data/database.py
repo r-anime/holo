@@ -602,6 +602,12 @@ class DatabaseDatabase:
 		if commit:
 			self.commit()
 
+	@db_error
+	def update_poll_score(self, poll: Poll, score, commit=True):
+		self.q.execute("UPDATE Polls SET score = ? WHERE show = ? AND episode = ?", (score, poll.show_id, poll.episode))
+		if commit:
+			self.commit()
+
 	@db_error_default(None)
 	def get_poll(self, show: Show, episode: Episode):
 		self.q.execute("SELECT show, episode, poll_service, poll_id, timestamp, score FROM Polls WHERE show = ? AND episode = ?", (show.id, episode.number))
@@ -616,7 +622,7 @@ class DatabaseDatabase:
 		if show is not None:
 			self.q.execute("SELECT show, episode, poll_service, poll_id, timestamp, score FROM Polls WHERE show = ?", (show.id,))
 		elif missing_score:
-			self.q.execute("SELECT show, episode, poll_id, timestamp, score FROM Polls WHERE score = NULL", (show.id,))
+			self.q.execute("SELECT show, episode, poll_service, poll_id, timestamp, score FROM Polls WHERE score is NULL")
 		else:
 			error("Need to select a show to get polls")
 			return list()
