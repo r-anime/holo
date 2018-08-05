@@ -54,6 +54,11 @@ class PollHandler(AbstractPollHandler):
 		return self._poll_results_link.format(id = poll.id)
 
 	def get_score(self, poll):
+		debug(f"Getting score for show {poll.show_id} / episode {poll.episode}")
 		response = self.request(self.get_results_link(poll), html = True)
 		value_text = response.find("span", class_="rating-mean-value").text
-		return float(value_text)
+		try:
+			return float(value_text)
+		except ValueError:
+			warning(f"Invalid value '{value_text}', no score returned")
+			return None
