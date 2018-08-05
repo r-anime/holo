@@ -29,6 +29,8 @@ info:
   mal: 'https://myanimelist.net/anime/36934/Captain_Tsubasa_2018'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13655'
   kitsu: 'https://kitsu.io/anime/14182'
+  anilist: 'https://anilist.co/anime/100745/Captain-Tsubasa-2018/'
+  official: 'http://ball-ha-tomodachi.com/'
 ---
 title: 'Souten no Ken Re:Genesis'
 type: tv
@@ -43,6 +45,7 @@ streams:
 ---
 title: 'Kakuriyo no Yadomeshi'
 type: tv
+alias: ['Kakuriyo: Bed & Breakfast for Spirits']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36754/Kakuriyo_no_Yadomeshi'
@@ -140,12 +143,14 @@ streams:
 ---
 title: 'Lupin III: Part 5'
 type: tv
+alias: ['Lupin Sansei: Part 5', 'Lupin the 3rd Part 5']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/35857/Lupin_III__Part_V'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13266'
   anilist: 'https://anilist.co/anime/100957/LupinIIIPartV'
   kitsu: 'https://kitsu.io/anime/13749'
+  official: 'http://lupin-pt5.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/lupin-the-3rd-part-5'
 ---
@@ -175,11 +180,14 @@ streams:
 ---
 title: 'Juushinki Pandora'
 type: tv
+alias: ['Last Hope']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/33531/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12252'
   kitsu: 'https://kitsu.io/anime/12297'
+  anilist: 'https://anilist.co/anime/100341/Juushinki-Pandora/'
+  official: 'http://www.project-pandora.jp/'
 ---
 title: 'Aikatsu Friends!'
 type: tv
@@ -188,6 +196,8 @@ info:
   mal: 'https://myanimelist.net/anime/37204/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13755'
   kitsu: 'https://kitsu.io/anime/41015'
+  official: 'http://www.aikatsu.com/friends/teaser/'
+  anilist: 'https://anilist.co/anime/101043/Aikatsu-Friends/'
 ---
 title: 'Tada-kun wa Koi o Shinai'
 type: tv
@@ -214,11 +224,14 @@ streams:
 ---
 title: 'Sword Gai: The Animation'
 type: tv
+alias: ['Sword Gai: The Animation Part II']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/27783/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14000'
   kitsu: 'https://kitsu.io/anime/9730'
+  anilist: 'https://anilist.co/anime/20875/Sword-Gai-The-Animation/'
+  official: 'http://swordgai-anime.com/'
 ---
 title: 'Megalo Box'
 type: tv
@@ -245,12 +258,14 @@ streams:
 ---
 title: 'Emiya-San Chi no Kyou no Gohan'
 type: tv
+alias: ["Today's Menu for the Emiya Family"]
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37033/Emiya-san_Chi_no_Kyou_no_Gohan'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13705'
   anilist: 'https://anilist.co/anime/100855/EmiyasanChinoKyounoGohan'
   kitsu: 'https://kitsu.io/anime/14154'
+  official: 'http://emiya-gohan.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/todays-menu-for-the-emiya-family'
 ---
@@ -262,6 +277,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13742'
   anilist: 'https://anilist.co/anime/100978/GegegenoKitarou2018'
   kitsu: 'https://kitsu.io/anime/14246'
+  official: 'http://www.toei-anim.co.jp/kitaro/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/gegege-no-kitaro'
   animelab|AnimeLab: 'https://www.animelab.com/shows/gegege-no-kitaro'
@@ -292,6 +308,7 @@ streams:
 ---
 title: 'Akkun to Kanojo'
 type: tv
+alias: ['My Sweet Tyrant']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36864'
@@ -324,6 +341,7 @@ streams:
 ---
 title: 'Nobunaga no Shinobi: Anegawa Ishiyama-hen'
 type: tv
+alias: ['Ninja Girl & Samurai Master: Anegawa and Ishiyama Arc']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37126'
@@ -349,12 +367,14 @@ streams:
 ---
 title: 'Boku no Hero Academia Season 3'
 type: tv
+alias: ['My Hero Academia Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36456'
   anilist: 'https://anilist.co/anime/100166/BokunoHeroAcademia3'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13485'
   kitsu: 'https://kitsu.io/anime/13881'
+  official: 'http://heroaca.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/my-hero-academia|38'
   funimation|Funimation: 'https://www.funimation.com/shows/my-hero-academia/'
@@ -368,6 +388,7 @@ info:
   anilist: 'https://anilist.co/anime/100306/Major2nd'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13518'
   kitsu: 'https://kitsu.io/anime/13952'
+  official: 'http://www.shopro.co.jp/tv/major2nd/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/major-2nd'
 ---
@@ -414,6 +435,7 @@ info:
   anilist: 'https://anilist.co/anime/99693/Persona5TheAnimation'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13331'
   kitsu: 'https://kitsu.io/anime/13684'
+  official: 'http://p5ausa.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/persona5-the-animation'
   animelab|AnimeLab: 'https://www.animelab.com/shows/persona-5-the-animation'
@@ -437,15 +459,18 @@ info:
   anilist: 'https://anilist.co/anime/101277/WakaokamiwaShougakusei'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13875'
   kitsu: 'https://kitsu.io/anime/41070'
+  official: 'http://www.waka-okami.jp/tv/'
 ---
 title: "Layton's Mystery Detective Agency - Katry's Mystery Solving Files"
 type: tv
+alias: ['Layton Mystery Tanteisha: Katri no Nazotoki File']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37023'
   anilist: 'https://anilist.co/anime/100785/LaytonMysteryTanteishaKatorinoNazotokiFile'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13497'
   kitsu: 'https://kitsu.io/anime/40578'
+  official: 'https://www.layton-anime.jp/'
 streams:
   nyaa: 'Layton Mystery File'
 ---
@@ -598,6 +623,7 @@ info:
   anilist: 'https://anilist.co/anime/21127/SteinsGate0'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11167'
   kitsu: 'https://kitsu.io/anime/10788'
+  official: 'http://steinsgate0-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/steinsgate-0'
   funimation|Funimation: 'https://www.funimation.com/shows/steinsgate/'
@@ -605,12 +631,14 @@ streams:
 ---
 title: 'Isekai Izakaya: Koto Aitheria no Izakaya Nobu'
 type: tv
+alias: ['Isekai Izakaya: Japanese Food from Another World']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/34420'
   anilist: 'https://anilist.co/anime/97873/IsekaiIzakayaKotoAitherianoIzakayaNobu'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12562'
   kitsu: 'https://kitsu.io/anime/13466'
+  official: 'https://r.gnavi.co.jp/nobu/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/isekai-izakaya-japanese-food-from-another-world'
 ---

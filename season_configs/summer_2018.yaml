@@ -15,6 +15,7 @@ streams:
 ---
 title: 'Angolmois: Genkou Kassenki'
 type: tv
+alias: ['Angolmois: Record of Mongol Invasion']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/35834/Angolmois__Genkou_Kassenki'
@@ -31,6 +32,7 @@ streams:
 ---
 title: 'Asobi Asobase'
 type: tv
+alias: ['Asobi Asobase: Workshop of Fun']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37171/Asobi_Asobase'
@@ -80,6 +82,7 @@ streams:
 ---
 title: 'Chio-chan no Tsuugakuro'
 type: tv
+alias: ["Chio's School Road"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/35821/Chio-chan_no_Tsuugakuro'
@@ -96,6 +99,7 @@ streams:
 ---
 title: 'Chuukan Kanriroku Tonegawa'
 type: tv
+alias: ['Mr. Tonegawa Middle Management Blues']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37338/Chuukan_Kanriroku_Tonegawa'
@@ -145,6 +149,7 @@ streams:
 ---
 title: 'Free! -Dive to the Future-'
 type: tv
+alias: ['Free! - Iwatobi Swim Club']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36704/Free__Dive_to_the_Future'
@@ -229,6 +234,7 @@ streams:
 ---
 title: 'Hataraku Saibou'
 type: tv
+alias: ['Cells at Work!']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37141/Hataraku_Saibou_TV'
@@ -261,6 +267,7 @@ streams:
 ---
 title: 'Hyakuren no Haou to Seiyaku no Valkyria'
 type: tv
+alias: ['The Master of Ragnarok & Blesser of Einherjar']
 has_source: true
 is_nsfw: true
 info:
@@ -278,6 +285,7 @@ streams:
 ---
 title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu'
 type: tv
+alias: ['How Not to Summon a Demon Lord']
 has_source: true
 is_nsfw: true
 info:
@@ -328,6 +336,7 @@ streams:
 ---
 title: 'Kyoto Teramachi Sanjou no Holmes'
 type: tv
+alias: ['Holmes of Kyoto']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37458/Kyoto_Teramachi_Sanjou_no_Holmes'
@@ -344,6 +353,7 @@ streams:
 ---
 title: 'Lord of Vermilion: Guren no Ou'
 type: tv
+alias: ['Lord of Vermilion: The Crimson King']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37601/Lord_of_Vermilion__Guren_no_Ou'
@@ -360,6 +370,7 @@ streams:
 ---
 title: 'Muhyo to Rouji no Mahouritsu Soudan Jimusho'
 type: tv
+alias: ["Muhyo & Roji's Bureau of Supernatural Investigation"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37487/Muhyo_to_Rouji_no_Mahouritsu_Soudan_Jimusho'
@@ -376,6 +387,7 @@ streams:
 ---
 title: 'Ongaku Shoujo'
 type: tv
+alias: ['Music Girls']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37481/Ongaku_Shoujo_TV'
@@ -441,6 +453,7 @@ streams:
 ---
 title: 'Satsuriku no Tenshi'
 type: tv
+alias: ['Angels of Death']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/35994/Satsuriku_no_Tenshi'
@@ -457,6 +470,7 @@ streams:
 ---
 title: 'Senjuushi'
 type: tv
+alias: ['The Thousand Musketeers']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37571/Senjuushi'
@@ -473,6 +487,7 @@ streams:
 ---
 title: 'Shichisei no Subaru'
 type: tv
+alias: ["Seven Senses of the Re'Union"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36316/Shichisei_no_Subaru'
@@ -490,6 +505,7 @@ streams:
 ---
 title: 'Shingeki no Kyojin Season 3'
 type: tv
+alias: ['Attack on Titan Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/35760/Shingeki_no_Kyojin_Season_3'
@@ -506,6 +522,7 @@ streams:
 ---
 title: 'Shinya! Tensai Bakabon'
 type: tv
+alias: ['Late Night! The Genius Bakabon']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37662/Shinya_Tensai_Bakabon'
@@ -539,6 +556,7 @@ streams:
 ---
 title: 'Sunohara-sou no Kanrinin-san'
 type: tv
+alias: ['Miss caretaker of Sunohara-sou']
 has_source: true
 is_nsfw: true
 info:
@@ -556,6 +574,7 @@ streams:
 ---
 title: 'Sirius the Jaeger'
 type: tv
+alias: ['Tenrou: Sirius the Jaeger']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37569/Tenrou__Sirius_the_Jaeger'
@@ -572,6 +591,7 @@ streams:
 ---
 title: 'Tsukumogami Kashimasu'
 type: tv
+alias: ['We Rent Tsukumogami']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36654/Tsukumogami_Kashimasu'
@@ -588,6 +608,7 @@ streams:
 ---
 title: 'Yume Oukoku to Nemureru 100 Nin no Ouji-sama'
 type: tv
+alias: ['100 Sleeping Princes & the Kingdom of Dreams']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/33966/Yume_Oukoku_to_Nemureru_100_Nin_no_Ouji-sama'
@@ -604,6 +625,7 @@ streams:
 ---
 title: 'Yuragi-sou no Yuuna-san'
 type: tv
+alias: ['Yuuna and the Haunted Hot Springs']
 has_source: true
 is_nsfw: true
 info:
@@ -637,6 +659,7 @@ streams:
 ---
 title: 'Ani ni Tsukeru Kusuri wa Nai! Season 2'
 type: tv
+alias: ['Please Take My Brother Away 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37924/Ani_ni_Tsukeru_Kusuri_wa_Nai_2'
@@ -653,6 +676,7 @@ streams:
 ---
 title: 'BanG Dream! Garupa☆Pico'
 type: tv
+alias: ['BanG Dream! Girls Band Party!☆PICO']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37873/BanG_Dream_Garupa%E2%98%86Pico'
@@ -669,6 +693,7 @@ streams:
 ---
 title: 'Cinderella Girls Gekijou Season 3'
 type: tv
+alias: ['The Idolmaster Cinderella Girls Theater', 'THE IDOLM@STER Cinderella Girls Theater']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37422/Cinderella_Girls_Gekijou_3rd_Season'
@@ -685,6 +710,7 @@ streams:
 ---
 title: 'Hataraku Onii-san! No 2!'
 type: tv
+alias: ['Working Buddies! 2!']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37646/Hataraku_Onii-san_No_2'
@@ -717,6 +743,7 @@ streams:
 ---
 title: 'Yama no Susume Season 3'
 type: tv
+alias: ['Encouragement of Climb: Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/35672/Yama_no_Susume__Third_Season'
@@ -733,6 +760,7 @@ streams:
 ---
 title: 'Yami Shibai Season 6'
 type: tv
+alias: ['Yamishibai: Japanese Ghost Stories 6']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37893/Yami_Shibai_6'
@@ -749,6 +777,7 @@ streams:
 ---
 title: 'Kouchuu Ouja Mushiking: Mori no Tami no Densetsu'
 type: tv
+alias: ['Mushiking: The Guardians of the Forest']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/04050/'
@@ -759,6 +788,7 @@ info:
 ---
 title: 'Aru Zombie Shoujo no Sainan'
 type: tv
+alias: ['Calamity of a Zombie Girl']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37735/Aru_Zombie_Shoujo_no_Sainan_ONA'
@@ -771,6 +801,7 @@ streams:
 ---
 title: 'Baki'
 type: tv
+alias: ['Baki (ONA)', 'NEW GRAPPLER BAKI']
 has_source: true
 info:
   official: 'https://baki-anime.jp/'
