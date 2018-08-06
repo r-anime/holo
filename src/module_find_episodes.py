@@ -1,4 +1,4 @@
-from logging import debug, info, error
+from logging import debug, info, warning, error
 from datetime import date, timedelta
 
 import services
@@ -109,16 +109,18 @@ def _process_new_episode(config, db, show, stream, episode):
 	return False
 
 def _create_reddit_post(config, db, show, stream, episode, submit=True):
-	flair_episode_template_id = '9a86e3de-95a6-11e8-b585-0e5d87ca40ca'
-
 	display_episode = stream.to_display_episode(episode)
 	
 	title, body = _create_post_contents(config, db, show, stream, display_episode)
 	if submit:
 		new_post = reddit.submit_text_post(config.subreddit, title, body)
 		if new_post is not None:
-			new_post.flair.select(flair_episode_template_id)
 			debug("Post successful")
+			try:
+				flair_template = next(flair['flair_template_id'] for flair in new_post.flair.choices() if flair['flair_text'] == 'Episode')
+				new_post.flair.select(flair_template)
+			except StopIteration:
+				warning('No flair found')
 			new_post.mod.spoiler()
 			if show.is_nsfw:
 				new_post.mod.nsfw()
