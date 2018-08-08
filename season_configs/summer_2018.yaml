@@ -96,7 +96,7 @@ streams:
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/chios-school-road/'
 ---
 title: 'Chuukan Kanriroku Tonegawa'
 type: tv
@@ -163,7 +163,7 @@ streams:
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/free/'
 ---
 title: 'Grand Blue'
 type: tv
@@ -364,11 +364,11 @@ info:
   kitsu: 'https://kitsu.io/anime/lord-of-vermilion-guren-no-ou'
   official: 'http://lord-of-vermilion.com/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/lord-of-vermilion-the-crimson-king'
   hidive: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/lord-of-vermilion-the-crimson-king/'
 ---
 title: 'Muhyo to Rouji no Mahouritsu Soudan Jimusho'
 type: tv
