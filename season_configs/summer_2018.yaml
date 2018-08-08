@@ -6,12 +6,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14044'
   kitsu: 'https://kitsu.io/anime/41380'
   official: 'http://aguu-anime.com/'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Angolmois: Genkou Kassenki'
 type: tv
@@ -25,10 +19,6 @@ info:
   official: 'http://angolmois-anime.jp/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/angolmois-record-of-mongol-invasion'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/angolmois-record-of-mongol-invasion'
 ---
 title: 'Asobi Asobase'
@@ -43,10 +33,6 @@ info:
   official: 'http://asobiasobase.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/asobi-asobase-workshop-of-fun-'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Back Street Girls'
 type: tv
@@ -57,12 +43,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13619'
   kitsu: 'https://kitsu.io/anime/back-street-girls'
   official: 'http://backstreetgirls-anime.toeiad.co.jp/'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Banana Fish'
 type: tv
@@ -74,12 +54,9 @@ info:
   kitsu: 'https://kitsu.io/anime/banana-fish'
   official: 'http://bananafish.tv/'
 streams:
-  crunchyroll: ''
-  hidive: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07F8H7SHY/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07F835N2K/'
   prime|Prime Video International: 'https://www.primevideo.com/detail/0G0XIRHP3SKCHL2U5VK7ZW45AU/ref=sr_hom_c_unkc_1_7?sr=1-7&qid=1530870151'
-  funimation|Funimation: ''
 ---
 title: 'Chio-chan no Tsuugakuro'
 type: tv
@@ -93,9 +70,6 @@ info:
   official: 'http://chiochan.jp/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/chios-school-road'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/chios-school-road/'
 ---
 title: 'Chuukan Kanriroku Tonegawa'
@@ -110,10 +84,6 @@ info:
   official: 'http://www.tonegawa-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/mr-tonegawa-middle-management-blues'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'FLCL Progressive'
 type: tv
@@ -126,11 +96,6 @@ info:
   official: 'http://flcl-anime.com/'
 streams:
   adultswim|Adult Swim: 'http://www.adultswim.com/videos/flcl/'
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'FLCL Alternative'
 type: tv
@@ -141,12 +106,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13258'
   kitsu: 'https://kitsu.io/anime/flcl-alternative'
   official: 'http://flcl-anime.com/'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Free! -Dive to the Future-'
 type: tv
@@ -160,9 +119,6 @@ info:
   official: 'http://df.iwatobi-sc.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/free-iwatobi-swim-club'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/free/'
 ---
 title: 'Grand Blue'
@@ -176,11 +132,8 @@ info:
   kitsu: 'https://kitsu.io/anime/grand-blue'
   official: 'http://grandblue-anime.com/'
 streams:
-  crunchyroll: ''
-  hidive: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07FFW6Q7Y/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07FFM8GRC/'
-  funimation|Funimation: ''
   prime|Prime Video International: 'https://www.primevideo.com/detail/0R9VJMVT7G1I5K03IUINLFHRBO/ref=sr_hom_c_unkc_1_11?sr=1-11&qid=1531513064'
 ---
 title: 'Hanebado!'
@@ -194,9 +147,6 @@ info:
   official: 'http://hanebad.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/hanebado'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/hanebado/'
 ---
 title: 'Happy Sugar Life'
@@ -209,11 +159,8 @@ info:
   kitsu: 'https://kitsu.io/anime/happy-sugar-life'
   official: 'http://happysugarlife.tv/'
 streams:
-  crunchyroll: ''
-  hidive: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07FJX3LV5/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07FLPTT4S/'
-  funimation|Funimation: ''
   prime|Prime Video International: 'https://www.primevideo.com/detail/0JP2KOCTCK273FDG78308B6ZUW/ref=sr_hom_c_unkc_1_10?sr=1-10&qid=1531513008'
 ---
 title: 'Harukana Receive'
@@ -228,9 +175,6 @@ info:
   official: 'http://www.harukana-receive.jp/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/harukana-receive'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/harukana-receive/'
 ---
 title: 'Hataraku Saibou'
@@ -245,10 +189,6 @@ info:
   official: 'http://hataraku-saibou.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/cells-at-work'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/cells-at-work'
 ---
 title: 'High Score Girl'
@@ -260,12 +200,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=10352'
   kitsu: 'https://kitsu.io/anime/high-score-girl'
   official: 'http://hi-score-girl.com/'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Hyakuren no Haou to Seiyaku no Valkyria'
 type: tv
@@ -280,9 +214,6 @@ info:
   official: 'http://hyakuren-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/the-master-of-ragnarok-blesser-of-einherjar'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/the-master-of-ragnarok-blesser-of-einherjar/'
 ---
 title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu'
@@ -298,9 +229,6 @@ info:
   official: 'http://isekaimaou-anime.com/'
 streams:
   crunchyrollnsfw|Crunchyroll: 'http://www.crunchyroll.com/how-not-to-summon-a-demon-lord'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/how-not-to-summon-a-demon-lord/'
 ---
 title: 'Island'
@@ -314,9 +242,6 @@ info:
   official: 'http://never-island.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/island'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/island/'
 ---
 title: 'Jashin-chan Dropkick'
@@ -329,11 +254,8 @@ info:
   kitsu: 'https://kitsu.io/anime/jashin-chan-dropkick'
   official: 'http://jashinchan.com/'
 streams:
-  crunchyroll: ''
-  hidive: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07FCH16QZ'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07F9YC387'
-  funimation|Funimation: ''
   prime|Prime Video International: 'https://www.primevideo.com/detail/0SP0YIS05HRN7BOYGXAKF1MQB0/ref=sr_hom_c_unkc_1_3?sr=1-3&qid=1531512941'
 ---
 title: 'Kyoto Teramachi Sanjou no Holmes'
@@ -348,10 +270,6 @@ info:
   official: 'http://kyototeramachi-holmes.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/holmes-of-kyoto'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Lord of Vermilion: Guren no Ou'
 type: tv
@@ -365,9 +283,6 @@ info:
   official: 'http://lord-of-vermilion.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/lord-of-vermilion-the-crimson-king'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/lord-of-vermilion-the-crimson-king/'
 ---
 title: 'Muhyo to Rouji no Mahouritsu Soudan Jimusho'
@@ -381,11 +296,7 @@ info:
   kitsu: 'https://kitsu.io/anime/muhyo-to-rouji-no-mahouritsu-soudan-jimusho'
   official: 'https://mahouritsu.com/'
 streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
+  crunchyroll: 'http://www.crunchyroll.com/muhyo-rojis-bureau-of-supernatural-investigation'
 ---
 title: 'Ongaku Shoujo'
 type: tv
@@ -399,10 +310,6 @@ info:
   official: 'http://ongaku-shoujo.jp/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/music-girls'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/music-girls'
 ---
 title: 'Overlord III'
@@ -416,9 +323,6 @@ info:
   official: 'http://overlord-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/overlord'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/overlord/'
   hulu|Hulu: 'https://www.hulu.com/overlord'
   animelab|AnimeLab: 'https://www.animelab.com/shows/overlord'
@@ -434,10 +338,6 @@ info:
   official: 'http://phantowa.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/phantom-in-the-twilight'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Planet With'
 type: tv
@@ -450,10 +350,6 @@ info:
   official: 'http://planet-with.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/planet-with'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Satsuriku no Tenshi'
 type: tv
@@ -467,9 +363,6 @@ info:
   official: 'http://satsuriku.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/angels-of-death'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/angels-of-death/'
 ---
 title: 'Senjuushi'
@@ -483,11 +376,7 @@ info:
   kitsu: 'https://kitsu.io/anime/senjuushi'
   official: 'https://noble.marv.jp/anime/'
 streams:
-  crunchyroll: ''
   hidive: 'https://www.hidive.com/tv/the-thousand-musketeers'
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Shichisei no Subaru'
 type: tv
@@ -500,12 +389,9 @@ info:
   kitsu: 'https://kitsu.io/anime/shichisei-no-subaru'
   official: 'http://www.tbs.co.jp/anime/subaru/'
 streams:
-  crunchyroll: ''
-  hidive: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07F8K3RVS/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07F8GVQR8'
   prime|Prime Video International: 'https://www.primevideo.com/detail/0K64D00TCHCHVDKABAJ62Z8U2C/ref=sr_hom_c_unkc_1_8?sr=1-8&qid=1530870194'
-  funimation|Funimation: ''
 ---
 title: 'Shingeki no Kyojin Season 3'
 type: tv
@@ -519,9 +405,6 @@ info:
   official: 'https://shingeki.tv/season3/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/attack-on-titan|37'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   funimation|Funimation: 'https://www.funimation.com/shows/attack-on-titan/'
   animelab|AnimeLab: 'https://www.animelab.com/shows/attack-on-titan'
 ---
@@ -537,10 +420,6 @@ info:
   official: 'http://shinya-bakabon.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/late-night-the-genius-bakabon'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Shoujo☆Kageki Revue Starlight'
 type: tv
@@ -553,11 +432,7 @@ info:
   official: 'https://revuestarlight.com/'
 streams:
   nyaa: 'Shoujo Kageki Revue Starlight'
-  crunchyroll: ''
   hidive: 'https://www.hidive.com/tv/revue-starlight'
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Sunohara-sou no Kanrinin-san'
 type: tv
@@ -570,12 +445,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13589'
   kitsu: 'https://kitsu.io/anime/41379'
   official: 'http://sunoharasou-anime.com/'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Sirius the Jaeger'
 type: tv
@@ -587,12 +456,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13959'
   kitsu: 'https://kitsu.io/anime/sirius-the-jaeger'
   official: 'http://sirius-the-jaeger.com/'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Tsukumogami Kashimasu'
 type: tv
@@ -604,12 +467,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13539'
   kitsu: 'https://kitsu.io/anime/tsukumogami-kashimasu'
   official: 'http://tsukumogami.jp/'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Yume Oukoku to Nemureru 100 Nin no Ouji-sama'
 type: tv
@@ -622,11 +479,7 @@ info:
   kitsu: 'https://kitsu.io/anime/41378'
   official: 'http://yume-100-anime.com/'
 streams:
-  crunchyroll: ''
   hidive: 'https://www.hidive.com/tv/100-sleeping-princes-the-kingdom-of-dreams'
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Yuragi-sou no Yuuna-san'
 type: tv
@@ -641,10 +494,6 @@ info:
   official: 'http://yuragisou.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/yuuna-and-the-haunted-hot-springs'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/yuuna-and-the-haunted-hot-springs'
 ---
 title: 'Zoids Wild'
@@ -656,12 +505,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13845'
   kitsu: 'https://kitsu.io/anime/zoids-wild'
   official: 'https://www.anime-zoidswild.jp/'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Ani ni Tsukeru Kusuri wa Nai! Season 2'
 type: tv
@@ -673,12 +516,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14098'
   kitsu: 'https://kitsu.io/anime/ani-ni-tsukeru-kusuri-wa-nai-2'
   official: ''
-streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'BanG Dream! Garupa☆Pico'
 type: tv
@@ -690,12 +527,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14077'
   kitsu: 'https://kitsu.io/anime/bang-dream-garupa-pico'
   official: 'https://anime.bang-dream.com/pico/'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Cinderella Girls Gekijou Season 3'
 type: tv
@@ -709,10 +540,6 @@ info:
   official: 'http://cingeki-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/the-idolmster-cinderella-girls-theater'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Hataraku Onii-san! No 2!'
 type: tv
@@ -726,10 +553,6 @@ info:
   official: 'http://www.hataoni.jp/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/working-buddies'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'One Room Season 2'
 type: tv
@@ -742,10 +565,6 @@ info:
   official: 'http://oneroom-anime.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/oneroom'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Yama no Susume Season 3'
 type: tv
@@ -759,10 +578,6 @@ info:
   official: 'http://www.yamanosusume.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/encouragement-of-climb'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Yami Shibai Season 6'
 type: tv
@@ -776,10 +591,6 @@ info:
   official: 'http://www.tv-tokyo.co.jp/anime/yamishibai/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/yamishibai-japanese-ghost-stories'
-  hidive: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  funimation|Funimation: ''
 ---
 title: 'Kouchuu Ouja Mushiking: Mori no Tami no Densetsu'
 type: tv
