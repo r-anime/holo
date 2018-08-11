@@ -178,7 +178,7 @@ class DatabaseDatabase:
 			score		REAL,
 			FOREIGN KEY(show) REFERENCES Shows(id),
 			FOREIGN KEY(poll_service) REFERENCES PollSites(id),
-			UNIQUE(show, episode)
+			UNIQUE(show, episode) ON CONFLICT REPLACE
 		)""")
 		
 		self.commit()
