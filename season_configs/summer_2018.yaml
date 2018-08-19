@@ -456,6 +456,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13959'
   kitsu: 'https://kitsu.io/anime/sirius-the-jaeger'
   official: 'http://sirius-the-jaeger.com/'
+streams:
+  nyaa: 'MTBB Sirius the Jaeger'
 ---
 title: 'Tsukumogami Kashimasu'
 type: tv
