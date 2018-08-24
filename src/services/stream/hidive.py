@@ -97,7 +97,7 @@ def _is_valid_episode(episode_data, show_key):
 def _digest_episode(feed_episode):
     debug("Digesting episode")
 
-    episode_link = feed_episode.a['data-playurl']
+    episode_link = feed_episode.a['href']
 
     # Get data
     num_match = _episode_re.match(episode_link)
