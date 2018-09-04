@@ -407,6 +407,7 @@ streams:
   crunchyroll: 'http://www.crunchyroll.com/attack-on-titan|37'
   funimation|Funimation: 'https://www.funimation.com/shows/attack-on-titan/'
   animelab|AnimeLab: 'https://www.animelab.com/shows/attack-on-titan'
+  hulu|Hulu: 'https://www.hulu.com/attack-on-titan'
 ---
 title: 'Shinya! Tensai Bakabon'
 type: tv
