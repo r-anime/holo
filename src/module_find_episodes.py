@@ -202,7 +202,11 @@ def _gen_text_links(db, formats, show):
 		site = db.get_link_site(id=link.site)
 		if site.enabled:
 			link_handler = services.get_link_handler(site)
-			text = safe_format(formats["link"], site_name=site.name, link=link_handler.get_link(link))
+			if site.name == "subreddit":
+				text = safe_format(formats["link"], site_name=site.name, link=link_handler.get_link(link))
+			else:
+				subreddit = link_handler.get_link(link)
+				text = safe_format(formats["link"], site_name=subreddit, link=subreddit)
 			link_texts.append(text)
 			
 	return "\n".join(link_texts)
