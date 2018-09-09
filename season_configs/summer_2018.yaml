@@ -403,6 +403,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13241'
   kitsu: 'https://kitsu.io/anime/shingeki-no-kyojin-3'
   official: 'https://shingeki.tv/season3/'
+  subreddit: '/r/ShingekiNoKyojin/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/attack-on-titan|37'
   funimation|Funimation: 'https://www.funimation.com/shows/attack-on-titan/'
