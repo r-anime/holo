@@ -435,7 +435,6 @@ info:
   kitsu: 'https://kitsu.io/anime/shoujo-kageki-revue-starlight'
   official: 'https://revuestarlight.com/'
 streams:
-  nyaa: ' ACSS Shoujo Kageki Revue Starlight'
   hidive: 'https://www.hidive.com/tv/revue-starlight'
 ---
 title: 'Sunohara-sou no Kanrinin-san'
@@ -461,7 +460,6 @@ info:
   kitsu: 'https://kitsu.io/anime/sirius-the-jaeger'
   official: 'http://sirius-the-jaeger.com/'
 streams:
-  nyaa: 'MTBB Sirius the Jaeger'
 ---
 title: 'Tsukumogami Kashimasu'
 type: tv
