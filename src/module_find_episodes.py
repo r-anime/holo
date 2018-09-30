@@ -154,7 +154,8 @@ def _format_post_text(config, db, text, formats, show, episode, stream):
 		text = safe_format(text, poll=_gen_text_poll(db, config, formats, show, episode))
 	
 	episode_name = ": {}".format(episode.name) if episode.name else ""
-	text = safe_format(text, show_name=show.name, episode=episode.number, episode_name=episode_name)
+	episode_alt_number = "" if stream.display_offset == 0 else f" / {episode.number - stream.display_offset}"
+	text = safe_format(text, show_name=show.name, episode=episode.number, episode_alt_number=episode_alt_number, episode_name=episode_name)
 	return text.strip()
 
 def _create_post_title(config, show, episode):
