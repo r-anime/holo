@@ -137,7 +137,7 @@ streams:
 ---
 title: 'Fairy Tail (2018)'
 type: tv
-alias: ['Fairy Tail Season 3']
+alias: ['Fairy Tail Season 3', 'Fairy Tail Final Series']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/35972/Fairy_Tail_2018'
@@ -217,7 +217,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14185'
   kitsu: 'https://kitsu.io/anime/golden-kamuy-2'
   official: 'http://www.kamuy-anime.com/'
-  subreddit: ''
+  subreddit: '/r/GoldenKamuy'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -343,7 +343,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13925'
   kitsu: 'https://kitsu.io/anime/iroduku-sekai-no-ashita-kara'
   official: 'http://www.iroduku.jp/'
-  subreddit: ''
+  subreddit: '/r/IrozukuSekaiNoAshita'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -379,7 +379,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13898'
   kitsu: 'https://kitsu.io/anime/karakuri-circus'
   official: 'https://karakuri-anime.com/'
-  subreddit: ''
+  subreddit: '/r/KarakuriCircus'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -417,7 +417,7 @@ info:
   official: 'http://www.xuanyuansword.net/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/xuan-yuan-sword-luminary'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -662,7 +662,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13871'
   kitsu: 'https://kitsu.io/anime/tensei-shitara-slime-datta-ken'
   official: 'http://www.ten-sura.com/'
-  subreddit: ''
+  subreddit: '/r/TenseiSlime'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -790,7 +790,7 @@ info:
   official: 'http://tiramisu-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/space-battleship-tiramisu'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -806,7 +806,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13498'
   kitsu: 'https://kitsu.io/anime/ulysses-jeanne-darc-to-renkin-no-kishi'
   official: 'http://www.ulysses-anime.jp/'
-  subreddit: ''
+  subreddit: '/r/UlyssesJeannedArc'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -842,10 +842,22 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14198'
   kitsu: 'https://kitsu.io/anime/zombieland-saga'
   official: 'http://www.zombielandsaga.com/'
-  subreddit: ''
+  subreddit: '/r/ZombielandSaga'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
   hidive: ''
+---
+title: 'SSSS.Gridman'
+type: tv
+alias: ['']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/35847/SSSSGridman'
+  anilist: 'https://anilist.co/anime/99424/SSSSGRIDMAN/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13260'
+  kitsu: 'https://kitsu.io/anime/ssss-gridman'
+  official: 'https://gridman.net/'
+  subreddit: '/r/SSSSGRIDMAN'
