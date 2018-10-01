@@ -14,7 +14,7 @@ streams:
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/the-girl-in-twilight'
 ---
 title: 'Anima Yell!'
 type: tv
@@ -62,7 +62,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14025'
   kitsu: 'https://kitsu.io/anime/beelzebub-jou-no-okinimesu-mama'
   official: 'https://beelmama.com/'
-  subreddit: ''
+  subreddit: '/r/AsMissBeelzebubLikes'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -145,7 +145,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13295'
   kitsu: 'https://kitsu.io/anime/fairy-tail-2018'
   official: 'http://www.fairytail-tv.com/'
-  subreddit: ''
+  subreddit: '/r/fairytail'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/fairy-tail|102'
   funimation|Funimation: ''
@@ -253,7 +253,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13918'
   kitsu: 'https://kitsu.io/anime/gyakuten-saiban-sono-shinjitsu-igi-ari-season-2'
   official: 'http://www.ytv.co.jp/animegyakuten/'
-  subreddit: ''
+  subreddit: '/r/AceAttorney'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -469,7 +469,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13768'
   kitsu: 'https://kitsu.io/anime/merc-storia-mukiryoku-no-shounen-to-bin--no-naka-no-shoujo'
   official: 'http://www.mercstoria.jp/'
-  subreddit: ''
+  subreddit: '/r/mercstoriaanime'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -505,7 +505,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13534'
   kitsu: 'https://kitsu.io/anime/ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai'
   official: 'http://imo-imo.jp/'
-  subreddit: ''
+  subreddit: '/r/OregaSuki'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -541,7 +541,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13760'
   kitsu: 'https://kitsu.io/anime/release-the-spyce'
   official: 'http://www.releasethespyce.jp/'
-  subreddit: ''
+  subreddit: '/r/ReleaseTheSpyceTV'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -644,7 +644,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13493'
   kitsu: 'https://kitsu.io/anime/sword-art-online-alicization'
   official: 'http://www.swordart-online.net/alicization/'
-  subreddit: ''
+  subreddit: '/r/swordartonline'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -664,7 +664,7 @@ info:
   official: 'http://www.ten-sura.com/'
   subreddit: '/r/TenseiSlime'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -716,7 +716,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14059'
   kitsu: 'https://kitsu.io/anime/tokyo-ghoul-re-2nd-season'
   official: 'http://www.marv.jp/special/tokyoghoul/'
-  subreddit: ''
+  subreddit: '/r/TokyoGhoul'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -734,7 +734,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13966'
   kitsu: 'https://kitsu.io/anime/tonari-no-kyuuketsuki-san'
   official: 'http://kyuketsukisan-anime.com/'
-  subreddit: ''
+  subreddit: '/r/MsVampire'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -770,7 +770,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14026'
   kitsu: 'https://kitsu.io/anime/uchi-no-maid-ga-uzasugiru'
   official: 'http://uzamaid.com/'
-  subreddit: ''
+  subreddit: '/r/TsubaKuma'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
@@ -824,13 +824,13 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14053'
   kitsu: 'https://kitsu.io/anime/yagate-kimi-ni-naru'
   official: 'http://yagakimi.com/'
-  subreddit: ''
+  subreddit: '/r/YagateKiminiNaru'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/bloom-into-you'
 ---
 title: 'Zombieland Saga'
 type: tv

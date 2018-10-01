@@ -53,6 +53,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13536'
   kitsu: 'https://kitsu.io/anime/banana-fish'
   official: 'http://bananafish.tv/'
+  subreddit: '/r/BananaFish'
 streams:
   amazon|Amazon US: 'https://www.amazon.com/dp/B07F8H7SHY/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07F835N2K/'
@@ -459,7 +460,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13959'
   kitsu: 'https://kitsu.io/anime/sirius-the-jaeger'
   official: 'http://sirius-the-jaeger.com/'
-streams:
 ---
 title: 'Tsukumogami Kashimasu'
 type: tv
