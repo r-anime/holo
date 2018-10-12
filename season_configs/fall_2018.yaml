@@ -63,7 +63,7 @@ info:
   official: 'https://beelmama.com/'
   subreddit: '/r/AsMissBeelzebubLikes'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/as-miss-beelzebub-likes'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -80,7 +80,7 @@ info:
   official: 'http://www.conception-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/conception'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -131,6 +131,7 @@ info:
   official: 'http://dabudeka.com/'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/double-decker-doug-kirill'
+  funimation|Funimation: 'https://www.funimation.com/shows/double-decker-doug-kirill/'
 ---
 title: 'Fairy Tail (2018)'
 type: tv
@@ -145,7 +146,7 @@ info:
   subreddit: '/r/fairytail'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/fairy-tail|277'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/fairy-tail/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -213,8 +214,8 @@ info:
   official: 'http://www.kamuy-anime.com/'
   subreddit: '/r/GoldenKamuy'
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
+  crunchyroll: 'https://www.crunchyroll.com/golden-kamuy|12'
+  funimation|Funimation: 'https://www.funimation.com/shows/golden-kamuy/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -249,7 +250,7 @@ info:
   subreddit: '/r/AceAttorney'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/ace-attorney'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/ace-attorney/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -373,8 +374,9 @@ info:
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B07J68L6MX/'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07JVD926B/'
+  primavideo|Prime Video International: 'https://www.primevideo.com/detail/0P0W7USHCFM68GIT1DRVJ3M0MU/'
   hidive: ''
 ---
 title: 'Kaze ga Tsuyoku Fuite Iru'
@@ -461,7 +463,7 @@ info:
   official: 'http://www.mercstoria.jp/'
   subreddit: '/r/mercstoriaanime'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/merc-storia-the-apathetic-boy-and-the-girl-in-a-bottle'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -486,7 +488,7 @@ streams:
 ---
 title: 'Ore ga Suki nano wa Imouto dakedo Imouto ja Nai'
 type: tv
-alias: ['ImoImo']
+alias: ['My Sister, My Writer']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36632/Ore_ga_Suki_nano_wa_Imouto_dakedo_Imouto_ja_Nai'
@@ -496,7 +498,7 @@ info:
   official: 'http://imo-imo.jp/'
   subreddit: '/r/OregaSuki'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/my-sister-my-writer'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -562,7 +564,7 @@ info:
   subreddit: '/r/SeishunButaYarou'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/rascal-does-not-dream-of-bunny-girl-senpai'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/rascal-does-not-dream-of-bunny-girl-senpai/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -579,8 +581,9 @@ info:
   official: 'http://www.senran2.tv/'
   subreddit: ''
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
+  crunchyroll_nsfw|Crunchyroll: 'https://www.crunchyroll.com/senran-kagura-shinovi-master'
+  funimation|Funimation: 'https://www.funimation.com/shows/senran-kagura/'
+  nyaa: 'SENRAN KAGURA SHINOVI MASTER'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -651,7 +654,7 @@ info:
   subreddit: '/r/TenseiSlime'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/that-time-i-got-reincarnated-as-a-slime/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -667,7 +670,7 @@ info:
   official: 'http://www.sidem-wakemini.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/the-idolmster-sidem-wakeatte-mini'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -685,7 +688,8 @@ info:
   official: 'http://toaru-project.com/index_3/'
   subreddit: '/r/toarumajutsunoindex'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/a-certain-magical-index'
+  crunchyroll|Crunchyroll: 'https://www.crunchyroll.com/a-certain-magical-index'
+  nyaa: '[GJM] To Aru Majutsu no Index III'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -703,8 +707,11 @@ info:
   official: 'http://www.marv.jp/special/tokyoghoul/'
   subreddit: '/r/TokyoGhoul'
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
+  crunchyroll: 'https://www.crunchyroll.com/tokyo-ghoul-re|12'
+  funimation|Funimation: 'https://www.funimation.com/shows/tokyo-ghoul/'
+  hulu|Hulu: 'https://www.hulu.com/series/tokyo-ghoul-29a2841c-3556-49e5-89b1-84cbe2682fc9'
+  nyaa: 'Tokyo Ghoul:re S2'
+  animelab|Anime Lab: 'http://www.animelab.com/shows/tokyo-ghoul'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -775,14 +782,13 @@ info:
   subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/space-battleship-tiramisu'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/space-battleship-tiramisu/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
 ---
-title: 'Ulysses: Jehanne Darc to Renkin no Kishi'
+title: "Ulysses: Jeanne d'Arc to Renkin no Kishi"
 type: tv
-alias: ["Ulysses: Jeanne d'Arc to Renkin no Kishi"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36510/Ulysses__Jehanne_Darc_to_Renkin_no_Kishi'
@@ -870,3 +876,13 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14371'
   kitsu: ''
   official: 'http://www.nhk.or.jp/anime/pingu/'
+---
+title: 'Otona no Bouguya-san'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/38395/Otona_no_Bouguya-san'
+  anilist: 'https://anilist.co/anime/104308/Otona-no-Bouguyasan/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14412'
+  kitsu: ''
+  official: 'https://ganma.jp/g/anime/otonabougu/'
