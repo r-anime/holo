@@ -198,7 +198,7 @@ info:
   subreddit: '/r/GoblinSlayer'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/goblin-slayer'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/goblin-slayer/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -516,7 +516,7 @@ info:
   subreddit: '/r/RadiantManga'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/radiant'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/radiant/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -636,7 +636,7 @@ info:
   subreddit: '/r/swordartonline'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/sword-art-online'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/sword-art-online/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -690,7 +690,7 @@ info:
 streams:
   crunchyroll|Crunchyroll: 'https://www.crunchyroll.com/a-certain-magical-index'
   nyaa: '[GJM] To Aru Majutsu no Index III'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/a-certain-magical-index/#videos'
   amazon: ''
   amazon_uk: ''
   hidive: ''
