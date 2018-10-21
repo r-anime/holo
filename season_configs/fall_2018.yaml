@@ -299,7 +299,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13629'
   kitsu: 'https://kitsu.io/anime/himote-house'
   official: 'http://himotehouse.com/'
-  subreddit: ''
+  subreddit: '/r/HimoteHouse'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/himote-house-a-share-house-of-super-psychic-girls'
   funimation|Funimation: ''
@@ -496,7 +496,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13534'
   kitsu: 'https://kitsu.io/anime/ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai'
   official: 'http://imo-imo.jp/'
-  subreddit: '/r/OregaSuki'
+  subreddit: '/r/OregaSukinanowaImouto'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/my-sister-my-writer'
   funimation|Funimation: ''
@@ -530,7 +530,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13760'
   kitsu: 'https://kitsu.io/anime/release-the-spyce'
   official: 'http://www.releasethespyce.jp/'
-  subreddit: '/r/ReleaseTheSpyceTV'
+  subreddit: '/r/ReleaseTheSpyceAnime'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
