@@ -746,7 +746,7 @@ info:
   official: 'http://tsurune.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/tsurune'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
