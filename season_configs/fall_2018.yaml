@@ -15,6 +15,7 @@ streams:
   amazon: ''
   amazon_uk: ''
   hidive: 'https://www.hidive.com/tv/the-girl-in-twilight'
+  vrv|VRV: 'https://vrv.co/series/G624580PY/The-Girl-in-Twilight'
 ---
 title: 'Anima Yell!'
 type: tv
@@ -63,7 +64,7 @@ info:
   official: 'https://beelmama.com/'
   subreddit: '/r/AsMissBeelzebubLikes'
 streams:
-  crunchyroll: 'http://www.crunchyroll.com/as-miss-beelzebub-likes'
+  crunchyroll: 'https://www.crunchyroll.com/as-miss-beelzebub-likes-it'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -186,6 +187,7 @@ streams:
   amazon: ''
   amazon_uk: ''
   hidive: 'https://www.hidive.com/tv/gakuen-basara-samurai-high-school'
+  vrv|VRV: 'https://vrv.co/series/GRNVJ9PX6/Gakuen-Basara-Samurai-High-School'
 ---
 title: 'Goblin Slayer'
 type: tv
@@ -537,6 +539,7 @@ streams:
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
+  vrv|VRV: 'https://vrv.co/series/G67910Z5Y/Release-the-Spyce'
   hidive: 'https://www.hidive.com/tv/release-the-spyce'
 ---
 title: 'RErideD: Tokigoe no Derrida'
