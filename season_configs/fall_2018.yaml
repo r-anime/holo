@@ -162,7 +162,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13440'
   kitsu: 'https://kitsu.io/anime/gaikotsu-shotenin-honda-san'
   official: 'http://gaikotsu-honda-anime.com/'
-  subreddit: ''
+  subreddit: '/r/HondaSan'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/skull-face-bookseller-honda-san'
   funimation|Funimation: ''
@@ -644,6 +644,7 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/sword-art-online/'
   hulu|Hulu: 'https://www.hulu.com/series/sword-art-online-alicization-c22224e3-93c0-40ab-895d-1475d94a6688'
   animelab|Anime Lab: 'https://www.animelab.com/shows/sword-art-online'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/377/sword-art-online-alicization'
   amazon: ''
   amazon_uk: ''
   hidive: ''
