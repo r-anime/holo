@@ -894,3 +894,16 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14412'
   kitsu: ''
   official: 'https://ganma.jp/g/anime/otonabougu/'
+---
+title: 'Saint Seiya Saintia Sho'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34539/'
+  anilist: 'https://anilist.co/anime/97919/Saint-Seiya-Saintia-Shou/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12648'
+  kitsu: 'https://kitsu.io/anime/saint-seiya-saintia-shou'
+  official: 'https://www.saintia-sho.com/pc/'
+  subreddit: '/r/SaintSeiya'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/saint-seiya-saintia-sho'
