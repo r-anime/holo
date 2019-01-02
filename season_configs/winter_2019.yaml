@@ -707,7 +707,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14051'
   kitsu: 'https://kitsu.io/anime/yakusoku-no-neverland'
   official: 'https://neverland-anime.com/'
-  subreddit: ''
+  subreddit: '/r/thepromisedneverland'
 streams:
   crunchyroll: ''
   hidive: ''
