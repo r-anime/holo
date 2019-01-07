@@ -63,11 +63,11 @@ info:
   subreddit: '/r/BanGDream'
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/bang-dream-s2'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/watch/GY79ZWQMR/BanG-Dream-S2'
 ---
 title: 'Bermuda Triangle: Colorful Pastrale'
 has_source: true
@@ -87,7 +87,7 @@ streams:
   vrv|VRV: ''
 ---
 title: 'Boogiepop wa Warawanai'
-alias: ['Boogiepop Never Laughs']
+alias: ['Boogiepop Never Laughs', 'Boogiepop and Others']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37451/Boogiepop_wa_Warawanai_2019'
@@ -97,7 +97,7 @@ info:
   official: 'http://boogiepop-anime.com/'
   subreddit: '/r/Boogiepop'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/boogiepop-and-others'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -186,8 +186,8 @@ streams:
   crunchyroll: ''
   hidive: ''
   funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B07MLLQL8J/'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07MLJJ51W/'
   vrv|VRV: ''
 ---
 title: 'Doukyonin wa Hiza, Tokidoki, Atama no Ue.'
@@ -218,7 +218,7 @@ info:
   official: 'http://egaonodaika.com/'
   subreddit: '/r/EgaoNoDaika'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/the-price-of-smiles'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -253,7 +253,7 @@ info:
   official: 'http://www.mononokean.tv/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-morose-mononokean'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -418,6 +418,19 @@ streams:
   amazon_uk|Amazon UK: ''
   vrv|VRV: ''
 ---
+title: 'Lord El-Melloi II Sei no Jikenbo: Rail Zeppelin Grace Note'
+alias: ["Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note"]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38959/Lord_El-Melloi_II_Sei_no_Jikenbo__Rail_Zeppelin_Grace_Note'
+  anilist: 'https://anilist.co/anime/106918/Lord-ElMelloi-IIsei-no-Jikenbo-Rail-Zeppelin-Grace-note/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14580'
+  kitsu: 'https://kitsu.io/anime/lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note'
+  official: 'https://anime.elmelloi.com/'
+  subreddit: '/r/fatestaynight'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/lord-el-melloi-iis-case-files-rail-zeppelin-grace-note'
+---
 title: 'Mahou Shoujo Tokushusen Asuka'
 alias: ['Magical Girl Spec-Ops Asuka']
 has_source: true
@@ -499,7 +512,7 @@ info:
   official: 'http://minitoji.jp/'
   subreddit: '/r/TojinoMiko'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/katana-maidens-mini-toji'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -516,7 +529,7 @@ info:
   official: 'http://mobpsycho100.com/'
   subreddit: '/r/Mobpsycho100'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/mob-psycho-100'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -534,7 +547,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/pastel-memories'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -640,7 +653,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/how-clumsy-you-are-miss-ueno-'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -675,7 +688,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/wz'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
