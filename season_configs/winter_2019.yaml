@@ -11,7 +11,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/real-girl|12'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -28,7 +28,7 @@ info:
   official: 'http://rainycocoa.jp/anime/index.html'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/rainy-cocoa-sideg'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -67,7 +67,7 @@ streams:
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: 'https://vrv.co/watch/GY79ZWQMR/BanG-Dream-S2'
+  vrv|VRV: 'https://vrv.co/series/GY0X2J3G6/BanG-Dream-S2'
 ---
 title: 'Bermuda Triangle: Colorful Pastrale'
 has_source: true
@@ -80,7 +80,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/bermuda-triangle-colorful-pastrale'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -149,7 +149,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/dimension-high-school'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -167,7 +167,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/domestic-girlfriend'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -188,6 +188,7 @@ streams:
   funimation|Funimation: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07MLLQL8J/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07MLJJ51W/'
+  primevideo|Prime Video International: 'https://www.primevideo.com/detail/0TVO1JG449EFL5TZRWMN0DHHG0/'
   vrv|VRV: ''
 ---
 title: 'Doukyonin wa Hiza, Tokidoki, Atama no Ue.'
@@ -495,7 +496,7 @@ info:
   official: 'https://meikoi.com/tv-anime/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/meiji-tokyo-renka'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -551,7 +552,7 @@ streams:
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G63KZEWE6/Pastel-Memories'
 ---
 title: 'Piano no Mori Season 2'
 alias: ['Piano Forest']
@@ -599,7 +600,7 @@ info:
   official: 'http://www.ekodachan.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll_nsfw|Crunchyroll: 'http://www.crunchyroll.com/rinshi-ekodachan'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -639,7 +640,7 @@ streams:
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G6W4QKX0R/The-Rising-of-the-Shield-Hero'
 ---
 title: 'Ueno-san wa Bukiyou'
 alias: ['How clumsy you are, Miss Ueno.']
@@ -657,7 +658,7 @@ streams:
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GYXJ52M06'
 ---
 title: 'Virtual-san wa Miteiru'
 alias: ['Virtual-san Looking']
@@ -704,7 +705,7 @@ info:
   official: 'http://watatentv.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/wataten-an-angel-flew-down-to-me'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -722,8 +723,8 @@ info:
   official: 'https://neverland-anime.com/'
   subreddit: '/r/thepromisedneverland'
 streams:
-  crunchyroll: ''
-  hidive: ''
+  crunchyroll: 'http://www.crunchyroll.com/the-promised-neverland'
+  hidive: 'https://www.hidive.com/tv/the-promised-neverland'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
