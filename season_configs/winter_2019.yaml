@@ -15,7 +15,7 @@ streams:
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GREXP3X9Y/Real-Girl'
 ---
 title: 'Ame-iro Cocoa: Side G'
 alias: ['Rainy Cocoa Season 5']
@@ -45,7 +45,7 @@ info:
   official: 'https://bpro-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/b-project'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -84,7 +84,7 @@ streams:
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GYW4Q1ZQ6/Bermuda-Triangle-Colorful-Pastrale'
 ---
 title: 'Boogiepop wa Warawanai'
 alias: ['Boogiepop Never Laughs', 'Boogiepop and Others']
@@ -131,7 +131,7 @@ info:
   official: 'http://date-a-live-anime.com/'
   subreddit: '/r/datealive'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/date-a-live'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -164,14 +164,14 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14213'
   kitsu: 'https://kitsu.io/anime/domestic-no-kanojo'
   official: 'http://www.domekano-anime.com/'
-  subreddit: ''
+  subreddit: '/r/DomesticGirlfriend'
 streams:
   crunchyroll: ''
   hidive: 'https://www.hidive.com/tv/domestic-girlfriend'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GRVD24NDR/Domestic-Girlfriend'
 ---
 title: 'Dororo'
 has_source: true
@@ -192,6 +192,7 @@ streams:
   vrv|VRV: ''
 ---
 title: 'Doukyonin wa Hiza, Tokidoki, Atama no Ue.'
+alias: ['My Roommate is a Cat']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38145/Doukyonin_wa_Hiza_Tokidoki_Atama_no_Ue'
@@ -201,7 +202,7 @@ info:
   official: 'https://www.hizaue.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-roommate-is-a-cat'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -234,9 +235,9 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14232'
   kitsu: 'https://kitsu.io/anime/endro'
   official: 'http://www.endro.jp/'
-  subreddit: '/r/EndroTVAnime'
+  subreddit: '/r/Endro'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/endro'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -271,7 +272,7 @@ info:
   official: 'http://www.gaf-anime.jp/'
   subreddit: '/r/GirlyAirForce'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/girly-air-force'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -289,7 +290,7 @@ info:
   official: 'https://www.tbs.co.jp/anime/5hanayome/'
   subreddit: '/r/5ToubunNoHanayome'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-quintessential-quintuplets'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -306,7 +307,7 @@ info:
   official: 'https://www.tbs.co.jp/anime/grimmsnotes/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/grimms-notes-the-animation'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -342,12 +343,13 @@ info:
   official: 'https://kaguya.love/'
   subreddit: '/r/Kaguya_sama'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/kaguya-sama-love-is-war'
   hidive: ''
-  funimation|Funimation: ''
+  hulu|Hulu: 'https://www.hulu.com/series/kaguya-sama-love-is-war-da69fc06-cdea-42dc-8827-52cee194db54'
+  funimation|Funimation: 'http://www.funimation.com/shows/800793'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GRJ0J828Y'
 ---
 title: 'Kakegurui××'
 alias: ['Kakegurui Season 2', 'Kakegurui: Compulsive Gambler']
@@ -377,7 +379,7 @@ info:
   official: 'https://kemono-friends.jp/'
   subreddit: '/r/KemonoFriends'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/kemono-friends'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -397,12 +399,13 @@ streams:
   crunchyroll: ''
   hidive: ''
   funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B07MLWW254/'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07MC2W537'
+  primevideo|Prime Video International: 'https://www.primevideo.com/detail/0JGK7LXE9B1592Q8ID68TFW4TG/'
   vrv|VRV: ''
 ---
 title: 'Kouya no Kotobuki Hikoutai'
-alias: ['Kotobuki: The Wasteland Squadron']
+alias: ['Kotobuki: The Wasteland Squadron', 'The Magnificent Kotobuki']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/38301/Kouya_no_Kotobuki_Hikoutai'
@@ -413,11 +416,11 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/the-magnificent-kotobuki'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G63KZP7W6/The-Magnificent-KOTOBUKI'
 ---
 title: 'Lord El-Melloi II Sei no Jikenbo: Rail Zeppelin Grace Note'
 alias: ["Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note"]
@@ -443,7 +446,7 @@ info:
   official: 'http://magical-five.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/magical-girl-spec-ops-asuka'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -635,7 +638,7 @@ info:
   official: 'http://shieldhero-anime.jp/'
   subreddit: '/r/shieldbro'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/the-rising-of-the-shield-hero'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -693,9 +696,10 @@ streams:
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GYNV23JXR/Wz'
 ---
 title: 'Watashi ni Tenshi ga Maiorita!'
+alias: ['WATATEN!: an Angel Flew Down to Me']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/37993/Watashi_ni_Tenshi_ga_Maiorita'
@@ -703,14 +707,14 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14156'
   kitsu: 'https://kitsu.io/anime/watashi-ni-tenshi-ga-maiorita'
   official: 'http://watatentv.com/'
-  subreddit: ''
+  subreddit: '/r/Watashi_ni_Tenshi'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/wataten-an-angel-flew-down-to-me'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GR2420096'
 ---
 title: 'Yakusoku no Neverland'
 alias: ['The Promised Neverland']
