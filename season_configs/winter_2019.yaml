@@ -344,6 +344,7 @@ info:
 streams:
   crunchyroll: ''
   hidive: ''
+  hulu|Hulu: 'https://www.hulu.com/series/kaguya-sama-love-is-war-da69fc06-cdea-42dc-8827-52cee194db54'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -725,6 +726,7 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/the-promised-neverland'
   hidive: 'https://www.hidive.com/tv/the-promised-neverland'
+  hulu|Hulu: 'https://www.hulu.com/series/the-promised-neverland-3ef087c6-d967-4495-9730-b5ff54ded8e0'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
