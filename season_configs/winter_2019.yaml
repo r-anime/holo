@@ -62,7 +62,7 @@ info:
   official: 'https://anime.bang-dream.com/2nd/'
   subreddit: '/r/BanGDream'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/bang-dream'
   hidive: 'https://www.hidive.com/tv/bang-dream-s2'
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -85,6 +85,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GYW4Q1ZQ6/Bermuda-Triangle-Colorful-Pastrale'
+  nyaa: 'Bermuda Triangle - Colorful Pastrale'
 ---
 title: 'Boogiepop wa Warawanai'
 alias: ['Boogiepop Never Laughs', 'Boogiepop and Others']
@@ -137,6 +138,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/date-a-live-2'
 ---
 title: 'Dimension High School'
 has_source: false
@@ -148,7 +150,7 @@ info:
   official: 'http://www.dimension-hs.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/dimension-high-school'
   hidive: 'https://www.hidive.com/tv/dimension-high-school'
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -166,12 +168,13 @@ info:
   official: 'http://www.domekano-anime.com/'
   subreddit: '/r/DomesticGirlfriend'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/domestic-girlfriend'
   hidive: 'https://www.hidive.com/tv/domestic-girlfriend'
   funimation|Funimation: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GRVD24NDR/Domestic-Girlfriend'
+  animelab|AnimeLab: 'https://www.animelab.com/shows/domestic-girlfriend'
 ---
 title: 'Dororo'
 has_source: true
@@ -226,6 +229,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/the-price-of-smiles'
 ---
 title: 'Endro~!'
 has_source: false
@@ -350,6 +354,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GRJ0J828Y'
+  animelab|AnimeLab: 'https://www.animelab.com/shows/kaguya-sama-love-is-war'
 ---
 title: 'Kakegurui××'
 alias: ['Kakegurui Season 2', 'Kakegurui: Compulsive Gambler']
@@ -415,7 +420,7 @@ info:
   official: 'https://www.kotobuki-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-magnificent-kotobuki'
   hidive: 'https://www.hidive.com/tv/the-magnificent-kotobuki'
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -452,6 +457,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/magical-girl-spec-ops-asuka'
 ---
 title: 'Manaria Friends'
 alias: ['Rage of Bahamut: Mysteria Friends', 'Shingeki no Bahamut: Manaria Friends']
@@ -464,7 +470,7 @@ info:
   official: 'https://manaria.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/mysteria-friends'
   hidive: ''
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -550,7 +556,7 @@ info:
   official: 'https://pasumemotv.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/pastel-memories'
   hidive: 'https://www.hidive.com/tv/pastel-memories'
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -656,7 +662,7 @@ info:
   official: 'http://miss-ueno.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/how-clumsy-you-are-miss-ueno'
   hidive: 'https://www.hidive.com/tv/how-clumsy-you-are-miss-ueno-'
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -691,7 +697,7 @@ info:
   official: 'http://wz-anime.net/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/wz'
   hidive: 'https://www.hidive.com/tv/wz'
   funimation|Funimation: ''
   amazon|Amazon US: ''
@@ -734,3 +740,4 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/the-promised-neverland'
