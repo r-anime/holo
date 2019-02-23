@@ -70,7 +70,7 @@ class Requestable:
 	
 	@lru_cache(maxsize=100)
 	@rate_limit(rate_limit_wait)
-	def request(self, url, json=False, xml=False, html=False, rss=False, proxy=None, useragent=None, auth=None):
+	def request(self, url, json=False, xml=False, html=False, rss=False, proxy=None, useragent=None, auth=None, timeout=10):
 		"""
 		Sends a request to the service.
 		:param url: The request URL
@@ -80,6 +80,7 @@ class Requestable:
 		:param proxy: Optional proxy, a tuple of address and port
 		:param useragent: Ideally should always be set
 		:param auth: Tuple of username and password to use for HTTP basic auth
+		:param timeout: Amount of time to wait for a response in seconds
 		:return: The response if successful, otherwise None
 		"""
 		if proxy is not None:
@@ -94,7 +95,11 @@ class Requestable:
 		debug("Sending request")
 		debug("  URL={}".format(url))
 		debug("  Headers={}".format(headers))
-		response = requests.get(url, headers=headers, proxies=proxy, auth=auth)
+		try:
+			response = requests.get(url, headers=headers, proxies=proxy, auth=auth, timeout=timeout)
+		except requests.exception.Timeout:
+			error("  Response timed out")
+			return None
 		debug("  Status code: {}".format(response.status_code))
 		if not response.ok or response.status_code == 204:		# 204 is a special case for MAL errors
 			error("Response {}: {}".format(response.status_code, response.reason))

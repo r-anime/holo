@@ -51,10 +51,10 @@ info:
   anilist: 'https://anilist.co/anime/97940/BlackClover'
   kitsu: 'https://kitsu.io/anime/black-clover-tv'
   mal: 'https://myanimelist.net/anime/34572/Black_Clover_TV'
+  subreddit: '/r/BlackClover'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/black-clover'
   funimation|Funimation: 'https://www.funimation.com/shows/black-clover/'
-  hulu|Hulu: 'https://www.hulu.com/black-clover'
 ---
 title: 'Inuyashiki'
 type: tv

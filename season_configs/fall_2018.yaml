@@ -15,6 +15,7 @@ streams:
   amazon: ''
   amazon_uk: ''
   hidive: 'https://www.hidive.com/tv/the-girl-in-twilight'
+  vrv|VRV: 'https://vrv.co/series/G624580PY/The-Girl-in-Twilight'
 ---
 title: 'Anima Yell!'
 type: tv
@@ -63,7 +64,7 @@ info:
   official: 'https://beelmama.com/'
   subreddit: '/r/AsMissBeelzebubLikes'
 streams:
-  crunchyroll: 'http://www.crunchyroll.com/as-miss-beelzebub-likes'
+  crunchyroll: 'https://www.crunchyroll.com/as-miss-beelzebub-likes-it'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -147,6 +148,7 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/fairy-tail|277'
   funimation|Funimation: 'https://www.funimation.com/shows/fairy-tail/'
+  animelab|Anime Lab: 'https://www.animelab.com/shows/fairy-tail'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -160,7 +162,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13440'
   kitsu: 'https://kitsu.io/anime/gaikotsu-shotenin-honda-san'
   official: 'http://gaikotsu-honda-anime.com/'
-  subreddit: ''
+  subreddit: '/r/HondaSan'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/skull-face-bookseller-honda-san'
   funimation|Funimation: ''
@@ -185,6 +187,7 @@ streams:
   amazon: ''
   amazon_uk: ''
   hidive: 'https://www.hidive.com/tv/gakuen-basara-samurai-high-school'
+  vrv|VRV: 'https://vrv.co/series/GRNVJ9PX6/Gakuen-Basara-Samurai-High-School'
 ---
 title: 'Goblin Slayer'
 type: tv
@@ -198,7 +201,7 @@ info:
   subreddit: '/r/GoblinSlayer'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/goblin-slayer'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/goblin-slayer/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -299,7 +302,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13629'
   kitsu: 'https://kitsu.io/anime/himote-house'
   official: 'http://himotehouse.com/'
-  subreddit: ''
+  subreddit: '/r/HimoteHouse'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/himote-house-a-share-house-of-super-psychic-girls'
   funimation|Funimation: ''
@@ -496,7 +499,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13534'
   kitsu: 'https://kitsu.io/anime/ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai'
   official: 'http://imo-imo.jp/'
-  subreddit: '/r/OregaSuki'
+  subreddit: '/r/OregaSukinanowaImouto'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/my-sister-my-writer'
   funimation|Funimation: ''
@@ -516,7 +519,7 @@ info:
   subreddit: '/r/RadiantManga'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/radiant'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/radiant/'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -530,12 +533,13 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13760'
   kitsu: 'https://kitsu.io/anime/release-the-spyce'
   official: 'http://www.releasethespyce.jp/'
-  subreddit: '/r/ReleaseTheSpyceTV'
+  subreddit: '/r/ReleaseTheSpyceAnime'
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
+  vrv|VRV: 'https://vrv.co/series/G67910Z5Y/Release-the-Spyce'
   hidive: 'https://www.hidive.com/tv/release-the-spyce'
 ---
 title: 'RErideD: Tokigoe no Derrida'
@@ -565,6 +569,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/rascal-does-not-dream-of-bunny-girl-senpai'
   funimation|Funimation: 'https://www.funimation.com/shows/rascal-does-not-dream-of-bunny-girl-senpai/'
+  animelab|Anime Lab: 'https://www.animelab.com/shows/rascal-does-not-dream-of-bunny-girl-senpai'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -636,7 +641,10 @@ info:
   subreddit: '/r/swordartonline'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/sword-art-online'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/sword-art-online/'
+  hulu|Hulu: 'https://www.hulu.com/series/sword-art-online-alicization-c22224e3-93c0-40ab-895d-1475d94a6688'
+  animelab|Anime Lab: 'https://www.animelab.com/shows/sword-art-online'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/377/sword-art-online-alicization'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -658,6 +666,7 @@ streams:
   amazon: ''
   amazon_uk: ''
   hidive: ''
+  vrv|VRV: 'https://vrv.co/series/GYZJ43JMR/That-Time-I-Got-Reincarnated-as-a-Slime'
 ---
 title: 'The iDOLM@STER SideM: Wake Atte Mini!'
 type: tv
@@ -690,7 +699,7 @@ info:
 streams:
   crunchyroll|Crunchyroll: 'https://www.crunchyroll.com/a-certain-magical-index'
   nyaa: '[GJM] To Aru Majutsu no Index III'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/a-certain-magical-index/#videos'
   amazon: ''
   amazon_uk: ''
   hidive: ''
@@ -745,7 +754,7 @@ info:
   official: 'http://tsurune.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/tsurune'
   funimation|Funimation: ''
   amazon: ''
   amazon_uk: ''
@@ -866,6 +875,7 @@ info:
   subreddit: '/r/StardustCrusaders'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/jojos-bizarre-adventure'
+  animelab|AnimeLab: 'https://www.animelab.com/shows/jojos-bizarre-adventure'
 ---
 title: 'Pingu in the City Season 2'
 type: tv
@@ -886,3 +896,16 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14412'
   kitsu: ''
   official: 'https://ganma.jp/g/anime/otonabougu/'
+---
+title: 'Saint Seiya Saintia Sho'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34539/'
+  anilist: 'https://anilist.co/anime/97919/Saint-Seiya-Saintia-Shou/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12648'
+  kitsu: 'https://kitsu.io/anime/saint-seiya-saintia-shou'
+  official: 'https://www.saintia-sho.com/pc/'
+  subreddit: '/r/SaintSeiya'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/saint-seiya-saintia-sho'
