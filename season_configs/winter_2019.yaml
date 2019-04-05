@@ -16,6 +16,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GREXP3X9Y/Real-Girl'
+  nyaa: '3D Kanojo Real Girl|12'
 ---
 title: 'Ame-iro Cocoa: Side G'
 alias: ['Rainy Cocoa Season 5']
@@ -265,6 +266,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: ''
+  nyaa: 'Fukigen na Mononokean S2'
 ---
 title: 'Girly Air Force'
 has_source: true
@@ -355,6 +357,8 @@ streams:
   amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GRJ0J828Y'
   animelab|AnimeLab: 'https://www.animelab.com/shows/kaguya-sama-love-is-war'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/444/kaguya-sama-love-is-war'
+  nyaa: 'Kaguya-sama wa Kokurasetai'
 ---
 title: 'Kakegurui××'
 alias: ['Kakegurui Season 2', 'Kakegurui: Compulsive Gambler']
@@ -390,6 +394,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: ''
+  nyaa: 'HorribleSubs Kemono Friends S2'
 ---
 title: 'Kemurikusa'
 has_source: false
@@ -545,6 +550,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: ''
+  nyaa: 'Mob Psycho 100 II'
 ---
 title: 'Pastel Memories'
 has_source: false
@@ -703,6 +709,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GYNV23JXR/Wz'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/454/wz'
 ---
 title: 'Watashi ni Tenshi ga Maiorita!'
 alias: ['WATATEN!: an Angel Flew Down to Me']
@@ -741,6 +748,7 @@ streams:
   amazon_uk|Amazon UK: ''
   vrv|VRV: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/the-promised-neverland'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/437/the-promised-neverland'
 ---
 title: 'Fight League: Gear Gadget Generators'
 info:
@@ -751,3 +759,21 @@ info:
   official: 'https://anime.fight-league.com/'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/fight-league-gear-gadget-generators'
+---
+title: 'Otona no Bouguya-san (Rimen)'
+info:
+  mal: 'https://myanimelist.net/anime/39325'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14694'
+  official: 'http://ganma.jp/g/anime/otonabouguuramen/'
+---
+title: 'Zoku Owarimonogatari'
+info:
+  mal: 'https://myanimelist.net/anime/36999/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13691'
+  anilist: 'https://anilist.co/anime/100815'
+  official: 'https://www.monogatari-series.com/zokuowarimonogatari/'
+  kitsu: 'https://kitsu.io/anime/zoku-owarimonogatari'
+  subreddit: '/r/araragi'
+streams:
+  crunchyroll: ''
+  nyaa: '[MTBB] Zoku Owarimonogatari'

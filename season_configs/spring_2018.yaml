@@ -281,6 +281,7 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/gegege-no-kitaro'
   animelab|AnimeLab: 'https://www.animelab.com/shows/gegege-no-kitaro'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/368/gegege-no-kitaro'
 ---
 title: 'Hinamatsuri'
 type: tv

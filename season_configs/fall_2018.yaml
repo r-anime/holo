@@ -327,6 +327,7 @@ streams:
   amazon: ''
   amazon_uk: ''
   hidive: ''
+  nyaa: 'Hinomaru Sumo'
 ---
 title: 'Irozuku Sekai no Ashita kara'
 type: tv
@@ -399,6 +400,7 @@ streams:
   amazon: ''
   amazon_uk: ''
   hidive: ''
+  nyaa: 'Kaze ga Tsuyoku Fuiteiru'
 ---
 title: 'Ken En Ken: Aoki Kagayaki'
 type: tv
@@ -876,6 +878,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/jojos-bizarre-adventure'
   animelab|AnimeLab: 'https://www.animelab.com/shows/jojos-bizarre-adventure'
+  nyaa: 'JoJo Bizarre Adventure Golden Wind'
 ---
 title: 'Pingu in the City Season 2'
 type: tv
