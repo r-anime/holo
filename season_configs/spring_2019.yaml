@@ -1,0 +1,208 @@
+title: 'Bakumatsu: Crisis'
+alias: ['Bakumatsu Season 2']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/38860/Bakumatsu__Crisis'
+  anilist: 'https://anilist.co/anime/106568/BAKUMATSU-Crisis/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14548'
+  kitsu: ''
+  official: 'http://www.tbs.co.jp/anime/BAKUMATSU/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/bakumatsu'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Kono Yo no Hate de Koi wo Utau Shoujo YU-NO'
+alias: ['YU-NO: A girl who chants love at the bound of this world.']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34620/'
+  anilist: 'https://anilist.co/anime/97995'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12693'
+  kitsu: ''
+  official: 'http://yuno-anime.com/'
+  subreddit: '/r/YU_NO'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Hangyakusei Million Arthur Season 2'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/38268'
+  anilist: 'https://anilist.co/anime/104071/Hangyakusei-Million-Arthur-2/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13952'
+  kitsu: ''
+  official: 'http://hangyakusei-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Fairy Gone'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/39063/'
+  anilist: 'https://anilist.co/anime/107418/Fairy-Gone/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14627'
+  kitsu: ''
+  official: 'https://www.fairygone.com/'
+  subreddit: '/r/FairyGone'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Fruits Basket'
+alias: ['Furuba, Fruits Basket']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38680/Fruits_Basket_2019'
+  anilist: 'https://anilist.co/anime/105334/Fruits-Basket/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14490'
+  kitsu: ''
+  official: 'https://fruba.jp/'
+  subreddit: '/r/FruitsBasket'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/fruits-basket'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/489/fruits-basket'
+---
+title: 'Diamond no Ace: Act II'
+alias: ['Ace of the Diamond act II']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38731/'
+  anilist: 'https://anilist.co/anime/105749/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14504'
+  kitsu: ''
+  official: 'https://diaace.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/ace-of-the-diamond'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Senryuu Shoujo'
+alias: ['Senryuu Girl']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38787'
+  anilist: 'https://anilist.co/anime/106051/Senryuu-Shoujo/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14522'
+  kitsu: ''
+  official: 'http://senryu-girl-official.com/'
+  subreddit: '/r/SenryuuShoujo'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Midara na Ao-chan wa Benkyou ga Dekinai'
+alias: ["Ao-chan Can't Study!"]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38778'
+  anilist: 'https://anilist.co/anime/105989/Midara-na-Aochan-wa-Benkyou-ga-Dekinai/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14519'
+  kitsu: ''
+  official: 'http://aochan-anime.com/'
+  subreddit: '/r/AoChanCantStudy'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Hitori Bocchi no ○○ Seikatsu'
+alias: ['Hitoribocchi no Marumaru Seikatsu', "Hitori Bocchi's ○○ Lifestyle"]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37614'
+  anilist: 'https://anilist.co/anime/101386/Hitoribocchi-no-Marumaru-Seikatsu/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13989'
+  kitsu: ''
+  official: 'http://hitoribocchi.jp/'
+  subreddit: '/r/HitoriBocchiOfficial'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/hitoribocchi-no-marumaruseikatsu'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+#---
+#title: ''
+#alias: ['']
+#has_source: true
+#info:
+#  mal: ''
+#  anilist: ''
+#  anidb: ''
+#  kitsu: ''
+#  official: ''
+#  subreddit: ''
+#streams:
+#  crunchyroll: ''
+#  hidive: ''
+#  vrv|VRV: ''
+#  hulu|Hulu: ''
+#  funimation|Funimation: ''
+#  amazon|Amazon US: ''
+#  amazon_uk|Amazon UK: ''
+#  primevideo|Prime Video International: ''
+#  animelab|AnimeLab: ''
