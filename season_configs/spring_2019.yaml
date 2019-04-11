@@ -59,6 +59,7 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
   animelab|AnimeLab: ''
+  nyaa: '[RyuujiTK] Han-Gyaku-Sei Million Arthur S2'
 ---
 title: 'Fairy Gone'
 has_source: false
@@ -79,6 +80,7 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
   animelab|AnimeLab: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/498/fairy-gone'
 ---
 title: 'Fruits Basket'
 alias: ['Furuba, Fruits Basket']
@@ -95,7 +97,7 @@ streams:
   hidive: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/fruits-basket/'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
@@ -124,7 +126,7 @@ streams:
   animelab|AnimeLab: ''
 ---
 title: 'Senryuu Shoujo'
-alias: ['Senryuu Girl']
+alias: ['Senryuu Girl', 'Senryu Girl']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38787'
@@ -135,7 +137,7 @@ info:
   subreddit: '/r/SenryuuShoujo'
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/senryu-girl'
   vrv|VRV: ''
   hulu|Hulu: ''
   funimation|Funimation: ''
@@ -156,7 +158,7 @@ info:
   subreddit: '/r/AoChanCantStudy'
 streams:
   crunchyroll: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/ao-chan-cant-study'
   vrv|VRV: ''
   hulu|Hulu: ''
   funimation|Funimation: ''
@@ -177,6 +179,485 @@ info:
   subreddit: '/r/HitoriBocchiOfficial'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/hitoribocchi-no-marumaruseikatsu'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Kimetsu no Yaiba'
+alias: ['Demon Slayer: Kimetsu no Yaiba']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38000'
+  anilist: 'https://anilist.co/anime/101922/Kimetsu-no-Yaiba/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14107'
+  kitsu: ''
+  official: 'https://demonslayer-anime.com/'
+  subreddit: '/r/KimetsuNoYaiba'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/479/demon-slayer-kimetsu-no-yaiba'
+---
+title: 'Mix: Meisei Story'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38098'
+  anilist: 'https://anilist.co/anime/103555/Mix/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14245'
+  kitsu: ''
+  official: 'https://www.ytv.co.jp/mix/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/mix/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Chou Kadou Girl ⅙: Amazing Stranger'
+alias: ['Chou Kadou Girl 1/6']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38226'
+  anilist: 'https://anilist.co/anime/104284/Chou-Kadou-Girl-16/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14308'
+  kitsu: ''
+  official: 'http://choukadou-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/amazing-stranger'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Joshi Kausei'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38295'
+  anilist: 'https://anilist.co/anime/104147/Joshikausei/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14390'
+  kitsu: ''
+  official: 'http://joshikau-anime.com/'
+  subreddit: '/r/JoshiKausei'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/joshi-kausei'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Nobunaga-sensei no Osanazuma'
+alias: ["Mr. Nobunaga's Young Bride", "Nobunaga teacher's young bride"]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38814'
+  anilist: 'https://anilist.co/anime/106239/Nobunagasensei-no-Osanazuma/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14530'
+  kitsu: ''
+  official: 'http://nobutsuma-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll_nsfw|Crunchyroll: 'http://www.crunchyroll.com/nobunaga-teachers-young-bride'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Bokutachi wa Benkyou ga Dekinai'
+alias: ['We Never Learn', "BokuBen, We Can't Study"]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38186'
+  anilist: 'https://anilist.co/anime/103900/Bokutachi-wa-Benkyou-ga-Dekinai/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14289'
+  kitsu: ''
+  official: 'http://www.boku-ben.com/'
+  subreddit: '/r/WeCantStudy'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/we-never-learn-bokuben'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/we-never-learn-bokuben/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/487/we-never-learn'
+---
+title: 'Fairy Gone'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/39063'
+  anilist: 'https://anilist.co/anime/107418/Fairy-Gone/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14627'
+  kitsu: ''
+  official: 'https://www.fairygone.com/'
+  subreddit: '/r/FairyGone'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/fairygone/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Kono Oto Tomare!'
+alias: ['Stop This Sound!']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38080'
+  anilist: 'https://anilist.co/anime/103302/Kono-Oto-Tomare/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14234'
+  kitsu: ''
+  official: 'http://www.konooto-anime.jp/'
+  subreddit: '/r/KonoOtoTomare'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/konooto/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Yatogame-chan Kansatsu Nikki'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37940'
+  anilist: 'https://anilist.co/anime/102064/Yatogamechan-Kansatsu-Nikki/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14103'
+  kitsu: 'https://kitsu.io/anime/yatogame-chan-kansatsu-nikki'
+  official: 'https://yatogame.nagoya/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/yatogame-chan-kansatsu-nikki'
+  hidive: ''
+  vrv|VRV: 'https://vrv.co/series/G64PX8N1R/Yatogame-chan-Kansatsu-Nikki'
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Gunjou no Magmel'
+alias: ['Magmel of the Sea Blue']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37806/Gunjou_no_Magmel'
+  anilist: 'https://anilist.co/anime/101597/Gunjou-no-Magmel/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14063'
+  kitsu: 'https://kitsu.io/anime/gunjou-no-magmel'
+  official: 'http://gunjyo-magumeru.com/'
+  subreddit: '/r/GunjouNoMagmell'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Shoumetsu Toshi'
+alias: ['AFTERLOST']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37952/Shoumetsu_Toshi'
+  anilist: 'https://anilist.co/anime/101814/Shoumetsu-Toshi/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14105'
+  kitsu: 'https://kitsu.io/anime/shoumetsu-toshi'
+  official: 'https://shoumetsutoshi-anime.com/'
+  subreddit: '/r/shoumetsutoshi'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/afterlost/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/494/afterlost'
+---
+title: 'Nande Koko ni Sensei ga!?'
+alias: ['Why the hell are you here, Teacher!?']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38397/Nande_Koko_ni_Sensei_ga'
+  anilist: 'https://anilist.co/anime/104325/Nande-Koko-ni-Sensei-ga/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14413'
+  kitsu: 'https://kitsu.io/anime/nande-koko-ni-sensei-ga'
+  official: 'http://nankoko-anime.com/'
+  subreddit: '/r/NandeKokoNiSenseiGa'
+streams:
+  crunchyroll: ''
+  hidive: 'https://www.hidive.com/tv/why-the-hell-are-you-here-teacher'
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Hachigatsu no Cinderella Nine'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38091'
+  anilist: 'https://anilist.co/anime/104989/Hachigatsu-no-Cinderella-Nine-/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14242'
+  kitsu: 'https://kitsu.io/anime/hachigatsu-no-cinderella-nine'
+  official: 'https://anime-hachinai.com/'
+  subreddit: '/r/CinderellaNine'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/cinderella-nine'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Mayonaka no Occult Koumuin'
+alias: ['Midnight Occult Civil Servants']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37964'
+  anilist: 'https://anilist.co/anime/102939/Mayonaka-no-Occult-Koumuin/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14172'
+  kitsu: 'https://kitsu.io/anime/mayonaka-no-occult-koumuin'
+  official: 'http://occultkoumuin.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/midnight-occult-civil-servants'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'RobiHachi'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/38707'
+  anilist: 'https://anilist.co/anime/105928/RobiHachi/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14493'
+  kitsu: ''
+  official: 'https://robihachi.jp/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/robihachi/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/502/robihachi'
+---
+title: 'Namu Amida Butsu! Utena'
+alias: ['Namuamida Butsu! Rendai Utena', 'Namuamidabutsu! -Utena-']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38150'
+  anilist: 'https://anilist.co/anime/104212/Namu-Amida-Butsu-Rendai-UTENA/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14256'
+  kitsu: 'https://kitsu.io/anime/namu_amida_butsu_rendai_utena'
+  official: 'https://namuami-utena-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  hidive: 'https://www.hidive.com/tv/namuamidabutsu-utena-'
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Isekai Quartet'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38472'
+  anilist: 'https://anilist.co/anime/104454/Isekai-Quartet/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14435'
+  kitsu: 'https://kitsu.io/anime/isekai-quartet'
+  official: 'http://isekai-quartet.com/'
+  subreddit: '/r/IsekaiQuartet'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/isekai-quartet/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Strike Witches: 501 Butai Hasshin Shimasu!!'
+alias: ['']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38004'
+  anilist: 'https://anilist.co/anime/104378/Strike-Witches-501-Butai-Hasshin-Shimasu/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14205'
+  kitsu: 'https://kitsu.io/anime/strike-witches-501-butai-hasshin-shimasu'
+  official: 'http://w-witch.jp/501_takeoff/'
+  subreddit: '/r/StrikeWitches'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/strike-witches-501st-joint-fighter-wing-take-off/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'One Punch Man Season 2'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34134'
+  anilist: 'https://anilist.co/anime/97668/One-Punch-Man-2/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12430'
+  kitsu: 'https://kitsu.io/anime/one-punch-man-2'
+  official: 'http://onepunchman-anime.net/'
+  subreddit: '/r/OnePunchMan'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/one-punch-man'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: 'https://www.hulu.com/series/one-punch-man-54a25fcf-a472-4d40-9968-13e2957e5abf'
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Sewayaki Kitsune no Senko-san'
+alias: ['The Helpful Fox Senko-san']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38759'
+  anilist: 'https://anilist.co/anime/105914/Sewayaki-Kitsune-no-Senkosan-/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14514'
+  kitsu: 'https://kitsu.io/anime/sewayaki-kitsune-no-senko-san'
+  official: 'http://senkosan.com/'
+  subreddit: '/r/SewayakiKitsune'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-helpful-fox-senko-san/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+---
+title: 'Kenja no Mago'
+alias: ["Wise Man's Grandchild"]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36407'
+  anilist: 'https://anilist.co/anime/100112/Kenja-no-Mago/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13477'
+  kitsu: 'https://kitsu.io/anime/kenja-no-mago'
+  official: 'http://kenja-no-mago.jp/'
+  subreddit: '/r/TheWiseGrandson'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/wise-mans-grandchild/'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/506/wise-mans-grandchild'
+---
+title: 'Carole & Tuesday'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/37435'
+  anilist: 'https://anilist.co/anime/101281/Carole--Tuesday/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13893'
+  kitsu: 'https://kitsu.io/anime/carole-and-tuesday'
+  official: 'http://caroleandtuesday.com/'
+  subreddit: '/r/CarolAndTuesday'
+streams:
+  crunchyroll: ''
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
+  nyaa: '[PAS] Carole & Tuesday'
+---
+title: 'Sarazanmai'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/37426'
+  anilist: 'https://anilist.co/anime/101261/Sarazanmai/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13869'
+  kitsu: 'https://kitsu.io/anime/sarazanmai'
+  official: 'http://sarazanmai.com/'
+  subreddit: '/r/Sarazanmai'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/sarazanmai'
   hidive: ''
   vrv|VRV: ''
   hulu|Hulu: ''
