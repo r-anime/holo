@@ -49,6 +49,7 @@ class ServiceHandler(AbstractServiceHandler):
 		
 		# Send request
 		query = re.sub("[-`~!@#$%^&*()+=:;,.<>?/|\\'\"]+", " ", show_key)
+		query = re.sub("season", " ", query, flags=re.I)
 		query = re.sub(" +", " ", query)
 		debug("  query={}".format(query))
 		query = url_quote(query, safe="", errors="ignore")
@@ -111,7 +112,8 @@ def _digest_episode(feed_episode):
 
 _exludors = [re.compile(x, re.I) for x in [
 	"\.srt$",
-	r"\b(batch|vol(ume|\.)? ?\d+|bd|bluray|dub|dubbed)\b",
+	r"\b(batch|vol(ume|\.)? ?\d+|dub|dubbed)\b",
+	r"\b(bd|bluray)\b",
 	r"PV.?\d+",
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
