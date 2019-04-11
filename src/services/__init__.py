@@ -97,7 +97,7 @@ class Requestable:
 		debug("  Headers={}".format(headers))
 		try:
 			response = requests.get(url, headers=headers, proxies=proxy, auth=auth, timeout=timeout)
-		except requests.exception.Timeout:
+		except requests.exceptions.Timeout:
 			error("  Response timed out")
 			return None
 		debug("  Status code: {}".format(response.status_code))
