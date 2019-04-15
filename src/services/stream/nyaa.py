@@ -99,6 +99,10 @@ def _is_valid_episode(feed_episode):
 	if date_diff >= timedelta(days=2):
 		debug("  Episode too old")
 		return False
+	number = _extract_episode_num(feed_episode["title"])
+	if number < 0 or number >= 720 or number == 501:
+		debug(f"  Probably not the right episode number ({number})")
+		return False
 	return True
 
 def _digest_episode(feed_episode):
