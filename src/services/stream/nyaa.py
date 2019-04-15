@@ -100,7 +100,7 @@ def _is_valid_episode(feed_episode):
 		debug("  Episode too old")
 		return False
 	number = _extract_episode_num(feed_episode["title"])
-	if number < 0 or number >= 720 or number == 501:
+	if number is None or not (0 < number < 720) or number == 501:
 		debug(f"  Probably not the right episode number ({number})")
 		return False
 	return True
