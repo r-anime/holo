@@ -4,7 +4,6 @@ from datetime import date, timedelta
 import services
 from data.models import Stream
 import reddit
-from tools import poll
 
 def main(config, db, **kwargs):
 	reddit.init_reddit(config)
@@ -185,7 +184,6 @@ def _gen_text_streams(db, formats, show):
 				text = safe_format(formats["stream"], service_name=service.name, stream_link=service_handler.get_stream_link(stream))
 				stream_texts.append(text)
 		
-	print(show)
 	lite_streams = db.get_lite_streams(show=show)
 	for lite_stream in lite_streams:
 		text = safe_format(formats["stream"], service_name=lite_stream.service_name, stream_link=lite_stream.url)
