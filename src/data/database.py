@@ -472,8 +472,7 @@ class DatabaseDatabase:
 		show = self.q.fetchone()
 		if show is None:
 			return None
-		show_type = to_show_type(show[4])
-		show = Show(*show[:4], show_type, *show[5:])
+		show = Show(*show)
 		return show
 
 	@db_error_default(list())

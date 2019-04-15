@@ -167,6 +167,7 @@ def _create_post_title(config, show, episode):
 # Generating text parts
 
 def _gen_text_spoiler(formats, show):
+	debug("Generating spoiler text for show {}, spoiler is {}".format(show, show.has_source))
 	if show.has_source:
 		return formats["spoiler"]
 	return ""
