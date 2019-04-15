@@ -34,7 +34,9 @@ class PollHandler(AbstractPollHandler):
 	def __init__(self):
 		super().__init__("youpoll")
 
-	def create_poll(self, title, **kwargs):
+	def create_poll(self, title, submit, **kwargs):
+		if not submit:
+			return None
 		#headers = _poll_post_headers
 		#headers['User-Agent'] = config.useragent
 		data = self._poll_post_data

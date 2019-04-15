@@ -250,7 +250,7 @@ def _gen_text_poll(db, config, formats, show, episode):
 	handler = services.get_default_poll_handler()
 	title = config.post_poll_title.format(show = show.name, episode = episode.number)
 
-	poll_id = handler.create_poll(title, headers = {'User-Agent': config.useragent})
+	poll_id = handler.create_poll(title, headers = {'User-Agent': config.useragent}, submit=not config.debug)
 	if poll_id:
 		site = db.get_poll_site(key=handler.key)
 		db.add_poll(show, episode, site, poll_id)

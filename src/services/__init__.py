@@ -390,7 +390,7 @@ class AbstractPollHandler(ABC, Requestable):
 		self.config = config
 
 	@abstractmethod
-	def create_poll(self, title) -> Optional[str]:
+	def create_poll(self, title, submit: bool) -> Optional[str]:
 		"""
 		Create a new Poll.
 		:param title: title of this poll
