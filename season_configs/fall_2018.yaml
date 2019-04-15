@@ -8,12 +8,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13956'
   kitsu: 'https://kitsu.io/anime/akanesasu-shoujo'
   official: 'http://akanesasushojo.com/'
-  subreddit: ''
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
   hidive: 'https://www.hidive.com/tv/the-girl-in-twilight'
   vrv|VRV: 'https://vrv.co/series/G624580PY/The-Girl-in-Twilight'
 ---
@@ -29,10 +24,6 @@ info:
   subreddit: '/r/AnimaYell'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/anima-yell'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Bakumatsu'
 type: tv
@@ -44,13 +35,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13971'
   kitsu: 'https://kitsu.io/anime/renai-bakumatsu-kareshi'
   official: 'http://www.tbs.co.jp/anime/BAKUMATSU/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/bakumatsu'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Beelzebub-jou no Okinimesu mama'
 type: tv
@@ -65,10 +51,6 @@ info:
   subreddit: '/r/AsMissBeelzebubLikes'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/as-miss-beelzebub-likes-it'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Conception'
 type: tv
@@ -79,13 +61,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14068'
   kitsu: 'https://kitsu.io/anime/conception-ore-no-kodomo-wo-undekure'
   official: 'http://www.conception-anime.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/conception'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Dakaretai Otoko 1-i ni Odosarete Imasu'
 type: tv
@@ -100,10 +77,6 @@ info:
   subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/dakaichi-im-being-harassed-by-the-sexiest-man-of-the-year-'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Devidol!'
 type: tv
@@ -114,13 +87,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14389'
   kitsu: 'https://kitsu.io/anime/devidol'
   official: 'https://devidol.com/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Double Decker! Doug & Kirill'
 type: tv
@@ -149,9 +115,6 @@ streams:
   crunchyroll: 'http://www.crunchyroll.com/fairy-tail|277'
   funimation|Funimation: 'https://www.funimation.com/shows/fairy-tail/'
   animelab|Anime Lab: 'https://www.animelab.com/shows/fairy-tail'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Gaikotsu Shotenin Honda-san'
 type: tv
@@ -165,10 +128,6 @@ info:
   subreddit: '/r/HondaSan'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/skull-face-bookseller-honda-san'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Gakuen Basara'
 type: tv
@@ -180,12 +139,7 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14001'
   kitsu: 'https://kitsu.io/anime/gakuen-basara'
   official: 'http://www.tbs.co.jp/anime/gakuen_basara/'
-  subreddit: ''
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
   hidive: 'https://www.hidive.com/tv/gakuen-basara-samurai-high-school'
   vrv|VRV: 'https://vrv.co/series/GRNVJ9PX6/Gakuen-Basara-Samurai-High-School'
 ---
@@ -202,9 +156,6 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/goblin-slayer'
   funimation|Funimation: 'https://www.funimation.com/shows/goblin-slayer/'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Golden Kamuy Season 2'
 type: tv
@@ -219,9 +170,6 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/golden-kamuy|12'
   funimation|Funimation: 'https://www.funimation.com/shows/golden-kamuy/'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Gurazeni Season 2'
 type: tv
@@ -235,10 +183,6 @@ info:
   subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/gurazeni-money-pitch'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Gyakuten Saiban: Sono "Shinjitsu", Igi Ari! Season 2'
 type: tv
@@ -254,9 +198,6 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/ace-attorney'
   funimation|Funimation: 'https://www.funimation.com/shows/ace-attorney/'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Han-Gyaku-Sei Million Arthur'
 type: tv
@@ -267,13 +208,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13952'
   kitsu: 'https://kitsu.io/anime/hangyakusei-million-arthur'
   official: 'http://hangyakusei-anime.com/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Hashiri Tsuzukete Yokattatte'
 type: tv
@@ -285,13 +219,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14349'
   kitsu: 'https://kitsu.io/anime/hashiri-tsuzukete-yokattatte'
   official: 'http://www.hashiyoka.com/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Himote House'
 type: tv
@@ -305,10 +232,6 @@ info:
   subreddit: '/r/HimoteHouse'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/himote-house-a-share-house-of-super-psychic-girls'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Hinomaru Zumou'
 type: tv
@@ -320,14 +243,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13695'
   kitsu: 'https://kitsu.io/anime/hinomaruzumou'
   official: 'https://hinomaru-zumou.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/hinomaru-sumo'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
-  nyaa: 'Hinomaru Sumo'
 ---
 title: 'Irozuku Sekai no Ashita kara'
 type: tv
@@ -340,12 +257,9 @@ info:
   official: 'http://www.iroduku.jp/'
   subreddit: '/r/IrozukuSekaiNoAshita'
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
   amazon|Amazon US: 'https://www.amazon.com/Where-You-Belong/dp/B07J1VC599/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/Where-You-Belong/dp/B07J1CFK9K/'
   primevideo|Prime Video International: 'https://www.primevideo.com/detail/0HKCOITVFP9CVME1XXRGPT2R6K/'
-  hidive: ''
 ---
 title: 'Jingai-san no Yome'
 type: tv
@@ -356,13 +270,24 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14174'
   kitsu: 'https://kitsu.io/anime/jingai-san-no-yome'
   official: 'https://jingaisan.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/jingai-san-no-yome'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
+---
+title: 'JoJo no Kimyou na Bouken: Ougon no Kaze'
+type: tv
+has_source: true
+alias: ["JoJo's Bizarre Adventure Part 5: Golden Wind"]
+info:
+  mal: 'https://myanimelist.net/anime/37991/JoJo_no_Kimyou_na_Bouken__Ougon_no_Kaze'
+  anilist: 'https://anilist.co/anime/102883/JoJo-no-Kimyou-na-Bouken-Ougon-no-Kaze/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14173'
+  kitsu: 'https://kitsu.io/anime/jojo-s-bizarre-adventure-part-5-vento-aureo'
+  official: 'http://jojo-animation.com/'
+  subreddit: '/r/StardustCrusaders'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/jojos-bizarre-adventure'
+  animelab|AnimeLab: 'https://www.animelab.com/shows/jojos-bizarre-adventure'
+  nyaa: 'JoJo Bizarre Adventure Golden Wind'
 ---
 title: 'Karakuri Circus'
 type: tv
@@ -376,12 +301,9 @@ info:
   official: 'https://karakuri-anime.com/'
   subreddit: '/r/KarakuriCircus'
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07J68L6MX/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07JVD926B/'
-  primavideo|Prime Video International: 'https://www.primevideo.com/detail/0P0W7USHCFM68GIT1DRVJ3M0MU/'
-  hidive: ''
+  primevideo|Prime Video International: 'https://www.primevideo.com/detail/0P0W7USHCFM68GIT1DRVJ3M0MU/'
 ---
 title: 'Kaze ga Tsuyoku Fuite Iru'
 type: tv
@@ -393,14 +315,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14109'
   kitsu: 'https://kitsu.io/anime/kaze-ga-tsuyoku-fuiteiru'
   official: 'http://www.kazetsuyo-anime.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/run-with-the-wind'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
-  nyaa: 'Kaze ga Tsuyoku Fuiteiru'
 ---
 title: 'Ken En Ken: Aoki Kagayaki'
 type: tv
@@ -412,13 +328,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14237'
   kitsu: 'https://kitsu.io/anime/ken-en-ken-aoki-kagayaki'
   official: 'http://www.xuanyuansword.net/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/xuan-yuan-sword-luminary'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Kishuku Gakkou no Juliet'
 type: tv
@@ -432,12 +343,9 @@ info:
   official: 'http://www.juliet-anime.com/'
   subreddit: '/r/KishukuGakkouNoJuliet'
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
   amazon|Amazon US: 'https://www.amazon.com/Romio-Inuzuka-and-Juliet-Persia/dp/B07J21L3JM/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/Romio-Inuzuka-and-Juliet-Persia/dp/B07J1R877K/'
   primevideo|Prime Vdeo International: 'https://www.primevideo.com/detail/0LTSZ3J82II8Z1RKZ2H5H7B6T1/'
-  hidive: ''
 ---
 title: 'Kitsune no Koe'
 type: tv
@@ -449,13 +357,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13735'
   kitsu: 'https://kitsu.io/anime/kitsune-no-koe'
   official: 'http://www.kitsune-no-koe.com/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Merc Storia: Mukiryoku no Shounen to Bin no Naka no Shoujo'
 type: tv
@@ -469,10 +370,6 @@ info:
   subreddit: '/r/mercstoriaanime'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/merc-storia-the-apathetic-boy-and-the-girl-in-a-bottle'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Okoshiyasu, Chitose-chan'
 type: tv
@@ -483,13 +380,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14241'
   kitsu: 'https://kitsu.io/anime/okoshiyasu-chitose-chan-anime'
   official: 'http://www.vap.co.jp/chitosechan/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Ore ga Suki nano wa Imouto dakedo Imouto ja Nai'
 type: tv
@@ -504,10 +394,16 @@ info:
   subreddit: '/r/OregaSukinanowaImouto'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/my-sister-my-writer'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
+---
+title: 'Otona no Bouguya-san'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/38395/Otona_no_Bouguya-san'
+  anilist: 'https://anilist.co/anime/104308/Otona-no-Bouguyasan/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14412'
+  kitsu: ''
+  official: 'https://ganma.jp/g/anime/otonabougu/'
 ---
 title: 'Radiant'
 type: tv
@@ -522,9 +418,6 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/radiant'
   funimation|Funimation: 'https://www.funimation.com/shows/radiant/'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Release the Spyce'
 type: tv
@@ -537,10 +430,6 @@ info:
   official: 'http://www.releasethespyce.jp/'
   subreddit: '/r/ReleaseTheSpyceAnime'
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
   vrv|VRV: 'https://vrv.co/series/G67910Z5Y/Release-the-Spyce'
   hidive: 'https://www.hidive.com/tv/release-the-spyce'
 ---
@@ -557,6 +446,19 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/rerided-derrida-who-leaps-through-time'
 ---
+title: 'Saint Seiya Saintia Sho'
+type: tv
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34539/'
+  anilist: 'https://anilist.co/anime/97919/Saint-Seiya-Saintia-Shou/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12648'
+  kitsu: 'https://kitsu.io/anime/saint-seiya-saintia-shou'
+  official: 'https://www.saintia-sho.com/pc/'
+  subreddit: '/r/SaintSeiya'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/saint-seiya-saintia-sho'
+---
 title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai'
 type: tv
 alias: ['Rascal Does Not Dream of Bunny Girl Senpai']
@@ -572,9 +474,6 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/rascal-does-not-dream-of-bunny-girl-senpai'
   funimation|Funimation: 'https://www.funimation.com/shows/rascal-does-not-dream-of-bunny-girl-senpai/'
   animelab|Anime Lab: 'https://www.animelab.com/shows/rascal-does-not-dream-of-bunny-girl-senpai'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Senran Kagura: Shinovi Master - Tokyo Youma-hen'
 type: tv
@@ -590,10 +489,6 @@ info:
 streams:
   crunchyroll_nsfw|Crunchyroll: 'https://www.crunchyroll.com/senran-kagura-shinovi-master'
   funimation|Funimation: 'https://www.funimation.com/shows/senran-kagura/'
-  nyaa: 'SENRAN KAGURA SHINOVI MASTER'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Sono Toki, Kanojo wa'
 type: tv
@@ -605,13 +500,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14339'
   kitsu: 'https://kitsu.io/anime/sono-toki-kanojo-wa'
   official: 'http://www.sonokano.com/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Sora to Umi no Aida'
 type: tv
@@ -623,13 +511,22 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13312'
   kitsu: 'https://kitsu.io/anime/sora-to-umi-no-aida'
   official: 'http://www.soraumi-anime.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/between-the-sky-and-sea'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
+---
+title: 'SSSS.Gridman'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/35847/SSSSGridman'
+  anilist: 'https://anilist.co/anime/99424/SSSSGRIDMAN/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13260'
+  kitsu: 'https://kitsu.io/anime/ssss-gridman'
+  official: 'https://gridman.net/'
+  subreddit: '/r/SSSSGRIDMAN'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/ssssgridman'
+  funimation|Funimation: 'https://www.funimation.com/shows/ssssgridman/'
 ---
 title: 'Sword Art Online: Alicization'
 type: tv
@@ -647,9 +544,6 @@ streams:
   hulu|Hulu: 'https://www.hulu.com/series/sword-art-online-alicization-c22224e3-93c0-40ab-895d-1475d94a6688'
   animelab|Anime Lab: 'https://www.animelab.com/shows/sword-art-online'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/377/sword-art-online-alicization'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Tensei shitara Slime Datta Ken'
 type: tv
@@ -665,9 +559,6 @@ info:
 streams:
   crunchyroll: 'http://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime'
   funimation|Funimation: 'https://www.funimation.com/shows/that-time-i-got-reincarnated-as-a-slime/'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
   vrv|VRV: 'https://vrv.co/series/GYZJ43JMR/That-Time-I-Got-Reincarnated-as-a-Slime'
 ---
 title: 'The iDOLM@STER SideM: Wake Atte Mini!'
@@ -679,13 +570,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14295'
   kitsu: 'https://kitsu.io/anime/the-idolmaster-sidem-wake-atte-mini'
   official: 'http://www.sidem-wakemini.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/the-idolmster-sidem-wakeatte-mini'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Toaru Majutsu no Index III'
 type: tv
@@ -700,11 +586,7 @@ info:
   subreddit: '/r/toarumajutsunoindex'
 streams:
   crunchyroll|Crunchyroll: 'https://www.crunchyroll.com/a-certain-magical-index'
-  nyaa: '[GJM] To Aru Majutsu no Index III'
   funimation|Funimation: 'https://www.funimation.com/shows/a-certain-magical-index/#videos'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Tokyo Ghoul:re Season 2'
 type: tv
@@ -723,9 +605,6 @@ streams:
   hulu|Hulu: 'https://www.hulu.com/series/tokyo-ghoul-29a2841c-3556-49e5-89b1-84cbe2682fc9'
   nyaa: 'Tokyo Ghoul:re S2'
   animelab|Anime Lab: 'http://www.animelab.com/shows/tokyo-ghoul'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Tonari no Kyuuketsuki-san'
 type: tv
@@ -740,10 +619,6 @@ info:
   subreddit: '/r/KyuuketsukiSan'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/ms-vampire-who-lives-in-my-neighborhood'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Tsurune: Kazemai Koukou Kyuudou Bu'
 type: tv
@@ -754,13 +629,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13538'
   kitsu: 'https://kitsu.io/anime/tsurune-kazemai-koko-kyudo-bu'
   official: 'http://tsurune.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/tsurune'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Uchi no Maid ga Uzasugiru!'
 type: tv
@@ -775,10 +645,6 @@ info:
   subreddit: '/r/TsubaKuma'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/uzamaid'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Uchuu Senkan Tiramisù II'
 type: tv
@@ -790,13 +656,9 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14187'
   kitsu: 'https://kitsu.io/anime/uchuu-senkan-tiramisu-ii'
   official: 'http://tiramisu-anime.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/space-battleship-tiramisu'
   funimation|Funimation: 'https://www.funimation.com/shows/space-battleship-tiramisu/'
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: "Ulysses: Jeanne d'Arc to Renkin no Kishi"
 type: tv
@@ -810,10 +672,6 @@ info:
   subreddit: '/r/UlyssesJeannedArc'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/ulysses-jeanne-darc-and-the-alchemist-knight'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
 ---
 title: 'Yagate Kimi ni Naru'
 type: tv
@@ -827,10 +685,6 @@ info:
   official: 'http://yagakimi.com/'
   subreddit: '/r/YagateKiminiNaru'
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
   hidive: 'https://www.hidive.com/tv/bloom-into-you'
 ---
 title: 'Zombieland Saga'
@@ -845,70 +699,3 @@ info:
   subreddit: '/r/ZombielandSaga'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/zombie-land-saga'
-  funimation|Funimation: ''
-  amazon: ''
-  amazon_uk: ''
-  hidive: ''
----
-title: 'SSSS.Gridman'
-type: tv
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/35847/SSSSGridman'
-  anilist: 'https://anilist.co/anime/99424/SSSSGRIDMAN/'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13260'
-  kitsu: 'https://kitsu.io/anime/ssss-gridman'
-  official: 'https://gridman.net/'
-  subreddit: '/r/SSSSGRIDMAN'
-streams:
-  crunchyroll: 'https://www.crunchyroll.com/ssssgridman'
-  funimation|Funimation: 'https://www.funimation.com/shows/ssssgridman/'
----
-title: 'JoJo no Kimyou na Bouken: Ougon no Kaze'
-type: tv
-has_source: true
-alias: ["JoJo's Bizarre Adventure Part 5: Golden Wind"]
-info:
-  mal: 'https://myanimelist.net/anime/37991/JoJo_no_Kimyou_na_Bouken__Ougon_no_Kaze'
-  anilist: 'https://anilist.co/anime/102883/JoJo-no-Kimyou-na-Bouken-Ougon-no-Kaze/'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14173'
-  kitsu: 'https://kitsu.io/anime/jojo-s-bizarre-adventure-part-5-vento-aureo'
-  official: 'http://jojo-animation.com/'
-  subreddit: '/r/StardustCrusaders'
-streams:
-  crunchyroll: 'https://www.crunchyroll.com/jojos-bizarre-adventure'
-  animelab|AnimeLab: 'https://www.animelab.com/shows/jojos-bizarre-adventure'
-  nyaa: 'JoJo Bizarre Adventure Golden Wind'
----
-title: 'Pingu in the City Season 2'
-type: tv
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/38262/Pingu_in_the_City_2nd_Season'
-  anilist: 'https://anilist.co/anime/99995/Pingu-in-the-City-2/'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14371'
-  kitsu: ''
-  official: 'http://www.nhk.or.jp/anime/pingu/'
----
-title: 'Otona no Bouguya-san'
-type: tv
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/38395/Otona_no_Bouguya-san'
-  anilist: 'https://anilist.co/anime/104308/Otona-no-Bouguyasan/'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14412'
-  kitsu: ''
-  official: 'https://ganma.jp/g/anime/otonabougu/'
----
-title: 'Saint Seiya Saintia Sho'
-type: tv
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/34539/'
-  anilist: 'https://anilist.co/anime/97919/Saint-Seiya-Saintia-Shou/'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12648'
-  kitsu: 'https://kitsu.io/anime/saint-seiya-saintia-shou'
-  official: 'https://www.saintia-sho.com/pc/'
-  subreddit: '/r/SaintSeiya'
-streams:
-  crunchyroll: 'https://www.crunchyroll.com/saint-seiya-saintia-sho'

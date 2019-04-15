@@ -7,16 +7,9 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14165'
   kitsu: 'https://kitsu.io/anime/3d-kanojo-real-girl-2'
   official: 'http://www.3dkanojo-anime.com/'
-#  subreddit: '/r/3DKanojo'
-  subreddit: ''
 streams:
-  crunchyroll: ''
   hidive: 'https://www.hidive.com/tv/real-girl|12'
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GREXP3X9Y/Real-Girl'
-  nyaa: '3D Kanojo Real Girl|12'
 ---
 title: 'Ame-iro Cocoa: Side G'
 alias: ['Rainy Cocoa Season 5']
@@ -25,16 +18,9 @@ info:
   mal: 'https://myanimelist.net/anime/37747/Ame-iro_Cocoa__Side_G'
   anilist: 'https://anilist.co/anime/104712/Ameiro-Cocoa-sideG/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14039'
-  kitsu: ''
   official: 'http://rainycocoa.jp/anime/index.html'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/rainy-cocoa-sideg'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'B-Project: Zecchou*Emotion'
 has_source: false
@@ -44,14 +30,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13495'
   kitsu: 'https://kitsu.io/anime/b-project-zecchou-emotion'
   official: 'https://bpro-anime.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/b-project'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Bang Dream! Season 2'
 has_source: true
@@ -65,9 +45,6 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/bang-dream'
   hidive: 'https://www.hidive.com/tv/bang-dream-s2'
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GY0X2J3G6/BanG-Dream-S2'
 ---
 title: 'Bermuda Triangle: Colorful Pastrale'
@@ -78,15 +55,9 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13912'
   kitsu: 'https://kitsu.io/anime/colorful-pastrale-from-bermuda'
   official: 'https://colorful-pastrale.com/'
-  subreddit: ''
 streams:
-  crunchyroll: ''
   hidive: 'https://www.hidive.com/tv/bermuda-triangle-colorful-pastrale'
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GYW4Q1ZQ6/Bermuda-Triangle-Colorful-Pastrale'
-  nyaa: 'Bermuda Triangle - Colorful Pastrale'
 ---
 title: 'Boogiepop wa Warawanai'
 alias: ['Boogiepop Never Laughs', 'Boogiepop and Others']
@@ -100,11 +71,6 @@ info:
   subreddit: '/r/Boogiepop'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/boogiepop-and-others'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Circlet Princess'
 has_source: false
@@ -114,15 +80,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14255'
   kitsu: 'https://kitsu.io/anime/circlet-princess'
   official: 'https://cirpri-anime.jp/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
-  nyaa: '[RyuujiTK] Circlet Princess'
 ---
 title: 'Date A Live Season 3'
 has_source: true
@@ -135,11 +92,6 @@ info:
   subreddit: '/r/datealive'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/date-a-live'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/date-a-live-2'
 ---
 title: 'Dimension High School'
@@ -150,14 +102,9 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14427'
   kitsu: 'https://kitsu.io/anime/dimension-high-school'
   official: 'http://www.dimension-hs.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/dimension-high-school'
   hidive: 'https://www.hidive.com/tv/dimension-high-school'
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Domestic na Kanojo'
 alias: ['Domestic Girlfriend']
@@ -172,9 +119,6 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/domestic-girlfriend'
   hidive: 'https://www.hidive.com/tv/domestic-girlfriend'
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GRVD24NDR/Domestic-Girlfriend'
   animelab|AnimeLab: 'https://www.animelab.com/shows/domestic-girlfriend'
 ---
@@ -188,13 +132,9 @@ info:
   official: 'https://dororo-anime.com/'
   subreddit: '/r/Dororo'
 streams:
-  crunchyroll: ''
-  hidive: ''
-  funimation|Funimation: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07MLLQL8J/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07MLJJ51W/'
   primevideo|Prime Video International: 'https://www.primevideo.com/detail/0TVO1JG449EFL5TZRWMN0DHHG0/'
-  vrv|VRV: ''
 ---
 title: 'Doukyonin wa Hiza, Tokidoki, Atama no Ue.'
 alias: ['My Roommate is a Cat']
@@ -205,14 +145,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14253'
   kitsu: 'https://kitsu.io/anime/doukyonin-wa-hiza-tokidoki-atama-no-ue'
   official: 'https://www.hizaue.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/my-roommate-is-a-cat'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Egao no Daika'
 alias: ['The Price of Smiles']
@@ -226,11 +160,6 @@ info:
   subreddit: '/r/EgaoNoDaika'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/the-price-of-smiles'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/the-price-of-smiles'
 ---
 title: 'Endro~!'
@@ -244,11 +173,16 @@ info:
   subreddit: '/r/Endro'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/endro'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
+---
+title: 'Fight League: Gear Gadget Generators'
+info:
+  mal: 'https://myanimelist.net/anime/38719/'
+  anilist: 'https://anilist.co/anime/106508/Fight-League-Gear-Gadget-Generators/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14498'
+  kitsu: 'https://kitsu.io/anime/fight-league-gear-gadget-generators'
+  official: 'https://anime.fight-league.com/'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/fight-league-gear-gadget-generators'
 ---
 title: 'Fukigen na Mononokean Tsuzuki'
 alias: ['The Morose Mononokean II']
@@ -259,15 +193,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14177'
   kitsu: 'https://kitsu.io/anime/fukigen-na-mononokean-tsuzuki'
   official: 'http://www.mononokean.tv/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/the-morose-mononokean'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
-  nyaa: 'Fukigen na Mononokean S2'
 ---
 title: 'Girly Air Force'
 has_source: true
@@ -280,11 +207,6 @@ info:
   subreddit: '/r/GirlyAirForce'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/girly-air-force'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Go-toubun no Hanayome'
 alias: ['5-toubun no Hanayome', 'The Five Wedded Brides', 'The Quintessential Quintuplets']
@@ -298,11 +220,6 @@ info:
   subreddit: '/r/5ToubunNoHanayome'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/the-quintessential-quintuplets'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Grimms Notes: The Animation'
 has_source: false
@@ -312,14 +229,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13745'
   kitsu: 'https://kitsu.io/anime/grimms-notes-the-animation'
   official: 'https://www.tbs.co.jp/anime/grimmsnotes/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/grimms-notes-the-animation'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Hulaing Babies'
 alias: ['Flying Babies']
@@ -328,16 +239,7 @@ info:
   mal: 'https://myanimelist.net/anime/34332/Hulaing_Babies'
   anilist: 'https://anilist.co/anime/102928/Hulaing-Babies/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12522'
-  kitsu: ''
   official: 'https://hulaingbabies.com/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen'
 alias: ['Kaguya-sama: Love is War', 'Kaguya Wants to be Confessed To']
@@ -351,15 +253,11 @@ info:
   subreddit: '/r/Kaguya_sama'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/kaguya-sama-love-is-war'
-  hidive: ''
   hulu|Hulu: 'https://www.hulu.com/series/kaguya-sama-love-is-war-da69fc06-cdea-42dc-8827-52cee194db54'
   funimation|Funimation: 'http://www.funimation.com/shows/800793'
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GRJ0J828Y'
   animelab|AnimeLab: 'https://www.animelab.com/shows/kaguya-sama-love-is-war'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/444/kaguya-sama-love-is-war'
-  nyaa: 'Kaguya-sama wa Kokurasetai'
 ---
 title: 'Kakegurui××'
 alias: ['Kakegurui Season 2', 'Kakegurui: Compulsive Gambler']
@@ -371,13 +269,6 @@ info:
   kitsu: 'https://kitsu.io/anime/kakegurui-2nd-season'
   official: 'https://www.kakegurui-anime.com/'
   subreddit: '/r/Kakegurui'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Kemono Friends Season 2'
 has_source: false
@@ -390,12 +281,6 @@ info:
   subreddit: '/r/KemonoFriends'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/kemono-friends'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
-  nyaa: 'HorribleSubs Kemono Friends S2'
 ---
 title: 'Kemurikusa'
 has_source: false
@@ -407,13 +292,9 @@ info:
   official: 'http://www.kemurikusa.com/'
   subreddit: '/r/Kemurikusa'
 streams:
-  crunchyroll: ''
-  hidive: ''
-  funimation|Funimation: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07MLWW254/'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07MC2W537'
   primevideo|Prime Video International: 'https://www.primevideo.com/detail/0JGK7LXE9B1592Q8ID68TFW4TG/'
-  vrv|VRV: ''
 ---
 title: 'Kouya no Kotobuki Hikoutai'
 alias: ['Kotobuki: The Wasteland Squadron', 'The Magnificent Kotobuki']
@@ -424,13 +305,9 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14392'
   kitsu: 'https://kitsu.io/anime/kouya-no-kotobuki-hikoutai'
   official: 'https://www.kotobuki-anime.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/the-magnificent-kotobuki'
   hidive: 'https://www.hidive.com/tv/the-magnificent-kotobuki'
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/G63KZP7W6/The-Magnificent-KOTOBUKI'
 ---
 title: 'Lord El-Melloi II Sei no Jikenbo: Rail Zeppelin Grace Note'
@@ -455,14 +332,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14229'
   kitsu: 'https://kitsu.io/anime/mahou-shoujo-tokushusen-asuka'
   official: 'http://magical-five.jp/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/magical-girl-spec-ops-asuka'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/magical-girl-spec-ops-asuka'
 ---
 title: 'Manaria Friends'
@@ -474,14 +345,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=11544'
   kitsu: 'https://kitsu.io/anime/manaria-friends'
   official: 'https://manaria.jp/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/mysteria-friends'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Mannaka no Rikkun'
 alias: ['Rikkun in the Middle', 'Mannaka no Rikkun@Kin Tele']
@@ -492,14 +357,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13955'
   kitsu: 'https://kitsu.io/anime/mannaka-no-rikkun'
   official: 'https://www.tv-tokyo.co.jp/anime/kinder/intro/sakuhin13/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Meiji Tokyo Renka'
 has_source: false
@@ -509,14 +366,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12461'
   kitsu: 'https://kitsu.io/anime/meiji-tokyo-renka-tv'
   official: 'https://meikoi.com/tv-anime/'
-  subreddit: ''
 streams:
   crunchyroll: 'http://www.crunchyroll.com/meiji-tokyo-renka'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Mini Toji'
 has_source: false
@@ -529,11 +380,6 @@ info:
   subreddit: '/r/TojinoMiko'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/katana-maidens-mini-toji'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Mob Psycho 100 Season 2'
 has_source: true
@@ -546,12 +392,12 @@ info:
   subreddit: '/r/Mobpsycho100'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/mob-psycho-100'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
-  nyaa: 'Mob Psycho 100 II'
+---
+title: 'Otona no Bouguya-san (Rimen)'
+info:
+  mal: 'https://myanimelist.net/anime/39325'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14694'
+  official: 'http://ganma.jp/g/anime/otonabouguuramen/'
 ---
 title: 'Pastel Memories'
 has_source: false
@@ -561,13 +407,9 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13839'
   kitsu: 'https://kitsu.io/anime/pastel-memories'
   official: 'https://pasumemotv.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/pastel-memories'
   hidive: 'https://www.hidive.com/tv/pastel-memories'
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/G63KZEWE6/Pastel-Memories'
 ---
 title: 'Piano no Mori Season 2'
@@ -579,14 +421,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14193'
   kitsu: 'https://kitsu.io/anime/piano-no-mori-tv-2nd-season'
   official: 'http://piano-anime.jp/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Revisions'
 has_source: false
@@ -596,14 +430,6 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13891'
   kitsu: 'https://kitsu.io/anime/revisions'
   official: 'http://www.revisions.jp/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Rinshi!! Ekoda-chan'
 alias: ['Near Death!! Ekoda-chan']
@@ -614,14 +440,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14258'
   kitsu: 'https://kitsu.io/anime/rinshi-ekoda-chan'
   official: 'http://www.ekodachan.com/'
-  subreddit: ''
 streams:
   crunchyroll_nsfw|Crunchyroll: 'http://www.crunchyroll.com/rinshi-ekodachan'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Star☆Twinkle Precure'
 has_source: false
@@ -632,13 +452,6 @@ info:
   kitsu: 'https://kitsu.io/anime/star-twinkle-precure'
   official: 'http://www.toei-anim.co.jp/tv/startwinkle_precure/'
   subreddit: '/r/precure'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: 'Tate no Yuusha no Nariagari'
 alias: ['The Rising of the Shield Hero']
@@ -652,10 +465,6 @@ info:
   subreddit: '/r/shieldbro'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/the-rising-of-the-shield-hero'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/G6W4QKX0R/The-Rising-of-the-Shield-Hero'
 ---
 title: 'Ueno-san wa Bukiyou'
@@ -667,32 +476,10 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14094'
   kitsu: 'https://kitsu.io/anime/Ueno-san-wa-Bukiyou'
   official: 'http://miss-ueno.com/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/how-clumsy-you-are-miss-ueno'
   hidive: 'https://www.hidive.com/tv/how-clumsy-you-are-miss-ueno-'
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GYXJ52M06'
----
-title: 'Virtual-san wa Miteiru'
-alias: ['Virtual-san Looking']
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/38851/Virtual-san_wa_Miteiru'
-  anilist: 'https://anilist.co/anime/106433/Virtualsan-wa-Miteiru/'
-  anidb: ''
-  kitsu: 'https://kitsu.io/anime/virtual-san-looking'
-  official: 'https://virtualsan-looking.jp/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  vrv|VRV: ''
 ---
 title: "W'z"
 has_source: false
@@ -702,13 +489,9 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13934'
   kitsu: 'https://kitsu.io/anime/w-z'
   official: 'http://wz-anime.net/'
-  subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/wz'
   hidive: 'https://www.hidive.com/tv/wz'
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GYNV23JXR/Wz'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/454/wz'
 ---
@@ -724,10 +507,6 @@ info:
   subreddit: '/r/Watashi_ni_Tenshi'
 streams:
   crunchyroll: 'http://www.crunchyroll.com/wataten-an-angel-flew-down-to-me'
-  hidive: ''
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: 'https://vrv.co/series/GR2420096'
 ---
 title: 'Yakusoku no Neverland'
@@ -744,28 +523,9 @@ streams:
   crunchyroll: 'http://www.crunchyroll.com/the-promised-neverland'
   hidive: 'https://www.hidive.com/tv/the-promised-neverland'
   hulu|Hulu: 'https://www.hulu.com/series/the-promised-neverland-3ef087c6-d967-4495-9730-b5ff54ded8e0'
-  funimation|Funimation: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
   vrv|VRV: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/the-promised-neverland'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/437/the-promised-neverland'
----
-title: 'Fight League: Gear Gadget Generators'
-info:
-  mal: 'https://myanimelist.net/anime/38719/'
-  anilist: 'https://anilist.co/anime/106508/Fight-League-Gear-Gadget-Generators/'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14498'
-  kitsu: 'https://kitsu.io/anime/fight-league-gear-gadget-generators'
-  official: 'https://anime.fight-league.com/'
-streams:
-  crunchyroll: 'https://www.crunchyroll.com/fight-league-gear-gadget-generators'
----
-title: 'Otona no Bouguya-san (Rimen)'
-info:
-  mal: 'https://myanimelist.net/anime/39325'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14694'
-  official: 'http://ganma.jp/g/anime/otonabouguuramen/'
 ---
 title: 'Zoku Owarimonogatari'
 info:
@@ -775,6 +535,3 @@ info:
   official: 'https://www.monogatari-series.com/zokuowarimonogatari/'
   kitsu: 'https://kitsu.io/anime/zoku-owarimonogatari'
   subreddit: '/r/araragi'
-streams:
-  crunchyroll: ''
-  nyaa: '[MTBB] Zoku Owarimonogatari'
