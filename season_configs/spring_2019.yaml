@@ -46,15 +46,15 @@ info:
   mal: 'https://myanimelist.net/anime/38268'
   anilist: 'https://anilist.co/anime/104071/Hangyakusei-Million-Arthur-2/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13952'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/hangyakusei-million-arthur-2'
   official: 'http://hangyakusei-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/million-arthur|10'
   hidive: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/million-arthur/'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
@@ -500,6 +500,7 @@ streams:
   primevideo|Prime Video International: ''
   animelab|AnimeLab: ''
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/502/robihachi'
+  hulu|Hulu: 'https://www.hulu.com/series/robihachi-7e16ef3b-5c56-4270-87bd-e841d9712af6'
 ---
 title: 'Namu Amida Butsu! Utena'
 alias: ['Namuamida Butsu! Rendai Utena', 'Namuamidabutsu! -Utena-']
@@ -666,24 +667,24 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
   animelab|AnimeLab: ''
-#---
-#title: ''
-#alias: ['']
-#has_source: true
-#info:
-#  mal: ''
-#  anilist: ''
-#  anidb: ''
-#  kitsu: ''
-#  official: ''
-#  subreddit: ''
-#streams:
-#  crunchyroll: ''
-#  hidive: ''
-#  vrv|VRV: ''
-#  hulu|Hulu: ''
-#  funimation|Funimation: ''
-#  amazon|Amazon US: ''
-#  amazon_uk|Amazon UK: ''
-#  primevideo|Prime Video International: ''
-#  animelab|AnimeLab: ''
+---
+title: 'Bungou Stray Dogs Season 3'
+alias: ['']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38003/Bungou_Stray_Dogs_3rd_Season'
+  anilist: 'https://anilist.co/anime/103223/Bungou-Stray-Dogs-3'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14230'
+  kitsu: 'https://kitsu.io/anime/bungou-stray-dogs-3'
+  official: 'http://bungo-stray-dogs.jp/'
+  subreddit: ''
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/bungo-stray-dogs|25'
+  hidive: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  funimation|Funimation: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  animelab|AnimeLab: ''
