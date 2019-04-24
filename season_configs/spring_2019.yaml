@@ -688,3 +688,15 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
   animelab|AnimeLab: ''
+---
+title: 'Aikatsu Friends!: Kagayaki no Jewel'
+type: tv
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/39078/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14631'
+  kitsu: 'https://kitsu.io/anime/aikatsu-friends-kagayaki-no-jewel'
+  official: 'http://www.aikatsu.com/friends/teaser/'
+  anilist: 'https://anilist.co/anime/107447/Aikatsu-Friends-Kagayaki-no-Jewel/'
+streams:
+  nyaa: '[Mezashite] Aikatsu Friends!|50'
