@@ -136,7 +136,7 @@ info:
   official: 'http://senryu-girl-official.com/'
   subreddit: '/r/SenryuuShoujo'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/senryu-girl'
   hidive: 'https://www.hidive.com/tv/senryu-girl'
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -157,7 +157,7 @@ info:
   official: 'http://aochan-anime.com/'
   subreddit: '/r/AoChanCantStudy'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/ao-chan-cant-study'
   hidive: 'https://www.hidive.com/tv/ao-chan-cant-study'
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -165,7 +165,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/ao-chan-cant-study'
 ---
 title: 'Hitori Bocchi no ○○ Seikatsu'
 alias: ['Hitoribocchi no Marumaru Seikatsu', "Hitori Bocchi's ○○ Lifestyle"]
@@ -207,7 +207,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/demon-slayer'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/479/demon-slayer-kimetsu-no-yaiba'
 ---
 title: 'Mix: Meisei Story'
@@ -220,7 +220,7 @@ info:
   official: 'https://www.ytv.co.jp/mix/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/mix'
   hidive: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -311,7 +311,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/we-never-learn'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/487/we-never-learn'
 ---
 title: 'Fairy Gone'
@@ -533,7 +533,7 @@ info:
   official: 'http://isekai-quartet.com/'
   subreddit: '/r/IsekaiQuartet'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/isekai-quartet'
   hidive: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -544,8 +544,6 @@ streams:
   animelab|AnimeLab: ''
 ---
 title: 'Strike Witches: 501 Butai Hasshin Shimasu!!'
-alias: ['']
-has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38004'
   anilist: 'https://anilist.co/anime/104378/Strike-Witches-501-Butai-Hasshin-Shimasu/'
@@ -562,7 +560,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/strike-witches-501st-unit-takes-off'
 ---
 title: 'One Punch Man Season 2'
 has_source: true
@@ -582,7 +580,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/one-punch-man'
 ---
 title: 'Sewayaki Kitsune no Senko-san'
 alias: ['The Helpful Fox Senko-san']
@@ -595,7 +593,7 @@ info:
   official: 'http://senkosan.com/'
   subreddit: '/r/SewayakiKitsune'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-helpful-fox-senko-san'
   hidive: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -669,7 +667,6 @@ streams:
   animelab|AnimeLab: ''
 ---
 title: 'Bungou Stray Dogs Season 3'
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38003/Bungou_Stray_Dogs_3rd_Season'
@@ -689,14 +686,37 @@ streams:
   primevideo|Prime Video International: ''
   animelab|AnimeLab: ''
 ---
-title: 'Aikatsu Friends!: Kagayaki no Jewel'
-type: tv
+title: 'Cinderella Girls Gekijou: Climax Season'
+alias: ['THE IDOLM@STER Cinderella Girls Theater Season 4']
 has_source: false
 info:
-  mal: 'https://myanimelist.net/anime/39078/'
+  mal: 'https://myanimelist.net/anime/38767/Cinderella_Girls_Gekijou__Climax_Season'
+  anilist: 'https://anilist.co/anime/105962/Cinderella-Girls-Gekijou-CLIMAX-SEASON/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14516'
+  kitsu: 'https://kitsu.io/anime/cinderella-girls-gekijou-climax-season'
+  official: 'http://cingeki-anime.com/'
+  subreddit: '/r/idolmaster'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/the-idolmster-cinderella-girls-theater'
+---
+title: 'Aikatsu Friends!: Kagayaki no Jewel'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/39078/Aikatsu_Friends__Kagayaki_no_Jewel'
+  anilist: 'https://anilist.co/anime/107447/Aikatsu-Friends-Kagayaki-no-Jewel/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14631'
   kitsu: 'https://kitsu.io/anime/aikatsu-friends-kagayaki-no-jewel'
-  official: 'http://www.aikatsu.com/friends/teaser/'
-  anilist: 'https://anilist.co/anime/107447/Aikatsu-Friends-Kagayaki-no-Jewel/'
+  official: 'http://www.aikatsu.net/'
 streams:
   nyaa: '[Mezashite] Aikatsu Friends!|50'
+---
+title: 'Miru Tights'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/38935/Miru_Tights'
+  anilist: 'https://anilist.co/anime/106967/Miru-Tights/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14571'
+  kitsu: 'https://kitsu.io/anime/miru-tights'
+  official: 'https://mirutights.jp/'
+streams:
+  youtube|Youtube: 'https://www.youtube.com/channel/UCo0FslXX6TgIM4OYiB0ji2g'

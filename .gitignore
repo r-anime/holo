@@ -4,9 +4,11 @@ config_secret.ini
 *.sqlite
 *.sqlite-journal
 *.sqlite-backup
+*.sqlite.bkp*
 *.sql
 oauth_store.txt
 logs/
+
 
 # Created by https://www.gitignore.io/api/python,virtualenv
 
