@@ -720,3 +720,15 @@ info:
   official: 'https://mirutights.jp/'
 streams:
   youtube|Youtube: 'https://www.youtube.com/channel/UCo0FslXX6TgIM4OYiB0ji2g'
+---
+title: 'Kidou Senshi Gundam: The Origin'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39592/'
+  anilist: 'https://anilist.co/anime/108039/Kidou-Senshi-Gundam-The-Origin--Zenya-Akai-Suisei/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14496'
+  kitsu: 'https://kitsu.io/anime/kidou-senshi-gundam-the-origin-zenya-akai-suisei'
+  official: 'http://www.gundam-the-origin.net/tv/index.html'
+  subreddit: '/r/Gundam'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/mobile-suit-gundam-the-origin-advent-of-the-red-comet'
