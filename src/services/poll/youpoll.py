@@ -60,8 +60,13 @@ class PollHandler(AbstractPollHandler):
 		debug(f"Getting score for show {poll.show_id} / episode {poll.episode}")
 		response = self.request(self.get_results_link(poll), html = True)
 		value_text = response.find("span", class_="rating-mean-value").text
+		num_votes = response.find("span", class_="admin-total-votes").text
 		try:
-			return float(value_text)
+			if int(num_votes) >= 50:
+				return float(value_text)
+			else:
+				info("No value returned because number of votes too low")
+				return None
 		except ValueError:
 			warning(f"Invalid value '{value_text}', no score returned")
 			return None
