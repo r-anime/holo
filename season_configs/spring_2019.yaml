@@ -30,7 +30,7 @@ info:
   official: 'http://yuno-anime.com/'
   subreddit: '/r/YU_NO'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world'
   hidive: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -429,7 +429,7 @@ info:
   official: 'http://nankoko-anime.com/'
   subreddit: '/r/NandeKokoNiSenseiGa'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/why-the-hell-are-you-here-teacher'
   hidive: 'https://www.hidive.com/tv/why-the-hell-are-you-here-teacher'
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -614,7 +614,7 @@ info:
   official: 'http://kenja-no-mago.jp/'
   subreddit: '/r/TheWiseGrandson'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/wise-mans-grandchild'
   hidive: ''
   vrv|VRV: ''
   hulu|Hulu: ''
