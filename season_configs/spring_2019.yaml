@@ -5,7 +5,7 @@ info:
   mal: 'https://myanimelist.net/anime/38860/Bakumatsu__Crisis'
   anilist: 'https://anilist.co/anime/106568/BAKUMATSU-Crisis/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14548'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/bakumatsu-crisis'
   official: 'http://www.tbs.co.jp/anime/BAKUMATSU/'
   subreddit: ''
 streams:
@@ -26,7 +26,7 @@ info:
   mal: 'https://myanimelist.net/anime/34620/'
   anilist: 'https://anilist.co/anime/97995'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12693'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no'
   official: 'http://yuno-anime.com/'
   subreddit: '/r/YU_NO'
 streams:
@@ -67,7 +67,7 @@ info:
   mal: 'https://myanimelist.net/anime/39063/'
   anilist: 'https://anilist.co/anime/107418/Fairy-Gone/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14627'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/fairy-gone'
   official: 'https://www.fairygone.com/'
   subreddit: '/r/FairyGone'
 streams:
@@ -89,7 +89,7 @@ info:
   mal: 'https://myanimelist.net/anime/38680/Fruits_Basket_2019'
   anilist: 'https://anilist.co/anime/105334/Fruits-Basket/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14490'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/fruits-basket-2019'
   official: 'https://fruba.jp/'
   subreddit: '/r/FruitsBasket'
 streams:
@@ -111,7 +111,7 @@ info:
   mal: 'https://myanimelist.net/anime/38731/'
   anilist: 'https://anilist.co/anime/105749/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14504'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/diamond-no-ace-act-ii'
   official: 'https://diaace.com/'
   subreddit: ''
 streams:
@@ -132,7 +132,7 @@ info:
   mal: 'https://myanimelist.net/anime/38787'
   anilist: 'https://anilist.co/anime/106051/Senryuu-Shoujo/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14522'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/senryuu_shoujo'
   official: 'http://senryu-girl-official.com/'
   subreddit: '/r/SenryuuShoujo'
 streams:
@@ -153,7 +153,7 @@ info:
   mal: 'https://myanimelist.net/anime/38778'
   anilist: 'https://anilist.co/anime/105989/Midara-na-Aochan-wa-Benkyou-ga-Dekinai/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14519'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/midara-na-ao-chan-wa-benkyou-ga-dekinai'
   official: 'http://aochan-anime.com/'
   subreddit: '/r/AoChanCantStudy'
 streams:
@@ -174,7 +174,7 @@ info:
   mal: 'https://myanimelist.net/anime/37614'
   anilist: 'https://anilist.co/anime/101386/Hitoribocchi-no-Marumaru-Seikatsu/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13989'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/hitoribocchi-no-seikatsu'
   official: 'http://hitoribocchi.jp/'
   subreddit: '/r/HitoriBocchiOfficial'
 streams:
@@ -195,7 +195,7 @@ info:
   mal: 'https://myanimelist.net/anime/38000'
   anilist: 'https://anilist.co/anime/101922/Kimetsu-no-Yaiba/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14107'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/kimetsu-no-yaiba'
   official: 'https://demonslayer-anime.com/'
   subreddit: '/r/KimetsuNoYaiba'
 streams:
@@ -216,7 +216,7 @@ info:
   mal: 'https://myanimelist.net/anime/38098'
   anilist: 'https://anilist.co/anime/103555/Mix/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14245'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/mix'
   official: 'https://www.ytv.co.jp/mix/'
   subreddit: ''
 streams:
@@ -237,7 +237,7 @@ info:
   mal: 'https://myanimelist.net/anime/38226'
   anilist: 'https://anilist.co/anime/104284/Chou-Kadou-Girl-16/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14308'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/choukadou-girl-1-6'
   official: 'http://choukadou-anime.com/'
   subreddit: ''
 streams:
@@ -257,7 +257,7 @@ info:
   mal: 'https://myanimelist.net/anime/38295'
   anilist: 'https://anilist.co/anime/104147/Joshikausei/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14390'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/joshikausei'
   official: 'http://joshikau-anime.com/'
   subreddit: '/r/JoshiKausei'
 streams:
@@ -278,7 +278,7 @@ info:
   mal: 'https://myanimelist.net/anime/38814'
   anilist: 'https://anilist.co/anime/106239/Nobunagasensei-no-Osanazuma/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14530'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/nobunaga-sensei-no-osanazuma'
   official: 'http://nobutsuma-anime.com/'
   subreddit: ''
 streams:
@@ -299,7 +299,7 @@ info:
   mal: 'https://myanimelist.net/anime/38186'
   anilist: 'https://anilist.co/anime/103900/Bokutachi-wa-Benkyou-ga-Dekinai/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14289'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/bokutachi-wa-benkyou-ga-dekinai'
   official: 'http://www.boku-ben.com/'
   subreddit: '/r/WeCantStudy'
 streams:
@@ -320,7 +320,7 @@ info:
   mal: 'https://myanimelist.net/anime/39063'
   anilist: 'https://anilist.co/anime/107418/Fairy-Gone/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14627'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/fairy-gone'
   official: 'https://www.fairygone.com/'
   subreddit: '/r/FairyGone'
 streams:
@@ -341,7 +341,7 @@ info:
   mal: 'https://myanimelist.net/anime/38080'
   anilist: 'https://anilist.co/anime/103302/Kono-Oto-Tomare/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14234'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/kono-oto-tomare'
   official: 'http://www.konooto-anime.jp/'
   subreddit: '/r/KonoOtoTomare'
 streams:
@@ -486,7 +486,7 @@ info:
   mal: 'https://myanimelist.net/anime/38707'
   anilist: 'https://anilist.co/anime/105928/RobiHachi/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14493'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/robihachi'
   official: 'https://robihachi.jp/'
   subreddit: ''
 streams:
