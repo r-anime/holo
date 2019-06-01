@@ -75,7 +75,7 @@ streams:
   hidive: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/fairygone/'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
@@ -313,26 +313,6 @@ streams:
   primevideo|Prime Video International: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/we-never-learn'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/487/we-never-learn'
----
-title: 'Fairy Gone'
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/39063'
-  anilist: 'https://anilist.co/anime/107418/Fairy-Gone/'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14627'
-  kitsu: 'https://kitsu.io/anime/fairy-gone'
-  official: 'https://www.fairygone.com/'
-  subreddit: '/r/FairyGone'
-streams:
-  crunchyroll: ''
-  hidive: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/fairygone/'
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
-  animelab|AnimeLab: ''
 ---
 title: 'Kono Oto Tomare!'
 alias: ['Stop This Sound!']
