@@ -414,7 +414,7 @@ info:
   kitsu: 'https://kitsu.io/anime/bungou-stray-dogs-3'
   official: 'http://bungo-stray-dogs.jp/'
 streams:
-  crunchyroll: 'http://www.crunchyroll.com/bungo-stray-dogs'
+  crunchyroll: 'http://www.crunchyroll.com/bungo-stray-dogs|25'
 ---
 title: 'Cinderella Girls Gekijou: Climax Season'
 alias: ['THE IDOLM@STER Cinderella Girls Theater Season 4']
