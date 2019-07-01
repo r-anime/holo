@@ -1,3 +1,102 @@
+title: 'Starmyu Season 3'
+alias: ['Koukou Hoshi Kageki', 'High School Star Musical', 'Star Mu']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/36536/'
+  anilist: 'https://anilist.co/anime/100280/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=13510'
+  kitsu: 'https://kitsu.io/anime/starmyu-3rd-season'
+  animeplanet: 'https://www.anime-planet.com/anime/starmyu-3'
+  official: 'http://hstar-mu.com/index.html'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/starmyu'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Katsute Kami Datta Kemono-tachi e'
+alias: ['To the Abandoned Sacred Beasts']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39199/'
+  anilist: 'https://anilist.co/anime/107672/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14662'
+  kitsu: 'https://kitsu.io/anime/katsute-kami-datta-kemono-tachi-e'
+  animeplanet: 'https://www.anime-planet.com/anime/to-the-abandoned-sacred-beasts'
+  official: 'http://katsu-kami.com/'
+  subreddit: '/r/KatsuKami'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/to-the-abandoned-sacred-beasts'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Tejina Senpai'
+alias: ['Magical Sempai']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38610/'
+  anilist: 'https://anilist.co/anime/105074/Tejina-Senpai/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14467'
+  kitsu: 'https://kitsu.io/anime/tejina-senpai'
+  animeplanet: 'https://www.anime-planet.com/anime/magical-sempai'
+  official: 'http://www.tejina-senpai.jp/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Sounan desu ka?'
+alias: ['Are You Lost?']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39456/'
+  anilist: 'https://anilist.co/anime/108111/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14710'
+  kitsu: 'https://kitsu.io/anime/sounan-desu-ka'
+  animeplanet: 'https://www.anime-planet.com/anime/are-you-lost'
+  official: 'http://www.sounandesuka.jp/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
