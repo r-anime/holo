@@ -20,7 +20,7 @@ def _edit_with_file(db, edit_file):
 	info("Parsing show edit file \"{}\"".format(edit_file))
 	try:
 		with open(edit_file, "r", encoding="UTF-8") as f:
-			parsed = list(yaml.load_all(f))
+			parsed = list(yaml.full_load_all(f))
 	except yaml.YAMLError:
 		exception("Failed to parse edit file")
 		return
