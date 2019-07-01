@@ -198,6 +198,7 @@ def _gen_text_links(db, formats, show):
 	debug("Generating stream text for show {}".format(show))
 	links = db.get_links(show=show)
 	link_texts = list()
+	link_texts_bottom = list() # for links that come last, e.g. official and subreddit
 	for link in links:
 		site = db.get_link_site(id=link.site)
 		if site.enabled:
@@ -206,9 +207,12 @@ def _gen_text_links(db, formats, show):
 				text = safe_format(formats["link_reddit"], link=link_handler.get_link(link))
 			else:
 				text = safe_format(formats["link"], site_name=site.name, link=link_handler.get_link(link))
-			link_texts.append(text)
-			
-	return "\n".join(link_texts)
+			if site.key == "subreddit" or site.key == "official":
+				link_texts_bottom.append(text)
+			else:
+				link_texts.append(text)
+
+	return "\n".join(link_texts) + '\n' + '\n'.join(link_texts_bottom)
 
 def _gen_text_discussions(db, formats, show, stream):
 	episodes = db.get_episodes(show)
