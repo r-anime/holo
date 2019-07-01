@@ -320,6 +320,7 @@ info:
   anilist: 'https://anilist.co/anime/104454/Isekai-Quartet/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14435'
   kitsu: 'https://kitsu.io/anime/isekai-quartet'
+  animeplanet: 'https://www.anime-planet.com/anime/isekai-quartet'
   official: 'http://isekai-quartet.com/'
   subreddit: '/r/IsekaiQuartet'
 streams:
@@ -447,6 +448,7 @@ info:
   anilist: 'https://anilist.co/anime/106967/Miru-Tights/'
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14571'
   kitsu: 'https://kitsu.io/anime/miru-tights'
+  animeplanet: 'https://www.anime-planet.com/anime/miru-tights'
   official: 'https://mirutights.jp/'
 streams:
   youtube|Youtube: 'https://www.youtube.com/channel/UCo0FslXX6TgIM4OYiB0ji2g'
