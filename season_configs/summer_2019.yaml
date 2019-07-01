@@ -97,6 +97,30 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Dr. Stone'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38691/'
+  anilist: 'https://anilist.co/anime/105333/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14491'
+  kitsu: 'https://kitsu.io/anime/dr-stone'
+  animeplanet: 'https://www.anime-planet.com/anime/dr-stone'
+  official: 'http://dr-stone.jp/'
+  subreddit: '/r/DrStone/'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/dr-stone'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
