@@ -119,6 +119,7 @@ _exludors = [re.compile(x, re.I) for x in [
 	r"\b(batch|vol(ume|\.)? ?\d+|dub|dubbed)\b",
 	r"\b(bd|bluray)\b",
 	r"PV.?\d+",
+	r"pre-?air",
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
