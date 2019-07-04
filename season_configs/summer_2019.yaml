@@ -135,7 +135,7 @@ info:
   subreddit: '/r/AstraLostInSpace'
 streams:
   crunchyroll: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/astra-lost-in-space/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -160,7 +160,7 @@ info:
   subreddit: '/r/Dumbbell'
 streams:
   crunchyroll: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/how-heavy-are-the-dumbbells-you-lift/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -173,6 +173,7 @@ streams:
   primevideo|Prime Video International: ''
 ---
 title: 'Maou-sama, Retry!'
+alias: ['Demon Lord, Retry!']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38297/'
@@ -184,7 +185,7 @@ info:
   subreddit: '/r/MaouSamaRetry'
 streams:
   crunchyroll: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/demon-lord-retry/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
