@@ -23,7 +23,9 @@ class ServiceHandler(AbstractServiceHandler):
         for episode_data in episode_datas:
             if _is_valid_episode(episode_data, stream.show_key):
                 try:
-                    episodes.append(_digest_episode(episode_data))
+                    episode = _digest_episode(episode_data)
+                    if episode is not None:
+                        episodes.append(episode)
                 except:
                     exception(f"Problem digesting episode for HiDive/{stream.show_key}")
 
@@ -91,8 +93,10 @@ _episode_name_invalid = re.compile(".*coming soon.*", re.I)
 
 def _is_valid_episode(episode_data, show_key):
     # Possibly other cases to watch ?
-    return episode_data.a is not None
+    if episode_data.a is None:
+        return False
     #return re.match(_episode_re.format(id=show_key), episode_data) is not None
+    return True
 
 def _digest_episode(feed_episode):
     debug("Digesting episode")
@@ -109,7 +113,7 @@ def _digest_episode(feed_episode):
         num = int(num_match_alter.group(1))
     else:
         warning("Unknown episode number format")
-        num = 0
+        return None
 
     name = feed_episode.h3.text
     name_match = _episode_name_correct.match(name)
