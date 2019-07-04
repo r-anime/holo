@@ -198,7 +198,7 @@ streams:
   primevideo|Prime Video International: ''
 ---
 title: 'Uchi no Ko no Tame naraba, Ore wa Moshikashitara Maou mo Taoseru kamo Shirenai.'
-alias: ["If It's for My Daughter, I'd Even Defeat a Demon Lord", 'UchiNoko']
+alias: ["If It's for My Daughter, I'd Even Defeat a Demon Lord", 'UchiNoko', 'Uchi Musume']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39324/'
@@ -715,6 +715,7 @@ streams:
   primevideo|Prime Video International: ''
 ---
 title: 'Machikado Mazoku'
+alias: ['The Demon Girl Next Door']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39071/'
@@ -728,7 +729,7 @@ streams:
   crunchyroll: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/the-demon-girl-next-door'
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
