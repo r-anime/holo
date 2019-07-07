@@ -98,6 +98,8 @@ def _process_new_episode(config, db, show, stream, episode):
 				db.add_episode(stream.show, int_episode.number, post_url)
 				if show.delayed:
 					db.set_show_delayed(show, False)
+				for editing_episode in db.get_episodes(show):
+  					_edit_reddit_post(config, db, show, stream, editing_episode, editing_episode.link, submit=not config.debug)
 			else:
 				error("  Episode not submitted")
 			
@@ -127,6 +129,14 @@ def _create_reddit_post(config, db, show, stream, episode, submit=True):
 			return reddit.get_shortlink_from_id(new_post.id)
 		else:
 			error("Failed to submit post")
+	return None
+
+def _edit_reddit_post(config, db, show, stream, episode, url, submit=True):
+	display_episode = stream.to_display_episode(episode)
+	
+	_, body = _create_post_contents(config, db, show, stream, display_episode)
+	if submit:
+		reddit.get_text_post(url).edit(body)
 	return None
 
 def _create_post_contents(config, db, show, stream, episode):
@@ -252,11 +262,15 @@ def _gen_text_poll(db, config, formats, show, episode):
 	handler = services.get_default_poll_handler()
 	title = config.post_poll_title.format(show = show.name, episode = episode.number)
 
-	poll_id = handler.create_poll(title, headers = {'User-Agent': config.useragent}, submit=not config.debug)
-	if poll_id:
-		site = db.get_poll_site(key=handler.key)
-		db.add_poll(show, episode, site, poll_id)
-		poll = db.get_poll(show, episode)
+	poll = db.get_poll(show, episode)
+	if poll is None:
+		poll_id = handler.create_poll(title, headers = {'User-Agent': config.useragent}, submit=not config.debug)
+		if poll_id:
+			site = db.get_poll_site(key=handler.key)
+			db.add_poll(show, episode, site, poll_id)
+			poll = db.get_poll(show, episode)
+
+	if poll is not None:
 		poll_url = handler.get_link(poll)
 		poll_results_url = handler.get_results_link(poll)
 		return safe_format(formats["poll"], poll_url=poll_url, poll_results_url=poll_results_url)
