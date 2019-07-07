@@ -562,7 +562,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  amazon|Amazon US: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B07TVV16BV'
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
 ---
