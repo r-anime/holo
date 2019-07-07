@@ -110,7 +110,7 @@ info:
   subreddit: '/r/DrStone'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/dr-stone'
-  Funimation: 'https://www.funimation.com/shows/dr-stone/'
+  funimation|Funimation: 'https://www.funimation.com/shows/dr-stone/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
