@@ -38,6 +38,15 @@ def submit_text_post(subreddit, title, body):
 		exception("Failed to submit text post")
 		return None
 
+def get_text_post(url):
+	_ensure_connection()
+	try:
+		new_post = _r.submission(url=url)
+		return new_post
+	except:
+		exception("Failed to retrieve text post")
+		return None
+
 #NOTE: PRAW3 stuff
 #def send_modmail(subreddit, title, body):
 #	_ensure_connection()

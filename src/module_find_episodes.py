@@ -98,6 +98,8 @@ def _process_new_episode(config, db, show, stream, episode):
 				db.add_episode(stream.show, int_episode.number, post_url)
 				if show.delayed:
 					db.set_show_delayed(show, False)
+				for editing_episode in db.get_episodes(show):
+  					_edit_reddit_post(config, db, show, stream, editing_episode, editing_episode.link, submit=not config.debug)
 			else:
 				error("  Episode not submitted")
 			
@@ -127,6 +129,14 @@ def _create_reddit_post(config, db, show, stream, episode, submit=True):
 			return reddit.get_shortlink_from_id(new_post.id)
 		else:
 			error("Failed to submit post")
+	return None
+
+def _edit_reddit_post(config, db, show, stream, episode, url, submit=True):
+	display_episode = stream.to_display_episode(episode)
+	
+	_, body = _create_post_contents(config, db, show, stream, display_episode)
+	if submit:
+		reddit.get_text_post(url).edit(body)
 	return None
 
 def _create_post_contents(config, db, show, stream, episode):
