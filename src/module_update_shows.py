@@ -129,7 +129,7 @@ def _record_poll_scores(config, db, update_db):
 
 	updated = 0
 	for poll in polls:
-		if datetime.now() - poll.date > timedelta(days=7):
+		if datetime.now() - poll.date > timedelta(days=31):
 			score = handler.get_score(poll)
 			info(f"Updating poll score for show {poll.show_id} / episode {poll.episode} ({score})")
 			if score:
