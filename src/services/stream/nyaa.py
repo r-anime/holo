@@ -100,7 +100,7 @@ def _is_valid_episode(feed_episode):
 		debug("  Episode too old")
 		return False
 	number = _extract_episode_num(feed_episode["title"])
-	if number is None or not (0 < number < 720) or number == 501:
+	if number is None or number <= 0:
 		debug(f"  Probably not the right episode number ({number})")
 		return False
 	return True
@@ -108,7 +108,7 @@ def _is_valid_episode(feed_episode):
 def _digest_episode(feed_episode):
 	title = feed_episode["title"]
 	episode_num = _extract_episode_num(title)
-	if episode_num is not None and 0 <= episode_num < 720:
+	if episode_num is not None:
 		date = feed_episode["published_parsed"] or datetime.utcnow()
 		link = feed_episode["id"]
 		return Episode(episode_num, None, link, date)
