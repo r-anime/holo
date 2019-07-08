@@ -13,6 +13,8 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/one-piece/'
   animelab|AnimeLab: 'https://www.animelab.com/shows/one-piece'
   vrv|VRV: 'https://vrv.co/series/GRMG8ZQZR/One-Piece'
+  hulu|Hulu: 'hulu.com/one-piece'
+  amazon|Amazon US: 'amazon.com/dp/B07J2SBPDT'
   nyaa: 'One Piece'
 ---
 title: 'Yu-Gi-Oh! VRAINS'
