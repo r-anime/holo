@@ -296,6 +296,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'HenSuki'
 ---
 title: 'BEM'
 has_source: false
@@ -616,6 +617,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Kochoki - Wakaki Nobunaga'
 ---
 title: 'Arifureta Shokugyou de Sekai Saikyou'
 alias: ["Arifureta: From Commonplace to World's Strongest"]
@@ -654,7 +656,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  funimation|Funimation: 'www.funimation.com/shows/cop-craft/'
+  funimation|Funimation: 'https://www.funimation.com/shows/cop-craft/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
