@@ -14,3 +14,32 @@ streams:
   animelab|AnimeLab: 'https://www.animelab.com/shows/one-piece'
   vrv|VRV: 'https://vrv.co/series/GRMG8ZQZR/One-Piece'
   nyaa: 'One Piece'
+---
+title: 'Yu-Gi-Oh! VRAINS'
+alias: ['Yu☆Gi☆Oh! VRAINS', 'Yuu Gi Ou: Vrains']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34866/Yu%E2%98%86Gi%E2%98%86Oh_VRAINS'
+  anilist: 'https://anilist.co/anime/98231/YuGiOh-VRAINS/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12659'
+  kitsu: 'https://kitsu.io/anime/yu-gi-oh-vrains'
+  animeplanet: 'https://www.anime-planet.com/anime/yu-gi-oh-vrains'
+  official: 'http://www.tv-tokyo.co.jp/anime/yugioh-vrains/'
+  subreddit: '/r/yugioh'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/yu-gi-oh-vrains'
+  vrv|VRV: 'https://vrv.co/series/GRGGX7K1R'
+---
+title: 'Pokémon Sun & Moon'
+alias: ['Pokemon the Series: Sun & Moon', 'Pocket Monsters Sun & Moon', 'SuMo']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34034/'
+  anilist: 'https://anilist.co/anime/97634/Pocket-Monsters-Sun--Moon/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12407'
+  kitsu: 'https://kitsu.io/anime/pokemon-sun-moon'
+  animeplanet: 'https://www.anime-planet.com/anime/pokemon-sun-moon'
+  official: 'https://www.pokemon.com/us/pokemon-episodes/pokemon-tv-seasons/'
+  subreddit: '/r/pokemon'
+streams:
+  nyaa: '[Some-Stuffs]_Pocket_Monsters_Sun_&_Moon'
