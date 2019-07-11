@@ -134,6 +134,8 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba/'
   animelab|AnimeLab: 'https://www.animelab.com/shows/demon-slayer'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/479/demon-slayer-kimetsu-no-yaiba'
+  vrv|VRV: 'https://www.vrv.co/series/GY5P48XEY/Demon-Slayer-Kimetsu-no-Yaiba'
+  hulu|Hulu: 'https://www.hulu.com/demon-slayer-kimetsu-no-yaiba'
 ---
 title: 'Mix: Meisei Story'
 has_source: true
