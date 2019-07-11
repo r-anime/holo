@@ -704,7 +704,7 @@ info:
   official: 'http://given-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/given'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
