@@ -163,7 +163,7 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/how-heavy-are-the-dumbbells-you-lift/'
   wakanim|Wakanim: ''
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/how-heavy-are-the-dumbbells-you-lift'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -680,7 +680,7 @@ info:
   official: 'http://isekai-cheat-magician.com/'
   subreddit: '/r/IsekaiCheatMagician'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/isekai-cheat-magician'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
