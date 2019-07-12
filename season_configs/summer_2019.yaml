@@ -754,7 +754,7 @@ info:
   official: 'http://toaru-project.com/accelerator/'
   subreddit: '/r/toarumajutsunoindex'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/a-certain-scientific-accelerator'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -779,7 +779,7 @@ info:
   official: 'https://twohitmom-anime.com/'
   subreddit: '/r/DoYouLoveYourMom'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/do-you-love-your-mom-and-her-two-hit-multi-target-attacks'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
