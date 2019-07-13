@@ -64,6 +64,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/fruits-basket'
   funimation|Funimation: 'https://www.funimation.com/shows/fruits-basket/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/489/fruits-basket'
+  animelab|AnimeLab: 'https://www.animelab.com/shows/fruits-basket'
 ---
 title: 'Diamond no Ace: Act II'
 alias: ['Ace of the Diamond act II']
