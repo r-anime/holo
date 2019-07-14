@@ -19,11 +19,11 @@ class PollHandler(AbstractPollHandler):
 	                   'poll-1[approval-validation-type]': '0',
 	                   'poll-1[approval-validation-value]': '1',
 	                   'poll-1[rating]': '',
-	                   'voting-limits-dropdown': '2',
+	                   'voting-limits-dropdown': '3',
 			   'captcha-test-checkbox': 'on',
 	                   'reddit-link-karma': '0',
 	                   'reddit-comment-karma': '0',
-	                   'reddit-days-old': '0',
+	                   'reddit-days-old': '8',
 	                   'responses-input': '',
 	                   }
 
