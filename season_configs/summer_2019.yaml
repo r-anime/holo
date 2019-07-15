@@ -411,7 +411,7 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/lord-el-melloi-iis-case-files-rail-zeppelin-grace-note/'
   wakanim|Wakanim: ''
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/lord-el-melloi-iIs-case-files'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GRG5X224R/Lord-El-Melloi-IIs-Case-Files-Rail-Zeppelin-Grace-note'
   hulu|Hulu: ''
@@ -768,7 +768,7 @@ streams:
   primevideo|Prime Video International: ''
 ---
 title: 'Tsuujou Kougeki ga Zentai Kougeki de Nikai Kougeki no Okaasan wa Suki Desuka?'
-alias: ['Do You Love Your Mom and Her Two-Hit Multi-Target Attacks?']
+alias: ['Do You Love Your Mom and Her Two-Hit Multi-Target Attacks?', 'Okaa-san Online', 'OkaaSuki']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38573/'
@@ -783,7 +783,7 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/do-you-love-your-mom-and-her-two-hit-multi-target-attacks/'
   wakanim|Wakanim: ''
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/do-you-love-your-mom-and-her-two-hit-multi-target-attacks'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
