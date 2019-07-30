@@ -755,7 +755,7 @@ info:
   subreddit: '/r/toarumajutsunoindex'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/a-certain-scientific-accelerator'
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/a-certain-scientific-accelerator/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/a-certain-scientific-accelerator'
