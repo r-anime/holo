@@ -840,6 +840,31 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'SD Gundam World: Sangoku Souketsuden'
+alias: ['']
+has_source: true
+info:
+ mal: 'https://myanimelist.net/anime/38715/'
+ anilist: 'https://anilist.co/anime/108041/'
+ anidb: 'https://anidb.net/anime/14497'
+ kitsu: 'https://kitsu.io/anime/sd-gundam-world-sangoku-souketsuden'
+ animeplanet: 'https://www.anime-planet.com/anime/sd-gundam-world-sangoku-souketsuden'
+ official: 'https://sd-gundam-world.net/soketsuden/'
+ subreddit: ''
+streams:
+ crunchyroll: 'https://www.crunchyroll.com/sd-gundam-world-sangoku-soketsuden'
+ funimation|Funimation: ''
+ wakanim|Wakanim: ''
+ hidive: ''
+ animelab|AnimeLab: ''
+ crunchyroll_nsfw|Crunchyroll: ''
+ vrv|VRV: ''
+ hulu|Hulu: ''
+ youtube: ''
+ amazon|Amazon US: ''
+ amazon_uk|Amazon UK: ''
+ primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
