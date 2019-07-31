@@ -842,8 +842,7 @@ streams:
   primevideo|Prime Video International: ''
 ---
 title: 'SD Gundam World: Sangoku Souketsuden'
-alias: ['']
-has_source: true
+has_source: false
 info:
  mal: 'https://myanimelist.net/anime/38715/'
  anilist: 'https://anilist.co/anime/108041/'
