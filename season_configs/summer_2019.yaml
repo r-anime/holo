@@ -58,7 +58,7 @@ info:
   kitsu: 'https://kitsu.io/anime/tejina-senpai'
   animeplanet: 'https://www.anime-planet.com/anime/magical-sempai'
   official: 'http://www.tejina-senpai.jp/'
-  subreddit: ''
+  subreddit: '/r/MagicalSempai'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/magical-sempai'
   funimation|Funimation: ''
