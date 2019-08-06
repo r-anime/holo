@@ -43,3 +43,17 @@ info:
   subreddit: '/r/pokemon'
 streams:
   nyaa: '[Some-Stuffs]_Pocket_Monsters_Sun_&_Moon'
+---
+title: 'Detective Conan'
+alias: ['Meitantei Conan', 'Case Closed']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/235/Detective_Conan'
+  anilist: 'https://anilist.co/anime/235/Meitantei-Conan/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=266'
+  kitsu: 'https://kitsu.io/anime/detective-conan'
+  animeplanet: 'https://www.anime-planet.com/anime/detective-conan'
+  official: 'http://www.ytv.co.jp/conan/'
+  subreddit: '/r/OneTruthPrevails'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/case-closed'

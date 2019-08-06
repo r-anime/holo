@@ -9,7 +9,7 @@ from data.models import UnprocessedShow, ShowType
 
 class InfoHandler(AbstractInfoHandler):
 	_show_link_base = "https://myanimelist.net/anime/{id}/"
-	_show_link_matcher = "https?://(?:.+?\.)?myanimelist\.net/anime/([0-9]{5,})"
+	_show_link_matcher = "https?://(?:.+?\.)?myanimelist\.net/anime/([0-9]+)"
 	_season_show_url = "https://myanimelist.net/anime/season"
 	
 	_api_search_base = "https://myanimelist.net/api/anime/search.xml?q={q}"
