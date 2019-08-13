@@ -6,9 +6,9 @@ from .. import AbstractServiceHandler
 from data.models import Episode, UnprocessedStream
 
 class ServiceHandler(AbstractServiceHandler):
-	_channel_feed = "https://www.youtube.com/feeds/videos.xml?channel_id={id}"
-	_channel_url = "https://www.youtube.com/channel/{id}"
-	_channel_re = re.compile("youtube.com/channel/([\w-]+)/?", re.I)
+	_channel_feed = "https://www.youtube.com/feeds/videos.xml?playlist_id={id}"
+	_channel_url = "https://www.youtube.com/playlist?list={id}"
+	_channel_re = re.compile("youtube.com/playlist\\?list=([\w-]+)", re.I)
 
 	def __init__(self):
 		super().__init__("youtube", "Youtube", False)
