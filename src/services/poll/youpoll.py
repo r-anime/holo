@@ -62,11 +62,7 @@ class PollHandler(AbstractPollHandler):
 		value_text = response.find("span", class_="rating-mean-value").text
 		num_votes = response.find("span", class_="admin-total-votes").text
 		try:
-			if int(num_votes) >= 50:
-				return float(value_text)
-			else:
-				info("No value returned because number of votes too low")
-				return None
+			return float(value_text)
 		except ValueError:
 			warning(f"Invalid value '{value_text}', no score returned")
 			return None
