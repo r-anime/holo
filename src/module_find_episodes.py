@@ -87,10 +87,12 @@ def _process_new_episode(config, db, show, stream, episode):
 		latest_episode = db.get_latest_episode(show)
 		info("  Latest ep num: {}".format("none" if latest_episode is None else latest_episode.number))
 		already_seen = latest_episode is not None and latest_episode.number >= int_episode.number
-		info("  Already seen: {}".format(already_seen))
+		info(f"  Already seen: {already_seen}")
+                episode_number_gap = latest_episode is not None and latest_episode.number > 0 and int_episode.number > latest_episode.number + 1
+                info(f"  Gap between episodes: {episode_number_gap}")
 		
 		# New episode!
-		if not already_seen:
+		if not already_seen and not episode_number_gap:
 			post_url = _create_reddit_post(config, db, show, stream, int_episode, submit=not config.debug)
 			info("  Post URL: {}".format(post_url))
 			if post_url is not None:
