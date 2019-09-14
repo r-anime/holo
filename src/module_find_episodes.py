@@ -88,8 +88,8 @@ def _process_new_episode(config, db, show, stream, episode):
 		info("  Latest ep num: {}".format("none" if latest_episode is None else latest_episode.number))
 		already_seen = latest_episode is not None and latest_episode.number >= int_episode.number
 		info(f"  Already seen: {already_seen}")
-                episode_number_gap = latest_episode is not None and latest_episode.number > 0 and int_episode.number > latest_episode.number + 1
-                info(f"  Gap between episodes: {episode_number_gap}")
+		episode_number_gap = latest_episode is not None and latest_episode.number > 0 and int_episode.number > latest_episode.number + 1
+		info(f"  Gap between episodes: {episode_number_gap}")
 		
 		# New episode!
 		if not already_seen and not episode_number_gap:
