@@ -1,0 +1,49 @@
+title: 'Mini Yuri'
+alias: ['Yuru Yuri Shorts']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40369/Mini_Yuri'
+  anilist: 'https://anilist.co/anime/110382/Mini-Yuri/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14971'
+  kitsu: 'https://kitsu.io/anime/mini-yuri'
+  animeplanet: 'https://www.anime-planet.com/anime/yuru-yuri-mini-yuri'
+  official: 'https://yuruyuri.com/miniyuri/'
+  subreddit: '/r/yuruyuri'
+streams:
+  crunchyroll: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+#---
+#title: ''
+#alias: ['']
+#has_source: true
+#info:
+#  mal: ''
+#  anilist: ''
+#  anidb: ''
+#  kitsu: ''
+#  animeplanet: ''
+#  official: ''
+#  subreddit: ''
+#streams:
+#  crunchyroll: ''
+#  funimation|Funimation: ''
+#  wakanim|Wakanim: ''
+#  hidive: ''
+#  animelab|AnimeLab: ''
+#  crunchyroll_nsfw|Crunchyroll: ''
+#  vrv|VRV: ''
+#  hulu|Hulu: ''
+#  youtube: ''
+#  amazon|Amazon US: ''
+#  amazon_uk|Amazon UK: ''
+#  primevideo|Prime Video International: ''
