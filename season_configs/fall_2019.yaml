@@ -22,6 +22,253 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Bananya: Fushigi na Nakama-tachi'
+alias: ['Bananya and the Curious Bunch']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/40228'
+  anilist: 'https://anilist.co/anime/110881/Bananya-Fushigi-na-Nakamatachi/'
+  anidb: 'https://anidb.net/anime/15036'
+  kitsu: 'https://kitsu.io/anime/bananya-fushigi-na-nakama-tachi'
+  animeplanet: 'https://www.anime-planet.com/anime/bananya-and-the-curious-bunch'
+  official: 'https://bananya.jp/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/bananya'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Ahiru no Sora'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37403'
+  anilist: 'https://anilist.co/anime/101239/Ahiru-no-Sora/'
+  anidb: 'https://anidb.net/anime/13848'
+  kitsu: 'https://kitsu.io/anime/ahiru-no-sora'
+  animeplanet: 'https://www.anime-planet.com/anime/ahiru-no-sora'
+  official: 'ahirunosora.jp'
+  subreddit: '/r/AhiruNoSora'
+streams:
+  crunchyroll: 'www.crunchyroll.com/ahiru-no-sora'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: 'https://www.hidive.com/tv/ahiru-no-sora'
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Radiant Season 2'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39355/Radiant_2nd_Season'
+  anilist: 'https://anilist.co/anime/108040/Radiant-2/'
+  anidb: 'https://anidb.net/anime/14701'
+  kitsu: 'https://kitsu.io/anime/radiant-2'
+  animeplanet: 'https://www.anime-planet.com/anime/radiant-2nd-season'
+  official: 'https://anime-radiant.com'
+  subreddit: '/r/RadiantManga'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/radiant'
+  funimation|Funimation: 'https://www.funimation.com/shows/radiant/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Hataage! Kemono Michi'
+alias: ['Kemono Michi: Rise Up', 'Rise Up! Animal Road', 'Animal Trail']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39030/Hataage_Kemono_Michi'
+  anilist: 'https://anilist.co/anime/107339/Hataage-Kemono-Michi/'
+  anidb: 'https://anidb.net/anime/14618'
+  kitsu: 'https://kitsu.io/anime/hataage-kemono-michi'
+  animeplanet: 'https://www.anime-planet.com/anime/rise-up-animal-road'
+  official: 'http://hataage-kemonomichi.com/'
+  subreddit: '/r/KemonoMichi'
+streams:
+  crunchyroll: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru'
+alias: ['Cautious Hero: The Hero Is Overpowered but Overly Cautious', ]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38659/Shinchou_Yuusha__Kono_Yuusha_ga_Ore_Tueee_Kuse_ni_Shinchou_Sugiru'
+  anilist: 'https://anilist.co/anime/105156/Kono-Yuusha-ga-Ore-TUEEE-Kuse-ni-Shinchou-Sugiru/'
+  anidb: 'https://anidb.net/anime/14477'
+  kitsu: 'https://kitsu.io/anime/kono-yuusha-ga-ore-tueee-kuse-ni-shinchou-sugiru'
+  animeplanet: 'https://www.anime-planet.com/anime/kono-yuusha-ga-ore-tueee-kuse-ni-shinchou-sugiru'
+  official: 'http://shincho-yusha.jp/'
+  subreddit: '/r/CautiousHero'
+streams:
+  crunchyroll: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Ore o Suki na no wa Omae Dake ka yo'
+alias: ['Ore wo Suki nano wa Omae dake ka yo', 'OreSuki', 'Are you the only one who loves me?']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38483/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo'
+  anilist: 'https://anilist.co/anime/104464/Ore-wo-Suki-nano-wa-Omae-dake-ka-yo/'
+  anidb: 'https://anidb.net/anime/14442'
+  kitsu: 'https://kitsu.io/anime/ore-wo-suki-nano-wa-omae-dake-ka-yo'
+  animeplanet: 'https://www.anime-planet.com/anime/ore-wo-suki-na-no-wa-omae-dake-ka-yo'
+  official: 'https://oresuki-anime.com'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Honzuki no Gekokujou'
+alias: ['Ascendance of a Bookworm', 'Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39468'
+  anilist: 'https://anilist.co/anime/108268/'
+  anidb: 'https://anidb.net/anime/14727'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/ascendance-of-a-bookworm'
+  official: 'http://booklove-anime.jp/'
+  subreddit: '/r/HonzukiNoGekokujou'
+streams:
+  crunchyroll: 'http://www.crunchyroll.com/ascendance-of-a-bookworm'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Houkago Saikoro Club'
+alias: ['After School Dice Club']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38276/Houkago_Saikoro_Club'
+  anilist: 'https://anilist.co/anime/104115/Houkago-Saikoro-Club/'
+  anidb: 'https://anidb.net/anime/14386'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/houkago-saikoro-club'
+  official: 'http://saikoro-club.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!'
+alias: ['Choyoyu', 'High School Prodigies Have It Easy Even In Another World']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39523/'
+  anilist: 'https://anilist.co/anime/108388/'
+  anidb: 'https://anidb.net/anime/14750'
+  kitsu: 'https://kitsu.io/anime/choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu'
+  animeplanet: 'https://www.anime-planet.com/anime/high-school-prodigies-have-it-easy-even-in-another-world'
+  official: 'http://choyoyu.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/high-school-prodigies-have-it-easy-even-in-another-world'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Granblue Fantasy The Animation Season 2'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/36587/Granblue_Fantasy_The_Animation_Season_2'
+  anilist: 'https://anilist.co/anime/107346/GRANBLUE-FANTASY-The-Animation-Season-2/'
+  anidb: 'https://anidb.net/anime/13524'
+  kitsu: 'https://kitsu.io/anime/granblue-fantasy-the-animation-2'
+  animeplanet: 'https://www.anime-planet.com/anime/granblue-fantasy-the-animation-season-2'
+  official: 'http://anime.granbluefantasy.jp/'
+  subreddit: '/r/Granblue_en'
+streams:
+  crunchyroll: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
