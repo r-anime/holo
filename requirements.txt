@@ -1,7 +1,7 @@
-praw>=4.1.0
-beautifulsoup4==4.5.1
-feedparser==5.2.1
-requests==2.12.4
-Unidecode==0.4.19
-PyYAML==3.12
-python-dateutil==2.8.0
+praw>=6.4.0
+beautifulsoup4>=4.8.0
+feedparser>=5.2.1
+requests>=2.22.0
+Unidecode>=1.1.1
+PyYAML>=5.1.2
+python-dateutil>=2.8.0
