@@ -244,7 +244,8 @@ def _gen_text_discussions(db, formats, show, stream):
 			else:
 				score = poll_handler.get_score(poll)
 				poll_link = poll_handler.get_results_link(poll)
-			table.append(safe_format(formats["discussion"], episode=episode.number, link=episode.link, score=score if score else "", poll_link=poll_link if poll_link else "http://localhost")) # Need valid link even when empty
+			score = poll_handler.convert_score_str(score)
+			table.append(safe_format(formats["discussion"], episode=episode.number, link=episode.link, score=score, poll_link=poll_link if poll_link else "http://localhost")) # Need valid link even when empty
 
 		num_columns = 1 + (len(table) - 1) // 20
 		format_head, format_align = formats["discussion_header"], formats["discussion_align"]
