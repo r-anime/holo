@@ -229,6 +229,11 @@ def _gen_text_links(db, formats, show):
 def _gen_text_discussions(db, formats, show, stream):
 	episodes = db.get_episodes(show)
 	debug("Num previous episodes: {}".format(len(episodes)))
+	N_LINES = 13
+	n_episodes = 4 * N_LINES # maximum 4 columns
+	if len(episodes) > n_episodes:
+		debug(f'Clipping to most recent {n_episodes} episodes')
+		episodes = episodes[-n_episodes:]
 	if len(episodes) > 0:
 		table = []
 		for episode in episodes:
@@ -247,10 +252,10 @@ def _gen_text_discussions(db, formats, show, stream):
 			score = poll_handler.convert_score_str(score)
 			table.append(safe_format(formats["discussion"], episode=episode.number, link=episode.link, score=score, poll_link=poll_link if poll_link else "http://localhost")) # Need valid link even when empty
 
-		num_columns = 1 + (len(table) - 1) // 20
+		num_columns = 1 + (len(table) - 1) // N_LINES
 		format_head, format_align = formats["discussion_header"], formats["discussion_align"]
 		table_head = '|'.join(num_columns * [format_head]) + '\n' + '|'.join(num_columns * [format_align])
-		table = ['|'.join(table[i::20]) for i in range(20)]
+		table = ['|'.join(table[i::N_LINES]) for i in range(N_LINES)]
 		return table_head + "\n" + "\n".join(table)
 	else:
 		return formats["discussion_none"]
