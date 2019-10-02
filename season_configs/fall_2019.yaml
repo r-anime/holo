@@ -109,20 +109,20 @@ info:
   subreddit: '/r/KemonoMichi'
 streams:
   crunchyroll: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/kemono-michi-rise-up/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/kemono-michi-rise-up-d7d24912-88da-4c44-8338-eb144fcf84b4'
   youtube: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
 ---
 title: 'Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru'
-alias: ['Cautious Hero: The Hero Is Overpowered but Overly Cautious', ]
+alias: ['Cautious Hero: The Hero Is Overpowered but Overly Cautious']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38659/Shinchou_Yuusha__Kono_Yuusha_ga_Ore_Tueee_Kuse_ni_Shinchou_Sugiru'
@@ -134,14 +134,14 @@ info:
   subreddit: '/r/CautiousHero'
 streams:
   crunchyroll: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/cautious-hero-the-hero-is-overpowered-but-overly-cautious/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
+  hulu|Hulu: 'https://www.hulu.com/series/cautious-hero-the-hero-is-overpowered-but-overly-cautious-bf1ecfd8-879a-4ccf-b0c9-ca4f05848f50'
+  youtube: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0hI_XedalMVIvHcVLOouiv'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
@@ -156,10 +156,10 @@ info:
   kitsu: 'https://kitsu.io/anime/ore-wo-suki-nano-wa-omae-dake-ka-yo'
   animeplanet: 'https://www.anime-planet.com/anime/ore-wo-suki-na-no-wa-omae-dake-ka-yo'
   official: 'https://oresuki-anime.com'
-  subreddit: ''
+  subreddit: '/r/OreSuki'
 streams:
-  crunchyroll: ''
-  funimation|Funimation: ''
+  crunchyroll: 'https://www.crunchyroll.com/oresuki-are-you-the-only-one-who-loves-me'
+  funimation|Funimation: 'https://www.funimation.com/shows/oresuki-are-you-the-only-one-who-loves-me'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -170,6 +170,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Ore wo Suki nano wa Omae dake ka yo'
 ---
 title: 'Honzuki no Gekokujou'
 alias: ['Ascendance of a Bookworm', 'Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen']
@@ -209,7 +210,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/after-school-dice-club/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -266,6 +267,31 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Urashimasakatasen no Nichijou'
+alias: ['Days of Urashimasakatasen']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40197/Urashimasakatasen_no_Nichijou'
+  anilist: 'https://anilist.co/anime/110811/Urashimasakatasen-no-Nichijou/'
+  anidb: 'https://anidb.net/anime/15033'
+  kitsu: 'https://kitsu.io/anime/urashimasakatasen-no-nichijou'
+  animeplanet: 'https://www.anime-planet.com/anime/days-of-urashimasakatasen'
+  official: 'http://nbcuni-music.com/urashimasakatasen/anime/index.html'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/days-of-urashimasakatasen'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl1anqyunGxtfYhkK4tAp2Tk'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
