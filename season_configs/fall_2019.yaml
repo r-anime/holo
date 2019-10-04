@@ -110,7 +110,7 @@ info:
 streams:
   crunchyroll: ''
   funimation|Funimation: 'https://www.funimation.com/shows/kemono-michi-rise-up/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/562/kemono-michi-rise-up'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -135,7 +135,7 @@ info:
 streams:
   crunchyroll: ''
   funimation|Funimation: 'https://www.funimation.com/shows/cautious-hero-the-hero-is-overpowered-but-overly-cautious/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/553/cautious-hero-the-hero-is-overpowered-but-overly-cautious'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -160,7 +160,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/oresuki-are-you-the-only-one-who-loves-me'
   funimation|Funimation: 'https://www.funimation.com/shows/oresuki-are-you-the-only-one-who-loves-me'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/547/oresuki-are-you-the-only-one-who-loves-me'
   hidive: 'https://www.hidive.com/tv/oresuki-are-you-the-only-one-who-loves-me'
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -259,8 +259,8 @@ info:
   subreddit: '/r/Granblue_en'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/granblue-fantasy-the-animation'
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/granblue-fantasy-the-animation/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/541/granblue-fantasy-the-animation-season-2'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -309,13 +309,13 @@ info:
   subreddit: '/r/AzureLane'
 streams:
   crunchyroll: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/azur-lane/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/578/azur-lane'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/azur-lane'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/azur-lane-6c2ced8e-9f2b-4850-8b8b-b0fd530fd85e'
   youtube: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -435,7 +435,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/fategrand-order-absolute-demonic-front-babylonia'
   funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/522/fategrand-order-absolute-demonic-front-babylonia'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -460,7 +460,7 @@ info:
 streams:
   crunchyroll: ''
   funimation|Funimation: 'https://www.funimation.com/shows/we-never-learn-bokuben/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/487/we-never-learn/season/979/season-2'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -510,7 +510,7 @@ info:
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/549/special-7-special-crime-investigation-unit'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -559,7 +559,7 @@ info:
 streams:
   crunchyroll: ''
   funimation|Funimation: 'https://www.funimation.com/shows/fairy-gone/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/498/fairy-gone'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -584,7 +584,7 @@ info:
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/558/africa-salaryman'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -657,7 +657,7 @@ info:
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/574/stand-my-heroes-piece-of-truth'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -903,7 +903,7 @@ info:
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/550/no-guns-life'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -928,7 +928,7 @@ info:
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/566/stars-align'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
@@ -951,7 +951,7 @@ info:
   official: 'http://shokugekinosoma.com/4thplate/'
   subreddit: '/r/ShokugekiNoSoma'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/food-wars-shokugeki-no-soma'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -1028,7 +1028,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/sword-art-online|24'
   funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/377/sword-art-online-alicization/season/976/arc-3---war-of-underworld'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
