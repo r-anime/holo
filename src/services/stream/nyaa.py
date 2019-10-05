@@ -120,6 +120,7 @@ _exludors = [re.compile(x, re.I) for x in [
 	r"\b(bd|bluray)\b",
 	r"PV.?\d+",
 	r"pre-?air",
+	r"blackjaxx", # blacklisted uploaders
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
