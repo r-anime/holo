@@ -510,7 +510,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/special-7-special-crime-investigation-unit/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
