@@ -433,7 +433,7 @@ info:
   official: 'https://anime.fate-go.us/ep7-tv/'
   subreddit: '/r/grandorder'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/fategrand-order-absolute-demonic-front-babylonia'
+  crunchyroll: ''
   funimation|Funimation: 'https://www.funimation.com/shows/fategrand-order-absolute-demonic-front-babylonia/'
   wakanim|Wakanim: ''
   hidive: ''
@@ -521,6 +521,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Keishichou Tokumubu Tokushu Kyouakuhan Taisakushitsu Dainanaka - Tokunana'
 ---
 title: 'Actors: Songs Connection'
 has_source: false
@@ -616,10 +617,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B07YQKYPXS'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07YQPXPWC/'
   primevideo|Prime Video International: ''
-  nyaa: 'Babylon -Fate'
 ---
 title: 'Phantasy Star Online 2: Episode Oracle'
 has_source: true
