@@ -145,6 +145,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Shinchou Yuusha'
 ---
 title: 'Ore o Suki na no wa Omae Dake ka yo'
 alias: ['Ore wo Suki nano wa Omae dake ka yo', 'OreSuki', 'Are you the only one who loves me?']
@@ -521,7 +522,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  nyaa: 'Keishichou Tokumubu Tokushu Kyouakuhan Taisakushitsu Dainanaka - Tokunana'
+  nyaa: 'Keishichou Tokuhanka 007'
 ---
 title: 'Actors: Songs Connection'
 has_source: false
@@ -619,7 +620,7 @@ streams:
   youtube: ''
   amazon|Amazon US: 'https://www.amazon.com/dp/B07YQKYPXS'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07YQPXPWC/'
-  primevideo|Prime Video International: ''
+  primevideo|Prime Video International: 'https://www.primevideo.com/detail/0PURGMAG9R4B8E1YRZTFXN6FN7/'
 ---
 title: 'Phantasy Star Online 2: Episode Oracle'
 has_source: true
@@ -733,7 +734,7 @@ streams:
   crunchyroll: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/kandagawa-jet-girls-'
+  hidive: 'https://www.hidive.com/tv/kandagawa-jet-girls'
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
@@ -800,12 +801,12 @@ info:
   mal: 'https://myanimelist.net/anime/40192/Gundam_Build_Divers_Re_Rise'
   anilist: 'https://anilist.co/anime/110786/Gundam-Build-Divers-ReRISE/'
   anidb: 'https://anidb.net/anime/14495'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/gundam-build-divers-re-rise'
   animeplanet: 'https://www.anime-planet.com/anime/gundam-build-divers-re-rise'
   official: 'http://gundam-bd.net/'
-  subreddit: ''
+  subreddit: '/r/Gundam'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/gundam-build-divers|25'
+  crunchyroll: 'https://www.crunchyroll.com/gundam-build-divers'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -813,7 +814,7 @@ streams:
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  youtube: 'https://www.youtube.com/user/GundamInfo'
+  youtube: 'https://www.youtube.com/playlist?list=PLJV1h9xQ7Hx_2cj7NaHuRTucjzovxXd7S'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
@@ -877,7 +878,7 @@ info:
   kitsu: ''
   animeplanet: 'https://www.anime-planet.com/anime/assassins-pride'
   official: 'https://assassinspride-anime.com/'
-  subreddit: ''
+  subreddit: '/r/AssassinsPride'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/assassins-pride'
   funimation|Funimation: ''
@@ -1150,6 +1151,30 @@ info:
   animeplanet: 'https://www.anime-planet.com/anime/hi-score-girl-ii'
   official: 'http://hi-score-girl.com/'
   subreddit: '/r/HiScoreGirl'
+streams:
+  crunchyroll: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Aikatsu on Parade!'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/40266/Aikatsu_on_Parade'
+  anilist: 'https://anilist.co/anime/111082/Aikatsu-on-Parade/'
+  anidb: 'https://anidb.net/anime/15047'
+  kitsu: 'https://kitsu.io/anime/aikatsu-on-parade'
+  animeplanet: 'https://www.anime-planet.com/anime/aikatsu-on-parade'
+  official: 'http://www.aikatsu.net/'
+  subreddit: ''
 streams:
   crunchyroll: ''
   funimation|Funimation: ''
