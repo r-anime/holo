@@ -262,7 +262,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/granblue-fantasy-the-animation'
   funimation|Funimation: 'https://www.funimation.com/shows/granblue-fantasy-the-animation/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/541/granblue-fantasy-the-animation-season-2'
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/granblue-fantasy-the-animation-season-2'
   animelab|AnimeLab: 'https://www.animelab.com/shows/granblu-fantasy'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
@@ -463,7 +463,7 @@ streams:
   crunchyroll: ''
   funimation|Funimation: 'https://www.funimation.com/shows/we-never-learn-bokuben/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/487/we-never-learn/season/979/season-2'
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/we-never-learn-bokuben-season-2'
   animelab|AnimeLab: 'https://www.animelab.com/shows/we-never-learn'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
@@ -929,13 +929,13 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/stars-align'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/566/stars-align'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/stars-align'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/stars-align-f23dab2b-184f-44f8-9ade-5904fe34553a'
   youtube: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -979,7 +979,7 @@ info:
   subreddit: '/r/KabukichoSherlock'
 streams:
   crunchyroll: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/case-file-n221-kabukicho/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -1031,7 +1031,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/sword-art-online|24'
   funimation|Funimation: ''
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/377/sword-art-online-alicization/season/976/arc-3---war-of-underworld'
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/sword-art-online-alicization-war-of-underworld'
   animelab|AnimeLab: 'https://www.animelab.com/shows/sword-art-online'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
@@ -1067,6 +1067,7 @@ streams:
   primevideo|Prime Video International: ''
 ---
 title: 'Rifle Is Beautiful'
+alias: ['Chidori RSC']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38529/Rifle_Is_Beautiful'
@@ -1080,7 +1081,7 @@ streams:
   crunchyroll: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/chidori-rsc'
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
@@ -1176,6 +1177,31 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Shin Chuuka Ichiban!'
+alias: ['True Cooking Master Boy']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39194/Shin_Chuuka_Ichiban'
+  anilist: 'https://anilist.co/anime/107666/Shin-Chuuka-Ichiban/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14658'
+  kitsu: 'https://kitsu.io/anime/shin-chuuka-ichiban'
+  animeplanet: 'https://www.anime-planet.com/anime/shin-chuuka-ichiban'
+  official: 'http://cookingmaster-anime.jp/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/true-cooking-master-boy'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
