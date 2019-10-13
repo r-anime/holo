@@ -106,7 +106,7 @@ def _edit_with_file(db, edit_file):
 					else:
 						service = db.get_service(key=service_id)
 						s = db.get_stream(service_tuple=(service, show_key))
-						db.update_stream(s, show_key=show_key, remote_offset=remote_offset, commit=False)
+						db.update_stream(s, show=show_id, remote_offset=remote_offset, commit=False)
 				elif "|" in service_key:
 					# Lite stream
 					service, service_name = service_key.split("|", maxsplit=1)
