@@ -67,7 +67,7 @@ def _edit_with_file(db, edit_file):
 					info_id = info_handler.extract_show_id(url)
 					debug("    id={}".format(info_id))
 					
-					if not db.has_link(info_key, info_id):
+					if not db.has_link(info_key, info_id, show_id):
 						show.site_key = info_key
 						show.show_key = info_id
 						db.add_link(show, show_id, commit=False)
