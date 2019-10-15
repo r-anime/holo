@@ -67,7 +67,7 @@ def _edit_with_file(db, edit_file):
 					info_id = info_handler.extract_show_id(url)
 					debug("    id={}".format(info_id))
 					
-					if not db.has_link(info_key, info_id):
+					if not db.has_link(info_key, info_id, show_id):
 						show.site_key = info_key
 						show.show_key = info_id
 						db.add_link(show, show_id, commit=False)
@@ -106,7 +106,7 @@ def _edit_with_file(db, edit_file):
 					else:
 						service = db.get_service(key=service_id)
 						s = db.get_stream(service_tuple=(service, show_key))
-						db.update_stream(s, show_key=show_key, remote_offset=remote_offset, commit=False)
+						db.update_stream(s, show=show_id, remote_offset=remote_offset, commit=False)
 				elif "|" in service_key:
 					# Lite stream
 					service, service_name = service_key.split("|", maxsplit=1)

@@ -407,9 +407,13 @@ class DatabaseDatabase:
 		return link
 	
 	@db_error_default(False)
-	def has_link(self, site_key, key) -> bool:
+	def has_link(self, site_key, key, show=None) -> bool:
 		site = self.get_link_site(key=site_key)
-		self.q.execute("SELECT count(*) FROM Links WHERE site = ? AND site_key = ?",
+		if show is not None:
+			self.q.execute("SELECT count(*) FROM Links WHERE site = ? AND site_key = ? AND show = ?",
+					   (site.id, key, show))
+		else:
+			self.q.execute("SELECT count(*) FROM Links WHERE site = ? AND site_key = ?",
 					   (site.id, key))
 		return self.get_count() > 0
 	
