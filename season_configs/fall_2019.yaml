@@ -440,7 +440,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/fategrand-order---absolute-demonic-front-babylonia'
   crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: 'https://vrv.co/series/GR24JZ886/FateGrand-Order-Absolute-Demonic-Front-Babylonia'
+  vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
   amazon|Amazon US: ''
@@ -497,6 +497,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'HorribleSubs Kono Oto Tomare|13'
 ---
 title: 'Keishichou Tokumu Bu Tokushu Kyouakuhan Taisaku Shitsu Dai Nana Ka: Tokunana'
 alias: ['Special 7: Special Crime Investigation Unit']
@@ -522,7 +523,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  nyaa: 'Keishichou Tokuhanka 007'
+  nyaa: 'Special 7 - Special Crime Investigation Unit'
 ---
 title: 'Actors: Songs Connection'
 has_source: false
@@ -621,6 +622,7 @@ streams:
   amazon|Amazon US: 'https://www.amazon.com/dp/B07YQKYPXS'
   amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B07YQPXPWC/'
   primevideo|Prime Video International: 'https://www.primevideo.com/detail/0PURGMAG9R4B8E1YRZTFXN6FN7/'
+  nyaa: 'Babylon -Fate'
 ---
 title: 'Phantasy Star Online 2: Episode Oracle'
 has_source: true
@@ -991,6 +993,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Kabukicho Sherlock'
 ---
 title: 'Boku no Hero Academia Season 4'
 alias: ['My Hero Academia 4']
@@ -1139,7 +1142,8 @@ streams:
   youtube: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
+  primevideo|Prime Video International: 'https://www.primevideo.com/detail/0GMA6H790B7EMLNVN83K54XMRA/'
+  nyaa: 'Psycho-Pass 3'
 ---
 title: 'High Score Girl Season 2'
 alias: ['High Score Girl II']
@@ -1165,6 +1169,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'High Score Girl II'
 ---
 title: 'Aikatsu on Parade!'
 has_source: false
