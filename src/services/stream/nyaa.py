@@ -48,9 +48,10 @@ class ServiceHandler(AbstractServiceHandler):
 			return list()
 		
 		# Send request
-		query = re.sub("[-`~!@#$%^&*()+=:;,.<>?/|\\'\"]+", " ", show_key)
+		query = re.sub("[`~!@#$%^&*()+=:;,.<>?/|\\'\"]+", " ", show_key)
 		query = re.sub("season", " ", query, flags=re.I)
 		query = re.sub(" +", " ", query)
+		query = re.sub("(?:[^ ])-", " ", query) # do not ignore the NOT operator
 		debug("  query={}".format(query))
 		query = url_quote(query, safe="", errors="ignore")
 		
@@ -134,11 +135,13 @@ _num_extractors = [re.compile(x, re.I) for x in [
 	r"\[anon\] .+? (\d{2,})",
 	r"\[seiya\] .+ - (\d+) \[.+\]",
 	r"\[U3-Web\] .+ \[EP(\d+)\]",
+	r"(?:.+).S(?:\d+)E(\d+).Laelaps.Calling.(?:\d+)p.(?:.+)",
 	r"\[(?:SenritsuSubs|AtlasSubbed)\] .+ - (\d+)",
 	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]", # Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 	r".*?[ _](\d+)[ _]\[\d+p\]", # No tag followed by quality
 	r".*?episode[ _](\d+)", # Completely unformatted, but with the "Episode XX" text
 	r".*[ _]-[ _](\d+)(?:[ _].*)?$", # - separator
+	r".*(\d+)\.mkv$", # num right before extension
 ]]
 
 def _extract_episode_num(name):
