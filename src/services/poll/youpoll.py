@@ -7,15 +7,17 @@ from .. import AbstractPollHandler
 from data.models import Poll
 
 class PollHandler(AbstractPollHandler):
-	OPTION_PLUS = 'Like'
-	OPTION_MINUS = 'Dislike'
+	OPTIONS = ['Excellent', 'Great', 'Good', 'Mediocre', 'Bad']
 
 	_poll_post_url = 'https://youpoll.me'
 	_poll_post_headers = {'User-Agent': None}
 	_poll_post_data = {'address': '',
 	                   'poll-1[question]': None,
-	                   'poll-1[option1]': OPTION_PLUS,
-	                   'poll-1[option2]': OPTION_MINUS,
+	                   'poll-1[option1]': OPTIONS[0],
+	                   'poll-1[option2]': OPTIONS[1],
+	                   'poll-1[option3]': OPTIONS[2],
+	                   'poll-1[option4]': OPTIONS[3],
+	                   'poll-1[option5]': OPTIONS[4],
 	                   'poll-1[min]': '1',
 	                   'poll-1[max]': 10,
 	                   'poll-1[voting-system]': '0',
