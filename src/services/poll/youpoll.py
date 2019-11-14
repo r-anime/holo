@@ -1,4 +1,4 @@
-from logging import debug, info, warning
+from logging import debug, info, warning, error
 from datetime import datetime, timezone
 import requests
 import re
@@ -7,6 +7,8 @@ from .. import AbstractPollHandler
 from data.models import Poll
 
 class PollHandler(AbstractPollHandler):
+	OPTION_PLUS = 'Like'
+	OPTION_MINUS = 'Dislike'
 	OPTIONS = ['Excellent', 'Great', 'Good', 'Mediocre', 'Bad']
 
 	_poll_post_url = 'https://youpoll.me'
