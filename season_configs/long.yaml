@@ -30,19 +30,19 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/yu-gi-oh-vrains'
   vrv|VRV: 'https://vrv.co/series/GRGGX7K1R'
 ---
-title: 'Pokémon Sun & Moon'
-alias: ['Pokemon the Series: Sun & Moon', 'Pocket Monsters Sun & Moon', 'SuMo']
+title: 'Pokémon (2019)'
+alias: ['Pocket Monsters 2019', 'Pokemon 2019', ' Pokemon (Shin Series)']
 has_source: true
 info:
-  mal: 'https://myanimelist.net/anime/34034/'
-  anilist: 'https://anilist.co/anime/97634/Pocket-Monsters-Sun--Moon/'
-  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12407'
-  kitsu: 'https://kitsu.io/anime/pokemon-sun-moon'
-  animeplanet: 'https://www.anime-planet.com/anime/pokemon-sun-moon'
+  mal: 'https://myanimelist.net/anime/40351/'
+  anilist: 'https://anilist.co/anime/112153/Pocket-Monsters-2019/'
+  anidb: 'https://anidb.net/anime/15067'
+  kitsu: 'https://kitsu.io/anime/pokemon-shin-series'
+  animeplanet: 'https://www.anime-planet.com/anime/pokemon-2019'
   official: 'https://www.pokemon.com/us/pokemon-episodes/pokemon-tv-seasons/'
   subreddit: '/r/pokemon'
 streams:
-  nyaa: '[Some-Stuffs]_Pocket_Monsters_Sun_&_Moon'
+  nyaa: '[Some-Stuffs]_Pocket_Monsters_(2019)'
 ---
 title: 'Detective Conan'
 alias: ['Meitantei Conan', 'Case Closed']
