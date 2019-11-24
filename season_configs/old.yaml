@@ -9,6 +9,15 @@ info:
   animeplanet: 'https://www.anime-planet.com/anime/meiken-lassie'
   official: 'http://www.nippon-animation.co.jp/work/1730/'
 ---
+title: 'Paris no Isabelle'
+alias: ['Paris no Isabel', 'Isabelle of Paris', 'Isabell de Paris']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/3879/'
+  anidb: 'https://anidb.net/anime/3627'
+  kitsu: 'https://kitsu.io/anime/paris-no-isabel'
+  animeplanet: 'https://www.anime-planet.com/anime/paris-no-isabelle'
+---
 title: 'Mahou no Princess Minky Momo'
 alias: ['Magical Princess Minky Momo']
 has_source: false
