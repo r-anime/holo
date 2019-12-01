@@ -104,7 +104,7 @@ def _is_valid_episode(feed_episode, show_id):
 	if all(num.match(title) is None for num in _num_extractors):
 		return False
 	stats = feed_episode.get("media_statistics", dict())
-	views = stats.get("views", 0)
+	views = int(stats.get("views", 0))
 	if views <= 0:
 		return False
 	return True
