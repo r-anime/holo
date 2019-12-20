@@ -26,6 +26,7 @@ streams:
 title: 'Bananya: Fushigi na Nakama-tachi'
 alias: ['Bananya and the Curious Bunch']
 has_source: false
+length: 13
 info:
   mal: 'https://myanimelist.net/anime/40228'
   anilist: 'https://anilist.co/anime/110881/Bananya-Fushigi-na-Nakamatachi/'
@@ -847,6 +848,7 @@ streams:
 ---
 title: 'Beastars'
 has_source: true
+length: 12
 info:
   mal: 'https://myanimelist.net/anime/39195/Beastars'
   anilist: 'https://anilist.co/anime/107660/BEASTARS/'
@@ -947,6 +949,7 @@ streams:
 title: 'Shokugeki no Souma: Shin no Sara'
 alias: ['Food Wars! The Fourth Plate']
 has_source: true
+length: 12
 info:
   mal: 'https://myanimelist.net/anime/39940/Shokugeki_no_Souma__Shin_no_Sara'
   anilist: 'https://anilist.co/anime/109963/Shokugeki-no-Souma-Shin-no-Sara/'
@@ -1223,6 +1226,7 @@ streams:
 title: 'Ani ni Tsukeru Kusuri wa Nai! Season 3'
 alias: ['Please Take My Brother Away']
 has_source: true
+length: 12
 info:
   mal: 'https://myanimelist.net/anime/39959/Ani_ni_Tsukeru_Kusuri_wa_Nai_3'
   anilist: 'https://anilist.co/anime/110088/Ani-ni-Tsukeru-Kusuri-wa-Nai-3/'
