@@ -48,7 +48,7 @@ class ServiceHandler(AbstractServiceHandler):
 			return list()
 		
 		# Send request
-		query = re.sub("[`~!@#$%^&*()+=:;,.<>?/|\\'\"]+", " ", show_key)
+		query = re.sub("[`~!@#$%^&*()+=:;,.<>?/|\"]+", " ", show_key)
 		query = re.sub("season", " ", query, flags=re.I)
 		query = re.sub(" +", " ", query)
 		query = re.sub("(?:[^ ])-", " ", query) # do not ignore the NOT operator
