@@ -104,13 +104,13 @@ class PollHandler(AbstractPollHandler):
 				values = dict()
 				for div in divs:
 					label = div.find('span', class_='basic-option-title').text
-					if label not in OPTIONS_V3:
+					if label not in self.OPTIONS_V3:
 						error(f'Found unexpected label {label}, aborted')
 						return None
 					value_text = div.find('span', class_='basic-option-percent').text
 					score = float(value_text.strip('%')) / 100
 					values[label] = score
-				results = [values[k] for k in OPTIONS_V3]
+				results = [values[k] for k in self.OPTIONS_V3]
 				info(f'Results: {str(results)}')
 				warning('Score v3 not currently supported')
 				return None
