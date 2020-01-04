@@ -809,7 +809,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/plunderer/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -900,7 +900,6 @@ streams:
   primevideo|Prime Video International: ''
 ---
 title: 'Show by Rock!! Mashumairesh!!'
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40763/Show_By_Rock_Mashumairesh'
@@ -913,7 +912,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/show-by-rock/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
