@@ -119,15 +119,6 @@ def _create_reddit_post(config, db, show, stream, episode, submit=True):
 		new_post = reddit.submit_text_post(config.subreddit, title, body)
 		if new_post is not None:
 			debug("Post successful")
-			#try:
-			#	flair_template = next(flair['flair_template_id'] for flair in new_post.flair.choices() if flair['flair_text'] == 'Episode')
-			#	new_post.flair.select(flair_template)
-			#except StopIteration:
-			#	warning('No flair found')
-			new_post.mod.spoiler()
-			if show.is_nsfw:
-				new_post.mod.nsfw()
-				info("Set tag NSFW")
 			return reddit.get_shortlink_from_id(new_post.id)
 		else:
 			error("Failed to submit post")
