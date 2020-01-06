@@ -792,9 +792,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
+  amazon|Amazon US: 'https://www.amazon.com/dp/B083G1PYGJ/'
+  amazon_uk|Amazon UK: 'https://www.amazon.co.uk/dp/B0839QS4K8/'
+  primevideo|Prime Video International: 'https://www.primevideo.com/detail/0RMPI38FTNHCYRMWVJIW4Z3A9K/'
 ---
 title: 'Plunderer'
 has_source: true
