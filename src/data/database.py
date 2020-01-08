@@ -517,8 +517,10 @@ class DatabaseDatabase:
 		has_source = raw_show.has_source
 		is_nsfw = raw_show.is_nsfw
 		
-		self.q.execute("UPDATE Shows SET length = ?, type = ?, has_source = ?, is_nsfw = ? WHERE id = ?",
-					   (length, show_type, has_source, is_nsfw, show_id))
+		if length != 0:
+			self.q.execute("UPDATE Shows SET length = ?, type = ?, has_source = ?, is_nsfw = ? WHERE id = ?", (length, show_type, has_source, is_nsfw, show_id))
+		else:
+			self.q.execute("UPDATE Shows SET type = ?, has_source = ?, is_nsfw = ? WHERE id = ?", (show_type, has_source, is_nsfw, show_id))
 		
 		if commit:
 			self.commit()
