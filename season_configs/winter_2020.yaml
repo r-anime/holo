@@ -471,7 +471,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0fxMZfFjcKLnL0Hj6cw3Op'
   funimation|Funimation: 'https://www.funimation.com/shows/bofuri-i-dont-want-to-get-hurt-so-ill-max-out-my-defense/'
   wakanim|Wakanim: ''
   hidive: ''
