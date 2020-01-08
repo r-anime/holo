@@ -140,7 +140,7 @@ streams:
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/bang-dream-3rd-season'
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
@@ -213,7 +213,7 @@ info:
   official: 'http://eizouken-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/keep-your-hands-off-eizouken'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -305,7 +305,7 @@ streams:
   primevideo|Prime Video International: ''
 ---
 title: 'Heya Camp△'
-alias: ['Room Camp', 'Yuru Camp△ Season 2', 'Laid-Back Camp Season 2']
+alias: ['Room Camp']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38476/Heya_Camp%E2%96%B3'
@@ -316,7 +316,7 @@ info:
   official: 'https://yurucamp.jp/heyacamp/'
   subreddit: '/r/laidbackcamp'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/room-camp'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -472,7 +472,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/bofuri-i-dont-want-to-get-hurt-so-ill-max-out-my-defense/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -603,7 +603,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/sorcerous-stabber-orphen/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -627,7 +627,7 @@ info:
   official: 'https://anime-seton.jp'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/seton-academy-join-the-pack'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -706,7 +706,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/number24/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -1001,6 +1001,32 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  primevideo|Prime Video International: ''
+---
+title: 'IDOLiSH7: Second Beat!'
+alias: ['Idolish Seven Season 2']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37962/'
+  anilist: 'https://anilist.co/anime/103110'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14202'
+  kitsu: 'https://kitsu.io/anime/idolish7-2'
+  animeplanet: 'https://www.anime-planet.com/anime/idolish7-second-beat'
+  official: 'http://idolish7.com/aninana/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/idolish7'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
 #---
 #title: ''
