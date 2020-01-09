@@ -266,7 +266,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/hatena-illusion/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -342,8 +342,8 @@ info:
   official: 'https://jeweler-richard.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
-  museasia: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-case-files-of-jeweler-richard'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0vwHVQLtVh4xoUX5pxEiJD'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -394,7 +394,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/infinite-dendrogram/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -498,7 +498,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/toilet-bound-hanako-kun/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -680,7 +680,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/nekopara/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -912,7 +912,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/show-by-rock/'
+  funimation|Funimation: 'https://www.funimation.com/shows/show-by-rock-mashumairesh/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -938,7 +938,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/a-certain-scientific-railgun/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -964,7 +964,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/uchitama-have-you-seen-my-tama/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
