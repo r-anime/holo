@@ -58,7 +58,7 @@ info:
   kitsu: 'https://kitsu.io/anime/darwins-game'
   animeplanet: 'https://www.anime-planet.com/anime/darwins-game'
   official: 'https://darwinsgame-anime.com/'
-  subreddit: ''
+  subreddit: '/r/DarwinsGame'
 streams:
   crunchyroll: ''
   funimation|Funimation: 'https://www.funimation.com/shows/darwins-game/'
@@ -239,7 +239,7 @@ info:
   official: 'https://haikyu.jp'
   subreddit: '/r/haikyuu'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/haikyu'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -395,12 +395,12 @@ streams:
   crunchyroll: ''
   museasia: ''
   funimation|Funimation: 'https://www.funimation.com/shows/infinite-dendrogram/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/624/infinite-dendrogram'
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/infinite-dendrogram-15a76cfe-6bc3-4743-9862-449ac723e008'
   youtube: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -730,7 +730,7 @@ info:
   official: 'https://shinamon-nobunaga.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/oda-cinnamon-nobunaga'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -758,7 +758,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/if-my-favorite-pop-idol-made-it-to-the-budokan-i-would-die/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -859,7 +859,7 @@ info:
   official: 'https://rikekoi.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/science-fell-in-love-so-i-tried-to-prove-it'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -936,7 +936,7 @@ info:
   official: 'https://toaru-project.com/railgun_t/'
   subreddit: '/r/toarumajutsunoindex'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/a-certain-scientific-railgun'
   museasia: ''
   funimation|Funimation: 'https://www.funimation.com/shows/a-certain-scientific-railgun/'
   wakanim|Wakanim: ''
