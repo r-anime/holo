@@ -1031,6 +1031,31 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Breakers'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/40850/'
+  anilist: 'https://anilist.co/anime/113851/Breakers/'
+  anidb: 'https://anidb.net/anime/14722'
+  kitsu: 'https://kitsu.io/anime/breakers'
+  animeplanet: 'https://www.anime-planet.com/anime/breakers'
+  official: 'https://www6.nhk.or.jp/anime/program/detail.html?i=breakers'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
