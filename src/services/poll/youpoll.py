@@ -95,7 +95,6 @@ class PollHandler(AbstractPollHandler):
 				return None
 			elif len(divs) == 5:
 				# v3 votes, 5 points scale
-				# NOT RETURNED (TODO)
 				divs = response.find_all('div', class_='basic-option-wrapper')
 				num_votes = int(response.find("span", class_="admin-total-votes").text)
 				if num_votes == 0:
@@ -112,8 +111,9 @@ class PollHandler(AbstractPollHandler):
 					values[label] = score
 				results = [values[k] for k in self.OPTIONS_V3]
 				info(f'Results: {str(results)}')
-				warning('Score v3 not currently supported')
-				return None
+				total = sum([r * s for r, s in zip(results, range(5, 0, -1))])
+				total = round(total, 2)
+				return total
 
 
 	@staticmethod
