@@ -448,8 +448,8 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/interspecies-reviewers/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/639/interspecies-reviewers'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/interspecies-reviewers'
   crunchyroll_nsfw|Crunchyroll: ''
