@@ -32,7 +32,7 @@ streams:
 ---
 title: 'Pokémon (2019)'
 alias: ['Pocket Monsters 2019', 'Pokemon 2019', 'Pokemon (Shin Series)']
-has_source: true
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/40351/'
   anilist: 'https://anilist.co/anime/112153/Pocket-Monsters-2019/'
