@@ -470,7 +470,7 @@ info:
   kitsu: 'https://kitsu.io/anime/itai-no-wa-lya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu'
   animeplanet: 'https://www.anime-planet.com/anime/itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu'
   official: 'https://bofuri.jp/'
-  subreddit: ''
+  subreddit: '/r/Bofuri'
 streams:
   crunchyroll: ''
   museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0fxMZfFjcKLnL0Hj6cw3Op'
@@ -538,6 +538,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Drifting Dragons'
 ---
 title: 'Kyokou Suiri'
 alias: ['In/Spectre']
@@ -787,7 +788,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/227-nanabun-no-nijyuuni/'
+  funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
