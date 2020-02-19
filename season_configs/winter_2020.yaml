@@ -1059,6 +1059,32 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Hakumei no Tsubasa'
+alias: ['Pokémon: Twilight Wings']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40861/'
+  anilist: 'https://anilist.co/anime/113932/Hakumei-no-Tsubasa'
+  anidb: 'https://anidb.net/anime/15309'
+  kitsu: 'https://kitsu.io/anime/pokemon-hakumei-no-tsubasa'
+  animeplanet: 'https://www.anime-planet.com/anime/pokemon-twilight-wings'
+  official: 'https://www.pokemon.co.jp/ex/hakumei_no_tsubasa/'
+  subreddit: '/r/pokemon'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLQWzKIaERirwfvHB3m8CjnTK6ZzNA8wvJ'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
