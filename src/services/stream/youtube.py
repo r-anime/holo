@@ -92,7 +92,8 @@ _excludors = [re.compile(x, re.I) for x in [
 ]]
 
 _num_extractors = [re.compile(x, re.I) for x in [
-	".*\D(\d{2,3})(?:\D|$)",
+	r".*\D(\d{2,3})(?:\D|$)",
+	r".*episode (\d+)(?:\D|$)",
 ]]
 
 def _is_valid_episode(feed_episode, show_id):
