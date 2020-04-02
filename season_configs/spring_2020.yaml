@@ -48,6 +48,84 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Hachi-nantte, Sore wa Nai Deshou!'
+alias: ['The 8th Son? Are You Kidding Me?']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38830'
+  anilist: 'https://anilist.co/anime/106319/Hachinan-tte-Sore-wa-Nai-deshou/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14535'
+  kitsu: 'https://kitsu.io/anime/hachi-nan-tte-sore-wa-nai-desho'
+  animeplanet: 'https://www.anime-planet.com/anime/the-8th-son-are-you-kidding-me'
+  official: 'http://hachinan-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/the-8th-son-are-you-kidding-me'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Kakushigoto'
+alias: ["My Dad's Secret Ambition"]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40716'
+  anilist: 'https://anilist.co/anime/113311/Kakushigoto-TV/'
+  anidb: 'https://anidb.net/anime/15267'
+  kitsu: 'https://kitsu.io/anime/kakushigoto-tv'
+  animeplanet: 'https://www.anime-planet.com/anime/kakushigoto'
+  official: 'https://kakushigoto-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Nami yo Kiite Kure'
+alias: ['Wave, Listen to Me!']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40513/Nami_yo_Kiitekure'
+  anilist: 'https://anilist.co/anime/112353/Nami-yo-Kiitekure/'
+  anidb: 'https://anidb.net/anime/15136'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/wave-listen-to-me'
+  official: 'https://namiyo-anime.com'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
