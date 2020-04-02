@@ -11,10 +11,10 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/tamayomi-the-baseball-girls/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/879'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/tamayomi-the-baseball-girls'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
