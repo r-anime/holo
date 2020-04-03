@@ -126,6 +126,32 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Shin Sakura Taisen the Animation'
+alias: ['Sakura Wars the Animation']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40403/'
+  anilist: 'https://anilist.co/anime/111500/'
+  anidb: 'https://anidb.net/anime/15097'
+  kitsu: 'https://kitsu.io/anime/shin-sakura-taisen'
+  animeplanet: 'https://www.anime-planet.com/anime/sakura-wars-the-animation'
+  official: 'https://sakura-taisen-theanimation.com/'
+  subreddit: '/r/SakuraWars'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/sakura-wars-the-animation/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/872/sakura-wars-the-animation'
+  hidive: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/new-sakura-wars'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
