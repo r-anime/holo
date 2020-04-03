@@ -152,6 +152,57 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Bungou to Alchemist: Shinpan no Haguruma'
+alias: ['Bungo and Alchemist: Gears of Judgement']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40934'
+  anilist: 'https://anilist.co/anime/114411/Bungou-to-Alchemist-Shinpan-no-Haguruma/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=15328'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/bungou-to-alchemist-shinpan-no-haguruma'
+  official: 'https://anime-bungo-alchemist.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/bungo-and-alchemist-gears-of-judgement-/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Listeners'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/40165/Listeners'
+  anilist: 'https://anilist.co/anime/109856/LISTENERS/'
+  anidb: 'https://anidb.net/anime/14939'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/listeners'
+  official: 'https://listeners.rocks/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/listeners/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
