@@ -115,7 +115,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/wave-listen-to-me/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -126,6 +126,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Nami yo Kiitekure'
 ---
 title: 'Shin Sakura Taisen the Animation'
 alias: ['Sakura Wars the Animation']
@@ -203,6 +204,203 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Arte'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40128/Arte'
+  anilist: 'https://anilist.co/anime/110547/Arte/'
+  anidb: 'https://anidb.net/anime/15013'
+  animeplanet: 'https://www.anime-planet.com/anime/arte'
+  official: 'http://arte-anime.com/'
+  subreddit: '/r/arte'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/arte/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Major 2nd Season 2'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40504/Major_2nd_TV_2nd_Season'
+  anilist: 'https://anilist.co/anime/112302/Major-2nd-Season-2/'
+  anidb: 'https://anidb.net/anime/15133'
+  animeplanet: 'https://www.anime-planet.com/anime/major-2nd-2020'
+  official: 'https://www.shopro.co.jp/tv/major2nd/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/major-2nd'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Asatir: Mirai no Mukashibanashi'
+alias: ['Future Folktales']
+info:
+  mal: 'https://myanimelist.net/anime/41558/Asatir__Mirai_no_Mukashi_Banashi'
+  anilist: 'https://anilist.co/anime/117096/Asatir-Mirai-no-Mukashibanashi/'
+  anidb: 'https://anidb.net/anime/15489'
+  animeplanet: 'https://www.anime-planet.com/anime/asatir-mirai-no-mukashibanashi'
+  official: ''
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: 'https://www.hidive.com/tv/future-folktales'
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Sword Art Online: Alicization - War of Underworld (Part 2)'
+alias: ['Sword Art Online: Alicization - War of Underworld Season 2']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40540/Sword_Art_Online__Alicization_-_War_of_Underworld_2nd_Season'
+  anilist: 'https://anilist.co/anime/114308/Sword-Art-Online-Alicization--War-of-Underworld-Part-2/'
+  anidb: 'https://anidb.net/anime/15146'
+  animeplanet: 'https://www.anime-planet.com/anime/sword-art-online-alicization-war-of-underworld-part-ii'
+  official: 'https://sao-alicization.com/'
+  subreddit: '/r/swordartonline'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Gal to Kyouryuu'
+alias: ['Gal and Dinosaur', 'Gyaru to Kyouryuu', 'GalKyo']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40358/Gal_to_Kyouryuu'
+  anilist: 'https://anilist.co/anime/111323/Gal-to-Kyouryuu/'
+  anidb: 'https://anidb.net/anime/15072'
+  animeplanet: 'https://www.anime-planet.com/anime/gyaru-to-kyouryuu'
+  official: 'http://galkyo.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei Shiteshimatta...'
+alias: ['My Next Life as a Villainess: All Routes Lead to Doom!']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38555/Otome_Game_no_Hametsu_Flag_shika_Nai_Akuyaku_Reijou_ni_Tensei_shiteshimatta'
+  anilist: 'https://anilist.co/anime/104647/Otome-Game-no-Hametsu-Flag-shika-Nai-Akuyaku-Reijou-ni-Tensei-shiteshimatta/'
+  anidb: 'https://anidb.net/anime/14449'
+  animeplanet: 'https://www.anime-planet.com/anime/my-next-life-as-a-villainess-all-routes-lead-to-doom'
+  official: 'https://hamehura-anime.com/'
+  subreddit: '/r/Otomegame'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/my-next-life-as-a-villainess-all-routes-lead-to-doom'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Yesterday wo Utatte'
+alias: ['Sing "Yesterday" for Me']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39710/Yesterday_wo_Utatte'
+  anilist: 'https://anilist.co/anime/109020/Yesterday-wo-Utatte/'
+  anidb: 'https://anidb.net/anime/14822'
+  animeplanet: 'https://www.anime-planet.com/anime/yesterday-wo-utatte'
+  official: 'https://singyesterday.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/sing-yesterday-for-me'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erande Iraremasen Season 2'
+alias: ['Ascendance of a Bookworm Season 2', 'Honzuki no Gekokujou Part 2']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40815/Honzuki_no_Gekokujou__Shisho_ni_Naru_Tame_ni_wa_Shudan_wo_Erandeiraremasen_2nd_Season'
+  anilist: 'https://anilist.co/anime/113693/Honzuki-no-Gekokujou-Shisho-ni-Naru-Tame-ni-wa-Shudan-wo-Erandeiraremasen-2/'
+  anidb: 'https://anidb.net/anime/15293'
+  animeplanet: 'https://www.anime-planet.com/anime/ascendance-of-a-bookworm-part-ii'
+  official: 'http://booklove-anime.jp/'
+  subreddit: '/r/HonzukiNoGekokujou'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/ascendance-of-a-bookworm'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
@@ -211,7 +409,6 @@ streams:
 #  mal: ''
 #  anilist: ''
 #  anidb: ''
-#  kitsu: ''
 #  animeplanet: ''
 #  official: ''
 #  subreddit: ''
