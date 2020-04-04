@@ -402,6 +402,105 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Digimon Adventure:'
+alias: ['Digimon Adventure (2020)']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/41074/Digimon_Adventure_'
+  anilist: 'https://anilist.co/anime/114811/Digimon-Adventure/'
+  anidb: 'https://anidb.net/anime/15358'
+  animeplanet: 'https://www.anime-planet.com/anime/digimon-adventure'
+  official: 'http://www.toei-anim.co.jp/tv/digimon/'
+  subreddit: '/r/digimon'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Tsugu Tsugumomo'
+alias: ['Tsugumomo Season 2']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39469/Tsugu_Tsugumomo'
+  anilist: 'https://anilist.co/anime/108266/Tsugu-Tsugumomo/'
+  anidb: 'https://anidb.net/anime/14728'
+  animeplanet: 'https://www.anime-planet.com/anime/tsugu-tsugumomo'
+  official: 'http://tsugumomo.com/'
+  subreddit: '/r/tsugumomo'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Gleipnir'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39463/Gleipnir'
+  anilist: 'https://anilist.co/anime/108241/Gleipnir/'
+  anidb: 'https://anidb.net/anime/14721'
+  animeplanet: 'https://www.anime-planet.com/anime/gleipnir'
+  official: 'http://gleipnir-anime.com/'
+  subreddit: '/r/Gleipnir'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/gleipnir/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/855/gleipnir'
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Shachou, Battle no Jikan Desu!'
+alias: ['Shachibato!', "President, It's Time for Battle!"]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40783/Shachou_Battle_no_Jikan_Desu'
+  anilist: 'https://anilist.co/anime/113570/Shachou-Battle-no-Jikan-desu/'
+  anidb: 'https://anidb.net/anime/15285'
+  animeplanet: 'https://www.anime-planet.com/anime/shachou-battle-no-jikan-desu'
+  official: 'https://shachibato-anime.com'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/850/shachibato-president-its-time-for-battle'
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
