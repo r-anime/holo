@@ -78,8 +78,8 @@ def _process_new_episode(config, db, show, stream, episode):
 		# Adjust episode to internal numbering
 		int_episode = stream.to_internal_episode(episode)
 		info("  Adjusted num: {}".format(int_episode.number))
-		if int_episode.number < 0:
-			error("Episode number cannot be negative")
+		if int_episode.number <= 0:
+			error("Episode number must be positive")
 			return False
 		
 		# Check if already in database

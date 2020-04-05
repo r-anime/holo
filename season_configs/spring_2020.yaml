@@ -288,11 +288,11 @@ info:
   official: 'https://sao-alicization.com/'
   subreddit: '/r/swordartonline'
 streams:
-  crunchyroll: 'http://www.crunchyroll.com/sword-art-online'
+  crunchyroll: 'http://www.crunchyroll.com/sword-art-online|12'
   museasia: ''
   funimation|Funimation: 'https://www.funimation.com/shows/sword-art-online/'
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/sword-art-online-alicization-war-of-underworld'
+  hidive: 'https://www.hidive.com/tv/sword-art-online-alicization-war-of-underworld|12'
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
@@ -301,7 +301,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  nyaa: 'Sword Art Online: Alicization - War of the Underworld|13'
+  nyaa: 'Sword Art Online: Alicization - War of the Underworld|12'
 ---
 title: 'Gal to Kyouryuu'
 alias: ['Gal & Dino', 'Gal and Dinosaur', 'Gyaru to Kyouryuu', 'GalKyo']
@@ -329,7 +329,7 @@ streams:
   primevideo|Prime Video International: ''
 ---
 title: 'Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei Shiteshimatta...'
-alias: ['My Next Life as a Villainess: All Routes Lead to Doom!']
+alias: ['My Next Life as a Villainess: All Routes Lead to Doom!', 'HameFura']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38555/Otome_Game_no_Hametsu_Flag_shika_Nai_Akuyaku_Reijou_ni_Tensei_shiteshimatta'

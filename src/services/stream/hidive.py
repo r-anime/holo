@@ -96,6 +96,7 @@ def _is_valid_episode(episode_data, show_key):
     if episode_data.a is None:
         return False
     #return re.match(_episode_re.format(id=show_key), episode_data) is not None
+
     return True
 
 def _digest_episode(feed_episode):
@@ -113,6 +114,8 @@ def _digest_episode(feed_episode):
         num = int(num_match_alter.group(1))
     else:
         warning("Unknown episode number format")
+        return None
+    if num <= 0:
         return None
 
     name = feed_episode.h3.text
