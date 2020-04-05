@@ -118,7 +118,7 @@ def _digest_episode(feed_episode):
 _exludors = [re.compile(x, re.I) for x in [
 	"\.srt$",
 	r"\b(batch|vol(ume|\.)? ?\d+|dub|dubbed)\b",
-	r"\b(bd|bluray)\b",
+	r"\b(bd|bluray|bdrip)\b",
 	r"PV.?\d+",
 	r"pre-?air",
 	r"blackjaxx", # blacklisted uploaders
