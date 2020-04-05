@@ -389,7 +389,7 @@ info:
   official: 'http://booklove-anime.jp/'
   subreddit: '/r/HonzukiNoGekokujou'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/ascendance-of-a-bookworm'
+  crunchyroll: 'https://www.crunchyroll.com/ascendance-of-a-bookworm|14'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -492,6 +492,31 @@ streams:
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/850/shachibato-president-its-time-for-battle'
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Yu☆Gi☆Oh!: Sevens'
+alias: ['Yuu Gi Ou: Sevens', 'Yu-Gi-Oh! Sevens']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/40145/'
+  anilist: 'https://anilist.co/anime/114072/YuGiOh-SEVENS/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=15017'
+  animeplanet: 'https://www.anime-planet.com/anime/yu-gi-oh-sevens'
+  official: 'https://www.tv-tokyo.co.jp/anime/yugioh-sevens/'
+  subreddit: '/r/yugioh'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
