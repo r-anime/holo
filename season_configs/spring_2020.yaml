@@ -23,8 +23,7 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
 ---
-title: 'Kami no Tou'
-alias: ['Tower of God']
+title: 'Kami no Tou: Tower of God'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40221/Kami_no_Tou'
@@ -378,8 +377,8 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
 ---
-title: 'Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erande Iraremasen Season 2'
-alias: ['Ascendance of a Bookworm Season 2', 'Honzuki no Gekokujou Part 2']
+title: 'Honzuki no Gekokujou Season 2'
+alias: ['Ascendance of a Bookworm Season 2', 'Honzuki no Gekokujou Part 2', 'Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erande Iraremasen Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40815/Honzuki_no_Gekokujou__Shisho_ni_Naru_Tame_ni_wa_Shudan_wo_Erandeiraremasen_2nd_Season'
@@ -390,7 +389,7 @@ info:
   subreddit: '/r/HonzukiNoGekokujou'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/ascendance-of-a-bookworm|14'
-  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl2eBA5i9Vnv5VXJ7dXDWxqv'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl2eBA5i9Vnv5VXJ7dXDWxqv|14'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
