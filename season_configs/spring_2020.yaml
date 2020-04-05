@@ -315,11 +315,11 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl02WmDVyIi0BgGJ19SkvM_F'
   funimation|Funimation: 'https://www.funimation.com/shows/gal-dino/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/895/gal-dino'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/gal-dino'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -390,7 +390,7 @@ info:
   subreddit: '/r/HonzukiNoGekokujou'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/ascendance-of-a-bookworm|14'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl2eBA5i9Vnv5VXJ7dXDWxqv'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -414,7 +414,7 @@ info:
   official: 'http://www.toei-anim.co.jp/tv/digimon/'
   subreddit: '/r/digimon'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/digimon-adventure-2020'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
