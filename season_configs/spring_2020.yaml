@@ -692,7 +692,7 @@ info:
   official: 'https://fruba.jp/'
   subreddit: '/r/FruitsBasket'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/fruits-basket|25'
   museasia: ''
   funimation|Funimation: 'https://www.funimation.com/shows/fruits-basket/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/884/fruits-basket-s2'
@@ -706,16 +706,15 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
 ---
-title: ''
-alias: ['']
+title: 'Shadowverse'
 has_source: true
 info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: ''
+  mal: 'https://myanimelist.net/anime/40506/Shadowverse_TV'
+  anilist: 'https://anilist.co/anime/112325/Shadowverse/'
+  anidb: 'https://anidb.net/anime/15134'
+  kitsu: 'https://kitsu.io/anime/shadowverse-tv'
+  animeplanet: 'https://www.anime-planet.com/anime/shadowverse'
+  official: 'https://anime.shadowverse.jp'
   subreddit: ''
 streams:
   crunchyroll: ''
@@ -732,16 +731,41 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
 ---
-title: ''
-alias: ['']
+title: 'Houkago Teibou Nisshi'
 has_source: true
 info:
-  mal: ''
-  anilist: ''
-  anidb: ''
+  mal: 'https://myanimelist.net/anime/39730/Houkago_Teibou_Nisshi'
+  anilist: 'https://anilist.co/anime/109019/Houkago-Teibou-Nisshi/'
+  anidb: 'https://anidb.net/anime/14827'
+  kitsu: 'https://kitsu.io/anime/houkago-teibou-nisshi'
+  animeplanet: 'https://www.anime-planet.com/anime/houkago-teibou-nisshi'
+  official: 'https://teibotv.com/'
+  subreddit: '/r/AfterSchoolEmbankment'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Komatta Jii-san'
+alias: ['Komatta Jiisan']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40893/Komatta_Jiisan'
+  anilist: 'https://anilist.co/anime/115892/Komatta-Jiisan/'
+  anidb: 'https://anidb.net/anime/15316'
   kitsu: ''
-  animeplanet: ''
-  official: ''
+  animeplanet: 'https://www.anime-planet.com/anime/komatta-jii-san'
+  official: 'https://www.bs4.jp/komatta-jiisan/'
   subreddit: ''
 streams:
   crunchyroll: ''
@@ -758,17 +782,16 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
 ---
-title: ''
-alias: ['']
-has_source: true
+title: 'Gundam Build Divers Re:Rise Season 2'
+has_source: false
 info:
-  mal: ''
-  anilist: ''
-  anidb: ''
+  mal: 'https://myanimelist.net/anime/40942/Gundam_Build_Divers_Re_Rise_2nd_Season'
+  anilist: 'https://anilist.co/anime/114233/Gundam-Build-Divers-ReRISE-2/'
+  anidb: 'https://anidb.net/anime/15333'
   kitsu: ''
-  animeplanet: ''
-  official: ''
-  subreddit: ''
+  animeplanet: 'https://www.anime-planet.com/anime/gundam-build-divers-rerise-2nd-season'
+  official: 'https://en.gundam.info/about-gundam/series-pages/builddivers_rerise.html'
+  subreddit: '/r/Gundam'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -779,241 +802,33 @@ streams:
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  youtube: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLJV1h9xQ7Hx_2cj7NaHuRTucjzovxXd7S|13'
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
----
-title: ''
-alias: ['']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: ''
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
----
-title: ''
-alias: ['']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: ''
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
----
-title: ''
-alias: ['']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: ''
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
----
-title: ''
-alias: ['']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: ''
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
----
-title: ''
-alias: ['']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: ''
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
----
-title: ''
-alias: ['']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: ''
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
----
-title: ''
-alias: ['']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: ''
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
----
-title: ''
-alias: ['']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: ''
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
----
-title: ''
-alias: ['']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: ''
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
+#---
+#title: ''
+#alias: ['']
+#has_source: true
+#info:
+#  mal: ''
+#  anilist: ''
+#  anidb: ''
+#  kitsu: ''
+#  animeplanet: ''
+#  official: ''
+#  subreddit: ''
+#streams:
+#  crunchyroll: ''
+#  museasia: ''
+#  funimation|Funimation: ''
+#  wakanim|Wakanim: ''
+#  hidive: ''
+#  animelab|AnimeLab: ''
+#  crunchyroll_nsfw|Crunchyroll: ''
+#  vrv|VRV: ''
+#  hulu|Hulu: ''
+#  youtube: ''
+#  amazon|Amazon US: ''
+#  amazon_uk|Amazon UK: ''
+#  primevideo|Prime Video International: ''
