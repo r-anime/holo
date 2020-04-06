@@ -679,7 +679,7 @@ info:
   official: 'https://fruba.jp/'
   subreddit: '/r/FruitsBasket'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/fruits-basket|25'
+  crunchyroll: 'https://www.crunchyroll.com/fruits-basket'
   museasia: ''
   funimation|Funimation: 'https://www.funimation.com/shows/fruits-basket/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/884/fruits-basket-s2'
