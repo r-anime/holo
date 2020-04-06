@@ -551,32 +551,6 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
 ---
-title: 'IDOLiSH7: Second Beat!'
-alias: ['Idolish7 Season 2', 'Idolish Seven: Second Beat']
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/37962/IDOLiSH7__Second_Beat'
-  anilist: 'https://anilist.co/anime/103110/IDOLiSH7-Second-BEAT/'
-  anidb: 'https://anidb.net/anime/14202'
-  kitsu: 'https://kitsu.io/anime/idolish7-second-beat'
-  animeplanet: 'https://www.anime-planet.com/anime/idolish7-second-beat'
-  official: 'https://idolish7.com/aninana/'
-  subreddit: '/r/idolish7'
-streams:
-  crunchyroll: 'http://www.crunchyroll.com/idolish7'
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
----
 title: 'Shironeko Project: Zero Chronicle'
 has_source: true
 info:
