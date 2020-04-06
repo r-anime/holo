@@ -488,7 +488,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl3QImEBH4Sfmjg-Q2SB61OB'
   funimation|Funimation: ''
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/850/shachibato-president-its-time-for-battle'
   hidive: ''
