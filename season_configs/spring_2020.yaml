@@ -576,7 +576,7 @@ info:
   subreddit: ''
 streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl34SUfF4zwk63GlgYc4Jwhy'
   funimation|Funimation: 'https://www.funimation.com/shows/shironeko-project-zero-chronicle/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/840/shironeko-project-zero-chronicle'
   hidive: ''
@@ -704,7 +704,7 @@ info:
   official: 'https://anime.shadowverse.jp'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/shadowverse'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -730,11 +730,11 @@ info:
   subreddit: '/r/AfterSchoolEmbankment'
 streams:
   crunchyroll: ''
-  museasia: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0hQYI9Fqqby4gip8mBhPpX'
+  funimation|Funimation: 'https://www.funimation.com/shows/diary-of-our-days-at-the-breakwater'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/864/diary-of-our-days-at-the-breakwater'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/diary-of-our-days-at-the-breakwater'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
