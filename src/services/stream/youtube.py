@@ -106,7 +106,7 @@ def _is_valid_episode(feed_episode, show_id):
 		return False
 	stats = feed_episode.get("media_statistics", dict())
 	views = int(stats.get("views", 0))
-	if views <= 0:
+	if views <= 99:
 		return False
 	return True
 
