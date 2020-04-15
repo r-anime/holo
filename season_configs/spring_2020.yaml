@@ -975,6 +975,31 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Mewkledreamy'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/40327'
+  anilist: 'https://anilist.co/anime/111310/Mewkledreamy/'
+  anidb: 'https://anidb.net/anime/15059'
+  kitsu: 'https://kitsu.io/anime/mewkledreamy'
+  animeplanet: 'https://www.anime-planet.com/anime/mewkledreamy'
+  official: 'https://mewkledreamy.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
