@@ -84,7 +84,7 @@ info:
   kitsu: 'https://kitsu.io/anime/kakushigoto-tv'
   animeplanet: 'https://www.anime-planet.com/anime/kakushigoto'
   official: 'https://kakushigoto-anime.com/'
-  subreddit: ''
+  subreddit: '/r/Kakushigoto'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -806,7 +806,7 @@ info:
   kitsu: 'https://kitsu.io/anime/fugou-keiji-balance-unlimited'
   animeplanet: 'https://www.anime-planet.com/anime/the-millionaire-detective-balance-unlimited'
   official: 'https://www.fugoukeiji-bul.com'
-  subreddit: ''
+  subreddit: '/r/FugouKeiji '
 streams:
   crunchyroll: ''
   museasia: ''
