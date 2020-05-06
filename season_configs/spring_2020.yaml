@@ -1029,6 +1029,33 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'BNA'
+alias: ['Brand New Animal']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40060/'
+  anilist: 'https://anilist.co/anime/110354'
+  anidb: 'http://anidb.net/anime/14997'
+  kitsu: 'https://kitsu.io/anime/brand-new-animal'
+  animeplanet: 'https://www.anime-planet.com/anime/brand-new-animal'
+  official: 'https://bna-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: 'BRAND NEW ANIMAL'
 #---
 #title: ''
 #alias: ['']
