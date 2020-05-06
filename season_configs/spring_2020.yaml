@@ -1003,6 +1003,32 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Olympia Kyklos'
+alias: ['Bessatsu Olympia Kyklos', 'Extra Olympia Kyklos']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/41266/'
+  anilist: 'https://anilist.co/anime/115186'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=15390'
+  kitsu: 'https://kitsu.io/anime/bessatsu-olympia-kyklos'
+  animeplanet: 'https://www.anime-planet.com/anime/extra-olympia-kyklos'
+  official: 'http://bessatsu-olympia-kyklos.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/extra-olympia-kyklos'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
