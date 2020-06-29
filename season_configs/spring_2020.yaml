@@ -141,6 +141,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JiOdci6TOWOrs1GPxQMGowJ'
   funimation|Funimation: 'https://www.funimation.com/shows/sakura-wars-the-animation/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/872/sakura-wars-the-animation'
   hidive: ''
@@ -179,6 +180,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Bungo to Alchemist Shinpan no Haguruma'
 ---
 title: 'Listeners'
 has_source: false
@@ -373,6 +375,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/sing-yesterday-for-me'
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JgVsiJZt6yCMnQKOB-lJIz7'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -477,6 +480,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JhHQTmes2_rNlNCK7hMT_Nt'
   funimation|Funimation: 'https://www.funimation.com/shows/gleipnir/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/855/gleipnir'
   hidive: ''
@@ -810,6 +814,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjK6AR9OjeYkwGCVTgCFEWz'
   funimation|Funimation: 'https://www.funimation.com/shows/the-millionaire-detective-balance-unlimited/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/844/the-millionaire-detective-balance-unlimited'
   hidive: ''
@@ -942,6 +947,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/the-house-spirit-tatami-chan'
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Ji3VklTcrJ8g9BwEgXKdnVl'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
