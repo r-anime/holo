@@ -12,21 +12,24 @@ def main(config, db, **kwargs):
 	
 	# Check services for new episodes
 	enabled_services = db.get_services(enabled=True)
+
 	for service in enabled_services:
 		service_handler = services.get_service_handler(service)
-		
+
 		streams = db.get_streams(service=service)
 		debug("{} streams found".format(len(streams)))
-		for stream in streams:
+
+		recent_episodes = service_handler.get_recent_episodes(streams)
+		info(f"{len(recent_episodes)} episodes for active shows on service {service}")
+
+		for stream, episodes in recent_episodes.items():
 			show = db.get_show(stream=stream)
 			if show is None or not show.enabled:
 				continue
-				
+
 			info("Checking stream \"{}\"".format(stream.show_key))
 			debug(stream)
-			
-			# Check latest episode
-			episodes = service_handler.get_published_episodes(stream, useragent=config.useragent)
+
 			if not episodes:
 				info("  Show/episode not found")
 				continue
@@ -34,31 +37,36 @@ def main(config, db, **kwargs):
 			for episode in sorted(episodes, key=lambda e: e.number):
 				if _process_new_episode(config, db, show, stream, episode):
 					has_new_episode.append(show)
-	
+
 	# Check generic services
 	other_shows = set(db.get_shows(missing_stream=True)) | set(db.get_shows(delayed=True))
 	if len(other_shows) > 0:
 		info("Checking generic services for {} shows".format(len(other_shows)))
-	for show in other_shows:
-		info("  Checking show {} ({})".format(show.name, show.id))
-		stream = Stream.from_show(show)
-		for service in enabled_services:
-			service_handler = services.get_service_handler(service)
-			if service_handler.is_generic:
-				debug("    Checking service {}".format(service_handler.name))
-				episodes = service_handler.get_published_episodes(stream, useragent=config.useragent)
-				if not episodes:
-					debug("    No episode found")
+
+	other_streams = [Stream.from_show(show) for show in other_shows]
+	for service in enabled_services:
+		service_handler = services.get_service_handler(service)
+		if service_handler.is_generic:
+			debug("    Checking service {}".format(service_handler.name))
+			recent_episodes = service_handler.get_recent_episodes(streams)
+			info(f"{len(recent_episodes)} episodes for active shows on generic service {service}")
+
+			for stream, episodes in recent_episodes.items():
+				show = db.get_show(stream=stream)
+				if show is None or not show.enabled:
 					continue
-				
+
+				info("Checking stream \"{}\"".format(stream.show_key))
+				debug(stream)
+
+				if not episodes:
+					info("  No episode found")
+					continue
+
 				for episode in sorted(episodes, key=lambda e: e.number):
 					if _process_new_episode(config, db, show, stream, episode):
 						has_new_episode.append(show)
-				
-				break
-		else:
-			info("  No episode found")
-	
+
 	debug("")
 	debug("Summary of shows with new episodes:")
 	for show in has_new_episode:
