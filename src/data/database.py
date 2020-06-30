@@ -180,6 +180,14 @@ class DatabaseDatabase:
 			UNIQUE(show, episode) ON CONFLICT REPLACE
 		)""")
 
+		self.q.execute("""CREATE TABLE IF NOT EXISTS Rewatches (
+			show		INTEGER NOT NULL,
+			weekday		INTEGER NOT NULL,
+			hour		INTEGER NOT NULL,
+			FOREIGN KEY(show) REFERENCES Shows(id),
+			UNIQUE(show, weekday) ON CONFLICT REPLACE
+		)""")
+
 		self.commit()
 
 	def register_services(self, services):
@@ -671,6 +679,24 @@ class DatabaseDatabase:
 			for match in matched:
 				debug("  Found match: {} | {}".format(match[0], match[1]))
 				shows.add(match[0])
+		return shows
+
+	# Rewatches
+	@db_error
+	def add_rewatch(self, show_id, weekday, hour, commit=True):
+		debug("Inserting rewatch: {}/{}/{}".format(show_id, weekday, hour))
+
+		self.q.execute("INSERT INTO Rewatches (show, weekday, hour) VALUES (?, ?, ?)",
+					   (show_id, weekday, hour))
+		if commit:
+			self.commit()
+
+	@db_error_default(list())
+	def get_show_ids_for_rewatch(self, weekday, hour):
+		self.q.execute("SELECT show, weekday, hour FROM Rewatches WHERE weekday=? AND hour=?", (weekday, hour))
+		shows = []
+		for row in self.q.fetchall():
+			shows.append(row[0])
 		return shows
 
 # Helper methods

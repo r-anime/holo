@@ -16,7 +16,7 @@ def main(config, db, *args, **kwargs):
 
 def _edit_with_file(db, edit_file):
 	import yaml
-	
+
 	info("Parsing show edit file \"{}\"".format(edit_file))
 	try:
 		with open(edit_file, "r", encoding="UTF-8") as f:
@@ -24,23 +24,23 @@ def _edit_with_file(db, edit_file):
 	except yaml.YAMLError:
 		exception("Failed to parse edit file")
 		return
-	
+
 	debug("  num shows={}".format(len(parsed)))
-	
+
 	for doc in parsed:
 		name = doc["title"]
 		stype = str_to_showtype(doc.get("type", "tv"))		# convert to enum?
 		length = doc.get("length", 0)
 		has_source = doc.get("has_source", False)
 		is_nsfw = doc.get("is_nsfw", False)
-		
+
 		info("Adding show \"{}\" ({})".format(name, stype))
 		debug("  has_source={}".format(has_source))
 		debug("  is_nsfw={}".format(is_nsfw))
 		if stype == ShowType.UNKNOWN:
 			error("Invalid show type \"{}\"".format(stype))
 			return False
-		
+
 		show = UnprocessedShow(None, None, name, [], stype, length, has_source, is_nsfw)
 		found_ids = db.search_show_ids_by_names(name, exact=True)
 		debug("Found ids: {found_ids}")
@@ -52,7 +52,18 @@ def _edit_with_file(db, edit_file):
 		else:
 			error("More than one ID found for show")
 			return False
-		
+
+		if "rewatch" in doc:
+			rewatch_info = doc["rewatch"]
+			if not all([item in rewatch_info for item in ("weekdays", "hour")]):
+				error("    Rewatch missing necessary info (weekdays and/or hour)")
+			else:
+				# Encapsulate weekdays into list if not already
+				if not isinstance(rewatch_info["weekdays"], list):
+					rewatch_info["weekdays"] = [rewatch_info["weekdays"]]
+				for weekday in rewatch_info["weekdays"]:
+					db.add_rewatch(show_id, weekday, rewatch_info["hour"])
+
 		# Info
 		if "info" in doc:
 			infos = doc["info"]
@@ -60,20 +71,20 @@ def _edit_with_file(db, edit_file):
 				url = infos[info_key]
 				if not url:
 					continue
-				
+
 				debug("  Info {}: {}".format(info_key, url))
 				info_handler = services.get_link_handler(key=info_key)
 				if info_handler:
 					info_id = info_handler.extract_show_id(url)
 					debug("    id={}".format(info_id))
-					
+
 					if not db.has_link(info_key, info_id, show_id):
 						show.site_key = info_key
 						show.show_key = info_id
 						db.add_link(show, show_id, commit=False)
 				else:
 					error("    Info handler not installed")
-		
+
 		# Streams
 		if "streams" in doc:
 			streams = doc["streams"]
@@ -91,7 +102,7 @@ def _edit_with_file(db, edit_file):
 				except:
 					exception("Improperly formatted stream URL \"{}\"".format(url))
 					continue
-				
+
 				info("  Stream {}: {}".format(service_key, url))
 
 				service_id = service_key.split('|')[0]
@@ -99,7 +110,7 @@ def _edit_with_file(db, edit_file):
 				if stream_handler:
 					show_key = stream_handler.extract_show_key(url)
 					debug("    id={}".format(show_key))
-					
+
 					if not db.has_stream(service_id, show_key):
 						s = UnprocessedStream(service_id, show_key, None, "", remote_offset, 0)
 						db.add_stream(s, show_id, commit=False)
@@ -120,5 +131,5 @@ def _edit_with_file(db, edit_file):
 			for alias in aliases:
 				db.add_alias(show_id, alias)
 			info(f"Added {len(aliases)} alias{'es' if len(aliases) > 1 else ''}")
-			
+
 	return True

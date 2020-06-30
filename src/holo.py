@@ -20,15 +20,15 @@ import services
 
 def main(config, args, extra_args):
 	from logging import debug, info, warning, error, exception
-	
+
 	# Set things up
 	db = database.living_in(config.database)
 	if not db:
 		error("Cannot continue running without a database")
 		return
-	
+
 	services.setup_services(config)
-	
+
 	# Run the requested module
 	try:
 		debug("Running module {}".format(config.module))
@@ -59,20 +59,25 @@ def main(config, args, extra_args):
 			info("Updating shows")
 			import module_update_shows as m
 			m.main(config, db)
+		elif config.module == "rewatch":
+			info("Looking for rewatches to post")
+			import module_rewatch as m
+			m.main(config, db)
 		else:
 			warning("This should never happen or you broke it!")
 	except:
 		exception("Unknown exception or error")
 		db.rollback()
-	
+
 	db.close()
-	
+
+
 if __name__ == "__main__":
 	# Parse args
 	import argparse
 	parser = argparse.ArgumentParser(description="{}, {}".format(name, description))
 	parser.add_argument("--no-input", dest="no_input", action="store_true", help="run without stdin and write to a log file")
-	parser.add_argument("-m", "--module", dest="module", nargs=1, choices=["setup", "edit", "episode", "update", "find"], default=["episode"], help="runs the specified module")
+	parser.add_argument("-m", "--module", dest="module", nargs=1, choices=["setup", "edit", "episode", "update", "find", "rewatch"], default=["episode"], help="runs the specified module")
 	parser.add_argument("-c", "--config", dest="config_file", nargs=1, default=["config.ini"], help="use or create the specified database location")
 	parser.add_argument("-d", "--database", dest="db_name", nargs=1, default=None, help="use or create the specified database location")
 	parser.add_argument("-s", "--subreddit", dest="subreddit", nargs=1, default=None, help="set the subreddit on which to make posts")
@@ -82,7 +87,7 @@ if __name__ == "__main__":
 	parser.add_argument("--debug", action="store_true", default=False)
 	parser.add_argument("extra", nargs="*")
 	args = parser.parse_args()
-	
+
 	# Load config file
 	import config as config_loader
 	config_file = os.environ["HOLO_CONFIG"] if "HOLO_CONFIG" in os.environ else args.config_file[0]
@@ -90,7 +95,7 @@ if __name__ == "__main__":
 	if c is None:
 		print("Cannot start without a valid configuration file")
 		sys.exit(2)
-	
+
 	# Override config with args
 	c.debug |= args.debug
 	c.module = args.module[0]
@@ -99,15 +104,15 @@ if __name__ == "__main__":
 		c.database = args.db_name[0]
 	if args.subreddit is not None:
 		c.subreddit = args.subreddit[0]
-	
+
 	# Start
 	use_log = args.no_input
-	
+
 	import logging
 	from logging.handlers import TimedRotatingFileHandler
 	if use_log:
 		os.makedirs(c.log_dir, exist_ok=True)
-		
+
 		#from datetime import datetime
 		#log_file = "logs/{date}_{mod}.log".format(date=datetime.now().strftime("%Y-%m-%dT%H:%M:%S"), mod=c.module)
 		log_file = "{dir}/holo_{mod}.log".format(dir=c.log_dir, mod=c.module)
@@ -121,25 +126,25 @@ if __name__ == "__main__":
 		logging.basicConfig(format="%(levelname)s | %(message)s", level=logging.DEBUG if c.debug else logging.INFO)
 	logging.getLogger("requests").setLevel(logging.WARNING)
 	logging.getLogger("praw-script-oauth").setLevel(logging.WARNING)
-	
+
 	from logging import info, warning
 	from time import time
-	
+
 	if use_log:
 		info("------------------------------------------------------------")
 	err = config_loader.validate(c)
 	if err:
 		warning("Configuration state invalid: {}".format(err))
-	
+
 	if c.debug:
 		info("DEBUG MODE ENABLED")
 	start_time = time()
 	main(c, args, args.extra)
 	end_time = time()
-	
+
 	time_diff = end_time - start_time
 	info("")
 	info("Run time: {:.6} seconds".format(time_diff))
-	
+
 	if use_log:
 		info("------------------------------------------------------------\n")
