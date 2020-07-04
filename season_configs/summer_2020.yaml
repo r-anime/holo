@@ -1,3 +1,56 @@
+title: 'Dokyuu Hentai HxEros'
+alias: ['Super HxEros', 'Uncensored version on Wednesday']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40623'
+  anilist: 'https://anilist.co/anime/112818'
+  anidb: 'https://anidb.net/anime/15241'
+  kitsu: 'https://kitsu.io/anime/dokyuu-hentai-hxeros'
+  animeplanet: 'https://www.anime-planet.com/anime/dokyuu-hentai-hxeros'
+  official: 'https://hxeros.com/'
+  subreddit: '/r/HxEros'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/super-hxeros/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1012'
+  hidive: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/super-hxeros'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  bilibili|Bilibili: 'https://www.bilibili.com/bangumi/media/md28229301'
+---
+title: 'Enen no Shouboutai: Ni no Shou'
+alias: ['Fire Force Season 2']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40956/'
+  anilist: 'https://anilist.co/anime/114236/'
+  anidb: 'https://anidb.net/anime/15335'
+  kitsu: 'https://kitsu.io/anime/enen-no-shouboutai-ni-no-shou'
+  animeplanet: 'https://www.anime-planet.com/anime/fire-force-2nd-season'
+  official: 'http://fireforce-anime.jp/'
+  subreddit: '/r/firebrigade'
+streams:
+  crunchyroll: 'http://crunchyroll.com/fire-force'
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/fire-force/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/fire-force'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: 'https://vrv.co/series/GYQWNXPZY/Fire-Force'
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+#---
 #title: ''
 #alias: ['']
 #has_source: true
