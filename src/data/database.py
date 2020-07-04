@@ -242,7 +242,6 @@ class DatabaseDatabase:
 				error("Stream {} not found".format(id))
 				return None
 			stream = Stream(*stream)
-			return stream
 		elif service_tuple is not None:
 			service, show_key = service_tuple
 			debug("Getting stream for {}/{}".format(service, show_key))
@@ -253,10 +252,12 @@ class DatabaseDatabase:
 				error("Stream {} not found".format(id))
 				return None
 			stream = Stream(*stream)
-			return stream
 		else:
 			error("Nothing provided to get stream")
 			return None
+
+		stream.show = self.get_show(id=stream.show) # convert show id to show model
+		return stream
 
 	@db_error_default(list())
 	def get_streams(self, service=None, show=None, active=True, unmatched=False, missing_name=False) -> List[Stream]:
@@ -298,6 +299,8 @@ class DatabaseDatabase:
 
 		streams = self.q.fetchall()
 		streams = [Stream(*stream) for stream in streams]
+		for stream in streams:
+			stream.show = self.get_show(id=stream.show) # convert show id to show model
 		return streams
 
 	@db_error_default(False)
@@ -465,7 +468,9 @@ class DatabaseDatabase:
 				"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
 				WHERE enabled = ?", (enabled,))
 		for show in self.q.fetchall():
-			shows.append(Show(*show))
+			show = Show(*show)
+			show.aliases = self.get_aliases(show)
+			shows.append(show)
 		return shows
 
 	@db_error_default(None)
@@ -474,7 +479,7 @@ class DatabaseDatabase:
 
 		# Get show ID
 		if stream and not id:
-			id = stream.show
+			id = stream.show.id
 
 		# Get show
 		if id is None:
@@ -487,6 +492,7 @@ class DatabaseDatabase:
 		if show is None:
 			return None
 		show = Show(*show)
+		show.aliases = self.get_aliases(show)
 		return show
 
 	@db_error_default(list())
