@@ -103,6 +103,32 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Monster Musume no Oisha-san'
+alias: ['Monster Girl Doctor']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40708'
+  anilist: 'https://anilist.co/anime/113286'
+  anidb: 'https://anidb.net/anime/15266'
+  kitsu: 'https://kitsu.io/anime/monster-musume-no-oishasan'
+  animeplanet: 'https://www.anime-planet.com/anime/monster-girl-doctor'
+  official: 'https://mon-isha-anime.com/'
+  subreddit: '/r/MonsterGirlDoctor'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/monster-girl-doctor'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl3LmQOuDIveKBPJvUcapoq5'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: 'https://vrv.co/series/G60XNJW4R'
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
