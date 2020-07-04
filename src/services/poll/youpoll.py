@@ -96,7 +96,8 @@ class PollHandler(AbstractPollHandler):
 			elif len(divs) == 5:
 				# v3 votes, 5 points scale
 				divs = response.find_all('div', class_='basic-option-wrapper')
-				num_votes = int(response.find("span", class_="admin-total-votes").text)
+				num_votes_str = response.find("span", class_="admin-total-votes").text
+				num_votes = int(num_votes_str.replace(',', ''))
 				if num_votes == 0:
 					warning('No vote recorded, no score returned')
 					return None
