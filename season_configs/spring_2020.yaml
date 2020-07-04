@@ -1056,6 +1056,32 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
   nyaa: 'BRAND NEW ANIMAL'
+---
+title: 'BanG Dream! Garupa☆Pico: Oomori'
+alias: ['BanG Dream! Garupa Pico: Oomori', 'BanG Dream! Girls Band Party!☆PICO: Oomori', 'BanG Dream! Girls Band Party!☆PICO～OHMORI～']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40854/'
+  anilist: 'https://anilist.co/anime/113906'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=15307'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/bang-dream-girls-band-party-pico-ohmori'
+  official: 'https://anime.bang-dream.com/pico/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLi6JjODFVq31LCre11TSjV2VhLKN4tV_8'
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
