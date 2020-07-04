@@ -11,6 +11,7 @@ from data.models import Episode
 
 class ServiceHandler(AbstractServiceHandler):
 	_search_base = "https://{domain}/?page=rss&c=1_2&f={filter}&q={q}&exclude={excludes}"
+	_recent_list = "https://{domain}/?page=rss&c=1_2&f={filter}&exclude={excludes}"
 	
 	def __init__(self):
 		super().__init__("nyaa", "Nyaa", True)
@@ -37,7 +38,67 @@ class ServiceHandler(AbstractServiceHandler):
 		else:
 			debug("  No episodes found")
 		return episodes
-	
+
+	def get_recent_episodes(self, streams, **kwargs):
+		"""
+		Returns all recent episode on the top of https://nyaa.si/?c=1_2.
+		Return a list of episodes for each stream.
+		"""
+		torrents = self._get_recent_torrents(**kwargs)
+		episodes = dict()
+
+		for torrent in torrents:
+			if not _is_valid_episode(torrent):
+				continue
+
+			stream = self._find_matching_stream(torrent, streams)
+			if not stream:
+				continue
+
+			# A stream has been found, generate the episode
+			try:
+				episode = _digest_episode(torrent)
+				if episode is not None:
+					show_episodes = episodes.get(stream, list())
+					show_episodes.append(episode)
+					episodes[stream] = show_episodes
+			except:
+				exception(f"Problem digesting torrent {torrent.id}")
+		return episodes
+
+	def _find_matching_stream(self, torrent, streams):
+		debug(f"Searching matching stream for torrent {torrent.title}")
+		for stream in streams:
+			show = stream.show
+			names = [show.name] + show.aliases
+
+			for name in names:
+				debug(f"  Trying: {name}")
+				if _normalize_show_name(name) in _normalize_show_name(torrent.title):
+					debug(f"  -> MATCH")
+					return stream
+		info(f"No matching show found for torrent {torrent.title}")
+		return None
+
+	def _get_recent_torrents(self, **kwargs):
+		"""
+		Returns all torrents on the top of https://nyaa.si/?c=1_2.
+		"""
+		info("Getting all recent episodes on Nyaa")
+		domain = self.config.get("domain", "nyaa.si")
+		filter_ = self.config.get("filter", "2")
+		excludes = self.config.get("excluded_users", "").replace(" ", "")
+		url = self._recent_list.format(domain=domain, filter=filter_, excludes=excludes)
+
+		response = self.request(url, rss=True, **kwargs)
+		if response is None:
+			error("Cannot get latest show for Nyaa")
+			return list()
+
+		if not _verify_feed(response):
+			warning("Parsed feed could not be verified, may have unexpected results")
+		return response.get("entries", list())
+
 	def _get_feed_episodes(self, show_key, **kwargs):
 		"""
 		Always returns a list.
@@ -95,6 +156,9 @@ def _verify_feed(feed):
 	return True
 
 def _is_valid_episode(feed_episode):
+	if any(ex.search(feed_episode["title"]) is not None for ex in _exludors):
+		debug("  Excluded")
+		return False
 	episode_date = datetime(*feed_episode.published_parsed[:6])
 	date_diff = datetime.utcnow() - episode_date
 	if date_diff >= timedelta(days=2):
@@ -108,11 +172,14 @@ def _is_valid_episode(feed_episode):
 
 def _digest_episode(feed_episode):
 	title = feed_episode["title"]
+	debug("Extracting episode number from \"{}\"".format(title))
 	episode_num = _extract_episode_num(title)
 	if episode_num is not None:
+		debug("  Match found, num={}".format(episode_num))
 		date = feed_episode["published_parsed"] or datetime.utcnow()
 		link = feed_episode["id"]
 		return Episode(episode_num, None, link, date)
+	debug("  No match found")
 	return None
 
 _exludors = [re.compile(x, re.I) for x in [
@@ -146,15 +213,22 @@ _num_extractors = [re.compile(x, re.I) for x in [
 ]]
 
 def _extract_episode_num(name):
-	debug("Extracting episode number from \"{}\"".format(name))
 	if any(ex.search(name) is not None for ex in _exludors):
-		debug("  Excluded")
 		return None
 	for regex in _num_extractors:
 		match = regex.match(name)
 		if match is not None:
 			num = int(match.group(1))
-			debug("  Match found, num={}".format(num))
 			return num
-	debug("  No match found")
 	return None
+
+def _normalize_show_name(name):
+	"""
+	Normalize a title for string comparison. Ignores all non-ASCII letter or digit symbols.
+	Also removes "Season X" substrings and converts to lowercase.
+	"""
+	name = name.casefold()
+	name = re.sub("[^a-z0-9]", " ", name)
+	name = re.sub("season \d( part \d)?", " ", name)
+	name = re.sub("\s+", " ", name)
+	return name
