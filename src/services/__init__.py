@@ -181,6 +181,19 @@ class AbstractServiceHandler(ABC, Requestable):
 		:return: A list of live episodes
 		"""
 		return list()
+
+	def get_recent_episodes(self, streams: Iterable[Stream], **kwargs) -> Dict[Stream, Iterable[Episode]]:
+		"""
+		Gets all recently released episode on the service, for the given streams.
+		What counts as recent is decided by the service handler, but all newly released episodes
+		should be returned by this function.
+		By default, calls get_all_episodes for each stream.
+		:param streams: The streams for which new episodes must be returned.
+		:param kwargs: Arguments passed to the request, such as proxy and authentication
+		:return: A dict in which each key is one of the requested streams
+			 and the value is a list of newly released episodes for the stream
+		"""
+		return {stream: self.get_all_episodes(stream, **kwargs) for stream in streams}
 	
 	@abstractmethod
 	def get_stream_link(self, stream: Stream) -> Optional[str]:

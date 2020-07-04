@@ -242,7 +242,6 @@ class DatabaseDatabase:
 				error("Stream {} not found".format(id))
 				return None
 			stream = Stream(*stream)
-			return stream
 		elif service_tuple is not None:
 			service, show_key = service_tuple
 			debug("Getting stream for {}/{}".format(service, show_key))
@@ -253,36 +252,55 @@ class DatabaseDatabase:
 				error("Stream {} not found".format(id))
 				return None
 			stream = Stream(*stream)
-			return stream
 		else:
 			error("Nothing provided to get stream")
 			return None
 
+		stream.show = self.get_show(id=stream.show) # convert show id to show model
+		return stream
+
 	@db_error_default(list())
 	def get_streams(self, service=None, show=None, active=True, unmatched=False, missing_name=False) -> List[Stream]:
 		# Not the best combination of options, but it's only the usage needed
-		if service is not None:
-			debug("Getting all streams for service {}".format(service.key))
+		if service is not None and active == True:
+			debug("Getting all active streams for service {}".format(service.key))
 			service = self.get_service(key=service.key)
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
-							WHERE service = ? AND active = ?", (service.id, 1 if active else 0))
-		elif show is not None:
+							WHERE service = ? AND active = 1 AND \
+							(SELECT enabled FROM Shows WHERE id = show) = 1", (service.id,))
+		elif service is not None and active == False:
+			debug("Getting all inactive streams for service {}".format(service.key))
+			service = self.get_service(key=service.key)
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
+							WHERE service = ? AND active = 0", (service.id,))
+		elif show is not None and active == True:
 			debug("Getting all streams for show {}".format(show.id))
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
-							WHERE show = ? AND active = ?", (show.id, active))
+							WHERE show = ? AND active = 1 AND \
+							(SELECT enabled FROM Shows WHERE id = show) = 1", (show.id,))
+		elif show is not None and active == False:
+			debug("Getting all streams for show {}".format(show.id))
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
+							WHERE show = ? AND active = 0", (show.id,))
 		elif unmatched:
 			debug("Getting unmatched streams")
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
 							WHERE show IS NULL")
-		elif missing_name:
+		elif missing_name and active == True:
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
-							WHERE (name IS NULL OR name = '') AND active = ?", (active,))
+							WHERE (name IS NULL OR name = '') AND active = 1 AND \
+							(SELECT enabled FROM Shows WHERE id = show) = 1")
+		elif missing_name and active == False:
+			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
+							WHERE (name IS NULL OR name = '') AND active = 0")
 		else:
 			error("A service or show must be provided to get streams")
 			return list()
 
 		streams = self.q.fetchall()
 		streams = [Stream(*stream) for stream in streams]
+		for stream in streams:
+			stream.show = self.get_show(id=stream.show) # convert show id to show model
 		return streams
 
 	@db_error_default(False)
@@ -450,7 +468,9 @@ class DatabaseDatabase:
 				"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
 				WHERE enabled = ?", (enabled,))
 		for show in self.q.fetchall():
-			shows.append(Show(*show))
+			show = Show(*show)
+			show.aliases = self.get_aliases(show)
+			shows.append(show)
 		return shows
 
 	@db_error_default(None)
@@ -459,7 +479,7 @@ class DatabaseDatabase:
 
 		# Get show ID
 		if stream and not id:
-			id = stream.show
+			id = stream.show.id
 
 		# Get show
 		if id is None:
@@ -472,6 +492,7 @@ class DatabaseDatabase:
 		if show is None:
 			return None
 		show = Show(*show)
+		show.aliases = self.get_aliases(show)
 		return show
 
 	@db_error_default(list())
@@ -562,9 +583,9 @@ class DatabaseDatabase:
 		return None
 
 	@db_error
-	def add_episode(self, show_id, episode_num, post_url):
-		debug("Inserting episode {} for show {} ({})".format(episode_num, show_id, post_url))
-		self.q.execute("INSERT INTO Episodes (show, episode, post_url) VALUES (?, ?, ?)", (show_id, episode_num, post_url))
+	def add_episode(self, show, episode_num, post_url):
+		debug("Inserting episode {} for show {} ({})".format(episode_num, show.id, post_url))
+		self.q.execute("INSERT INTO Episodes (show, episode, post_url) VALUES (?, ?, ?)", (show.id, episode_num, post_url))
 		self.commit()
 
 	@db_error_default(list())
