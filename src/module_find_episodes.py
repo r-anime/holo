@@ -48,7 +48,7 @@ def main(config, db, **kwargs):
 		service_handler = services.get_service_handler(service)
 		if service_handler.is_generic:
 			debug("    Checking service {}".format(service_handler.name))
-			recent_episodes = service_handler.get_recent_episodes(streams)
+			recent_episodes = service_handler.get_recent_episodes(other_streams)
 			info(f"{len(recent_episodes)} episodes for active shows on generic service {service}")
 
 			for stream, episodes in recent_episodes.items():
