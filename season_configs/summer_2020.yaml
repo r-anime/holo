@@ -51,6 +51,58 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
   nyaa: 'Enen no Shouboutai'
+---
+title: 'Lapis Re:LiGHTs'
+alias: ['']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37587'
+  anilist: 'https://anilist.co/anime/104937'
+  anidb: 'https://anidb.net/anime/13973'
+  kitsu: 'https://kitsu.io/anime/lapis-re-lights'
+  animeplanet: 'https://www.anime-planet.com/anime/lapis-relights'
+  official: 'https://www.lapisrelights.com/anime/'
+  subreddit: '/r/LapisReLights'
+ streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/lapis-relights/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1021'
+  hidive: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/lapis-relights'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e'
+alias: ['The Misfit of Demon King Academy', 'Maou Gakuin no Futekugousha']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40496'
+  anilist: 'https://anilist.co/anime/112301'
+  anidb: 'https://anidb.net/anime/13973'
+  kitsu: 'https://kitsu.io/anime/maou-gakuin-no-utekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou'
+  animeplanet: 'https://www.anime-planet.com/anime/the-misfit-of-demon-king-academy'
+  official: 'https://maohgakuin.com/'
+  subreddit: '/r/MaouGakuin'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/the-misfit-of-demon-king-academy'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1035'
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
