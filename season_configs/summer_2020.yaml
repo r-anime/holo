@@ -26,7 +26,7 @@ streams:
   bilibili|Bilibili: 'https://www.bilibili.com/bangumi/media/md28229301'
 ---
 title: 'Enen no Shouboutai: Ni no Shou'
-alias: ['Fire Force Season 2']
+alias: ['Enen no Shouboutai Season 2', 'Fire Force Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40956/'
@@ -53,7 +53,6 @@ streams:
   nyaa: 'Enen no Shouboutai'
 ---
 title: 'Lapis Re:LiGHTs'
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37587'
@@ -129,6 +128,110 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Chou Futsuu Toshi Kashiwa Densetsu R'
+alias: ['The Legend of Super Normal City Kashiwa R']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/40473'
+  anilist: 'https://anilist.co/anime/112258/Chou-Futsuu-Toshi-Kashiwa-Densetsu-R/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=15029'
+  kitsu: 'https://kitsu.io/anime/chou-futsuu-toshi-kashiwa-densetsu'
+  animeplanet: 'https://www.anime-planet.com/anime/chou-futsuu-toshi-kashiwa-densetsu-r'
+  official: 'https://kashiden.dekimachi.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'The God of High School'
+alias: ['GOHS']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/41353/The_God_of_High_School'
+  anilist: 'https://anilist.co/anime/116006/THE-GOD-OF-HIGH-SCHOOL/'
+  anidb: 'https://anidb.net/anime/15408'
+  kitsu: 'https://kitsu.io/anime/the-god-of-highschool-series'
+  animeplanet: 'https://www.anime-planet.com/anime/the-god-of-high-school'
+  official: 'http://goh-anime.com/'
+  subreddit: '/r/godofhighschool'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Muhyo to Rouji no Mahouritsu Soudan Jimusho Season 2'
+alias: ["Muhyo & Roji's Bureau of Supernatural Investigation Season 2"]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39948/'
+  anilist: 'https://anilist.co/anime/110028/Muhyo-to-Rouji-no-Mahouritsu-Soudan-Jimusho-2/'
+  anidb: 'https://anidb.net/anime/14953'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/muhyo-and-rojis-bureau-of-supernatural-investigation-2nd-season'
+  official: 'http://mahouritsu.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Umayon'
+alias: ['Uma Musume Shorts']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/38835'
+  anilist: 'https://anilist.co/anime/108941/Umayon/'
+  anidb: 'https://anidb.net/anime/14537'
+  kitsu: 'https://kitsu.io/anime/umayon'
+  animeplanet: 'https://www.anime-planet.com/anime/umayon'
+  official: 'https://umamusume.jp/umayon/'
+  subreddit: '/r/UmaMusume'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
@@ -155,4 +258,3 @@ streams:
 #  amazon|Amazon US: ''
 #  amazon_uk|Amazon UK: ''
 #  primevideo|Prime Video International: ''
-#---
