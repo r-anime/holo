@@ -219,7 +219,7 @@ info:
   official: 'https://umamusume.jp/umayon/'
   subreddit: '/r/UmaMusume'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/umayon'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
