@@ -1089,6 +1089,31 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Great Pretender'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/40052/Great_Pretender'
+  anilist: 'https://anilist.co/anime/110349/GREAT-PRETENDER/'
+  anidb: 'https://anidb.net/anime/14990'
+  kitsu: 'https://kitsu.io/anime/great-pretender'
+  animeplanet: 'https://www.anime-planet.com/anime/great-pretender'
+  official: 'http://www.greatpretender.jp/'
+  subreddit: '/r/GreatPretender'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
