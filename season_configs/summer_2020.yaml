@@ -195,7 +195,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/muhyo-rojis-bureau-of-supernatural-investigation/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/890/muhyo-rojis-bureau-of-supernatural-investigation/season/1791/season-2-sub'
   hidive: ''
   animelab|AnimeLab: ''
@@ -206,6 +206,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: '[HorribleSubs] Muhyo to Rouji no Mahouritsu Soudan Jimusho|12'
 ---
 title: 'Umayon'
 alias: ['Uma Musume Shorts']
