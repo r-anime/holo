@@ -38,6 +38,17 @@ def submit_text_post(subreddit, title, body):
 		exception("Failed to submit text post")
 		return None
 
+def edit_text_post(url, body):
+	_ensure_connection()
+	try:
+		info(f"Editing post {url}")
+		post = get_text_post(url)
+		post.edit(body)
+		return post
+	except:
+		exception("Failed to submit text post")
+		return None
+
 def get_text_post(url):
 	_ensure_connection()
 	try:

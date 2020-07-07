@@ -135,17 +135,17 @@ def _create_reddit_post(config, db, show, stream, episode, submit=True):
 def _edit_reddit_post(config, db, show, stream, episode, url, submit=True):
 	display_episode = stream.to_display_episode(episode)
 	
-	_, body = _create_post_contents(config, db, show, stream, display_episode)
+	_, body = _create_post_contents(config, db, show, stream, display_episode, quiet=True)
 	if submit:
-		reddit.get_text_post(url).edit(body)
+		reddit.edit_text_post(url, body)
 	return None
 
-def _create_post_contents(config, db, show, stream, episode):
+def _create_post_contents(config, db, show, stream, episode, quiet=False):
 	title = _create_post_title(config, show, episode)
 	title = _format_post_text(config, db, title, config.post_formats, show, episode, stream)
 	info("Title:\n"+title)
 	body = _format_post_text(config, db, config.post_body, config.post_formats, show, episode, stream)
-	info("Body:\n"+body)
+	if not quiet: info("Body:\n"+body)
 	return title, body
 
 def _format_post_text(config, db, text, formats, show, episode, stream):
