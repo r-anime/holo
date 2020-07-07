@@ -74,7 +74,11 @@ class ServiceHandler(AbstractServiceHandler):
 
 			for name in names:
 				debug(f"  Trying: {name}")
-				if _normalize_show_name(name) in _normalize_show_name(torrent.title):
+				# Match if each word in the show name is in the torrent name
+				# Intent is to allow inclusion of fansub group names
+				words_show = set(_normalize_show_name(name).split())
+				words_torrent = set(_normalize_show_name(torrent.title))
+				if words_show.issubset(words_torrent):
 					debug(f"  -> MATCH")
 					return stream
 		info(f"No matching show found for torrent {torrent.title}")
