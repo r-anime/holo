@@ -49,12 +49,17 @@ class PollHandler(AbstractPollHandler):
 		data = self._poll_post_data
 		data['poll-1[question]'] = title
 		#resp = requests.post(_poll_post_url, data = data, headers = headers, **kwargs)
-		resp = requests.post(self._poll_post_url, data = data, **kwargs)
+		try:
+			resp = requests.post(self._poll_post_url, data = data, **kwargs)
+		except:
+			error("Could not create poll (exception in POST)")
+			return None
 
 		if resp.ok:
 			match = self._poll_id_re.search(resp.url)
 			return match.group(1)
 		else:
+			error("Could not create poll (resp !OK)")
 			return None
 
 	def get_link(self, poll):
@@ -65,7 +70,12 @@ class PollHandler(AbstractPollHandler):
 
 	def get_score(self, poll):
 		debug(f"Getting score for show {poll.show_id} / episode {poll.episode}")
-		response = self.request(self.get_results_link(poll), html = True)
+		try:
+			response = self.request(self.get_results_link(poll), html = True)
+		except:
+			error(f"Couldn't get scores for poll {self.get_results_link(poll)}")
+			return None
+
 		if response.find('div', class_='basic-type-results') is None: # numeric score
 			# v1 votes, 1-10 range
 			value_text = response.find("span", class_="rating-mean-value").text
