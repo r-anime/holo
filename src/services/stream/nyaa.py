@@ -61,6 +61,7 @@ class ServiceHandler(AbstractServiceHandler):
 				if episode is not None:
 					show_episodes = episodes.get(stream, list())
 					show_episodes.append(episode)
+					debug(f"Adding episode {episode.number} for show {stream.show.id}")
 					episodes[stream] = show_episodes
 			except:
 				exception(f"Problem digesting torrent {torrent.id}")
@@ -80,6 +81,8 @@ class ServiceHandler(AbstractServiceHandler):
 				words_torrent = set(_normalize_show_name(torrent.title).split())
 				if words_show.issubset(words_torrent):
 					debug(f"  -> MATCH")
+					info(f"Matching found for torrent {torrent.title}")
+					info(f"  -> {show.name}")
 					return stream
 		info(f"No matching show found for torrent {torrent.title}")
 		return None
