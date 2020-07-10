@@ -322,11 +322,11 @@ info:
   official: 'http://www.tbs.co.jp/anime/oregairu/'
   subreddit: '/r/OreGairuSNAFU'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-teen-romantic-comedy-snafu'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/my-teen-romantic-comedy-snafu-climax'
   animelab|AnimeLab: 'https://www.animelab.com/shows/my-teen-romantic-comedy-snafu'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
