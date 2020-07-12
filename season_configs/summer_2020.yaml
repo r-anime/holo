@@ -490,6 +490,31 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Ninja Collection'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/42260'
+  anilist: 'https://anilist.co/anime/120180'
+  anidb: 'https://anidb.net/anime/15603'
+  kitsu: 'https://kitsu.io/anime/ninja-collection'
+  animeplanet: 'https://www.anime-planet.com/anime/ninja-collection'
+  official: 'https://www.tv-tokyo.co.jp/anime/nin_colle/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/ninja-collection'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: 'https://vrv.co/series/GR0XNW22Y/Ninja-Collection'
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
