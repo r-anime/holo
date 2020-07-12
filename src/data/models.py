@@ -117,7 +117,7 @@ class Stream(DbEqMixin):
 	
 	@classmethod
 	def from_show(cls, show):
-		return Stream(-show.id, -1, show, show.id, -1, show.name, 0, 0, 1)
+		return Stream(-show.id, -1, show, show.id, show.name, show.name, 0, 0, 1)
 	
 	def to_internal_episode(self, episode):
 		e = copy.copy(episode)
