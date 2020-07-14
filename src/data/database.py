@@ -670,7 +670,7 @@ class DatabaseDatabase:
 		if show is not None:
 			self.q.execute("SELECT show, episode, poll_service, poll_id, timestamp, score FROM Polls WHERE show = ?", (show.id,))
 		elif missing_score:
-			self.q.execute("SELECT show, episode, poll_service, poll_id, timestamp, score FROM Polls WHERE score is NULL")
+			self.q.execute("SELECT show, episode, poll_service, poll_id, timestamp, score FROM Polls WHERE score is NULL AND show IN (SELECT id FROM Shows where enabled = 1)")
 		else:
 			error("Need to select a show to get polls")
 			return list()
