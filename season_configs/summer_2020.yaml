@@ -404,7 +404,7 @@ streams:
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/peter-grill-and-the-philosophers-time'
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
@@ -451,7 +451,7 @@ info:
   official: 'https://gibiate.com/anime/en/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'http://www.crunchyroll.com/gibiate'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -477,7 +477,7 @@ info:
   official: 'https://koipro-anime.love/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/mr-love-queens-choice'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
