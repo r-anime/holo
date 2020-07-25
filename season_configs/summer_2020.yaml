@@ -269,7 +269,7 @@ info:
   kitsu: 'https://kitsu.io/anime/deca-dence'
   animeplanet: 'https://www.anime-planet.com/anime/deca-dence'
   official: 'http://decadence-anime.com/'
-  subreddit: ''
+  subreddit: '/r/Deca_Dence'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -309,6 +309,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'No Guns Life 2nd Season'
 ---
 title: 'Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan'
 alias: ['Yahari Ore no Seishun Love Comedy wa Machigatteiru Season 3', 'Oregairu Season 3', 'My Teen Romantic Comedy SNAFU Climax']
@@ -400,7 +401,7 @@ info:
   official: 'http://petergrill-anime.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/peter-grill-and-the-philosophers-time'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
