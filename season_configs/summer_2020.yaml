@@ -427,11 +427,11 @@ info:
   official: 'https://sao-alicization.com/'
   subreddit: '/r/swordartonline'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/sword-art-online/'
+  crunchyroll: 'https://www.crunchyroll.com/sword-art-online/|12'
   museasia: ''
   funimation|Funimation: 'https://www.funimation.com/shows/sword-art-online/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/377'
-  hidive: 'https://www.hidive.com/tv/sword-art-online-alicization-war-of-underworld'
+  hidive: 'https://www.hidive.com/tv/sword-art-online-alicization-war-of-underworld|12'
   animelab|AnimeLab: 'https://www.animelab.com/shows/sword-art-online'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
@@ -440,6 +440,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Sword Art Online - Alicization - War of Underworld 2nd Season'
 ---
 title: 'Gibiate'
 has_source: false
