@@ -84,7 +84,7 @@ class ServiceHandler(AbstractServiceHandler):
 					info(f"Matching found for torrent {torrent.title}")
 					info(f"  -> {show.name}")
 					return stream
-		info(f"No matching show found for torrent {torrent.title}")
+		debug(f"No matching show found for torrent {torrent.title}")
 		return None
 
 	def _get_recent_torrents(self, **kwargs):
