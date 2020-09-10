@@ -9,12 +9,12 @@ def main(config, db, **kwargs):
 	# Check for new show scores
 	if config.record_scores:
 		_check_new_episode_scores(config, db, update_db=not config.debug)
+	# Record poll scores to avoid querying them every time
+	_record_poll_scores(config, db, update_db=not config.debug)
 	# Show lengths aren't always known at the start of the season
 	_check_show_lengths(config, db, update_db=not config.debug)
 	# Check if shows have finished and disable them if they have
 	_disable_finished_shows(config, db, update_db=not config.debug)
-	# Record poll scores to avoid querying them every time
-	_record_poll_scores(config, db, update_db=not config.debug)
 	
 def _check_show_lengths(config, db, update_db=True):
 	info("Checking show lengths")
