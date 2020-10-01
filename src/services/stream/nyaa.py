@@ -51,27 +51,27 @@ class ServiceHandler(AbstractServiceHandler):
 			if not _is_valid_episode(torrent):
 				continue
 
-			stream = self._find_matching_stream(torrent, streams)
-			if not stream:
-				continue
-
-			# A stream has been found, generate the episode
-			try:
-				episode = _digest_episode(torrent)
-				if episode is not None:
-					show_episodes = episodes.get(stream, list())
-					show_episodes.append(episode)
-					debug(f"Adding episode {episode.number} for show {stream.show.id}")
-					episodes[stream] = show_episodes
-			except:
-				exception(f"Problem digesting torrent {torrent.id}")
+			found_streams = self._find_matching_stream(torrent, streams)
+			for stream in found_streams:
+				# A stream has been found, generate the episode
+				try:
+					episode = _digest_episode(torrent)
+					if episode is not None:
+						show_episodes = episodes.get(stream, list())
+						show_episodes.append(episode)
+						debug(f"Adding episode {episode.number} for show {stream.show.id}")
+						episodes[stream] = show_episodes
+				except:
+					exception(f"Problem digesting torrent {torrent.id}")
 		return episodes
 
 	def _find_matching_stream(self, torrent, streams):
 		debug(f"Searching matching stream for torrent {torrent.title}")
+		found_streams = list()
+
 		for stream in streams:
 			show = stream.show
-			names = [show.name] + show.aliases
+			names = [show.name] + show.aliases + [stream.show_key]
 
 			for name in names:
 				debug(f"  Trying: {name}")
@@ -83,9 +83,10 @@ class ServiceHandler(AbstractServiceHandler):
 					debug(f"  -> MATCH")
 					info(f"Matching found for torrent {torrent.title}")
 					info(f"  -> {show.name}")
-					return stream
-		debug(f"No matching show found for torrent {torrent.title}")
-		return None
+					found_streams.append(stream)
+		if not found_streams:
+			debug(f"No matching show found for torrent {torrent.title}")
+		return found_streams
 
 	def _get_recent_torrents(self, **kwargs):
 		"""

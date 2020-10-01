@@ -23,6 +23,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Higurashi no Naku Koro ni'
 ---
 title: "Higurashi no Naku Koro ni [Rewatcher thread]"
 alias: ['Higurashi: When They Cry - New']
@@ -49,7 +50,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  nyaa: 'Higurashi no Naku Koro ni'
+  nyaa: 'Higurashi no Naku Koro'
 ---
 title: 'Assault Lily: Bouquet'
 has_source: false
