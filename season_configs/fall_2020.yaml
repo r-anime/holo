@@ -75,6 +75,31 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Burn the Witch'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/41468/Burn_the_Witch'
+  anilist: 'https://anilist.co/anime/116673/BURN-THE-WITCH/'
+  anidb: 'https://anidb.net/anime/15448'
+  kitsu: 'https://kitsu.io/anime/burn-the-witch'
+  animeplanet: 'https://www.anime-planet.com/anime/burn-the-witch'
+  official: 'https://burn-the-witch-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
