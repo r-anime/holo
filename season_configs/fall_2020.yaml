@@ -102,32 +102,6 @@ streams:
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
 ---
-title: 'Enen no Shouboutai Ni no Shou'
-alias: ['Enen no Shouboutai Season 2', 'Fire Force Season 2']
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/40956'
-  anilist: 'https://anilist.co/anime/114236'
-  anidb: 'http://anidb.net/a15335'
-  kitsu: 'https://kitsu.io/anime/42909'
-  animeplanet: 'http://www.anime-planet.com/anime/fire-force-2nd-season'
-  official: 'http://fireforce-anime.jp/'
-  subreddit: '/r/firebrigade'
-streams:
-  crunchyroll: 'https://www.crunchyroll.com/fire-force'
-  museasia: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/fire-force/'
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: 'https://vrv.co/series/GYQWNXPZY'
-  hulu|Hulu: ''
-  youtube: ''
-  amazon|Amazon US: ''
-  amazon_uk|Amazon UK: ''
-  primevideo|Prime Video International: ''
----
 title: 'Dungeon ni Deai wo Motomeru no wa Machigatteiru no Darou ka Season 3'
 alias: ['DanMachi Season 3', 'Is It Wrong to Try to Pick Up Girls in a Dungeon? Season 3']
 has_source: true
