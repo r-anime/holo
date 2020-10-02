@@ -6,7 +6,7 @@ from data.models import UnprocessedShow, ShowType
 
 class InfoHandler(AbstractInfoHandler):
 	_show_link_base = "https://www.anime-planet.com/anime/{name}"
-	_show_link_matcher = "(?:https://)(?:www\.)?anime-planet\.com/anime/([a-zA-Z0-9-]+)"
+	_show_link_matcher = "(?:https?://)?(?:www\.)?anime-planet\.com/anime/([a-zA-Z0-9-]+)"
 
 	def __init__(self):
 		super().__init__("animeplanet", "Anime-Planet")
