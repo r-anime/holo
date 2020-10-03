@@ -383,6 +383,109 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Mahouka Koukou no Rettousei: Raihousha-hen'
+alias: ['The Irregular at Magic High School: Visitor Arc', 'Mahouka Koukou no Rettousei Season 2']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/41312'
+  anilist: 'https://anilist.co/anime/115740'
+  anidb: 'http://anidb.net/a15132'
+  kitsu: 'https://kitsu.io/anime/42608'
+  animeplanet: 'http://www.anime-planet.com/anime/the-irregular-at-magic-high-school-2'
+  official: 'https://mahouka.jp/'
+  subreddit: '/r/Mahouka'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-irregular-at-magic-high-school/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Kami-tachi ni Hirowareta Otoko'
+alias: ['By the Grace of the Gods']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/41312'
+  anilist: 'https://anilist.co/anime/115740'
+  anidb: 'http://anidb.net/a15400'
+  kitsu: 'https://kitsu.io/anime/43273'
+  animeplanet: 'http://www.anime-planet.com/anime/by-the-grace-of-the-gods'
+  official: 'https://kamihiro-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/by-the-grace-of-the-gods/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Munou na Nana'
+alias: ['Talentless Nana']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/41619'
+  anilist: 'https://anilist.co/anime/117343'
+  anidb: 'http://anidb.net/a15492'
+  kitsu: 'https://kitsu.io/anime/43534'
+  animeplanet: 'http://www.anime-planet.com/anime/talentless-nana'
+  official: 'https://munounanana.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/talentless-nana/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Iwa Kakeru! Sport Climbing Girls'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/41783'
+  anilist: 'https://anilist.co/anime/117757'
+  anidb: 'http://anidb.net/a15519'
+  kitsu: 'https://kitsu.io/anime/43535'
+  animeplanet: 'http://www.anime-planet.com/anime/iwakakeru-climbing-girls'
+  official: 'http://iwakakeru-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/iwakakeru-sport-climbing-girls'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
