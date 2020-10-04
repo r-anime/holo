@@ -388,9 +388,9 @@ title: 'Mahouka Koukou no Rettousei: Raihousha-hen'
 alias: ['The Irregular at Magic High School: Visitor Arc', 'Mahouka Koukou no Rettousei Season 2']
 has_source: true
 info:
-  mal: 'https://myanimelist.net/anime/41312'
-  anilist: 'https://anilist.co/anime/115740'
-  anidb: 'http://anidb.net/a15132'
+  mal: 'https://myanimelist.net/anime/40497'
+  anilist: 'https://anilist.co/anime/112300'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=15132'
   kitsu: 'https://kitsu.io/anime/42608'
   animeplanet: 'http://www.anime-planet.com/anime/the-irregular-at-magic-high-school-2'
   official: 'https://mahouka.jp/'
@@ -404,7 +404,7 @@ streams:
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/the-irregular-at-magic-high-school-80e76834-7c30-45fe-bcaa-1f4ace6a99da'
   youtube: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
