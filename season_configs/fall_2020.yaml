@@ -613,6 +613,32 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: '100-man no Inochi no Ue ni Ore wa Tatte Iru'
+alias: ["I'm Standing on a Million Lives"]
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/41380'
+  anilist: 'https://anilist.co/anime/116242'
+  anidb: 'https://anidb.net/a15415'
+  kitsu: 'https://kitsu.io/anime/one-hundred-man-no-inochi-no-ue-ni-ore-wa-tatteiru'
+  animeplanet: 'https://www.anime-planet.com/anime/im-standing-on-a-million-lives'
+  official: 'https://1000000-lives.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/im-standing-on-a-million-lives'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: 'https://vrv.co/series/G6Q9GGE26'
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
