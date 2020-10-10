@@ -766,6 +766,135 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Akudama Drive'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/41433'
+  anilist: 'https://anilist.co/anime/116566/Akudama-Drive/'
+  anidb: 'https://anidb.net/anime/15437'
+  kitsu: 'https://kitsu.io/anime/akudama-drive'
+  animeplanet: 'https://www.anime-planet.com/anime/akudama-drive'
+  official: 'https://akudama-drive.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/akudama-drive/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: 'https://www.hulu.com/series/akudama-drive-9526c028-9c2c-4e13-807f-2009548c628a'
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Guraburu!'
+alias: ['Grand Blues!', 'Granblue Fantasy Shorts']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/41574'
+  anilist: 'https://anilist.co/anime/117086/Guraburu/'
+  anidb: 'https://anidb.net/anime/15483'
+  kitsu: 'https://kitsu.io/anime/guraburu'
+  animeplanet: 'https://www.anime-planet.com/anime/guraburu'
+  official: 'https://guraburu.granbluefantasy.jp/'
+  subreddit: '/r/Granblue_en'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/grand-blues'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Kamisama ni Natta Hi'
+alias: ['The Day I Became a God']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/41930'
+  anilist: 'https://anilist.co/anime/118419/Kamisama-ni-Natta-Hi/'
+  anidb: 'https://anidb.net/anime/15559'
+  kitsu: 'https://kitsu.io/anime/kamisama-ni-natta-hi'
+  animeplanet: 'https://www.anime-planet.com/anime/the-day-i-became-a-god'
+  official: 'https://kamisama-day.jp/'
+  subreddit: '/r/TheDayIBecameAGod'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Gochuumon wa Usagi Desuka? Bloom'
+alias: ['GochiUsa', 'Gochuumon wa Usagi Desuka? Season 3']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/38337'
+  anilist: 'https://anilist.co/anime/104198/Gochuumon-wa-Usagi-Desu-ka-BLOOM/'
+  anidb: 'https://anidb.net/anime/14400'
+  kitsu: 'https://kitsu.io/anime/gochuumon-wa-usagi-desu-ka-3'
+  animeplanet: 'https://www.anime-planet.com/anime/is-the-order-a-rabbit-bloom'
+  official: 'https://gochiusa.com/bloom/'
+  subreddit: '/r/GochiUsa'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/is-the-order-a-rabbit'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: 'https://www.hidive.com/tv/is-the-order-a-rabbit-bloom-season-3'
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: 'https://vrv.co/series/GR2P1P2KR'
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Taiso Samurai'
+alias: ['The Gymnastics Samurai']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/42668'
+  anilist: 'https://anilist.co/anime/122807/Taisou-Zamurai/'
+  anidb: 'https://anidb.net/anime/15689'
+  kitsu: 'https://kitsu.io/anime/taiso-samurai'
+  animeplanet: 'https://www.anime-planet.com/anime/the-gymnastics-samurai'
+  official: 'https://taiso-samurai.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-gymnastics-samurai/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
