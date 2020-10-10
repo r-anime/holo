@@ -61,7 +61,7 @@ info:
   kitsu: 'https://kitsu.io/anime/assault-lily-bouquet'
   animeplanet: 'https://www.anime-planet.com/anime/assault-lily-bouquet'
   official: 'https://anime.assaultlily-pj.com/'
-  subreddit: ''
+  subreddit: '/r/AssaultLily'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -86,7 +86,7 @@ info:
   kitsu: 'https://kitsu.io/anime/burn-the-witch'
   animeplanet: 'https://www.anime-planet.com/anime/burn-the-witch'
   official: 'https://burn-the-witch-anime.com/'
-  subreddit: ''
+  subreddit: '/r/Burnthewitch'
 streams:
   crunchyroll: 'http://crunchyroll.com/burn-the-witch'
   museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl2w1kwb9Si-CBmmpGA5PY65'
@@ -241,7 +241,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43552'
   animeplanet: 'http://www.anime-planet.com/anime/kings-raid'
   official: 'https://anime-kings-raid.com/'
-  subreddit: ''
+  subreddit: '/r/Kings_Raid'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -267,7 +267,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43029'
   animeplanet: 'http://www.anime-planet.com/anime/senyoku-no-sigrdrifa'
   official: 'https://sigururi.com/'
-  subreddit: ''
+  subreddit: '/r/SenyokuNoSigrdrifa'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -368,7 +368,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42826'
   animeplanet: 'http://www.anime-planet.com/anime/hypnosis-mic-division-rap-battle-rhyme-anima'
   official: 'https://hypnosismic-anime.com/'
-  subreddit: ''
+  subreddit: '/r/HypnosisMic'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -420,7 +420,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43273'
   animeplanet: 'http://www.anime-planet.com/anime/by-the-grace-of-the-gods'
   official: 'https://kamihiro-anime.com/'
-  subreddit: ''
+  subreddit: '/r/KamiTachi'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -446,7 +446,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43534'
   animeplanet: 'http://www.anime-planet.com/anime/talentless-nana'
   official: 'https://munounanana.com/'
-  subreddit: ''
+  subreddit: '/r/TalentlessNana'
 streams:
   crunchyroll: ''
   museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl2t0ExBn76ZdBomplZbeaay'
@@ -497,7 +497,7 @@ info:
   kitsu: 'https://kitsu.io/anime/yuukoku-no-moriarty'
   animeplanet: 'https://www.anime-planet.com/anime/moriarty-the-patriot'
   official: 'https://moriarty-anime.com/'
-  subreddit: ''
+  subreddit: '/r/YuukokuNoMoriarty'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -548,7 +548,7 @@ info:
   kitsu: 'https://kitsu.io/anime/maoujou-de-oyasumi'
   animeplanet: 'https://www.anime-planet.com/anime/sleepy-princess-in-the-demon-castle'
   official: 'https://maoujo-anime.com/'
-  subreddit: ''
+  subreddit: '/r/SleepyPrincess'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -880,7 +880,7 @@ info:
   kitsu: 'https://kitsu.io/anime/taiso-samurai'
   animeplanet: 'https://www.anime-planet.com/anime/the-gymnastics-samurai'
   official: 'https://taiso-samurai.com/'
-  subreddit: ''
+  subreddit: '/r/TaisoSamurai'
 streams:
   crunchyroll: ''
   museasia: ''
