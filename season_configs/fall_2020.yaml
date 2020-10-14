@@ -1053,6 +1053,32 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Magatsu Wahrheit: Zuerst'
+alias: ['Magatsu Wahrheit']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/37599/Magatsu_Wahrheit__Zuerst'
+  anilist: 'https://anilist.co/anime/117755/Magatsu-Wahrheit-ZUERST/'
+  anidb: 'https://anidb.net/anime/13980'
+  kitsu: 'https://kitsu.io/anime/magatsu-wahrheit-zuerst'
+  animeplanet: 'https://www.anime-planet.com/anime/magatsu-wahrheit'
+  official: 'https://magatsu-wahrheit-zuerst.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0yYkzk9wZiH2xkhwu2lxBe'
+  funimation|Funimation: 'https://www.funimation.com/shows/magatsu-wahrheit/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1093/magatsu-wahrheit'
+  hidive: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/magatsu-wahrheit'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
