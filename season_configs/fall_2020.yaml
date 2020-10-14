@@ -742,7 +742,7 @@ streams:
   primevideo|Prime Video International: ''
 ---
 title: 'Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen'
-alias: ['Our Last Crusade or the Rise of a New World', 'Kimisen']
+alias: ['Our Last Crusade or the Rise of a New World', 'Kimisen', 'Kimi to Boku no Saigo no Senjou, Arui wa Sekai ga Hajimaru Seisen']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40595'
@@ -895,6 +895,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Taisou Zamurai'
 #---
 #title: ''
 #alias: ['']
