@@ -127,6 +127,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka S3'
 ---
 title: 'Jujutsu Kaisen'
 has_source: true
@@ -256,6 +257,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: "King's Raid Ishi o Tsugu Mono-tachi"
 ---
 title: 'Senyoku no Sigrdrifa'
 alias: ['Warlords of Sigrdrifa', 'Sugiruri']
@@ -869,6 +871,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+  nyaa: 'Gochuumon wa Usagi Desu ka S3'
 ---
 title: 'Taiso Samurai'
 alias: ['The Gymnastics Samurai']
