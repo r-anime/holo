@@ -1079,6 +1079,32 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Dogeza de Tanondemita'
+alias: ['I Tried Asking While Kowtowing']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/42571'
+  anilist: 'https://anilist.co/anime/122137/Dogeza-de-Tanondemita/'
+  anidb: 'https://anidb.net/anime/15659'
+  kitsu: 'https://kitsu.io/anime/dogeza-de-tanondemita'
+  animeplanet: 'https://www.anime-planet.com/anime/dogeza-de-tanondemita'
+  official: 'https://dogeza-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/dogezai-tried-asking-while-kowtowing'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: 'https://vrv.co/series/G64G29DER'
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
