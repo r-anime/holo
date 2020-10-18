@@ -127,7 +127,7 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  nyaa: 'Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka S3'
+  nyaa: 'Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka'
 ---
 title: 'Jujutsu Kaisen'
 has_source: true
@@ -873,8 +873,8 @@ streams:
   primevideo|Prime Video International: ''
   nyaa: 'Gochuumon wa Usagi Desu ka S3'
 ---
-title: 'Taiso Samurai'
-alias: ['The Gymnastics Samurai']
+title: 'Taisou Zamurai'
+alias: ['The Gymnastics Samurai', 'Taiso Samurai']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/42668'
