@@ -166,7 +166,7 @@ info:
   official: 'https://haikyu.jp/'
   subreddit: '/r/haikyuu'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/haikyu'
+  crunchyroll: 'https://www.crunchyroll.com/haikyu|13'
   museasia: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
