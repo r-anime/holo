@@ -200,7 +200,7 @@ _exludors = [re.compile(x, re.I) for x in [
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
-	r"\[(?:horriblesubs|commie|hiryuu|kuusou|fff|merchant|lolisubs|hitoku|erai-raws|davinci|asenshi|mezashite|anonyneko|pas|ryuujitk)\] .+ - (\d+) ",
+	r"\[(?:horriblesubs|SubsPlease|commie|hiryuu|kuusou|fff|merchant|lolisubs|hitoku|erai-raws|davinci|asenshi|mezashite|anonyneko|pas|ryuujitk)\] .+ - (\d+) ",
 	r"\[DameDesuYo\] .+ - (\d+)[ v]",
 	r"\[Some-Stuffs\]_.+_(\d{3})_",
 	r"\[(?:orz|hayaku|sxrp)\] .+ (\d+)", # No separator
