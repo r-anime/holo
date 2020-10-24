@@ -1050,6 +1050,57 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'D4DJ First Mix'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39681/'
+  anilist: 'https://anilist.co/anime/115069'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14815'
+  kitsu: 'https://kitsu.io/anime/d4dj-first-mix'
+  animeplanet: 'https://www.anime-planet.com/anime/d4dj-first-mix'
+  official: 'https://anime.d4dj-pj.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/d4dj-first-mix'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: 'https://www.hidive.com/tv/d4dj-first-mix'
+  animelab|AnimeLab: 'https://www.animelab.com/shows/d4dj-first-mix'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Dragon Quest: Dai no Daibouken (2020)'
+alias: ['Dragon Quest: The Adventure of Dai']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40906/'
+  anilist: 'https://anilist.co/anime/114099'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=15321'
+  kitsu: 'https://kitsu.io/anime/dragon-quest-dai-no-daibouken'
+  animeplanet: 'https://www.anime-planet.com/anime/dragon-quest-dai-no-daibouken-2020'
+  official: 'https://dq-dai.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: 'https://www.crunchyroll.com/dragon-quest-the-adventure-of-dai'
+  vrv|VRV: 'https://vrv.co/series/GYXM79M56'
+  hulu|Hulu: 'https://www.hulu.com/series/dragon-quest-the-adventure-of-dai-33732b5e-eac3-4c6e-a467-8ae8b9a393cf'
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
