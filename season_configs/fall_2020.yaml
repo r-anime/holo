@@ -12,6 +12,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jj1KDCcoLBqT6tpeSjzbFN9'
   funimation|Funimation: 'https://www.funimation.com/shows/higurashi-when-they-cry-new/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/950/higurashi-when-they-cry-new'
   hidive: ''
@@ -39,6 +40,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jj1KDCcoLBqT6tpeSjzbFN9'
   funimation|Funimation: 'https://www.funimation.com/shows/higurashi-when-they-cry-new/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/950/higurashi-when-they-cry-new'
   hidive: ''
@@ -220,6 +222,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/yashahime-princess-half-demon'
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jjdk5R3iXkWIAGBMZ8Tugot'
   funimation|Funimation: 'https://www.funimation.com/shows/yashahime-princess-half-demon/'
   wakanim|Wakanim: ''
   hidive: ''
@@ -426,6 +429,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjRhcXt3hp52zWsIcJL6ecv'
   funimation|Funimation: 'https://www.funimation.com/shows/by-the-grace-of-the-gods/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1133/by-the-grace-of-the-gods'
   hidive: ''
@@ -477,6 +481,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/iwakakeru-sport-climbing-girls-'
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JiVGfOfzmkABWP_-0P6biY_'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -630,6 +635,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/im-standing-on-a-million-lives'
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjixIi-QPRM73VB13yMfOsW'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -731,6 +737,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JgQ0zKV6h0tq1IvyUW_lR89'
   funimation|Funimation: 'https://www.funimation.com/shows/tsukiuta-the-animation/'
   wakanim|Wakanim: ''
   hidive: ''
@@ -808,6 +815,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/grand-blues'
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jizam_K1c4BX1jgvqjJs9u7'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -1197,6 +1205,7 @@ streams:
 #streams:
 #  crunchyroll: ''
 #  museasia: ''
+#  anione: ''
 #  funimation|Funimation: ''
 #  wakanim|Wakanim: ''
 #  hidive: ''
