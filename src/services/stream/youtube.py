@@ -36,11 +36,13 @@ class ServiceHandler(AbstractServiceHandler):
 
 	def _get_feed_episodes(self, show_key, **kwargs):
 		url = self._get_feed_url(show_key)
+		if url is None:
+			error(f"Cannot get feed url for {self.name}/{show_key}")
 
 		# Request channel information
 		response = self.request(url, json=True, **kwargs)
 		if response is None:
-			error(f"Cannot get episode feed for Youtube/{show_key}")
+			error(f"Cannot get episode feed for {self.name}/{show_key}")
 			return list()
 
 		# Return feed
