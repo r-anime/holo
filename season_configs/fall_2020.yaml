@@ -631,7 +631,7 @@ info:
   kitsu: 'https://kitsu.io/anime/one-hundred-man-no-inochi-no-ue-ni-ore-wa-tatteiru'
   animeplanet: 'https://www.anime-planet.com/anime/im-standing-on-a-million-lives'
   official: 'https://1000000-lives.com/'
-  subreddit: ''
+  subreddit: '/r/100ManNoInochi'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/im-standing-on-a-million-lives'
   museasia: ''
