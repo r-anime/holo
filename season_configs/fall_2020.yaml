@@ -12,6 +12,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jj1KDCcoLBqT6tpeSjzbFN9'
   funimation|Funimation: 'https://www.funimation.com/shows/higurashi-when-they-cry-new/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/950/higurashi-when-they-cry-new'
   hidive: ''
@@ -39,6 +40,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jj1KDCcoLBqT6tpeSjzbFN9'
   funimation|Funimation: 'https://www.funimation.com/shows/higurashi-when-they-cry-new/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/950/higurashi-when-they-cry-new'
   hidive: ''
@@ -220,6 +222,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/yashahime-princess-half-demon'
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jjdk5R3iXkWIAGBMZ8Tugot'
   funimation|Funimation: 'https://www.funimation.com/shows/yashahime-princess-half-demon/'
   wakanim|Wakanim: ''
   hidive: ''
@@ -426,6 +429,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjRhcXt3hp52zWsIcJL6ecv'
   funimation|Funimation: 'https://www.funimation.com/shows/by-the-grace-of-the-gods/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1133/by-the-grace-of-the-gods'
   hidive: ''
@@ -477,6 +481,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/iwakakeru-sport-climbing-girls-'
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JiVGfOfzmkABWP_-0P6biY_'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -626,10 +631,11 @@ info:
   kitsu: 'https://kitsu.io/anime/one-hundred-man-no-inochi-no-ue-ni-ore-wa-tatteiru'
   animeplanet: 'https://www.anime-planet.com/anime/im-standing-on-a-million-lives'
   official: 'https://1000000-lives.com/'
-  subreddit: ''
+  subreddit: '/r/100ManNoInochi'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/im-standing-on-a-million-lives'
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjixIi-QPRM73VB13yMfOsW'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -731,6 +737,7 @@ info:
 streams:
   crunchyroll: ''
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JgQ0zKV6h0tq1IvyUW_lR89'
   funimation|Funimation: 'https://www.funimation.com/shows/tsukiuta-the-animation/'
   wakanim|Wakanim: ''
   hidive: ''
@@ -808,6 +815,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/grand-blues'
   museasia: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jizam_K1c4BX1jgvqjJs9u7'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -1105,6 +1113,83 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'D4DJ First Mix'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/39681/'
+  anilist: 'https://anilist.co/anime/115069'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=14815'
+  kitsu: 'https://kitsu.io/anime/d4dj-first-mix'
+  animeplanet: 'https://www.anime-planet.com/anime/d4dj-first-mix'
+  official: 'https://anime.d4dj-pj.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/d4dj-first-mix'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: 'https://www.hidive.com/tv/d4dj-first-mix'
+  animelab|AnimeLab: 'https://www.animelab.com/shows/d4dj-first-mix'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Dragon Quest: Dai no Daibouken'
+alias: ['Dragon Quest: The Adventure of Dai']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40906/'
+  anilist: 'https://anilist.co/anime/114099'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=15321'
+  kitsu: 'https://kitsu.io/anime/dragon-quest-dai-no-daibouken'
+  animeplanet: 'https://www.anime-planet.com/anime/dragon-quest-dai-no-daibouken-2020'
+  official: 'https://dq-dai.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: 'https://www.crunchyroll.com/dragon-quest-the-adventure-of-dai'
+  vrv|VRV: 'https://vrv.co/series/GYXM79M56'
+  hulu|Hulu: 'https://www.hulu.com/series/dragon-quest-the-adventure-of-dai-33732b5e-eac3-4c6e-a467-8ae8b9a393cf'
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+---
+title: 'Inu to Neko Docchi mo Katteru to Mainichi Tanoshii'
+alias: ['With a Dog AND a Cat, Every Day is Fun']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40833/'
+  anilist: 'https://anilist.co/anime/116700/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=15297'
+  kitsu: 'https://kitsu.io/anime/inu-to-neko-docchi-mo-katteru-to-mainichi-tanoshii'
+  animeplanet: 'https://www.anime-planet.com/anime/with-a-dog-and-a-cat-every-day-is-fun'
+  official: 'https://dog-and-cat.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: 'https://www.crunchyroll.com/with-a-dog-and-a-cat-every-day-is-fun'
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
 #---
 #title: ''
 #alias: ['']
@@ -1120,6 +1205,7 @@ streams:
 #streams:
 #  crunchyroll: ''
 #  museasia: ''
+#  anione: ''
 #  funimation|Funimation: ''
 #  wakanim|Wakanim: ''
 #  hidive: ''
