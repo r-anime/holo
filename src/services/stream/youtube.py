@@ -6,7 +6,8 @@ from .. import AbstractServiceHandler
 from data.models import Episode, UnprocessedStream
 
 class ServiceHandler(AbstractServiceHandler):
-	_channel_feed = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&part=status&maxResults=50&playlistId={id}&key={key}"
+	_playlist_api_query = "https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=50&playlistId={id}&key={key}"
+	_videos_api_query = "https://youtube.googleapis.com/youtube/v3/videos?part=status&part=snippet&hl=en&id={id}&key={key}"
 	_channel_url = "https://www.youtube.com/playlist?list={id}"
 	_channel_re = re.compile("youtube.com/playlist\\?list=([\w-]+)", re.I)
 
@@ -45,6 +46,20 @@ class ServiceHandler(AbstractServiceHandler):
 			error(f"Cannot get episode feed for {self.name}/{show_key}")
 			return list()
 
+		# Extract videos ids and build new query for all videos
+		if not _verify_feed(response):
+			warning("Parsed feed could not be verified, may have unexpected results")
+		feed = response.get("items", list())
+
+		video_ids = [item["contentDetails"]["videoId"] for item in feed]
+		url = self._get_videos_url(video_ids)
+
+		# Request videos information
+		response = self.request(url, json=True, **kwargs)
+		if response is None:
+			error(f"Cannot get video information for {self.name}/{show_key}")
+			return list()
+
 		# Return feed
 		if not _verify_feed(response):
 			warning("Parsed feed could not be verified, may have unexpected results")
@@ -57,7 +72,18 @@ class ServiceHandler(AbstractServiceHandler):
 			return None
 		api_key = self.config["api_key"]
 		if show_key is not None:
-			return self._channel_feed.format(id=show_key, key=api_key)
+			return self._playlist_api_query.format(id=show_key, key=api_key)
+		else:
+			return None
+
+	def _get_videos_url(self, video_ids):
+		# Videos ids is a list of all videos in feed
+		if "api_key" not in self.config or not self.config["api_key"]:
+			error("  Missing API key for access to Youtube channel")
+			return None
+		api_key = self.config["api_key"]
+		if video_ids:
+			return self._videos_api_query.format(id=','.join(video_ids), key=api_key)
 		else:
 			return None
 
@@ -82,7 +108,7 @@ class ServiceHandler(AbstractServiceHandler):
 
 def _verify_feed(feed):
 	debug("Verifying feed")
-	if feed["kind"] != "youtube#playlistItemListResponse":
+	if not (feed["kind"] == "youtube#playlistItemListResponse" or feed["kind"] == "youtube#videoListResponse"):
 		debug("  Feed does not match request")
 		return False
 	if feed["pageInfo"]["totalResults"] > feed["pageInfo"]["resultsPerPage"]:
@@ -105,7 +131,10 @@ def _is_valid_episode(feed_episode, show_id):
 	if feed_episode["status"]["privacyStatus"] == "private":
 		info("  Video was excluded (is private)")
 		return False
-	title = feed_episode["snippet"].get("title", "")
+	if feed_episode["snippet"]["liveBroadcastContent"] == "upcoming":
+		info("  Video was excluded (not yet online)")
+		return False
+	title = feed_episode["snippet"]["localized"]["title"]
 	if len(title) == 0:
 		info("  Video was exluded (no title found)")
 		return False
@@ -121,7 +150,7 @@ def _digest_episode(feed_episode):
 	_video_url = "https://www.youtube.com/watch?v={video_id}"
 	snippet = feed_episode["snippet"]
 
-	title = snippet["title"]
+	title = snippet["localized"]["title"]
 	episode_num = _extract_episode_num(title)
 	if episode_num is None or not 0 < episode_num <720:
 		return None
@@ -130,7 +159,7 @@ def _digest_episode(feed_episode):
 	#date_string = snippet["publishedAt"].replace('Z', '+00:00') # Use this for offset-aware dates
 	date = datetime.fromisoformat(date_string) or datetime.utcnow()
 
-	link = _video_url.format(video_id=snippet["resourceId"]["videoId"])
+	link = _video_url.format(video_id=feed_episode["id"])
 	return Episode(episode_num, None, link, date)
 
 def _extract_episode_num(name):
