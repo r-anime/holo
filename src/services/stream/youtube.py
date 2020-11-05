@@ -120,6 +120,7 @@ def _verify_feed(feed):
 _excludors = [re.compile(x, re.I) for x in [
 	"(?:[^a-zA-Z]|^)(?:PV|OP|ED)(?:[^a-zA-Z]|$)",
 	"blu.?ray",
+	"preview",
 ]]
 
 _num_extractors = [re.compile(x, re.I) for x in [
