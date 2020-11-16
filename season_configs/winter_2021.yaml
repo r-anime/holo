@@ -7,7 +7,7 @@ info:
   anidb: 'http://anidb.net/a15257'
   kitsu: 'https://kitsu.io/anime/43464'
   animeplanet: 'http://www.anime-planet.com/anime/243-seiin-koukou-danshi-volley-bu'
-  official: '243anime.com'
+  official: 'https://243anime.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -34,7 +34,7 @@ info:
   anidb: 'http://anidb.net/a15847'
   kitsu: ''
   animeplanet: ''
-  official: '@abciee_anime'
+  official: 'https://twitter.com/abciee_anime'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -61,7 +61,7 @@ info:
   anidb: ''
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/aikatsu-planet'
-  official: 'www.aikatsu.net'
+  official: 'http://www.aikatsu.net/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -88,7 +88,7 @@ info:
   anidb: 'http://anidb.net/a15327'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/azur-lane-bisoku-zenshin'
-  official: 'azurlane-bisoku.jp'
+  official: 'https://azurlane-bisoku.jp/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -115,7 +115,7 @@ info:
   anidb: 'http://anidb.net/a15341'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/back-arrow'
-  official: 'back-arrow.com'
+  official: 'https://back-arrow.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -142,7 +142,7 @@ info:
   anidb: 'http://anidb.net/a15330'
   kitsu: 'https://kitsu.io/anime/42904'
   animeplanet: 'http://www.anime-planet.com/anime/beastars-2'
-  official: 'bst-anime.com'
+  official: 'https://bst-anime.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -169,7 +169,7 @@ info:
   anidb: 'http://anidb.net/a15602'
   kitsu: 'https://kitsu.io/anime/43305'
   animeplanet: 'http://www.anime-planet.com/anime/bungou-stray-dogs-wan'
-  official: 'bungo-stray-dogs-wan.com'
+  official: 'https://bungo-stray-dogs-wan.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -196,7 +196,7 @@ info:
   anidb: 'http://anidb.net/a15305'
   kitsu: 'https://kitsu.io/anime/42867'
   animeplanet: 'http://www.anime-planet.com/anime/dr-stone-stone-wars'
-  official: 'dr-stone.jp'
+  official: 'https://dr-stone.jp/'
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/dr-stone'
@@ -223,7 +223,7 @@ info:
   anidb: 'http://anidb.net/a14545'
   kitsu: 'https://kitsu.io/anime/42085'
   animeplanet: 'http://www.anime-planet.com/anime/ex-arm'
-  official: 'www.exarm-anime.com'
+  official: 'https://www.exarm-anime.com/'
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/ex-arm'
@@ -250,7 +250,7 @@ info:
   anidb: 'http://anidb.net/a15734'
   kitsu: 'https://kitsu.io/anime/11848'
   animeplanet: 'http://www.anime-planet.com/anime/gekidol'
-  official: 'www.gekidol.com'
+  official: 'http://www.gekidol.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -278,7 +278,7 @@ info:
   anidb: 'http://anidb.net/a14903'
   kitsu: 'https://kitsu.io/anime/42324'
   animeplanet: 'http://www.anime-planet.com/anime/the-quintessential-quintuplets-2nd-season'
-  official: 'www.tbs.co.jp'
+  official: 'http://www.tbs.co.jp/anime/5hanayome/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -306,7 +306,7 @@ info:
   anidb: 'http://anidb.net/a15502'
   kitsu: 'https://kitsu.io/anime/43167'
   animeplanet: 'http://www.anime-planet.com/anime/cells-at-work-code-black'
-  official: 'saibou-black.com'
+  official: 'https://saibou-black.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -334,7 +334,7 @@ info:
   anidb: 'http://anidb.net/a14791'
   kitsu: 'https://kitsu.io/anime/42202'
   animeplanet: 'http://www.anime-planet.com/anime/cells-at-work-2'
-  official: 'hataraku-saibou.com'
+  official: 'http://hataraku-saibou.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -361,7 +361,7 @@ info:
   anidb: 'http://anidb.net/a15733'
   kitsu: 'https://kitsu.io/anime/43545'
   animeplanet: 'http://www.anime-planet.com/anime/horimiya'
-  official: 'horimiya-anime.com'
+  official: 'https://horimiya-anime.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -388,7 +388,7 @@ info:
   anidb: 'http://anidb.net/a15340'
   kitsu: 'https://kitsu.io/anime/43568'
   animeplanet: 'http://www.anime-planet.com/anime/hortensia-saga'
-  official: 'animehorsaga.jp'
+  official: 'https://animehorsaga.jp/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -415,7 +415,7 @@ info:
   anidb: 'http://anidb.net/a15746'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/idolls'
-  official: 'wsy-idolls.com'
+  official: 'https://wsy-idolls.com/anime'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -442,7 +442,7 @@ info:
   anidb: 'http://anidb.net/a15301'
   kitsu: 'https://kitsu.io/anime/42868'
   animeplanet: 'http://www.anime-planet.com/anime/idoly-pride'
-  official: 'anime.idolypride.jp'
+  official: 'https://anime.idolypride.jp/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -469,7 +469,7 @@ info:
   anidb: 'http://anidb.net/a14824'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/i-chu-etoile-stage'
-  official: 'etoile-anime.jp'
+  official: 'https://etoile-anime.jp/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -497,7 +497,7 @@ info:
   anidb: 'http://anidb.net/a15144'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/bottom-tier-character-tomozaki'
-  official: 'tomozaki-koushiki.com'
+  official: 'http://tomozaki-koushiki.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -525,7 +525,7 @@ info:
   anidb: 'http://anidb.net/a15715'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/dr-ramune-mysterious-disease-specialist'
-  official: 'ramune-anime.com'
+  official: 'https://ramune-anime.com/'
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/dr-ramune-mysterious-disease-specialist-'
@@ -553,7 +553,7 @@ info:
   anidb: 'http://anidb.net/a15277'
   kitsu: 'https://kitsu.io/anime/42732'
   animeplanet: 'http://www.anime-planet.com/anime/kaifuku-jutsushi-no-yarinaoshi'
-  official: 'kaiyari.com'
+  official: 'http://kaiyari.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -580,7 +580,7 @@ info:
   anidb: 'http://anidb.net/a15323'
   kitsu: 'https://kitsu.io/anime/42922'
   animeplanet: 'http://www.anime-planet.com/anime/kemono-jihen'
-  official: 'kemonojihen-anime.com'
+  official: 'https://kemonojihen-anime.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -608,7 +608,7 @@ info:
   anidb: 'http://anidb.net/a14201'
   kitsu: 'https://kitsu.io/anime/41463'
   animeplanet: 'http://www.anime-planet.com/anime/kumo-desu-ga-nanika'
-  official: 'kumo-anime.com'
+  official: 'https://kumo-anime.com/'
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/so-im-a-spider-so-what'
@@ -636,7 +636,7 @@ info:
   anidb: 'http://anidb.net/a15363'
   kitsu: 'https://kitsu.io/anime/42957'
   animeplanet: 'http://www.anime-planet.com/anime/log-horizon-entaku-houkai'
-  official: 'www6.nhk.or.jp'
+  official: 'https://www6.nhk.or.jp/anime/program/detail.html?i=loghorizon3'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -663,7 +663,7 @@ info:
   anidb: 'http://anidb.net/a15476'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/maiko-san-chi-no-makanai-san'
-  official: 'www6.nhk.or.jp'
+  official: 'https://www6.nhk.or.jp/anime/special/special.html?i=8132'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -691,7 +691,7 @@ info:
   anidb: 'http://anidb.net/a15482'
   kitsu: 'https://kitsu.io/anime/43097'
   animeplanet: 'http://www.anime-planet.com/anime/sorcerous-stabber-orphen-2'
-  official: 'ssorphen-anime.com'
+  official: 'http://ssorphen-anime.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -719,7 +719,7 @@ info:
   anidb: 'http://anidb.net/a14758'
   kitsu: 'https://kitsu.io/anime/42323'
   animeplanet: 'http://www.anime-planet.com/anime/mushoku-tensei-jobless-reincarnation'
-  official: 'mushokutensei.jp'
+  official: 'https://mushokutensei.jp/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -747,7 +747,7 @@ info:
   anidb: 'http://anidb.net/a15459'
   kitsu: 'https://kitsu.io/anime/43458'
   animeplanet: 'http://www.anime-planet.com/anime/the-seven-deadly-sins-angers-judgement'
-  official: 'www.7-taizai.net'
+  official: 'https://www.7-taizai.net/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -774,7 +774,7 @@ info:
   anidb: 'http://anidb.net/a14914'
   kitsu: 'https://kitsu.io/anime/42349'
   animeplanet: 'http://www.anime-planet.com/anime/non-non-biyori-3rd-season'
-  official: 'nonnontv.com'
+  official: 'http://nonnontv.com/tvanime/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -802,7 +802,7 @@ info:
   anidb: 'http://anidb.net/a15557'
   kitsu: 'https://kitsu.io/anime/43301'
   animeplanet: 'http://www.anime-planet.com/anime/ore-dake-haireru-kakushi-dungeon-kossori-kitaete-sekai-saikyou'
-  official: 'kakushidungeon-anime.jp'
+  official: 'https://kakushidungeon-anime.jp/'
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/the-hidden-dungeon-only-i-can-enter'
@@ -830,7 +830,7 @@ info:
   anidb: 'http://anidb.net/a15724'
   kitsu: 'https://kitsu.io/anime/43569'
   animeplanet: ''
-  official: 'ganma.jp'
+  official: 'https://ganma.jp/g/anime/otonabougu/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -858,7 +858,7 @@ info:
   anidb: 'http://anidb.net/a15716'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/project-scard-praeter-no-kizu'
-  official: 'project-scard.com'
+  official: 'https://project-scard.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -886,7 +886,7 @@ info:
   anidb: 'http://anidb.net/a15593'
   kitsu: 'https://kitsu.io/anime/43247'
   animeplanet: 'http://www.anime-planet.com/anime/re-zero-starting-life-in-another-world-season-2-part-ii'
-  official: 're-zero-anime.jp'
+  official: 'http://re-zero-anime.jp/tv/'
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/rezero-starting-life-in-another-world-'
@@ -914,7 +914,7 @@ info:
   anidb: 'http://anidb.net/a15736'
   kitsu: 'https://kitsu.io/anime/43595'
   animeplanet: 'http://www.anime-planet.com/anime/sk8-the-infinity'
-  official: 'sk8-project.com'
+  official: 'https://sk8-project.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -942,7 +942,7 @@ info:
   anidb: 'http://anidb.net/a14977'
   kitsu: 'https://kitsu.io/anime/42422'
   animeplanet: 'http://www.anime-planet.com/anime/attack-on-titan-the-final-season'
-  official: 'shingeki.tv'
+  official: 'https://shingeki.tv/final/'
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/attack-on-titan'
@@ -969,7 +969,7 @@ info:
   anidb: 'http://anidb.net/a15467'
   kitsu: 'https://kitsu.io/anime/43590'
   animeplanet: 'http://www.anime-planet.com/anime/show-by-rock-stars'
-  official: 'showbyrock-anime-s.com'
+  official: 'https://showbyrock-anime-s.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -996,7 +996,7 @@ info:
   anidb: 'http://anidb.net/a15286'
   kitsu: 'https://kitsu.io/anime/42849'
   animeplanet: 'http://www.anime-planet.com/anime/skate-leading-stars'
-  official: 'skateleadingstars.com'
+  official: 'https://skateleadingstars.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1023,7 +1023,7 @@ info:
   anidb: 'http://anidb.net/a13487'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/soukou-musume'
-  official: 'soukou-musume-senki.com'
+  official: 'http://soukou-musume-senki.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1051,7 +1051,7 @@ info:
   anidb: 'http://anidb.net/a15215'
   kitsu: 'https://kitsu.io/anime/42635'
   animeplanet: 'http://www.anime-planet.com/anime/suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town'
-  official: 'lasdan.com'
+  official: 'https://lasdan.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1079,7 +1079,7 @@ info:
   anidb: 'http://anidb.net/a15513'
   kitsu: 'https://kitsu.io/anime/43137'
   animeplanet: 'http://www.anime-planet.com/anime/heavens-design-team'
-  official: 'tendebu.jp'
+  official: 'https://tendebu.jp/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1107,7 +1107,7 @@ info:
   anidb: 'http://anidb.net/a14767'
   kitsu: 'https://kitsu.io/anime/42196'
   animeplanet: 'http://www.anime-planet.com/anime/that-time-i-got-reincarnated-as-a-slime-season-2'
-  official: 'www.ten-sura.com'
+  official: 'https://www.ten-sura.com/anime/tensura'
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime'
@@ -1135,7 +1135,7 @@ info:
   anidb: 'http://anidb.net/a15423'
   kitsu: 'https://kitsu.io/anime/43042'
   animeplanet: 'http://www.anime-planet.com/anime/otherside-picnic'
-  official: 'othersidepicnic.com'
+  official: 'https://othersidepicnic.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1162,7 +1162,7 @@ info:
   anidb: 'http://anidb.net/a15468'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/wixoss'
-  official: 'wixoss-diva.com'
+  official: 'http://wixoss-diva.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1189,7 +1189,7 @@ info:
   anidb: 'http://anidb.net/a15772'
   kitsu: 'https://kitsu.io/anime/43620'
   animeplanet: 'http://www.anime-planet.com/anime/wonder-egg-priority'
-  official: 'wonder-egg-priority.com'
+  official: 'https://wonder-egg-priority.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1216,7 +1216,7 @@ info:
   anidb: 'http://anidb.net/a15322'
   kitsu: 'https://kitsu.io/anime/42898'
   animeplanet: 'http://www.anime-planet.com/anime/world-trigger-new'
-  official: 'www.toei-anim.co.jp'
+  official: 'http://www.toei-anim.co.jp/tv/wt/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1244,7 +1244,7 @@ info:
   anidb: 'http://anidb.net/a15647'
   kitsu: 'https://kitsu.io/anime/43428'
   animeplanet: 'http://www.anime-planet.com/anime/world-witches-hasshin-shimasu'
-  official: 'w-witch.jp'
+  official: 'http://w-witch.jp/ww_takeoff/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1272,7 +1272,7 @@ info:
   anidb: 'http://anidb.net/a14801'
   kitsu: 'https://kitsu.io/anime/42220'
   animeplanet: 'http://www.anime-planet.com/anime/the-promised-neverland-2nd-season'
-  official: 'neverland-anime.com'
+  official: 'https://neverland-anime.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1299,7 +1299,7 @@ info:
   anidb: 'http://anidb.net/a15741'
   kitsu: 'https://kitsu.io/anime/43593'
   animeplanet: ''
-  official: 'yatogame.nagoya'
+  official: 'https://yatogame.nagoya/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1327,7 +1327,7 @@ info:
   anidb: 'http://anidb.net/a14437'
   kitsu: 'https://kitsu.io/anime/41976'
   animeplanet: 'http://www.anime-planet.com/anime/laid-back-camp-2nd-season'
-  official: 'yurucamp.jp'
+  official: 'https://yurucamp.jp/second/'
   subreddit: ''
 streams: 
   crunchyroll: ''
