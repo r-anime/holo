@@ -1,5 +1,5 @@
 title: '2.43: Seiin Koukou Danshi Volley-bu'
-alias: ['2.43: Seiin High School Boys Volleyball Club']
+alias: ['2.43: Seiin High School Boys Volleyball Team']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40679'
@@ -13,10 +13,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/243-seiin-high-school-boys-volleyball-team/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1214'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/243-seiin-high-school-boys-volleyball-team'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -29,12 +29,12 @@ streams:
 title: 'ABCiee Shuugyou Nikki'
 has_source: true
 info:
-  mal: ''
+  mal: 'https://myanimelist.net/anime/44040'
   anilist: ''
   anidb: 'http://anidb.net/a15847'
   kitsu: ''
-  animeplanet: ''
-  official: 'https://twitter.com/abciee_anime'
+  animeplanet: 'http://www.anime-planet.com/anime/abciee-shuugyou-nikki'
+  official: 'https://abciee.abc-anime.co.jp/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -81,6 +81,7 @@ streams:
   nyaa: ''
 ---
 title: 'Azur Lane: Bisoku Zenshin!'
+alias: ['Azur Lane: Slow Ahead!']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40930'
@@ -91,7 +92,7 @@ info:
   official: 'https://azurlane-bisoku.jp/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/azur-lane-slow-ahead'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -113,7 +114,7 @@ info:
   mal: 'https://myanimelist.net/anime/40964'
   anilist: 'https://anilist.co/anime/114307'
   anidb: 'http://anidb.net/a15341'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/43716'
   animeplanet: 'http://www.anime-planet.com/anime/back-arrow'
   official: 'https://back-arrow.com/'
   subreddit: ''
@@ -135,6 +136,7 @@ streams:
   nyaa: ''
 ---
 title: 'Beastars 2nd Season'
+alias: ['Beastars Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40935'
@@ -215,7 +217,7 @@ streams:
   primevideo|Prime Video International: ''
   nyaa: ''
 ---
-title: 'EX-ARM'
+title: 'Ex-Arm'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/38853'
@@ -227,6 +229,33 @@ info:
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/ex-arm'
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
+title: 'Fate/Grand Order Special'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/44248'
+  anilist: ''
+  anidb: 'http://anidb.net/a15899'
+  kitsu: ''
+  animeplanet: ''
+  official: 'https://anime.fate-go.jp/fgc/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -467,7 +496,7 @@ info:
   mal: 'https://myanimelist.net/anime/39725'
   anilist: 'https://anilist.co/anime/109010'
   anidb: 'http://anidb.net/a14824'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/43307'
   animeplanet: 'http://www.anime-planet.com/anime/i-chu-etoile-stage'
   official: 'https://etoile-anime.jp/'
   subreddit: ''
@@ -495,7 +524,7 @@ info:
   mal: 'https://myanimelist.net/anime/40530'
   anilist: 'https://anilist.co/anime/112443'
   anidb: 'http://anidb.net/a15144'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/42621'
   animeplanet: 'http://www.anime-planet.com/anime/bottom-tier-character-tomozaki'
   official: 'http://tomozaki-koushiki.com/'
   subreddit: ''
@@ -599,6 +628,33 @@ streams:
   primevideo|Prime Video International: ''
   nyaa: ''
 ---
+title: 'Kintamani Dog'
+has_source: false
+info:
+  mal: ''
+  anilist: ''
+  anidb: 'http://anidb.net/a15925'
+  kitsu: ''
+  animeplanet: ''
+  official: 'https://kintamani-dog.com/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
 title: 'Kumo desu ga, Nani ka?'
 alias: ['So I'm a Spider, So What?']
 has_source: true
@@ -643,7 +699,7 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/log-horizon/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1144'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/log-horizon'
   crunchyroll_nsfw|Crunchyroll: ''
@@ -725,10 +781,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1171'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/mushoku-tensei-jobless-reincarnation'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -826,10 +882,10 @@ alias: ['Armor Shop For Ladies & Gentlemen II']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42862'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/124136'
   anidb: 'http://anidb.net/a15724'
   kitsu: 'https://kitsu.io/anime/43569'
-  animeplanet: ''
+  animeplanet: 'http://www.anime-planet.com/anime/otona-no-bouguya-san-2nd-season'
   official: 'https://ganma.jp/g/anime/otonabougu/'
   subreddit: ''
 streams: 
@@ -849,14 +905,41 @@ streams:
   primevideo|Prime Video International: ''
   nyaa: ''
 ---
+title: 'Pont Qiao Booth'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/44130'
+  anilist: 'https://anilist.co/anime/126506'
+  anidb: 'http://anidb.net/a15850'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/pont-qiao-booth'
+  official: 'https://www.youtube.com/channel/UCfMTndWvhMmbj3u5jP6liaw'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
 title: 'Praeter no Kizu'
-alias: ['Scar on the Praeter']
+alias: ['Scar On The Praeter']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42825'
   anilist: 'https://anilist.co/anime/123785'
   anidb: 'http://anidb.net/a15716'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/43662'
   animeplanet: 'http://www.anime-planet.com/anime/project-scard-praeter-no-kizu'
   official: 'https://project-scard.com/'
   subreddit: ''
@@ -865,9 +948,36 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/scar-on-the-praeter/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1161'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/scar-on-the-praeter'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
+title: 'Pui Pui Molcar'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/44235'
+  anilist: ''
+  anidb: ''
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/pui-pui-molcar'
+  official: 'https://molcar-anime.com/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -933,6 +1043,34 @@ streams:
   primevideo|Prime Video International: ''
   nyaa: ''
 ---
+title: 'Shin Chuuka Ichiban! 2nd Season'
+alias: ['True Cooking Master Boy Season 2']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40957'
+  anilist: 'https://anilist.co/anime/114304'
+  anidb: 'http://anidb.net/a15336'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/true-cooking-master-boy-2nd-season'
+  official: 'http://cookingmaster-anime.jp/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
 title: 'Shingeki no Kyojin: The Final Season'
 alias: ['Attack on Titan Final Season']
 has_source: true
@@ -954,7 +1092,7 @@ streams:
   animelab|AnimeLab: 'https://www.animelab.com/shows/attack-on-titan'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GR751KNZY'
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88'
   youtube: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -1058,7 +1196,7 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1156'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town'
   crunchyroll_nsfw|Crunchyroll: ''
@@ -1098,7 +1236,7 @@ streams:
   primevideo|Prime Video International: ''
   nyaa: ''
 ---
-title: 'Tensei Shitara Slime Datta Ken 2 Part 1'
+title: 'Tensei Shitara Slime Datta Ken 2nd Season Part 1'
 alias: ['That Time I Got Reincarnated as a Slime 2 Part 1']
 has_source: true
 info:
@@ -1126,16 +1264,15 @@ streams:
   primevideo|Prime Video International: ''
   nyaa: ''
 ---
-title: 'Ura Sekai Picnic'
-alias: ['Otherside Picnic']
-has_source: true
+title: 'Tropical-Rouge! Precure'
+has_source: false
 info:
-  mal: 'https://myanimelist.net/anime/41392'
-  anilist: 'https://anilist.co/anime/116287'
-  anidb: 'http://anidb.net/a15423'
-  kitsu: 'https://kitsu.io/anime/43042'
-  animeplanet: 'http://www.anime-planet.com/anime/otherside-picnic'
-  official: 'https://othersidepicnic.com/'
+  mal: 'https://myanimelist.net/anime/44191'
+  anilist: ''
+  anidb: 'http://anidb.net/a15872'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/tropical-rouge-pretty-cure'
+  official: 'http://www.toei-anim.co.jp/tv/tropical-rouge_precure/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1154,6 +1291,34 @@ streams:
   primevideo|Prime Video International: ''
   nyaa: ''
 ---
+title: 'Ura Sekai Picnic'
+alias: ['Otherside Picnic']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/41392'
+  anilist: 'https://anilist.co/anime/116287'
+  anidb: 'http://anidb.net/a15423'
+  kitsu: 'https://kitsu.io/anime/43042'
+  animeplanet: 'http://www.anime-planet.com/anime/otherside-picnic'
+  official: 'https://othersidepicnic.com/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/otherside-picnic/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/fr/v2/catalogue/show/1196'
+  hidive: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/otherside-picnic'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
 title: 'WIXOSS Diva(A)Live'
 has_source: false
 info:
@@ -1163,6 +1328,33 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/wixoss'
   official: 'http://wixoss-diva.com/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
+title: 'Wave!! Surfing Yappe!! (TV)'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/44201'
+  anilist: ''
+  anidb: ''
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/wave-surfing-yappe'
+  official: 'https://wave-anime.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -1264,7 +1456,7 @@ streams:
   nyaa: ''
 ---
 title: 'Yakusoku no Neverland 2nd Season'
-alias: ['The Promised Neverland 2nd Season']
+alias: ['The Promised Neverland Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39617'
@@ -1291,6 +1483,34 @@ streams:
   primevideo|Prime Video International: ''
   nyaa: ''
 ---
+title: 'Yami Shibai 8th Season'
+alias: ['Yamishibai: Japanese Ghost Stories 8th Season']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/44208'
+  anilist: 'https://anilist.co/anime/126678'
+  anidb: 'http://anidb.net/a15879'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/yamishibai-japanese-ghost-stories-8th-season'
+  official: 'https://www.tv-tokyo.co.jp/anime/yamishibai8/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
 title: 'Yatogame-chan Kansatsu Nikki 3 Satsume'
 has_source: true
 info:
@@ -1298,7 +1518,7 @@ info:
   anilist: 'https://anilist.co/anime/124394'
   anidb: 'http://anidb.net/a15741'
   kitsu: 'https://kitsu.io/anime/43593'
-  animeplanet: ''
+  animeplanet: 'http://www.anime-planet.com/anime/yatogame-chan-kansatsu-nikki-3rd-season'
   official: 'https://yatogame.nagoya/'
   subreddit: ''
 streams: 
