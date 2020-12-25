@@ -80,6 +80,34 @@ streams:
   primevideo|Prime Video International: ''
   nyaa: ''
 ---
+title: 'Alice in Deadly School Tokubetsu-ban: Ima, Stage no Maku ga Agaru'
+alias: ['Alice in Deadly School Special Edit -The Stage Begins-']
+has_source: true
+info:
+  mal: ''
+  anilist: ''
+  anidb: ''
+  kitsu: ''
+  animeplanet: ''
+  official: 'http://gekidol.com/alicein/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/gekidol/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/gekidol'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
 title: 'Azur Lane: Bisoku Zenshin!'
 alias: ['Azur Lane: Slow Ahead!']
 has_source: true
@@ -122,10 +150,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/back-arrow/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1210'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/back-arrow'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -285,10 +313,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/gekidol/'
   wakanim|Wakanim: ''
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/gekidol'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -299,7 +327,7 @@ streams:
   nyaa: ''
 ---
 title: 'Go-toubun no Hanayome ∬'
-alias: ['The Quintessential Quintuplets ∬']
+alias: ['The Quintessential Quintuplets 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39783'
@@ -310,15 +338,15 @@ info:
   official: 'http://www.tbs.co.jp/anime/5hanayome/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-quintessential-quintuplets'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-quintessential-quintuplets/'
   wakanim|Wakanim: ''
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/the-quintessential-quintuplets'
   crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GY4PD7Z06'
   hulu|Hulu: ''
   youtube: ''
   amazon|Amazon US: ''
@@ -341,10 +369,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/cells-at-work-code-black/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1184'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/cells-at-work-code-black'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -369,10 +397,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/cells-at-work/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/373'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/cells-at-work'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -396,10 +424,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/horimiya/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1202'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/horimiya'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -423,10 +451,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/hortensia-saga/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1218'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/hortensia-saga'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -532,10 +560,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/bottom-tier-character-tomozaki/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1227'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/bottom-tier-character-tomozaki'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -631,7 +659,7 @@ streams:
 title: 'Kintamani Dog'
 has_source: false
 info:
-  mal: ''
+  mal: 'https://myanimelist.net/anime/44702'
   anilist: ''
   anidb: 'http://anidb.net/a15925'
   kitsu: ''
@@ -830,7 +858,35 @@ info:
   anidb: 'http://anidb.net/a14914'
   kitsu: 'https://kitsu.io/anime/42349'
   animeplanet: 'http://www.anime-planet.com/anime/non-non-biyori-3rd-season'
-  official: 'http://nonnontv.com/tvanime/'
+  official: 'https://nonnontv.com/tvanime/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
+title: 'Okashi na Sabaku no Suna to Manu'
+alias: ['Suna and Manu in the Peculiar Desert']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/45426'
+  anilist: ''
+  anidb: 'http://anidb.net/a15942'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/okashi-na-sabaku-no-suna-to-manu'
+  official: 'https://suna-manu.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -933,7 +989,7 @@ streams:
   nyaa: ''
 ---
 title: 'Praeter no Kizu'
-alias: ['Scar On The Praeter']
+alias: ['Scar on the Praeter']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42825'
@@ -1030,10 +1086,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/sk8-the-infinity/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1207'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/sk8-the-infinity'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1055,7 +1111,7 @@ info:
   official: 'http://cookingmaster-anime.jp/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/true-cooking-master-boy'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1063,7 +1119,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G64PK5X3R'
   hulu|Hulu: ''
   youtube: ''
   amazon|Amazon US: ''
@@ -1127,6 +1183,7 @@ streams:
   nyaa: ''
 ---
 title: 'Skate-Leading☆Stars'
+alias: ['Skate-Leading Stars']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/40786'
@@ -1140,10 +1197,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/skate-leading-stars/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1166'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/skate-leading-stars'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1154,6 +1211,7 @@ streams:
   nyaa: ''
 ---
 title: 'Soukou Musume Senki'
+alias: ['LBX Girls']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/36458'
@@ -1167,10 +1225,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/lbx-girls/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1234'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/lbx-girls'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1181,7 +1239,7 @@ streams:
   nyaa: ''
 ---
 title: 'Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari'
-alias: ['Suppose a Kid From the Last Dungeon Boonies Moved to a Starter Town']
+alias: ['Suppose a Kid from the Last Dungeon Boonies moved to a starter town?']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40594'
@@ -1220,7 +1278,7 @@ info:
   official: 'https://tendebu.jp/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/heavens-design-team'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1265,6 +1323,7 @@ streams:
   nyaa: ''
 ---
 title: 'Tropical-Rouge! Precure'
+alias: ['Tropical-Rouge! Pretty Cure']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/44191'
@@ -1275,7 +1334,7 @@ info:
   official: 'http://www.toei-anim.co.jp/tv/tropical-rouge_precure/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/tropical-rouge-pretty-cure'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1284,6 +1343,34 @@ streams:
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''
+  nyaa: ''
+---
+title: 'Uma Musume: Pretty Derby Season 2'
+alias: ['Umamusume: Pretty Derby Season 2']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/42941'
+  anilist: 'https://anilist.co/anime/124223'
+  anidb: 'http://anidb.net/a15739'
+  kitsu: 'https://kitsu.io/anime/43576'
+  animeplanet: 'http://www.anime-planet.com/anime/uma-musume-pretty-derby-season-2'
+  official: 'https://anime-umamusume.jp/'
+  subreddit: ''
+streams: 
+  crunchyroll: 'https://www.crunchyroll.com/umamusume-pretty-derby'
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: 'https://vrv.co/series/GR79P2816'
   hulu|Hulu: ''
   youtube: ''
   amazon|Amazon US: ''
@@ -1387,10 +1474,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/wonder-egg-priority/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1222'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/wonder-egg-priority'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1401,6 +1488,7 @@ streams:
   nyaa: ''
 ---
 title: 'World Trigger 2nd Season'
+alias: ['World Trigger Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40907'
@@ -1411,7 +1499,7 @@ info:
   official: 'http://www.toei-anim.co.jp/tv/wt/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/world-trigger'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1419,7 +1507,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GR757DMKY'
   hulu|Hulu: ''
   youtube: ''
   amazon|Amazon US: ''
@@ -1470,13 +1558,13 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-promised-neverland/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/435'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/the-promised-neverland'
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/the-promised-neverland-3ef087c6-d967-4495-9730-b5ff54ded8e0'
   youtube: ''
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
@@ -1495,7 +1583,7 @@ info:
   official: 'https://www.tv-tokyo.co.jp/anime/yamishibai8/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/yamishibai'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1503,7 +1591,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G6WEM1V36'
   hulu|Hulu: ''
   youtube: ''
   amazon|Amazon US: ''
@@ -1550,7 +1638,7 @@ info:
   official: 'https://yurucamp.jp/second/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/laid-back-camp'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1558,7 +1646,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GRWEW95KR'
   hulu|Hulu: ''
   youtube: ''
   amazon|Amazon US: ''
