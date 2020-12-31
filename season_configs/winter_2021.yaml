@@ -27,10 +27,11 @@ streams:
   nyaa: ''
 ---
 title: 'ABCiee Shuugyou Nikki'
+alias: ['ABCiee Working Diary']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/44040'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/127692'
   anidb: 'http://anidb.net/a15847'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/abciee-shuugyou-nikki'
@@ -618,7 +619,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/redo-of-healer'
   animelab|AnimeLab: ''
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
@@ -660,7 +661,7 @@ title: 'Kintamani Dog'
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/44702'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/127689'
   anidb: 'http://anidb.net/a15925'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/kintamani-dog'
@@ -782,7 +783,7 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/sorcerous-stabber-orphen/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/606'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/sorcerous-stabber-orphen'
   crunchyroll_nsfw|Crunchyroll: ''
@@ -882,7 +883,7 @@ alias: ['Suna and Manu in the Peculiar Desert']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/45426'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/127691'
   anidb: 'http://anidb.net/a15942'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/okashi-na-sabaku-no-suna-to-manu'
@@ -1048,7 +1049,7 @@ title: 'Pui Pui Molcar'
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/44235'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/127690'
   anidb: ''
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/pui-pui-molcar'
