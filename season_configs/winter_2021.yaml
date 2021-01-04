@@ -754,30 +754,6 @@ streams:
   youtube: ''
   nyaa: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou'
 ---
-title: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou Mini Anime'
-alias: ['The Hidden Dungeon Only I Can Enter Mini Anime']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: 'https://kakushidungeon-anime.jp/'
-  subreddit: '/r/HiddenDungeon'
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou Mini Anime'
----
 title: 'Otona no Bouguya-san Season 2'
 alias: ['Armor Shop For Ladies & Gentlemen Season 2']
 has_source: true
