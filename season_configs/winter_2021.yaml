@@ -1245,7 +1245,30 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GRWEW95KR'
   hulu|Hulu: ''
   youtube: ''
-#---
+---
+title: 'Toutotsu ni Egypt Kami'
+alias: ['Toutotsu ni Egypt Shin', 'Oh, Suddenly Egyptian God', 'Suddenly, Egyptian Gods']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/41688/Toutotsu_ni_Egypt_Kami'
+  anilist: 'https://anilist.co/anime/123474/Toutotsu-ni-Egypt-Kami/'
+  anidb: 'https://anidb.net/anime/15501'
+  kitsu: 'https://kitsu.io/anime/toutotsu-ni-egypt-kami'
+  animeplanet: 'https://www.anime-planet.com/anime/oh-suddenly-egyptian-god'
+  official: 'https://to-to2ni-anime.jp/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/oh-suddenly-egyptian-god'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+---
 #title: ''
 #alias: ['']
 #has_source: true
