@@ -874,30 +874,6 @@ streams:
   youtube: ''
   nyaa: 'Shin Chuuka Ichiban! 2nd Season'
 ---
-title: 'Shingeki no Kyojin: The Final Season'
-alias: ['Attack on Titan Final Season']
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/40028'
-  anilist: 'https://anilist.co/anime/110277'
-  anidb: 'http://anidb.net/a14977'
-  kitsu: 'https://kitsu.io/anime/42422'
-  animeplanet: 'http://www.anime-planet.com/anime/attack-on-titan-the-final-season'
-  official: 'https://shingeki.tv/final/'
-  subreddit: '/r/attackontitan'
-streams: 
-  crunchyroll: 'https://www.crunchyroll.com/attack-on-titan-international-dubs'
-  museasia: ''
-  anione: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/attack-on-titan/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1115'
-  hidive: ''
-  animelab|AnimeLab: 'https://www.animelab.com/shows/attack-on-titan'
-  vrv|VRV: 'https://vrv.co/series/GR751KNZY'
-  hulu|Hulu: 'https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88'
-  youtube: ''
-  nyaa: 'Shingeki no Kyojin: The Final Season'
----
 title: 'Show By Rock!! Stars!!'
 has_source: true
 info:
