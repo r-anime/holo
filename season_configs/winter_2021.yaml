@@ -970,7 +970,7 @@ streams:
   nyaa: 'Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari'
 ---
 title: 'Tenchi Souzou Design-bu'
-alias: ['Heaven's Design Team']
+alias: ["Heaven's Design Team"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41762'
@@ -993,8 +993,8 @@ streams:
   youtube: ''
   nyaa: 'Tenchi Souzou Design-bu'
 ---
-title: 'Tensei Shitara Slime Datta Ken 2nd Season Part 1'
-alias: ['That Time I Got Reincarnated as a Slime 2 Part 1']
+title: 'Tensei Shitara Slime Datta Ken Season 2'
+alias: ['That Time I Got Reincarnated as a Slime Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39551'
@@ -1112,8 +1112,8 @@ streams:
   youtube: ''
   nyaa: 'WIXOSS Diva(A)Live'
 ---
-title: 'Wave!! Surfing Yappe!! (TV)'
-has_source: true
+title: 'Wave!! Surfing Yappe!!'
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/44201'
   anilist: 'https://anilist.co/anime/111137'
@@ -1158,8 +1158,7 @@ streams:
   youtube: ''
   nyaa: 'Wonder Egg Priority'
 ---
-title: 'World Trigger 2nd Season'
-alias: ['World Trigger Season 2']
+title: 'World Trigger Season 2'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40907'
@@ -1206,7 +1205,7 @@ streams:
   youtube: ''
   nyaa: 'World Witches Hasshin Shimasu!'
 ---
-title: 'Yakusoku no Neverland 2nd Season'
+title: 'Yakusoku no Neverland Season 2'
 alias: ['The Promised Neverland Season 2']
 has_source: true
 info:
@@ -1230,8 +1229,8 @@ streams:
   youtube: ''
   nyaa: 'Yakusoku no Neverland 2nd Season'
 ---
-title: 'Yami Shibai 8th Season'
-alias: ['Yamishibai: Japanese Ghost Stories 8th Season']
+title: 'Yami Shibai Season 8'
+alias: ['Yamishibai: Japanese Ghost Stories Season 8']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/44208'
@@ -1254,7 +1253,8 @@ streams:
   youtube: ''
   nyaa: 'Yami Shibai 8th Season'
 ---
-title: 'Yatogame-chan Kansatsu Nikki 3 Satsume'
+title: 'Yatogame-chan Kansatsu Nikki Sansatsume'
+alias: ['Yatogame-chan Kansatsu Nikki Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42959'
