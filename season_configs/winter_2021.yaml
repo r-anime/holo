@@ -69,30 +69,6 @@ streams:
   youtube: ''
   nyaa: 'Aikatsu Planet!'
 ---
-title: 'Alice in Deadly School Tokubetsu-ban: Ima, Stage no Maku ga Agaru'
-alias: ['Alice in Deadly School Special Edit -The Stage Begins-']
-has_source: true
-info:
-  mal: https://myanimelist.net/anime/33839''
-  anilist: 'https://anilist.co/anime/21569'
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: 'http://gekidol.com/alicein/'
-  subreddit: ''
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/gekidol/'
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: 'https://www.animelab.com/shows/gekidol'
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: 'Alice in Deadly School Tokubetsu-ban: Ima, Stage no Maku ga Agaru'
----
 title: 'Azur Lane: Bisoku Zenshin!'
 alias: ['Azur Lane: Slow Ahead!']
 has_source: true
