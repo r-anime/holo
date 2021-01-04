@@ -778,29 +778,6 @@ streams:
   youtube: ''
   nyaa: 'Otona no Bouguya-san II'
 ---
-title: 'Pont Qiao Booth'
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/44130'
-  anilist: 'https://anilist.co/anime/126506'
-  anidb: 'http://anidb.net/a15850'
-  kitsu: ''
-  animeplanet: 'http://www.anime-planet.com/anime/pont-qiao-booth'
-  official: 'https://www.youtube.com/channel/UCfMTndWvhMmbj3u5jP6liaw'
-  subreddit: ''
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: 'Pont Qiao Booth'
----
 title: 'Praeter no Kizu'
 alias: ['Scar on the Praeter']
 has_source: true
