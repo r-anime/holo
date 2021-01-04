@@ -92,8 +92,7 @@ streams:
   youtube: ''
   nyaa: 'Back Arrow'
 ---
-title: 'Beastars 2nd Season'
-alias: ['Beastars Season 2']
+title: 'Beastars Season 2'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40935'
@@ -116,7 +115,7 @@ streams:
   youtube: ''
   nyaa: 'Beastars 2nd Season'
 ---
-title: 'Bungo Stray Dogs Wan!'
+title: 'Bungou Stray Dogs Wan!'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42250'
@@ -140,6 +139,7 @@ streams:
   nyaa: 'Bungo Stray Dogs Wan!'
 ---
 title: 'Dr. Stone: Stone Wars'
+alias: ['Dr. Stone Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40852'
@@ -185,7 +185,7 @@ streams:
   youtube: ''
   nyaa: 'Ex-Arm'
 ---
-title: 'Fate/Grand Carnival (TV)'
+title: 'Fate/Grand Carnival'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/44248'
@@ -232,7 +232,7 @@ streams:
   nyaa: 'Gekidol'
 ---
 title: 'Go-toubun no Hanayome ∬'
-alias: ['The Quintessential Quintuplets 2']
+alias: ['The Quintessential Quintuplets Season 2', 'Gotoubun no Hanayome Season 2', '5-Toubun no Hanayome Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39783'
@@ -280,7 +280,7 @@ streams:
   nyaa: 'Hataraku Saibou Black'
 ---
 title: 'Hataraku Saibou!!'
-alias: ['Cells at Work!!']
+alias: ['Cells at Work!!', 'Hataraku Saibou Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39586'
