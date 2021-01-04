@@ -802,29 +802,6 @@ streams:
   youtube: ''
   nyaa: 'Praeter no Kizu'
 ---
-title: 'Pui Pui Molcar'
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/44235'
-  anilist: 'https://anilist.co/anime/127690'
-  anidb: ''
-  kitsu: ''
-  animeplanet: 'http://www.anime-planet.com/anime/pui-pui-molcar'
-  official: 'https://molcar-anime.com/'
-  subreddit: ''
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: 'Pui Pui Molcar'
----
 title: 'Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2'
 alias: ['Re:Zero -Starting Life in Another World- 2nd Season Part 2']
 has_source: true
