@@ -539,7 +539,7 @@ streams:
   nyaa: 'Kintamani Dog'
 ---
 title: 'Kumo desu ga, Nani ka?'
-alias: ['So I'm a Spider, So What?']
+alias: ["So I'm a Spider, So What?"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37984'
@@ -563,7 +563,7 @@ streams:
   nyaa: 'Kumo desu ga, Nani ka?'
 ---
 title: 'Log Horizon: Entaku Houkai'
-alias: ['Log Horizon: Destruction of the Round Table']
+alias: ['Log Horizon Season 3', 'Log Horizon: Destruction of the Round Table']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41109'
@@ -611,7 +611,7 @@ streams:
   nyaa: 'Maiko-san Chi no Makanai-san'
 ---
 title: 'Majutsushi Orphen Hagure Tabi: Kimluck-hen'
-alias: ['Sorcerous Stabber Orphen: Battle of Kimluck']
+alias: ['Majutsushi Orphen Hagurre Tabi Season 2', 'Sorcerous Stabber Orphen: Battle of Kimluck']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41573'
@@ -659,7 +659,7 @@ streams:
   nyaa: 'Mushoku Tensei: Isekai Ittara Honki Dasu'
 ---
 title: 'Nanatsu no Taizai: Fundo no Shinpan'
-alias: ['The Seven Deadly Sins: Dragon's Judgement']
+alias: ['Nanatsu no Taizai Season 4', "The Seven Deadly Sins: Dragon's Judgement"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41491'
@@ -683,6 +683,7 @@ streams:
   nyaa: 'Nanatsu no Taizai: Fundo no Shinpan'
 ---
 title: 'Non Non Biyori Nonstop'
+alias: ['Non Non Biyori Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39808'
@@ -777,8 +778,8 @@ streams:
   youtube: ''
   nyaa: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou Mini Anime'
 ---
-title: 'Otona no Bouguya-san II'
-alias: ['Armor Shop For Ladies & Gentlemen II']
+title: 'Otona no Bouguya-san Season 2'
+alias: ['Armor Shop For Ladies & Gentlemen Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42862'
