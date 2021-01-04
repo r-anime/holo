@@ -14,14 +14,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/243-seiin-high-school-boys-volleyball-team/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1214'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1215'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/243-seiin-high-school-boys-volleyball-team'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: '2.43: Seiin Koukou Danshi Volley-bu'
 ---
 title: 'ABCiee Shuugyou Nikki'
 alias: ['ABCiee Working Diary']
@@ -42,11 +41,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'ABCiee Shuugyou Nikki'
 ---
 title: 'Aikatsu Planet!'
 has_source: false
@@ -66,11 +64,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Aikatsu Planet!'
 ---
 title: 'Alice in Deadly School Tokubetsu-ban: Ima, Stage no Maku ga Agaru'
 alias: ['Alice in Deadly School Special Edit -The Stage Begins-']
@@ -91,11 +88,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/gekidol'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Alice in Deadly School Tokubetsu-ban: Ima, Stage no Maku ga Agaru'
 ---
 title: 'Azur Lane: Bisoku Zenshin!'
 alias: ['Azur Lane: Slow Ahead!']
@@ -116,11 +112,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Azur Lane: Bisoku Zenshin!'
 ---
 title: 'Back Arrow'
 has_source: false
@@ -137,14 +132,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/back-arrow/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1210'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1211'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/back-arrow'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Back Arrow'
 ---
 title: 'Beastars 2nd Season'
 alias: ['Beastars Season 2']
@@ -165,11 +159,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Beastars 2nd Season'
 ---
 title: 'Bungo Stray Dogs Wan!'
 has_source: true
@@ -189,11 +182,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Bungo Stray Dogs Wan!'
 ---
 title: 'Dr. Stone: Stone Wars'
 has_source: true
@@ -213,11 +205,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/dr-stone'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GYEXQKJG6'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Dr. Stone: Stone Wars'
 ---
 title: 'Ex-Arm'
 has_source: true
@@ -237,11 +228,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Ex-Arm'
 ---
 title: 'Fate/Grand Carnival (TV)'
 has_source: true
@@ -261,11 +251,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Fate/Grand Carnival (TV)'
 ---
 title: 'Gekidol'
 has_source: false
@@ -282,14 +271,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/gekidol/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1230'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1231'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/gekidol'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Gekidol'
 ---
 title: 'Go-toubun no Hanayome ∬'
 alias: ['The Quintessential Quintuplets 2']
@@ -310,11 +298,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/the-quintessential-quintuplets'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GY4PD7Z06'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Go-toubun no Hanayome ∬'
 ---
 title: 'Hataraku Saibou Black'
 alias: ['Cells at Work! CODE BLACK']
@@ -332,14 +319,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/cells-at-work-code-black/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1184'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1183'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/cells-at-work-code-black'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Hataraku Saibou Black'
 ---
 title: 'Hataraku Saibou!!'
 alias: ['Cells at Work!!']
@@ -357,14 +343,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/cells-at-work/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/373'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/374'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/cells-at-work'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Hataraku Saibou!!'
 ---
 title: 'Horimiya'
 has_source: true
@@ -381,14 +366,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/horimiya/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1202'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1203'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/horimiya'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Horimiya'
 ---
 title: 'Hortensia Saga'
 has_source: true
@@ -405,14 +389,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/hortensia-saga/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1218'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1219'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/hortensia-saga'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Hortensia Saga'
 ---
 title: 'Idolls!'
 has_source: false
@@ -432,11 +415,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Idolls!'
 ---
 title: 'Idoly Pride'
 has_source: false
@@ -456,11 +438,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Idoly Pride'
 ---
 title: 'I★CHU'
 has_source: true
@@ -480,11 +461,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'I★CHU'
 ---
 title: 'Jaku-Chara Tomozaki-kun'
 alias: ['Bottom-tier Character Tomozaki']
@@ -502,14 +482,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/bottom-tier-character-tomozaki/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1227'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1226'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/bottom-tier-character-tomozaki'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Jaku-Chara Tomozaki-kun'
 ---
 title: 'Kai Byoui Ramune'
 alias: ['Dr. Ramune -Mysterious Disease Specialist-']
@@ -530,11 +509,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Kai Byoui Ramune'
 ---
 title: 'Kaifuku Jutsushi no Yarinaoshi'
 alias: ['Redo of Healer']
@@ -555,11 +533,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: 'https://www.hidive.com/tv/redo-of-healer'
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Kaifuku Jutsushi no Yarinaoshi'
 ---
 title: 'Kemono Jihen'
 has_source: true
@@ -579,11 +556,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Kemono Jihen'
 ---
 title: 'Kintamani Dog'
 has_source: false
@@ -603,11 +579,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Kintamani Dog'
 ---
 title: 'Kumo desu ga, Nani ka?'
 alias: ['So I'm a Spider, So What?']
@@ -628,11 +603,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Kumo desu ga, Nani ka?'
 ---
 title: 'Log Horizon: Entaku Houkai'
 alias: ['Log Horizon: Destruction of the Round Table']
@@ -650,14 +624,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/log-horizon/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1144'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1155'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/log-horizon'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Log Horizon: Entaku Houkai'
 ---
 title: 'Maiko-san Chi no Makanai-san'
 has_source: true
@@ -677,11 +650,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Maiko-san Chi no Makanai-san'
 ---
 title: 'Majutsushi Orphen Hagure Tabi: Kimluck-hen'
 alias: ['Sorcerous Stabber Orphen: Battle of Kimluck']
@@ -699,14 +671,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/sorcerous-stabber-orphen/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/606'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/607'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/sorcerous-stabber-orphen'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Majutsushi Orphen Hagure Tabi: Kimluck-hen'
 ---
 title: 'Mushoku Tensei: Isekai Ittara Honki Dasu'
 alias: ['Mushoku Tensei: Jobless Reincarnation']
@@ -724,14 +695,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1171'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1170'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/mushoku-tensei-jobless-reincarnation'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Mushoku Tensei: Isekai Ittara Honki Dasu'
 ---
 title: 'Nanatsu no Taizai: Fundo no Shinpan'
 alias: ['The Seven Deadly Sins: Dragon's Judgement']
@@ -752,11 +722,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Nanatsu no Taizai: Fundo no Shinpan'
 ---
 title: 'Non Non Biyori Nonstop'
 has_source: true
@@ -776,11 +745,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: 'https://www.hidive.com/tv/non-non-biyori-nonstop'
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Non Non Biyori Nonstop'
 ---
 title: 'Okashi na Sabaku no Suna to Manu'
 alias: ['Suna and Manu in the Peculiar Desert']
@@ -801,11 +769,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Okashi na Sabaku no Suna to Manu'
 ---
 title: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou'
 alias: ['The Hidden Dungeon Only I Can Enter']
@@ -826,11 +793,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou'
 ---
 title: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou Mini Anime'
 alias: ['The Hidden Dungeon Only I Can Enter Mini Anime']
@@ -851,11 +817,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou Mini Anime'
 ---
 title: 'Otona no Bouguya-san II'
 alias: ['Armor Shop For Ladies & Gentlemen II']
@@ -876,11 +841,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GZJH3DWPV'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Otona no Bouguya-san II'
 ---
 title: 'Pont Qiao Booth'
 has_source: true
@@ -900,11 +864,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Pont Qiao Booth'
 ---
 title: 'Praeter no Kizu'
 alias: ['Scar on the Praeter']
@@ -922,14 +885,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/scar-on-the-praeter/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1161'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1163'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/scar-on-the-praeter'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Praeter no Kizu'
 ---
 title: 'Pui Pui Molcar'
 has_source: false
@@ -949,11 +911,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Pui Pui Molcar'
 ---
 title: 'Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2'
 alias: ['Re:Zero -Starting Life in Another World- 2nd Season Part 2']
@@ -974,11 +935,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GRGG9798R'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2'
 ---
 title: 'SK∞'
 alias: ['SK8 the Infinity']
@@ -996,14 +956,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/sk8-the-infinity/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1207'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1206'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/sk8-the-infinity'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'SK∞'
 ---
 title: 'Shin Chuuka Ichiban! 2nd Season'
 alias: ['True Cooking Master Boy Season 2']
@@ -1024,11 +983,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/G64PK5X3R'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Shin Chuuka Ichiban! 2nd Season'
 ---
 title: 'Shingeki no Kyojin: The Final Season'
 alias: ['Attack on Titan Final Season']
@@ -1046,14 +1004,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/attack-on-titan/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1116'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1115'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/attack-on-titan'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GR751KNZY'
   hulu|Hulu: 'https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88'
   youtube: ''
-  nyaa: ''
+  nyaa: 'Shingeki no Kyojin: The Final Season'
 ---
 title: 'Show By Rock!! Stars!!'
 has_source: true
@@ -1073,11 +1030,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Show By Rock!! Stars!!'
 ---
 title: 'Skate-Leading☆Stars'
 alias: ['Skate-Leading Stars']
@@ -1095,14 +1051,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/skate-leading-stars/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1166'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1167'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/skate-leading-stars'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Skate-Leading☆Stars'
 ---
 title: 'Soukou Musume Senki'
 alias: ['LBX Girls']
@@ -1120,14 +1075,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/lbx-girls/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1234'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1236'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/lbx-girls'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Soukou Musume Senki'
 ---
 title: 'Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari'
 alias: ['Suppose a Kid from the Last Dungeon Boonies moved to a starter town?']
@@ -1145,14 +1099,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1156'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1157'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari'
 ---
 title: 'Tenchi Souzou Design-bu'
 alias: ['Heaven's Design Team']
@@ -1173,11 +1126,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Tenchi Souzou Design-bu'
 ---
 title: 'Tensei Shitara Slime Datta Ken 2nd Season Part 1'
 alias: ['That Time I Got Reincarnated as a Slime 2 Part 1']
@@ -1198,11 +1150,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/that-time-i-got-reincarnated-as-a-slime'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GYZJ43JMR'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Tensei Shitara Slime Datta Ken 2nd Season Part 1'
 ---
 title: 'Tropical-Rouge! Precure'
 alias: ['Tropical-Rouge! Pretty Cure']
@@ -1223,11 +1174,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Tropical-Rouge! Precure'
 ---
 title: 'Uma Musume: Pretty Derby Season 2'
 alias: ['Umamusume: Pretty Derby Season 2']
@@ -1248,11 +1198,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GR79P2816'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Uma Musume: Pretty Derby Season 2'
 ---
 title: 'Ura Sekai Picnic'
 alias: ['Otherside Picnic']
@@ -1270,14 +1219,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/otherside-picnic/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/fr/v2/catalogue/show/1196'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1195'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/otherside-picnic'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Ura Sekai Picnic'
 ---
 title: 'WIXOSS Diva(A)Live'
 has_source: false
@@ -1297,11 +1245,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'WIXOSS Diva(A)Live'
 ---
 title: 'Wave!! Surfing Yappe!! (TV)'
 has_source: true
@@ -1321,11 +1268,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Wave!! Surfing Yappe!! (TV)'
 ---
 title: 'Wonder Egg Priority'
 has_source: false
@@ -1342,14 +1288,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/wonder-egg-priority/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/1222'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1223'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/wonder-egg-priority'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Wonder Egg Priority'
 ---
 title: 'World Trigger 2nd Season'
 alias: ['World Trigger Season 2']
@@ -1370,11 +1315,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GR757DMKY'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'World Trigger 2nd Season'
 ---
 title: 'World Witches Hasshin Shimasu!'
 alias: ['World Witches Take Off!']
@@ -1395,11 +1339,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'World Witches Hasshin Shimasu!'
 ---
 title: 'Yakusoku no Neverland 2nd Season'
 alias: ['The Promised Neverland Season 2']
@@ -1417,14 +1360,13 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/the-promised-neverland/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/de/v2/catalogue/show/435'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/437'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/the-promised-neverland'
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: 'https://www.hulu.com/series/the-promised-neverland-3ef087c6-d967-4495-9730-b5ff54ded8e0'
   youtube: ''
-  nyaa: ''
+  nyaa: 'Yakusoku no Neverland 2nd Season'
 ---
 title: 'Yami Shibai 8th Season'
 alias: ['Yamishibai: Japanese Ghost Stories 8th Season']
@@ -1445,11 +1387,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/G6WEM1V36'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Yami Shibai 8th Season'
 ---
 title: 'Yatogame-chan Kansatsu Nikki 3 Satsume'
 has_source: true
@@ -1469,11 +1410,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Yatogame-chan Kansatsu Nikki 3 Satsume'
 ---
 title: 'Yuru Camp△ Season 2'
 alias: ['Laid-Back Camp Season 2']
@@ -1494,11 +1434,10 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: 'https://vrv.co/series/GRWEW95KR'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Yuru Camp△ Season 2'
 #---
 #title: ''
 #alias: ['']
