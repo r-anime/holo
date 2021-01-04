@@ -1206,7 +1206,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/attack-on-titan|59'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/attack-on-titan/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
