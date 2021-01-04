@@ -55,7 +55,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/aikatsu-planet'
   official: 'http://www.aikatsu.net/'
-  subreddit: ''
+  subreddit: '/r/aikatsu/'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -103,7 +103,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/azur-lane-bisoku-zenshin'
   official: 'https://azurlane-bisoku.jp/'
-  subreddit: ''
+  subreddit: '/r/AzureLane/'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/azur-lane-slow-ahead'
   museasia: ''
@@ -126,7 +126,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43716'
   animeplanet: 'http://www.anime-planet.com/anime/back-arrow'
   official: 'https://back-arrow.com/'
-  subreddit: ''
+  subreddit: '/r/BackArrow'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -1048,7 +1048,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42849'
   animeplanet: 'http://www.anime-planet.com/anime/skate-leading-stars'
   official: 'https://skateleadingstars.com/'
-  subreddit: ''
+  subreddit: '/r/SkateLeadingStars'
 streams: 
   crunchyroll: ''
   museasia: ''
