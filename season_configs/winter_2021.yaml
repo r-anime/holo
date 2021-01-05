@@ -20,7 +20,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: '2.43: Seiin Koukou Danshi Volley-bu'
 ---
 title: 'ABCiee Shuugyou Nikki'
 alias: ['ABCiee Working Diary']
@@ -44,7 +43,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'ABCiee Shuugyou Nikki'
 ---
 title: 'Aikatsu Planet!'
 has_source: false
@@ -67,55 +65,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Aikatsu Planet!'
----
-title: 'Alice in Deadly School Tokubetsu-ban: Ima, Stage no Maku ga Agaru'
-alias: ['Alice in Deadly School Special Edit -The Stage Begins-']
-has_source: true
-info:
-  mal: https://myanimelist.net/anime/33839''
-  anilist: 'https://anilist.co/anime/21569'
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: 'http://gekidol.com/alicein/'
-  subreddit: ''
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/gekidol/'
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: 'https://www.animelab.com/shows/gekidol'
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: 'Alice in Deadly School Tokubetsu-ban: Ima, Stage no Maku ga Agaru'
----
-title: 'Azur Lane: Bisoku Zenshin!'
-alias: ['Azur Lane: Slow Ahead!']
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/40930'
-  anilist: 'https://anilist.co/anime/114473'
-  anidb: 'http://anidb.net/a15327'
-  kitsu: ''
-  animeplanet: 'http://www.anime-planet.com/anime/azur-lane-bisoku-zenshin'
-  official: 'https://azurlane-bisoku.jp/'
-  subreddit: '/r/AzureLane/'
-streams: 
-  crunchyroll: 'https://www.crunchyroll.com/azur-lane-slow-ahead'
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: 'Azur Lane: Bisoku Zenshin!'
 ---
 title: 'Back Arrow'
 has_source: false
@@ -138,10 +87,8 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Back Arrow'
 ---
-title: 'Beastars 2nd Season'
-alias: ['Beastars Season 2']
+title: 'Beastars Season 2'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40935'
@@ -162,9 +109,8 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Beastars 2nd Season'
 ---
-title: 'Bungo Stray Dogs Wan!'
+title: 'Bungou Stray Dogs Wan!'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42250'
@@ -185,9 +131,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Bungo Stray Dogs Wan!'
 ---
 title: 'Dr. Stone: Stone Wars'
+alias: ['Dr. Stone Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40852'
@@ -208,7 +154,6 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GYEXQKJG6'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Dr. Stone: Stone Wars'
 ---
 title: 'Ex-Arm'
 has_source: true
@@ -231,9 +176,8 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Ex-Arm'
 ---
-title: 'Fate/Grand Carnival (TV)'
+title: 'Fate/Grand Carnival'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/44248'
@@ -254,7 +198,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Fate/Grand Carnival (TV)'
 ---
 title: 'Gekidol'
 has_source: false
@@ -277,10 +220,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Gekidol'
 ---
 title: 'Go-toubun no Hanayome ∬'
-alias: ['The Quintessential Quintuplets 2']
+alias: ['The Quintessential Quintuplets Season 2', 'Gotoubun no Hanayome Season 2', '5-Toubun no Hanayome Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39783'
@@ -301,7 +243,6 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GY4PD7Z06'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Go-toubun no Hanayome ∬'
 ---
 title: 'Hataraku Saibou Black'
 alias: ['Cells at Work! CODE BLACK']
@@ -325,10 +266,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Hataraku Saibou Black'
 ---
 title: 'Hataraku Saibou!!'
-alias: ['Cells at Work!!']
+alias: ['Cells at Work!!', 'Hataraku Saibou Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39586'
@@ -349,7 +289,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Hataraku Saibou!!'
 ---
 title: 'Horimiya'
 has_source: true
@@ -372,7 +311,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Horimiya'
 ---
 title: 'Hortensia Saga'
 has_source: true
@@ -395,7 +333,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Hortensia Saga'
 ---
 title: 'Idolls!'
 alias: ['Idolls!: Idol Survival']
@@ -419,7 +356,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Idolls!'
 ---
 title: 'Idoly Pride'
 has_source: false
@@ -442,7 +378,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Idoly Pride'
 ---
 title: 'I★CHU'
 alias: ['I★Chu: Halfway Through the Idol']
@@ -466,7 +401,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'I★CHU'
 ---
 title: 'Jaku-Chara Tomozaki-kun'
 alias: ['Bottom-tier Character Tomozaki']
@@ -490,7 +424,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Jaku-Chara Tomozaki-kun'
 ---
 title: 'Kai Byoui Ramune'
 alias: ['Dr. Ramune -Mysterious Disease Specialist-']
@@ -514,7 +447,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Kai Byoui Ramune'
 ---
 title: 'Kaifuku Jutsushi no Yarinaoshi'
 alias: ['Redo of Healer']
@@ -538,7 +470,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Kaifuku Jutsushi no Yarinaoshi'
 ---
 title: 'Kemono Jihen'
 has_source: true
@@ -561,7 +492,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Kemono Jihen'
 ---
 title: 'Kintamani Dog'
 has_source: false
@@ -584,10 +514,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Kintamani Dog'
 ---
 title: 'Kumo desu ga, Nani ka?'
-alias: ['So I'm a Spider, So What?']
+alias: ["So I'm a Spider, So What?"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37984'
@@ -608,10 +537,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Kumo desu ga, Nani ka?'
 ---
 title: 'Log Horizon: Entaku Houkai'
-alias: ['Log Horizon: Destruction of the Round Table']
+alias: ['Log Horizon Season 3', 'Log Horizon: Destruction of the Round Table']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41109'
@@ -632,7 +560,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Log Horizon: Entaku Houkai'
 ---
 title: 'Maiko-san Chi no Makanai-san'
 alias: ['The caterer at the Maiko Manor']
@@ -656,10 +583,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Maiko-san Chi no Makanai-san'
 ---
 title: 'Majutsushi Orphen Hagure Tabi: Kimluck-hen'
-alias: ['Sorcerous Stabber Orphen: Battle of Kimluck']
+alias: ['Majutsushi Orphen Hagurre Tabi Season 2', 'Sorcerous Stabber Orphen: Battle of Kimluck']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41573'
@@ -680,7 +606,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Majutsushi Orphen Hagure Tabi: Kimluck-hen'
 ---
 title: 'Mushoku Tensei: Isekai Ittara Honki Dasu'
 alias: ['Mushoku Tensei: Jobless Reincarnation']
@@ -704,10 +629,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Mushoku Tensei: Isekai Ittara Honki Dasu'
 ---
 title: 'Nanatsu no Taizai: Fundo no Shinpan'
-alias: ['The Seven Deadly Sins: Dragon's Judgement']
+alias: ['Nanatsu no Taizai Season 4', "The Seven Deadly Sins: Dragon's Judgement"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41491'
@@ -728,9 +652,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Nanatsu no Taizai: Fundo no Shinpan'
 ---
 title: 'Non Non Biyori Nonstop'
+alias: ['Non Non Biyori Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39808'
@@ -751,7 +675,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Non Non Biyori Nonstop'
 ---
 title: 'Okashi na Sabaku no Suna to Manu'
 alias: ['Suna and Manu in the Peculiar Desert']
@@ -775,7 +698,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Okashi na Sabaku no Suna to Manu'
 ---
 title: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou'
 alias: ['The Hidden Dungeon Only I Can Enter']
@@ -799,34 +721,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou'
 ---
-title: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou Mini Anime'
-alias: ['The Hidden Dungeon Only I Can Enter Mini Anime']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: 'https://kakushidungeon-anime.jp/'
-  subreddit: '/r/HiddenDungeon'
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: 'Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou Mini Anime'
----
-title: 'Otona no Bouguya-san II'
-alias: ['Armor Shop For Ladies & Gentlemen II']
+title: 'Otona no Bouguya-san Season 2'
+alias: ['Armor Shop For Ladies & Gentlemen Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42862'
@@ -847,32 +744,8 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GZJH3DWPV'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Otona no Bouguya-san II'
 ---
-title: 'Pont Qiao Booth'
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/44130'
-  anilist: 'https://anilist.co/anime/126506'
-  anidb: 'http://anidb.net/a15850'
-  kitsu: ''
-  animeplanet: 'http://www.anime-planet.com/anime/pont-qiao-booth'
-  official: 'https://www.youtube.com/channel/UCfMTndWvhMmbj3u5jP6liaw'
-  subreddit: ''
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: 'Pont Qiao Booth'
----
-title: 'Praeter no Kizu'
+title: 'Project Scard: Praeter no Kizu'
 alias: ['Scar on the Praeter']
 has_source: true
 info:
@@ -894,33 +767,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Praeter no Kizu'
 ---
-title: 'Pui Pui Molcar'
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/44235'
-  anilist: 'https://anilist.co/anime/127690'
-  anidb: ''
-  kitsu: ''
-  animeplanet: 'http://www.anime-planet.com/anime/pui-pui-molcar'
-  official: 'https://molcar-anime.com/'
-  subreddit: ''
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: 'Pui Pui Molcar'
----
-title: 'Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2'
-alias: ['Re:Zero -Starting Life in Another World- 2nd Season Part 2']
+title: 'Re:Zero kara Hajimeru Isekai Seikatsu Season 2 Part 2'
+alias: ['Re:Zero -Starting Life in Another World- Season 2 Season Part 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42203'
@@ -941,7 +790,6 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GRGG9798R'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2'
 ---
 title: 'SK∞'
 alias: ['SK8 the Infinity']
@@ -965,9 +813,8 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'SK∞'
 ---
-title: 'Shin Chuuka Ichiban! 2nd Season'
+title: 'Shin Chuuka Ichiban! Season 2'
 alias: ['True Cooking Master Boy Season 2']
 has_source: true
 info:
@@ -989,31 +836,6 @@ streams:
   vrv|VRV: 'https://vrv.co/series/G64PK5X3R'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Shin Chuuka Ichiban! 2nd Season'
----
-title: 'Shingeki no Kyojin: The Final Season'
-alias: ['Attack on Titan Final Season', 'Shingeki no Kyojin Season 4']
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/40028'
-  anilist: 'https://anilist.co/anime/110277'
-  anidb: 'http://anidb.net/a14977'
-  kitsu: 'https://kitsu.io/anime/42422'
-  animeplanet: 'http://www.anime-planet.com/anime/attack-on-titan-the-final-season'
-  official: 'https://shingeki.tv/final/'
-  subreddit: '/r/ShingekiNoKyojin'
-streams: 
-  crunchyroll: 'https://www.crunchyroll.com/attack-on-titan|59'
-  museasia: ''
-  anione: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/attack-on-titan/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1115'
-  hidive: ''
-  animelab|AnimeLab: 'https://www.animelab.com/shows/attack-on-titan'
-  vrv|VRV: 'https://vrv.co/series/GR751KNZY'
-  hulu|Hulu: 'https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88'
-  youtube: ''
-  nyaa: 'Shingeki no Kyojin: The Final Season'
 ---
 title: 'Show By Rock!! Stars!!'
 has_source: true
@@ -1036,7 +858,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Show By Rock!! Stars!!'
 ---
 title: 'Skate-Leading☆Stars'
 alias: ['Skate-Leading Stars']
@@ -1060,7 +881,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Skate-Leading☆Stars'
 ---
 title: 'Soukou Musume Senki'
 alias: ['LBX Girls']
@@ -1084,7 +904,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Soukou Musume Senki'
 ---
 title: 'Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari'
 alias: ['Suppose a Kid from the Last Dungeon Boonies moved to a starter town?']
@@ -1108,10 +927,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari'
 ---
 title: 'Tenchi Souzou Design-bu'
-alias: ['Heaven's Design Team']
+alias: ["Heaven's Design Team"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41762'
@@ -1132,10 +950,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Tenchi Souzou Design-bu'
 ---
-title: 'Tensei Shitara Slime Datta Ken 2nd Season Part 1'
-alias: ['That Time I Got Reincarnated as a Slime 2 Part 1']
+title: 'Tensei Shitara Slime Datta Ken Season 2'
+alias: ['That Time I Got Reincarnated as a Slime Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39551'
@@ -1156,7 +973,6 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GYZJ43JMR'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Tensei Shitara Slime Datta Ken 2nd Season Part 1'
 ---
 title: 'Tropical-Rouge! Precure'
 alias: ['Tropical-Rouge! Pretty Cure']
@@ -1180,7 +996,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Tropical-Rouge! Precure'
 ---
 title: 'Uma Musume: Pretty Derby Season 2'
 alias: ['Umamusume: Pretty Derby Season 2']
@@ -1204,7 +1019,6 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GR79P2816'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Uma Musume: Pretty Derby Season 2'
 ---
 title: 'Ura Sekai Picnic'
 alias: ['Otherside Picnic']
@@ -1228,7 +1042,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Ura Sekai Picnic'
 ---
 title: 'WIXOSS Diva(A)Live'
 has_source: false
@@ -1251,10 +1064,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'WIXOSS Diva(A)Live'
 ---
-title: 'Wave!! Surfing Yappe!! (TV)'
-has_source: true
+title: 'Wave!! Surfing Yappe!!'
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/44201'
   anilist: 'https://anilist.co/anime/111137'
@@ -1274,7 +1086,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Wave!! Surfing Yappe!! (TV)'
 ---
 title: 'Wonder Egg Priority'
 has_source: false
@@ -1297,10 +1108,8 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Wonder Egg Priority'
 ---
-title: 'World Trigger 2nd Season'
-alias: ['World Trigger Season 2']
+title: 'World Trigger Season 2'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40907'
@@ -1321,7 +1130,6 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GR757DMKY'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'World Trigger 2nd Season'
 ---
 title: 'World Witches Hasshin Shimasu!'
 alias: ['World Witches Take Off!']
@@ -1345,9 +1153,8 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'World Witches Hasshin Shimasu!'
 ---
-title: 'Yakusoku no Neverland 2nd Season'
+title: 'Yakusoku no Neverland Season 2'
 alias: ['The Promised Neverland Season 2']
 has_source: true
 info:
@@ -1369,10 +1176,9 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: 'https://www.hulu.com/series/the-promised-neverland-3ef087c6-d967-4495-9730-b5ff54ded8e0'
   youtube: ''
-  nyaa: 'Yakusoku no Neverland 2nd Season'
 ---
-title: 'Yami Shibai 8th Season'
-alias: ['Yamishibai: Japanese Ghost Stories 8th Season']
+title: 'Yami Shibai Season 8'
+alias: ['Yamishibai: Japanese Ghost Stories Season 8']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/44208'
@@ -1393,9 +1199,9 @@ streams:
   vrv|VRV: 'https://vrv.co/series/G6WEM1V36'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Yami Shibai 8th Season'
 ---
-title: 'Yatogame-chan Kansatsu Nikki 3 Satsume'
+title: 'Yatogame-chan Kansatsu Nikki Sansatsume'
+alias: ['Yatogame-chan Kansatsu Nikki Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42959'
@@ -1416,7 +1222,6 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Yatogame-chan Kansatsu Nikki 3 Satsume'
 ---
 title: 'Yuru Camp△ Season 2'
 alias: ['Laid-Back Camp Season 2']
@@ -1440,7 +1245,29 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GRWEW95KR'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: 'Yuru Camp△ Season 2'
+---
+title: 'Toutotsu ni Egypt Kami'
+alias: ['Toutotsu ni Egypt Shin', 'Oh, Suddenly Egyptian God', 'Suddenly, Egyptian Gods']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/41688/Toutotsu_ni_Egypt_Kami'
+  anilist: 'https://anilist.co/anime/123474/Toutotsu-ni-Egypt-Kami/'
+  anidb: 'https://anidb.net/anime/15501'
+  kitsu: 'https://kitsu.io/anime/toutotsu-ni-egypt-kami'
+  animeplanet: 'https://www.anime-planet.com/anime/oh-suddenly-egyptian-god'
+  official: 'https://to-to2ni-anime.jp/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/oh-suddenly-egyptian-god'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
 #---
 #title: ''
 #alias: ['']
