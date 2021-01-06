@@ -938,7 +938,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43137'
   animeplanet: 'http://www.anime-planet.com/anime/heavens-design-team'
   official: 'https://tendebu.jp/'
-  subreddit: ''
+  subreddit: '/r/TenchiSouzouDesignbu'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/heavens-design-team'
   museasia: ''
@@ -1074,7 +1074,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43823'
   animeplanet: 'http://www.anime-planet.com/anime/wave-surfing-yappe'
   official: 'https://wave-anime.com/'
-  subreddit: ''
+  subreddit: '/r/WaveSurfingYapee'
 streams: 
   crunchyroll: ''
   museasia: ''
