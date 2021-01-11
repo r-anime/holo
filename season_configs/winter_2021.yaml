@@ -89,6 +89,30 @@ streams:
   hulu|Hulu: ''
   youtube: ''
 ---
+title: 'Azur Lane: Bisoku Zenshin!'
+alias: ['Azur Lane: Slow Ahead!']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/40930'
+  anilist: 'https://anilist.co/anime/114473'
+  anidb: 'http://anidb.net/a15327'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/azur-lane-bisoku-zenshin'
+  official: 'https://azurlane-bisoku.jp/'
+  subreddit: '/r/AzureLane/'
+streams: 
+  crunchyroll: 'https://www.crunchyroll.com/azur-lane-slow-ahead'
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: 'Azur Lane: Bisoku Zenshin!'
+---
 title: 'Back Arrow'
 has_source: false
 info:
