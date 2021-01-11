@@ -801,7 +801,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43595'
   animeplanet: 'http://www.anime-planet.com/anime/sk8-the-infinity'
   official: 'https://sk8-project.com/'
-  subreddit: ''
+  subreddit: '/r/SK8TheInfinity'
 streams: 
   crunchyroll: ''
   museasia: ''
