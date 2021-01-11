@@ -35,7 +35,7 @@ info:
 streams: 
   crunchyroll: ''
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JhnjCV8G6KU3crrzcVVpHpI'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -167,7 +167,7 @@ info:
   subreddit: '/r/ExArm'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/ex-arm'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0ndzzvMI7DSXcS1PT1VJYa'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -392,7 +392,7 @@ info:
   subreddit: '/r/ichu'
 streams: 
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl3lkMqeu3M0PaNttQM0cWka'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -483,7 +483,7 @@ info:
   subreddit: '/r/KemonoJihen'
 streams: 
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl1YS_pINBRcstuSCSgO4EGj'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -529,7 +529,7 @@ info:
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/so-im-a-spider-so-what'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jh0Urq4XJv3SkmYTq-goyCo'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -620,7 +620,7 @@ info:
   subreddit: '/r/mushokutensei'
 streams: 
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl01_ftoIT3birJWkpxFZkEl'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1170'
@@ -735,7 +735,7 @@ info:
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/armor-shop-for-ladies-gentlemen'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl3hB6k5qSdSH296aVdctz8V'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -758,7 +758,7 @@ info:
   subreddit: ''
 streams: 
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl2AAB1zAh5bCOdsxuBznXFl'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/scar-on-the-praeter/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1163'
@@ -850,7 +850,7 @@ info:
 streams: 
   crunchyroll: ''
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jg-H3LCLflZvXPqNzBBcgPe'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -873,7 +873,7 @@ info:
 streams: 
   crunchyroll: ''
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JhI_jQt9Ivtl_N_rDOaSQyU'
   funimation|Funimation: 'https://www.funimation.com/shows/skate-leading-stars/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1167'
   hidive: ''
@@ -918,7 +918,7 @@ info:
   subreddit: '/r/TatoebaLastDungeon/'
 streams: 
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl3X-zEFf3ZnYgu6MuUIO9q3'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1157'
@@ -941,7 +941,7 @@ info:
   subreddit: ''
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/heavens-design-team'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl2EXwI9aJdqU567z6f3UUzU'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -964,7 +964,7 @@ info:
   subreddit: '/r/TenseiSlime'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime|24'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl24o1N6adcgGPyIJPfJ21GL|24'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/that-time-i-got-reincarnated-as-a-slime/'
   wakanim|Wakanim: ''
@@ -1237,7 +1237,7 @@ info:
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/laid-back-camp'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JhsFhLkiHzyfMeO5unNiOEc'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
