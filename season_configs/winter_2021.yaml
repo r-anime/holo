@@ -133,7 +133,7 @@ streams:
   youtube: ''
 ---
 title: 'Dr. Stone: Stone Wars'
-alias: ['Dr. Stone Season 2']
+alias: ['Dr. Stone Season 2', 'Doctor Stone Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40852'
@@ -516,7 +516,7 @@ streams:
   youtube: ''
 ---
 title: 'Kumo desu ga, Nani ka?'
-alias: ["So I'm a Spider, So What?"]
+alias: ["So I'm a Spider, So What?", 'Kumodesu']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/37984'
@@ -769,7 +769,7 @@ streams:
   youtube: ''
 ---
 title: 'Re:Zero kara Hajimeru Isekai Seikatsu Season 2 Part 2'
-alias: ['Re:Zero -Starting Life in Another World- Season 2 Season Part 2']
+alias: ['Re:Zero -Starting Life in Another World- Season 2 Season Part 2', 'Re Zero']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42203'
@@ -952,7 +952,7 @@ streams:
   youtube: ''
 ---
 title: 'Tensei Shitara Slime Datta Ken Season 2'
-alias: ['That Time I Got Reincarnated as a Slime Season 2']
+alias: ['That Time I Got Reincarnated as a Slime Season 2', 'Tensura']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39551'
