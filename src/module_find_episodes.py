@@ -38,7 +38,7 @@ def main(config, db, **kwargs):
 				for episode in sorted(episodes, key=lambda e: e.number):
 					if _process_new_episode(config, db, show, stream, episode):
 						has_new_episode.append(show)
-		except:
+		except IOError:
 			error(f'Error while getting shows on service {service}')
 
 	# Check generic services
@@ -73,7 +73,7 @@ def main(config, db, **kwargs):
 					for episode in sorted(episodes, key=lambda e: e.number):
 						if _process_new_episode(config, db, show, stream, episode):
 							has_new_episode.append(show)
-		except:
+		except IOError:
 			error(f'Error while getting shows on service {service}')
 
 	debug("")
