@@ -14,29 +14,32 @@ def main(config, db, **kwargs):
 	enabled_services = db.get_services(enabled=True)
 
 	for service in enabled_services:
-		service_handler = services.get_service_handler(service)
+		try:
+			service_handler = services.get_service_handler(service)
 
-		streams = db.get_streams(service=service)
-		debug("{} streams found".format(len(streams)))
+			streams = db.get_streams(service=service)
+			debug("{} streams found".format(len(streams)))
 
-		recent_episodes = service_handler.get_recent_episodes(streams)
-		info(f"{len(recent_episodes)} episodes for active shows on service {service}")
+			recent_episodes = service_handler.get_recent_episodes(streams, useragent=config.useragent)
+			info(f"{len(recent_episodes)} episodes for active shows on service {service}")
 
-		for stream, episodes in recent_episodes.items():
-			show = db.get_show(stream=stream)
-			if show is None or not show.enabled:
-				continue
+			for stream, episodes in recent_episodes.items():
+				show = db.get_show(stream=stream)
+				if show is None or not show.enabled:
+					continue
 
-			info("Checking stream \"{}\"".format(stream.show_key))
-			debug(stream)
+				info("Checking stream \"{}\"".format(stream.show_key))
+				debug(stream)
 
-			if not episodes:
-				info("  Show/episode not found")
-				continue
+				if not episodes:
+					info("  Show/episode not found")
+					continue
 
-			for episode in sorted(episodes, key=lambda e: e.number):
-				if _process_new_episode(config, db, show, stream, episode):
-					has_new_episode.append(show)
+				for episode in sorted(episodes, key=lambda e: e.number):
+					if _process_new_episode(config, db, show, stream, episode):
+						has_new_episode.append(show)
+		except IOError:
+			error(f'Error while getting shows on service {service}')
 
 	# Check generic services
 	# Note : selecting only shows with missing streams avoids troll torrents,
@@ -48,27 +51,30 @@ def main(config, db, **kwargs):
 
 	other_streams = [Stream.from_show(show) for show in other_shows]
 	for service in enabled_services:
-		service_handler = services.get_service_handler(service)
-		if service_handler.is_generic:
-			debug("    Checking service {}".format(service_handler.name))
-			recent_episodes = service_handler.get_recent_episodes(other_streams)
-			info(f"{len(recent_episodes)} episodes for active shows on generic service {service}")
+		try:
+			service_handler = services.get_service_handler(service)
+			if service_handler.is_generic:
+				debug("    Checking service {}".format(service_handler.name))
+				recent_episodes = service_handler.get_recent_episodes(other_streams, useragent=config.useragent)
+				info(f"{len(recent_episodes)} episodes for active shows on generic service {service}")
 
-			for stream, episodes in recent_episodes.items():
-				show = db.get_show(stream=stream)
-				if show is None or not show.enabled:
-					continue
+				for stream, episodes in recent_episodes.items():
+					show = db.get_show(stream=stream)
+					if show is None or not show.enabled:
+						continue
 
-				info("Checking stream \"{}\"".format(stream.show_key))
-				debug(stream)
+					info("Checking stream \"{}\"".format(stream.show_key))
+					debug(stream)
 
-				if not episodes:
-					info("  No episode found")
-					continue
+					if not episodes:
+						info("  No episode found")
+						continue
 
-				for episode in sorted(episodes, key=lambda e: e.number):
-					if _process_new_episode(config, db, show, stream, episode):
-						has_new_episode.append(show)
+					for episode in sorted(episodes, key=lambda e: e.number):
+						if _process_new_episode(config, db, show, stream, episode):
+							has_new_episode.append(show)
+		except IOError:
+			error(f'Error while getting shows on service {service}')
 
 	debug("")
 	debug("Summary of shows with new episodes:")
