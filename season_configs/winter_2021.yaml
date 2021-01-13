@@ -76,7 +76,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43822'
   animeplanet: 'http://www.anime-planet.com/anime/azur-lane-bisoku-zenshin'
   official: 'https://azurlane-bisoku.jp/'
-  subreddit: ''
+  subreddit: '/r/AzureLane'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/anime-azurlane-slow-ahead'
   museasia: ''
