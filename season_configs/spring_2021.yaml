@@ -30,7 +30,7 @@ info:
   anidb: 'http://anidb.net/a16085'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/aka-chan-honbuchou'
-  official: 'null'
+  official: ''
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -130,10 +130,10 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/blue-reflection-ray/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1299'
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/blue-reflection-ray'
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
@@ -151,14 +151,14 @@ info:
   official: 'https://heroaca.com/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-hero-academia'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/my-hero-academia/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1278'
   hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/my-hero-academia'
+  vrv|VRV: 'https://vrv.co/series/G6NQ5DWZ6'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -170,18 +170,18 @@ info:
   mal: 'https://myanimelist.net/anime/42516'
   anilist: 'https://anilist.co/anime/121962'
   anidb: 'http://anidb.net/a15646'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/44181'
   animeplanet: 'http://www.anime-planet.com/anime/vanguard-overdress'
   official: 'https://anime.cf-vanguard.com/overdress/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/cardfight-vanguard-overdress'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/cardfight-vanguard-overdress/'
   wakanim|Wakanim: ''
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/cardfight-vanguard-overdress'
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
@@ -193,7 +193,7 @@ info:
   mal: 'https://myanimelist.net/anime/43763'
   anilist: 'https://anilist.co/anime/125867'
   anidb: 'http://anidb.net/a15833'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/44179'
   animeplanet: 'http://www.anime-planet.com/anime/cestvs-the-roman-fighter'
   official: 'https://cestvs-anime.com/'
   subreddit: ''
@@ -328,17 +328,18 @@ streams:
   nyaa: ''
 ---
 title: 'Fairy Ranmaru: Anata no Kokoro Otasuke Shimasu'
+alias: ['Fairy Ranmaru']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/45665'
   anilist: 'https://anilist.co/anime/128399'
   anidb: 'http://anidb.net/a15976'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/44180'
   animeplanet: 'http://www.anime-planet.com/anime/fairy-ranmaru-anata-no-kokoro-otasukeshimasu'
   official: 'https://f-ran.jp/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/fairy-ranmaru'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -362,14 +363,14 @@ info:
   official: 'https://fruba.jp/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/fruits-basket'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/fruits-basket/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/489'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/fruits-basket'
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G6ZJMGEXY'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -434,7 +435,7 @@ info:
   official: 'http://higehiro-anime.com/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/higehiro-after-being-rejected-i-shaved-and-took-in-a-high-school-runaway'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -458,7 +459,7 @@ info:
   official: 'https://nagatorosan.jp/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/dont-toy-with-me-miss-nagatoro'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -566,7 +567,7 @@ streams:
   nyaa: ''
 ---
 title: 'Koi to Yobu ni wa Kimochi Warui'
-alias: ["It's Disgusting to Call This Love"]
+alias: ['Koikimo']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41103'
@@ -577,7 +578,7 @@ info:
   official: 'https://koikimo.jp/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/koikimo'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -672,7 +673,7 @@ info:
   official: 'https://mashironooto-official.com/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/those-snow-white-notes'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -711,9 +712,9 @@ title: 'Mewkledreamy Mix!'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/44273'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/130777'
   anidb: 'http://anidb.net/a15901'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/44172'
   animeplanet: 'http://www.anime-planet.com/anime/mewkledreamy-mix'
   official: 'https://mewkledreamy.com/'
   subreddit: ''
@@ -836,7 +837,7 @@ info:
   official: 'https://osamake.com/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/osamake-romcom-where-the-childhood-friend-wont-lose'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -848,13 +849,13 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Oshiri Tantei 5th Series'
-alias: ['Butt Detective 5th Series']
+title: 'Oshiri Tantei (2021)'
+alias: ['Butt Detective (2021)']
 has_source: true
 info:
-  mal: ''
+  mal: 'https://myanimelist.net/anime/48486'
   anilist: ''
-  anidb: ''
+  anidb: 'http://anidb.net/a16133'
   kitsu: ''
   animeplanet: ''
   official: 'http://www.oshiri-tantei.com/'
@@ -896,7 +897,7 @@ streams:
   nyaa: ''
 ---
 title: 'Sayonara Watashi no Cramer'
-alias: ['Good-bye, Cramer']
+alias: ['Farewell, My Dear Cramer']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42774'
@@ -907,7 +908,7 @@ info:
   official: 'https://sayonara-cramer.com/tv/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/farewell-my-dear-cramer'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1275,7 +1276,7 @@ title: 'Utau Soccer Panda Mifanda'
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/42068'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/122322'
   anidb: ''
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/utau-soccer-panda-mifanda'
@@ -1303,6 +1304,29 @@ info:
   kitsu: 'https://kitsu.io/anime/43933'
   animeplanet: 'http://www.anime-planet.com/anime/vivy-fluorite-eyes-song'
   official: 'https://vivy-portal.com/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Washimo 9th Season'
+has_source: true
+info:
+  mal: ''
+  anilist: ''
+  anidb: ''
+  kitsu: ''
+  animeplanet: ''
+  official: 'http://www9.nhk.or.jp/anime/wasimo/'
   subreddit: ''
 streams: 
   crunchyroll: ''
