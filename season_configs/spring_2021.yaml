@@ -139,8 +139,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Boku no Hero Academia 5th Season'
-alias: ['My Hero Academia 5th Season']
+title: 'Boku no Hero Academia Season 5'
+alias: ['My Hero Academia Season 5']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41587'
@@ -163,8 +163,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Cardfight!! Vanguard overDress Season 1'
-alias: ['Vanguard overDress Season 1']
+title: 'Cardfight!! Vanguard overDress'
+alias: ['Vanguard overDress']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42516'
@@ -542,8 +542,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Kingdom 3rd Season'
-alias: ['Kingdom Season 3']
+title: 'Kingdom Season 3'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40682'
@@ -614,8 +613,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Mairimashita! Iruma-kun 2nd Season'
-alias: ['Welcome to Demon School! Iruma-kun 2nd Season']
+title: 'Mairimashita! Iruma-kun Season 2'
+alias: ['Welcome to Demon School! Iruma-kun Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41402'
@@ -731,7 +730,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Motto! Majime ni Fumajime Kaiketsu Zorori 2nd Season'
+title: 'Motto! Majime ni Fumajime Kaiketsu Zorori Season 2'
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/43778'
@@ -1295,7 +1294,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Washimo 9th Season'
+title: 'Washimo Season 9'
 has_source: true
 info:
   mal: ''
