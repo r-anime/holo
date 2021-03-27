@@ -7,7 +7,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43066'
   animeplanet: 'http://www.anime-planet.com/anime/86-eighty-six'
   official: 'https://anime-86.com/'
-  subreddit: ''
+  subreddit: '/r/EightySix'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -139,8 +139,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Boku no Hero Academia 5th Season'
-alias: ['My Hero Academia 5th Season']
+title: 'Boku no Hero Academia Season 5'
+alias: ['My Hero Academia Season 5']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41587'
@@ -149,7 +149,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43108'
   animeplanet: 'http://www.anime-planet.com/anime/my-hero-academia-5'
   official: 'https://heroaca.com/'
-  subreddit: ''
+  subreddit: '/r/BokuNoHeroAcademia'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/my-hero-academia'
   museasia: ''
@@ -163,8 +163,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Cardfight!! Vanguard overDress Season 1'
-alias: ['Vanguard overDress Season 1']
+title: 'Cardfight!! Vanguard overDress'
+alias: ['Vanguard overDress']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42516'
@@ -290,7 +290,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/duel-masters-king'
   official: 'https://www.tv-tokyo.co.jp/anime/dm_king2/'
-  subreddit: ''
+  subreddit: '/r/DuelMasters'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -313,7 +313,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43521'
   animeplanet: 'http://www.anime-planet.com/anime/edens-zero'
   official: 'https://edens-zero.net/anime/'
-  subreddit: ''
+  subreddit: '/r/EdensZero'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -361,7 +361,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43578'
   animeplanet: 'http://www.anime-planet.com/anime/fruits-basket-the-final'
   official: 'https://fruba.jp/'
-  subreddit: ''
+  subreddit: '/r/FruitsBasket'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/fruits-basket'
   museasia: ''
@@ -385,7 +385,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43211'
   animeplanet: 'http://www.anime-planet.com/anime/to-your-eternity'
   official: 'https://anime-fumetsunoanatae.com/en'
-  subreddit: ''
+  subreddit: '/r/FumetsuNoAnataE'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/to-your-eternity'
   museasia: ''
@@ -409,7 +409,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43667'
   animeplanet: 'http://www.anime-planet.com/anime/godzilla-singular-point'
   official: 'https://godzilla-sp.jp/'
-  subreddit: ''
+  subreddit: '/r/GODZILLA'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -433,7 +433,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42923'
   animeplanet: 'http://www.anime-planet.com/anime/hige-wo-soru-soshite-joshikosei-wo-hirou'
   official: 'http://higehiro-anime.com/'
-  subreddit: ''
+  subreddit: '/r/HigeWoSoru'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/higehiro-after-being-rejected-i-shaved-and-took-in-a-high-school-runaway'
   museasia: ''
@@ -457,7 +457,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43271'
   animeplanet: 'http://www.anime-planet.com/anime/dont-toy-with-me-miss-nagatoro'
   official: 'https://nagatorosan.jp/'
-  subreddit: ''
+  subreddit: '/r/nagatoro'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/dont-toy-with-me-miss-nagatoro'
   museasia: ''
@@ -542,8 +542,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Kingdom 3rd Season'
-alias: ['Kingdom Season 3']
+title: 'Kingdom Season 3'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40682'
@@ -552,7 +551,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43037'
   animeplanet: 'http://www.anime-planet.com/anime/kingdom-3'
   official: 'https://kingdom-anime.com/'
-  subreddit: ''
+  subreddit: '/r/Kingdom'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -614,8 +613,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Mairimashita! Iruma-kun 2nd Season'
-alias: ['Welcome to Demon School! Iruma-kun 2nd Season']
+title: 'Mairimashita! Iruma-kun Season 2'
+alias: ['Welcome to Demon School! Iruma-kun Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41402'
@@ -624,7 +623,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43047'
   animeplanet: 'http://www.anime-planet.com/anime/welcome-to-demon-school-iruma-kun-2'
   official: 'http://www6.nhk.or.jp/anime/program/detail.html?i=iruma'
-  subreddit: ''
+  subreddit: '/r/DemonSchoolIrumakun'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -731,7 +730,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Motto! Majime ni Fumajime Kaiketsu Zorori 2nd Season'
+title: 'Motto! Majime ni Fumajime Kaiketsu Zorori Season 2'
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/43778'
@@ -764,7 +763,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42720'
   animeplanet: 'http://www.anime-planet.com/anime/megalo-box-2'
   official: 'https://megalobox.com/'
-  subreddit: ''
+  subreddit: '/r/MegaloBox'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -835,7 +834,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43966'
   animeplanet: 'http://www.anime-planet.com/anime/osananajimi-ga-zettai-ni-makenai-love-comedy'
   official: 'https://osamake.com/'
-  subreddit: ''
+  subreddit: '/r/OsaMake'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/osamake-romcom-where-the-childhood-friend-wont-lose'
   museasia: ''
@@ -882,7 +881,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42888'
   animeplanet: 'http://www.anime-planet.com/anime/ssss-dynazenon'
   official: 'https://dynazenon.net/'
-  subreddit: ''
+  subreddit: '/r/SSSSGRIDMAN'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -906,7 +905,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43830'
   animeplanet: 'http://www.anime-planet.com/anime/farewell-my-dear-cramer'
   official: 'https://sayonara-cramer.com/tv/'
-  subreddit: ''
+  subreddit: '/r/FarewellMyDearCramer'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/farewell-my-dear-cramer'
   museasia: ''
@@ -1000,7 +999,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43820'
   animeplanet: 'http://www.anime-planet.com/anime/shadows-house'
   official: 'https://shadowshouse-anime.com/'
-  subreddit: ''
+  subreddit: '/r/ShadowsHouse'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -1047,7 +1046,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43222'
   animeplanet: 'http://www.anime-planet.com/anime/shaman-king-2021'
   official: 'https://shamanking-project.com/'
-  subreddit: ''
+  subreddit: '/r/ShamanKing'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -1117,7 +1116,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42628'
   animeplanet: 'http://www.anime-planet.com/anime/ive-been-killing-slimes-for-300-years'
   official: 'https://slime300-anime.com/'
-  subreddit: ''
+  subreddit: '/r/KillingSlimes'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level'
   museasia: ''
@@ -1141,7 +1140,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43251'
   animeplanet: 'http://www.anime-planet.com/anime/the-world-ends-with-you-the-animation'
   official: 'https://subarashiki-anime.jp/'
-  subreddit: ''
+  subreddit: '/r/TWEWY'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -1188,32 +1187,9 @@ info:
   kitsu: 'https://kitsu.io/anime/43089'
   animeplanet: 'http://www.anime-planet.com/anime/the-slime-diaries-that-time-i-got-reincarnated-as-a-slime'
   official: 'https://www.ten-sura.com/anime/tensura-nikki'
-  subreddit: ''
+  subreddit: '/r/TenseiSlime'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/the-slime-diaries'
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: ''
----
-title: 'Thunderbolt Fantasy: Touri-ken Yuuki 3'
-has_source: false
-info:
-  mal: ''
-  anilist: 'https://anilist.co/anime/119806'
-  anidb: 'http://anidb.net/a14556'
-  kitsu: ''
-  animeplanet: 'http://www.anime-planet.com/anime/thunderbolt-fantasy-3'
-  official: 'http://www.thunderboltfantasy.com/season3/'
-  subreddit: ''
-streams: 
-  crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1234,7 +1210,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43321'
   animeplanet: 'http://www.anime-planet.com/anime/tokyo-revengers'
   official: 'https://tokyo-revengers-anime.com/'
-  subreddit: ''
+  subreddit: '/r/TokyoRevengers'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/tokyo-revengers'
   museasia: ''
@@ -1318,7 +1294,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Washimo 9th Season'
+title: 'Washimo Season 9'
 has_source: true
 info:
   mal: ''
@@ -1351,7 +1327,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43875'
   animeplanet: 'http://www.anime-planet.com/anime/yakunara-mug-cup-mo'
   official: 'https://yakumo-project.com/'
-  subreddit: ''
+  subreddit: '/r/YakunaraMugCupMo'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -1375,7 +1351,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/youkai-watch-2021'
   official: 'https://www.tv-tokyo.co.jp/anime/youkai-watch2021/'
-  subreddit: ''
+  subreddit: '/r/yokaiwatch'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -1398,7 +1374,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43213'
   animeplanet: ''
   official: 'http://yuyuyu.tv/churutto/'
-  subreddit: ''
+  subreddit: '/r/YuYuYu'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -1422,7 +1398,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43708'
   animeplanet: 'http://www.anime-planet.com/anime/moriarty-the-patriot-2nd-season'
   official: 'https://moriarty-anime.com/'
-  subreddit: ''
+  subreddit: '/r/MoriartyPatriot'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -1446,7 +1422,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42467'
   animeplanet: 'http://www.anime-planet.com/anime/zombieland-saga-revenge'
   official: 'http://zombielandsaga.com/'
-  subreddit: ''
+  subreddit: '/r/ZombielandSaga'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/zombie-land-saga'
   museasia: ''
