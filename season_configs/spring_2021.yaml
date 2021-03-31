@@ -537,7 +537,7 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GJ0H7Q4E9'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -584,7 +584,7 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GG5H5X7ZE'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -736,7 +736,7 @@ info:
   mal: 'https://myanimelist.net/anime/43778'
   anilist: 'https://anilist.co/anime/126835'
   anidb: 'http://anidb.net/a15841'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/44222'
   animeplanet: 'http://www.anime-planet.com/anime/motto-majime-ni-fumajime-kaiketsu-zorori-2'
   official: 'http://www.zorori.jp/'
   subreddit: ''
@@ -887,7 +887,7 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/ssssdynazenon/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1265'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/ssssdynazenon'
   vrv|VRV: ''
@@ -968,6 +968,7 @@ streams:
   nyaa: ''
 ---
 title: 'Seven Knights Revolution: Eiyuu no Keishousha'
+alias: ['Seven Knights Revolution: Hero Successor']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/47391'
@@ -978,7 +979,7 @@ info:
   official: 'https://sevenknights-anime.jp/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/seven-knights-revolution-hero-successor'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1329,7 +1330,7 @@ info:
   official: 'https://yakumo-project.com/'
   subreddit: '/r/YakunaraMugCupMo'
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/lets-make-a-mug-too'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1421,7 +1422,7 @@ info:
   anidb: 'http://anidb.net/a15028'
   kitsu: 'https://kitsu.io/anime/42467'
   animeplanet: 'http://www.anime-planet.com/anime/zombieland-saga-revenge'
-  official: 'http://zombielandsaga.com/'
+  official: 'https://zombielandsaga.com/'
   subreddit: '/r/ZombielandSaga'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/zombie-land-saga'
