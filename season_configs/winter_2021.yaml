@@ -101,7 +101,7 @@ info:
   official: 'https://azurlane-bisoku.jp/'
   subreddit: '/r/AzureLane/'
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/azur-lane-slow-ahead'
+  crunchyroll: 'https://www.crunchyroll.com/anime-azurlane-slow-ahead'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1115,7 +1115,7 @@ streams:
 title: 'Wave!! Surfing Yappe!!'
 has_source: false
 info:
-  mal: 'https://myanimelist.net/anime/44201'
+  mal: 'https://myanimelist.net/anime/46118/Wave__Surfing_Yappe_TV'
   anilist: 'https://anilist.co/anime/111137'
   anidb: ''
   kitsu: 'https://kitsu.io/anime/43823'
@@ -1315,6 +1315,30 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
+---
+title: 'D4DJ Petit Mix'
+alias: ['D4DJ Shorts']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/45782/D4DJ_Petit_Mix'
+  anilist: 'https://anilist.co/anime/128563/D4DJ-Petit-Mix/'
+  anidb: 'https://anidb.net/anime/15981'
+  kitsu: 'https://kitsu.io/anime/d4dj-petit-mix'
+  animeplanet: 'https://www.anime-planet.com/anime/d4dj-petit-mix'
+  official: 'https://anime.d4dj-pj.com/petit-mix/'
+  subreddit: '/r/D4DJ'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube_nonplaylist|Official channel: 'https://www.youtube.com/c/D4DJEnglishChannel/videos'
+  nyaa: 'D4DJ Petit Mix'
 #---
 #title: ''
 #alias: ['']
