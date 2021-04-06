@@ -8,8 +8,8 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/86-eighty-six'
   official: 'https://anime-86.com/'
   subreddit: '/r/EightySix'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/86-eighty-six'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -46,6 +46,7 @@ streams:
   nyaa: ''
 ---
 title: 'Bakuten!!'
+alias: ['Backflip!!']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/43756'
@@ -55,8 +56,8 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/bakuten'
   official: 'https://bakuten-pr.com/'
   subreddit: ''
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/backflip'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -197,8 +198,8 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/cestvs-the-roman-fighter'
   official: 'https://cestvs-anime.com/'
   subreddit: ''
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/cestvs-the-roman-fighter'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -237,14 +238,14 @@ title: 'Dosukoi Sushi-Zumo'
 alias: ['Sushi Sumo']
 has_source: true
 info:
-  mal: 'https://myanimelist.net/anime/45603'
+  mal: 'https://myanimelist.net/anime/48517'
   anilist: 'https://anilist.co/anime/130442'
   anidb: 'http://anidb.net/a15680'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/44225'
   animeplanet: 'http://www.anime-planet.com/anime/sushi-sumo'
   official: 'https://sushisumo.jp/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -434,15 +435,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/hige-wo-soru-soshite-joshikosei-wo-hirou'
   official: 'http://higehiro-anime.com/'
   subreddit: '/r/HigeWoSoru'
-streams: 
+streams:
   crunchyroll: 'https://www.crunchyroll.com/higehiro-after-being-rejected-i-shaved-and-took-in-a-high-school-runaway'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl04kRKOrkNNvS1Yht4lZ8QK'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GXJHM3NW5'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -624,15 +625,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/welcome-to-demon-school-iruma-kun-2'
   official: 'http://www6.nhk.or.jp/anime/program/detail.html?i=iruma'
   subreddit: '/r/DemonSchoolIrumakun'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/welcome-to-demon-school-iruma-kun'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G6NVG970Y'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -930,9 +931,9 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/the-saints-magic-power-is-omnipotent'
   official: 'https://seijyonomaryoku.jp/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl2X8Vz7MxBgWGm8HjVyEgl9'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/the-saints-magic-power-is-omnipotent/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1272'
@@ -1142,12 +1143,12 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/the-world-ends-with-you-the-animation'
   official: 'https://subarashiki-anime.jp/'
   subreddit: '/r/TWEWY'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/the-world-ends-with-you-the-animation/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1276'
   hidive: ''
   animelab|AnimeLab: 'https://www.animelab.com/shows/the-world-ends-with-you-the-animation'
   vrv|VRV: ''
@@ -1189,15 +1190,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/the-slime-diaries-that-time-i-got-reincarnated-as-a-slime'
   official: 'https://www.ten-sura.com/anime/tensura-nikki'
   subreddit: '/r/TenseiSlime'
-streams: 
+streams:
   crunchyroll: 'https://www.crunchyroll.com/the-slime-diaries'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0KQPaOlV_-i8-F3Dyu_kO_'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GG5H5X7JV'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -1443,11 +1444,11 @@ info:
   mal: 'https://myanimelist.net/anime/44848'
   anilist: 'https://anilist.co/anime/130514'
   anidb: 'http://anidb.net/a15928'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/44224'
   animeplanet: 'http://www.anime-planet.com/anime/iii-icecrin'
   official: 'https://iii-icecrin.com/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
