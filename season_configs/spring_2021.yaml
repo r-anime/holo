@@ -1167,12 +1167,12 @@ info:
   subreddit: ''
 streams: 
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl1bLUFrbGuwsVRTjgIvhVzS'
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/super-cub/'
   wakanim|Wakanim: ''
   hidive: ''
-  animelab|AnimeLab: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/super-cub'
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
@@ -1214,7 +1214,7 @@ info:
   subreddit: '/r/TokyoRevengers'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/tokyo-revengers'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl3F9AGKbC7iRIGeU2XosgTy'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -1272,7 +1272,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Vivy: Fluorite Eye's Song'
+title: "Vivy: Fluorite Eye's Song"
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/46095'
@@ -1455,6 +1455,30 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Hetalia: World Stars'
+alias: ['Hetalia World★Stars']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/43591/Hetalia_World%E2%98%85Stars'
+  anilist: 'https://anilist.co/anime/125351/Hetalia-WorldStars/'
+  anidb: 'https://anidb.net/anime/15804'
+  kitsu: 'https://kitsu.io/anime/hetalia-world-stars'
+  animeplanet: ''
+  official: 'https://hetalia-ws.com/'
+  subreddit: '/r/hetalia'
+streams:
+  crunchyroll: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl031sy9v8VtSbqYgoAmGAL7'
+  funimation|Funimation: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1344/hetalia-world-stars/season/2718/season-7'
+  hidive: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/hetalia-axis-powers'
+  crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
