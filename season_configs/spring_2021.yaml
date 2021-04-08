@@ -1165,7 +1165,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42736'
   animeplanet: 'http://www.anime-planet.com/anime/super-cub'
   official: 'https://supercub-anime.com/'
-  subreddit: ''
+  subreddit: '/r/SuperCubAnime'
 streams: 
   crunchyroll: ''
   museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl1bLUFrbGuwsVRTjgIvhVzS'
