@@ -1484,6 +1484,30 @@ streams:
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
+---
+title: 'Kobayashi-san Chi no Maidragon S: Mini Dra'
+alias: ["Miss Kobayashi's Dragon Maid S Shorts"]
+has_source: true
+info:
+ mal: 'https://myanimelist.net/anime/48590/'
+ anilist: 'https://anilist.co/anime/132096/'
+ anidb: ''
+ kitsu: ''
+ animeplanet: ''
+ official: 'https://maidragon.jp/2nd/'
+ subreddit: '/r/DragonMaid'
+streams:
+ crunchyroll: 'https://www.crunchyroll.com/miss-kobayashis-dragon-maid'
+ museasia: ''
+ funimation|Funimation: ''
+ wakanim|Wakanim: ''
+ hidive: ''
+ animelab|AnimeLab: ''
+ crunchyroll_nsfw|Crunchyroll: ''
+ vrv|VRV: ''
+ hulu|Hulu: ''
+ youtube: ''
+ nyaa: 'Kobayashi-san Chi no Maid Dragon S2 Shorts'
 #---
 #title: ''
 #alias: ['']
