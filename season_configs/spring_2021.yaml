@@ -507,15 +507,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/gloomy-the-naughty-grizzly'
   official: 'https://gloomy-official.com/'
   subreddit: ''
-streams:
-  crunchyroll: ''
+streams: 
+  crunchyroll: 'https://www.crunchyroll.com/gloomy-the-naughty-grizzly'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GVDHX8VN5'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
