@@ -836,15 +836,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/osananajimi-ga-zettai-ni-makenai-love-comedy'
   official: 'https://osamake.com/'
   subreddit: '/r/OsaMake'
-streams:
+streams: 
   crunchyroll: 'https://www.crunchyroll.com/osamake-romcom-where-the-childhood-friend-wont-lose'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl1WTubEn3m0nfJ8ZLnLFUwq'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G24H1N21Q'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
