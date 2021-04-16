@@ -612,7 +612,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Full Dive'
 ---
 title: 'Mairimashita! Iruma-kun Season 2'
 alias: ['Welcome to Demon School! Iruma-kun Season 2']
@@ -1403,7 +1403,7 @@ info:
   subreddit: '/r/MoriartyPatriot'
 streams:
   crunchyroll: ''
-  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl23lU3K_aB0k1aPJ93_jdnt'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl23lU3K_aB0k1aPJ93_jdnt|11'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/moriarty-the-patriot/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1127'
