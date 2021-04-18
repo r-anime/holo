@@ -103,7 +103,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42764'
   animeplanet: 'http://www.anime-planet.com/anime/pretty-boy-detective-club'
   official: 'https://bishonen-tanteidan.com/'
-  subreddit: ''
+  subreddit: '/r/bishounen'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -174,7 +174,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44181'
   animeplanet: 'http://www.anime-planet.com/anime/vanguard-overdress'
   official: 'https://anime.cf-vanguard.com/overdress/'
-  subreddit: ''
+  subreddit: '/r/cardfightvanguard'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/cardfight-vanguard-overdress'
   museasia: ''
@@ -717,7 +717,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44172'
   animeplanet: 'http://www.anime-planet.com/anime/mewkledreamy-mix'
   official: 'https://mewkledreamy.com/'
-  subreddit: ''
+  subreddit: '/r/Mewkledreamy'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -788,7 +788,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43932'
   animeplanet: 'http://www.anime-planet.com/anime/odd-taxi'
   official: 'https://oddtaxi.jp/'
-  subreddit: ''
+  subreddit: '/r/OddTaxi'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/oddtaxi'
   museasia: ''
@@ -978,7 +978,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44064'
   animeplanet: 'http://www.anime-planet.com/anime/seven-knights-revolution-eiyuu-no-keishousha'
   official: 'https://sevenknights-anime.jp/'
-  subreddit: ''
+  subreddit: '/r/sevenknights'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/seven-knights-revolution-hero-successor'
   museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0KbQlqHjTn5dWFSadUHkzh'
@@ -1025,7 +1025,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43309'
   animeplanet: 'http://www.anime-planet.com/anime/shakunetsu-kabaddi'
   official: 'https://www.tv-tokyo.co.jp/anime/kabaddi/'
-  subreddit: ''
+  subreddit: '/r/BurningKabaddi'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/burning-kabaddi'
   museasia: ''
