@@ -32,7 +32,11 @@ def submit_text_post(subreddit, title, body):
 	_ensure_connection()
 	try:
 		info("Submitting post to {}".format(subreddit))
-		new_post = _r.subreddit(subreddit).submit(title, selftext=body, send_replies=False)
+		new_post = _r.subreddit(subreddit).submit(title,
+		                                          selftext=body,
+							  flair_id=_config.post_flair_id,
+							  flair_text=_config.post_flair_text,
+							  send_replies=False)
 		return new_post
 	except:
 		exception("Failed to submit text post")
