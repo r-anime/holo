@@ -31,6 +31,8 @@ class Config:
 		
 		self.post_title = None
 		self.post_title_postfix_final = None
+		self.post_flair_id = None
+		self.post_flair_text = None
 		self.post_body = None
 		self.post_formats = dict()
 	
@@ -80,6 +82,8 @@ def from_file(file_path):
 		sec = parsed["post"]
 		config.post_title = sec.get("title", None)
 		config.post_title_postfix_final = sec.get("title_postfix_final", None)
+		config.post_flair_id = sec.get("flair_id", None)
+		config.post_flair_text = sec.get("flair_text", None)
 		config.post_body = sec.get("body", None)
 		config.post_poll_title = sec.get("poll_title", None)
 		for key in sec:

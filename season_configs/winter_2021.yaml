@@ -620,14 +620,14 @@ info:
   official: 'https://www6.nhk.or.jp/anime/special/special.html?i=8132'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/kiyo-in-kyoto-from-the-maiko-house'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GJ0H7Q443/Kiyo-in-Kyoto-From-the-Maiko-House'
   hulu|Hulu: ''
   youtube: ''
 ---
@@ -1033,7 +1033,7 @@ info:
   official: 'http://www.toei-anim.co.jp/tv/tropical-rouge_precure/'
   subreddit: '/r/precure'
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/tropical-rouge-pretty-cure'
+  crunchyroll: 'http://crunchyroll.com/tropical-rouge-pretty-cure'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1337,7 +1337,7 @@ streams:
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  youtube_nonplaylist|Official channel: 'https://www.youtube.com/c/D4DJEnglishChannel/videos'
+  youtube: 'https://www.youtube.com/playlist?list=PL58brFgdVYkoL_ADeArD9-jWyrIt8Rj9q'
   nyaa: 'D4DJ Petit Mix'
 #---
 #title: ''

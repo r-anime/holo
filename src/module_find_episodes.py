@@ -44,8 +44,8 @@ def main(config, db, **kwargs):
 	# Check generic services
 	# Note : selecting only shows with missing streams avoids troll torrents,
 	# but also can cause delays if supported services are later than unsupported ones
-	#other_shows = set(db.get_shows(missing_stream=True)) | set(db.get_shows(delayed=True))
-	other_shows = set(db.get_shows(missing_stream=False)) | set(db.get_shows(delayed=True))
+	other_shows = set(db.get_shows(missing_stream=True)) | set(db.get_shows(delayed=True))
+	#other_shows = set(db.get_shows(missing_stream=False)) | set(db.get_shows(delayed=True))
 	if len(other_shows) > 0:
 		info("Checking generic services for {} shows".format(len(other_shows)))
 

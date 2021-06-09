@@ -103,7 +103,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42764'
   animeplanet: 'http://www.anime-planet.com/anime/pretty-boy-detective-club'
   official: 'https://bishonen-tanteidan.com/'
-  subreddit: ''
+  subreddit: '/r/bishounen'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -174,7 +174,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44181'
   animeplanet: 'http://www.anime-planet.com/anime/vanguard-overdress'
   official: 'https://anime.cf-vanguard.com/overdress/'
-  subreddit: ''
+  subreddit: '/r/cardfightvanguard'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/cardfight-vanguard-overdress'
   museasia: ''
@@ -199,7 +199,7 @@ info:
   official: 'https://cestvs-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/cestvs-the-roman-fighter'
+  crunchyroll: 'https://www.crunchyroll.com/cestvs-the-roman-fighter-'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -422,7 +422,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: '[MoyaiSubs] Godzilla Singular Point'
 ---
 title: 'Hige wo Soru. Soshite Joshikousei wo Hirou.'
 alias: ['Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway']
@@ -482,7 +482,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43118'
   animeplanet: 'http://www.anime-planet.com/anime/how-not-to-summon-a-demon-lord-omega'
   official: 'https://isekaimaou-anime.com/'
-  subreddit: ''
+  subreddit: '/r/HowToSummonADemonLord'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/how-not-to-summon-a-demon-lord'
   museasia: ''
@@ -612,7 +612,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Full Dive'
 ---
 title: 'Mairimashita! Iruma-kun Season 2'
 alias: ['Welcome to Demon School! Iruma-kun Season 2']
@@ -717,7 +717,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44172'
   animeplanet: 'http://www.anime-planet.com/anime/mewkledreamy-mix'
   official: 'https://mewkledreamy.com/'
-  subreddit: ''
+  subreddit: '/r/Mewkledreamy'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -788,7 +788,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43932'
   animeplanet: 'http://www.anime-planet.com/anime/odd-taxi'
   official: 'https://oddtaxi.jp/'
-  subreddit: ''
+  subreddit: '/r/OddTaxi'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/oddtaxi'
   museasia: ''
@@ -838,13 +838,13 @@ info:
   subreddit: '/r/OsaMake'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/osamake-romcom-where-the-childhood-friend-wont-lose'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl1WTubEn3m0nfJ8ZLnLFUwq'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G24H1N21Q'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -978,7 +978,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44064'
   animeplanet: 'http://www.anime-planet.com/anime/seven-knights-revolution-eiyuu-no-keishousha'
   official: 'https://sevenknights-anime.jp/'
-  subreddit: ''
+  subreddit: '/r/sevenknights'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/seven-knights-revolution-hero-successor'
   museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0KbQlqHjTn5dWFSadUHkzh'
@@ -1025,7 +1025,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43309'
   animeplanet: 'http://www.anime-planet.com/anime/shakunetsu-kabaddi'
   official: 'https://www.tv-tokyo.co.jp/anime/kabaddi/'
-  subreddit: ''
+  subreddit: '/r/BurningKabaddi'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/burning-kabaddi'
   museasia: ''
@@ -1299,7 +1299,7 @@ streams:
 title: 'Washimo Season 9'
 has_source: true
 info:
-  mal: ''
+  mal: 'https://myanimelist.net/anime/48539/'
   anilist: ''
   anidb: ''
   kitsu: ''
@@ -1403,7 +1403,7 @@ info:
   subreddit: '/r/MoriartyPatriot'
 streams:
   crunchyroll: ''
-  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl23lU3K_aB0k1aPJ93_jdnt'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl23lU3K_aB0k1aPJ93_jdnt|11'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/moriarty-the-patriot/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1127'
@@ -1486,28 +1486,28 @@ streams:
   nyaa: ''
 ---
 title: 'Kobayashi-san Chi no Maidragon S: Mini Dra'
-alias: ["Miss Kobayashi's Dragon Maid S Shorts"]
+alias: ["Miss Kobayashi's Dragon Maid S Shorts", "Mini Dragon"]
 has_source: true
 info:
- mal: 'https://myanimelist.net/anime/48590/'
- anilist: 'https://anilist.co/anime/132096/'
- anidb: ''
- kitsu: ''
- animeplanet: ''
- official: 'https://maidragon.jp/2nd/'
- subreddit: '/r/DragonMaid'
+  mal: 'https://myanimelist.net/anime/48590/Mini_Dragon'
+  anilist: 'https://anilist.co/anime/132096'
+  anidb: ''
+  kitsu: 'https://kitsu.io/anime/kobayashi-san-chi-no-maidragon-s-mini-dra'
+  animeplanet: ''
+  official: 'https://maidragon.jp/2nd/'
+  subreddit: '/r/DragonMaid'
 streams:
- crunchyroll: 'https://www.crunchyroll.com/miss-kobayashis-dragon-maid'
- museasia: ''
- funimation|Funimation: ''
- wakanim|Wakanim: ''
- hidive: ''
- animelab|AnimeLab: ''
- crunchyroll_nsfw|Crunchyroll: ''
- vrv|VRV: ''
- hulu|Hulu: ''
- youtube: ''
- nyaa: 'Kobayashi-san Chi no Maid Dragon S2 Shorts'
+  crunchyroll: 'https://www.crunchyroll.com/miss-kobayashis-dragon-maid'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
 #---
 #title: ''
 #alias: ['']
