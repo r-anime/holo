@@ -457,7 +457,12 @@ class DatabaseDatabase:
 		elif missing_stream:
 			self.q.execute(
 				"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows show\
-				WHERE (SELECT count(*) FROM Streams stream WHERE stream.show = show.id AND stream.active = 1) = 0 AND enabled = ?",
+				WHERE (SELECT count(*) FROM Streams stream, Services service \
+				       WHERE stream.show = show.id \
+				       AND stream.active = 1 \
+				       AND stream.service = service.id \
+				       AND service.enabled = 1) = 0 \
+				AND enabled = ?",
 				(enabled,))
 		elif delayed:
 			self.q.execute(
