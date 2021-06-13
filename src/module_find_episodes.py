@@ -88,8 +88,8 @@ def _process_new_episode(config, db, show, stream, episode):
 	debug("Processing new episode")
 	debug(episode)
 	
-	info("  Date: {}".format(episode.date))
-	info("  Is live: {}".format(episode.is_live))
+	debug("  Date: {}".format(episode.date))
+	debug("  Is live: {}".format(episode.is_live))
 	#if episode.is_live and (episode.date is None or episode.date.date() > yesterday):
 	if episode.is_live:
 		# Adjust episode to internal numbering
@@ -102,11 +102,16 @@ def _process_new_episode(config, db, show, stream, episode):
 		# Check if already in database
 		#already_seen = db.stream_has_episode(stream, episode.number)
 		latest_episode = db.get_latest_episode(show)
-		info("  Latest ep num: {}".format("none" if latest_episode is None else latest_episode.number))
 		already_seen = latest_episode is not None and latest_episode.number >= int_episode.number
-		info(f"  Already seen: {already_seen}")
 		episode_number_gap = latest_episode is not None and latest_episode.number > 0 and int_episode.number > latest_episode.number + 1
-		info(f"  Gap between episodes: {episode_number_gap}")
+		debug("  Latest ep num: {}".format("none" if latest_episode is None else latest_episode.number))
+		debug(f"  Already seen: {already_seen}")
+		debug(f"  Gap between episodes: {episode_number_gap}")
+
+		info(f"  Posted on {episode.date}, " +
+			 f"num {int_episode.number}, " +
+			 f"{'already seen' if already_seen else 'new'}, " +
+			 f"{'gap between episodes' if episode_number_gap else 'expected number'}")
 		
 		# New episode!
 		if not already_seen and not episode_number_gap:
