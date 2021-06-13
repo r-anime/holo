@@ -84,6 +84,7 @@ class ServiceHandler(AbstractServiceHandler):
 					info(f"Matching found for torrent {torrent.title}")
 					info(f"  -> {show.name}")
 					found_streams.append(stream)
+					break
 		if not found_streams:
 			debug(f"No matching show found for torrent {torrent.title}")
 		return found_streams
