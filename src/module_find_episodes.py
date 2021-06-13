@@ -94,7 +94,7 @@ def _process_new_episode(config, db, show, stream, episode):
 	if episode.is_live:
 		# Adjust episode to internal numbering
 		int_episode = stream.to_internal_episode(episode)
-		info("  Adjusted num: {}".format(int_episode.number))
+		debug("  Adjusted num: {}".format(int_episode.number))
 		if int_episode.number <= 0:
 			error("Episode number must be positive")
 			return False
@@ -109,7 +109,7 @@ def _process_new_episode(config, db, show, stream, episode):
 		debug(f"  Gap between episodes: {episode_number_gap}")
 
 		info(f"  Posted on {episode.date}, " +
-			 f"num {int_episode.number}, " +
+			 f"number {int_episode.number}, " +
 			 f"{'already seen' if already_seen else 'new'}, " +
 			 f"{'gap between episodes' if episode_number_gap else 'expected number'}")
 		
