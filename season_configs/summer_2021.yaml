@@ -1,5 +1,5 @@
 title: '100-man no Inochi no Ue ni Ore wa Tatte Iru 2nd Season'
-alias: ["I'm Standing on a Million Lives 2nd Season"]
+alias: ["I'm Standing on a Million Lives Season 2"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/44881'
@@ -10,14 +10,14 @@ info:
   official: 'http://1000000-lives.com/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/G6Q9GGE26'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G6Q9GGE26'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -94,7 +94,7 @@ streams:
   nyaa: ''
 ---
 title: 'Deatte 5-byou de Battle'
-alias: ['Battle in 5 seconds after meeting.']
+alias: ['Battle Game in 5 Seconds']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/43814'
@@ -135,7 +135,7 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/how-a-realistic-hero-rebuilt-the-kingdom/'
   wakanim|Wakanim: ''
   hidive: ''
-  animelab|AnimeLab: 'https://www.animelab.com/shows/how-a-realistic-hero-rebuilt-the-kingdom'
+  animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
@@ -164,8 +164,32 @@ streams:
   youtube: ''
   nyaa: ''
 ---
+title: 'Hachigatsu no Cinderella Nine Episode 13'
+alias: ['Cinderella Nine Episode 13']
+has_source: true
+info:
+  mal: ''
+  anilist: ''
+  anidb: ''
+  kitsu: ''
+  animeplanet: ''
+  official: 'https://anime-hachinai.com/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
+---
 title: 'Heion Sedai no Idaten-tachi'
-alias: ['Idaten Deities in the Peaceful Generation']
+alias: ['The Idaten Deities Know Only Peace']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42625'
@@ -206,7 +230,7 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/higurashi-when-they-cry-new/'
   wakanim|Wakanim: ''
   hidive: ''
-  animelab|AnimeLab: 'https://www.animelab.com/shows/higurashi-when-they-cry--new'
+  animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
@@ -223,14 +247,14 @@ info:
   official: 'http://idolish7.com/aninana/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GRE50NQV6'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GRE50NQV6'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -283,6 +307,30 @@ streams:
   youtube: ''
   nyaa: ''
 ---
+title: 'Kaizoku Oujo'
+alias: ['Fena: Pirate Princess']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/42544'
+  anilist: 'https://anilist.co/anime/122052'
+  anidb: 'http://anidb.net/a15656'
+  kitsu: 'https://kitsu.io/anime/43456'
+  animeplanet: 'http://www.anime-planet.com/anime/fena-pirate-princess'
+  official: 'http://fena-pirate-princess.com/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
+---
 title: 'Kanojo mo Kanojo'
 alias: ['Girlfriend, Girlfriend']
 has_source: true
@@ -293,6 +341,29 @@ info:
   kitsu: 'https://kitsu.io/anime/44165'
   animeplanet: 'http://www.anime-planet.com/anime/kanojo-mo-kanojo'
   official: 'https://kanokano-anime.com/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Kick & Slide'
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/49221'
+  anilist: ''
+  anidb: 'http://anidb.net/a16374'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/kick-and-slide'
+  official: 'https://www.kidsbhappy.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -319,7 +390,7 @@ info:
   official: 'https://maidragon.jp/2nd/'
   subreddit: ''
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/miss-kobayashis-dragon-maid'
+  crunchyroll: 'https://www.crunchyroll.com/series/G6497Z43Y'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -354,16 +425,16 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Mahouka Koukou no Yuutousei'
-alias: ['The Honor Student at Magic High School']
+title: 'Magia Record: Mahou Shoujo Madoka★Magica Gaiden 2nd Season'
+alias: ['Magia Record: Puella Magi Madoka Magica Side Story 2nd Season']
 has_source: true
 info:
-  mal: 'https://myanimelist.net/anime/45572'
-  anilist: 'https://anilist.co/anime/127688'
-  anidb: 'http://anidb.net/a15952'
-  kitsu: 'https://kitsu.io/anime/43847'
-  animeplanet: 'http://www.anime-planet.com/anime/the-honor-student-at-magic-high-school'
-  official: 'https://mahouka-yuutousei.jp/'
+  mal: 'https://myanimelist.net/anime/41530'
+  anilist: 'https://anilist.co/anime/117002'
+  anidb: 'http://anidb.net/a15472'
+  kitsu: 'https://kitsu.io/anime/43090'
+  animeplanet: 'http://www.anime-planet.com/anime/magia-record-puella-magi-madoka-magica-side-story-2nd-season'
+  official: 'https://anime.magireco.com/'
   subreddit: ''
 streams: 
   crunchyroll: ''
@@ -378,7 +449,32 @@ streams:
   youtube: ''
   nyaa: ''
 ---
+title: 'Mahouka Koukou no Yuutousei'
+alias: ['The Honor at Magic High School']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/45572'
+  anilist: 'https://anilist.co/anime/127688'
+  anidb: 'http://anidb.net/a15952'
+  kitsu: 'https://kitsu.io/anime/43847'
+  animeplanet: 'http://www.anime-planet.com/anime/the-honor-student-at-magic-high-school'
+  official: 'https://mahouka-yuutousei.jp/'
+  subreddit: ''
+streams: 
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-honor-at-magic-high-school/'
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
+---
 title: 'Megami-ryou no Ryoubo-kun.'
+alias: ["Mother of the Goddess' Dormitory"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41812'
@@ -472,30 +568,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Obey Me!'
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/48641'
-  anilist: 'https://anilist.co/anime/131880'
-  anidb: 'http://anidb.net/a16185'
-  kitsu: 'https://kitsu.io/anime/44301'
-  animeplanet: 'http://www.anime-planet.com/anime/obey-me'
-  official: 'https://twitter.com/ObeyMeOfficial1'
-  subreddit: ''
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: ''
----
 title: 'Ore, Tsushima'
+alias: ['I, Tsushima']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/48252'
@@ -571,7 +645,7 @@ info:
   mal: 'https://myanimelist.net/anime/48859'
   anilist: ''
   anidb: 'http://anidb.net/a16284'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/44761'
   animeplanet: 'http://www.anime-planet.com/anime/pretty-all-friends-selection'
   official: 'https://www.takaratomy-arts.co.jp/specials/pretty10th/'
   subreddit: ''
@@ -602,8 +676,8 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/re-main/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1393'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -628,7 +702,7 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/scarlet-nexus/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1349'
   hidive: ''
-  animelab|AnimeLab: 'https://www.animelab.com/shows/scarlet-nexus'
+  animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
@@ -683,7 +757,7 @@ streams:
   nyaa: ''
 ---
 title: 'Shiroi Suna no Aquatope'
-alias: ['Aquatope of White Sand']
+alias: ['The aquatope on white sand']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/46093'
@@ -721,9 +795,9 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/sonny-boy/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1373'
   hidive: ''
-  animelab|AnimeLab: 'https://www.animelab.com/shows/sonny-boy'
+  animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
@@ -760,7 +834,7 @@ info:
   anilist: 'https://anilist.co/anime/128712'
   anidb: 'http://anidb.net/a15998'
   kitsu: 'https://kitsu.io/anime/44022'
-  animeplanet: 'http://www.anime-planet.com/anime/tantei-wa-mou-shindeiru-the-lost-memory'
+  animeplanet: 'http://www.anime-planet.com/anime/tantei-wa-mou-shindeiru'
   official: 'https://tanmoshi-anime.jp/'
   subreddit: ''
 streams: 
@@ -788,13 +862,13 @@ info:
   official: 'https://www.ten-sura.com/anime/tensura'
   subreddit: ''
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime'
+  crunchyroll: 'https://www.crunchyroll.com/series/GYZJ43JMR'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/that-time-i-got-reincarnated-as-a-slime/'
   wakanim|Wakanim: ''
   hidive: ''
-  animelab|AnimeLab: 'https://www.animelab.com/shows/that-time-i-got-reincarnated-as-a-slime'
+  animelab|AnimeLab: ''
   vrv|VRV: 'https://vrv.co/series/GYZJ43JMR'
   hulu|Hulu: ''
   youtube: ''
@@ -808,11 +882,11 @@ info:
   anilist: 'https://anilist.co/anime/125206'
   anidb: 'http://anidb.net/a15795'
   kitsu: 'https://kitsu.io/anime/44297'
-  animeplanet: 'http://www.anime-planet.com/anime/tsukimichi-moonlit-fantasy-'
+  animeplanet: 'http://www.anime-planet.com/anime/tsukimichi-moonlit-fantasy'
   official: 'https://tsukimichi.com/'
   subreddit: ''
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/tsukimichi-moonlit-fantasy-'
+  crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -863,7 +937,7 @@ streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-case-study-of-vanitas/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -889,20 +963,20 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/wonder-egg-priority/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1223'
   hidive: ''
-  animelab|AnimeLab: 'https://www.animelab.com/shows/wonder-egg-priority'
+  animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
 ---
-title: 'Yami Shibai 9th Season'
+title: 'Yami Shibai 9'
 alias: ['Theatre of Darkness: Yamishibai 9']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/49110'
   anilist: 'https://anilist.co/anime/135108'
   anidb: 'http://anidb.net/a16363'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/44664'
   animeplanet: 'http://www.anime-planet.com/anime/yamishibai-japanese-ghost-stories-9th-season'
   official: 'https://www.tv-tokyo.co.jp/anime/yamishibai9/'
   subreddit: ''
