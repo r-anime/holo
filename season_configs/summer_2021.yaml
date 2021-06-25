@@ -8,7 +8,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43883'
   animeplanet: 'http://www.anime-planet.com/anime/im-standing-on-a-million-lives-2nd-season'
   official: 'http://1000000-lives.com/'
-  subreddit: ''
+  subreddit: '/r/100ManNoInochi'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/series/G6Q9GGE26'
   museasia: ''
@@ -32,7 +32,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42924'
   animeplanet: 'http://www.anime-planet.com/anime/bokutachi-no-remake'
   official: 'https://bokurema.com/'
-  subreddit: ''
+  subreddit: '/r/BokutachiNoRemake'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -71,6 +71,7 @@ streams:
   nyaa: ''
 ---
 title: 'D_Cide Traumerei The Animation'
+alias: ['DCTM, Toromera']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/48470'
@@ -127,7 +128,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43613'
   animeplanet: 'http://www.anime-planet.com/anime/how-a-realist-hero-rebuilt-the-kingdom'
   official: 'https://genkoku-anime.com/'
-  subreddit: ''
+  subreddit: '/r/RealistHero'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -150,7 +151,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43712'
   animeplanet: 'http://www.anime-planet.com/anime/getter-robo-arc'
   official: 'https://getterrobot-arc.com/'
-  subreddit: ''
+  subreddit: '/r/getterrobo'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -174,7 +175,7 @@ info:
   kitsu: ''
   animeplanet: ''
   official: 'https://anime-hachinai.com/'
-  subreddit: ''
+  subreddit: '/r/CinderellaNine'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -222,7 +223,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44184'
   animeplanet: 'http://www.anime-planet.com/anime/higurashi-when-they-cry-sotsu'
   official: 'https://higurashianime.com/'
-  subreddit: ''
+  subreddit: ['/r/Higurashi', '/r/Higurashinonakakoroni'] #
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -245,7 +246,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44314'
   animeplanet: 'http://www.anime-planet.com/anime/idolish7-3'
   official: 'http://idolish7.com/aninana/'
-  subreddit: ''
+  subreddit: '/r/IDOLiSH7'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/series/GRE50NQV6'
   museasia: ''
@@ -269,7 +270,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44392'
   animeplanet: 'http://www.anime-planet.com/anime/the-great-jahy-will-not-be-defeated'
   official: 'https://jahysama-anime.com/'
-  subreddit: ''
+  subreddit: '/r/JahySamaWaKujikenai'
 streams: 
   crunchyroll: ''
   museasia: ''
