@@ -837,7 +837,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44022'
   animeplanet: 'http://www.anime-planet.com/anime/tantei-wa-mou-shindeiru'
   official: 'https://tanmoshi-anime.jp/'
-  subreddit: ''
+  subreddit: '/r/DetectiveAlreadyDead'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -861,7 +861,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43361'
   animeplanet: 'http://www.anime-planet.com/anime/tensei-shitara-slime-datta-ken-2nd-season-part-2'
   official: 'https://www.ten-sura.com/anime/tensura'
-  subreddit: ''
+  subreddit: '/r/TenseiSlime'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/series/GYZJ43JMR'
   museasia: ''
@@ -885,7 +885,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44297'
   animeplanet: 'http://www.anime-planet.com/anime/tsukimichi-moonlit-fantasy'
   official: 'https://tsukimichi.com/'
-  subreddit: ''
+  subreddit: '/r/TsukiMichi'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -933,7 +933,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44241'
   animeplanet: 'http://www.anime-planet.com/anime/the-case-study-of-vanitas'
   official: 'https://vanitas-anime.com/'
-  subreddit: ''
+  subreddit: '/r/vanitasnocarte'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -956,7 +956,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44260'
   animeplanet: 'http://www.anime-planet.com/anime/wonder-egg-priority-special-edition'
   official: 'https://wonder-egg-priority.com/'
-  subreddit: ''
+  subreddit: '/r/wondereggpriority'
 streams: 
   crunchyroll: ''
   museasia: ''
