@@ -285,7 +285,7 @@ streams:
   nyaa: ''
 ---
 title: 'Kageki Shoujo!!'
-alias: ['Kageki Shojo!!']
+alias: ['Kageki Shojo!!', 'Opera Girl!, The Curtain Rises']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/43691'
@@ -318,7 +318,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43456'
   animeplanet: 'http://www.anime-planet.com/anime/fena-pirate-princess'
   official: 'http://fena-pirate-princess.com/'
-  subreddit: ''
+  subreddit: '' # /r/KaizokuOujo - unmoderated
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -342,7 +342,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44165'
   animeplanet: 'http://www.anime-planet.com/anime/kanojo-mo-kanojo'
   official: 'https://kanokano-anime.com/'
-  subreddit: ''
+  subreddit: '/r/KanojoMoKanojo'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -389,7 +389,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42149'
   animeplanet: 'http://www.anime-planet.com/anime/miss-kobayashis-dragon-maid-s'
   official: 'https://maidragon.jp/2nd/'
-  subreddit: ''
+  subreddit: '/r/DragonMaid'
 streams: 
   crunchyroll: 'https://www.crunchyroll.com/series/G6497Z43Y'
   museasia: ''
@@ -412,7 +412,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44124'
   animeplanet: 'http://www.anime-planet.com/anime/love-live-superstar'
   official: 'http://www.lovelive-anime.jp/yuigaoka/'
-  subreddit: ''
+  subreddit: '/r/LoveLive'
 streams: 
   crunchyroll: ''
   museasia: ''
