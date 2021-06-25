@@ -436,7 +436,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43090'
   animeplanet: 'http://www.anime-planet.com/anime/magia-record-puella-magi-madoka-magica-side-story-2nd-season'
   official: 'https://anime.magireco.com/'
-  subreddit: ''
+  subreddit: '/r/magiarecord'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -460,7 +460,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43847'
   animeplanet: 'http://www.anime-planet.com/anime/the-honor-student-at-magic-high-school'
   official: 'https://mahouka-yuutousei.jp/'
-  subreddit: ''
+  subreddit: '/r/Mahouka'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -555,7 +555,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43894'
   animeplanet: 'http://www.anime-planet.com/anime/night-head-2041'
   official: 'https://nighthead2041.jp/'
-  subreddit: ''
+  subreddit: '' # /r/NIGHTHEAD2041 - unmoderated.
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -603,7 +603,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43238'
   animeplanet: 'http://www.anime-planet.com/anime/my-next-life-as-a-villainess-all-routes-lead-to-doom-season-2'
   official: 'https://hamehura-anime.com/'
-  subreddit: ''
+  subreddit: '/r/Otomegame'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -626,7 +626,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43870'
   animeplanet: 'http://www.anime-planet.com/anime/peach-boy-riverside'
   official: 'https://peachboyriverside.com/'
-  subreddit: ''
+  subreddit: '/r/PeachBoyRiverside'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -672,7 +672,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44122'
   animeplanet: 'http://www.anime-planet.com/anime/re-main'
   official: 'https://re-main.net/'
-  subreddit: ''
+  subreddit: '/r/Re_Main'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -695,7 +695,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44195'
   animeplanet: 'http://www.anime-planet.com/anime/scarlet-nexus'
   official: 'https://snx-anime.net/'
-  subreddit: ''
+  subreddit: '/r/ScarletNexus'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -719,7 +719,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44174'
   animeplanet: 'http://www.anime-planet.com/anime/seirei-gensouki-spirit-chronicles'
   official: 'https://seireigensouki.com/'
-  subreddit: ''
+  subreddit: '/r/SeireiGensouki'
 streams: 
   crunchyroll: ''
   museasia: ''
