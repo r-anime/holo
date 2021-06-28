@@ -23,7 +23,7 @@ streams:
   nyaa: ''
 ---
 title: 'Bokutachi no Remake'
-alias: ['Remake our Life!']
+alias: ['Remake Our Life!']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40904'
@@ -47,7 +47,7 @@ streams:
   nyaa: ''
 ---
 title: 'Cheat Kusushi no Slow Life: Isekai ni Tsukurou Drugstore'
-alias: ['Drugstore in Another World: The Slow Life of a Cheat Pharmacist']
+alias: ['Drug Store in Another World - The Slow Life of a Cheat Pharmacist']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/40960'
@@ -133,7 +133,7 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/how-a-realistic-hero-rebuilt-the-kingdom/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1375'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -228,7 +228,7 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/higurashi-when-they-cry-new/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/950'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -425,8 +425,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Magia Record: Mahou Shoujo Madoka★Magica Gaiden 2nd Season'
-alias: ['Magia Record: Puella Magi Madoka Magica Side Story 2nd Season']
+title: 'Magia Record: Mahou Shoujo Madoka★Magica Gaiden 2nd Season - Kakusei Zenya'
+alias: ['Magia Record: Puella Magi Madoka Magica Side Story 2nd Season - Eve of Awakening']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41530'
@@ -465,7 +465,7 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/the-honor-at-magic-high-school/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1413'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -604,14 +604,14 @@ info:
   official: 'https://hamehura-anime.com/'
   subreddit: ''
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GY5PW4JEY'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GY5PW4JEY'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -938,7 +938,7 @@ streams:
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/the-case-study-of-vanitas/'
-  wakanim|Wakanim: ''
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1383'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
