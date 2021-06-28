@@ -223,7 +223,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44184'
   animeplanet: 'http://www.anime-planet.com/anime/higurashi-when-they-cry-sotsu'
   official: 'https://higurashianime.com/'
-  subreddit: ['/r/Higurashi', '/r/Higurashinonakakoroni'] #
+  subreddit: '/r/Higurashi'
 streams: 
   crunchyroll: ''
   museasia: ''
