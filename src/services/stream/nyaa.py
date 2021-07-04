@@ -74,7 +74,7 @@ class ServiceHandler(AbstractServiceHandler):
 			names = [show.name] + show.aliases + [stream.show_key]
 
 			for name in names:
-				debug(f"  Trying: {name}")
+				#debug(f"  Trying: {name}")
 				# Match if each word in the show name is in the torrent name
 				# Intent is to allow inclusion of fansub group names
 				words_show = set(_normalize_show_name(name).split())
