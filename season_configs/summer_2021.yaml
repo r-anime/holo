@@ -261,6 +261,7 @@ streams:
   nyaa: ''
 ---
 title: 'IDOLiSH7: Third BEAT!'
+alias: ['IDOLiSH7 Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/45577'
@@ -271,7 +272,7 @@ info:
   official: 'http://idolish7.com/aninana/'
   subreddit: '/r/IDOLiSH7'
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/series/GRE50NQV6'
+  crunchyroll: 'https://www.crunchyroll.com/idolish7'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
