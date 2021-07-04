@@ -86,9 +86,9 @@ class ServiceHandler(AbstractServiceHandler):
             return match.group(1)
         return None
 
-_episode_re = re.compile("https://www.hidive.com/stream/[\w-]+/s\d{2}e(\d{3})", re.I)
-_episode_re_alter = re.compile("https://www.hidive.com/stream/[\w-]+/\d{4}\d{2}\d{2}(\d{2})", re.I)
-_episode_name_correct = re.compile("(?:E\d+|Shorts) \| (.*)")
+_episode_re = re.compile("(?:https://www.hidive.com)?/stream/[\w-]+/s\d{2}e(\d{3})", re.I)
+_episode_re_alter = re.compile("(?:https://www.hidive.com)?/stream/[\w-]+/\d{4}\d{2}\d{2}(\d{2})", re.I)
+_episode_name_correct = re.compile("(?:E\d+|Shorts) ?\| ?(.*)")
 _episode_name_invalid = re.compile(".*coming soon.*", re.I)
 
 def _is_valid_episode(episode_data, show_key):
@@ -113,7 +113,7 @@ def _digest_episode(feed_episode):
         warning("Using alternate episode key format")
         num = int(num_match_alter.group(1))
     else:
-        warning("Unknown episode number format")
+        warning(f"Unknown episode number format in {episode_link}")
         return None
     if num <= 0:
         return None
