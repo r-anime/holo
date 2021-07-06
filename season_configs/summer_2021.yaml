@@ -875,8 +875,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Tensei Shitara Slime Datta Ken 2nd Season Part 2'
-alias: ['That Time I Got Reincarnated as a Slime Season 2 Part 2']
+title: 'Tensei Shitara Slime Datta Ken Season 2 Part 2'
+alias: ['That Time I Got Reincarnated as a Slime Season 2 Part 2', 'Tensei Slime', 'Tensura']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41487'
@@ -887,7 +887,7 @@ info:
   official: 'https://www.ten-sura.com/anime/tensura'
   subreddit: '/r/TenseiSlime'
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/series/GYZJ43JMR'
+  crunchyroll: 'https://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime|36'
   museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl24o1N6adcgGPyIJPfJ21GL'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/that-time-i-got-reincarnated-as-a-slime/'
