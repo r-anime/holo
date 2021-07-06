@@ -59,7 +59,7 @@ info:
 streams: 
   crunchyroll: ''
   museasia: ''
-  anione: 'https://www.youtube.com/watch?v=hasJei2WwLk&list=PLxSscENEp7Jjad7wjjOwOoFgbHC5ZXhtG'
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jjad7wjjOwOoFgbHC5ZXhtG'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -178,7 +178,7 @@ info:
 streams: 
   crunchyroll: ''
   museasia: ''
-  anione: 'https://www.youtube.com/watch?v=aymf48DAXqo&list=PLxSscENEp7JhHilZTy4u4rr_s8-nEM1-8'
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JhHilZTy4u4rr_s8-nEM1-8'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: 'https://www.hidive.com/tv/getter-robo-arc'
@@ -250,7 +250,7 @@ info:
 streams: 
   crunchyroll: ''
   museasia: ''
-  anione: 'https://www.youtube.com/watch?v=MP_5XFigDbE&list=PLxSscENEp7Jh7yn1GT-SfcTUqt5B_A7wf'
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jh7yn1GT-SfcTUqt5B_A7wf'
   funimation|Funimation: 'https://www.funimation.com/shows/higurashi-when-they-cry-gou/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/950'
   hidive: ''
@@ -700,7 +700,7 @@ info:
 streams: 
   crunchyroll: ''
   museasia: ''
-  anione: 'https://www.youtube.com/watch?v=GgqqA3J80eE&list=PLxSscENEp7JhnfTQGx_aB4V2B6mc6a3gx'
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JhnfTQGx_aB4V2B6mc6a3gx'
   funimation|Funimation: 'https://www.funimation.com/shows/re-main/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1393'
   hidive: ''
@@ -723,7 +723,7 @@ info:
 streams: 
   crunchyroll: ''
   museasia: ''
-  anione: 'https://www.youtube.com/watch?v=IiuZpFogHe0&list=PLxSscENEp7Jg9olNs9aYTSFjc6PM5vrbU'
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jg9olNs9aYTSFjc6PM5vrbU'
   funimation|Funimation: 'https://www.funimation.com/shows/scarlet-nexus/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1349'
   hidive: ''
