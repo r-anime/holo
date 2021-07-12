@@ -428,7 +428,7 @@ streams:
   nyaa: ''
 ---
 title: 'Love Live! Superstar!!'
-has_source: true
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/41169'
   anilist: 'https://anilist.co/anime/114979'
