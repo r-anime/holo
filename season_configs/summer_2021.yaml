@@ -10,7 +10,7 @@ info:
   official: 'http://1000000-lives.com/'
   subreddit: '/r/100ManNoInochi'
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/im-standing-on-a-million-lives'
+  crunchyroll: 'https://www.crunchyroll.com/im-standing-on-a-million-lives|12'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -640,7 +640,7 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GY5PW4JEY'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijou ni Tensei Shiteshimatta X'
 ---
 title: 'Peach Boy Riverside'
 has_source: true
