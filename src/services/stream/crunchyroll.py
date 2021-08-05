@@ -169,10 +169,6 @@ def _is_valid_episode(feed_episode, show_id):
 	if feed_episode.get("crunchyroll_isclip", False) or not hasattr(feed_episode, "crunchyroll_episodenumber"):
 		debug("Is PV, ignoring")
 		return False
-	# Sanity check
-	if _get_slug(feed_episode.link) != show_id:
-		debug("Wrong ID")
-		return False
 	# Don't check really old episodes
 	episode_date = datetime(*feed_episode.published_parsed[:6])
 	date_diff = datetime.utcnow() - episode_date
