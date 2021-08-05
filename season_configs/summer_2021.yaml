@@ -607,7 +607,7 @@ info:
 streams: 
   crunchyroll: ''
   museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl31ypf0OGfmtqZ5upkdcrGt'
-  asmikace: 'https://www.youtube.com/playlist?list=PLl7reuZgwQ_TGFBlOPAm59WvVTXBPAufB'
+  youtube: 'https://www.youtube.com/playlist?list=PLl7reuZgwQ_TGFBlOPAm59WvVTXBPAufB'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
@@ -1032,7 +1032,7 @@ info:
  subreddit: ''
 streams:
  crunchyroll: ''
- asmikace: 'https://www.youtube.com/playlist?list=PLl7reuZgwQ_TGFBlOPAm59WvVTXBPAufB'
+ youtube: 'https://www.youtube.com/playlist?list=PLl7reuZgwQ_TGFBlOPAm59WvVTXBPAufB'
  museasia: ''
  funimation|Funimation: ''
  wakanim|Wakanim: ''
