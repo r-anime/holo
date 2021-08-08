@@ -201,7 +201,7 @@ _exludors = [re.compile(x, re.I) for x in [
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
-	r"\[(?:horriblesubs|SubsPlease|commie|hiryuu|kuusou|fff|merchant|lolisubs|hitoku|erai-raws|davinci|asenshi|mezashite|anonyneko|pas|ryuujitk|Aoneko Subs)\] .+ - (\d+) ",
+	r"\[(?:horriblesubs|SubsPlease|commie|hiryuu|kuusou|fff|merchant|lolisubs|hitoku|erai-raws|davinci|asenshi|mezashite|anonyneko|pas|ryuujitk)\] .+ - (\d+) ",
 	r"\[DameDesuYo\] .+ - (\d+)[ v]",
 	r"\[Some-Stuffs\]_.+_(\d{3})_",
 	r"\[(?:orz|hayaku|sxrp)\] .+ (\d+)", # No separator
@@ -214,6 +214,7 @@ _num_extractors = [re.compile(x, re.I) for x in [
 	r"\[U3-Web\] .+ \[EP(\d+)\]",
 	r"(?:.+).S(?:\d+)E(\d+).Laelaps.Calling.(?:\d+)p.(?:.+)",
 	r"\[(?:SenritsuSubs|AtlasSubbed|Rakushun)\] .+ - (\d+)",
+	r"\[Aoneko Subs\] .+ - S(?:\d+)E(\d+) ", # using the S01E12 format
 	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]", # Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 	r".*?[ _](\d+)[ _]\[\d+p\]", # No tag followed by quality
 	r".*?episode[ _](\d+)", # Completely unformatted, but with the "Episode XX" text
