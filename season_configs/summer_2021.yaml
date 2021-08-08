@@ -438,7 +438,7 @@ info:
   official: 'http://www.lovelive-anime.jp/yuigaoka/'
   subreddit: '/r/LoveLive'
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/love-live-superstar'
+  crunchyroll_regionlocked|Crunchyroll: 'https://www.crunchyroll.com/love-live-superstar'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/love-live-superstar/'
