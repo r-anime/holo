@@ -1043,6 +1043,30 @@ streams:
  hulu|Hulu: ''
  youtube: ''
  nyaa: ''
+---
+title: 'Kaizoku Oujo'
+alias: ['Fena: Pirate Princess']
+has_source: true
+info:
+ mal: 'https://myanimelist.net/anime/42544'
+ anilist: 'https://anilist.co/anime/122052/Kaizoku-Oujo/'
+ anidb: 'https://anidb.net/anime/15656'
+ kitsu: 'https://kitsu.io/anime/43456'
+ animeplanet: 'https://www.anime-planet.com/anime/fena-pirate-princess'
+ official: 'http://fena-pirate-princess.com/'
+ subreddit: ''
+streams:
+ crunchyroll: ''
+ museasia: ''
+ funimation|Funimation: ''
+ wakanim|Wakanim: ''
+ hidive: ''
+ animelab|AnimeLab: ''
+ crunchyroll_nsfw|Crunchyroll: ''
+ vrv|VRV: ''
+ hulu|Hulu: ''
+ youtube: ''
+ nyaa: ''
 #---
 #title: ''
 #alias: ['']
