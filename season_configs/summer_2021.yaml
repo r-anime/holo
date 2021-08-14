@@ -1046,7 +1046,7 @@ streams:
 ---
 title: 'Kaizoku Oujo'
 alias: ['Fena: Pirate Princess']
-has_source: true
+has_source: false
 info:
  mal: 'https://myanimelist.net/anime/42544'
  anilist: 'https://anilist.co/anime/122052/Kaizoku-Oujo/'
@@ -1054,7 +1054,7 @@ info:
  kitsu: 'https://kitsu.io/anime/43456'
  animeplanet: 'https://www.anime-planet.com/anime/fena-pirate-princess'
  official: 'http://fena-pirate-princess.com/'
- subreddit: ''
+ subreddit: 'r/KaizokuOujo'
 streams:
  crunchyroll: ''
  museasia: ''
