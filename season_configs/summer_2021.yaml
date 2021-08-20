@@ -332,30 +332,6 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Kaizoku Oujo'
-alias: ['Fena: Pirate Princess']
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/42544'
-  anilist: 'https://anilist.co/anime/122052'
-  anidb: 'http://anidb.net/a15656'
-  kitsu: 'https://kitsu.io/anime/43456'
-  animeplanet: 'http://www.anime-planet.com/anime/fena-pirate-princess'
-  official: 'http://fena-pirate-princess.com/'
-  subreddit: '' # /r/KaizokuOujo - unmoderated
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: ''
----
 title: 'Kanojo mo Kanojo'
 alias: ['Girlfriend, Girlfriend']
 has_source: true
@@ -1054,7 +1030,7 @@ info:
  kitsu: 'https://kitsu.io/anime/43456'
  animeplanet: 'https://www.anime-planet.com/anime/fena-pirate-princess'
  official: 'http://fena-pirate-princess.com/'
- subreddit: 'r/KaizokuOujo'
+ subreddit: '/r/KaizokuOujo'
 streams:
  crunchyroll: 'https://www.crunchyroll.com/fena-pirate-princess'
  adultswim: 'https://www.adultswim.com/videos/fena-pirate-princess'
