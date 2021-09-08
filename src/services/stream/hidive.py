@@ -118,7 +118,7 @@ def _digest_episode(feed_episode):
     if num <= 0:
         return None
 
-    name = feed_episode.h3.text
+    name = feed_episode.h2.text
     name_match = _episode_name_correct.match(name)
     if name_match:
         debug(f"  Corrected title from {name}")
