@@ -68,7 +68,7 @@ class ServiceHandler(AbstractServiceHandler):
             error("Cannot get feed")
             return None
 
-        stream.name = response.find("h1", itemprop="name", class_="show-content__headerTitle").text
+        stream.name = response.find("h1", itemprop="name").text
         return stream
 
     def get_seasonal_streams(self, **kwargs):
