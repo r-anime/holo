@@ -1176,8 +1176,8 @@ alias: ['Miss Kobayashis Dragon Maid S Short Animation Series EX']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/49483/Mini_Dragon_Specials'
-  anilist: ''
-  anidb: 'https://anilist.co/anime/137804/Kobayashisan-Chi-no-Maidragon-S-Mini-Dra-EX/'
+  anilist: 'https://anilist.co/anime/137804/Kobayashisan-Chi-no-Maidragon-S-Mini-Dra-EX/'
+  anidb: 'https://anidb.net/anime/14678'
   kitsu: 'https://kitsu.io/anime/kobayashi-san-chi-no-maid-dragon-s-mini-dra-ex'
   animeplanet: ''
   official: 'https://maidragon.jp/2nd/'
@@ -1264,6 +1264,31 @@ streams:
  hulu|Hulu: ''
  youtube: ''
  nyaa: ''
+---
+title: 'Getsuyoubi no Tawawa Season 2'
+alias: ['Tawawa on Monday Two']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/49854/Getsuyoubi_no_Tawawa_2'
+  anilist: 'https://anilist.co/anime/139449/Getsuyoubi-no-Tawawa-2/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=16734'
+  kitsu: 'https://kitsu.io/anime/getsuyoubi-no-tawawa-2'
+  animeplanet: 'https://www.anime-planet.com/anime/tawawa-on-monday-2'
+  official: 'https://tawawa2-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/tawawa-on-monday'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  bilibili|Bilibili: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
 #---
 #title: ''
 #alias: ['']
@@ -1283,6 +1308,7 @@ streams:
 #  wakanim|Wakanim: ''
 #  hidive: ''
 #  animelab|AnimeLab: ''
+#  bilibili|Bilibili: ''
 #  crunchyroll_nsfw|Crunchyroll: ''
 #  vrv|VRV: ''
 #  hulu|Hulu: ''
