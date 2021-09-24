@@ -1239,7 +1239,7 @@ streams:
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  youtube: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLQWzKIaERirwJulPC0wLmwXGt4Rmw_9Rp'
   nyaa: ''
 ---
 title: 'Ganbare Douki-chan'
