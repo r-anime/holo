@@ -118,7 +118,8 @@ def _edit_with_file(db, edit_file):
 		if "alias" in doc:
 			aliases = doc["alias"]
 			for alias in aliases:
-				db.add_alias(show_id, alias)
+				if alias != '':
+					db.add_alias(show_id, alias)
 			info(f"Added {len(aliases)} alias{'es' if len(aliases) > 1 else ''}")
 			
 	return True

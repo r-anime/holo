@@ -1219,7 +1219,6 @@ streams:
   nyaa: ''
 ---
 title: 'Pokémon Evolutions'
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/49730'
