@@ -312,7 +312,7 @@ info:
   official: 'http://hanyo-yashahime.com/'
   subreddit: '/r/Yashahime/'
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/series/G63W41KD6'
+  crunchyroll: 'https://www.crunchyroll.com/yashahime-princess-half-demon'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/yashahime-princess-half-demon/'
@@ -360,7 +360,7 @@ info:
   official: 'https://isekai-shokudo2.com/'
   subreddit: '/r/IsekaiShokudou/'
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/series/GR49493P6'
+  crunchyroll: 'https://www.crunchyroll.com/restaurant-to-another-world'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -370,7 +370,7 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GR49493P6'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Isekai Shokudou S2'
 ---
 title: 'Kaginado'
 has_source: false
@@ -1112,14 +1112,14 @@ info:
   official: 'https://yakumo-project.com/'
   subreddit: '/r/YakunaraMugCupMo/'
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/lets-make-a-mug-too'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GQWH0M434'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -1141,7 +1141,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/yuki-yuna-is-a-hero-the-great-mankai-chapter'
+  hidive: 'https://www.hidive.com/tv/yuki-yuna-is-a-hero-great-mankai-chapter'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
