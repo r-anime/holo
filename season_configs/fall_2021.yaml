@@ -1238,8 +1238,8 @@ streams:
   crunchyroll_nsfw|Crunchyroll: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  youtube: 'https://www.youtube.com/playlist?list=PLQWzKIaERirwJulPC0wLmwXGt4Rmw_9Rp'
-  nyaa: ''
+  youtube_donotparse|Youtube: 'https://www.youtube.com/playlist?list=PLQWzKIaERirwJulPC0wLmwXGt4Rmw_9Rp'
+  nyaa: '[Some-Stuffs] Pokémon Evolutions'
 ---
 title: 'Ganbare Douki-chan'
 has_source: true
