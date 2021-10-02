@@ -178,7 +178,7 @@ streams:
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/cardfight-vanguard-overdress/'
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/cardfight-vanguard-overdress'
+  hidive: 'https://www.hidive.com/tv/cardfight-vanguard-overdress|12'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -336,7 +336,7 @@ info:
   official: 'http://hanyo-yashahime.com/'
   subreddit: '/r/Yashahime/'
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/yashahime-princess-half-demon'
+  crunchyroll: 'https://www.crunchyroll.com/yashahime-princess-half-demon|24'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/yashahime-princess-half-demon/'
