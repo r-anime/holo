@@ -656,30 +656,6 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Mushoku Tensei: Isekai Ittara Honki Dasu'
-alias: ['Mushoku Tensei: Jobless Reincarnation Part 2']
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/45576'
-  anilist: 'https://anilist.co/anime/127720'
-  anidb: 'http://anidb.net/a15954'
-  kitsu: 'https://kitsu.io/anime/43907'
-  animeplanet: 'http://www.anime-planet.com/anime/mushoku-tensei-jobless-reincarnation-part-ii'
-  official: 'https://mushokutensei.jp/'
-  subreddit: '/r/mushokutensei/'
-streams: 
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1170'
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: ''
----
 title: 'Muv-Luv Alternative'
 has_source: true
 info:
