@@ -645,7 +645,7 @@ info:
   subreddit: '/r/Mieruko/'
 streams: 
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl17reRE_OPjNhFb-IgV1aYY'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/mieruko-chan/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1403'
