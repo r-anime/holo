@@ -45,8 +45,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: '86 EIGHTY-SIX'
-alias: ['86 EIGHTY-SIX']
+title: '86 EIGHTY-SIX Part 2'
+alias: ['86 EIGHTY-SIX Second cour']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/48569'
@@ -57,7 +57,7 @@ info:
   official: 'https://anime-86.com/'
   subreddit: '/r/EightySix/'
 streams: 
-  crunchyroll: 'https://www.crunchyroll.com/86-eighty-six'
+  crunchyroll: 'https://www.crunchyroll.com/86-eighty-six|11'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -431,7 +431,7 @@ info:
   official: 'https://kimetsu.com/anime/mugenresshahen_tv/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GY5P48XEY'
+  crunchyroll: 'https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba|26'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba/'
@@ -656,8 +656,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Mushoku Tensei: Isekai Ittara Honki Dasu'
-alias: ['Mushoku Tensei: Jobless Reincarnation Part 2']
+title: 'Mushoku Tensei: Isekai Ittara Honki Dasu Part 2'
+alias: ['Mushoku Tensei: Jobless Reincarnation Second Cour']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/45576'
@@ -678,7 +678,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Mushoku Tensei|11'
 ---
 title: 'Muv-Luv Alternative'
 has_source: true
