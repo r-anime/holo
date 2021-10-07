@@ -136,7 +136,7 @@ streams:
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  youtube: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLi6JjODFVq32885eIpU4RuymSG8AGPII_'
   nyaa: ''
 ---
 title: 'Blue Period'
