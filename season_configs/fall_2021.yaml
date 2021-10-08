@@ -1019,7 +1019,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44345'
   animeplanet: 'http://www.anime-planet.com/anime/tesla-note'
   official: 'https://teslanote.net/'
-  subreddit: ''
+  subreddit: '/r/TeslaNote/'
 streams: 
   crunchyroll: ''
   museasia: ''
@@ -1043,7 +1043,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43817'
   animeplanet: 'http://www.anime-planet.com/anime/taisho-otome-otogibanashi'
   official: 'https://taisho-otome.com/'
-  subreddit: '/r/TeslaNote/'
+  subreddit: ''
 streams: 
   crunchyroll: ''
   museasia: ''
