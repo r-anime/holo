@@ -144,7 +144,8 @@ class ServiceHandler(AbstractServiceHandler):
 	def extract_show_key(self, url):
 		match = self._show_re.search(url)
 		if match:
-			return match.group(1)
+			if match.group(1) != 'series':
+				return match.group(1)
 		return None
 	
 # Episode feeds
