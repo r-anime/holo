@@ -92,7 +92,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'BUILD-DIVIDE -#000000- CODE BLACK'
+title: 'Build Divide: Code Black'
+alias: ['BUILD-DIVIDE -#000000-']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/48776'
@@ -160,7 +161,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: '[NetflixSucks] Blue Period'
 ---
 title: 'Cardfight!! Vanguard overDress Season 2'
 has_source: true
@@ -512,7 +513,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: '[NovaWorks] Komi-san'
 ---
 title: 'Kyoukai Senki'
 alias: ['AMAIM: Warrior at the Borderline']
@@ -669,7 +670,7 @@ info:
   subreddit: '/r/mushokutensei/'
 streams:
   crunchyroll: ''
-  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl01_ftoIT3birJWkpxFZkEl'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl01_ftoIT3birJWkpxFZkEl|26'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1170'
@@ -891,8 +892,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Senpai ga Urusai Kouhai no Hanashi'
-alias: ['My Senpai is Annoying']
+title: 'Senpai ga Uzai Kouhai no Hanashi'
+alias: ['Senpai ga Urusai Kouhai no Hanashi', 'My Senpai is Annoying']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42351'
@@ -939,7 +940,7 @@ streams:
   nyaa: ''
 ---
 title: 'Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni Shimashita'
-alias: ["Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside"]
+alias: ['Shin no Nakama', "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/44037'
