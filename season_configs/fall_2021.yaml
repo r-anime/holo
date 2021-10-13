@@ -104,7 +104,7 @@ info:
   official: 'https://anime.build-divide.com/'
   subreddit: '/r/BuildDivideTCG/'
 streams: 
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/build-divide-000000-code-black'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/build-divide-000000-code-black/'
@@ -222,7 +222,7 @@ info:
 streams: 
   crunchyroll: ''
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjmsVmFRjMFgquw0gsde2pR'
   funimation|Funimation: 'https://www.funimation.com/shows/deep-insanity-the-lost-child/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1515'
   hidive: ''
@@ -408,14 +408,14 @@ info:
   official: 'https://kaginado.com/'
   subreddit: '/r/KaginadoTV/'
 streams: 
-  crunchyroll: ''
-  museasia: ''
+  crunchyroll: 'https://www.crunchyroll.com/kagi-nado'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl3gRcH6U4L-LonrzmvlvvX0'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/kaginado/'
   wakanim|Wakanim: ''
   hidive: 'https://www.hidive.com/tv/kaginado'
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G3KHEV73Z'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -612,7 +612,7 @@ streams:
 ---
 title: 'Megaton-kyuu Musashi'
 alias: ['Megaton Musashi']
-has_source: true
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/33737'
   anilist: 'https://anilist.co/anime/87502'
@@ -1044,7 +1044,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43817'
   animeplanet: 'http://www.anime-planet.com/anime/taisho-otome-otogibanashi'
   official: 'https://taisho-otome.com/'
-  subreddit: ''
+  subreddit: '/r/TaishouOtome'
 streams: 
   crunchyroll: ''
   museasia: ''
