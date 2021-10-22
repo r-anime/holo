@@ -16,10 +16,11 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
+  bilibili|Bilibili: 'https://www.bilibili.tv/play/1019965/'
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: '[NC-Raws] 女孩遇到男孩 / Deji Meets Girl'
 ---
 title: '180-byou de Kimi no Mimi wo Shiawase ni Dekiru ka?'
 alias: ['Can I Make Your Ears Happy in 180 Seconds?']
@@ -577,7 +578,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/lupin-the-3rd-part-6'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjINA8RUCtiuDnEPsZMduGh'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: 'https://www.hidive.com/tv/lupin-the-3rd-part-6'
@@ -1047,7 +1048,7 @@ info:
   subreddit: '/r/TaishouOtome'
 streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl32s0WoBItd3klpmRdCEN8'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/taisho-otome-fairy-tale/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1497'
