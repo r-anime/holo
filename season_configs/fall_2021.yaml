@@ -20,7 +20,8 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: '[NC-Raws] 女孩遇到男孩 / Deji Meets Girl'
+  nyaa: ''
+  youtube_nolisting: 'https://www.youtube.com/playlist?list=PLJNnEed2DL34DpL6dQ49vtbYLh9J3cbnb'
 ---
 title: '180-byou de Kimi no Mimi wo Shiawase ni Dekiru ka?'
 alias: ['Can I Make Your Ears Happy in 180 Seconds?']
