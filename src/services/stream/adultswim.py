@@ -86,7 +86,7 @@ class ServiceHandler(AbstractServiceHandler):
 
 def _is_valid_episode(episode_data, show_key):
     # Don't check old episodes (possible wrong season !)
-    date_string = episode_data.find("meta", itemprop="dateCreated")["content"]
+    date_string = episode_data.find("meta", itemprop="datePublished")["content"]
     date = datetime.fromordinal(dateutil.parser.parse(date_string).toordinal())
 
     if date > datetime.utcnow():
