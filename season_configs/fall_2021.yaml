@@ -451,14 +451,14 @@ alias: ['Demon Slayer: Kimetsu no Yaiba Entertainment District Arc']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/47778'
-  anilist: 'https://anilist.co/anime/129874'
+  anilist: 'https://anilist.co/anime/142329'
   anidb: 'http://anidb.net/a16054'
   kitsu: 'https://kitsu.io/anime/44081'
   animeplanet: 'http://www.anime-planet.com/anime/demon-slayer-kimetsu-no-yaiba-yuukaku-hen'
   official: 'https://kimetsu.com/anime/yukakuhen/'
   subreddit: '/r/KimetsuNoYaiba/'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba'
+  crunchyroll: 'https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba|33'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba/'
