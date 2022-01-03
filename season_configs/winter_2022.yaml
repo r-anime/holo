@@ -493,30 +493,6 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Kimetsu no Yaiba: Yuukaku-hen'
-alias: ['Demon Slayer: Kimetsu no Yaiba Entertainment District Arc']
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/47778'
-  anilist: 'https://anilist.co/anime/142329'
-  anidb: 'http://anidb.net/a16054'
-  kitsu: 'https://kitsu.io/anime/44081'
-  animeplanet: 'http://www.anime-planet.com/anime/demon-slayer-kimetsu-no-yaiba-yuukaku-hen'
-  official: 'https://kimetsu.com/anime/yukakuhen/'
-  subreddit: ''
-streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GY5P48XEY'
-  museasia: ''
-  anione: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/479'
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: 'https://vrv.co/series/GY5P48XEY'
-  hulu|Hulu: 'https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-entertainment-district-arc-d81e6428-58f1-4e2b-904b-5eb1d65d6640'
-  youtube: ''
-  nyaa: ''
----
 title: 'Koroshi Ai'
 alias: ['Love of Kill']
 has_source: true
@@ -913,30 +889,6 @@ streams:
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: 'https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88'
-  youtube: ''
-  nyaa: ''
----
-title: 'Shuumatsu no Harem'
-alias: ["World's End Harem"]
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/41946'
-  anilist: 'https://anilist.co/anime/118465'
-  anidb: 'http://anidb.net/a15561'
-  kitsu: 'https://kitsu.io/anime/43198'
-  animeplanet: 'http://www.anime-planet.com/anime/worlds-end-harem'
-  official: 'https://end-harem-anime.com/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
   youtube: ''
   nyaa: ''
 ---
