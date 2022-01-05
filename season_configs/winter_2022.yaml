@@ -291,7 +291,7 @@ info:
   official: 'https://genkoku-anime.com/'
   subreddit: '/r/RealistHero'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G1XHJV3MV'
+  crunchyroll: 'https://www.crunchyroll.com/how-a-realist-hero-rebuilt-the-kingdom'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/how-a-realist-hero-rebuilt-the-kingdom/'
@@ -541,30 +541,6 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Lord El-Melloi II Sei no Jikenbo -Rail Zeppelin Grace Note- Tokubetsu-hen'
-alias: ["Lord El-Melloi II’s Case Files {Rail Zeppelin} Grace note -Special Episode-"]
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/49361'
-  anilist: 'https://anilist.co/anime/136344'
-  anidb: 'http://anidb.net/a16421'
-  kitsu: 'https://kitsu.io/anime/44868'
-  animeplanet: 'http://www.anime-planet.com/anime/lord-el-melloi-iis-case-files-rail-zeppelin-grace-note-special-edition'
-  official: 'https://anime.elmelloi.com/'
-  subreddit: ''
-streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GRG5X224R'
-  museasia: ''
-  anione: ''
-  funimation|Funimation: 'https://www.funimation.com/shows/lord-el-melloi-iis-case-files-rail-zeppelin-grace-note/'
-  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/459'
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: 'https://vrv.co/series/GRG5X224R'
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: ''
----
 title: 'Ninjala'
 has_source: true
 info:
@@ -668,7 +644,7 @@ info:
   official: 'https://anime.priconne-redive.jp/'
   subreddit: '/r/Priconne'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G6QW1E876'
+  crunchyroll: 'https://www.crunchyroll.com/princess-connect-re-dive'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -856,7 +832,7 @@ info:
   official: 'https://shingeki.tv/final/'
   subreddit: '/r/ShingekiNoKyojin'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GR751KNZY'
+  crunchyroll: 'https://www.crunchyroll.com/attack-on-titan'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/attack-on-titan/'
@@ -903,7 +879,7 @@ info:
   official: 'http://www.yostar-pictures.co.jp/sorairo-utility/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GG5H5XDJM'
+  crunchyroll: 'https://www.crunchyroll.com/sorairo-utility'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/sorairo-utility/'
@@ -1009,7 +985,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Vanitas no Carte 2nd Cour'
+title: 'Vanitas no Carte Part 2'
 alias: ['The Case Study of Vanitas Part 2']
 has_source: true
 info:
@@ -1021,7 +997,7 @@ info:
   official: 'https://vanitas-anime.com/'
   subreddit: '/r/vanitasnocarte'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GEXH3W8DG'
+  crunchyroll: 'https://www.crunchyroll.com/the-case-study-of-vanitas'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/the-case-study-of-vanitas/'
@@ -1045,7 +1021,7 @@ info:
   official: 'https://www.tv-tokyo.co.jp/anime/yamishibai10/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G6WEM1V36'
+  crunchyroll: 'https://www.crunchyroll.com/theatre-of-darkness-yamishibai'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
