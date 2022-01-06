@@ -175,10 +175,10 @@ info:
   subreddit: '/r/girlsfrontline'
 streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl23nn7SiSh0qSwLxieZyNmh'
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/girls-frontline/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1709/girls-frontline/'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
