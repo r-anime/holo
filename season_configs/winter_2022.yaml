@@ -870,30 +870,6 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Shuumatsu no Harem'
-alias: ["World's End Harem"]
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/41946'
-  anilist: 'https://anilist.co/anime/118465'
-  anidb: 'http://anidb.net/a15561'
-  kitsu: 'https://kitsu.io/anime/43198'
-  animeplanet: 'http://www.anime-planet.com/anime/worlds-end-harem'
-  official: 'https://end-harem-anime.com/'
-  subreddit: '/r/worldsendharem'
-streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G24H1N3XV'
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: 'https://vrv.co/series/G24H1N3XV'
-  hulu|Hulu: ''
-  youtube: ''
-  nyaa: ''
----
 title: 'Sono Bisque Doll wa Koi wo Suru'
 alias: ['My Dress-Up Darling']
 has_source: true
