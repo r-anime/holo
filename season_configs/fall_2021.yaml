@@ -8,7 +8,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/deji-meets-girl'
   official: 'https://dejimeetsgirl.okinawa/'
   subreddit: '/r/DejiMeetsGirl/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -16,10 +16,12 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
+  bilibili|Bilibili: 'https://www.bilibili.tv/play/1019965/'
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
+  youtube_nolisting: 'https://www.youtube.com/playlist?list=PLJNnEed2DL34DpL6dQ49vtbYLh9J3cbnb'
 ---
 title: '180-byou de Kimi no Mimi wo Shiawase ni Dekiru ka?'
 alias: ['Can I Make Your Ears Happy in 180 Seconds?']
@@ -32,7 +34,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/180-byou-de-kimi-no-mimi-wo-shiawase-ni-dekiru-ka'
   official: 'https://180-kimimimi.jp/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -45,8 +47,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: '86 EIGHTY-SIX'
-alias: ['86 EIGHTY-SIX']
+title: '86 EIGHTY-SIX Part 2'
+alias: ['86 EIGHTY-SIX Second cour']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/48569'
@@ -56,15 +58,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/86-eighty-six-part-ii'
   official: 'https://anime-86.com/'
   subreddit: '/r/EightySix/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/86-eighty-six|11'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GVDHX8DM5'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -77,9 +79,9 @@ info:
   anidb: 'http://anidb.net/a14511'
   kitsu: 'https://kitsu.io/anime/41998'
   animeplanet: 'http://www.anime-planet.com/anime/blade-runner-black-lotus'
-  official: 'null'
+  official: ''
   subreddit: '/r/bladerunner/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -92,7 +94,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'BUILD-DIVIDE -#000000- CODE BLACK'
+title: 'Build Divide: Code Black'
+alias: ['BUILD-DIVIDE -#000000-']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/48776'
@@ -102,7 +105,31 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/build-dive-000000-code-black'
   official: 'https://anime.build-divide.com/'
   subreddit: '/r/BuildDivideTCG/'
-streams: 
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/build-divide-000000-code-black'
+  museasia: ''
+  anione: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/build-divide-000000-code-black/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1553'
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: 'https://vrv.co/series/GG5H5XDE1'
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'BanG Dream! Garupa☆Pico: Fever!'
+alias: ['BanG Dream! Girls Band Party!☆PICO Fever!']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/49123'
+  anilist: 'https://anilist.co/anime/135171'
+  anidb: 'http://anidb.net/a16370'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/bang-dream-girls-band-party-pico-fever'
+  official: 'https://anime.bang-dream.com/pico/'
+  subreddit: ''
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -112,7 +139,7 @@ streams:
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  youtube: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLi6JjODFVq32885eIpU4RuymSG8AGPII_'
   nyaa: ''
 ---
 title: 'Blue Period'
@@ -125,7 +152,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/blue-period'
   official: 'https://blue-period.jp/'
   subreddit: '/r/BluePeriod/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -136,7 +163,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: '[NetflixSucks] Blue Period'
 ---
 title: 'Cardfight!! Vanguard overDress Season 2'
 has_source: true
@@ -148,15 +175,15 @@ info:
   animeplanet: ''
   official: 'https://anime.cf-vanguard.com/overdress/'
   subreddit: '/r/cardfightvanguard/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/cardfight-vanguard-overdress|12'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/cardfight-vanguard-overdress/'
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/cardfight-vanguard-overdress|12'
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GXJHM3NJ5'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -171,7 +198,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/chickip-dancers'
   official: 'https://www.san-x.co.jp/chickipdancers/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -190,22 +217,22 @@ info:
   mal: 'https://myanimelist.net/anime/49292'
   anilist: 'https://anilist.co/anime/136947'
   anidb: 'http://anidb.net/a16403'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/45007'
   animeplanet: 'http://www.anime-planet.com/anime/deep-insanity-the-lost-child'
   official: 'https://www.jp.square-enix.com/deepinsanity/anime/'
   subreddit: '/r/DeepInsanity/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjmsVmFRjMFgquw0gsde2pR'
+  funimation|Funimation: 'https://www.funimation.com/shows/deep-insanity-the-lost-child/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1515'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Deep Insanity The Lost Child'
 ---
 title: 'Digimon Ghost Game'
 has_source: false
@@ -217,15 +244,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/digimon-ghost-game'
   official: 'https://www.toei-anim.co.jp/tv/digimon_ghost_game/'
   subreddit: '/r/digimon/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/digimon-ghost-game'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G5PHNMEEZ'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -240,7 +267,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/gunma-chan'
   official: 'https://gunmachan-official.jp/animation/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -264,9 +291,9 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/gyakuten-sekai-no-denchi-shoujo'
   official: 'https://denchi-project.com/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl3OjCmcapJ_gTsUedrF2j6-'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/rumble-garanndoll/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1502'
@@ -287,7 +314,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/hairpin-double'
   official: 'http://www.e-next.co.jp/hairpindouble/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -311,10 +338,10 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/yashahime-princess-half-demon-2'
   official: 'http://hanyo-yashahime.com/'
   subreddit: '/r/Yashahime/'
-streams: 
-  crunchyroll: 'https://www.crunchyroll.com/series/G63W41KD6'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/yashahime-princess-half-demon|24'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JiBkNCZlFsKwmdtzlUR4Y58'
   funimation|Funimation: 'https://www.funimation.com/shows/yashahime-princess-half-demon/'
   wakanim|Wakanim: ''
   hidive: ''
@@ -326,7 +353,7 @@ streams:
 ---
 title: 'Heike Monogatari'
 alias: ['The Heike Story']
-has_source: false
+has_source: true
 info:
   mal: 'https://myanimelist.net/anime/49738'
   anilist: 'https://anilist.co/anime/138714'
@@ -335,7 +362,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/the-heike-story'
   official: 'https://heike-anime.asmik-ace.co.jp/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -359,8 +386,8 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/restaurant-to-another-world-2'
   official: 'https://isekai-shokudo2.com/'
   subreddit: '/r/IsekaiShokudou/'
-streams: 
-  crunchyroll: 'https://www.crunchyroll.com/series/GR49493P6'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/restaurant-to-another-world'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -370,7 +397,7 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GR49493P6'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Isekai Shokudou S2'
 ---
 title: 'Kaginado'
 has_source: false
@@ -382,15 +409,39 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/kaginado'
   official: 'https://kaginado.com/'
   subreddit: '/r/KaginadoTV/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/kagi-nado'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl3gRcH6U4L-LonrzmvlvvX0'
+  anione: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/kaginado/'
+  wakanim|Wakanim: ''
+  hidive: 'https://www.hidive.com/tv/kaginado'
+  animelab|AnimeLab: ''
+  vrv|VRV: 'https://vrv.co/series/G3KHEV73Z'
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Kimetsu no Yaiba: Mugen Ressha-hen'
+alias: ['Demon Slayer: Kimetsu no Yaiba Mugen Train Arc']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/49926'
+  anilist: 'https://anilist.co/anime/129874'
+  anidb: 'http://anidb.net/a16803'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/demon-slayer-kimetsu-no-yaiba-mugen-train'
+  official: 'https://kimetsu.com/anime/mugenresshahen_tv/'
+  subreddit: '/r/KimetsuNoYaiba/'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba|26'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/479'
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GY5P48XEY'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -400,21 +451,21 @@ alias: ['Demon Slayer: Kimetsu no Yaiba Entertainment District Arc']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/47778'
-  anilist: 'https://anilist.co/anime/129874'
+  anilist: 'https://anilist.co/anime/142329'
   anidb: 'http://anidb.net/a16054'
   kitsu: 'https://kitsu.io/anime/44081'
   animeplanet: 'http://www.anime-planet.com/anime/demon-slayer-kimetsu-no-yaiba-yuukaku-hen'
   official: 'https://kimetsu.com/anime/yukakuhen/'
   subreddit: '/r/KimetsuNoYaiba/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GY5P48XEY'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -429,7 +480,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/kimi-to-fit-boxing'
   official: 'https://fitboxing.net/anime/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -451,9 +502,9 @@ info:
   anidb: 'http://anidb.net/a16300'
   kitsu: 'https://kitsu.io/anime/44551'
   animeplanet: 'http://www.anime-planet.com/anime/komi-cant-communicate'
-  official: 'http://komisan-official.com/'
+  official: 'https://komisan-official.com/'
   subreddit: '/r/Komi_san/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -464,7 +515,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: '[NovaWorks] Komi-san'
 ---
 title: 'Kyoukai Senki'
 alias: ['AMAIM: Warrior at the Borderline']
@@ -477,12 +528,12 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/kyoukai-senki'
   official: 'https://www.kyoukai-senki.net/'
   subreddit: '/r/KyoukaiSenki/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/amaim-warrior-at-the-borderline/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1573'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -501,12 +552,12 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/kyuuketsuki-sugu-shinu'
   official: 'https://sugushinu-anime.jp/'
   subreddit: '/r/VampireDiesInNoTime/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-vampire-dies-in-no-time/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1507'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -525,10 +576,10 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/lupin-iii-part-vi'
   official: 'https://lupin-pt6.com/'
   subreddit: '/r/lupinthe3rd/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/lupin-the-3rd-part-6'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjINA8RUCtiuDnEPsZMduGh'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: 'https://www.hidive.com/tv/lupin-the-3rd-part-6'
@@ -548,12 +599,12 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/muteking-the-dancing-hero'
   official: 'https://muteking.jp/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/muteking-the-dancing-hero/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1535'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -563,7 +614,7 @@ streams:
 ---
 title: 'Megaton-kyuu Musashi'
 alias: ['Megaton Musashi']
-has_source: true
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/33737'
   anilist: 'https://anilist.co/anime/87502'
@@ -572,7 +623,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/megaton-musashi'
   official: 'https://www.megaton-musashi.jp/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -595,9 +646,9 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/mieruko-chan'
   official: 'https://mierukochan.jp/'
   subreddit: '/r/Mieruko/'
-streams: 
+streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl17reRE_OPjNhFb-IgV1aYY'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/mieruko-chan/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1403'
@@ -608,8 +659,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Mushoku Tensei: Isekai Ittara Honki Dasu'
-alias: ['Mushoku Tensei: Jobless Reincarnation Part 2']
+title: 'Mushoku Tensei: Isekai Ittara Honki Dasu Part 2'
+alias: ['Mushoku Tensei: Jobless Reincarnation Second Cour']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/45576'
@@ -619,18 +670,18 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/mushoku-tensei-jobless-reincarnation-part-ii'
   official: 'https://mushokutensei.jp/'
   subreddit: '/r/mushokutensei/'
-streams: 
+streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl01_ftoIT3birJWkpxFZkEl|26'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1170'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/mushoku-tensei-jobless-reincarnation-787a5fb4-9cba-4a69-96b2-4fb3b10c860a'
   youtube: ''
-  nyaa: ''
+  nyaa: 'Mushoku Tensei|11'
 ---
 title: 'Muv-Luv Alternative'
 has_source: true
@@ -642,15 +693,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/muv-luv-alternative'
   official: 'https://muv-luv-alternative-anime.com/'
   subreddit: '/r/MuvLuvAlternative/'
-streams: 
-  crunchyroll: ''
-  museasia: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/muv-luv-alternative'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl1jvxZE-x5NVjJQz3pQquTI'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GVDHX8PP9'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -666,7 +717,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/ousama-ranking'
   official: 'https://osama-ranking.com/'
   subreddit: '/r/OsamaRanking/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -689,15 +740,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/platinum-end'
   official: 'https://anime-platinumend.com/'
   subreddit: '/r/platinumend/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/platinum-end'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/platinum-end/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1568'
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G8DHV722J'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -712,12 +763,12 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/puraore-pride-of-orange'
   official: 'https://puraore.com/'
   subreddit: '/r/Puraore/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/puraora-pride-of-orange'
   museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjNjGOUu_OBOQEV6ngrgK1j'
+  funimation|Funimation: 'https://www.funimation.com/shows/puraore-pride-of-orange/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1503'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -735,15 +786,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/sakugan-labyrinth-marker'
   official: 'https://sakugan-anime.com/'
   subreddit: '/r/Sakugan/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/sakugan'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GP5HJ800Z'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -758,9 +809,9 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/selection-project'
   official: 'http://pjselection.com/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl2FRizEh6a46FMtDzXRUeXq'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/selection-project/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1399'
@@ -782,15 +833,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/the-faraway-paladin'
   official: 'https://farawaypaladin.com/'
   subreddit: '/r/TheFarawayPaladin/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/the-faraway-paladin'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jh_QWr3eCIlSbMAhE2eo-5r'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GEXH3W8G1'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -805,16 +856,16 @@ info:
   kitsu: 'https://kitsu.io/anime/44312'
   animeplanet: 'http://www.anime-planet.com/anime/the-night-beyond-the-tricornered-window'
   official: 'https://sankakumado-anime.com/'
-  subreddit: ''
-streams: 
-  crunchyroll: ''
+  subreddit: '/r/Tricorneredwindow'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/the-night-beyond-the-tricornered-window'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GW4HM7PP7'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -830,21 +881,21 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/the-worlds-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat'
   official: 'https://ansatsu-kizoku.jp/'
   subreddit: '/r/TheWorldsBestAssassin/'
-streams: 
-  crunchyroll: ''
-  museasia: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/the-worlds-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl0PWwz5cS6rncbDhX-J3AeV'
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GMEHME55K'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
 ---
-title: 'Senpai ga Urusai Kouhai no Hanashi'
-alias: ['My Senpai is Annoying']
+title: 'Senpai ga Uzai Kouhai no Hanashi'
+alias: ['Senpai ga Urusai Kouhai no Hanashi', 'My Senpai is Annoying']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42351'
@@ -854,12 +905,12 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/my-senpai-is-annoying'
   official: 'https://senpaiga-uzai-anime.com/'
   subreddit: '/r/SenpaiGaUrusai/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/my-senpai-is-annoying/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1523'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -877,7 +928,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/shikizakura'
   official: 'https://shikizakura-anime.com/'
   subreddit: '/r/Shikizakura/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -891,7 +942,7 @@ streams:
   nyaa: ''
 ---
 title: 'Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni Shimashita'
-alias: ["Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside"]
+alias: ['Shin no Nakama', "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/44037'
@@ -901,7 +952,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside'
   official: 'https://shinnonakama.com/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -915,6 +966,7 @@ streams:
   nyaa: ''
 ---
 title: 'Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei'
+alias: ['The Fruit of Evolution: Before I Knew It, My Life Had It Made']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/46985'
@@ -924,15 +976,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei'
   official: 'https://www.shinkanomi-anime.com/'
   subreddit: ''
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/the-fruit-of-evolution-before-i-knew-it-my-life-had-it-made'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JjJbln83lUKLrhXMvu57JXk'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G9VHN9DDX'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -948,7 +1000,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/worlds-end-harem'
   official: 'https://end-harem-anime.com/'
   subreddit: '/r/worldsendharem/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -970,13 +1022,13 @@ info:
   kitsu: 'https://kitsu.io/anime/44345'
   animeplanet: 'http://www.anime-planet.com/anime/tesla-note'
   official: 'https://teslanote.net/'
-  subreddit: ''
-streams: 
+  subreddit: '/r/TeslaNote/'
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/tesla-note/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1526'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -994,10 +1046,10 @@ info:
   kitsu: 'https://kitsu.io/anime/43817'
   animeplanet: 'http://www.anime-planet.com/anime/taisho-otome-otogibanashi'
   official: 'https://taisho-otome.com/'
-  subreddit: '/r/TeslaNote/'
-streams: 
+  subreddit: '/r/TaishouOtome'
+streams:
   crunchyroll: ''
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl32s0WoBItd3klpmRdCEN8'
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/taisho-otome-fairy-tale/'
   wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1497'
@@ -1006,9 +1058,10 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Taishou Otome Otogibanashi'
 ---
 title: 'Tsuki to Laika to Nosferatu'
+alias: ['Irina: The Vampire Cosmonaut']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/48471'
@@ -1017,19 +1070,19 @@ info:
   kitsu: 'https://kitsu.io/anime/44192'
   animeplanet: 'http://www.anime-planet.com/anime/tsuki-to-laika-to-nosferatu'
   official: 'https://tsuki-laika-nosferatu.com/'
-  subreddit: '/r/TaishouOtome/'
-streams: 
+  subreddit: ''
+streams:
   crunchyroll: ''
   museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jh3O6xMZONZpvbnybf8-EcQ'
+  funimation|Funimation: 'https://www.funimation.com/shows/irina-the-vampire-cosmonaut/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1519'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Tsuki to Laika to Nosferatu'
 ---
 title: 'Visual Prison'
 has_source: false
@@ -1041,12 +1094,12 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/visual-prison'
   official: 'https://visualprison.com/'
   subreddit: '/r/VisualPrison/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/visual-prison/'
+  wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1511'
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
@@ -1064,7 +1117,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/waccha-primagi'
   official: 'https://www.tv-tokyo.co.jp/anime/primagi/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
@@ -1087,15 +1140,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/world-trigger-3rd-season'
   official: 'http://www.toei-anim.co.jp/tv/wt/'
   subreddit: '/r/worldtrigger/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/world-trigger'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GR757DMKY'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -1111,22 +1164,22 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/lets-make-a-mug-too-2nd-season'
   official: 'https://yakumo-project.com/'
   subreddit: '/r/YakunaraMugCupMo/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/lets-make-a-mug-too'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JhdByPH2YetobD2dOivIiGr'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GQWH0M434'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
 ---
 title: 'Yuuki Yuuna wa Yuusha de Aru: Dai Mankai no Shou'
 alias: ['Yuki Yuna is a Hero: The Great Mankai Chapter']
-has_source: false
+has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42587'
   anilist: 'https://anilist.co/anime/122292'
@@ -1135,13 +1188,13 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/yuuki-yuuna-is-a-hero-dai-mankai-no-shou'
   official: 'https://yuyuyu.tv/daimankai/'
   subreddit: '/r/YuYuYu/'
-streams: 
+streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/yuki-yuna-is-a-hero-the-great-mankai-chapter'
+  hidive: 'https://www.hidive.com/tv/yuki-yuna-is-a-hero-great-mankai-chapter'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1158,15 +1211,15 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/takt-op-destiny'
   official: 'https://anime.takt-op.jp/'
   subreddit: '/r/taktopdestiny/'
-streams: 
-  crunchyroll: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/takt-opdestiny'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jgp5-czzbc2NrWBg5g2qz7n'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G1XHJVXX2'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -1203,7 +1256,7 @@ info:
   anidb: 'https://anidb.net/anime/16420'
   kitsu: ''
   animeplanet: 'https://www.anime-planet.com/anime/star-wars-visions'
-  official: ''
+  official: 'https://www.disneyplus.com/series/star-wars-visions/5AiiTRJ7OaKg'
   subreddit: '/r/StarWars'
 streams:
   crunchyroll: ''
@@ -1239,30 +1292,32 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube_donotparse|Youtube: 'https://www.youtube.com/playlist?list=PLQWzKIaERirwJulPC0wLmwXGt4Rmw_9Rp'
+  pokemontv|PokemonTv: 'https://watch.pokemon.com/en-us/#/season?id=pokemon-evolutions'
   nyaa: '[Some-Stuffs] Pokémon Evolutions'
 ---
 title: 'Ganbare Douki-chan'
 has_source: true
 info:
- mal: 'https://myanimelist.net/anime/49605'
- anilist: 'https://anilist.co/anime/137877/Ganbare-Doukichan/'
- anidb: 'https://anidb.net/anime/16536'
- kitsu: ''
- animeplanet: 'https://www.anime-planet.com/anime/ganbare-douki-chan'
- official: ''
- subreddit: ''
+  mal: 'https://myanimelist.net/anime/49605'
+  anilist: 'https://anilist.co/anime/137877/Ganbare-Doukichan/'
+  anidb: 'https://anidb.net/anime/16536'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/ganbare-douki-chan'
+  official: 'https://doukichan-anime.com/'
+  subreddit: ''
 streams:
- crunchyroll: ''
- museasia: ''
- funimation|Funimation: ''
- wakanim|Wakanim: ''
- hidive: ''
- animelab|AnimeLab: ''
- crunchyroll_nsfw|Crunchyroll: ''
- vrv|VRV: ''
- hulu|Hulu: ''
- youtube: ''
- nyaa: ''
+  crunchyroll: 'https://www.crunchyroll.com/ganbare-doukichan'
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl1etvMN_OKH4-hnOROmTPaX'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  bilibili|Bilibili: 'https://www.bilibili.tv/play/1018622/'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: 'https://vrv.co/series/GKEH2G87N'
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
 ---
 title: 'Getsuyoubi no Tawawa Season 2'
 alias: ['Tawawa on Monday Two']
@@ -1277,14 +1332,14 @@ info:
   subreddit: ''
 streams:
   crunchyroll: 'https://www.crunchyroll.com/tawawa-on-monday'
-  museasia: ''
+  museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl1vULLPQdH4gjhkW8x_k0RQ'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  bilibili|Bilibili: ''
+  bilibili|Bilibili: 'https://www.bilibili.tv/play/1018493/'
   crunchyroll_nsfw|Crunchyroll: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GNVHKNW5K'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''

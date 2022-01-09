@@ -48,10 +48,12 @@ class ServiceHandler(AbstractServiceHandler):
 		episodes = dict()
 
 		for torrent in torrents:
+			found_streams = self._find_matching_stream(torrent, streams)
+
 			if not _is_valid_episode(torrent):
+				debug("Torrent excluded (not a valid episode format)")
 				continue
 
-			found_streams = self._find_matching_stream(torrent, streams)
 			for stream in found_streams:
 				# A stream has been found, generate the episode
 				try:
@@ -201,7 +203,7 @@ _exludors = [re.compile(x, re.I) for x in [
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
-	r"\[(?:horriblesubs|SubsPlease|commie|hiryuu|kuusou|fff|merchant|lolisubs|hitoku|erai-raws|davinci|asenshi|mezashite|anonyneko|pas|ryuujitk)\] .+ - (\d+) ",
+	r"\[(?:horriblesubs|SubsPlease|commie|hiryuu|kuusou|fff|merchant|lolisubs|hitoku|erai-raws|davinci|asenshi|mezashite|anonyneko|pas|ryuujitk|rip time)\] .+ - (\d+) ",
 	r"\[DameDesuYo\] .+ - (\d+)[ v]",
 	r"\[Some-Stuffs\]_.+_(\d{3})_",
 	r"\[(?:orz|hayaku|sxrp)\] .+ (\d+)", # No separator
@@ -214,7 +216,7 @@ _num_extractors = [re.compile(x, re.I) for x in [
 	r"\[U3-Web\] .+ \[EP(\d+)\]",
 	r"(?:.+).S(?:\d+)E(\d+).Laelaps.Calling.(?:\d+)p.(?:.+)",
 	r"\[(?:SenritsuSubs|AtlasSubbed|Rakushun)\] .+ - (\d+)",
-	r"\[.*\] .+ - S(?:\d+)E(\d+) ", # using the S01E12 format
+	r".+ - S(?:\d+)E(\d+) ", # using the S01E12 format
 	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]", # Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 	r".*?[ _](\d+)[ _]\[\d+p\]", # No tag followed by quality
 	r".*?episode[ _](\d+)", # Completely unformatted, but with the "Episode XX" text
@@ -239,6 +241,7 @@ def _normalize_show_name(name):
 	"""
 	name = name.casefold()
 	name = re.sub("[^a-z0-9]", " ", name)
+	name = re.sub("_", " ", name)
 	name = re.sub("season \d( part \d)?", " ", name)
 	name = re.sub("\s+", " ", name)
 	return name
