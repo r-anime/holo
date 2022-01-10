@@ -350,7 +350,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Hakozume'
 ---
 title: 'IRODORIMIDORI'
 has_source: true
@@ -468,7 +468,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Karakai Jouzu no Takagi-san S3'
 ---
 title: 'Kenja no Deshi wo Nanoru Kenja'
 alias: ['She Professed Herself Pupil of the Wise Man']
@@ -775,7 +775,7 @@ streams:
   nyaa: ''
 ---
 title: 'Sasaki to Miyano'
-alias: ['Sasaki and Miyano']
+alias: ['Sasaki and Miyano', 'Sasamiya']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/44055'
@@ -844,7 +844,7 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GR751KNZY/Attack-on-Titan'
   hulu|Hulu: 'https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88'
   youtube: ''
-  nyaa: ''
+  nyaa: 'Shingeki no Kyojin|16'
 ---
 title: 'Sono Bisque Doll wa Koi wo Suru'
 alias: ['My Dress-Up Darling']

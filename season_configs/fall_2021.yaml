@@ -718,7 +718,7 @@ info:
   official: 'https://osama-ranking.com/'
   subreddit: '/r/OsamaRanking/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/ranking-of-kings'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/ranking-of-kings/'
