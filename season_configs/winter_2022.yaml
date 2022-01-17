@@ -185,7 +185,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Girls Frontline'
 ---
 title: 'Eien no 831'
 has_source: false
@@ -844,7 +844,7 @@ streams:
   vrv|VRV: 'https://vrv.co/series/GR751KNZY/Attack-on-Titan'
   hulu|Hulu: 'https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88'
   youtube: ''
-  nyaa: 'Shingeki no Kyojin|16'
+  nyaa: 'Shingeki no Kyojin'
 ---
 title: 'Sono Bisque Doll wa Koi wo Suru'
 alias: ['My Dress-Up Darling']
