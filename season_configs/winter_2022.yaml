@@ -58,7 +58,7 @@ info:
   official: 'https://www.fujitv.co.jp/animation/kawashiri-kodama/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/im-kodama-kawashiri'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -222,7 +222,7 @@ info:
   official: 'https://fabiniku.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/life-with-an-ordinary-guy-who-reincarnated-into-a-total-fantasy-knockout'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -506,7 +506,7 @@ info:
   official: 'https://love-of-kill.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/love-of-kill'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -692,7 +692,7 @@ info:
   official: 'https://sabikuibisco.jp/'
   subreddit: '/r/SabikuiBisco'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/sabikui-bisco'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/sabikui-bisco/'
@@ -739,7 +739,7 @@ info:
   official: 'https://rustedarmors-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/rusted-armors'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
