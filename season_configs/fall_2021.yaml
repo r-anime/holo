@@ -718,7 +718,7 @@ info:
   official: 'https://osama-ranking.com/'
   subreddit: '/r/OsamaRanking/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/ranking-of-kings'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/ranking-of-kings/'
@@ -1001,17 +1001,17 @@ info:
   official: 'https://end-harem-anime.com/'
   subreddit: '/r/worldsendharem/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/worlds-end-harem'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G24H1N3XV'
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Shuumatsu no Harem'
 ---
 title: 'TESLA NOTE'
 has_source: true
