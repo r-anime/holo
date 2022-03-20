@@ -141,6 +141,7 @@ streams:
   nyaa: ''
 ---
 title: 'Delicious Party♡Precure'
+alias: ['Delicious Party Pretty Cure']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/50281'
@@ -151,14 +152,14 @@ info:
   official: 'https://www.toei-anim.co.jp/tv/delicious-party_precure/'
   subreddit: '/r/precure'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/delicious-party-pretty-cure'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GG5H5XE73'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -692,14 +693,14 @@ info:
   official: 'https://rymansclub.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/salarymans-club'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7Jgvkxyz-QVER9yvp_8KZrIP'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G9VHN9P99'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
@@ -817,6 +818,29 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Shenmue the Animation'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/42808'
+  anilist: 'https://anilist.co/anime/123752'
+  anidb: 'http://anidb.net/a15713'
+  kitsu: 'https://kitsu.io/anime/43530'
+  animeplanet: 'http://www.anime-planet.com/anime/shenmue-the-animation'
+  official: 'https://shenmue-anime.jp/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/shenmue-the-animation'
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: 'https://vrv.co/series/GQWH0M94E'
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
