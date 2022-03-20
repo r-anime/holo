@@ -115,7 +115,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Baraou no Souretsu'
 ---
 title: 'CUE!'
 has_source: true
@@ -1032,7 +1032,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Tribe Nine'
 ---
 title: 'Vanitas no Carte Part 2'
 alias: ['The Case Study of Vanitas Part 2']
