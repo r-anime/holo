@@ -1412,6 +1412,77 @@ streams:
     hulu|Hulu: ''
     youtube: ''
     nyaa: ''
+---
+title: 'Thermae Romae Novae'
+has_source: true
+info:
+    mal: 'https://myanimelist.net/anime/43693'
+    anilist: 'https://anilist.co/anime/125447'
+    anidb: 'http://anidb.net/a15813'
+    kitsu: 'https://kitsu.io/anime/43702'
+    animeplanet: 'http://www.anime-planet.com/anime/thermae-romae-novae'
+    official: ''
+    subreddit: ''
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    youtube: ''
+    nyaa: ''
+---
+title: 'Strike the Blood Final'
+has_source: true
+info:
+    mal: 'https://myanimelist.net/anime/49316'
+    anilist: 'https://anilist.co/anime/136226'
+    anidb: 'http://anidb.net/a16412'
+    kitsu: ''
+    animeplanet: 'http://www.anime-planet.com/anime/strike-the-blood-final'
+    official: 'http://www.strike-the-blood.com/final/'
+    subreddit: ''
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    youtube: ''
+    nyaa: ''
+---
+title: 'Koukaku Kidoutai: SAC_2045 Season 2'
+alias: ['Ghost in the Shell: SAC_2045 Season 2']
+has_source: true
+info:
+    mal: 'https://myanimelist.net/anime/41750'
+    anilist: 'https://anilist.co/anime/117756'
+    anidb: 'http://anidb.net/a15512'
+    kitsu: 'https://kitsu.io/anime/43142'
+    animeplanet: 'http://www.anime-planet.com/anime/ghost-in-the-shell-sac-2045-season-2'
+    official: 'https://www.ghostintheshell-sac2045.jp/'
+    subreddit: ''
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    youtube: ''
+    netflix: 'https://www.netflix.com/title/81030224'
+    nyaa: ''
 #---
 #title: ''
 #alias: ['']
