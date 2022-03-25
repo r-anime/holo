@@ -1387,6 +1387,31 @@ streams:
     hulu|Hulu: ''
     youtube: ''
     nyaa: ''
+---
+title: 'Ginga Eiyuu Densetsu: Die Neue These - Gekitotsu'
+alias: ['Legend of the Galactic Heroes: Die Neue These - Collision', 'Legend of the Galactic Heroes: Die Neue These Third']
+has_source: true
+info:
+    mal: 'https://myanimelist.net/anime/42886'
+    anilist: 'https://anilist.co/anime/124032/'
+    anidb: 'https://anidb.net/anime/15728'
+    kitsu: 'https://kitsu.io/anime/ginga-eiyuu-densetsu-die-neue-these-zoku-hen'
+    animeplanet: 'https://www.anime-planet.com/anime/legend-of-the-galactic-heroes-die-neue-these-third-1'
+    official: 'https://gineiden-anime.com'
+    subreddit: '/r/logh'
+streams:
+    crunchyroll: 'https://www.crunchyroll.com/legend-of-the-galactic-heroes-die-neue-these|24'
+    museasia: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    bilibili|Bilibili: ''
+    crunchyroll_nsfw|Crunchyroll: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    youtube: ''
+    nyaa: ''
 #---
 #title: ''
 #alias: ['']
