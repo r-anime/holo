@@ -126,7 +126,7 @@ info:
     official: 'https://anime.build-divide.com/'
     subreddit: '/r/BuildDivideTCG'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GG5H5XDE1'
+    crunchyroll: 'https://www.crunchyroll.com/build-divide-000000-code-black'
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/build-divide-000000-code-black/'
@@ -219,7 +219,7 @@ info:
     official: 'https://date-a-live4th-anime.com/'
     subreddit: '/r/datealive'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GYEX5E1G6'
+    crunchyroll: 'https://www.crunchyroll.com/date-a-live'
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/date-a-live/'
@@ -288,7 +288,7 @@ info:
     official: 'https://establife.tokyo/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GG5H5XEGG'
+    crunchyroll: 'https://www.crunchyroll.com/estab-life-great-escape'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -407,7 +407,7 @@ info:
     official: 'http://booklove-anime.jp/'
     subreddit: '/r/honzukiNoGekokujou'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G6793XKZY'
+    crunchyroll: 'https://www.crunchyroll.com/ascendance-of-a-bookworm|26'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -525,7 +525,7 @@ info:
     official: 'https://kaguya.love/'
     subreddit: '/r/Kaguya_sama'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GRJ0J828Y'
+    crunchyroll: 'https://www.crunchyroll.com/kaguya-sama-love-is-war'
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/kaguya-sama-love-is-war/'
@@ -812,7 +812,7 @@ info:
     official: 'https://anime.magireco.com/'
     subreddit: '/r/magiarecord'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G6QWDD096'
+    crunchyroll: 'https://www.crunchyroll.com/magia-record-puella-magi-madoka-magica-side-story'
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/magia-record-puella-magi-madoka-magica-side-story/'
@@ -1038,7 +1038,7 @@ streams:
     nyaa: ''
 ---
 title: 'Rikei ga Koi ni Ochita no de Shoumei Shite Mita. r=1-sinθ (heart)'
-alias: ['Science Fell in Love, So I Tried to Prove It r=1-sinθ']
+alias: ['RikeKoi Season 2', 'Science Fell in Love, So I Tried to Prove It r=1-sinθ']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/43470'
@@ -1049,7 +1049,7 @@ info:
     official: 'https://rikekoi.com/'
     subreddit: '/r/RikeKoi'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G6P5MMXV6'
+    crunchyroll: 'https://www.crunchyroll.com/science-fell-in-love-so-i-tried-to-prove-it'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1284,7 +1284,7 @@ info:
     official: 'http://shieldhero-anime.jp/'
     subreddit: '/r/shieldbro'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G6W4QKX0R'
+    crunchyroll: 'https://www.crunchyroll.com/the-rising-of-the-shield-hero|25'
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/the-rising-of-the-shield-hero/'
