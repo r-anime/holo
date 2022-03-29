@@ -92,7 +92,7 @@ streams:
     nyaa: ''
 ---
 title: 'Black★★Rock Shooter: Dawn Fall'
-has_source: true
+has_source: false
 info:
     mal: 'https://myanimelist.net/anime/49831'
     anilist: 'https://anilist.co/anime/139303'
@@ -115,6 +115,7 @@ streams:
     nyaa: ''
 ---
 title: 'Build Divide: #FFFFFF Code White'
+alias: ['Build Divide: #000000 Code Black Season 2']
 has_source: false
 info:
     mal: 'https://myanimelist.net/anime/48777'
@@ -192,7 +193,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44419'
     animeplanet: 'http://www.anime-planet.com/anime/dance-dance-danseur'
     official: 'https://danseur-anime.com/'
-    subreddit: ['/r/DanceDanceDanseur', '/r/DanceDanceDanseur_']
+    subreddit: ['/r/DanceDanceDanseur_']
 streams:
     crunchyroll: ''
     museasia: ''
@@ -207,6 +208,7 @@ streams:
     nyaa: ''
 ---
 title: 'Date A Live IV'
+alias: ['Date A Live Season 4']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/41461'
@@ -512,7 +514,7 @@ streams:
     nyaa: ''
 ---
 title: 'Kaguya-sama wa Kokurasetai: Ultra Romantic'
-alias: ['Kaguya-sama: Love Is War -Ultra Romantic-']
+alias: ['Kaguya-sama: Love Is War -Ultra Romantic-', 'Kaguya-sama wa Kokurasetai Season 4']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/43608'
@@ -775,7 +777,7 @@ streams:
     nyaa: ''
 ---
 title: 'Machikado Mazoku 2-Choume'
-alias: ['The Demon Girl Next Door 2']
+alias: ['Machikado Mazoku Season 2', 'The Demon Girl Next Door Season 2']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/42745'
@@ -799,7 +801,7 @@ streams:
     nyaa: ''
 ---
 title: 'Magia Record: Mahou Shoujo Madoka★Magica Gaiden Final Season: Asaki Yume no Akatsuki'
-alias: ['Magia Record: Puella Magi Madoka Magica Side Story Final Season - Dawn of a Shallow Dream']
+alias: ['Magia Record: Mahou Shoujo Madoka★Magica Gaiden Season 3', 'Magia Record: Puella Magi Madoka Magica Side Story Final Season - Dawn of a Shallow Dream']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/49291'
@@ -1200,6 +1202,7 @@ streams:
     nyaa: ''
 ---
 title: 'Suisei no Freyline: Prologue'
+alias: ['Comet Freyline']
 has_source: false
 info:
     mal: ''
@@ -1389,7 +1392,7 @@ streams:
     nyaa: ''
 ---
 title: 'Ginga Eiyuu Densetsu: Die Neue These - Gekitotsu'
-alias: ['Legend of the Galactic Heroes: Die Neue These - Collision', 'Legend of the Galactic Heroes: Die Neue These Third']
+alias: ['Ginga Eiyuu Densetsu: Die Neue These Season 3', 'Legend of the Galactic Heroes: Die Neue These - Collision', 'Legend of the Galactic Heroes: Die Neue These Third']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/42886'
