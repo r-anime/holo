@@ -193,7 +193,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44419'
     animeplanet: 'http://www.anime-planet.com/anime/dance-dance-danseur'
     official: 'https://danseur-anime.com/'
-    subreddit: ['/r/DanceDanceDanseur_']
+    subreddit: '/r/DanceDanceDanseur_'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1461,7 +1461,7 @@ streams:
     vrv|VRV: ''
     hulu|Hulu: ''
     youtube: ''
-    netflix: 'https://www.netflix.com/title/81030224'
+    netflix|Netflix: 'https://www.netflix.com/title/81030224'
     nyaa: ''
 #---
 #title: ''
