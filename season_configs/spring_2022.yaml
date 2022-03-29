@@ -1413,29 +1413,6 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Thermae Romae Novae'
-has_source: true
-info:
-    mal: 'https://myanimelist.net/anime/43693'
-    anilist: 'https://anilist.co/anime/125447'
-    anidb: 'http://anidb.net/a15813'
-    kitsu: 'https://kitsu.io/anime/43702'
-    animeplanet: 'http://www.anime-planet.com/anime/thermae-romae-novae'
-    official: ''
-    subreddit: ''
-streams:
-    crunchyroll: ''
-    museasia: ''
-    anione: ''
-    funimation|Funimation: ''
-    wakanim|Wakanim: ''
-    hidive: ''
-    animelab|AnimeLab: ''
-    vrv|VRV: ''
-    hulu|Hulu: ''
-    youtube: ''
-    nyaa: ''
----
 title: 'Strike the Blood Final'
 has_source: true
 info:
