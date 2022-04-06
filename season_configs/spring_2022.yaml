@@ -32,7 +32,7 @@ info:
     official: 'https://aharen-pr.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/aharen-san-wa-hakarenai'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -79,7 +79,7 @@ info:
     official: 'https://birdie-wing.net/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/birdie-wing-golf-girls-story-'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -130,7 +130,7 @@ streams:
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/build-divide-000000-code-black/'
-    wakanim|Wakanim: ''
+    wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1553/build-divide-000000-code-black'
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
@@ -223,7 +223,7 @@ streams:
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/date-a-live/'
-    wakanim|Wakanim: ''
+    wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/683/date-a-live'
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
@@ -242,7 +242,7 @@ info:
     official: 'https://deaimon.jp/'
     subreddit: '/r/Deaimon'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/deaimon-recipe-for-happiness'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -336,7 +336,7 @@ info:
     official: 'https://fanfare-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/fanfare-of-adolescence'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -359,7 +359,7 @@ info:
     official: 'https://healer-girl.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/healer-girl'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -454,7 +454,7 @@ info:
     official: 'https://mahjongsoul-pong.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/mahjong-soul-pon'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -504,8 +504,8 @@ streams:
     crunchyroll: ''
     museasia: ''
     anione: ''
-    funimation|Funimation: ''
-    wakanim|Wakanim: ''
+    funimation|Funimation: 'https://www.funimation.com/shows/kaginado/'
+    wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1580/kaginado'
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
@@ -529,7 +529,7 @@ streams:
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/kaguya-sama-love-is-war/'
-    wakanim|Wakanim: ''
+    wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/444/kaguya-sama-love-is-war'
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
@@ -720,8 +720,8 @@ streams:
     crunchyroll: ''
     museasia: ''
     anione: ''
-    funimation|Funimation: ''
-    wakanim|Wakanim: ''
+    funimation|Funimation: 'https://www.funimation.com/shows/amaim-warrior-at-the-borderline/'
+    wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1573/amaim-warrior-at-the-borderline'
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
@@ -740,7 +740,7 @@ info:
     official: 'https://love-all-play.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/love-all-play'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -754,7 +754,7 @@ streams:
 ---
 title: 'Love Live! Nijigasaki Gakuen School Idol Doukoukai Season 2'
 alias: ['Love Live! Nijigasaki High School Idol Club Season 2']
-has_source: false
+has_source: true
 info:
     mal: 'https://myanimelist.net/anime/48916'
     anilist: 'https://anilist.co/anime/133891'
@@ -764,10 +764,10 @@ info:
     official: 'http://www.lovelive-anime.jp/nijigasaki/'
     subreddit: '/r/LoveLive'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/love-live-nijigasaki-high-school-idol-club'
     museasia: ''
     anione: ''
-    funimation|Funimation: ''
+    funimation|Funimation: 'https://www.funimation.com/shows/love-live-nijigasaki-high-school-idol-club/#videos'
     wakanim|Wakanim: ''
     hidive: ''
     animelab|AnimeLab: ''
@@ -816,7 +816,7 @@ streams:
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/magia-record-puella-magi-madoka-magica-side-story/'
-    wakanim|Wakanim: ''
+    wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/598/magia-record-puella-magi-madoka-magica-side-story'
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
@@ -977,7 +977,7 @@ info:
     official: 'https://mobseka.com/'
     subreddit: '/r/MobuSeka'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1025,7 +1025,7 @@ info:
     official: 'https://rpg-rs.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/rpg-real-estate'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1072,7 +1072,7 @@ info:
     official: 'https://spy-family.net/'
     subreddit: '/r/SpyxFamily'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/spy-x-family'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1142,7 +1142,7 @@ info:
     official: 'https://murabito-a-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-greatest-demon-lord-is-reborn-as-a-typical-nobody'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1284,7 +1284,7 @@ info:
     official: 'http://shieldhero-anime.jp/'
     subreddit: '/r/shieldbro'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/the-rising-of-the-shield-hero|25'
+    crunchyroll: 'https://www.crunchyroll.com/the-rising-of-the-shield-hero'
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/the-rising-of-the-shield-hero/'
@@ -1307,7 +1307,7 @@ info:
     official: 'https://tomodachi-anime.com/'
     subreddit: '/r/TomodachiGame'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/tomodachi-game'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
