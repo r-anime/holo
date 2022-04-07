@@ -70,7 +70,12 @@ class ServiceHandler(AbstractServiceHandler):
             error("Cannot get feed")
             return None
 
-        stream.name = response.find("div", {"class": "episodes"}).h1.text
+        title_section = response.find("div", {"class": "episodes"})
+        if title_section is None:
+           error("Could not extract title")
+           return None
+
+        stream.name = title_section.h1.text
         return stream
 
     def get_seasonal_streams(self, **kwargs):
