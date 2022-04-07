@@ -30,7 +30,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44944'
     animeplanet: 'http://www.anime-planet.com/anime/aharen-san-wa-hakarenai'
     official: 'https://aharen-pr.com/'
-    subreddit: ''
+    subreddit: '/r/Aharen_san'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/aharen-san-wa-hakarenai'
     museasia: ''
@@ -357,7 +357,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44494'
     animeplanet: 'http://www.anime-planet.com/anime/healer-girl'
     official: 'https://healer-girl.jp/'
-    subreddit: ''
+    subreddit: '/r/HealerGirls'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/healer-girl'
     museasia: ''
@@ -452,7 +452,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45737'
     animeplanet: 'http://www.anime-planet.com/anime/jantama-pong'
     official: 'https://mahjongsoul-pong.jp/'
-    subreddit: ''
+    subreddit: '/r/mahjongsoul'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/mahjong-soul-pon'
     museasia: ''
@@ -875,7 +875,7 @@ streams:
 title: 'Motto! Majime ni Fumajime Kaiketsu Zorori Season 3'
 has_source: false
 info:
-    mal: ''
+    mal: 'https://myanimelist.net/anime/50193'
     anilist: ''
     anidb: 'http://anidb.net/a16925'
     kitsu: ''
@@ -945,8 +945,8 @@ title: 'Oshiri Tantei Season 5'
 alias: ['Butt Detective (2022)', 'Oshiri Tantei (2022)']
 has_source: true
 info:
-    mal: ''
-    anilist: ''
+    mal: 'https://myanimelist.net/anime/48486'
+    anilist: 'https://anilist.co/anime/132697'
     anidb: 'http://anidb.net/a16946'
     kitsu: ''
     animeplanet: ''
@@ -1425,7 +1425,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/strike-the-blood-final'
     official: 'http://www.strike-the-blood.com/final/'
-    subreddit: ''
+    subreddit: ['/r/striketheblood', '/r/StrikeTB']
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1449,7 +1449,7 @@ info:
     kitsu: 'https://kitsu.io/anime/43142'
     animeplanet: 'http://www.anime-planet.com/anime/ghost-in-the-shell-sac-2045-season-2'
     official: 'https://www.ghostintheshell-sac2045.jp/'
-    subreddit: ''
+    subreddit: '/r/Ghost_in_the_Shell'
 streams:
     crunchyroll: ''
     museasia: ''
