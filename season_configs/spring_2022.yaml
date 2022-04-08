@@ -1425,7 +1425,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/strike-the-blood-final'
     official: 'http://www.strike-the-blood.com/final/'
-    subreddit: ['/r/striketheblood', '/r/StrikeTB']
+    subreddit: '/r/striketheblood'
 streams:
     crunchyroll: ''
     museasia: ''
