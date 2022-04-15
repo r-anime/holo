@@ -506,7 +506,7 @@ streams:
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/kaginado/'
     wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1580/kaginado'
-    hidive: 'https://www.hidive.com/tv/kaginado'
+    hidive: 'https://www.hidive.com/tv/kaginado|12'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -717,7 +717,7 @@ info:
     official: 'https://www.kyoukai-senki.net/'
     subreddit: '/r/KyoukaiSenki'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/amaim-warrior-at-the-borderline|13'
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/amaim-warrior-at-the-borderline/'
@@ -1085,6 +1085,7 @@ streams:
     nyaa: ''
 ---
 title: 'Shachiku-san wa Youjo Yuurei ni Iyasaretai'
+alias: ['Miss Shachiku and the Little Baby Ghost']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/49160'
