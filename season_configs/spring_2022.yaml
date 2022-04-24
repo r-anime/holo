@@ -126,7 +126,7 @@ info:
     official: 'https://anime.build-divide.com/'
     subreddit: '/r/BuildDivideTCG'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/build-divide-000000-code-black'
+    crunchyroll: 'https://www.crunchyroll.com/build-divide-000000-code-black|12'
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/build-divide-000000-code-black/'
@@ -501,12 +501,12 @@ info:
     official: 'https://kaginado.com/'
     subreddit: '/r/KaginadoTV'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/kagi-nado|12'
+    crunchyroll: 'https://www.crunchyroll.com/kaginado|12'
     museasia: ''
     anione: ''
     funimation|Funimation: 'https://www.funimation.com/shows/kaginado/'
     wakanim|Wakanim: 'https://www.wakanim.tv/sc/v2/catalogue/show/1580/kaginado'
-    hidive: 'https://www.hidive.com/tv/kaginado|12'
+    hidive: 'https://www.hidive.com/tv/kaginado-season-2|12'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
