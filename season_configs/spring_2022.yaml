@@ -1011,6 +1011,7 @@ streams:
     vrv|VRV: ''
     hulu|Hulu: ''
     youtube: ''
+    bilibili|Bilibili: 'https://www.bilibili.tv/en/media/1047063'
     nyaa: ''
 ---
 title: 'RPG Fudousan'
