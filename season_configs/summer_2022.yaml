@@ -47,7 +47,7 @@ streams:
   nyaa: ''
 ---
 title: 'Bucchigire!'
-alias: ['Shine On! Bakumatsu Bad Boys']
+alias: ['Shine On! Bakumatsu Bad Boys!']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/51371'
@@ -89,7 +89,7 @@ streams:
   wakanim|Wakanim: ''
   hidive: 'https://www.hidive.com/tv/cardfight-vanguard-overdress'
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GXJHM3NJ5'
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
@@ -186,7 +186,7 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GYEXQKJG6'
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
@@ -326,14 +326,14 @@ info:
   official: 'https://maousama.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GR75Z5KKY'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GR75Z5KKY'
   hulu|Hulu: ''
   disney|Disney: 'https://www.disneyplus.com/series/the-devil-is-a-part-timer/7f5nQmglu4HW'
   youtube: ''
@@ -450,14 +450,14 @@ info:
   official: 'http://jashinchan.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GREX249VY'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GREX249VY'
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
@@ -512,7 +512,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Kanojo, Okarishimasu 2nd Season'
+title: 'Kanojo, Okarishimasu Season 2'
 alias: ['Rent-a-Girlfriend Season 2']
 has_source: true
 info:
@@ -531,7 +531,7 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G6QWV3976'
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
@@ -612,7 +612,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Love Live! Superstar!! 2nd Season'
+title: 'Love Live! Superstar!! Season 2'
 alias: ['Love Live! Superstar!! Season 2']
 has_source: true
 info:
@@ -622,30 +622,6 @@ info:
   kitsu: 'https://kitsu.io/anime/45360'
   animeplanet: 'http://www.anime-planet.com/anime/love-live-superstar-season-2'
   official: 'http://www.lovelive-anime.jp/yuigaoka/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
-  youtube: ''
-  nyaa: ''
----
-title: 'Luminous Witches'
-has_source: false
-info:
-  mal: 'https://myanimelist.net/anime/38006'
-  anilist: 'https://anilist.co/anime/103118'
-  anidb: 'http://anidb.net/a14204'
-  kitsu: 'https://kitsu.io/anime/44227'
-  animeplanet: 'http://www.anime-planet.com/anime/renmei-kuugun-koukuu-mahou-ongakutai-luminous-witches'
-  official: 'http://w-witch.jp/luminous/anime/'
   subreddit: ''
 streams:
   crunchyroll: ''
@@ -736,6 +712,7 @@ streams:
   nyaa: ''
 ---
 title: 'Musashino!'
+alias: ['Musasi-no']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/35335'
@@ -753,7 +730,7 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GYWE24DJY'
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
@@ -778,7 +755,7 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GVDHX8PMM'
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
@@ -868,12 +845,37 @@ info:
   official: 'https://anime.team-rwby-project.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GVDHX8JP2'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: 'https://vrv.co/series/GVDHX8JP2'
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Renmei Kuugun Koukuu Mahou Ongakutai Luminous Witches'
+alias: ['League of Nations Air Force Aviation Magic Band Luminous Witches']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/38006'
+  anilist: 'https://anilist.co/anime/103118'
+  anidb: 'http://anidb.net/a14204'
+  kitsu: 'https://kitsu.io/anime/44227'
+  animeplanet: 'http://www.anime-planet.com/anime/renmei-kuugun-koukuu-mahou-ongakutai-luminous-witches'
+  official: 'http://w-witch.jp/luminous/anime/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: 'https://www.hidive.com/tv/league-of-nations-air-force-aviation-magic-band-luminous-witches'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -881,8 +883,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'SHADOWS HOUSE 2nd Season'
-alias: ['SHADOWS HOUSE Season 2']
+title: 'SHADOWS HOUSE Season 2'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/49782'
@@ -893,14 +894,14 @@ info:
   official: 'https://shadowshouse-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/G1XHJVEXE'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G1XHJVEXE'
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
@@ -967,14 +968,14 @@ info:
   official: 'http://tenipuri.jp/u17/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/G65VP3106'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/G65VP3106'
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
@@ -1021,7 +1022,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/when-will-ayumu-make-his-move'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1029,7 +1030,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Tensei Kenja no Isekai Life: Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita'
+title: 'Tensei Kenja no Isekai Life ~Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita~'
 alias: ['My Isekai Life']
 has_source: true
 info:
@@ -1054,7 +1055,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Teppen—!!!!!!!!!!!!!!!'
+title: 'Teppen!!!!!!!!!!!!!!!'
+alias: ["Teppen!!!!!!!!!!!!!!! Laughing 'til you Cry"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/50760'
@@ -1275,7 +1277,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season'
+title: 'Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e Season 2'
 alias: ['Classroom of the Elite II']
 has_source: true
 info:
@@ -1294,7 +1296,7 @@ streams:
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: ''
+  vrv|VRV: 'https://vrv.co/series/GRVN8MNQY'
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
