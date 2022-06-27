@@ -7,19 +7,17 @@ from .. import AbstractPollHandler
 from data.models import Poll
 
 class PollHandler(AbstractPollHandler):
-	OPTION_V2_PLUS = 'Like'
-	OPTION_V2_MINUS = 'Dislike'
-	OPTIONS_V3 = ['Excellent', 'Great', 'Good', 'Mediocre', 'Bad']
+	OPTIONS = ['Excellent', 'Great', 'Good', 'Mediocre', 'Bad']
 
 	_poll_post_url = 'https://youpoll.me'
 	_poll_post_headers = {'User-Agent': None}
 	_poll_post_data = {'address': '',
 	                   'poll-1[question]': None,
-	                   'poll-1[option1]': OPTIONS_V3[0],
-	                   'poll-1[option2]': OPTIONS_V3[1],
-	                   'poll-1[option3]': OPTIONS_V3[2],
-	                   'poll-1[option4]': OPTIONS_V3[3],
-	                   'poll-1[option5]': OPTIONS_V3[4],
+	                   'poll-1[option1]': OPTIONS[0],
+	                   'poll-1[option2]': OPTIONS[1],
+	                   'poll-1[option3]': OPTIONS[2],
+	                   'poll-1[option4]': OPTIONS[3],
+	                   'poll-1[option5]': OPTIONS[4],
 	                   'poll-1[min]': '1',
 	                   'poll-1[max]': 10,
 	                   'poll-1[voting-system]': '0',
@@ -77,55 +75,27 @@ class PollHandler(AbstractPollHandler):
 			return None
 
 		try:
-			if response.find('div', class_='basic-type-results') is None: # numeric score
-				# v1 votes, 1-10 range
-				value_text = response.find("span", class_="rating-mean-value").text
-				num_votes = response.find("span", class_="admin-total-votes").text
-				try:
-					return float(value_text)
-				except ValueError:
-					warning(f"Invalid value '{value_text}' (v1), no score returned")
+			# 5 points scale
+			divs = response.find_all('div', class_='basic-option-wrapper')
+			num_votes_str = response.find("span", class_="admin-total-votes").text
+			num_votes = int(num_votes_str.replace(',', ''))
+			if num_votes == 0:
+				warning('No vote recorded, no score returned')
+				return None
+			values = dict()
+			for div in divs:
+				label = div.find('span', class_='basic-option-title').text
+				if label not in self.OPTIONS:
+					error(f'Found unexpected label {label}, aborted')
 					return None
-			else: # options-based score
-				divs = response.find_all('div', class_='basic-option-wrapper')
-				if len(divs) == 2:
-					# v2 votes, like dislike
-					# returned as fraction of likes
-					divs = response.find_all('div', class_='basic-option-wrapper')
-					num_votes = int(response.find("span", class_="admin-total-votes").text)
-					if num_votes == 0:
-						warning('No vote recorded, no score returned')
-						return None
-					for div in divs:
-						if div.find('span', class_='basic-option-title').text == self.OPTION_V2_PLUS:
-							value_text = div.find('span', class_='basic-option-percent').text
-							score = float(value_text.strip('%')) / 100
-							print(f'Score: {score}')
-							return score
-					error(f'Could not find the score (v2), no score returned')
-					return None
-				elif len(divs) == 5:
-					# v3 votes, 5 points scale
-					divs = response.find_all('div', class_='basic-option-wrapper')
-					num_votes_str = response.find("span", class_="admin-total-votes").text
-					num_votes = int(num_votes_str.replace(',', ''))
-					if num_votes == 0:
-						warning('No vote recorded, no score returned')
-						return None
-					values = dict()
-					for div in divs:
-						label = div.find('span', class_='basic-option-title').text
-						if label not in self.OPTIONS_V3:
-							error(f'Found unexpected label {label}, aborted')
-							return None
-						value_text = div.find('span', class_='basic-option-percent').text
-						score = float(value_text.strip('%')) / 100
-						values[label] = score
-					results = [values[k] for k in self.OPTIONS_V3]
-					info(f'Results: {str(results)}')
-					total = sum([r * s for r, s in zip(results, range(5, 0, -1))])
-					total = round(total, 2)
-					return total
+				value_text = div.find('span', class_='basic-option-percent').text
+				score = float(value_text.strip('%')) / 100
+				values[label] = score
+			results = [values[k] for k in self.OPTIONS]
+			info(f'Results: {str(results)}')
+			total = sum([r * s for r, s in zip(results, range(5, 0, -1))])
+			total = round(total, 2)
+			return total
 		except:
 			error(f"Couldn't get scores for poll {self.get_results_link(poll)} (parsing error)")
 			return None
