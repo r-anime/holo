@@ -105,7 +105,5 @@ class PollHandler(AbstractPollHandler):
 	def convert_score_str(score):
 		if score is None:
 			return '----'
-		elif score <= 1.0: # New style votes
-			return f'{round(100 * score)}%'
 		else:
 			return str(score)
