@@ -27,8 +27,8 @@ class PollHandler(AbstractPollHandler):
 	                   'voting-limits-dropdown': '3',
 			   'captcha-test-checkbox': 'on',
 	                   'reddit-link-karma': '0',
-	                   'reddit-comment-karma': '0',
-	                   'reddit-days-old': '8',
+	                   'reddit-comment-karma': '200',
+	                   'reddit-days-old': '0',
 	                   'responses-input': '',
 	                   }
 
