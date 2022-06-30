@@ -47,7 +47,7 @@ streams:
   nyaa: ''
 ---
 title: 'Bucchigire!'
-alias: ['Shine On! Bakumatsu Bad Boys!']
+alias: ['Shine On! Bakumatsu Bad Boys']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/51371'
@@ -87,7 +87,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/cardfight-vanguard-overdress'
+  hidive: 'https://www.hidive.com/tv/cardfight-vanguard-willdress'
   animelab|AnimeLab: ''
   vrv|VRV: 'https://vrv.co/series/GXJHM3NJ5'
   hulu|Hulu: ''
@@ -111,7 +111,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/chimimo'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -415,6 +415,7 @@ streams:
   nyaa: ''
 ---
 title: 'Isekai Yakkyoku'
+alias: ['Parallel World Pharmacy']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/49438'
@@ -504,7 +505,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/phantom-of-the-idol'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -750,7 +751,7 @@ info:
 streams:
   crunchyroll: 'https://www.crunchyroll.com/series/GVDHX8PMM'
   museasia: ''
-  anione: ''
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JhRe3iHESL39UAKDJNCRNeb'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -923,7 +924,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/shinepost'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1298,7 +1299,7 @@ streams:
   animelab|AnimeLab: ''
   vrv|VRV: 'https://vrv.co/series/GRVN8MNQY'
   hulu|Hulu: ''
-  disney|Disney: ''
+  disney|Disney: 'https://www.disneyplus.com/series/classroom-of-the-elite/6tGY0LGgFeWE'
   youtube: ''
   nyaa: ''
 ---
