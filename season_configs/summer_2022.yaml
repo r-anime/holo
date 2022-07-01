@@ -119,30 +119,6 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'D4DJ Double Mix'
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/51251'
-  anilist: 'https://anilist.co/anime/146321'
-  anidb: 'http://anidb.net/a17255'
-  kitsu: 'https://kitsu.io/anime/45974'
-  animeplanet: 'http://www.anime-planet.com/anime/d4dj-double-mix'
-  official: 'https://anime.d4dj-pj.com/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
-  youtube: ''
-  nyaa: ''
----
 title: 'DEath MAtCH ~Real ni Koi Shiteru~'
 has_source: false
 info:
@@ -162,31 +138,6 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
-  youtube: ''
-  nyaa: ''
----
-title: 'Dr. STONE: Ryusui'
-alias: ['Dr. STONE Special Episode – RYUSUI']
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/50612'
-  anilist: 'https://anilist.co/anime/142876'
-  anidb: 'http://anidb.net/a16164'
-  kitsu: 'https://kitsu.io/anime/45615'
-  animeplanet: 'http://www.anime-planet.com/anime/dr-stone-ryuusui'
-  official: 'https://dr-stone.jp/'
-  subreddit: ''
-streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GYEXQKJG6'
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: 'https://vrv.co/series/GYEXQKJG6'
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
