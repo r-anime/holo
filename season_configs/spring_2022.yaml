@@ -1230,7 +1230,7 @@ streams:
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
-    youtube: 'https://www.youtube.com/watch?v=ZhGLIh6_Das'
+    youtube: ''
     nyaa: ''
 ---
 title: 'Summer Time Render'
