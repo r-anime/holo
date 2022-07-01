@@ -71,7 +71,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'CARDFIGHT!! VANGUARD will+Dress'
+title: 'Cardfight!! Vanguard: Will+Dress'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/49819'
@@ -82,7 +82,7 @@ info:
   official: 'https://anime.cf-vanguard.com/vgd/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GXJHM3NJ5'
+  crunchyroll: 'https://www.crunchyroll.com/cardfight-vanguard-overdress'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -95,7 +95,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'CHIMIMO'
+title: 'Chimimo'
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/50985'
@@ -192,7 +192,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Dungeon ni Deai wo Motomeru no wa Machigatteiru no Darou ka IV'
+title: 'Dungeon ni Deai wo Motomeru no wa Machigatteiru no Darou ka Season 4'
 alias: ['Is It Wrong to Try to Pick Up Girls in a Dungeon? IV']
 has_source: true
 info:
@@ -315,7 +315,7 @@ streams:
   nyaa: ''
 ---
 title: 'Hataraku Maou-sama!!'
-alias: ['The Devil is a Part-Timer!!']
+alias: ['The Devil is a Part-Timer Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/48413'
@@ -326,7 +326,7 @@ info:
   official: 'https://maousama.jp/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GR75Z5KKY'
+  crunchyroll: 'https://www.crunchyroll.com/the-devil-is-a-part-timer'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -440,7 +440,7 @@ streams:
   nyaa: ''
 ---
 title: 'Jashin-chan Dropkick X'
-alias: ['Dropkick on My Devil!! X']
+alias: ['Dropkick on My Devil!! X', ''Jashin-chan Dropkick Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42994'
@@ -451,14 +451,14 @@ info:
   official: 'http://jashinchan.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GREX249VY'
+  crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: 'https://vrv.co/series/GREX249VY'
+  vrv|VRV: ''
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
@@ -514,7 +514,7 @@ streams:
   nyaa: ''
 ---
 title: 'Kanojo, Okarishimasu Season 2'
-alias: ['Rent-a-Girlfriend Season 2']
+alias: ['Rent-a-Girlfriend Season 2', 'Kanokari']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/42963'
@@ -525,7 +525,7 @@ info:
   official: 'https://kanokari-official.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G6QWV3976'
+  crunchyroll: 'https://www.crunchyroll.com/rent-a-girlfriend'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -538,7 +538,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Kinsou no Vermeil ~Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsukisusumu~'
+title: 'Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsukisusumu'
 alias: ['Vermeil in Gold ~A Magician Pushes Through the Magical World With the Strongest Disaster~']
 has_source: true
 info:
@@ -662,8 +662,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'MADE IN ABYSS: Retsujitsu no Ougonkyo'
-alias: ['MADE IN ABYSS: The Golden City of the Scorching Sun']
+title: 'Made in Abyss: Retsujitsu no Ougonkyo'
+alias: ['Made in Abyss: The Golden City of the Scorching Sun']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41084'
@@ -724,21 +724,20 @@ info:
   official: 'https://www.musasi-no.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GYWE24DJY'
+  crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: 'https://vrv.co/series/GYWE24DJY'
+  vrv|VRV: ''
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
   nyaa: ''
 ---
-title: 'ORIENT 2nd Cour'
-alias: ['ORIENT Part 2']
+title: 'Orient Part 2'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51368'
@@ -749,9 +748,9 @@ info:
   official: 'https://orient-anime.jp/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GVDHX8PMM'
+  crunchyroll: 'https://www.crunchyroll.com/orient'
   museasia: ''
-  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JhRe3iHESL39UAKDJNCRNeb'
+  anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JhRe3iHESL39UAKDJNCRNeb|12'
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
@@ -762,7 +761,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'OVER THE RAINBOW'
+title: 'Over the Rainbow'
 has_source: false
 info:
   mal: ''
@@ -786,7 +785,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Overlord IV'
+title: 'Overlord Season 4'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/48895'
@@ -846,7 +845,7 @@ info:
   official: 'https://anime.team-rwby-project.jp/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GVDHX8JP2'
+  crunchyroll: 'https://www.crunchyroll.com/rwby-ice-queendom'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -884,7 +883,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'SHADOWS HOUSE Season 2'
+title: 'Shadows House Season 2'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/49782'
@@ -895,7 +894,7 @@ info:
   official: 'https://shadowshouse-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G1XHJVEXE'
+  crunchyroll: 'https://www.crunchyroll.com/shadows-house'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -908,7 +907,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'SHINEPOST'
+title: 'Shine Post'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/50221'
@@ -957,8 +956,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Shin Tennis no Ouji-sama: U-17 WORLD CUP'
-alias: ['The Prince of Tennis II: U-17 WORLD CUP']
+title: 'Shin Tennis no Ouji-sama: U-17 World Cup'
+alias: ['The Prince of Tennis II: U-17 World Cup', 'Shin Tennis no Ouji-sama Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/50099'
@@ -969,7 +968,7 @@ info:
   official: 'http://tenipuri.jp/u17/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G65VP3106'
+  crunchyroll: 'https://www.crunchyroll.com/the-prince-of-tennis-ii'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1031,7 +1030,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Tensei Kenja no Isekai Life ~Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita~'
+title: 'Tensei Kenja no Isekai Life: Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita'
 alias: ['My Isekai Life']
 has_source: true
 info:
@@ -1057,7 +1056,7 @@ streams:
   nyaa: ''
 ---
 title: 'Teppen!!!!!!!!!!!!!!!'
-alias: ["Teppen!!!!!!!!!!!!!!! Laughing 'til you Cry"]
+alias: ["Teppen!!!!!!!!!!!!!!! Laughing 'til you Cry", 'Teppen 15 exclamation marks']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/50760'
@@ -1082,7 +1081,6 @@ streams:
   nyaa: ''
 ---
 title: 'Tokyo Mew Mew New~♡'
-alias: ['TOKYO MEW MEW NEW']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/41589'
@@ -1130,7 +1128,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Uta no☆Prince-sama♪ Maji Love ST☆RISH Tours ~Tabi no Hajimari~'
+title: 'Uta no☆Prince-sama♪ Maji Love ST☆RISH Tours: Tabi no Hajimari'
 has_source: true
 info:
   mal: ''
@@ -1204,7 +1202,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'YUREI DECO'
+title: 'Yurei Deco'
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/51092'
@@ -1290,7 +1288,7 @@ info:
   official: 'http://you-zitsu.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GRVN8MNQY'
+  crunchyroll: 'https://www.crunchyroll.com/classroom-of-the-elite'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1303,7 +1301,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'iii icecrin 2'
+title: 'Iii Icecrin 2'
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/51839'
