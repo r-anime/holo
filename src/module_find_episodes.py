@@ -125,7 +125,7 @@ def _process_new_episode(config, db, show, stream, episode):
 				# Edit the links in previous episodes
 				editing_episodes = db.get_episodes(show)
 				if len(editing_episodes) > 0:
-					edit_history_length = 4 * 13 / 2 # cols x rows / 2
+					edit_history_length = int(4 * 13 / 2) # cols x rows / 2
 					editing_episodes.sort(key=lambda x: x.number)
 					for editing_episode in editing_episodes[-edit_history_length:]:
 						_edit_reddit_post(config, db, show, stream, editing_episode, editing_episode.link, submit=not config.debug)
