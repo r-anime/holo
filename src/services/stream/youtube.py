@@ -25,7 +25,9 @@ class ServiceHandler(AbstractServiceHandler):
 		for episode_data in episode_datas:
 			if _is_valid_episode(episode_data, stream.show_key):
 				try:
-					episodes.append(_digest_episode(episode_data))
+					episode = _digest_episode(episode_data)
+					if episode is not None:
+						episodes.append(episode)
 				except:
 					exception(f"Problem digesting episode for Youtube/{stream.show_key}")
 
