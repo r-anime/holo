@@ -600,7 +600,7 @@ info:
   official: 'https://lycoris-recoil.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/lycoris-recoil'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -675,14 +675,14 @@ info:
   official: 'https://www.musasi-no.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/urawa-no-usagi-chan'
+  crunchyroll: 'https://www.crunchyroll.com/musasi-no'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
-  vrv|VRV: 'https://vrv.co/series/GYWE24DJY'
+  vrv|VRV: ''
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
@@ -943,7 +943,7 @@ info:
   official: 'https://shoot-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/shoot-goal-to-the-future'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1018,7 +1018,7 @@ info:
   official: 'https://teppen-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/teppen-laughing-til-you-cry'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
