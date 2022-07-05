@@ -31,7 +31,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/bang-dream-morfonica'
   official: 'https://morfonica-anime.bang-dream.com/'
-  subreddit: 'r/BanGDream'
+  subreddit: '/r/BanGDream'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -80,7 +80,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45214'
   animeplanet: 'http://www.anime-planet.com/anime/cardfight-vanguard-overdress-3rd-season'
   official: 'https://anime.cf-vanguard.com/vgd/'
-  subreddit: 'r/cardfightvanguard'
+  subreddit: '/r/cardfightvanguard'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -177,7 +177,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46013'
   animeplanet: 'http://www.anime-planet.com/anime/engage-kiss'
   official: 'https://engage-kiss.com/'
-  subreddit: 'r/EngageKiss'
+  subreddit: '/r/EngageKiss'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/engage-kiss'
   museasia: ''
@@ -275,7 +275,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44113'
   animeplanet: 'http://www.anime-planet.com/anime/the-devil-is-a-part-timer-2'
   official: 'https://maousama.jp/'
-  subreddit: 'r/TheDevilIsAPartTimer'
+  subreddit: '/r/TheDevilIsAPartTimer'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/the-devil-is-a-part-timer'
   museasia: ''
@@ -895,7 +895,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/the-maid-i-hired-recently-is-mysterious'
   official: 'https://maid-ga-ayashii.com/'
-  subreddit: 'r/SaikinYatottaMaidGaAy'
+  subreddit: '/r/SaikinYatottaMaidGaAy'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/the-maid-i-hired-recently-is-mysterious'
   museasia: ''
