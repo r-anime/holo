@@ -327,7 +327,7 @@ info:
   official: 'https://isekai-harem.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/harem-in-the-labyrinth-of-another-world'
+  crunchyroll_nsfw|Crunchyroll: 'https://www.crunchyroll.com/harem-in-the-labyrinth-of-another-world'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1190,7 +1190,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45483'
   animeplanet: 'http://www.anime-planet.com/anime/call-of-the-night'
   official: 'https://yofukashi-no-uta.com/'
-  subreddit: ''
+  subreddit: '/r/YofukashiNoUta'
 streams:
   crunchyroll: ''
   museasia: ''
