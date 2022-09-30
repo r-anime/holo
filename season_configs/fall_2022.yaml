@@ -494,7 +494,7 @@ title: 'Human Bug Daigaku'
 alias: ['The Human Crazy University']
 has_source: true
 info:
-  mal: ''
+  mal: 'https://myanimelist.net/anime/53012/'
   anilist: ''
   anidb: ''
   kitsu: ''
@@ -641,7 +641,7 @@ streams:
 title: 'Mamekichi Mameko NEET no Nichijou'
 has_source: true
 info:
-  mal: ''
+  mal: 'https://myanimelist.net/anime/53011/'
   anilist: ''
   anidb: 'http://anidb.net/a17620'
   kitsu: ''
@@ -697,7 +697,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45282'
   animeplanet: 'http://www.anime-planet.com/anime/detective-conan-the-culprit-hanazawa'
   official: 'https://hanzawasan-file.com/'
-  subreddit: ''
+  subreddit: '/r/DetectiveConan'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -839,7 +839,7 @@ streams:
 title: 'Obake Zukan!'
 has_source: true
 info:
-  mal: ''
+  mal: 'https://myanimelist.net/anime/52319'
   anilist: ''
   anidb: 'http://anidb.net/a17499'
   kitsu: ''
