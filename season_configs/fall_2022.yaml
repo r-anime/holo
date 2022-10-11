@@ -1304,6 +1304,32 @@ streams:
   youtube: ''
   nyaa: ''
 ---
+title: 'Yojohan Time Machine Blues'
+alias: ['The Tatami Time Machine Blues']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/49590'
+  anilist: 'https://anilist.co/anime/137819'
+  anidb: ''
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/yojouhan-time-machine-blues'
+  official: 'https://yojohan-timemachine.asmik-ace.co.jp/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  hotstar|Hotstar: 'https://www.hotstar.com/in/tv/the-tatami-time-machine-blues/1260113194'
+  disney|Disney: 'https://www.disneyplus.com/series/the-tatami-time-machine-blues/6C7HChDy39QZ'
+  youtube: ''
+  nyaa: ''
+---
 title: 'Ginga Eiyuu Densetsu: Die Neue These - Sakubou'
 alias: ['Legend of the Galactic Heroes: Die Neue These - Intrigue']
 has_source: true
