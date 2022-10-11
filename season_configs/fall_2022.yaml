@@ -934,7 +934,7 @@ streams:
   hulu|Hulu: ''
   disney|Disney: 'https://www.disneyplus.com/series/pui-pui-molcar-driving-school/4HnJy6COAslu'
   youtube: ''
-  nyaa:
+  nyaa: ''
 ---
 title: 'Reiwa no Di Gi Charat'
 has_source: true
@@ -1291,7 +1291,7 @@ info:
   official: 'https://beasttamer.jp/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G8DHV743V'
+  crunchyroll: 'https://www.crunchyroll.com/beast-tamer'
   museasia: 'https://www.youtube.com/playlist?list=PLwLSw1_eDZl1lv3DwQr43Dbdnjsxfa_cB'
   anione: ''
   funimation|Funimation: ''
