@@ -214,6 +214,7 @@ _num_extractors = [re.compile(x, re.I) for x in [
 	r"\[anon\] .+? (\d{2,})",
 	r"\[seiya\] .+ - (\d+) \[.+\]",
 	r"\[U3-Web\] .+ \[EP(\d+)\]",
+	r"\[ember\] .+ s(?:\d+)e(\d+)",
 	r"(?:.+).S(?:\d+)E(\d+).Laelaps.Calling.(?:\d+)p.(?:.+)",
 	r"\[(?:SenritsuSubs|AtlasSubbed|Rakushun)\] .+ - (\d+)",
 	r".+ - S(?:\d+)E(\d+) ", # using the S01E12 format
