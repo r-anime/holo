@@ -500,6 +500,20 @@ class DatabaseDatabase:
 		show.aliases = self.get_aliases(show)
 		return show
 
+	@db_error_default(None)
+	def get_show_by_name(self, name) -> Optional[Show]:
+		#debug("Getting show from database")
+
+		self.q.execute(
+			"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
+			WHERE name = ?", (name,))
+		show = self.q.fetchone()
+		if show is None:
+			return None
+		show = Show(*show)
+		show.aliases = self.get_aliases(show)
+		return show
+
 	@db_error_default(list())
 	def get_aliases(self, show: Show) -> [str]:
 		self.q.execute("SELECT alias FROM Aliases where show = ?", (show.id,))
