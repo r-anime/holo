@@ -761,7 +761,7 @@ streams:
   vrv|VRV: 'https://vrv.co/series/G79H2307W'
   hulu|Hulu: ''
   disney|Disney: 'https://www.disneyplus.com/series/mobile-suit-gundam-the-witch-from-mercury/5QpjFWF5ssvK'
-  youtube: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLJV1h9xQ7Hx_jXtO1GrrS0to_ojc672HG'
   nyaa: ''
 ---
 title: 'Mushikaburi-hime'
@@ -1266,7 +1266,7 @@ info:
   official: 'http://yowapeda.com/'
   subreddit: '/r/YowamushiPedal'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/yowamushi-pedal'
+  crunchyroll: 'https://www.crunchyroll.com/yowamushi-pedal-new-generation'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
