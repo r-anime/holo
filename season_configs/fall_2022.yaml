@@ -99,6 +99,7 @@ streams:
   nyaa: ''
 ---
 title: 'Aru Asa Dummy Head Mic ni Natteita Ore-kun no Jinsei'
+alias: ['Aru Asa Dummy Head Mike ni Natte Ita Ore-kun no Jinsei']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/52381'
@@ -279,7 +280,7 @@ info:
   kitsu: 'https://kitsu.io/anime/43806'
   animeplanet: 'http://www.anime-planet.com/anime/chainsaw-man'
   official: 'https://chainsawman.dog/'
-  subreddit: '/r/Chainsawman'
+  subreddit: '/r/csmanime'
 streams:
   crunchyroll: ''
   museasia: ''
