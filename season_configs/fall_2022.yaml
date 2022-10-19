@@ -1107,6 +1107,7 @@ streams:
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
+  bilibili|Bilibili: 'https://www.bilibili.tv/en/media/2068647'
   nyaa: 'Tensei Shitara Ken Deshita'
 ---
 title: 'Urusei Yatsura (2022)'
