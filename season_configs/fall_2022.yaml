@@ -592,7 +592,7 @@ streams:
   nyaa: ''
 ---
 title: 'Kokyu no Karasu | Raven of the Inner Palace'
-alias: ['Raven of the Inner Palace']
+alias: ['Koukyuu no Karasu', 'Raven of the Inner Palace']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/50590'
@@ -614,7 +614,7 @@ streams:
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Koukyuu no Karasu'
 ---
 title: 'Mairimashita! Iruma-kun Season 3'
 alias: ['Welcome to Demon School! Iruma-kun Season 3']
