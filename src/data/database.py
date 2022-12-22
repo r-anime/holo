@@ -79,6 +79,7 @@ class DatabaseDatabase:
 		self.q.execute("""CREATE TABLE IF NOT EXISTS Shows (
 			id		INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 			name		TEXT NOT NULL,
+			name_en		TEXT,
 			length		INTEGER,
 			type		INTEGER NOT NULL,
 			has_source	INTEGER NOT NULL DEFAULT 0,
@@ -452,11 +453,11 @@ class DatabaseDatabase:
 		shows = list()
 		if missing_length:
 			self.q.execute(
-				"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
+				"SELECT id, name, name_en, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
 				WHERE (length IS NULL OR length = '' OR length = 0) AND enabled = ?", (enabled,))
 		elif missing_stream:
 			self.q.execute(
-				"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows show\
+				"SELECT id, name, name_en, length, type, has_source, is_nsfw, enabled, delayed FROM Shows show\
 				WHERE (SELECT count(*) FROM Streams stream, Services service \
 				       WHERE stream.show = show.id \
 				       AND stream.active = 1 \
@@ -466,11 +467,11 @@ class DatabaseDatabase:
 				(enabled,))
 		elif delayed:
 			self.q.execute(
-				"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
+				"SELECT id, name, name_en, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
 				WHERE delayed = 1 AND enabled = ?", (enabled,))
 		else:
 			self.q.execute(
-				"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
+				"SELECT id, name, name_en, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
 				WHERE enabled = ?", (enabled,))
 		for show in self.q.fetchall():
 			show = Show(*show)
@@ -491,7 +492,7 @@ class DatabaseDatabase:
 			error("Show ID not provided to get_show")
 			return None
 		self.q.execute(
-			"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
+			"SELECT id, name, name_en, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
 			WHERE id = ?", (id,))
 		show = self.q.fetchone()
 		if show is None:
@@ -505,7 +506,7 @@ class DatabaseDatabase:
 		#debug("Getting show from database")
 
 		self.q.execute(
-			"SELECT id, name, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
+			"SELECT id, name, name_en, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
 			WHERE name = ?", (name,))
 		show = self.q.fetchone()
 		if show is None:
@@ -524,11 +525,12 @@ class DatabaseDatabase:
 		debug("Inserting show: {}".format(raw_show))
 
 		name = raw_show.name
+		name_en = raw_show.name_en
 		length = raw_show.episode_count
 		show_type = from_show_type(raw_show.show_type)
 		has_source = raw_show.has_source
 		is_nsfw = raw_show.is_nsfw
-		self.q.execute("INSERT INTO Shows (name, length, type, has_source, is_nsfw) VALUES (?, ?, ?, ?, ?)", (name, length, show_type, has_source, is_nsfw))
+		self.q.execute("INSERT INTO Shows (name, name_en, length, type, has_source, is_nsfw) VALUES (?, ?, ?, ?, ?, ?)", (name, name_en, length, show_type, has_source, is_nsfw))
 		show_id = self.q.lastrowid
 		self.add_show_names(raw_show.name, *raw_show.more_names, id=show_id, commit=commit)
 
@@ -547,15 +549,17 @@ class DatabaseDatabase:
 		debug("Updating show: {}".format(raw_show))
 
 		#name = raw_show.name
+		name_en = raw_show.name_en
 		length = raw_show.episode_count
 		show_type = from_show_type(raw_show.show_type)
 		has_source = raw_show.has_source
 		is_nsfw = raw_show.is_nsfw
 
+		if name_en:
+		    self.q.execute("UPDATE Shows SET name_en = ? WHERE id = ?", (name_en, show_id))
 		if length != 0:
-			self.q.execute("UPDATE Shows SET length = ?, type = ?, has_source = ?, is_nsfw = ? WHERE id = ?", (length, show_type, has_source, is_nsfw, show_id))
-		else:
-			self.q.execute("UPDATE Shows SET type = ?, has_source = ?, is_nsfw = ? WHERE id = ?", (show_type, has_source, is_nsfw, show_id))
+			self.q.execute("UPDATE Shows SET length = ? WHERE id = ?", (length, show_id))
+		self.q.execute("UPDATE Shows SET type = ?, has_source = ?, is_nsfw = ? WHERE id = ?", (show_type, has_source, is_nsfw, show_id))
 
 		if commit:
 			self.commit()

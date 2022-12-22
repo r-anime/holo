@@ -30,6 +30,7 @@ class Config:
 		self.discovery_stream_sources = list()
 		
 		self.post_title = None
+		self.post_title_with_en = None
 		self.post_title_postfix_final = None
 		self.post_flair_id = None
 		self.post_flair_text = None
@@ -81,6 +82,7 @@ def from_file(file_path):
 	if "post" in parsed:
 		sec = parsed["post"]
 		config.post_title = sec.get("title", None)
+		config.post_title_with_en = sec.get("title_with_en", None)
 		config.post_title_postfix_final = sec.get("title_postfix_final", None)
 		config.post_flair_id = sec.get("flair_id", None)
 		config.post_flair_text = sec.get("flair_text", None)

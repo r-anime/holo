@@ -29,6 +29,7 @@ def _edit_with_file(db, edit_file):
 	
 	for doc in parsed:
 		name = doc["title"]
+		name_en = doc.get("title_en", "")
 		stype = str_to_showtype(doc.get("type", "tv"))		# convert to enum?
 		length = doc.get("length", 0)
 		has_source = doc.get("has_source", False)
@@ -41,7 +42,7 @@ def _edit_with_file(db, edit_file):
 			error("Invalid show type \"{}\"".format(stype))
 			return False
 		
-		show = UnprocessedShow(None, None, name, [], stype, length, has_source, is_nsfw)
+		show = UnprocessedShow(None, None, name, name_en, [], stype, length, has_source, is_nsfw)
 		found_ids = db.search_show_ids_by_names(name, exact=True)
 		debug("Found ids: {found_ids}")
 		if len(found_ids) == 0:
