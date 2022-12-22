@@ -184,11 +184,15 @@ def _format_post_text(config, db, text, formats, show, episode, stream):
 	
 	episode_name = ": {}".format(episode.name) if episode.name else ""
 	episode_alt_number = "" if stream.remote_offset == 0 else f" ({episode.number + stream.remote_offset})"
-	text = safe_format(text, show_name=show.name, episode=episode.number, episode_alt_number=episode_alt_number, episode_name=episode_name)
+	text = safe_format(text, show_name=show.name, show_name_en=show.name_en, episode=episode.number, episode_alt_number=episode_alt_number, episode_name=episode_name)
 	return text.strip()
 
 def _create_post_title(config, show, episode):
-	title = config.post_title
+	if show.name_en:
+		title = config.post_title_with_en
+	else:
+		title = config.post_title
+
 	if episode.number == show.length and config.post_title_postfix_final:
 		title += ' ' + config.post_title_postfix_final
 	return title
