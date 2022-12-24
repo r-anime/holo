@@ -1358,6 +1358,30 @@ streams:
   disney|Disney: ''
   youtube: ''
   nyaa: ''
+---
+title: 'Lupin Zero'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/53414/'
+  anilist: 'https://anilist.co/anime/155925/LUPIN-ZERO/'
+  anidb: 'https://anidb.net/anime/17679'
+  kitsu: 'https://kitsu.io/anime/lupin-zero'
+  animeplanet: 'https://www.anime-planet.com/anime/lupin-zero'
+  official: 'https://www.anime-planet.com/anime/lupin-zero'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: 'https://www.hidive.com/tv/lupin-zero'
+  animelab|AnimeLab: ''
+  bilibili|Bilibili: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
 #---
 #title: ''
 #alias: ['']
