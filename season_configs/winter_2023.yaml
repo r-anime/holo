@@ -33,7 +33,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46560'
     animeplanet: 'http://www.anime-planet.com/anime/ars-no-kyojuu'
     official: 'https://ars-giant.com/'
-    subreddit: ''
+    subreddit: '/r/GiantBeastsOfArs' # low traffic, styling on new reddit
 streams:
     crunchyroll: ''
     museasia: ''
