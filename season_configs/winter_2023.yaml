@@ -8,7 +8,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/flaglia'
     official: 'https://www.flaglia.com/animation/'
-    subreddit: ''
+    subreddit: '/r/BokuNoNatsuyasumi'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -33,7 +33,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46560'
     animeplanet: 'http://www.anime-planet.com/anime/ars-no-kyojuu'
     official: 'https://ars-giant.com/'
-    subreddit: ''
+    subreddit: '/r/GiantbeastsofArs'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -58,7 +58,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45609'
     animeplanet: 'http://www.anime-planet.com/anime/ayakashi-triangle'
     official: 'https://ayakashitriangle-anime.com/'
-    subreddit: ''
+    subreddit: '/r/AyakashiTriangle'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -108,7 +108,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46144'
     animeplanet: 'http://www.anime-planet.com/anime/me-and-roboco'
     official: 'https://boku-to-roboco.com/'
-    subreddit: ''
+    subreddit: '/r/MeAndRoboco'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -158,7 +158,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45460'
     animeplanet: 'http://www.anime-planet.com/anime/bungo-stray-dogs-4th-season'
     official: 'https://bungosd.com/'
-    subreddit: ''
+    subreddit: '/r/BungouStrayDogs'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GR5VXQ8PR/bungo-stray-dogs'
     museasia: ''
@@ -183,7 +183,7 @@ info:
     kitsu: ''
     animeplanet: ''
     official: 'https://anime.cf-vanguard.com/overdress/'
-    subreddit: ''
+    subreddit: '/r/cardfightvanguard'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -200,6 +200,7 @@ streams:
 ---
 title: 'D4DJ All Mix'
 title_en: ""
+alias: ['D4DJ Season 2']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/51586'
@@ -233,7 +234,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46556'
     animeplanet: 'http://www.anime-planet.com/anime/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv-part-ii'
     official: 'http://danmachi.com/'
-    subreddit: ''
+    subreddit: '/r/DanMachi'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -283,7 +284,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44706'
     animeplanet: 'http://www.anime-planet.com/anime/high-card'
     official: 'https://highcard-anime.jp/'
-    subreddit: ''
+    subreddit: '/r/HIGHCARD'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -333,7 +334,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46783'
     animeplanet: 'http://www.anime-planet.com/anime/hirogaru-sky-precure'
     official: 'https://www.toei-anim.co.jp/tv/hirogaru-sky_precure/'
-    subreddit: ''
+    subreddit: '/r/precure'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -358,7 +359,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46088'
     animeplanet: 'http://www.anime-planet.com/anime/the-iceblade-sorcerer-shall-rule-the-world'
     official: 'http://www.tbs.co.jp/anime/hyouken/'
-    subreddit: ''
+    subreddit: '/r/Hyouken_No_Majutsushi'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -383,7 +384,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45355'
     animeplanet: 'http://www.anime-planet.com/anime/dont-toy-with-me-miss-nagatoro-2'
     official: 'https://nagatorosan.jp/'
-    subreddit: ''
+    subreddit: '/r/nagatoro'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GQWH0M455'
     museasia: ''
@@ -433,7 +434,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46016'
     animeplanet: 'http://www.anime-planet.com/anime/farming-life-in-another-world'
     official: 'https://nonbiri-nouka.com/'
-    subreddit: ''
+    subreddit: '/r/IsekaiNonbiriNouka'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -534,7 +535,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44665'
     animeplanet: 'http://www.anime-planet.com/anime/by-the-grace-of-the-gods-2'
     official: 'https://kamihiro-anime.com/'
-    subreddit: ''
+    subreddit: '/r/KamiTachi'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GP5HJ85ED'
     museasia: ''
@@ -559,7 +560,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46192'
     animeplanet: 'http://www.anime-planet.com/anime/the-ice-guy-and-his-cool-female-colleague'
     official: 'https://icpc-anime.com/'
-    subreddit: ''
+    subreddit: '/r/KooriZokusei'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -584,7 +585,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46110'
     animeplanet: 'http://www.anime-planet.com/anime/kubo-wont-let-me-be-invisible'
     official: 'https://kubosan-anime.jp/'
-    subreddit: ''
+    subreddit: '/r/KuboSanWontLeaveMeBe'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -609,7 +610,7 @@ info:
     kitsu: 'https://kitsu.io/anime/43755'
     animeplanet: 'http://www.anime-planet.com/anime/in-spectre-2nd-season'
     official: 'https://kyokousuiri.jp/'
-    subreddit: ''
+    subreddit: '/r/KyokouSuiri'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GYZJEEQGR'
     museasia: ''
@@ -634,7 +635,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45625'
     animeplanet: 'http://www.anime-planet.com/anime/the-vampire-dies-in-no-time-2nd-season'
     official: 'https://sugushinu-anime.jp/'
-    subreddit: ''
+    subreddit: '/r/VampireDiesInNoTime'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GZJH3DJ1X'
     museasia: ''
@@ -659,7 +660,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46549'
     animeplanet: 'http://www.anime-planet.com/anime/sorcerous-stabber-orphen-chaos-in-urbanrama'
     official: 'http://ssorphen-anime.com/'
-    subreddit: ''
+    subreddit: '/r/MajutsushiOrphen'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GJ0H7QXDW'
     museasia: ''
@@ -685,7 +686,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44125'
     animeplanet: 'http://www.anime-planet.com/anime/the-misfit-of-demon-king-academy-2'
     official: 'https://maohgakuin.com/'
-    subreddit: ''
+    subreddit: '/r/MaouGakuin'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GY243NN0R'
     museasia: ''
@@ -710,7 +711,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45509'
     animeplanet: 'http://www.anime-planet.com/anime/mononogatari'
     official: 'https://www.mononogatari-pr.com/'
-    subreddit: ''
+    subreddit: '/r/Mononogatari'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -760,7 +761,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/nijiyon-animation'
     official: 'https://www.lovelive-anime.jp/nijigasaki/niji4anime.php'
-    subreddit: ''
+    subreddit: '/r/LoveLive'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -861,7 +862,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46077'
     animeplanet: 'http://www.anime-planet.com/anime/onii-chan-wa-oshimai'
     official: 'https://onimai.jp/'
-    subreddit: ''
+    subreddit: '/r/OniichanOshimai'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -886,7 +887,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45787'
     animeplanet: 'http://www.anime-planet.com/anime/ooyuki-umi-no-kaina'
     official: 'https://ooyukiumi.net/'
-    subreddit: ''
+    subreddit: '/r/OoyukiumiNoKaina'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -911,7 +912,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45715'
     animeplanet: 'http://www.anime-planet.com/anime/the-angel-next-door-spoils-me-rotten'
     official: 'https://otonarino-tenshisama.jp/'
-    subreddit: ''
+    subreddit: '/r/OtonariNoTenshiSama'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -936,7 +937,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/pokemon-aiming-to-be-a-pokemon-master'
     official: 'https://www.tv-tokyo.co.jp/anime/pocketmonster/'
-    subreddit: ''
+    subreddit: '/r/pokemonanime'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1036,7 +1037,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46033'
     animeplanet: 'http://www.anime-planet.com/anime/new-the-fruit-of-evolution-before-i-knew-it-my-life-had-it-made'
     official: 'https://shinkanomi-anime.com/'
-    subreddit: ''
+    subreddit: '/r/shinkanomi'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/G9VHN9DDX'
     museasia: ''
@@ -1061,7 +1062,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45966'
     animeplanet: 'http://www.anime-planet.com/anime/spy-classroom'
     official: 'https://spyroom-anime.com/'
-    subreddit: ''
+    subreddit: '/r/SpyRoom'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1086,7 +1087,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45270'
     animeplanet: 'http://www.anime-planet.com/anime/sugar-apple-fairytale'
     official: 'https://sugarapple-anime.com/'
-    subreddit: ''
+    subreddit: '/r/sugarapplefairytale'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1111,7 +1112,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46183'
     animeplanet: 'http://www.anime-planet.com/anime/trigun-stampede'
     official: 'https://trigun-anime.com/'
-    subreddit: ''
+    subreddit: '/r/Trigun'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1161,7 +1162,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46335'
     animeplanet: 'http://www.anime-planet.com/anime/the-magical-revolution-of-the-reincarnated-princess'
     official: 'https://tenten-kakumei.com/'
-    subreddit: ''
+    subreddit: '/r/mahoukakumei'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1211,7 +1212,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45607'
     animeplanet: 'http://www.anime-planet.com/anime/tokyo-revengers-seiya-kessen-hen'
     official: 'https://tokyo-revengers-anime.com/'
-    subreddit: ''
+    subreddit: '/r/TokyoRevengers'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1236,7 +1237,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46232'
     animeplanet: 'http://www.anime-planet.com/anime/tomo-chan-is-a-girl'
     official: 'https://tomo-chan.jp/'
-    subreddit: ''
+    subreddit: '/r/tomochanwaonnanoko'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1261,7 +1262,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46676'
     animeplanet: 'http://www.anime-planet.com/anime/campfire-cooking-in-another-world-with-my-absurd-skill'
     official: 'https://tondemoskill-anime.com/'
-    subreddit: ''
+    subreddit: '/r/TondemoSkill'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1311,7 +1312,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46368'
     animeplanet: 'http://www.anime-planet.com/anime/tsurune-tsunagari-no-hitosa'
     official: 'http://tsurune.com/'
-    subreddit: ''
+    subreddit: '/t/tsurune'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1361,7 +1362,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44875'
     animeplanet: 'http://www.anime-planet.com/anime/vinland-saga-season-2'
     official: 'https://vinlandsaga.jp/'
-    subreddit: ''
+    subreddit: '/r/VinlandSaga'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GEXH3WKK0'
     museasia: ''
