@@ -1187,7 +1187,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45394'
     animeplanet: 'http://www.anime-planet.com/anime/the-legend-of-heroes-trails-of-cold-steel'
     official: 'https://sen-anime.jp/'
-    subreddit: ''
+    subreddit: '/r/TheLegendOfHeroes' # low traffic, minimal styling on new reddit
 streams:
     crunchyroll: ''
     museasia: ''
