@@ -8,7 +8,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/flaglia'
     official: 'https://www.flaglia.com/animation/'
-    subreddit: '/r/Flaglia' # no traffic or CSS (new and old)
+    subreddit: '/r/BokuNoNatsuyasumi'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -33,7 +33,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46560'
     animeplanet: 'http://www.anime-planet.com/anime/ars-no-kyojuu'
     official: 'https://ars-giant.com/'
-    subreddit: '/r/GiantBeastsOfArs' # low traffic, styling on new reddit
+    subreddit: '/r/GiantbeastsofArs'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -160,7 +160,7 @@ info:
     official: 'https://bungosd.com/'
     subreddit: '/r/BungouStrayDogs'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GR5VXQ8PR/bungo-stray-dogs'
+    crunchyroll: 'https://www.crunchyroll.com/bungo-stray-dogs'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -173,7 +173,7 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'CARDFIGHT!! VANGUARD will+Dress Season 2'
+title: 'Cardfight!! Vanguard will+Dress Season 2'
 title_en: ""
 has_source: true
 info:
@@ -200,6 +200,7 @@ streams:
 ---
 title: 'D4DJ All Mix'
 title_en: ""
+alias: ['D4DJ Season 2']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/51586'
@@ -283,7 +284,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44706'
     animeplanet: 'http://www.anime-planet.com/anime/high-card'
     official: 'https://highcard-anime.jp/'
-    subreddit: '/r/HighCard' # but no traffic, minimal css on new reddit only
+    subreddit: '/r/HighCard'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -358,7 +359,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46088'
     animeplanet: 'http://www.anime-planet.com/anime/the-iceblade-sorcerer-shall-rule-the-world'
     official: 'http://www.tbs.co.jp/anime/hyouken/'
-    subreddit: ''
+    subreddit: '/r/Hyouken_No_Majutsushi'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -385,7 +386,7 @@ info:
     official: 'https://nagatorosan.jp/'
     subreddit: '/r/nagatoro'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GQWH0M455'
+    crunchyroll: 'https://www.crunchyroll.com/dont-toy-with-me-miss-nagatoro'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -461,7 +462,7 @@ info:
     official: 'https://bofuri.jp/'
     subreddit: '/r/BoFuri'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GKEH2G428'
+    crunchyroll: 'https://www.crunchyroll.com/bofuri-i-dont-want-to-get-hurt-so-ill-max-out-my-defense'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -536,7 +537,7 @@ info:
     official: 'https://kamihiro-anime.com/'
     subreddit: '/r/KamiTachi'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GP5HJ85ED'
+    crunchyroll: 'https://www.crunchyroll.com/by-the-grace-of-the-gods'
     museasia: ''
     anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JgZhNUrkpwoksoSLEmTqB6U'
     funimation|Funimation: ''
@@ -559,7 +560,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46192'
     animeplanet: 'http://www.anime-planet.com/anime/the-ice-guy-and-his-cool-female-colleague'
     official: 'https://icpc-anime.com/'
-    subreddit: '/r/KooriZokusei' # low traffic, no css on old reddit
+    subreddit: '/r/KooriZokusei'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -611,7 +612,7 @@ info:
     official: 'https://kyokousuiri.jp/'
     subreddit: '/r/KyokouSuiri'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GYZJEEQGR'
+    crunchyroll: 'https://www.crunchyroll.com/inspectre'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -634,9 +635,9 @@ info:
     kitsu: 'https://kitsu.io/anime/45625'
     animeplanet: 'http://www.anime-planet.com/anime/the-vampire-dies-in-no-time-2nd-season'
     official: 'https://sugushinu-anime.jp/'
-    subreddit: '/r/VampireDiesInNoTime' # low traffic but css on new and old
+    subreddit: '/r/VampireDiesInNoTime'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GZJH3DJ1X'
+    crunchyroll: 'https://www.crunchyroll.com/the-vampire-dies-in-no-time'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -659,9 +660,9 @@ info:
     kitsu: 'https://kitsu.io/anime/46549'
     animeplanet: 'http://www.anime-planet.com/anime/sorcerous-stabber-orphen-chaos-in-urbanrama'
     official: 'http://ssorphen-anime.com/'
-    subreddit: '/r/MajutsushiOrphen' # no traffic, minimal css on old
+    subreddit: '/r/MajutsushiOrphen'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GJ0H7QXDW'
+    crunchyroll: 'https://www.crunchyroll.com/sorcerous-stabber-orphen'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -687,7 +688,7 @@ info:
     official: 'https://maohgakuin.com/'
     subreddit: '/r/MaouGakuin'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GY243NN0R'
+    crunchyroll: 'https://www.crunchyroll.com/the-misfit-of-demon-king-academy'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -710,7 +711,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45509'
     animeplanet: 'http://www.anime-planet.com/anime/mononogatari'
     official: 'https://www.mononogatari-pr.com/'
-    subreddit: '/r/Mononogatari' # low traffic, minimal css on new reddit, no css on old
+    subreddit: '/r/Mononogatari'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -801,8 +802,8 @@ streams:
     nyaa: ''
 ---
 title: 'Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu You Desu'
-title_en: "Apparently, Disillusioned Adventurers Will Save the World"
-alias: ["Adventurers Who Don't Believe in Humanity Will Save the World"]
+title_en: "Ningen Fushin: Adventurers Who Don't Believe in Humanity Will Save the World"
+alias: ["Ningen Fushin","Apparently, Disillusioned Adventurers Will Save the World"]
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/49612'
@@ -852,7 +853,7 @@ streams:
     nyaa: ''
 ---
 title: 'Oniichan wa Oshimai!'
-title_en: "ONIMAI: I'm Now Your Sister!"
+title_en: "Onimai: I'm Now Your Sister!"
 alias: ["Onii-chan is Done For"]
 has_source: true
 info:
@@ -887,7 +888,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45787'
     animeplanet: 'http://www.anime-planet.com/anime/ooyuki-umi-no-kaina'
     official: 'https://ooyukiumi.net/'
-    subreddit: '/r/OoyukiumiNoKaina' # no traffic, no css on old, minimal on new reddit
+    subreddit: '/r/OoyukiumiNoKaina'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -929,6 +930,7 @@ streams:
 ---
 title: 'Pocket Monsters: Mezase Pokemon Master'
 title_en: ""
+alias: ['Pokemon: Aim to Be a Pokemon Master']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/53874'
@@ -937,7 +939,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/pokemon-aiming-to-be-a-pokemon-master'
     official: 'https://www.tv-tokyo.co.jp/anime/pocketmonster/'
-    subreddit: '/r/pokemon'
+    subreddit: '/r/pokemonanime'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1039,7 +1041,7 @@ info:
     official: 'https://shinkanomi-anime.com/'
     subreddit: '/r/shinkanomi'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G9VHN9DDX'
+    crunchyroll: 'https://www.crunchyroll.com/the-fruit-of-evolution-before-i-knew-it-my-life-had-it-made'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1087,7 +1089,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45270'
     animeplanet: 'http://www.anime-planet.com/anime/sugar-apple-fairytale'
     official: 'https://sugarapple-anime.com/'
-    subreddit: '' # r/sugarapplefairytale exists but no posts or css
+    subreddit: ''
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1162,7 +1164,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46335'
     animeplanet: 'http://www.anime-planet.com/anime/the-magical-revolution-of-the-reincarnated-princess'
     official: 'https://tenten-kakumei.com/'
-    subreddit: '/r/mahoukakumei' # but no css
+    subreddit: '/r/mahoukakumei'
 streams:
     crunchyroll: ''
     museasia: ''
