@@ -133,7 +133,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46650'
     animeplanet: 'http://www.anime-planet.com/anime/buddy-daddies'
     official: 'https://buddy-animeproject.com/'
-    subreddit: ''
+    subreddit: '/r/BuddyDaddies'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -259,7 +259,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45548'
     animeplanet: 'http://www.anime-planet.com/anime/reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-mesu'
     official: 'https://auo-anime.com/'
-    subreddit: ''
+    subreddit: '/r/Eiyuuou' # r/EiyuuouBuwoKiwameru also exist but both subs have low traffic. minimal CSS on new reddit only (both subs)
 streams:
     crunchyroll: ''
     museasia: ''
@@ -284,7 +284,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44706'
     animeplanet: 'http://www.anime-planet.com/anime/high-card'
     official: 'https://highcard-anime.jp/'
-    subreddit: '/r/HIGHCARD'
+    subreddit: '/r/HighCard'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -309,7 +309,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45818'
     animeplanet: 'http://www.anime-planet.com/anime/hikari-no-ou'
     official: 'https://hikarinoou-anime.com/'
-    subreddit: ''
+    subreddit: '/r/TheFireHunter' # no traffic or CSS (both)
 streams:
     crunchyroll: ''
     museasia: ''
@@ -409,7 +409,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45967'
     animeplanet: 'http://www.anime-planet.com/anime/inu-ni-nattara-suki-na-hito-ni-hirowareta'
     official: 'https://inuhiro-anime.com/'
-    subreddit: ''
+    subreddit: '/r/Inukai' # low traffic, no css on old reddit
 streams:
     crunchyroll: ''
     museasia: ''
@@ -736,7 +736,7 @@ info:
     kitsu: 'https://kitsu.io/anime/44877'
     animeplanet: 'http://www.anime-planet.com/anime/mou-ippon'
     official: 'https://ipponagain.com/'
-    subreddit: ''
+    subreddit: '/r/Ippon_Again' # no traffic or styling
 streams:
     crunchyroll: ''
     museasia: ''
@@ -786,7 +786,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45926'
     animeplanet: 'http://www.anime-planet.com/anime/nier-automata'
     official: 'https://nierautomata-anime.com/'
-    subreddit: ''
+    subreddit: '/r/nier'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -837,7 +837,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46223'
     animeplanet: 'http://www.anime-planet.com/anime/the-tale-of-the-outcasts'
     official: 'https://nokemono-anime.com/'
-    subreddit: ''
+    subreddit: '/r/TaleOfTheOutcasts' # low traffic, no styling
 streams:
     crunchyroll: ''
     museasia: ''
@@ -854,6 +854,7 @@ streams:
 ---
 title: 'Oniichan wa Oshimai!'
 title_en: "Onimai: I'm Now Your Sister!"
+alias: ["Onii-chan is Done For"]
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/51678'
@@ -963,7 +964,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46562'
     animeplanet: 'http://www.anime-planet.com/anime/revenger'
     official: 'https://anime.shochiku.co.jp/revenger/'
-    subreddit: ''
+    subreddit: '/r/revenger' # no posts or css
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1013,7 +1014,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45813'
     animeplanet: 'http://www.anime-planet.com/anime/saikyou-onmyouji-no-isekai-tenseiki'
     official: 'https://saikyo-onmyouji.asmik-ace.co.jp/'
-    subreddit: ''
+    subreddit: '/r/TenseiKizoku' # name not a perfect match - double check?
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1088,7 +1089,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45270'
     animeplanet: 'http://www.anime-planet.com/anime/sugar-apple-fairytale'
     official: 'https://sugarapple-anime.com/'
-    subreddit: '/r/sugarapplefairytale'
+    subreddit: ''
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1188,7 +1189,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45394'
     animeplanet: 'http://www.anime-planet.com/anime/the-legend-of-heroes-trails-of-cold-steel'
     official: 'https://sen-anime.jp/'
-    subreddit: ''
+    subreddit: '/r/TheLegendOfHeroes' # low traffic, minimal styling on new reddit
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1288,7 +1289,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45658'
     animeplanet: 'http://www.anime-planet.com/anime/endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte'
     official: 'https://tsunlise-pr.com/'
-    subreddit: ''
+    subreddit: '/r/tsunlise' # low traffic, only css on new reddit
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1313,7 +1314,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46368'
     animeplanet: 'http://www.anime-planet.com/anime/tsurune-tsunagari-no-hitosa'
     official: 'http://tsurune.com/'
-    subreddit: '/t/tsurune'
+    subreddit: '/r/Tsurune'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1338,7 +1339,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46526'
     animeplanet: 'http://www.anime-planet.com/anime/uniteup'
     official: 'https://uniteup.info/'
-    subreddit: ''
+    subreddit: '/r/UniteUp' # low traffic, styling on new but not old
 streams:
     crunchyroll: ''
     museasia: ''
