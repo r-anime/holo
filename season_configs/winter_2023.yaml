@@ -160,7 +160,7 @@ info:
     official: 'https://bungosd.com/'
     subreddit: '/r/BungouStrayDogs'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GR5VXQ8PR/bungo-stray-dogs'
+    crunchyroll: 'https://www.crunchyroll.com/bungo-stray-dogs'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -173,7 +173,7 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'CARDFIGHT!! VANGUARD will+Dress Season 2'
+title: 'Cardfight!! Vanguard will+Dress Season 2'
 title_en: ""
 has_source: true
 info:
@@ -386,7 +386,7 @@ info:
     official: 'https://nagatorosan.jp/'
     subreddit: '/r/nagatoro'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GQWH0M455'
+    crunchyroll: 'https://www.crunchyroll.com/dont-toy-with-me-miss-nagatoro'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -462,7 +462,7 @@ info:
     official: 'https://bofuri.jp/'
     subreddit: '/r/BoFuri'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GKEH2G428'
+    crunchyroll: 'https://www.crunchyroll.com/bofuri-i-dont-want-to-get-hurt-so-ill-max-out-my-defense'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -537,7 +537,7 @@ info:
     official: 'https://kamihiro-anime.com/'
     subreddit: '/r/KamiTachi'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GP5HJ85ED'
+    crunchyroll: 'https://www.crunchyroll.com/by-the-grace-of-the-gods'
     museasia: ''
     anione: 'https://www.youtube.com/playlist?list=PLxSscENEp7JgZhNUrkpwoksoSLEmTqB6U'
     funimation|Funimation: ''
@@ -612,7 +612,7 @@ info:
     official: 'https://kyokousuiri.jp/'
     subreddit: '/r/KyokouSuiri'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GYZJEEQGR'
+    crunchyroll: 'https://www.crunchyroll.com/inspectre'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -637,7 +637,7 @@ info:
     official: 'https://sugushinu-anime.jp/'
     subreddit: '/r/VampireDiesInNoTime'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GZJH3DJ1X'
+    crunchyroll: 'https://www.crunchyroll.com/the-vampire-dies-in-no-time'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -662,7 +662,7 @@ info:
     official: 'http://ssorphen-anime.com/'
     subreddit: '/r/MajutsushiOrphen'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GJ0H7QXDW'
+    crunchyroll: 'https://www.crunchyroll.com/sorcerous-stabber-orphen'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -688,7 +688,7 @@ info:
     official: 'https://maohgakuin.com/'
     subreddit: '/r/MaouGakuin'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GY243NN0R'
+    crunchyroll: 'https://www.crunchyroll.com/the-misfit-of-demon-king-academy'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -853,7 +853,7 @@ streams:
     nyaa: ''
 ---
 title: 'Oniichan wa Oshimai!'
-title_en: "ONIMAI: I'm Now Your Sister!"
+title_en: "Onimai: I'm Now Your Sister!"
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/51678'
@@ -929,6 +929,7 @@ streams:
 ---
 title: 'Pocket Monsters: Mezase Pokemon Master'
 title_en: ""
+alias: ['Pokemon: Aim to Be a Pokemon Master']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/53874'
@@ -1039,7 +1040,7 @@ info:
     official: 'https://shinkanomi-anime.com/'
     subreddit: '/r/shinkanomi'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G9VHN9DDX'
+    crunchyroll: 'https://www.crunchyroll.com/the-fruit-of-evolution-before-i-knew-it-my-life-had-it-made'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
