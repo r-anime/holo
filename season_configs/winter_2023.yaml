@@ -562,7 +562,7 @@ info:
     official: 'https://icpc-anime.com/'
     subreddit: '/r/KooriZokusei'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-ice-guy-and-his-cool-female-colleague'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -814,7 +814,7 @@ info:
     official: 'https://www.ningenfushin-anime.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/ningen-fushin-adventurers-who-dont-believe-in-humanity-will-save-the-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -865,7 +865,7 @@ info:
     official: 'https://onimai.jp/'
     subreddit: '/r/OniichanOshimai'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/onimai-im-now-your-sister'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -966,7 +966,7 @@ info:
     official: 'https://anime.shochiku.co.jp/revenger/'
     subreddit: '/r/revenger' # no posts or css
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/revenger'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1141,7 +1141,7 @@ info:
     official: 'https://techno-roid.com/anime'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/technoroid-overmind'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1166,7 +1166,7 @@ info:
     official: 'https://tenten-kakumei.com/'
     subreddit: '/r/mahoukakumei'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-magical-revolution-of-the-reincarnated-princess-and-the-genius-young-lady'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1241,7 +1241,7 @@ info:
     official: 'https://tomo-chan.jp/'
     subreddit: '/r/tomochanwaonnanoko'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/tomo-chan-is-a-girl'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
