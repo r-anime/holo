@@ -514,7 +514,7 @@ info:
     official: 'http://ankokuheishi-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/chillin-in-my-30s-after-getting-fired-from-the-demon-kings-army'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -790,7 +790,7 @@ info:
     official: 'https://nierautomata-anime.com/'
     subreddit: '/r/nier'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/nierautomata-ver11a'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -917,7 +917,7 @@ info:
     official: 'https://otonarino-tenshisama.jp/'
     subreddit: '/r/OtonariNoTenshiSama'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-angel-next-door-spoils-me-rotten'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -993,7 +993,7 @@ info:
     official: 'https://roukin8-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/saving-80000-gold-in-another-world-for-my-retirement'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1018,7 +1018,7 @@ info:
     official: 'https://saikyo-onmyouji.asmik-ace.co.jp/'
     subreddit: '/r/TenseiKizoku' # name not a perfect match - double check?
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-reincarnation-of-the-strongest-exorcist-in-another-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1118,7 +1118,7 @@ info:
     official: 'https://trigun-anime.com/'
     subreddit: '/r/Trigun'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/trigun-stampede'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1344,7 +1344,7 @@ info:
     official: 'https://uniteup.info/'
     subreddit: '/r/UniteUp' # low traffic, styling on new but not old
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/uniteup'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
