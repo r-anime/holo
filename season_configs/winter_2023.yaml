@@ -1227,8 +1227,8 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: ''
-    disney|Disney: ''
+    hulu|Hulu: 'https://www.hulu.com/series/tokyo-revengers-1a195a35-e19c-4e36-b609-3b1c451f6ce4'
+    disney|Disney: 'https://www.disneyplus.com/series/tokyo-revengers/4HFbN55sAh0i'
     youtube: ''
     nyaa: ''
 ---
