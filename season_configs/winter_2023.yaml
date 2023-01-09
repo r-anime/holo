@@ -60,7 +60,7 @@ info:
     official: 'https://ayakashitriangle-anime.com/'
     subreddit: '/r/AyakashiTriangle'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/ayakashi-triangle'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -85,7 +85,7 @@ info:
     official: 'https://saitou-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/handyman-saitou-in-another-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -135,7 +135,7 @@ info:
     official: 'https://buddy-animeproject.com/'
     subreddit: '/r/BuddyDaddies'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/buddy-daddies'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -211,7 +211,7 @@ info:
     official: 'https://anime.d4dj-pj.com/all-mix/'
     subreddit: '/r/D4DJ'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/d4dj-all-mix'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -287,7 +287,7 @@ info:
     official: 'https://highcard-anime.jp/'
     subreddit: '/r/HighCard'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/high-card'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -362,7 +362,7 @@ info:
     official: 'http://www.tbs.co.jp/anime/hyouken/'
     subreddit: '/r/Hyouken_No_Majutsushi'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-iceblade-sorcerer-shall-rule-the-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -514,7 +514,7 @@ info:
     official: 'http://ankokuheishi-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/chillin-in-my-30s-after-getting-fired-from-the-demon-kings-army'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -715,7 +715,7 @@ info:
     official: 'https://www.mononogatari-pr.com/'
     subreddit: '/r/Mononogatari'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/malevolent-spirits-mononogatari'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -765,7 +765,7 @@ info:
     official: 'https://www.lovelive-anime.jp/nijigasaki/niji4anime.php'
     subreddit: '/r/LoveLive'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/nijiyon-animation'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -790,7 +790,7 @@ info:
     official: 'https://nierautomata-anime.com/'
     subreddit: '/r/nier'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/nierautomata-ver11a'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -841,7 +841,7 @@ info:
     official: 'https://nokemono-anime.com/'
     subreddit: '/r/TaleOfTheOutcasts' # low traffic, no styling
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-tale-of-outcasts'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -917,7 +917,7 @@ info:
     official: 'https://otonarino-tenshisama.jp/'
     subreddit: '/r/OtonariNoTenshiSama'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-angel-next-door-spoils-me-rotten'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -993,7 +993,7 @@ info:
     official: 'https://roukin8-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/saving-80000-gold-in-another-world-for-my-retirement'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1018,7 +1018,7 @@ info:
     official: 'https://saikyo-onmyouji.asmik-ace.co.jp/'
     subreddit: '/r/TenseiKizoku' # name not a perfect match - double check?
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-reincarnation-of-the-strongest-exorcist-in-another-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1093,7 +1093,7 @@ info:
     official: 'https://sugarapple-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/sugar-apple-fairy-tale'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1118,7 +1118,7 @@ info:
     official: 'https://trigun-anime.com/'
     subreddit: '/r/Trigun'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/trigun-stampede'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1194,7 +1194,7 @@ info:
     official: 'https://sen-anime.jp/'
     subreddit: '/r/TheLegendOfHeroes' # low traffic, minimal styling on new reddit
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-legend-of-heroes-trails-of-cold-steel---northern-war'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1227,8 +1227,8 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: ''
-    disney|Disney: ''
+    hulu|Hulu: 'https://www.hulu.com/series/tokyo-revengers-1a195a35-e19c-4e36-b609-3b1c451f6ce4'
+    disney|Disney: 'https://www.disneyplus.com/series/tokyo-revengers/4HFbN55sAh0i'
     youtube: ''
     nyaa: ''
 ---
@@ -1344,7 +1344,7 @@ info:
     official: 'https://uniteup.info/'
     subreddit: '/r/UniteUp' # low traffic, styling on new but not old
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/uniteup'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
