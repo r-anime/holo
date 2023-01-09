@@ -60,7 +60,7 @@ info:
     official: 'https://ayakashitriangle-anime.com/'
     subreddit: '/r/AyakashiTriangle'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/ayakashi-triangle'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -262,7 +262,7 @@ info:
     official: 'https://auo-anime.com/'
     subreddit: '/r/Eiyuuou' # r/EiyuuouBuwoKiwameru also exist but both subs have low traffic. minimal CSS on new reddit only (both subs)
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
