@@ -85,7 +85,7 @@ info:
     official: 'https://saitou-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/handyman-saitou-in-another-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -211,7 +211,7 @@ info:
     official: 'https://anime.d4dj-pj.com/all-mix/'
     subreddit: '/r/D4DJ'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/d4dj-all-mix'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -287,7 +287,7 @@ info:
     official: 'https://highcard-anime.jp/'
     subreddit: '/r/HighCard'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/high-card'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -715,7 +715,7 @@ info:
     official: 'https://www.mononogatari-pr.com/'
     subreddit: '/r/Mononogatari'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/malevolent-spirits-mononogatari'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -841,7 +841,7 @@ info:
     official: 'https://nokemono-anime.com/'
     subreddit: '/r/TaleOfTheOutcasts' # low traffic, no styling
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-tale-of-outcasts'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
