@@ -242,7 +242,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/tv/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -892,7 +892,7 @@ info:
     official: 'https://ooyukiumi.net/'
     subreddit: '/r/OoyukiumiNoKaina'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/kaina-of-the-great-snow-sea'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1269,7 +1269,7 @@ info:
     official: 'https://tondemoskill-anime.com/'
     subreddit: '/r/TondemoSkill'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/campfire-cooking-in-another-world-with-my-absurd-skills'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
