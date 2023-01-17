@@ -312,7 +312,7 @@ info:
     official: 'https://hikarinoou-anime.com/'
     subreddit: '/r/TheFireHunter' # no traffic or CSS (both)
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-fire-hunter'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
