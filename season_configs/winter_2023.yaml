@@ -1381,6 +1381,31 @@ streams:
     disney|Disney: ''
     youtube: ''
     nyaa: ''
+---
+title: 'Toutotsu ni Egypt Kami shin 2'
+title_en: "Oh, Suddenly Egyptian God Season 2"
+has_source: true
+info:
+    mal: 'https://myanimelist.net/anime/49522'
+    anilist: 'https://anilist.co/anime/137308'
+    anidb: 'http://anidb.net/a16508'
+    kitsu: ''
+    animeplanet: 'https://www.anime-planet.com/anime/oh-suddenly-egyptian-god-2nd-season'
+    official: 'https://to-to2ni-anime.jp/'
+    subreddit: ''
+streams:
+    crunchyroll: 'http://crunchyroll.com/oh-suddenly-egyptian-god'
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: ''
+    nyaa: ''
 #---
 #title: ''
 #title_en: ''
