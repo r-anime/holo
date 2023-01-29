@@ -148,7 +148,7 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Bungo Stray Dogs Season 4'
+title: 'Bungou Stray Dogs Season 4'
 title_en: ""
 has_source: true
 info:
@@ -930,7 +930,7 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Pocket Monsters: Mezase Pokemon Master'
+title: 'Pocket Monsters: Mezase Pokémon Master'
 title_en: ""
 alias: ['Pokemon: Aim to Be a Pokemon Master']
 has_source: true
@@ -954,7 +954,7 @@ streams:
     hulu|Hulu: ''
     disney|Disney: ''
     youtube: ''
-    nyaa: ''
+    nyaa: 'Pocket Monsters - Aim to be a Pokémon Master'
 ---
 title: 'Revenger'
 title_en: ""
