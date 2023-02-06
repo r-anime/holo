@@ -35,6 +35,9 @@ class Config:
 		self.post_flair_id = None
 		self.post_flair_text = None
 		self.post_body = None
+		self.batch_thread_post_title = None
+		self.batch_thread_post_title_with_en = None
+		self.batch_thread_post_body = None
 		self.post_formats = dict()
 	
 def from_file(file_path):
@@ -88,6 +91,9 @@ def from_file(file_path):
 		config.post_flair_text = sec.get("flair_text", None)
 		config.post_body = sec.get("body", None)
 		config.post_poll_title = sec.get("poll_title", None)
+		config.batch_thread_post_title = sec.get("batch_thread_title", None)
+		config.batch_thread_post_title_with_en = sec.get("batch_thread_title_with_en", None)
+		config.batch_thread_post_body = sec.get("batch_thread_body", None)
 		for key in sec:
 			if key.startswith("format_") and len(key) > 7:
 				config.post_formats[key[7:]] = sec[key]
