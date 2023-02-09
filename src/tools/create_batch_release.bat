@@ -18,7 +18,7 @@ echo ==
 :make_threads
 set /p SHOW_NAME=Enter the show name (without quotes): 
 set /p EPISODE_COUNT=Enter the number of episodes: 
-set SUBREDDIT=bainos
+set /p SUBREDDIT=Enter subreddit name: 
 
 choice /c 123 /m "What config file to use? [1] config.ini [2] config_secret.ini [3] enter a custom name "
 set CONFIG_SELECT=%ERRORLEVEL%
