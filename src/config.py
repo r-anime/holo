@@ -45,7 +45,7 @@ def from_file(file_path):
 		file_path += ".ini"
 	
 	parsed = WhitespaceFriendlyConfigParser()
-	success = parsed.read(file_path)
+	success = parsed.read(file_path, encoding='utf-8')
 	if len(success) == 0:
 		print("Failed to load config file")
 		return None

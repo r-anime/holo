@@ -1,4 +1,4 @@
-from logging import debug, info, error, exception
+from logging import debug, info, warning, error, exception
 import praw
 
 # Initialization
@@ -31,11 +31,19 @@ def _ensure_connection():
 def submit_text_post(subreddit, title, body):
 	_ensure_connection()
 	try:
+		info("Checking availability of flair {_config.post_flair_id}")
+		flair_ids = [ft['id'] for ft in _r.subreddit(subreddit).flair.link_templates.user_selectable()]
+		if _config.post_flair_id in flair_ids:
+			flair_id, flair_text = _config.post_flair_id, _config.post_flair_text
+		else:
+			warning('Flair not selectable, flairing will be disabled')
+			flair_id, flair_text = None, None
+                        
 		info("Submitting post to {}".format(subreddit))
 		new_post = _r.subreddit(subreddit).submit(title,
 		                                          selftext=body,
-							  flair_id=_config.post_flair_id,
-							  flair_text=_config.post_flair_text,
+							  flair_id=flair_id,
+							  flair_text=flair_text,
 							  send_replies=False)
 		return new_post
 	except:

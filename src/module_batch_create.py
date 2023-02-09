@@ -24,9 +24,9 @@ def main(config, db, show_name, episode_count):
 		if post_url is not None:
 			post_url = post_url.replace("http:", "https:")
 			db.add_episode(show, int_episode.number, post_url)
-			post_urls.append(post_url)
 		else:
 			error("  Episode not submitted")
+		post_urls.append(post_url)
 
 	for editing_episode in db.get_episodes(show):
 		_edit_reddit_post(config, db, show, stream, editing_episode, editing_episode.link, submit=not config.debug)
@@ -35,11 +35,15 @@ def main(config, db, show_name, episode_count):
 
 	if not config.debug:
 		megathread_post = reddit.submit_text_post(config.subreddit, megathread_title, megathread_body)
-		if megathread_post is not None:
-			debug("Post successful")
-			megathread_url = reddit.get_shortlink_from_id(megathread_post.id).replace("http:", "https:")
-		else:
-			error("Failed to submit post")
+	else:
+                megathread_post = None
+		
+	if megathread_post is not None:
+		debug("Post successful")
+		megathread_url = reddit.get_shortlink_from_id(megathread_post.id).replace("http:", "https:")
+	else:
+		error("Failed to submit post")
+		megathread_url = None
 
 	db.set_show_enabled(show, False, commit=not config.debug)
 
