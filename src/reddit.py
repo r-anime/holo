@@ -32,7 +32,7 @@ def submit_text_post(subreddit, title, body):
 	_ensure_connection()
 	try:
 		info("Checking availability of flair {_config.post_flair_id}")
-		flair_ids = [ft['id'] for ft in _r.subreddit(subreddit).flair.link_templates.user_selectable()]
+		flair_ids = [ft['flair_template_id'] for ft in _r.subreddit(subreddit).flair.link_templates.user_selectable()]
 		if _config.post_flair_id in flair_ids:
 			flair_id, flair_text = _config.post_flair_id, _config.post_flair_text
 		else:
