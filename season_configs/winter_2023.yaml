@@ -1195,7 +1195,7 @@ info:
     official: 'https://sen-anime.jp/'
     subreddit: '/r/Falcom'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-legend-of-heroes-trails-of-cold-steel-northern-war'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1207,7 +1207,6 @@ streams:
     disney|Disney: ''
     youtube: ''
     nyaa: ''
-    crunchyroll_cant_fix_their_rss|Crunchyroll: 'https://www.crunchyroll.com/series/G0XHWM594/the-legend-of-heroes-trails-of-cold-steel---northern-war'
 ---
 title: 'Tokyo Revengers: Seiya Kessen-hen'
 title_en: "Tokyo Revengers: Christmas Showdown Arc"
