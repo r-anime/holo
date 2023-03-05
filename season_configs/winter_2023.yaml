@@ -331,14 +331,14 @@ alias: ['SkyCure']
 has_source: false
 info:
     mal: 'https://myanimelist.net/anime/53716'
-    anilist: ''
+    anilist: 'https://anilist.co/anime/157883/Hirogaru-Sky-Precure'
     anidb: 'http://anidb.net/a17742'
     kitsu: 'https://kitsu.io/anime/46783'
     animeplanet: 'http://www.anime-planet.com/anime/hirogaru-sky-precure'
     official: 'https://www.toei-anim.co.jp/tv/hirogaru-sky_precure/'
     subreddit: '/r/precure'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/soaring-sky-pretty-cure'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
