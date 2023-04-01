@@ -15,7 +15,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/alice-gear-aegis-expansion'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -25,7 +25,6 @@ streams:
 ---
 title: 'Ao no Orchestra'
 title_en: "Blue Orchestra"
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51614'
@@ -49,7 +48,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: "BIRDIE WING -Golf Girls’ Story- Season 2"
+title: "Birdie Wing: Golf Girls' Story Season 2"
 title_en: ""
 has_source: false
 info:
@@ -61,7 +60,7 @@ info:
   official: 'https://birdie-wing.net/'
   subreddit: '/r/BirdieWing'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GNVHKN714'
+  crunchyroll: 'https://www.crunchyroll.com/birdie-wing-golf-girls-story-'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -94,14 +93,14 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: 'https://www.hulu.com/hub/anime'
+  hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
   nyaa: ''
 ---
 title: 'Boku no Kokoro no Yabai Yatsu'
 title_en: "The Dangers in My Heart"
-alias: ['The Dangers in My Heart']
+alias: ['Bokuyaba']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52578'
@@ -127,7 +126,7 @@ streams:
 ---
 title: 'Bosanimal'
 title_en: ""
-has_source: true
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/54630'
   anilist: 'https://anilist.co/anime/162840'
@@ -225,9 +224,9 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Dr. STONE Season 3'
-title_en: "Dr. STONE New World"
-alias: ['']
+title: 'Dr. Stone: New World'
+title_en: ""
+alias: ['Dr. Stone Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/48549'
@@ -238,7 +237,7 @@ info:
   official: 'https://dr-stone.jp/'
   subreddit: '/r/DrStone/'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GYEXQKJG6'
+  crunchyroll: 'https://www.crunchyroll.com/dr-stone'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -276,7 +275,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'EDENS ZERO Season 2'
+title: 'Edens Zero Season 2'
 title_en: ""
 has_source: true
 info:
@@ -303,7 +302,6 @@ streams:
 ---
 title: 'Edomae Elf'
 title_en: "Otaku Elf"
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52081'
@@ -354,7 +352,6 @@ streams:
 ---
 title: 'Isekai One Turn Kill Nee-san'
 title_en: "My One-Hit Kill Sister"
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51219'
@@ -413,7 +410,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46370'
   animeplanet: 'http://www.anime-planet.com/anime/i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world-too'
   official: 'https://www.iseleve.com/'
-  subreddit: '/r/Cheat_Skill/' # low traffic, css on new reddit
+  subreddit: '/r/Cheat_Skill' # low traffic, css on new reddit
 streams:
   crunchyroll: ''
   museasia: ''
@@ -455,7 +452,6 @@ streams:
 ---
 title: 'Jigokuraku'
 title_en: "Hell's Paradise"
-alias: [""]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/46569'
@@ -481,7 +477,6 @@ streams:
 ---
 title: 'Jijou wo Shiranai Tenkousei ga Guigui Kuru.'
 title_en: "My Clueless First Friend"
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53621'
@@ -490,7 +485,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46761'
   animeplanet: 'http://www.anime-planet.com/anime/my-clueless-first-friend'
   official: 'https://guiguikuru.com/'
-  subreddit: '/r/MyCluelessFirstFriend/' # low traffic, no css
+  subreddit: '/r/MyCluelessFirstFriend' # low traffic, no css
 streams:
   crunchyroll: ''
   museasia: ''
@@ -515,7 +510,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46089'
   animeplanet: 'http://www.anime-planet.com/anime/kaminaki-sekai-no-kamisama-katsudou'
   official: 'https://kamikatsu-anime.jp/'
-  subreddit: 'r/kamikatsu' # low posts, css on new reddit only
+  subreddit: '/r/kamikatsu' # low posts, css on new reddit only
 streams:
   crunchyroll: ''
   museasia: ''
@@ -556,7 +551,7 @@ streams:
   nyaa: ''
 ---
 title: 'Kawaisugi Crisis'
-title_en: "TOO CUTE CRISIS"
+title_en: "Too Cute Crisis"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53163'
@@ -565,7 +560,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47160'
   animeplanet: 'http://www.anime-planet.com/anime/kawaisugi-crisis'
   official: 'https://kawaisugi.com/'
-  subreddit: '/r/Kawai_Sugi/' # no posts or css
+  subreddit: ''
 streams:
   crunchyroll: ''
   museasia: ''
@@ -590,9 +585,9 @@ info:
   kitsu: 'https://kitsu.io/anime/45866'
   animeplanet: 'http://www.anime-planet.com/anime/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc'
   official: 'https://kimetsu.com/anime/katanakajinosatohen/'
-  subreddit: '/r/KimetsuNoYaiba/'
+  subreddit: '/r/KimetsuNoYaiba'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GY5P48XEY'
+  crunchyroll: 'https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -656,7 +651,7 @@ streams:
   nyaa: ''
 ---
 title: 'Kono Subarashii Sekai ni Bakuen wo!'
-title_en: "KONOSUBA - An Explosion on This Wonderful World!"
+title_en: "Konosuba: An Explosion on This Wonderful World!"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51958'
@@ -681,8 +676,8 @@ streams:
   nyaa: ''
 ---
 title: 'Kuma Kuma Kuma Bear Punch!'
-title_en: "The Bears Bear a Bare Kuma 2nd Season"
-alias: ['Kuma Kuma Kuma Bear 2nd Season']
+title_en: ""
+alias: ['Kuma Kuma Kuma Bear Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/45486'
@@ -693,7 +688,7 @@ info:
   official: 'https://kumakumakumabear.com/'
   subreddit: '/r/KumaKumaKumaBear/'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GQWH0M990'
+  crunchyroll: 'https://www.crunchyroll.com/kuma-kuma-kuma-bear'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -706,8 +701,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'MASHLE'
-title_en: "MASHLE: MAGIC AND MUSCLES"
+title: 'Mashle: Magic and Muscles'
+title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52211'
@@ -732,7 +727,8 @@ streams:
   nyaa: ''
 ---
 title: 'Mix: Meisei Story - Nidome no Natsu, Sora no Mukou e'
-title_en: "MIX Season 2"
+title_en: "Mix: Meisei Story - Our Second Summer, Beyond the Sky"
+alias: ["Mix: Meisei Story Season 2"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52614'
@@ -743,7 +739,7 @@ info:
   official: 'https://www.ytv.co.jp/mix/'
   subreddit: '/r/MixMeiseiStory'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GY9VK9PWR'
+  crunchyroll: 'https://www.crunchyroll.com/mix'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -758,7 +754,6 @@ streams:
 ---
 title: 'Mahou Shoujo Magical Destroyers'
 title_en: "Magical Girl Magical Destroyers"
-alias: ['']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/48981'
@@ -784,7 +779,6 @@ streams:
 ---
 title: 'Mahou Tsukai no Yome Season 2'
 title_en: "The Ancient Magus' Bride Season 2"
-alias: [""]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52955'
@@ -795,7 +789,7 @@ info:
   official: 'http://mahoyome.jp/'
   subreddit: '/r/AncientMagusBride/'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GRZXQJJ8Y'
+  crunchyroll: 'https://www.crunchyroll.com/the-ancient-magus-bride'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -809,7 +803,8 @@ streams:
   nyaa: ''
 ---
 title: 'Majutsushi Orphen Hagure Tabi: Seiiki-hen'
-title_en: "Sorcerous Stabber Orphen -Doom of Dragon's Sanctuary-"
+title_en: "Sorcerous Stabber Orphen: Doom of Dragon's Sanctuary"
+alias: ["Majutsushi Orphen Hagure Tabi Season 4"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54738'
@@ -820,7 +815,7 @@ info:
   official: 'http://ssorphen-anime.com/'
   subreddit: '/r/MajutsushiOrphen/'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GJ0H7QXDW'
+  crunchyroll: 'https://www.crunchyroll.com/sorcerous-stabber-orphen|12'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -835,7 +830,6 @@ streams:
 ---
 title: 'Megami no Cafe Terrace'
 title_en: "The Café Terrace and Its Goddesses"
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52973'
@@ -869,9 +863,9 @@ info:
   kitsu: 'https://kitsu.io/anime/46561'
   animeplanet: 'http://www.anime-planet.com/anime/mobile-suit-gundam-the-witch-from-mercury-part-ii'
   official: 'https://g-witch.net/'
-  subreddit: '/r/MobileSuitGundam/'
+  subreddit: '/r/Gundam/'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G79H2307W'
+  crunchyroll: 'https://www.crunchyroll.com/mobile-suit-gundam-the-witch-from-mercury|12'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -911,7 +905,6 @@ streams:
 ---
 title: 'Niehime to Kemono no Ou'
 title_en: "Sacrificial Princess and the King of Beasts"
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/46422'
@@ -920,7 +913,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44013'
   animeplanet: 'http://www.anime-planet.com/anime/sacrificial-princess-and-the-king-of-beasts'
   official: 'https://niehime-anime.com/'
-  subreddit: '/r/OtomeIsekai'
+  subreddit: ''
 streams:
   crunchyroll: ''
   museasia: ''
@@ -960,9 +953,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Oshiri Tantei (2023)'
-title_en: "Butt Detective (2023)"
-alias: ['']
+title: 'Oshiri Tantei Season 7'
+title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53514'
@@ -1013,7 +1005,6 @@ streams:
 ---
 title: 'Otonari ni Ginga'
 title_en: "A Galaxy Next Door"
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51705'
@@ -1022,7 +1013,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46083'
   animeplanet: 'http://www.anime-planet.com/anime/a-galaxy-next-door'
   official: 'https://otonari-anime.com/'
-  subreddit: '/r/AGalaxyNextDoor/' # no posts or css
+  subreddit: '' # no posts or css
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1049,7 +1040,7 @@ info:
   official: 'https://osama-ranking-treasurechest.com/'
   subreddit: '/r/OsamaRanking'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G79H23W70'
+  crunchyroll: 'https://www.crunchyroll.com/ranking-of-kings'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1062,10 +1053,10 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Pocket Monsters (2023)'
+title: 'Pokémon Horizons: The Series'
 title_en: ""
-alias: ['Pokémon Horizons: The Series']
-has_source: true
+alias: ['Pocket Monsters (2023)']
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/53876'
   anilist: 'https://anilist.co/anime/158871'
@@ -1098,7 +1089,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46992'
   animeplanet: 'http://www.anime-planet.com/anime/rokudou-no-onna-tachi'
   official: 'http://rokudo-akujo.com/'
-  subreddit: '/r/RokudosBadGirls/' # no posts or css
+  subreddit: '' # /r/RokudosBadGirls/ no posts or css
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1115,7 +1106,6 @@ streams:
 ---
 title: 'Shingeki no Kyojin: The Final Season Kanketsu-hen'
 title_en: "Attack on Titan Final Season Part 3"
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51535'
@@ -1126,7 +1116,7 @@ info:
   official: 'https://shingeki.tv/final/'
   subreddit: '/r/ShingekiNoKyojin'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GR751KNZY'
+  crunchyroll: 'https://www.crunchyroll.com/attack-on-titan|87'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/attack-on-titan/'
@@ -1141,7 +1131,6 @@ streams:
 ---
 title: 'Skip to Loafer'
 title_en: ""
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/50416'
@@ -1217,7 +1206,6 @@ streams:
 ---
 title: 'Tengoku Daimakyou'
 title_en: "Heavenly Delusion"
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53393'
@@ -1237,13 +1225,12 @@ streams:
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  disney|Disney: 'https://www.disneyplus.com/series'
+  disney|Disney: ''
   youtube: ''
   nyaa: ''
 ---
 title: 'Tensei Kizoku no Isekai Boukenroku: Jichou wo Shiranai Kamigami no Shito'
 title_en: "The Aristocrat's Otherworldly Adventure: Serving Gods Who Go Too Far"
-alias: [""]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52608'
@@ -1292,9 +1279,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Tokyo Mew Mew New~♡ 2nd Season'
-title_en: "TOKYO MEW MEW NEW Season 2"
-alias: ['']
+title: 'Tokyo Mew Mew New~♡ Season 2'
+title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53097'
@@ -1319,7 +1305,7 @@ streams:
   nyaa: ''
 ---
 title: 'Tonikaku Kawaii Season 2'
-title_en: "TONIKAWA: Over The Moon For You Season 2"
+title_en: "Tonikawa: Over The Moon For You Season 2"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/50307'
@@ -1371,7 +1357,7 @@ streams:
 ---
 title: 'Watashi no Yuri wa Oshigoto Desu!'
 title_en: "Yuri is My Job!"
-alias: ['']
+alias: ['WataYuri']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51817'
@@ -1498,7 +1484,6 @@ streams:
 ---
 title: 'Yuusha ga Shinda!'
 title_en: "The Legendary Hero is Dead!"
-alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51706'
@@ -1507,7 +1492,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46087'
   animeplanet: 'http://www.anime-planet.com/anime/the-legendary-hero-is-dead'
   official: 'https://heroisdead.com/'
-  subreddit: '/r/LegendaryHeroIsDead/' # no posts or css
+  subreddit: '' # /r/LegendaryHeroIsDead/ no posts or css
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1522,34 +1507,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'alice gear aegis Expansion'
-title_en: ""
-has_source: true
-info:
-  mal: 'https://myanimelist.net/anime/50871'
-  anilist: 'https://anilist.co/anime/144188'
-  anidb: 'http://anidb.net/a17147'
-  kitsu: ''
-  animeplanet: 'http://www.anime-planet.com/anime/alice-gear-aegis'
-  official: 'https://colopl.co.jp/alicegearaegis/lp/tv-anime/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/alice-gear-aegis-expansion'
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
-  youtube: ''
-  nyaa: ''
----
 title: 'Oshi no Ko'
 title_en: ""
-alias: ['【OSHI NO KO】']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52034'
