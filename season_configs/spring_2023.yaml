@@ -109,7 +109,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46299'
   animeplanet: 'http://www.anime-planet.com/anime/the-dangers-in-my-heart'
   official: 'https://bokuyaba-anime.com/'
-  subreddit: '/r/TheDangersInMyHeart'
+  subreddit: '/r/bokunokokoro'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -254,8 +254,8 @@ title: 'Duel Masters Win: Duel Wars-hen'
 title_en: "Duel Masters Win: Duel Wars"
 has_source: false
 info:
-  mal: 'https://myanimelist.net/anime/54762/'
-  anilist: ''
+  mal: 'https://myanimelist.net/anime/54762'
+  anilist: 'https://anilist.co/anime/163256'
   anidb: 'http://anidb.net/a17921'
   kitsu: ''
   animeplanet: ''
@@ -412,7 +412,7 @@ info:
   official: 'https://www.iseleve.com/'
   subreddit: '/r/Cheat_Skill' # low traffic, css on new reddit
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world-too'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -437,7 +437,7 @@ info:
   official: 'http://isesuma-anime.jp/'
   subreddit: '/r/IsekaiSmartphone'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/in-another-world-with-my-smartphone'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -462,7 +462,7 @@ info:
   official: 'https://jigokuraku.com/'
   subreddit: '/r/jigokuraku/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/hells-paradise'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -487,7 +487,7 @@ info:
   official: 'https://guiguikuru.com/'
   subreddit: '/r/MyCluelessFirstFriend' # low traffic, no css
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-clueless-first-friend'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -512,7 +512,7 @@ info:
   official: 'https://kamikatsu-anime.jp/'
   subreddit: '/r/kamikatsu' # low posts, css on new reddit only
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/kamikatsu-working-for-god-in-a-godless-world'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -637,7 +637,7 @@ info:
   official: 'https://kizunanoallele.com/'
   subreddit: '/r/KizunaAI'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/kizuna-no-allele'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -662,7 +662,7 @@ info:
   official: 'http://konosuba.com/bakuen/'
   subreddit: '/r/Konosuba'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/konosuba--an-explosion-on-this-wonderful-world'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -808,10 +808,10 @@ alias: ["Majutsushi Orphen Hagure Tabi Season 4"]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54738'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/163417'
   anidb: 'http://anidb.net/a17912'
-  kitsu: ''
-  animeplanet: ''
+  kitsu: 'https://kitsu.io/anime/47282'
+  animeplanet: 'http://www.anime-planet.com/anime/sorcerous-stabber-orphen-sanctuary-arc'
   official: 'http://ssorphen-anime.com/'
   subreddit: '/r/MajutsushiOrphen/'
 streams:
@@ -890,7 +890,7 @@ info:
   official: 'https://myhomehero-anime.com/'
   subreddit: '/r/MyHomeHero'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-home-hero'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -940,7 +940,7 @@ info:
   official: 'https://www.opus-colors.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/opuscolors'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -954,7 +954,7 @@ streams:
   nyaa: ''
 ---
 title: 'Oshiri Tantei Season 7'
-title_en: ""
+title_en: "Butt Detective"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53514'
@@ -1056,7 +1056,7 @@ streams:
 title: 'Pokémon Horizons: The Series'
 title_en: ""
 alias: ['Pocket Monsters (2023)']
-has_source: false
+has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53876'
   anilist: 'https://anilist.co/anime/158871'
@@ -1141,7 +1141,7 @@ info:
   official: 'https://skip-and-loafer.com/'
   subreddit: '/r/SkipToLoafer'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/skip-and-loafer'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1158,11 +1158,11 @@ title: 'Sore Shikanai Wake Nai Deshou'
 title_en: ""
 has_source: true
 info:
-  mal: ''
+  mal: 'https://myanimelist.net/anime/54659'
   anilist: ''
   anidb: 'http://anidb.net/a17891'
   kitsu: ''
-  animeplanet: ''
+  animeplanet: 'http://www.anime-planet.com/anime/sore-shikanai-wake-nai-deshou'
   official: 'https://www.nhk.jp/p/ts/RP8V16XG13/'
   subreddit: ''
 streams:
@@ -1224,8 +1224,8 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
+  hulu|Hulu: 'https://www.hulu.com/series/tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71'
+  disney|Disney: 'https://www.disneyplus.com/series/tengoku-daimakyo/7hd7j6bmGOTg'
   youtube: ''
   nyaa: ''
 ---
@@ -1241,7 +1241,7 @@ info:
   official: 'https://www.tensei-kizoku.jp/'
   subreddit: '/r/TenseiKizoku'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-aristocrats-otherworldly-adventure-serving-gods-who-go-too-far'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1368,7 +1368,7 @@ info:
   official: 'https://watayuri-anime.com/'
   subreddit: '/r/YuriIsMyJob'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/yuri-is-my-job'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1407,7 +1407,7 @@ streams:
   nyaa: ''
 ---
 title: 'Yamada-kun to Lv999 no Koi wo Suru'
-title_en: ""
+title_en: "My Love Story with Yamada-kun at Lv999"
 alias: ['Loving Yamada at Lv999!']
 has_source: true
 info:
@@ -1419,7 +1419,7 @@ info:
   official: 'https://yamadalv999-anime.com/'
   subreddit: '/r/MyLoveStoryWithYamada/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-love-story-with-yamada-kun-at-lv999'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1494,7 +1494,7 @@ info:
   official: 'https://heroisdead.com/'
   subreddit: '' # /r/LegendaryHeroIsDead/ no posts or css
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-legendary-hero-is-dead'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
