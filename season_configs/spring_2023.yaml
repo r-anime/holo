@@ -1407,7 +1407,7 @@ streams:
   nyaa: ''
 ---
 title: 'Yamada-kun to Lv999 no Koi wo Suru'
-title_en: ""
+title_en: "My Love Story with Yamada-kun at Lv999"
 alias: ['Loving Yamada at Lv999!']
 has_source: true
 info:
@@ -1419,7 +1419,7 @@ info:
   official: 'https://yamadalv999-anime.com/'
   subreddit: '/r/MyLoveStoryWithYamada/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-love-story-with-yamada-kun-at-lv999'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
