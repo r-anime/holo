@@ -1,3 +1,4 @@
+---
 title: 'Somali to Mori no Kamisama'
 alias: ['Somali and the Forest Spirit']
 has_source: true
@@ -1007,7 +1008,6 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-  primevideo|Prime Video International: ''
 ---
 title: 'IDOLiSH7: Second Beat!'
 alias: ['Idolish Seven Season 2']
@@ -1085,29 +1085,4 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
-#---
-#title: ''
-#alias: ['']
-#has_source: true
-#info:
-#  mal: ''
-#  anilist: ''
-#  anidb: ''
-#  kitsu: ''
-#  animeplanet: ''
-#  official: ''
-#  subreddit: ''
-#streams:
-#  crunchyroll: ''
-#  museasia: ''
-#  funimation|Funimation: ''
-#  wakanim|Wakanim: ''
-#  hidive: ''
-#  animelab|AnimeLab: ''
-#  crunchyroll_nsfw|Crunchyroll: ''
-#  vrv|VRV: ''
-#  hulu|Hulu: ''
-#  youtube: ''
-#  amazon|Amazon US: ''
-#  amazon_uk|Amazon UK: ''
-#  primevideo|Prime Video International: ''
+---

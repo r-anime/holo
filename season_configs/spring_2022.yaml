@@ -1,3 +1,4 @@
+---
 title: 'Aoashi'
 has_source: true
 info:
@@ -1475,28 +1476,4 @@ streams:
     youtube: ''
     netflix|Netflix: 'https://www.netflix.com/title/81030224'
     nyaa: ''
-#---
-#title: ''
-#alias: ['']
-#has_source: true
-#info:
-#  mal: ''
-#  anilist: ''
-#  anidb: ''
-#  kitsu: ''
-#  animeplanet: ''
-#  official: ''
-#  subreddit: ''
-#streams:
-#  crunchyroll: ''
-#  museasia: ''
-#  funimation|Funimation: ''
-#  wakanim|Wakanim: ''
-#  hidive: ''
-#  animelab|AnimeLab: ''
-#  bilibili|Bilibili: ''
-#  crunchyroll_nsfw|Crunchyroll: ''
-#  vrv|VRV: ''
-#  hulu|Hulu: ''
-#  youtube: ''
-#  nyaa: ''
+---

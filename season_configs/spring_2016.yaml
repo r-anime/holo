@@ -1,3 +1,4 @@
+---
 title: Anne Happy♪
 type: tv
 has_source: true
@@ -414,7 +415,7 @@ info:
     anilist: http://anilist.co/anime/21636/KagewaniShou
 streams:
     crunchyroll: ''
-    #Note: Crunchyroll hasn't updated the RSS feed with new episodes - http://www.crunchyroll.com/kagewani
+    # Note: Crunchyroll hasn't updated the RSS feed with new episodes - http://www.crunchyroll.com/kagewani
     funimation: ''
 ---
 title: Ansatsu Kyoushitsu 2nd Season
@@ -460,3 +461,4 @@ info:
 streams:
     crunchyroll: ''
     funimation: http://www.funimation.com/shows/rainbow-days|14
+---

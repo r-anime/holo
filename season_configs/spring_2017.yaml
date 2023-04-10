@@ -160,7 +160,7 @@ streams:
   crunchyroll: 'http://www.crunchyroll.com/kado-the-right-answer'
 ---
 title: 'Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?'
-type: tv  
+type: tv
 has_source: true
 info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12238'
