@@ -150,7 +150,7 @@ streams:
   nyaa: ''
 ---
 title: 'Chibi Godzilla no Gyakushuu'
-title_en: ""
+title_en: "Chibi Godzilla Raids Again"
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/54644'
@@ -186,7 +186,7 @@ info:
   official: 'https://dmdp-anime.jp/'
   subreddit: '/r/deadmountdeathplay'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/G3KHEV04J'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -287,7 +287,7 @@ info:
   official: 'https://edens-zero.net/anime/'
   subreddit: '/r/EdensZero'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/edens-zero'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -362,7 +362,7 @@ info:
   official: 'https://onekillsister.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-one-hit-kill-sister'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -387,7 +387,7 @@ info:
   official: 'https://isenido.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/summoned-to-another-world-for-a-second-time'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -537,7 +537,7 @@ info:
   official: 'https://koshakutei.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/why-raeliana-ended-up-at-the-dukes-mansion'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -590,7 +590,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -691,7 +691,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/kuma-kuma-kuma-bear'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/kuma-kuma-kuma-bear/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -713,7 +713,7 @@ info:
   official: 'https://mashle.pw/'
   subreddit: '/r/MASHLE'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/mashle-magic-and-muscles'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -742,7 +742,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/mix'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/mix/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -764,7 +764,7 @@ info:
   official: 'https://magical-mad.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/magical-destroyers'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -818,7 +818,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/sorcerous-stabber-orphen|12'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/sorcerous-stabber-orphen/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -840,7 +840,7 @@ info:
   official: 'https://goddess-cafe.com/'
   subreddit: '/r/GoddessCafeTerrace/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-caf-terrace-and-its-goddesses'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1015,7 +1015,7 @@ info:
   official: 'https://otonari-anime.com/'
   subreddit: '' # no posts or css
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/a-galaxy-next-door'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1091,7 +1091,7 @@ info:
   official: 'http://rokudo-akujo.com/'
   subreddit: '' # /r/RokudosBadGirls/ no posts or css
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/rokudos-bad-girls'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1130,7 +1130,7 @@ streams:
   nyaa: ''
 ---
 title: 'Skip to Loafer'
-title_en: ""
+title_en: "Skip and Loafer"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/50416'
@@ -1186,12 +1186,12 @@ info:
   mal: 'https://myanimelist.net/anime/51536'
   anilist: 'https://anilist.co/anime/146975'
   anidb: 'http://anidb.net/a17301'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/46049'
   animeplanet: 'http://www.anime-planet.com/anime/the-idolmaster-cinderella-girls-u149'
   official: 'https://cinderella-u149-anime.idolmaster-official.jp/'
   subreddit: '/r/idolmaster/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-idolmster-cinderella-girls-u149'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1266,7 +1266,7 @@ info:
   official: 'https://marginalservice.com/'
   subreddit: '/r/TheMarginalService/' # low traffic, no css on old reddit
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-marginal-service'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1296,7 +1296,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/tokyo-mew-mew-new-season-2'
+  hidive: 'https://www.hidive.com/tv/tokyo-mew-mew-new/season-2'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1382,7 +1382,7 @@ streams:
   nyaa: ''
 ---
 title: 'World Dai Star'
-title_en: ""
+title_en: "Stella of the Theater: World Dai Star"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53698'
@@ -1393,7 +1393,7 @@ info:
   official: 'https://world-dai-star.com/anime'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/stella-of-the-theater-world-dai-star'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1528,7 +1528,7 @@ streams:
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  disney|Disney: ''
+  disney|Disney: 'https://www.disneyplus.com/series/oshi-no-ko/4xE7VXJDjfbd'
   youtube: ''
   nyaa: ''
 #---
