@@ -287,7 +287,7 @@ info:
   official: 'https://edens-zero.net/anime/'
   subreddit: '/r/EdensZero'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/edens-zero'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1191,7 +1191,7 @@ info:
   official: 'https://cinderella-u149-anime.idolmaster-official.jp/'
   subreddit: '/r/idolmaster/'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-idolmster-cinderella-girls-u149'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
