@@ -662,7 +662,7 @@ info:
   official: 'http://konosuba.com/bakuen/'
   subreddit: '/r/Konosuba'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/konosuba--an-explosion-on-this-wonderful-world'
+  crunchyroll: 'https://www.crunchyroll.com/konosuba-an-explosion-on-this-wonderful-world'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -915,7 +915,7 @@ info:
   official: 'https://niehime-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/sacrificial-princess-and-the-king-of-beasts'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
