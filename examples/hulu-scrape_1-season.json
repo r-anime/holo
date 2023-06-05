@@ -1,0 +1,3013 @@
+{
+	"props": {
+		"pageProps": {
+			"pageTitle": "Watch Tengoku Daimakyo Streaming Online | Hulu (Free Trial)",
+			"asPath": "/series/tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+			"pageType": "BrowsePage",
+			"query": {
+				"entity": "series",
+				"id": "tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71"
+			},
+			"appsFlyerBannerKey": "",
+			"_sentryTraceData": "5c50a8e3d35d48639048fd690025501b-9f14d423b55d4332-0",
+			"_sentryBaggage": "sentry-environment=production,sentry-release=hitch%402.33.0,sentry-public_key=dfddf0aabbab4be4937d4082aad36bab,sentry-trace_id=5c50a8e3d35d48639048fd690025501b,sentry-sample_rate=0.05",
+			"latestSeason": {
+				"firstEpPremiereDate": null,
+				"lastEpPremiereDate": null,
+				"season": "1",
+				"seasonPremiereDates": [],
+				"previousSeason": "1",
+				"hasContentAvailable": false,
+				"hasUpcomingSeason": false,
+				"hasLastEpPremiered": true
+			},
+			"featureFlags": {
+				"has404CarouselEnabled": true,
+				"hasConnectedAuthEnabled": true,
+				"hasUnifiedLoginEnabled": true,
+				"hasUpdatedGenderOptions": true,
+				"hasOneTrustScriptEnabled": false,
+				"hasOneTrustFooterChangeActivated": false,
+				"hasSubscriberAgreementUpdateEnabled": true
+			},
+			"layout": {
+				"locale": "en-US",
+				"bigFooter": [
+		{
+			"sections": [
+				{
+					"section": "BROWSE",
+					"items": [
+			[
+				{
+					"link": "/content",
+					"title": "Streaming Library"
+				},
+				{
+					"link": "/live-tv",
+					"title": "Live TV"
+				},
+				{
+					"link": "/live-news",
+					"title": "Live News"
+				},
+				{
+					"link": "/live-sports",
+					"title": "Live Sports"
+				}
+			],
+			[
+				{
+					"link": "/hub/tv",
+					"title": "TV Shows"
+				},
+				{
+					"link": "/hub/movies",
+					"title": "Movies"
+				},
+				{
+					"link": "/hub/originals",
+					"title": "Originals"
+				},
+				{
+					"link": "/hub/networks",
+					"title": "Networks"
+				},
+				{
+					"link": "/hub/kids",
+					"title": "Kids"
+				},
+				{
+					"link": "/fx-on-hulu",
+					"title": "FX"
+				}
+			],
+			[
+				{
+					"link": "/max",
+					"title": "Max"
+				},
+				{
+					"link": "/cinemax",
+					"title": "Cinemax"
+				},
+				{
+					"link": "/showtime",
+					"title": "Showtime"
+				},
+				{
+					"link": "/starz",
+					"title": "STARZ"
+				}
+			],
+			[
+				{
+					"link": "/hulu-disney-espn-bundle-offer",
+					"title": "Disney Bundle Trio Basic"
+				},
+				{
+					"link": "/disney-bundle-hulu-no-ads",
+					"title": "Disney Bundle Trio Premium"
+				},
+				{
+					"link": "/disney-bundle-duo-basic",
+					"title": "Disney Bundle Duo Basic"
+				},
+				{
+					"link": "/student",
+					"title": "Student Discount"
+				}
+			]
+					]
+				},
+				{
+					"section": "HELP",
+					"items": [
+			[
+				{
+					"link": "//help.hulu.com/s/article/manage-subscription",
+					"title": "Account & Billing"
+				},
+				{
+					"link": "//help.hulu.com/s/article/how-much-does-hulu-cost",
+					"title": "Plans & Pricing"
+				},
+				{
+					"link": "//help.hulu.com/s/article/supported-devices",
+					"title": "Supported Devices"
+				},
+				{
+					"link": "//help.hulu.com/s/article/accessibility-features",
+					"title": "Accessibility"
+				}
+			]
+					]
+				},
+				{
+					"section": "ABOUT US",
+					"items": [
+			[
+				{
+					"link": "#hulushop",
+					"title": "Shop Hulu",
+					"modalId": "hulushop"
+				},
+				{
+					"link": "/press",
+					"title": "Press"
+				},
+				{
+					"link": "/jobs",
+					"title": "Jobs"
+				},
+				{
+					"link": "//help.hulu.com/s/article/how-to-contact-Hulu",
+					"title": "Contact"
+				}
+			]
+					]
+				}
+			],
+			"modals": [
+				{
+					"title": "Next stop: Shop Hulu, powered by Snowcommerce",
+					"id": "hulushop",
+					"css_class": "modal-dialog__default-display modal-dialog__size-small",
+					"closable": true,
+					"body": "<div class=\"HuluShopModal\">You are about to exit Hulu.com to visit the Shop Hulu site, where a different Terms of Use and Privacy Policy apply. Please note that the Shop Hulu site is owned and operated by Snowcommerce.<div class=\"modal-dialog__actions\"><a href=\"https://shop.hulu.com/?utm_source=hulu-com&utm_medium=referral&utm_campaign=hulu-footer\"><button class=\"button--cta button--black\">CONTINUE</button></a><button class=\"button--cta button--white\" onClick=\"document.getElementById('hulushop').getElementsByClassName('modal--close')[0].click()\">CANCEL</button></div></div>",
+					"footer": ""
+				}
+			]
+		}
+				],
+				"bundle": {
+		"amount": null
+				},
+				"components": [
+		{
+			"type": "navigation",
+			"style": null,
+			"sticky_mode": null,
+			"cta_always": true,
+			"enable_cta_toaster": null,
+			"enableMinimalNav": false,
+			"items": [],
+			"cta": "Start Your Free Trial",
+			"cta_button_style": "black",
+			"disable_logo": null,
+			"signup_flow_entry": "/signup/go/one-hulu",
+			"ctaDownloadAppText": null,
+			"welcomeOptions": "",
+			"enableStickyModeAlways": null,
+			"metrics": {}
+		},
+		{
+			"type": "detailentity_masthead",
+			"avFeatures": {
+				"items": [
+					"hd"
+				],
+				"truncatedItems": [
+					"hd"
+				]
+			},
+			"credits": null,
+			"disablePlayButton": false,
+			"disableMobilePlayButton": false,
+			"title": "Tengoku Daimakyo",
+			"entityId": "c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+			"description": "In the year 2024, grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.",
+			"entityType": "series",
+			"backgroundArtwork": {
+				"path": "https://img1.hulu.com/user/v3/artwork/c0bba144-1fa6-4ee5-affc-1029c77cfb71?base_image_bucket_name=image_manager&base_image=63b63c7b-c219-427b-933c-3d87875f297a",
+				"hue": 185
+			},
+			"brandArtwork": {
+				"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+			},
+			"verticalTileArtwork": {
+				"path": "https://img1.hulu.com/user/v3/artwork/c0bba144-1fa6-4ee5-affc-1029c77cfb71?base_image_bucket_name=image_manager&base_image=eb47ab4b-7489-4e1c-a3b0-18d1fe6cbe75",
+				"hue": 185
+			},
+			"titleArtwork": {
+				"path": "https://img1.hulu.com/user/v3/artwork/c0bba144-1fa6-4ee5-affc-1029c77cfb71?base_image_bucket_name=image_manager&base_image=8218d4e5-a816-44ed-91f6-7b1f44c7280e"
+			},
+			"headline": [
+				"Original",
+				"1 season available (11 episodes)"
+			],
+			"isHuluOriginal": true,
+			"tags": [
+				2023
+			],
+			"trailerText": "Watch Trailer",
+			"trailerName": "Tengoku Daimakyo Trailer",
+			"trailerEAB": "EAB::39a449cc-02f1-4520-a37f-10198ef6e437::61724508::231364813",
+			"trailerId": "39a449cc-02f1-4520-a37f-10198ef6e437",
+			"requirePremium": false,
+			"network": "Hulu Original Series",
+			"isHuluOriginalContent": true,
+			"isOriginalContent": true,
+			"premiereDate": "2023-04-01T05:00:00Z",
+			"rating": null,
+			"genres": [
+				{
+					"name": "International",
+					"hubPath": "/hub/international-tv"
+				},
+				{
+					"name": "Science Fiction",
+					"hubPath": "/hub/science-fiction-tv"
+				},
+				{
+					"name": "Thriller",
+					"hubPath": "/hub/thriller-tv"
+				},
+				{
+					"name": "Anime",
+					"hubPath": "/hub/anime-tv"
+				}
+			],
+			"disclaimer": "Stream thousands of shows and movies, with plans starting at $7.99/month.",
+			"ctaText": "Start Your Free Trial",
+			"ctaUrl": "/signup/go/one-hulu",
+			"legalText": "New subscribers only. Cancel anytime. Additional terms apply.",
+			"ctaDownloadAppText": "Watch Now With The Hulu App",
+			"infoLine": "1 season available (11 episodes)",
+			"disableInfo": false,
+			"contentType": "series",
+			"ribbon": {
+				"ribbonImage": "//cnbl-cdn.bamgrid.com/assets/1afce5041391d18ddcca64656450cce9664bc80d0618344d06ff6dcf005775e8/original",
+				"eyebrow": "DISNEY BUNDLE TRIO BASIC",
+				"buttonLink": "/signup/go/one-hulu?tab=bundles",
+				"buttonStyle": "white",
+				"buttonText": "GET ALL THREE",
+				"legalModalId": "",
+				"legalLink": "/terms/disneybundle/duotrio",
+				"legalText": "Terms apply",
+				"mainTextDt": "Get Hulu, Disney+, and ESPN+, all with ads, for $12.99/mo.",
+				"mainTextMobile": "Get Hulu, Disney+, and ESPN+, all with ads, for $12.99/mo.",
+				"learnMore": "",
+				"learnText": "",
+				"backgroundStyle": "blackTransparent"
+			},
+			"metrics": {}
+		},
+		{
+			"type": "collection_tabs",
+			"accentColor": "hsla(185, 100%, 60%, 1)",
+			"networkLogo": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439",
+			"includeHeroSlider": false,
+			"shouldCenterTabTitles": false,
+			"tabs": [
+				{
+					"title": "Episodes",
+					"model": {
+			"type": "episode_collection",
+			"collection": {
+				"id": "94",
+				"href": "https://discover.hulu.com/content/v5/hubs/series/c0bba144-1fa6-4ee5-affc-1029c77cfb71/collections/94?schema=0&personalized_layout_id=H4sIAAAAAAAAAMu1MjIwMjYwMzAxNDewqCkptjI0szC1sLQwsTAAAgDrT-cRHwAAAA",
+				"name": "Episodes",
+				"theme": "episode_collection",
+				"enabledTileLinks": false,
+				"enableSignupModal": null,
+				"collectionHubPath": null,
+				"seasons": [
+					{
+						"name": "Season 1",
+						"number": 1
+					}
+				],
+				"items": [
+					{
+						"id": "d29e078f-5b54-4f75-8796-b3ef8737b8a3",
+						"href": null,
+						"eabId": "EAB::d29e078f-5b54-4f75-8796-b3ef8737b8a3::61723939::231192565",
+						"type": "episode",
+						"name": "Heaven and Hell",
+						"description": "Japan has collapsed after the Great Disaster. Kiruko accepts a request to take a boy named Maru to a place called Heaven. Meanwhile, children live behind the walls of a nursery in luscious green surroundings.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-04-01T12:00:00Z",
+						"season": 1,
+						"number": 1,
+						"duration": 1434,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img4.hulu.com/user/v3/artwork/d29e078f-5b54-4f75-8796-b3ef8737b8a3?base_image_bucket_name=image_manager&base_image=2d391fa4-982c-41df-8095-ed8e30ef28b4",
+					"hue": 215
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "c81aa598-d6ac-4eda-a899-dc109116cf5f",
+						"href": null,
+						"eabId": "EAB::c81aa598-d6ac-4eda-a899-dc109116cf5f::61723941::231192563",
+						"type": "episode",
+						"name": "Two Confessions",
+						"description": "At a strange inn, Maru and Kiruko sink into a drowsy slumber. They awaken to something monstrous under the faint light of the moon. At the nursery, Tokio becomes more suspicious of the world around him. Meanwhile, Shiro receives an unexpected message.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-04-01T12:00:00Z",
+						"season": 1,
+						"number": 2,
+						"duration": 1424,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img1.hulu.com/user/v3/artwork/c81aa598-d6ac-4eda-a899-dc109116cf5f?base_image_bucket_name=image_manager&base_image=7624f188-d907-458d-91e3-2d45e9147e3e",
+					"hue": 205
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "645a8b33-f20b-4090-b52d-36297100c4b4",
+						"href": null,
+						"eabId": "EAB::645a8b33-f20b-4090-b52d-36297100c4b4::61723938::231344353",
+						"type": "episode",
+						"name": "Kiriko and Haruki",
+						"description": "Five years ago, in Asakusa, Robin, Haruki and his racer sister Kiriko had spent their days happily living in an orphanage.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-04-01T12:00:00Z",
+						"season": 1,
+						"number": 3,
+						"duration": 1424,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img.hulu.com/user/v3/artwork/645a8b33-f20b-4090-b52d-36297100c4b4?base_image_bucket_name=image_manager&base_image=7cf20a9d-0d4f-447c-bdf8-15b4014d5b7d",
+					"hue": 25
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "478be705-8e2f-493f-be57-68ca33394aac",
+						"href": null,
+						"eabId": "EAB::478be705-8e2f-493f-be57-68ca33394aac::61724202::231651898",
+						"type": "episode",
+						"name": "Kuku",
+						"description": "Tokio is taken to see some bizarre-looking babies, and realizes just how little he understands about his surroundings. On a boat with no escape, Maru and Kiruko suffer a terrifying attack. As all is failing, t is up to Kiruko to devise a new strategy.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-04-01T12:00:00Z",
+						"season": 1,
+						"number": 4,
+						"duration": 1424,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img4.hulu.com/user/v3/artwork/478be705-8e2f-493f-be57-68ca33394aac?base_image_bucket_name=image_manager&base_image=c8644f86-a94c-418b-acf7-988dc17db5ff",
+					"hue": 175
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "053f237d-c817-4567-9460-02e8252ac43b",
+						"href": null,
+						"eabId": "EAB::053f237d-c817-4567-9460-02e8252ac43b::61724203::232539697",
+						"type": "episode",
+						"name": "Day of Fate",
+						"description": "Maru and Kiruko return to Tokyo to find a neighborhood crowded with tents. When Maru goes off to a game center, Kiruko is left to gather information for herself, and hears a scary rumor.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-04-01T12:00:00Z",
+						"season": 1,
+						"number": 5,
+						"duration": 1424,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img1.hulu.com/user/v3/artwork/053f237d-c817-4567-9460-02e8252ac43b?base_image_bucket_name=image_manager&base_image=a3c24e94-6ea3-4d36-85bd-790173634fd3",
+					"hue": 280
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "782f80ad-a3cf-46fc-a104-f8a0fbb9bde9",
+						"href": null,
+						"eabId": "EAB::782f80ad-a3cf-46fc-a104-f8a0fbb9bde9::61725250::235005473",
+						"type": "episode",
+						"name": "100％ Safe Water",
+						"description": "Maru and Kiruko are on the hunt for the Immortal Order. On the way, they stay at a hotel run by a girl named Totori. Dumping their bags and searching for safe drinking water, they stumble upon a badly injured man.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-05-06T12:00:00Z",
+						"season": 1,
+						"number": 6,
+						"duration": 1425,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img.hulu.com/user/v3/artwork/782f80ad-a3cf-46fc-a104-f8a0fbb9bde9?base_image_bucket_name=image_manager&base_image=80666108-1476-4774-a027-c31ae153e207",
+					"hue": 50
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "38a17887-02e8-4f20-837e-e672cdfee183",
+						"href": null,
+						"eabId": "EAB::38a17887-02e8-4f20-837e-e672cdfee183::61725251::235236325",
+						"type": "episode",
+						"name": "The Immortal Order",
+						"description": "Maru and Kiruko find what they believe is the doctor and the Immortal Order. Instead, it is a hostile organization that is strongly opposed to the treatment that the Immortal Order provides.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-05-13T12:00:00Z",
+						"season": 1,
+						"number": 7,
+						"duration": 1424,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img1.hulu.com/user/v3/artwork/38a17887-02e8-4f20-837e-e672cdfee183?base_image_bucket_name=image_manager&base_image=bf6bfc00-f421-45d8-b5e4-9edafe8b7ba9",
+					"hue": 35
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "7a0efea2-efe6-4f93-a2a4-6fb9fd80bb47",
+						"href": null,
+						"eabId": "EAB::7a0efea2-efe6-4f93-a2a4-6fb9fd80bb47::61725349::235820690",
+						"type": "episode",
+						"name": "Their Choices",
+						"description": "After killing the Man-Eaters, Maru and Kiruko finally meet Dr. Usami. He asks something difficult of them, and leads them both to a room where a horrifying scene awaits.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-05-20T12:00:00Z",
+						"season": 1,
+						"number": 8,
+						"duration": 1425,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img2.hulu.com/user/v3/artwork/7a0efea2-efe6-4f93-a2a4-6fb9fd80bb47?base_image_bucket_name=image_manager&base_image=0f773610-aa9a-4ab1-b654-54e1c639d38c",
+					"hue": 355
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "ec9d74f8-2541-4201-aed2-d732e9f04bc2",
+						"href": null,
+						"eabId": "EAB::ec9d74f8-2541-4201-aed2-d732e9f04bc2::187252150::236806253",
+						"type": "episode",
+						"name": "Children of the Nursery",
+						"description": "Maru and Kiruko discover that Dr. Usami had a button with the same pattern as the logo they found on the Kiru-Beam. They decide to follow it's trail, and meet a mysterious informant along the way. Meanwhile, back at the nursery, an emergency meeting is held.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-05-27T12:00:00Z",
+						"season": 1,
+						"number": 9,
+						"duration": 1424,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img.hulu.com/user/v3/artwork/ec9d74f8-2541-4201-aed2-d732e9f04bc2?base_image_bucket_name=image_manager&base_image=9bdf6706-de9a-4dd3-a3b5-c56c79fd89b6",
+					"hue": 190
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "ffba7648-c21e-4b5b-9dd2-d1b28aabf5bb",
+						"href": null,
+						"eabId": "EAB::ffba7648-c21e-4b5b-9dd2-d1b28aabf5bb::187616836::237893764",
+						"type": "episode",
+						"name": "The Walled Town",
+						"description": "Maru and Kiruko decide to head to the Ibaraki facility of the Takahara Academy. Since it's on the way, they agree to help Juichi confirm whether his baby is still alive. Arriving at the Walled Town, the situation is very different to what was expected.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-06-03T12:00:00Z",
+						"season": 1,
+						"number": 10,
+						"duration": 1424,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img2.hulu.com/user/v3/artwork/ffba7648-c21e-4b5b-9dd2-d1b28aabf5bb?base_image_bucket_name=image_manager&base_image=fc8c8908-2204-40f6-824f-479855eb82da",
+					"hue": 50
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "c62aba03-e650-40f8-b383-f1011d51941f",
+						"href": null,
+						"eabId": "EAB::c62aba03-e650-40f8-b383-f1011d51941f::188093736::239009289",
+						"type": "episode",
+						"name": "The Test Begins",
+						"description": "Maru and Kiruko head to the Ibaraki facility after Juichi gives them his car. Meanwhile, a group of new 5th years join the academy. Mimihime notices that one child called Ohma seems very lonely, and tries to make friends. But Ohma has special reasons for keeping away from the other children.",
+						"rating": "TVMA",
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-06-10T12:00:00Z",
+						"season": 1,
+						"number": 11,
+						"duration": 1424,
+						"seriesName": "Tengoku Daimakyo",
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img1.hulu.com/user/v3/artwork/c62aba03-e650-40f8-b383-f1011d51941f?base_image_bucket_name=image_manager&base_image=3cebf43c-4158-42cd-b343-57d2601fa5d0",
+					"hue": 110
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					}
+				]
+			},
+			"upsell": {
+				"seasons": 1,
+				"episodes": 11,
+				"name": "Tengoku Daimakyo"
+			}
+					}
+				},
+				{
+					"title": "Extras",
+					"model": {
+			"type": "grid_collection",
+			"title": "Extras",
+			"collection": {
+				"id": "241",
+				"href": "https://discover.hulu.com/content/v5/hubs/series/c0bba144-1fa6-4ee5-affc-1029c77cfb71/collections/241?schema=0&personalized_layout_id=H4sIAAAAAAAAAMu1MjIwMjYwMzAxNDewqCkptjI0szC1sLQwsTAAAgDrT-cRHwAAAA",
+				"name": "Extras",
+				"theme": "grid_collection",
+				"enabledTileLinks": false,
+				"enableSignupModal": null,
+				"collectionHubPath": null,
+				"seasons": null,
+				"items": [
+					{
+						"id": "39a449cc-02f1-4520-a37f-10198ef6e437",
+						"href": null,
+						"eabId": null,
+						"type": "extra",
+						"name": "Tengoku Daimakyo Trailer",
+						"description": "After the collapse of the world, Kiruko and Maru search for Heaven within the ruins of Japan.",
+						"rating": null,
+						"genres": [
+				"International",
+				"Science Fiction",
+				"Thriller",
+				"Anime"
+						],
+						"premiereDate": "2023-04-01T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": 108,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img4.hulu.com/user/v3/artwork/39a449cc-02f1-4520-a37f-10198ef6e437?base_image_bucket_name=image_manager&base_image=a5fdb092-934c-4312-af0f-b845c05f23dd",
+					"hue": 355
+				},
+				"horizontalProgramTile": null,
+				"verticalHero": null,
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": null
+						}
+					}
+				]
+			},
+			"upsell": {
+				"seasons": 1,
+				"episodes": 11,
+				"name": "Tengoku Daimakyo"
+			}
+					}
+				},
+				{
+					"title": "Details",
+					"model": {
+			"type": "collection_details",
+			"collection": {
+				"theme": "details",
+				"name": "About this Show"
+			},
+			"entityType": "series",
+			"tags": [
+				2023
+			],
+			"name": "Tengoku Daimakyo",
+			"credits": null,
+			"avFeatures": {
+				"items": [
+					"hd"
+				],
+				"truncatedItems": [
+					"hd"
+				]
+			},
+			"description": "In the year 2024, grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.",
+			"rating": null,
+			"genres": [
+				{
+					"name": "International",
+					"hubPath": "/hub/international-tv"
+				},
+				{
+					"name": "Science Fiction",
+					"hubPath": "/hub/science-fiction-tv"
+				},
+				{
+					"name": "Thriller",
+					"hubPath": "/hub/thriller-tv"
+				},
+				{
+					"name": "Anime",
+					"hubPath": "/hub/anime-tv"
+				}
+			]
+					}
+				}
+			],
+			"heroSliderCtaUrl": "",
+			"heroSliderCtaLegalText": "",
+			"heroSliderCtaDesc": "",
+			"heroSliderCtaText": "",
+			"heroSliderCtaPremiumDesc": "",
+			"network": "Tengoku Daimakyo",
+			"heroSliderCtaDisclaimer": "",
+			"metrics": {
+				"collectionIndex": 0
+			}
+		},
+		{
+			"type": "collection",
+			"collections": [
+				{
+					"model": {
+			"type": "simple_collection",
+			"title": "You May Also Like",
+			"collection": {
+				"id": "95",
+				"href": "https://discover.hulu.com/content/v5/hubs/series/c0bba144-1fa6-4ee5-affc-1029c77cfb71/collections/95?schema=0&personalized_layout_id=H4sIAAAAAAAAAMu1MjIwMjYwMzAxNDewqCkptjI0szC1sLQwsTAAAgDrT-cRHwAAAA",
+				"name": "You May Also Like",
+				"theme": "simple_collection",
+				"enabledTileLinks": true,
+				"enableSignupModal": null,
+				"collectionHubPath": null,
+				"seasons": null,
+				"items": [
+					{
+						"id": "d787e46a-dbb2-4f03-9d11-3680517ad451",
+						"href": "/series/tengoku-daimakyo-eng-d787e46a-dbb2-4f03-9d11-3680517ad451",
+						"eabId": null,
+						"type": "series",
+						"name": "Tengoku Daimakyo (Eng)",
+						"description": "In the year 2024, grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.",
+						"rating": null,
+						"genres": [
+				"Science Fiction",
+				"Adventure",
+				"Animation",
+				"Anime",
+				"International",
+				"Horror",
+				"Thriller"
+						],
+						"premiereDate": "2023-04-01T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img2.hulu.com/user/v3/artwork/d787e46a-dbb2-4f03-9d11-3680517ad451?base_image_bucket_name=image_manager&base_image=5b4b4a7e-1070-42bb-8a1b-ea3a1a2aaec5",
+					"hue": 185
+				},
+				"horizontalProgramTile": {
+					"path": "https://img2.hulu.com/user/v3/artwork/d787e46a-dbb2-4f03-9d11-3680517ad451?base_image_bucket_name=image_manager&base_image=087ad3c2-1777-4c8d-8895-07ed11a81498",
+					"hue": 15
+				},
+				"verticalHero": {
+					"path": "https://img2.hulu.com/user/v3/artwork/d787e46a-dbb2-4f03-9d11-3680517ad451?base_image_bucket_name=image_manager&base_image=b55b74b0-8a18-4f5f-aac9-1dee52c9e3b2",
+					"hue": 185
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "45cfca29-3356-4871-a7a1-47c5c411435a",
+						"href": "/series/summer-time-rendering-eng-dub-45cfca29-3356-4871-a7a1-47c5c411435a",
+						"eabId": null,
+						"type": "series",
+						"name": "Summer Time Rendering (Eng Dub)",
+						"description": "Shinpei Ajiro, whose childhood friend Ushio Kofune died, returns to his hometown for the first time in two years. His best friend, Sou Hishigata, suspects something's off with Ushio's death, and someone else can die next.",
+						"rating": null,
+						"genres": [
+				"Drama",
+				"International"
+						],
+						"premiereDate": "2023-01-11T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img2.hulu.com/user/v3/artwork/45cfca29-3356-4871-a7a1-47c5c411435a?base_image_bucket_name=image_manager&base_image=cd1c792c-16ac-4182-8112-7c6b5803ba14",
+					"hue": 255
+				},
+				"horizontalProgramTile": {
+					"path": "https://img2.hulu.com/user/v3/artwork/45cfca29-3356-4871-a7a1-47c5c411435a?base_image_bucket_name=image_manager&base_image=3a9aaffa-01bf-4542-8daa-d83da0712aa6",
+					"hue": 190
+				},
+				"verticalHero": {
+					"path": "https://img2.hulu.com/user/v3/artwork/45cfca29-3356-4871-a7a1-47c5c411435a?base_image_bucket_name=image_manager&base_image=9aff146c-2671-45d4-af12-24469db7e64b",
+					"hue": 255
+				},
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": {
+					"path": "https://img2.hulu.com/user/v3/artwork/45cfca29-3356-4871-a7a1-47c5c411435a?base_image_bucket_name=image_manager&base_image=590de654-33b5-4483-87a7-ee6a5f3bb3c3"
+				}
+						}
+					},
+					{
+						"id": "71657e15-fb0e-4b48-a1a6-23f0a23a9476",
+						"href": "/series/black-rock-shooter-dawn-fall-eng-71657e15-fb0e-4b48-a1a6-23f0a23a9476",
+						"eabId": null,
+						"type": "series",
+						"name": "Black Rock Shooter Dawn Fall (Eng)",
+						"description": "The year is 2062. Earth has been left in ruin after the failure of a labor automation project when the AI called Artemis waged war against humanity. A girl, Empress, awakens in a research lab. As one of the three surviving guardians, she must destroy the Orbital Elevator before Artemis can complete its construction. Failure will result in a machine army overrunning Earth. However, Artemis' Unmanned Forces and a cult may have motives of their own.",
+						"rating": null,
+						"genres": [
+				"Science Fiction",
+				"International",
+				"Animation",
+				"Anime"
+						],
+						"premiereDate": "2022-10-18T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img.hulu.com/user/v3/artwork/71657e15-fb0e-4b48-a1a6-23f0a23a9476?base_image_bucket_name=image_manager&base_image=6b059a99-7658-4afb-a288-ebe1b906c8d6",
+					"hue": 215
+				},
+				"horizontalProgramTile": {
+					"path": "https://img.hulu.com/user/v3/artwork/71657e15-fb0e-4b48-a1a6-23f0a23a9476?base_image_bucket_name=image_manager&base_image=3cebd148-f82d-4a39-a9a0-ef5e3a02278f",
+					"hue": 225
+				},
+				"verticalHero": {
+					"path": "https://img.hulu.com/user/v3/artwork/71657e15-fb0e-4b48-a1a6-23f0a23a9476?base_image_bucket_name=image_manager&base_image=6ce63b7b-c362-4a76-9875-59813eb8ee38",
+					"hue": 215
+				},
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": {
+					"path": "https://img.hulu.com/user/v3/artwork/71657e15-fb0e-4b48-a1a6-23f0a23a9476?base_image_bucket_name=image_manager&base_image=8c8c7a38-ea09-4f8c-9876-03778ed3e3fe"
+				}
+						}
+					},
+					{
+						"id": "97f1d394-0ac7-48c2-bb1b-7b2575848441",
+						"href": "/series/the-rising-of-the-shield-hero-97f1d394-0ac7-48c2-bb1b-7b2575848441",
+						"eabId": null,
+						"type": "series",
+						"name": "The Rising of the Shield Hero",
+						"description": "A man equipped with only a shield is chosen to be one of the world's great defenders, but when a cruel betrayal shatters his reputation, he tries to regain the public's trust while fighting evil alongside a few devoted allies.",
+						"rating": null,
+						"genres": [
+				"Fantasy",
+				"Action",
+				"Adventure",
+				"Anime",
+				"Animation"
+						],
+						"premiereDate": "2019-01-09T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img2.hulu.com/user/v3/artwork/97f1d394-0ac7-48c2-bb1b-7b2575848441?base_image_bucket_name=image_manager&base_image=bb19fa6c-9b3b-4d66-b467-a303c4b0e04c",
+					"hue": 35
+				},
+				"horizontalProgramTile": {
+					"path": "https://img2.hulu.com/user/v3/artwork/97f1d394-0ac7-48c2-bb1b-7b2575848441?base_image_bucket_name=image_manager&base_image=e45d0ac7-532a-4edf-ac5c-9dba4ae37b95",
+					"hue": 35
+				},
+				"verticalHero": {
+					"path": "https://img2.hulu.com/user/v3/artwork/97f1d394-0ac7-48c2-bb1b-7b2575848441?base_image_bucket_name=image_manager&base_image=67a0f2b5-bfeb-47d7-b65b-4c161a7ba92d",
+					"hue": 35
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "0cad4e42-fd8d-42e1-a1ae-e9a3f64dcd65",
+						"href": "/series/tokyo-revengers-eng-0cad4e42-fd8d-42e1-a1ae-e9a3f64dcd65",
+						"eabId": null,
+						"type": "series",
+						"name": "Tokyo Revengers (Eng)",
+						"description": "Already low and down on his luck, Takemichi Hanagaki is devastated to learn that the love of his life from his middle school years has been killed by the criminal Tokyo Manji Gang. While Takemichi waits for a train the very next day, he is pushed from behind into the path of an oncoming train. Prepared to die, he instead wakes up to find he has traveled twelve years into the past and is again a middle school student. Now, Takemichi can rewrite history by making different choices in the hopes of preventing the death of his sweetheart.",
+						"rating": null,
+						"genres": [
+				"Animation",
+				"International",
+				"Anime"
+						],
+						"premiereDate": "2023-01-08T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img4.hulu.com/user/v3/artwork/0cad4e42-fd8d-42e1-a1ae-e9a3f64dcd65?base_image_bucket_name=image_manager&base_image=408a46c5-5aa7-48db-a257-38fe06328786",
+					"hue": 355
+				},
+				"horizontalProgramTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/0cad4e42-fd8d-42e1-a1ae-e9a3f64dcd65?base_image_bucket_name=image_manager&base_image=df727844-277b-4988-8a10-deb407038b50",
+					"hue": 355
+				},
+				"verticalHero": {
+					"path": "https://img4.hulu.com/user/v3/artwork/0cad4e42-fd8d-42e1-a1ae-e9a3f64dcd65?base_image_bucket_name=image_manager&base_image=dc08eede-8663-458d-b096-48645876c694",
+					"hue": 355
+				},
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": {
+					"path": "https://img4.hulu.com/user/v3/artwork/0cad4e42-fd8d-42e1-a1ae-e9a3f64dcd65?base_image_bucket_name=image_manager&base_image=5469e60e-735b-48d3-8783-516b4194ca20"
+				}
+						}
+					},
+					{
+						"id": "79ace21f-5124-4913-950e-1afea45f723c",
+						"href": "/series/that-time-i-got-reincarnated-as-a-slime-79ace21f-5124-4913-950e-1afea45f723c",
+						"eabId": null,
+						"type": "series",
+						"name": "That Time I Got Reincarnated as a Slime",
+						"description": "After an assailant murders office worker Mikami Satoru, he finds himself reborn as a remarkably powerful slime in an alternate world, where he begins a quest to promote harmony among the world's different races.",
+						"rating": null,
+						"genres": [
+				"Fantasy",
+				"Anime",
+				"Adventure",
+				"Animation"
+						],
+						"premiereDate": "2018-10-02T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img.hulu.com/user/v3/artwork/79ace21f-5124-4913-950e-1afea45f723c?base_image_bucket_name=image_manager&base_image=31a0196f-a06d-4f27-9621-0f1457f15df3",
+					"hue": 195
+				},
+				"horizontalProgramTile": {
+					"path": "https://img.hulu.com/user/v3/artwork/79ace21f-5124-4913-950e-1afea45f723c?base_image_bucket_name=image_manager&base_image=ca59c3aa-282f-4e43-9af8-5da1db4c5e98",
+					"hue": 195
+				},
+				"verticalHero": {
+					"path": "https://img.hulu.com/user/v3/artwork/79ace21f-5124-4913-950e-1afea45f723c?base_image_bucket_name=image_manager&base_image=96b040f0-1776-45e8-98b1-b16348d2d1d0",
+					"hue": 195
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": {
+					"path": "https://img.hulu.com/user/v3/artwork/79ace21f-5124-4913-950e-1afea45f723c?base_image_bucket_name=image_manager&base_image=cb190145-79fc-4453-920a-01b2fd9b6dd3"
+				}
+						}
+					},
+					{
+						"id": "7b71b5a4-560b-4d8b-98c4-c5dee6004c21",
+						"href": "/series/chainsaw-man-7b71b5a4-560b-4d8b-98c4-c5dee6004c21",
+						"eabId": null,
+						"type": "series",
+						"name": "Chainsaw Man",
+						"description": "A teenage boy drowning in debt is forced to hunt down devils with his pet devil dog Pochita until he's betrayed and killed. In an unexpected turn of events, Pochita merges with his dead body and grants him the power of a Chainsaw Man!",
+						"rating": null,
+						"genres": [
+				"Action",
+				"Adventure",
+				"Animation",
+				"Anime"
+						],
+						"premiereDate": "2022-10-11T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img3.hulu.com/user/v3/artwork/7b71b5a4-560b-4d8b-98c4-c5dee6004c21?base_image_bucket_name=image_manager&base_image=bd033d11-72ab-4100-a729-59eee4dc5523",
+					"hue": 205
+				},
+				"horizontalProgramTile": {
+					"path": "https://img3.hulu.com/user/v3/artwork/7b71b5a4-560b-4d8b-98c4-c5dee6004c21?base_image_bucket_name=image_manager&base_image=7002e231-e4a5-4878-8f48-ea4b5a95348c",
+					"hue": 205
+				},
+				"verticalHero": {
+					"path": "https://img3.hulu.com/user/v3/artwork/7b71b5a4-560b-4d8b-98c4-c5dee6004c21?base_image_bucket_name=image_manager&base_image=24133799-ae73-49ab-910a-4e483e68826f",
+					"hue": 205
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": {
+					"path": "https://img3.hulu.com/user/v3/artwork/7b71b5a4-560b-4d8b-98c4-c5dee6004c21?base_image_bucket_name=image_manager&base_image=bacd5907-ef7d-4bd7-a280-27038cd44051"
+				}
+						}
+					},
+					{
+						"id": "02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1",
+						"href": "/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1",
+						"eabId": null,
+						"type": "series",
+						"name": "Bleach: Thousand-Year Blood War",
+						"description": "When a new enemy appears, Substitute Soul Reaper Ichigo Kurosaki jumps back into the battlefield with his Zanpakuto to help those in need.",
+						"rating": null,
+						"genres": [
+				"Animation",
+				"Anime"
+						],
+						"premiereDate": "2022-10-10T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img3.hulu.com/user/v3/artwork/02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1?base_image_bucket_name=image_manager&base_image=de2a4ae9-9153-4f31-9bf0-84a611e8c3d0",
+					"hue": 0
+				},
+				"horizontalProgramTile": {
+					"path": "https://img3.hulu.com/user/v3/artwork/02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1?base_image_bucket_name=image_manager&base_image=fb63be54-4aec-4db1-bf27-abea35f293c9",
+					"hue": 0
+				},
+				"verticalHero": {
+					"path": "https://img3.hulu.com/user/v3/artwork/02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1?base_image_bucket_name=image_manager&base_image=1582a3ab-ab15-46fa-9ece-97bbb2b4a9d6",
+					"hue": 0
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": {
+					"path": "https://img3.hulu.com/user/v3/artwork/02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1?base_image_bucket_name=image_manager&base_image=bcffa847-9be7-4041-9ddc-3152dce19d9f"
+				}
+						}
+					},
+					{
+						"id": "28ac7d35-3f2b-47db-8844-c27f7f3fa2a5",
+						"href": "/series/our-last-crusade-or-the-rise-of-a-new-world-28ac7d35-3f2b-47db-8844-c27f7f3fa2a5",
+						"eabId": null,
+						"type": "series",
+						"name": "Our Last Crusade or the Rise of a New World",
+						"description": "Sent to assassinate each other, Iska and Aliceliese’s initial encounter creates doubt in them both. But finding common ground would make them traitors to their countries. Circumstances made them enemies, but their conflicted hearts may make them lovers!",
+						"rating": null,
+						"genres": [
+				"Anime",
+				"Animation"
+						],
+						"premiereDate": "2020-10-07T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img4.hulu.com/user/v3/artwork/28ac7d35-3f2b-47db-8844-c27f7f3fa2a5?base_image_bucket_name=image_manager&base_image=1bba2a42-d19b-45d2-93bd-7e3ed7874f0d",
+					"hue": 0
+				},
+				"horizontalProgramTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/28ac7d35-3f2b-47db-8844-c27f7f3fa2a5?base_image_bucket_name=image_manager&base_image=b8ef49f1-b680-4352-8c6a-45adb4db3279",
+					"hue": 0
+				},
+				"verticalHero": {
+					"path": "https://img4.hulu.com/user/v3/artwork/28ac7d35-3f2b-47db-8844-c27f7f3fa2a5?base_image_bucket_name=image_manager&base_image=c0e799c6-1edd-420a-b51f-2ab45570875f",
+					"hue": 225
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "eb41ba38-51f7-4d22-b529-8691555a275a",
+						"href": "/movie/inu-oh-english-dub-eb41ba38-51f7-4d22-b529-8691555a275a",
+						"eabId": null,
+						"type": "movie",
+						"name": "Inu-Oh (English Dub)",
+						"description": "From visionary director Masaaki Yuasa, hailed by IndieWire as “one of the most creatively unbridled minds in all of modern animation,\" comes a revisionist rock opera about a 14th-century superstar whose dance moves take Japan by storm.",
+						"rating": "PG-13",
+						"genres": [
+				"Animation"
+						],
+						"premiereDate": "2022-08-12T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": 5908,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img3.hulu.com/user/v3/artwork/eb41ba38-51f7-4d22-b529-8691555a275a?base_image_bucket_name=image_manager&base_image=c2ac6151-2b8f-4f58-908a-f29be8a85a0e",
+					"hue": 210
+				},
+				"horizontalProgramTile": {
+					"path": "https://img3.hulu.com/user/v3/artwork/eb41ba38-51f7-4d22-b529-8691555a275a?base_image_bucket_name=image_manager&base_image=10fd9de8-89ba-45c5-a234-1127a51089bb",
+					"hue": 210
+				},
+				"verticalHero": {
+					"path": "https://img3.hulu.com/user/v3/artwork/eb41ba38-51f7-4d22-b529-8691555a275a?base_image_bucket_name=image_manager&base_image=e10e35cc-635f-45a5-ae6b-f2c7affe1315",
+					"hue": 210
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": {
+					"path": "https://img3.hulu.com/user/v3/artwork/eb41ba38-51f7-4d22-b529-8691555a275a?base_image_bucket_name=image_manager&base_image=5ce6aaff-81ad-4bfb-8309-bddf2cf5c03b"
+				}
+						}
+					},
+					{
+						"id": "a76ff77f-1588-4211-96e8-d2f9b8fbf400",
+						"href": "/series/id-invaded-a76ff77f-1588-4211-96e8-d2f9b8fbf400",
+						"eabId": null,
+						"type": "series",
+						"name": "ID: INVADED",
+						"description": "Meet Sakaido, a brilliant detective who solves cases by entering the world of the killer's unconscious mind: the id well. In the shadows of brutal and puzzling cases lurks John Walker, the Serial Killer Creator. Where will Sakaido's pursuit lead?",
+						"rating": null,
+						"genres": [
+				"Drama",
+				"Crime",
+				"Animation",
+				"Anime"
+						],
+						"premiereDate": "2019-12-15T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img.hulu.com/user/v3/artwork/a76ff77f-1588-4211-96e8-d2f9b8fbf400?base_image_bucket_name=image_manager&base_image=09865d57-9326-417c-bab6-f2ac0a9b6b54",
+					"hue": 50
+				},
+				"horizontalProgramTile": {
+					"path": "https://img.hulu.com/user/v3/artwork/a76ff77f-1588-4211-96e8-d2f9b8fbf400?base_image_bucket_name=image_manager&base_image=7ed218a6-50be-4b7c-b57d-f2296fb30f9a",
+					"hue": 210
+				},
+				"verticalHero": {
+					"path": "https://img.hulu.com/user/v3/artwork/a76ff77f-1588-4211-96e8-d2f9b8fbf400?base_image_bucket_name=image_manager&base_image=a4548f51-ccac-4c71-b822-527858659262",
+					"hue": 210
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "f3ebfa6a-c651-4e2b-b939-6c46dec8a66a",
+						"href": "/series/arifureta-from-commonplace-to-worlds-strongest-f3ebfa6a-c651-4e2b-b939-6c46dec8a66a",
+						"eabId": null,
+						"type": "series",
+						"name": "Arifureta: From Commonplace to World's Strongest",
+						"description": "After Hajime Nagumo and his high school class are suddenly summoned to a fantastical world, he tumbles into the depths of a monster-infested dungeon. To thrive in this savage world, Hajime will have no choice but to welcome the abyss.",
+						"rating": "TVMA",
+						"genres": [
+				"Animation",
+				"Anime"
+						],
+						"premiereDate": "2019-07-08T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img1.hulu.com/user/v3/artwork/f3ebfa6a-c651-4e2b-b939-6c46dec8a66a?base_image_bucket_name=image_manager&base_image=61b99481-5728-47a7-8f57-2a00823770e8",
+					"hue": 5
+				},
+				"horizontalProgramTile": {
+					"path": "https://img1.hulu.com/user/v3/artwork/f3ebfa6a-c651-4e2b-b939-6c46dec8a66a?base_image_bucket_name=image_manager&base_image=10fc0842-3e40-47a7-b54e-231b657cfdf4",
+					"hue": 355
+				},
+				"verticalHero": {
+					"path": "https://img1.hulu.com/user/v3/artwork/f3ebfa6a-c651-4e2b-b939-6c46dec8a66a?base_image_bucket_name=image_manager&base_image=31cc4e6a-fc8b-44ac-805f-683f452da990",
+					"hue": 265
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "326e55c4-924d-4f7d-b479-5bd250bfcabc",
+						"href": "/series/the-sacred-blacksmith-326e55c4-924d-4f7d-b479-5bd250bfcabc",
+						"eabId": null,
+						"type": "series",
+						"name": "The Sacred Blacksmith",
+						"description": "The bumbling knight Cecily is an unlikely heroine - until the blacksmith Luke comes to her aid, forging magic blades of supernatural strength. Cecily must wield this sacred steel against a cloaked fiend who is unleashing demons upon the land.",
+						"rating": "TVMA",
+						"genres": [
+				"Animation",
+				"Anime",
+				"International"
+						],
+						"premiereDate": "2009-10-03T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img3.hulu.com/user/v3/artwork/326e55c4-924d-4f7d-b479-5bd250bfcabc?base_image_bucket_name=image_manager&base_image=dcabd7a0-de67-4083-864a-ea8481d73576",
+					"hue": 0
+				},
+				"horizontalProgramTile": {
+					"path": "https://img3.hulu.com/user/v3/artwork/326e55c4-924d-4f7d-b479-5bd250bfcabc?base_image_bucket_name=image_manager&base_image=112674cb-ae5c-4f2d-b23c-fc65248ead04",
+					"hue": 0
+				},
+				"verticalHero": {
+					"path": "https://img3.hulu.com/user/v3/artwork/326e55c4-924d-4f7d-b479-5bd250bfcabc?base_image_bucket_name=image_manager&base_image=18be40a6-c246-4554-8fbf-968463893415",
+					"hue": 0
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": null
+						}
+					},
+					{
+						"id": "9d2ab176-0b3c-476f-a989-0578876b018d",
+						"href": "/series/black-rock-shooter-dawn-fall-9d2ab176-0b3c-476f-a989-0578876b018d",
+						"eabId": null,
+						"type": "series",
+						"name": "Black Rock Shooter Dawn Fall",
+						"description": "The year is 2062. Earth has been left in ruin after the failure of a labor automation project when the AI called Artemis waged war against humanity. A girl, Empress, awakens in a research lab. As one of the three surviving guardians, she must destroy the Orbital Elevator before Artemis can complete its construction. Failure will result in a machine army overrunning Earth. However, Artemis' Unmanned Forces and a cult may have motives of their own.",
+						"rating": null,
+						"genres": [
+				"Science Fiction",
+				"International",
+				"Animation",
+				"Anime"
+						],
+						"premiereDate": "2022-10-18T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img3.hulu.com/user/v3/artwork/9d2ab176-0b3c-476f-a989-0578876b018d?base_image_bucket_name=image_manager&base_image=4b576aeb-67b4-4fe0-81c0-014928d98bd5",
+					"hue": 220
+				},
+				"horizontalProgramTile": {
+					"path": "https://img3.hulu.com/user/v3/artwork/9d2ab176-0b3c-476f-a989-0578876b018d?base_image_bucket_name=image_manager&base_image=7d13afa7-cbab-497a-99d9-b2b44cfe4074",
+					"hue": 225
+				},
+				"verticalHero": {
+					"path": "https://img3.hulu.com/user/v3/artwork/9d2ab176-0b3c-476f-a989-0578876b018d?base_image_bucket_name=image_manager&base_image=dcdd88bc-0060-4fad-9ced-a4e107f4e58e",
+					"hue": 215
+				},
+				"networkTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=fbce7a47-3972-434c-8b05-dc00d22eedb0"
+				},
+				"watermark": {
+					"path": "https://img4.hulu.com/user/v3/artwork/f812637b-6186-48e4-9b63-85167ba2cf17?base_image_bucket_name=image_manager&base_image=5d7f53a9-b8bf-4731-887a-0a87c4628439"
+				},
+				"titleArtwork": {
+					"path": "https://img3.hulu.com/user/v3/artwork/9d2ab176-0b3c-476f-a989-0578876b018d?base_image_bucket_name=image_manager&base_image=8fea53b2-a514-45ca-b2cd-c7adce67646e"
+				}
+						}
+					},
+					{
+						"id": "3fedb7c9-7fc1-4011-9344-33bc2ea01f2a",
+						"href": "/series/bem-3fedb7c9-7fc1-4011-9344-33bc2ea01f2a",
+						"eabId": null,
+						"type": "series",
+						"name": "BEM",
+						"description": "Humanoid monsters Bem, Bela, and Belo protect humanity and hope to one day become humans themselves. However, when a Mysterious Lady threatens their way of life, they're pulled into a plot unlike anything they've ever known.",
+						"rating": "TV14",
+						"genres": [
+				"Animation",
+				"Anime"
+						],
+						"premiereDate": "2019-07-14T12:00:00Z",
+						"season": null,
+						"number": null,
+						"duration": null,
+						"seriesName": null,
+						"artwork": {
+				"horizontalHero": {
+					"path": "https://img4.hulu.com/user/v3/artwork/3fedb7c9-7fc1-4011-9344-33bc2ea01f2a?base_image_bucket_name=image_manager&base_image=36cc73dd-6545-4c7f-b9db-0518a4460186",
+					"hue": 195
+				},
+				"horizontalProgramTile": {
+					"path": "https://img4.hulu.com/user/v3/artwork/3fedb7c9-7fc1-4011-9344-33bc2ea01f2a?base_image_bucket_name=image_manager&base_image=30b3a379-34dd-40d8-862c-6422087ec1fd",
+					"hue": 355
+				},
+				"verticalHero": {
+					"path": "https://img4.hulu.com/user/v3/artwork/3fedb7c9-7fc1-4011-9344-33bc2ea01f2a?base_image_bucket_name=image_manager&base_image=e18d3ae9-0a44-4f07-8f9b-6c48ebbc8c35",
+					"hue": 355
+				},
+				"networkTile": null,
+				"watermark": null,
+				"titleArtwork": null
+						}
+					}
+				]
+			},
+			"enabledTileLinks": true
+					}
+				}
+			],
+			"metrics": {
+				"collectionIndex": 3
+			}
+		},
+		{
+			"type": "player",
+			"metrics": {}
+		},
+		{
+			"type": "signup_modal",
+			"name": "Tengoku Daimakyo",
+			"availableSeasons": 1,
+			"episodeCount": 11,
+			"ctaText": "Start Your Free Trial",
+			"ctaUrl": "/signup/go/one-hulu",
+			"ctaDownloadAppText": "Watch Now",
+			"legalText": "For new subscribers only",
+			"bodyText": "No hidden fees, equipment rentals, or installation appointments.",
+			"contentType": "series",
+			"isOriginalContent": true,
+			"premiereDate": "2023-04-01T05:00:00Z",
+			"requirePremium": false,
+			"metrics": {}
+		},
+		{
+			"type": "tier_modal",
+			"id": "sportsaddon-modal",
+			"name": "Sports Add-on",
+			"price": "$9.99/month",
+			"body": "Stream every touchdown from every game, every Sunday during the NFL regular season with NFL RedZone, along with hundreds of hours of live sports –motorsports (MAVTV), horse racing (FanDuel TV/FanDuel Racing) to hunting and fishing (Outdoor Channel, Sportsman Channel).",
+			"shouldRandomize": false,
+			"logos": [
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/ec8159e7d204003c0e46f21072dacab58d86a496700beb4ed4f77b7b60e3e37b/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/2f78fe4d217c096d158f00eece7e8a9c67d567e9d238abd6297099e7fd633ed6/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/3bc25da921e02361cd29dd5b78151706837ddec42299b1eab4c0bec8a7b50e2c/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/b3ffc383fa43826d54610e1326c42c293242949f6b4f7982104565da69faa5df/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/d8721a1c2ba3675a48c6a8e983111d545786ab7ab8dfafc3c9f7ba37b0ffc49a/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/a6921dfd5061f532f63eb7ddc56aa39b358ad87231dae437dd67ccc25b7a38b4/original"
+				}
+			],
+			"metrics": {}
+		},
+		{
+			"type": "tier_modal",
+			"id": "espanol-modal",
+			"name": "Español Add-on",
+			"price": "$4.99/month",
+			"body": "Enjoy a collection of popular favorites in Spanish – CNN en Español, Discovery en Español, Discovery Familia, ESPN Deportes, History Channel en Español, and Universo.",
+			"shouldRandomize": false,
+			"logos": [
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/8a4ff3716ac76a0ede555b002589b578e78ee1ac75d215a7da02c0528186d234/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/f4ca338e72c6e02d6deab6830014ee5ed15c68575213041920fe25ce9a26ca36/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/be200cf2ea57d1a262eba57ce73e15065141a1e6c96fe6814d4e9b40a7b23065/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/eb493afba9617f1318eaf238366139a26a85dba1cac4eb62bcaba8f8dd61098a/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/de8fafa9f0e023116af53a93e817597ac15a66acdcc510763a27541236ae1405/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/63c356517b4099cc674965b859a267ecdf732f795f3ddbeab46512c01717ffa9/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/571968287ec7b1087b382cc96d4f7501965c6eb12cf5ac7969d6149fc9333935/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/e1ab4d05132815c111c7e6c1ce910453166d3cd7a6cb30cd8a8bd7f09602a27a/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/e28572c3b3c69d36d5f031137fa71c66fc754cff7dca94e68561744180395ad7/original"
+				}
+			],
+			"metrics": {}
+		},
+		{
+			"type": "tier_modal",
+			"id": "entertainment-modal",
+			"name": "Entertainment Add-on",
+			"price": "$7.99/month",
+			"body": "Stay current with additional news, entertainment, and lifestyle programming from American Heroes Channel, BET Her, Boomerang, CNBC World, Cooking Channel, Crime + Investigation, Destination America, Discovery Family, Discovery Life, Military History Channel, MTV2, MTV Classic, Nick Toons, Science, and Teen Nick.",
+			"shouldRandomize": false,
+			"logos": [
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/0ab82bfcacc470262d593761311df615afcf06a225fc76a1b7b3639c95cb05ec/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/ddb329360666ec283f41a6822bbaca2bf0f92fa3daa87babcfd4291391f09d31/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/607dcb9acf16bc2de181ab1e3e6457ad45d62d5aef771a341b5b7cb04e4f183e/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/464e555c84b580351a4b2e193459f07baed80854ae034cd1350a69a62a1bf286/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/aa6003125241eff00c7ddb6f0b6d37819c334f3b704d39110fa29ddd6e9ce796/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/9f060436044ac4ce14bacc4af832136c3c2517a9d666f6cb5162b0c0f512c639/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/e1a807a8f5cb7d6af4a342b8deb773d3aa795a958afbdd55b480b1ddd13120e0/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/e54039aae189599b75fa42b5dcf55d6d0e5e88d6ffff56dadd1c2edc920205b6/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/d7a43cc2d3d22735247ce06b828353ed62ec6262b7688f3d87df515039f7034f/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/343f2b0b596bb159366dd888adeba966c767cbcd75180d4a6a52d5cc1c42d342/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/1106f17568cac392e1f156ebdfd90d202a378619a3a682ae39e5b82e43251b55/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/4b08184bade28c32b290713a03989bd257dc4fed610cf0e9e7b3d8950b0deff8/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/702f02d9c9b5d79f79764011031fd74d27ce21755cf8290d2852534c54b2c1a4/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/f662a0239f3f4a4b7c1dc594f17dd0dd01a1af95e64ad28a4c5376f50ab265ba/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/e1e9230a34e2669d2f7ad66fad3b79f32153f169f671f0774db60140af0fe438/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/415f94db963a7e42a5959b26aee3d10202b300455cbcddbb791834e56b5e25d5/original"
+				},
+				{
+					"name": "",
+					"icon": "//cnbl-cdn.bamgrid.com/assets/ab64b682b66e652746b115a86bc3043e15453da2bdd94a446ebd6a35c3240b48/original"
+				}
+			],
+			"metrics": {}
+		},
+		{
+			"type": "modal",
+			"body": "18+ only. Any free trials valid for new and eligible returning subscribers only. For personal and non-commercial use only. Live TV is available in the 50 United States and the District of Columbia only. Compatible device and high-speed, broadband Internet connection required. Multiple concurrent streams and HD content may require higher bandwidth. Streaming content may count against your data usage. Location data required to access content. Live TV may vary by subscription and location. Click here to check channel availability in your area. Programming subject to regional availability, blackouts, and device restrictions. Number of permitted concurrent streams will vary based on the terms of your subscription. Pricing, channels, features, content, and compatible devices subject to change. Please review our Terms of Use (<a href=\"https://www.hulu.com/terms\" target=\"_blank\">https://www.hulu.com/terms</a>) and Privacy Policy (<a href=\"https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/\" target=\"_blank\">https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/</a>).\n<br>\n<br>\nU.S. residents. Includes certain combinations of Disney+, Hulu, and ESPN+, subject to change. Offer valid for eligible subscribers, devices, and billing partners. Access content from each service separately. Location data may be required to watch certain content. For detailed information on billing and cancelation, please visit the Hulu Help Center (<a href=\"https://help.hulu.com/s/article/hulu-disney-espn-bundle\" target=\"_blank\">https://help.hulu.com/s/article/hulu-disney-espn-bundle</a>).",
+			"modalTitle": "",
+			"id": "live-tv-legal-modal",
+			"metrics": {}
+		},
+		{
+			"type": "modal",
+			"body": "Due to streaming rights, a few shows with an ad break before and after. <a href=\"https://help.hulu.com/en-us/included-in-no-commercials-plan\" target=\"_blank\">Which shows?</a>",
+			"modalTitle": "",
+			"id": "exception-shows-modal",
+			"metrics": {}
+		},
+		{
+			"type": "html_module",
+			"html_code": "<style>\n    .value-prop-disclaimer {\n        color: #586174;\n        font-size: 10px;\n        font-weight: normal;\n        line-height: 16px;\n    }\n    .Masthead__legal.section-disclaimer .button-link {\n        color: white;\n    }\n</style>",
+			"metrics": {}
+		},
+		{
+			"type": "exp_plan_comparison_chart_with_toggle",
+			"headline": "Select Your Plan",
+			"description": "No hidden fees, equipment rentals, or installation appointments.<br /><b>Switch plans or cancel anytime.**</b>",
+			"addonsHeadline": "Available Add-ons",
+			"addonsDescription": "Add-ons available at an additional cost.<br />Add them up after you sign up for Hulu.",
+			"isDark": false,
+			"bundle": {
+				"headline": "Bundle ",
+				"description": "Includes Hulu (plan of your choice), Disney+, and ESPN+.",
+				"leftHeadline": "BASE PLANS",
+				"rightHeadline": "BUNDLE / SAVE",
+				"modal": {}
+			},
+			"bundlePlans": [
+				{
+					"slug": "trio-basic",
+					"headline": "Disney Bundle Trio Basic",
+					"eyebrow": "",
+					"disclaimer": {
+			"id": null,
+			"richText": "",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"ctaText": "$12.99 / MONTH",
+					"mobileCtaText": "$12.99 / mo.",
+					"ctaAction": "/signup",
+					"badge": "",
+					"ctaBtnStyle": "none",
+					"program": "hulu-disney-espn-bundle-offer"
+				},
+				{
+					"slug": "trio-premium",
+					"headline": "Disney Bundle Trio Premium",
+					"eyebrow": "",
+					"disclaimer": {
+			"id": null,
+			"richText": "",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"ctaText": "$19.99 / MONTH",
+					"mobileCtaText": "$19.99 / mo.",
+					"ctaAction": "/signup",
+					"badge": "",
+					"ctaBtnStyle": "none",
+					"program": "disney-bundle-hulu-no-ads"
+				},
+				{
+					"slug": "live-tv",
+					"headline": "Hulu + Live TV",
+					"eyebrow": "",
+					"disclaimer": {
+			"id": null,
+			"richText": "",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"ctaText": "$69.99 / MONTH",
+					"mobileCtaText": "$69.99 / mo.",
+					"ctaAction": "/signup/go/live",
+					"badge": "",
+					"ctaBtnStyle": "black",
+					"program": ""
+				}
+			],
+			"plans": [
+				{
+					"slug": "hulu",
+					"headline": "Hulu (With Ads)",
+					"eyebrow": "30 DAY FREE TRIAL",
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"ctaText": "$7.99 / MONTH",
+					"mobileCtaText": "$7.99/mo.",
+					"ctaAction": "/signup/go/sash",
+					"badge": "MOST POPULAR",
+					"ctaBtnStyle": "black",
+					"program": ""
+				},
+				{
+					"slug": "no-ad",
+					"headline": "Hulu (No Ads)",
+					"eyebrow": "30 DAY FREE TRIAL",
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"ctaText": "$14.99 / month",
+					"mobileCtaText": "$14.99 / mo.",
+					"ctaAction": "/signup/go/noah",
+					"ctaBtnStyle": "black",
+					"program": ""
+				}
+			],
+			"pricingRows": [
+				{
+					"slug": "monthly-pricing-row",
+					"headline": "Monthly price",
+					"bundleHeadline": "Monthly price. Save up to $15.98/mo.*",
+					"prices": [
+			{
+				"text": "$7.99/mo.",
+				"bundle": {
+					"originalPriceText": "$25.97/mo.",
+					"discountedPriceText": "$12.99/mo.*"
+				}
+			},
+			{
+				"text": "$14.99/mo.",
+				"bundle": {
+					"originalPriceText": "$35.97/mo.",
+					"discountedPriceText": "$19.99/mo.*"
+				}
+			},
+			{
+				"bundle": {
+					"originalPriceText": "",
+					"discountedPriceText": "$69.99/mo."
+				}
+			}
+					]
+				}
+			],
+			"bundleFeatures": [
+				{
+					"slug": "subscriptions-included",
+					"headline": "Subscriptions included in each plan",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": "",
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": ""
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": false,
+				"text": "Disney+ (With Ads), Hulu (With Ads), ESPN+ (With Ads)"
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": false,
+				"text": "Disney+ (No Ads), Hulu (No Ads), ESPN+ (With Ads)"
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": false,
+				"text": "Hulu (With Ads) + Live TV, Disney+ (With Ads), ESPN+ (With Ads)"
+			}
+					]
+				},
+				{
+					"slug": "bundle-streaming-library",
+					"headline": "Hulu Streaming library with tons of episodes and movies",
+					"description": {
+			"richText": "Watch full seasons of exclusively streaming series, classic favorites, Hulu Originals, hit movies, current episodes, kids shows, and tons more. <br/><br/>Watch on 2 different screens at the same time.",
+			"modalId": "bundle-streaming-library-modal"
+					},
+					"disclaimer": {
+			"id": "",
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": ""
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": true
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": true
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "bundle-episodes-air",
+					"headline": "Most new episodes the day after they air†",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": "episodes-air-disclaimer",
+			"richText": "†For current-season shows in the streaming library only",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": true
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": true
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "bundle-hulu-originals",
+					"headline": "Access to award-winning Hulu Originals",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": true
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": true
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "bundle-devices",
+					"headline": "Watch on your favorite devices, including TV, laptop, phone, or tablet",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": true
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": true
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "bundle-download-hulu",
+					"headline": "Download and watch on Hulu",
+					"description": {
+			"richText": "Download titles to your supported device for on-the-go-streaming. Save your data and watch offline. <br/><br/><div style=\"font-size: 12px; line-height: 14px;\"><i>Select content available for download.</i></div>",
+			"modalId": "bundle-download-modal"
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": "",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": false
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": true
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": false
+			}
+					]
+				},
+				{
+					"slug": "bundle-bundle-live-tv",
+					"headline": "Live TV with 85+ top channels. No cable required.",
+					"description": {
+			"richText": "- Live sports including the NCAA, NBA, NHL, NFL, the English Premier League, and more.<br/><br/>- Breaking news on CNN, Fox News, and MSNBC, with local news channels in many cities.<br/><br/>- Live entertainment on ABC, CBS, FOX, NBC and more, including local channels and events like the Oscars®.",
+			"modalId": "bundle-live-tv-modal"
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": "",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": false
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": false
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "bundle-live-tv-guide",
+					"headline": "Live TV guide to navigate channels",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": "",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": false
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": false
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "bundle-cloud-dvr",
+					"headline": "Record Live TV with Unlimited DVR",
+					"description": {
+			"richText": "Store live TV recordings for up to nine months and fast-forward through your DVR content.<br/><br/><div style=\"font-size: 12px; line-height: 14px;\"><i>Unlimited DVR recording is not available for on-demand shows.</i></div>",
+			"modalId": "bundle-cloud-dvr-modal"
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": "",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": false
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": false
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				}
+			],
+			"features": [
+				{
+					"slug": "streaming-library",
+					"headline": "Streaming Library with tons of TV episodes and movies",
+					"description": {
+			"richText": "Watch full seasons of exclusively streaming series, classic favorites, Hulu Originals, hit movies, current episodes, kids shows, and tons more.",
+			"modalId": "streaming-library-description"
+					},
+					"disclaimer": {
+			"id": "",
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": ""
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": true
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "episodes-air",
+					"headline": "Most new episodes the day after they air†",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": "episodes-air-disclaimer",
+			"richText": "†For current-season shows in the streaming library only",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": true
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "hulu-originals",
+					"headline": "Access to award-winning Hulu Originals",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": true
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "devices",
+					"headline": "Watch on your favorite devices, including TV, laptop, phone, or tablet",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": true
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "user-profiles",
+					"headline": "Up to 6 user profiles",
+					"description": {
+			"richText": "Now up to six members of your household can have separate profiles so that favorites and recommendations are unique to each viewer.",
+			"modalId": "user-profiles-modal"
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": true
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "different-screens",
+					"headline": "Watch on 2 different screens at the same time",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": true
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "no-ads",
+					"headline": "No ads in streaming library",
+					"description": {
+			"richText": "Stream our library of shows and movies without ad interruptions. <br/><br/><div style=\"font-size: 12px; line-height: 14px;\"><i>Due to streaming rights, a few shows are not included in the Hulu (No Ads) plan and will instead play interruption-free with a short ad break before and after each episode. Visit the Hulu Help Center for a list of shows.<br/>Hulu + Live TV plan: Switch to this plan after sign-up to get ad-free experience of Hulu’s streaming library only; live and VOD content available through Live TV plan plays with ads. No free trial available.</i></div>",
+			"modalId": "no-ads-modal"
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": "",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": false
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "download-and-watch",
+					"headline": "Download and watch",
+					"description": {
+			"richText": "Download titles to your supported device for on-the-go-streaming. Save your data and watch offline.<br/><br/><div style=\"font-size: 12px; line-height: 14px;\"><i>Select content available for download.</i></div>",
+			"modalId": "download-and-watch-modal"
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": "",
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": false
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				}
+			],
+			"bundleFeatureDisclaimers": [
+				{
+					"richText": "*Savings compared to regular monthly price of each service. ",
+					"modalLinkText": "Terms apply.",
+					"modalContent": "U.S. residents, 18+ only. Access content from each service separately. Location data required to watch certain content. Offer valid for eligible subscribers only. Subject to <a href=\"https://www.hulu.com/terms\">Hulu Subscriber Agreement</a>. <br><br> For detailed information on billing and cancelation, please visit the Hulu Help Center (<a href=\"https://help.hulu.com/s/article/hulu-disney-espn-bundle\">https://help.hulu.com/s/article/hulu-disney-espn-bundle</a>). © 2022 Disney and its related entities."
+				},
+				{
+					"richText": "**Switches from Live TV to Hulu take effect as of the next billing cycle",
+					"modalLinkText": "",
+					"modalContent": null
+				},
+				{
+					"richText": "†For current-season shows in the streaming library only",
+					"modalLinkText": "",
+					"modalContent": null
+				},
+				{
+					"richText": "",
+					"modalLinkText": "",
+					"modalContent": null
+				},
+				{
+					"richText": "",
+					"modalLinkText": "",
+					"modalContent": null
+				}
+			],
+			"featureDisclaimers": [
+				{
+					"richText": "†For current-season shows in the streaming library only",
+					"modalLinkText": "",
+					"modalContent": null
+				},
+				{
+					"richText": "**Switches from Live TV to Hulu take effect as of the next billing cycle",
+					"modalLinkText": "",
+					"modalContent": null
+				}
+			],
+			"bundleAddons": [
+				{
+					"slug": "max",
+					"headline": "Max",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": true
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": true
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "cinemax",
+					"headline": "CINEMAX®",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": true
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": true
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "showtime",
+					"headline": "SHOWTIME®",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": true
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": true
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "starz",
+					"headline": "STARZ®",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": true
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": true
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "unlimited-screen",
+					"headline": "Unlimited Screens",
+					"description": {
+			"richText": "For everyone in the home.<br/><br/>• Upgrade to watch on unlimited screens at home<br/>• Plus, enjoy 3 screens when you’re on the go<br/><br/><div style=\"font-size: 12px; line-height: 14px;\"><i>Premium network restrictions apply.</i></div>",
+			"modalId": "unlimited-screen-modal"
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": false
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": false
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "entertainment-add-on",
+					"headline": "Entertainment Add-on",
+					"description": {
+			"richText": "Stay current with additional news, entertainment, and lifestyle programming from American Heroes Channel, BET Her, CNBC World, Cooking Channel, Crime + Investigation, Destination America, Discovery Family, Discovery Life, Magnolia Network, Military History Channel, MTV2, MTV Classic, Nick Toons, Science, and Teen Nick.",
+			"modalId": "entertainment-modal"
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": false
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": false
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "espanol-add-on",
+					"headline": "Español Add-on",
+					"description": {
+			"richText": "Enjoy a collection of popular favorites in Spanish – CNN en Español, Discovery en Español, Discovery Familia, ESPN Deportes, History Channel en Español, and Universo.",
+			"modalId": "espanol-modal"
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": false
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": false
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "sports-add-on",
+					"headline": "Sports Add-on",
+					"description": {
+			"richText": "Stream every touchdown from every game, every Sunday during the NFL regular season with NFL RedZone, along with hundreds of hours of live sports –motorsports (MAVTV), horse racing (FanDuel TV/FanDuel Racing) to hunting and fishing (Outdoor Channel, Sportsman Channel).",
+			"modalId": "sportsaddon-modal"
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "trio-basic",
+				"isApplicable": false
+			},
+			{
+				"slug": "trio-premium",
+				"isApplicable": false
+			},
+			{
+				"slug": "live-tv",
+				"isApplicable": true
+			}
+					]
+				}
+			],
+			"addons": [
+				{
+					"slug": "max",
+					"headline": "Max",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": true
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "cinemax",
+					"headline": "CINEMAX®",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": true
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "showtime",
+					"headline": "SHOWTIME®",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": true
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				},
+				{
+					"slug": "starz",
+					"headline": "STARZ®",
+					"description": {
+			"richText": null,
+			"modalId": ""
+					},
+					"disclaimer": {
+			"id": null,
+			"richText": null,
+			"modalLinkText": "",
+			"modalContent": null
+					},
+					"plans": [
+			{
+				"slug": "hulu",
+				"isApplicable": true
+			},
+			{
+				"slug": "no-ad",
+				"isApplicable": true
+			}
+					]
+				}
+			],
+			"bundleAddonDisclaimers": [],
+			"addonDisclaimers": [],
+			"metrics": {}
+		},
+		{
+			"type": "html_module",
+			"html_code": "<style>\n    .is-dark .plans-container__features-container__disclaimer > a {\n        color: white;\n        text-decoration: underline;\n    }\n    .plans-container__features-container__disclaimer > a {\n        color: #272c34;\n        text-decoration: underline;\n    }\n  .exp-plans-container .plan-head__card-title {\n    padding-left: 0px;\n    padding-right: 0px;\n  }\n  .exp-plans-container .plan-head__card.plan-head__card-2.col-xs-4.plan-head__card--short .plan-head__card-content .plan-head__card-title {\n    padding-top: 18px;\n  }\n  .exp-plans-container .plan-head__card-eyebrow-image > img {\n    max-height: 20px;\n  }\n  .exp-plans-container .plan-feature__bullet_text {\n      font-size: 14px;\n  }\n  @media (min-width: 540px) {\n    .exp-plans-container .plan-head__card-title {\n      padding-left: 20px;\n      padding-right: 20px;\n    }\n    .exp-plans-container .plan-head__card.plan-head__card-2.col-xs-4.plan-head__card--short .plan-head__card-content .plan-head__card-title {\n      padding-top: 18px;\n    }\n    .exp-plans-container .plan-head__card-eyebrow-image > img {\n      max-height: 30px;\n    }\n  }\n\n  @media (min-width: 768px) {\n    .exp-plans-container .plan-head__card-title {\n      padding-left: 0px;\n      padding-right: 0px;\n    }\n    .exp-plans-container .plan-head__card.plan-head__card-2.col-xs-4.plan-head__card--short .plan-head__card-content .plan-head__card-title {\n      padding-top: 0px;\n    }\n    .exp-plans-container .plan-head__card-eyebrow-image > img {\n      max-height: 30px;\n    }\n  }\n  @media (min-width: 1024px) {\n    .exp-plans-container .plan-head-column-for-new-toggle.plan-head-column--short {\n        margin-top: -27px;\n    }\n    .exp-plans-container .plan-head-column-for-new-toggle.plan-head-column--short .bundle-header-with-new-toggle {\n        margin-top: 27px;\n    }\n    /* .is-dark .col-xs-4.plan-feature__check-0, .is-dark .plan-head__card-0.plan-head__card--short {\n        background-color: transparent;\n    } */\n\n    /* .exp-plans-container .plan-head__card.plan-head__card-0.col-xs-4.plan-head__card--short, .plan-head__card.plan-head__card-1.col-xs-4.plan-head__card--short,\n        .plan-head__card.plan-head__card-2.col-xs-4.plan-head__card--short {\n            margin-top: 27px;\n    } */\n\n    .exp-plans-container .plan-head__card-title {\n      padding-left: 15px;\n      padding-right: 15px;\n    }\n    .exp-plans-container .plan-head__card.plan-head__card-2.col-xs-4.plan-head__card--short .plan-head__card-content .plan-head__card-title {\n      padding-top: 24px;\n    }\n    .exp-plans-container .plan-head__card-eyebrow-image > img {\n      max-height: 30px;\n    }\n    .exp-plans-container .plan-head__card-title > span {\n      font-size: 18px;\n    }\n  }\n  @media (min-width: 1600px) {\n    .exp-plans-container .plan-head__card-title {\n      padding-left: 30px;\n      padding-right: 30px;\n    }\n    .exp-plans-container .plan-head__card.plan-head__card-2.col-xs-4.plan-head__card--short .plan-head__card-content .plan-head__card-title {\n      padding-top: 24px;\n    }\n    .exp-plans-container .plan-head__card-eyebrow-image > img {\n      max-height: 30px;\n    }\n    .exp-plans-container .plan-head__card-title > span {\n      font-size: 18px;\n    }\n  }\n</style>",
+			"metrics": {}
+		},
+		{
+			"type": "html_module",
+			"html_code": "<script type=\"text/javascript\">\n    const SWITCH_ID = 'toggle-switch';\n    const IMAGE_CLASS_NAME = 'plan-head__card-eyebrow-image';\n    const DARK_IMAGE = '/static/hitch/static/logos/bundles-dark.svg';\n    const WHITE_IMAGE = '/static/hitch/static/logos/bundles.svg';\n    const RENDER_TIME = 10;\n\n    const switchElement = document.getElementById(SWITCH_ID).parentNode.parentNode;\n\n    switchElement.addEventListener('load', () => {\n    setTimeout(() => {\n        changeImage();\n    }, RENDER_TIME);\n    });\n\n    switchElement.addEventListener('click', () => {\n    setTimeout(() => {\n        changeImage();\n    }, RENDER_TIME);\n    });\n\n    const changeImage = () => {\n    const imageContainers = document.getElementsByClassName(IMAGE_CLASS_NAME);\n    const compChartElement = document.getElementById('plans');\n    const isDark = compChartElement.classList.contains('is-dark');\n\n    Array.from(imageContainers).forEach((container) => {\n        container.children[0].src = isDark ? DARK_IMAGE : WHITE_IMAGE;\n    });\n    };\n</script>\n",
+			"metrics": {}
+		},
+		{
+			"type": "modal",
+			"body": "<strong>What's Included in The Disney Bundle?</strong>\n<br>\n<br>\n<img src=\"/static/hitch/static/icons/Pricing_Checkmark_black.svg\" role=\"presentation\"> Subscriptions to Disney+, ESPN+, and Hulu for a discounted price. Available with Hulu (With Ads) for $12.99/month or with Hulu (No Ads) for $19.99/month.\n<br>\n<br>\n<img src=\"/static/hitch/static/icons/Pricing_Checkmark_black.svg\" role=\"presentation\"> Save over $11/month compared to the current regular monthly price of each service when purchased separately.\n<br>\n<br>\n<img src=\"/static/hitch/static/icons/Pricing_Checkmark_black.svg\" role=\"presentation\"> Enjoy all your favorite shows, movies, sports, and more using the Disney+, Hulu, and ESPN+ apps (or sites, for those on a browser). Download each app separately to access each service.\n<br>\n<br>\n<img src=\"/static/hitch/static/icons/Pricing_Checkmark_black.svg\" role=\"presentation\"> Cancel anytime.\n<br>\n<br>\nSavings compared to current regular monthly price for each service.\n<br><br>\n<div class=\"value-prop-disclaimer\">&nbsp;</div>",
+			"modalTitle": "",
+			"id": "bundle_details",
+			"metrics": {}
+		},
+		{
+			"type": "html_module",
+			"html_code": "<style type=\"text/css\">\n @media screen and (max-width: 768px) {\n  .DetailEntityMetadata {\n    display: none;\n  }\n  .DetailEntityMasthead__disclaimer {\n    display:block;\n  }\n}\n</style>",
+			"metrics": {}
+		}
+				],
+				"detailEntity": {
+		"type": "series",
+		"id": "c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+		"name": "Tengoku Daimakyo",
+		"description": "In the year 2024, grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.",
+		"network": "Hulu Original Series",
+		"premiereDate": "2023-04-01T05:00:00Z",
+		"artwork": {
+			"horizontalProgramTile": {
+				"path": "https://img1.hulu.com/user/v3/artwork/c0bba144-1fa6-4ee5-affc-1029c77cfb71?base_image_bucket_name=image_manager&base_image=7f6399a2-4cc7-46e2-81af-161f5c464107"
+			},
+			"verticalHero": {
+				"path": "https://img1.hulu.com/user/v3/artwork/c0bba144-1fa6-4ee5-affc-1029c77cfb71?base_image_bucket_name=image_manager&base_image=eb47ab4b-7489-4e1c-a3b0-18d1fe6cbe75"
+			}
+		},
+		"href": "https://www.hulu.com/series/tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+		"requireLivePackage": false,
+		"redirectTo": null,
+		"latestSeason": {
+			"firstEpPremiereDate": null,
+			"lastEpPremiereDate": null,
+			"season": "1",
+			"seasonPremiereDates": [],
+			"previousSeason": "1",
+			"hasContentAvailable": false
+		},
+		"credits": null,
+		"latestTrailer": {
+			"title": "Tengoku Daimakyo Trailer",
+			"eabId": "EAB::39a449cc-02f1-4520-a37f-10198ef6e437::61724508::231364813",
+			"duration": "PT108S",
+			"uploadDate": "2023-04-29T04:00:00Z"
+		}
+				},
+				"metrics": {
+		"collectionCount": 4
+				},
+				"options": {
+		"enableBrand": false,
+		"enableHotjar": false,
+		"ctaMobileFlag": false,
+		"ctaAnonCopy": null,
+		"ctaAnonLink": null,
+		"ctaAllCopy": null,
+		"ctaAllLink": null,
+		"ctaSomeCopy": null,
+		"ctaSomeLink": null,
+		"ctaSomeNotToAddonCopy": null,
+		"ctaSomeNotToAddonLink": null,
+		"ctaSomeAndNotEnrolledCopy": null,
+		"ctaSomeAndNotEnrolledLink": null,
+		"ctaIneligibleCopy": null,
+		"ctaIneligibleLink": null,
+		"ctaInactiveCopy": null,
+		"ctaInactiveLink": null,
+		"ctaAppleCopy": null,
+		"ctaAppleLink": null,
+		"cartAbandonmentCopy": {
+			"planAndNameCopy": null,
+			"nameCopy": null,
+			"planCopy": null,
+			"defaultCopy": null,
+			"href": null
+		},
+		"disableFooter": null,
+		"displayTheme": null,
+		"pageType": "landing",
+		"allowSubscriberTraffic": false,
+		"shouldCheckForPrepaid": false,
+		"cohortCheck": false,
+		"checkProgramWindow": false,
+		"footer": null,
+		"contentOverrides": {
+			"overrideName": null,
+			"overrideDescription": null
+		}
+				},
+				"program": {
+		"partner": null,
+		"hiswitchPackages": null,
+		"type": null
+				},
+				"requireLivePackage": false,
+				"redirectTo": null,
+				"metatags": [
+		{
+			"value": "Watch Tengoku Daimakyo Streaming Online | Hulu (Free Trial)",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "title"
+		},
+		{
+			"value": "Start your free trial to watch Tengoku Daimakyo and other popular TV shows and movies including new releases, classics, Hulu Originals, and more. It’s all on Hulu.",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "description"
+		},
+		{
+			"value": "https://www.hulu.com/series/tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+			"valueName": "href",
+			"keyName": "rel",
+			"tag": "link",
+			"key": "canonical"
+		},
+		{
+			"value": "en-US",
+			"valueName": "content",
+			"keyName": "httpEquiv",
+			"tag": "meta",
+			"key": "content-language"
+		},
+		{
+			"value": "text/html; charset=UTF-8",
+			"valueName": "content",
+			"keyName": "httpEquiv",
+			"tag": "meta",
+			"key": "content-type"
+		},
+		{
+			"value": "ie=edge",
+			"valueName": "content",
+			"keyName": "httpEquiv",
+			"tag": "meta",
+			"key": "x-ua-compatible"
+		},
+		{
+			"value": "web-nonsub",
+			"valueName": "content",
+			"keyName": "property",
+			"tag": "meta",
+			"key": "cu_app"
+		},
+		{
+			"value": "Hulu",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "application-name"
+		},
+		{
+			"value": "40582213222",
+			"valueName": "content",
+			"keyName": "property",
+			"tag": "meta",
+			"key": "fb:app_id"
+		},
+		{
+			"value": "width",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "MobileOptimized"
+		},
+		{
+			"value": "true",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "HandheldFriendly"
+		},
+		{
+			"value": "width=device-width, initial-scale=1.0",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "viewport"
+		},
+		{
+			"value": "Hulu",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "application-name"
+		},
+		{
+			"value": "App",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "msApplication-ID"
+		},
+		{
+			"value": "/",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "msapplication-starturl"
+		},
+		{
+			"value": "#ffffff",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "msapplication-tilecolor"
+		},
+		{
+			"value": "/icon-win8-tile.png",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "msapplication-tileimage"
+		},
+		{
+			"value": "Start Hulu with Internet Explorer enhancements.",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "msapplication-tooltip"
+		},
+		{
+			"value": "HuluLLC.HuluPlus_fphbd361v8tya",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "msApplication-PackageFamilyName"
+		},
+		{
+			"value": "3",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "cmsversion"
+		},
+		{
+			"value": "summary",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "twitter:card"
+		},
+		{
+			"value": "Tengoku Daimakyo",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "twitter:title"
+		},
+		{
+			"value": "@Hulu",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "twitter:site"
+		},
+		{
+			"value": "In the year 2024, grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "twitter:description"
+		},
+		{
+			"value": "https://www.hulu.com/series/tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "twitter:url"
+		},
+		{
+			"value": "https://img1.hulu.com/user/v3/artwork/c0bba144-1fa6-4ee5-affc-1029c77cfb71?base_image_bucket_name=image_manager&base_image=7f6399a2-4cc7-46e2-81af-161f5c464107&size=1200x630&format=jpeg&operations=%5B%7B%22gradient_vector%22%3A%22(0%2C0%2C0%2C0.5)%7C(0%2C0%2C0%2C0)%7C(0%2C600)%7C(0%2C240)%22%7D%2C%7B%22overlay%22%3A%7B%22position%22%3A%22SouthEast%7C(30%2C30)%22%2C%22operations%22%3A%5B%7B%22image%22%3A%22image_manager%7C5d7f53a9-b8bf-4731-887a-0a87c4628439%22%7D%2C%7B%22resize%22%3A%22204x204%7Cmax%22%7D%2C%7B%22extent%22%3A%22204x204%22%7D%5D%7D%7D%2C%5D",
+			"valueName": "content",
+			"keyName": "name",
+			"tag": "meta",
+			"key": "twitter:image"
+		},
+		{
+			"value": "15033883",
+			"valueName": "content",
+			"keyName": "property",
+			"tag": "meta",
+			"key": "twitter:account_id"
+		},
+		{
+			"value": "https://img1.hulu.com/user/v3/artwork/c0bba144-1fa6-4ee5-affc-1029c77cfb71?base_image_bucket_name=image_manager&base_image=7f6399a2-4cc7-46e2-81af-161f5c464107&size=1200x630&format=jpeg&operations=%5B%7B%22gradient_vector%22%3A%22(0%2C0%2C0%2C0.5)%7C(0%2C0%2C0%2C0)%7C(0%2C600)%7C(0%2C240)%22%7D%2C%7B%22overlay%22%3A%7B%22position%22%3A%22SouthEast%7C(30%2C30)%22%2C%22operations%22%3A%5B%7B%22image%22%3A%22image_manager%7C5d7f53a9-b8bf-4731-887a-0a87c4628439%22%7D%2C%7B%22resize%22%3A%22204x204%7Cmax%22%7D%2C%7B%22extent%22%3A%22204x204%22%7D%5D%7D%7D%2C%5D",
+			"valueName": "content",
+			"keyName": "property",
+			"tag": "meta",
+			"key": "og:image"
+		},
+		{
+			"value": "In the year 2024, grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.",
+			"valueName": "content",
+			"keyName": "property",
+			"tag": "meta",
+			"key": "og:description"
+		},
+		{
+			"value": "https://www.hulu.com/series/tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+			"valueName": "content",
+			"keyName": "property",
+			"tag": "meta",
+			"key": "og:url"
+		},
+		{
+			"value": "https://www.hulu.com/series/tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+			"valueName": "content",
+			"keyName": "property",
+			"tag": "meta",
+			"key": "og:title"
+		},
+		{
+			"value": "Hulu",
+			"valueName": "content",
+			"keyName": "property",
+			"tag": "meta",
+			"key": "og:site_name"
+		},
+		{
+			"value": "tv_show",
+			"valueName": "content",
+			"keyName": "property",
+			"tag": "meta",
+			"key": "og:type"
+		}
+				],
+				"title": "Watch Tengoku Daimakyo Streaming Online | Hulu (Free Trial)"
+			},
+			"geodata": {
+				"geodataOverrides": {}
+			},
+			"cartAbandonment": null,
+			"isSufReturningCustomer": false,
+			"useAnalytics": true,
+			"collectionCount": 4,
+			"isHiswitch": null,
+			"userIsLoggedIn": false,
+			"userIsSubscriber": false,
+			"user": {
+				"isHuluUser": false,
+				"isSubscriber": false,
+				"entitlementState": 0,
+				"entitlementFlag": true,
+				"isAppleBilled": false,
+				"name": ""
+			},
+			"config": {
+				"appComponentName": "hitch",
+				"gaEnv": "prod",
+				"tealiumEnv": "prod",
+				"disableRecaptcha": false,
+				"loginModalEnv": "prod",
+				"webLoginEnv": "prod",
+				"datadogRum": {
+		"applicationId": "33d824b1-a6ca-43c8-8ce7-2d38b47f4a5c",
+		"clientToken": "pub016bdb84b22c0458131a5fda78a720df"
+				},
+				"endpoints": {
+		"ballyhoo": "https://ballyhoo.prod.hulu.com",
+		"splat": "https://subplatform.prod.hulu.com",
+		"signup": "https://signup.hulu.com",
+		"hoth": "https://auth.hulu.com",
+		"hudis": "https://secure.hulu.com",
+		"site": "https://www.hulu.com",
+		"home": "https://home.hulu.com",
+		"hookup": "http://hookup-cannonball.prod.hulu.com",
+		"user_model": "http://user-model.prod.hulu.com",
+		"midgard": "http://midgard.prod.hulu.com"
+				},
+				"keys": {
+		"facebook_app_id": "40582213222"
+				},
+				"huluEnv": "production"
+			},
+			"isAppsFlyer": false
+		}
+	},
+	"page": "/BrowsePage",
+	"query": {
+		"entity": "series",
+		"id": "tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71"
+	},
+	"buildId": "yNq7M_-ydIs4xwJ9Lddri",
+	"assetPrefix": "/static/hitch",
+	"runtimeConfig": {
+		"appComponentName": "hitch",
+		"gaEnv": "prod",
+		"tealiumEnv": "prod",
+		"disableRecaptcha": false,
+		"loginModalEnv": "prod",
+		"webLoginEnv": "prod",
+		"datadogRum": {
+			"applicationId": "33d824b1-a6ca-43c8-8ce7-2d38b47f4a5c",
+			"clientToken": "pub016bdb84b22c0458131a5fda78a720df"
+		},
+		"endpoints": {
+			"ballyhoo": "https://ballyhoo.prod.hulu.com",
+			"splat": "https://subplatform.prod.hulu.com",
+			"signup": "https://signup.hulu.com",
+			"hoth": "https://auth.hulu.com",
+			"hudis": "https://secure.hulu.com",
+			"site": "https://www.hulu.com",
+			"home": "https://home.hulu.com",
+			"hookup": "http://hookup-cannonball.prod.hulu.com",
+			"user_model": "http://user-model.prod.hulu.com",
+			"midgard": "http://midgard.prod.hulu.com"
+		},
+		"keys": {
+			"facebook_app_id": "40582213222"
+		},
+		"huluEnv": "production"
+	},
+	"isFallback": false,
+	"customServer": true,
+	"gip": true,
+	"appGip": true
+   }
