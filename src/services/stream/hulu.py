@@ -1,3 +1,75 @@
+"""
+Service Handler for Hulu.
+
+Information as of 2023/06/05:
+
+The URL is of the form ``https://www.hulu.com/series/show_key``
+where ``show_key`` is like ``title-with-dashes-followed-by-entity-id``
+where ``entity-id`` is 5 'hashes' joined by dashes
+Example:
+show name: Tengoku Daimakyou
+show key: tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71
+
+Series information can be obtained from the raw html of the series page.
+They are part of a JSON contained in the element:
+
+<script id="__NEXT_DATA__" type="application/json"></script>
+
+Examples of the JSON are included in the example directory.
+The relevant information is structured as follows:
+
+JSON object -> "props" -> "pageProps"
+
+which is a dictionary structured as follows:
+
+"query": {"id": (string: show_key), ...},
+"latestSeason": {"season": (string: latest season number), ...},
+"layout": {
+	"locale": (string: language code)
+	"components": [
+		{"type": "navigation", ...},
+		{
+			"type": "detailentity_masthead",
+			"title": (string: show title),
+			"entityId": (string: the internal ID of the show)
+			"description": (string: synopsis)
+			"premiereDate": (string: date in ISO format)
+			...
+		},
+		{
+			"type": "collection_tabs",
+			"tabs": [
+				{
+					"title": "Episodes",
+					"collection": {
+						"items": [
+							{
+								"id": (string: episode ID),
+								"type": "episode",
+								"name": (str: episode title),
+								"premiereDate": (str: date in ISO format),
+								"seriesName": (str: show title),
+							}, ...
+						],
+						...
+					},
+				},
+				{
+					"title": "Extras"
+					(here go things like PVs)
+				},
+				{
+					"title": "Details"
+				}
+			],
+			...
+		},
+	],
+	...
+},
+...
+"""
+
 import json
 import logging
 import re
@@ -21,7 +93,7 @@ class HuluEpisode:
 	series_name: str = ""
 
 
-class InvalidHuluException(Exception):
+class InvalidHulu(Exception):
 	"""Generic exception raised when parsing the contents of a Hulu webpage."""
 
 
@@ -45,7 +117,7 @@ class ServiceHandler(AbstractServiceHandler):
 			json_contents = _get_json_data(raw_html=response)
 			episodes_data = _get_episodes_data(json_contents)
 		except (
-			InvalidHuluException,
+			InvalidHulu,
 			json.JSONDecodeError,
 			KeyError,
 			TypeError,
@@ -87,7 +159,7 @@ class ServiceHandler(AbstractServiceHandler):
 			json_contents = _get_json_data(raw_html=response)
 			stream_name = _extract_series_name_from_json(json_contents)
 		except (
-			InvalidHuluException,
+			InvalidHulu,
 			json.JSONDecodeError,
 			KeyError,
 			TypeError,
@@ -107,7 +179,7 @@ def _get_json_data(raw_html: str) -> Any:
 	pattern = r"<script id=\"__NEXT_DATA__\" type=\"application\/json\">(.+?)<\/script>"
 	contents = re.findall(pattern, raw_html)
 	if not contents:
-		raise InvalidHuluException
+		raise InvalidHulu
 	if len(contents) > 1:
 		logger.warning(
 			"Multiple matches found, may have unexpected results. The first match will be used."
@@ -122,7 +194,7 @@ def _extract_series_name_from_json(json_contents: Any) -> str:
 	components = json_contents["props"]["pageProps"]["layout"]["components"]
 	head = next((c for c in components if c["type"] == "detailentity_masthead"), None)
 	if not head:
-		raise InvalidHuluException
+		raise InvalidHulu
 	return head["title"]
 
 
@@ -142,7 +214,7 @@ def _get_episodes_data(contents_json: Any) -> list[HuluEpisode]:
 		episode_container,
 	)
 	if not episode_container:
-		raise InvalidHuluException
+		raise InvalidHulu
 	episodes = list(
 		filter(
 			None,
@@ -165,6 +237,7 @@ def _format_episode_from_json(episode_json: dict[str, str]) -> HuluEpisode | Non
 	formatted_episode = HuluEpisode(
 		name=name,
 		date=datetime.fromisoformat(date).replace(tzinfo=None),
+		# remove tzinfo as datetime.utcnow() is used elsewhere
 		season=season,
 		number=number,
 		series_name=series_name,
@@ -176,11 +249,13 @@ _time_adjustments = {
 	"Tengoku Daimakyo": timedelta(hours=1),  # 12pm UTC -> 1pm UTC
 }
 
+# ? Tengoku Daimakyou has a mismatch between listed time and actual release time
+# ? Need to see what happens with new series
 
 def _is_valid_episode(episode: HuluEpisode) -> bool:
-	date_diff = datetime.utcnow() - (
-		episode.date + _time_adjustments.get(episode.series_name, timedelta(0))
-	)
+	# Adjust time if needed, so the episode is not released too early
+	episode.date += _time_adjustments.get(episode.series_name, timedelta(0))
+	date_diff = datetime.utcnow() - episode.date
 	if date_diff >= timedelta(days=2):
 		logger.debug("  Episode S%dE%d too old", episode.season, episode.number)
 		return False
