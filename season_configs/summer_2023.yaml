@@ -137,7 +137,7 @@ info:
   official: 'https://anime.cf-vanguard.com/overdress/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/cardfight-vanguard-overdress'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -167,7 +167,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/dark-gathering'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -312,7 +312,7 @@ info:
   official: 'https://maousama.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-devil-is-a-part-timer'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -342,7 +342,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/helck'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -367,7 +367,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/the-most-heretical-last-boss-queen-from-villainess-to-savior'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -460,7 +460,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45857'
   animeplanet: 'http://www.anime-planet.com/anime/jujutsu-kaisen-2nd-season'
   official: 'https://jujutsukaisen.jp/'
-  subreddit: ''
+  subreddit: 'r/JuJutsuKaisen'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -616,7 +616,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/level-1-demon-lord-and-one-room-hero'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -661,7 +661,7 @@ info:
   official: 'https://www.mononogatari-pr.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GDKHZEPW1'
+  crunchyroll: 'https://www.crunchyroll.com/malevolent-spirits-mononogatari'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -774,7 +774,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Rurouni Kenshin -Meiji Kenkaku Romantan- (2023)'
+title: 'Rurouni Kenshin: Meiji Kenkaku Romantan (2023)'
 #title_en: "Rurouni Kenshin (2023)"
 alias: ['Samurai X']
 has_source: true
@@ -801,7 +801,7 @@ streams:
   nyaa: ''
 ---
 title: 'Ryza no Atelier: Tokoyami no Joou to Himitsu no Kakurega'
-title_en: "Atelier Ryza: Ever Darkness & the Secret Hideout"
+title_en: "Atelier Ryza: Ever Darkness & the Secret Hideout The Animation"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54760'
@@ -1031,7 +1031,7 @@ has_source: true
 info:
   mal: ''
   anilist: ''
-  anidb: ''
+  anidb: 'http://anidb.net/a18075'
   kitsu: ''
   animeplanet: ''
   official: 'https://www.sylvanianfamilies.com/ja-jp/special/tv/'
@@ -1051,7 +1051,7 @@ streams:
   nyaa: ''
 ---
 title: 'Temple'
-title_en: "TenPuru -No One Can Live on Loneliness-"
+title_en: "TenPuru: No One Can Live on Loneliness"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54275'
@@ -1101,6 +1101,7 @@ streams:
   nyaa: ''
 ---
 title: 'Undead Girl Murder Farce'
+title_en: "Undead Murder Farce"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54790'
