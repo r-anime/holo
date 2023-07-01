@@ -87,7 +87,7 @@ info:
   official: 'https://anime.bang-dream.com/mygo/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/bang-dream-its-mygo'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -262,7 +262,7 @@ info:
   official: 'https://www.yohane.net/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/yohane-the-parhelion-sunshine-in-the-mirror'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -390,7 +390,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/horimiya'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/horimiya/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -462,7 +462,7 @@ info:
   official: 'https://jujutsukaisen.jp/'
   subreddit: 'r/JuJutsuKaisen'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/jujutsu-kaisen'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -471,7 +471,7 @@ streams:
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
-  disney|Disney: ''
+  disney|Disney: 'https://www.disneyplus.com/series/jujutsu-kaisen/6hF9jj7l8Ipz'
   youtube: ''
   nyaa: ''
 ---
@@ -689,7 +689,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/mushoku-tensei-jobless-reincarnation'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation-p2/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -810,7 +810,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47199'
   animeplanet: 'http://www.anime-planet.com/anime/atelier-ryza-ever-darkness-and-the-secret-hideout'
   official: 'https://ar-anime.com/'
-  subreddit: ''
+  subreddit: '/r/Atelier'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -887,7 +887,7 @@ info:
   official: 'https://anime.shadowverse.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/shadowverse'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1025,7 +1025,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Sylvanian Families: Freya no Go For Dream!'
+title: 'Sylvanian Families: Freya no Go for Dream!'
 title_en: ""
 has_source: true
 info:
@@ -1177,8 +1177,7 @@ streams:
   nyaa: ''
 ---
 title: 'Yumemiru Danshi wa Genjitsushugisha'
-title_en: ""
-alias: ['My Dreamy Realist']
+title_en: "My Dreamy Realist"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53632'
@@ -1223,7 +1222,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: 'https://www.hulu.com/hub/anime'
+  hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
   nyaa: ''
