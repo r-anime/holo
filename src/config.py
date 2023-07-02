@@ -20,6 +20,10 @@ class Config:
 		self.r_oauth_key = None
 		self.r_oauth_secret = None
 		
+		self.l_instance = None
+		self.l_username = None
+		self.l_password = None
+
 		self.services = dict()
 		
 		self.new_show_types = list()
@@ -69,6 +73,13 @@ def from_file(file_path):
 		config.r_oauth_key = sec.get("oauth_key", None)
 		config.r_oauth_secret = sec.get("oauth_secret", None)
 	
+	if "lemmy" in parsed:
+		sec = parsed["lemmy"]
+		config.subreddit = sec.get("community", None)
+		config.l_instance = sec.get("instance", None)
+		config.l_username = sec.get("username", None)
+		config.l_password = sec.get("password", None)
+
 	if "options" in parsed:
 		sec = parsed["options"]
 		config.debug = sec.getboolean("debug", False)
