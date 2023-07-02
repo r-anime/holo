@@ -15,6 +15,8 @@ class Config:
 		self.ratelimit = 1.0
 		
 		self.subreddit = None
+		self.backend = None
+
 		self.r_username = None
 		self.r_password = None
 		self.r_oauth_key = None
@@ -67,6 +69,7 @@ def from_file(file_path):
 	
 	if "reddit" in parsed:
 		sec = parsed["reddit"]
+		config.backend = "reddit"
 		config.subreddit = sec.get("subreddit", None)
 		config.r_username = sec.get("username", None)
 		config.r_password = sec.get("password", None)
@@ -75,6 +78,7 @@ def from_file(file_path):
 	
 	if "lemmy" in parsed:
 		sec = parsed["lemmy"]
+		config.backend = "lemmy"
 		config.subreddit = sec.get("community", None)
 		config.l_instance = sec.get("instance", None)
 		config.l_username = sec.get("username", None)
@@ -129,15 +133,25 @@ def validate(config):
 		warning("Rate limit can't be negative, defaulting to 1.0")
 		config.ratelimit = 1.0
 	if is_bad_str(config.subreddit):
-		return "subreddit missing"
-	if is_bad_str(config.r_username):
-		return "reddit username missing"
-	if is_bad_str(config.r_password):
-		return "reddit password missing"
-	if is_bad_str(config.r_oauth_key):
-		return "reddit oauth key missing"
-	if is_bad_str(config.r_oauth_secret):
-		return "reddit oauth secret missing"
+		return "subreddit/community missing"
+	if config.backend == "reddit":
+		if is_bad_str(config.r_username):
+			return "reddit username missing"
+		if is_bad_str(config.r_password):
+			return "reddit password missing"
+		if is_bad_str(config.r_oauth_key):
+			return "reddit oauth key missing"
+		if is_bad_str(config.r_oauth_secret):
+			return "reddit oauth secret missing"
+	elif config.backend == "lemmy":
+		if is_bad_str(config.l_instance):
+			return "lemmy instance missing"
+		if is_bad_str(config.l_username):
+			return "lemmy username missing"
+		if is_bad_str(config.l_password):
+			return "lemmy password missing"
+	else:
+		return "no backend configured"
 	if is_bad_str(config.post_title):
 		return "post title missing"
 	if is_bad_str(config.post_body):
