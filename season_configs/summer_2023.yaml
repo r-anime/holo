@@ -210,7 +210,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45243'
   animeplanet: 'http://www.anime-planet.com/anime/eiyuu-kyoushitsu'
   official: 'https://eiyukyoushitsu-anime.com/'
-  subreddit: 'r/Eiyuu_Kyoushitsu'
+  subreddit: '/r/Eiyuu_Kyoushitsu'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -235,7 +235,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46527'
   animeplanet: 'http://www.anime-planet.com/anime/fate-strange-fake-whispers-of-dawn'
   official: 'https://fate-strange-fake.com/'
-  subreddit: 'r/fatestaynight'
+  subreddit: '/r/fatestaynight'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -285,7 +285,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47275'
   animeplanet: 'http://www.anime-planet.com/anime/the-quintessential-quintuplets-tilde'
   official: 'https://www.tbs.co.jp/anime/5hanayome/'
-  subreddit: 'r/5ToubunNoHanayome'
+  subreddit: '/r/5ToubunNoHanayome'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -335,7 +335,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45876'
   animeplanet: 'http://www.anime-planet.com/anime/helck'
   official: 'https://helck-anime.com/'
-  subreddit: 'r/Helck'
+  subreddit: '/r/Helck'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -460,7 +460,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45857'
   animeplanet: 'http://www.anime-planet.com/anime/jujutsu-kaisen-2nd-season'
   official: 'https://jujutsukaisen.jp/'
-  subreddit: 'r/JuJutsuKaisen'
+  subreddit: '/r/JuJutsuKaisen'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/jujutsu-kaisen'
   museasia: ''
@@ -485,7 +485,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46311'
   animeplanet: 'http://www.anime-planet.com/anime/reborn-as-a-vending-machine-i-now-wander-the-dungeon'
   official: 'https://jihanki-anime.com/'
-  subreddit: 'r/jidouhanbaiki'
+  subreddit: '/r/jidouhanbaiki'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -584,7 +584,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44337'
   animeplanet: 'http://www.anime-planet.com/anime/liar-liar'
   official: 'https://liar-liar-anime.com/'
-  subreddit: 'r/LiarLiar'
+  subreddit: '/r/LiarLiar'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -634,7 +634,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46031'
   animeplanet: 'http://www.anime-planet.com/anime/masamune-kuns-revenge-r'
   official: 'https://masamune-tv.com/'
-  subreddit: 'r/MasamuneKunNoRevenge'
+  subreddit: '/r/MasamuneKunNoRevenge'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/masamune-kuns-revenge#12'
   museasia: ''
@@ -684,7 +684,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45950'
   animeplanet: 'http://www.anime-planet.com/anime/mushoku-tensei-jobless-reincarnation-2nd-season'
   official: 'https://mushokutensei.jp/'
-  subreddit: 'r/mushokutensei'
+  subreddit: '/r/mushokutensei'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/mushoku-tensei-jobless-reincarnation'
   museasia: ''
@@ -910,7 +910,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45229'
   animeplanet: 'http://www.anime-planet.com/anime/the-duke-of-death-and-his-maid-2nd-season'
   official: 'https://bocchan-anime.com/'
-  subreddit: 'r/KuroMaid'
+  subreddit: '/r/KuroMaid'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -935,7 +935,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46187'
   animeplanet: 'http://www.anime-planet.com/anime/saint-cecilia-and-pastor-lawrence'
   official: 'https://shiroseijyo-anime.com/'
-  subreddit: 'r/ShiroSeijo'
+  subreddit: '/r/ShiroSeijo'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -960,7 +960,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47288'
   animeplanet: 'http://www.anime-planet.com/anime/spy-classroom-2nd-season'
   official: 'https://spyroom-anime.com/'
-  subreddit: 'r/SpyRoom'
+  subreddit: '/r/SpyRoom'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -985,7 +985,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47231'
   animeplanet: 'http://www.anime-planet.com/anime/sugar-apple-fairy-tale-part-ii'
   official: 'https://sugarapple-anime.com/'
-  subreddit: 'r/sugarapplefairytale'
+  subreddit: '/r/sugarapplefairytale'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/sugar-apple-fairy-tale'
   museasia: ''
@@ -1010,7 +1010,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46970'
   animeplanet: 'http://www.anime-planet.com/anime/the-girl-i-like-forgot-her-glasses'
   official: 'https://anime.shochiku.co.jp/sukimega/'
-  subreddit: 'r/Sukinako'
+  subreddit: '/r/Sukinako'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1085,7 +1085,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46647'
   animeplanet: 'http://www.anime-planet.com/anime/uchi-no-kaisha-no-chiisai-senpai-no-hanashi'
   official: 'https://chiisaisenpai.com/'
-  subreddit: 'r/Chiisai_Senpai'
+  subreddit: '/r/Chiisai_Senpai'
 streams:
   crunchyroll: ''
   museasia: ''
