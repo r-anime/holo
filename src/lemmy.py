@@ -33,6 +33,12 @@ def _extract_post_response(post_data):
 		exception(f"Bad post response: {post_data}")
 	return post_data['post_view']['post']
 
+def _get_host_instance():
+	if _config.subreddit.find('@') != -1:
+		return _config.subreddit.split('@')[-1]
+	else:
+		return _config.l_instance
+
 # Thing doing
 
 def submit_text_post(community, title, body):
@@ -68,4 +74,4 @@ def get_text_post(url):
 # Utilities
 
 def get_shortlink_from_id(id):
-	return f"{_config.l_instance}/post/{id}"
+	return f"{_get_host_instance()}/post/{id}"
