@@ -68,5 +68,4 @@ def get_text_post(url):
 # Utilities
 
 def get_shortlink_from_id(id):
-	_ensure_connection()
 	return f"{_config.l_instance}/post/{id}"
