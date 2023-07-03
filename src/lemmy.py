@@ -30,17 +30,17 @@ def _get_post_id_from_shortlink(url):
 
 def _extract_post_response(post_data):
 	if not post_data or not post_data['post_view'] or not post_data['post_view']['post']:
-		exception("Bad post response: {}", post_data)
+		exception(f"Bad post response: {post_data}")
 	return post_data['post_view']['post']
 
 # Thing doing
 
 def submit_text_post(community, title, body):
 	_ensure_connection()
-	info("Submitting post to {}", community)
+	info(f"Submitting post to {community}")
 	community_id = _l.discover_community(community)
 	if not community_id:
-		exception("Community {} not found", community)
+		exception(f"Community {community} not found")
 	response = _l.post.create(community_id, title, body=body)
 	return _extract_post_response(response)
 
@@ -48,7 +48,7 @@ def edit_text_post(url, body):
 	_ensure_connection()
 	post_id = _get_post_id_from_shortlink(url)
 	try:
-		info("Editing post {}", url)
+		info(f"Editing post {url}")
 		response = _l.post.edit(post_id, body=body)
 		return _extract_post_response(response)
 	except:
