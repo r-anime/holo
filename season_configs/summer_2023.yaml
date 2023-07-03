@@ -36,7 +36,7 @@ info:
   official: 'https://ayaka-project.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/ayaka'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -160,7 +160,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46279'
   animeplanet: 'http://www.anime-planet.com/anime/dark-gathering'
   official: 'https://darkgathering.jp/'
-  subreddit: ''
+  subreddit: '/r/DarkGathering'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -385,7 +385,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47234'
   animeplanet: 'http://www.anime-planet.com/anime/horimiya-piece'
   official: 'https://horimiya-anime.com/'
-  subreddit: ''
+  subreddit: '/r/Horimiya'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/horimiya'
   museasia: ''
@@ -395,7 +395,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/horimiya-90fccf0b-3f94-4105-98a8-3e1c6949b315'
   disney|Disney: ''
   youtube: ''
   nyaa: ''
@@ -812,7 +812,7 @@ info:
   official: 'https://ar-anime.com/'
   subreddit: '/r/Atelier'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/atelier-ryza-ever-darkness-the-secret-hideout-the-animation'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1087,7 +1087,7 @@ info:
   official: 'https://chiisaisenpai.com/'
   subreddit: '/r/Chiisai_Senpai'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-tiny-senpai'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1212,7 +1212,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46954'
   animeplanet: 'http://www.anime-planet.com/anime/zom-100-bucket-list-of-the-dead'
   official: 'https://zom100.com/'
-  subreddit: ''
+  subreddit: '/r/Zombie100'
 streams:
   crunchyroll: ''
   museasia: ''
