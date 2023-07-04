@@ -709,7 +709,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45579'
   animeplanet: 'http://www.anime-planet.com/anime/reign-of-the-seven-spellblades'
   official: 'https://nanatsuma-pr.com/'
-  subreddit: ''
+  subreddit: '/r/nanatsunomaken'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1135,7 +1135,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46050'
   animeplanet: 'http://www.anime-planet.com/anime/my-happy-marriage'
   official: 'https://watakon-anime.com/'
-  subreddit: ''
+  subreddit: '/r/MyHappyMarriage'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1177,7 +1177,7 @@ streams:
   nyaa: ''
 ---
 title: 'Yumemiru Danshi wa Genjitsushugisha'
-title_en: "My Dreamy Realist"
+title_en: "The Dreaming Boy is a Realist"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53632'
