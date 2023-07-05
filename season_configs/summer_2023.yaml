@@ -36,7 +36,7 @@ info:
   official: 'https://ayaka-project.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/ayaka'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -160,7 +160,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46279'
   animeplanet: 'http://www.anime-planet.com/anime/dark-gathering'
   official: 'https://darkgathering.jp/'
-  subreddit: ''
+  subreddit: '/r/DarkGathering'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -210,7 +210,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45243'
   animeplanet: 'http://www.anime-planet.com/anime/eiyuu-kyoushitsu'
   official: 'https://eiyukyoushitsu-anime.com/'
-  subreddit: 'r/Eiyuu_Kyoushitsu'
+  subreddit: '/r/Eiyuu_Kyoushitsu'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -235,7 +235,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46527'
   animeplanet: 'http://www.anime-planet.com/anime/fate-strange-fake-whispers-of-dawn'
   official: 'https://fate-strange-fake.com/'
-  subreddit: 'r/fatestaynight'
+  subreddit: '/r/fatestaynight'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -285,7 +285,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47275'
   animeplanet: 'http://www.anime-planet.com/anime/the-quintessential-quintuplets-tilde'
   official: 'https://www.tbs.co.jp/anime/5hanayome/'
-  subreddit: 'r/5ToubunNoHanayome'
+  subreddit: '/r/5ToubunNoHanayome'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -335,7 +335,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45876'
   animeplanet: 'http://www.anime-planet.com/anime/helck'
   official: 'https://helck-anime.com/'
-  subreddit: 'r/Helck'
+  subreddit: '/r/Helck'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -385,7 +385,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47234'
   animeplanet: 'http://www.anime-planet.com/anime/horimiya-piece'
   official: 'https://horimiya-anime.com/'
-  subreddit: ''
+  subreddit: '/r/Horimiya'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/horimiya'
   museasia: ''
@@ -395,7 +395,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/horimiya-90fccf0b-3f94-4105-98a8-3e1c6949b315'
   disney|Disney: ''
   youtube: ''
   nyaa: ''
@@ -460,7 +460,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45857'
   animeplanet: 'http://www.anime-planet.com/anime/jujutsu-kaisen-2nd-season'
   official: 'https://jujutsukaisen.jp/'
-  subreddit: 'r/JuJutsuKaisen'
+  subreddit: '/r/JuJutsuKaisen'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/jujutsu-kaisen'
   museasia: ''
@@ -485,7 +485,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46311'
   animeplanet: 'http://www.anime-planet.com/anime/reborn-as-a-vending-machine-i-now-wander-the-dungeon'
   official: 'https://jihanki-anime.com/'
-  subreddit: 'r/jidouhanbaiki'
+  subreddit: '/r/jidouhanbaiki'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -512,7 +512,7 @@ info:
   official: 'https://jitsuhaoresaikyo-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/am-i-actually-the-strongest'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -584,7 +584,7 @@ info:
   kitsu: 'https://kitsu.io/anime/44337'
   animeplanet: 'http://www.anime-planet.com/anime/liar-liar'
   official: 'https://liar-liar-anime.com/'
-  subreddit: 'r/LiarLiar'
+  subreddit: '/r/LiarLiar'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -616,7 +616,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/level-1-demon-lord-and-one-room-hero'
+  hidive: 'https://www.hidive.com/tv/level-1-demon-lord-one-room-hero'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -634,7 +634,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46031'
   animeplanet: 'http://www.anime-planet.com/anime/masamune-kuns-revenge-r'
   official: 'https://masamune-tv.com/'
-  subreddit: 'r/MasamuneKunNoRevenge'
+  subreddit: '/r/MasamuneKunNoRevenge'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/masamune-kuns-revenge#12'
   museasia: ''
@@ -684,7 +684,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45950'
   animeplanet: 'http://www.anime-planet.com/anime/mushoku-tensei-jobless-reincarnation-2nd-season'
   official: 'https://mushokutensei.jp/'
-  subreddit: 'r/mushokutensei'
+  subreddit: '/r/mushokutensei'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/mushoku-tensei-jobless-reincarnation'
   museasia: ''
@@ -709,7 +709,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45579'
   animeplanet: 'http://www.anime-planet.com/anime/reign-of-the-seven-spellblades'
   official: 'https://nanatsuma-pr.com/'
-  subreddit: ''
+  subreddit: '/r/nanatsunomaken'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -761,7 +761,7 @@ info:
   official: 'https://okashinatensei-pr.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/sweet-reincarnation'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -812,7 +812,7 @@ info:
   official: 'https://ar-anime.com/'
   subreddit: '/r/Atelier'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/atelier-ryza-ever-darkness-the-secret-hideout-the-animation'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -910,7 +910,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45229'
   animeplanet: 'http://www.anime-planet.com/anime/the-duke-of-death-and-his-maid-2nd-season'
   official: 'https://bocchan-anime.com/'
-  subreddit: 'r/KuroMaid'
+  subreddit: '/r/KuroMaid'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -935,7 +935,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46187'
   animeplanet: 'http://www.anime-planet.com/anime/saint-cecilia-and-pastor-lawrence'
   official: 'https://shiroseijyo-anime.com/'
-  subreddit: 'r/ShiroSeijo'
+  subreddit: '/r/ShiroSeijo'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -960,14 +960,14 @@ info:
   kitsu: 'https://kitsu.io/anime/47288'
   animeplanet: 'http://www.anime-planet.com/anime/spy-classroom-2nd-season'
   official: 'https://spyroom-anime.com/'
-  subreddit: 'r/SpyRoom'
+  subreddit: '/r/SpyRoom'
 streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/spy-classroom'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -985,7 +985,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47231'
   animeplanet: 'http://www.anime-planet.com/anime/sugar-apple-fairy-tale-part-ii'
   official: 'https://sugarapple-anime.com/'
-  subreddit: 'r/sugarapplefairytale'
+  subreddit: '/r/sugarapplefairytale'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/sugar-apple-fairy-tale'
   museasia: ''
@@ -1010,9 +1010,9 @@ info:
   kitsu: 'https://kitsu.io/anime/46970'
   animeplanet: 'http://www.anime-planet.com/anime/the-girl-i-like-forgot-her-glasses'
   official: 'https://anime.shochiku.co.jp/sukimega/'
-  subreddit: 'r/Sukinako'
+  subreddit: '/r/Sukinako'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-girl-i-like-forgot-her-glasses'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1085,9 +1085,9 @@ info:
   kitsu: 'https://kitsu.io/anime/46647'
   animeplanet: 'http://www.anime-planet.com/anime/uchi-no-kaisha-no-chiisai-senpai-no-hanashi'
   official: 'https://chiisaisenpai.com/'
-  subreddit: 'r/Chiisai_Senpai'
+  subreddit: '/r/Chiisai_Senpai'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-tiny-senpai'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1135,7 +1135,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46050'
   animeplanet: 'http://www.anime-planet.com/anime/my-happy-marriage'
   official: 'https://watakon-anime.com/'
-  subreddit: ''
+  subreddit: '/r/MyHappyMarriage'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1177,7 +1177,7 @@ streams:
   nyaa: ''
 ---
 title: 'Yumemiru Danshi wa Genjitsushugisha'
-title_en: "My Dreamy Realist"
+title_en: "The Dreaming Boy is a Realist"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53632'
@@ -1193,7 +1193,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/the-dreaming-boy-is-a-realist'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1212,7 +1212,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46954'
   animeplanet: 'http://www.anime-planet.com/anime/zom-100-bucket-list-of-the-dead'
   official: 'https://zom100.com/'
-  subreddit: ''
+  subreddit: '/r/Zombie100'
 streams:
   crunchyroll: ''
   museasia: ''
