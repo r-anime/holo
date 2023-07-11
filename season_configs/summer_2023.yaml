@@ -50,8 +50,7 @@ streams:
   nyaa: ''
 ---
 title: 'BLEACH: Sennen Kessen-hen - Ketsubetsu-tan -'
-title_en: ""
-alias: ['BLEACH: Thousand-Year Blood War - The Separation -']
+title_en: "BLEACH: Thousand-Year Blood War - The Separation -"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53998'
@@ -70,7 +69,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: 'https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1'
+  hulu|Hulu: 'https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1|13'
   disney|Disney: 'https://www.disneyplus.com/series/bleach-thousand-year-blood-war/4Afet1Q421gy'
   youtube: ''
   nyaa: ''
@@ -112,7 +111,7 @@ info:
   official: 'https://bungosd.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/bungo-stray-dogs'
+  crunchyroll: 'https://www.crunchyroll.com/bungo-stray-dogs|50'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -462,10 +461,10 @@ info:
   official: 'https://jujutsukaisen.jp/'
   subreddit: '/r/JuJutsuKaisen'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/jujutsu-kaisen'
+  crunchyroll: 'https://www.crunchyroll.com/jujutsu-kaisen|24'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/jujutsu-kaisen'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -537,7 +536,7 @@ info:
   official: 'https://kanokari-official.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/rent-a-girlfriend#24'
+  crunchyroll: 'https://www.crunchyroll.com/rent-a-girlfriend|24'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -967,7 +966,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/spy-classroom/season-2'
+  hidive: 'https://www.hidive.com/tv/spy-classroom|12'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1202,8 +1201,7 @@ streams:
   nyaa: ''
 ---
 title: 'Zom 100: Zombie ni Naru made ni Shitai 100 no Koto'
-title_en: ""
-alias: ['Zom 100: Bucket List of the Dead']
+title_en: "Zom 100: Bucket List of the Dead"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54112'
