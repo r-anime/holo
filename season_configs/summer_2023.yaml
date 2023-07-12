@@ -1224,6 +1224,31 @@ streams:
   disney|Disney: ''
   youtube: ''
   nyaa: ''
+---
+title: 'Tonikaku Kawaii: Joshikou-hen'
+title_en: "TONIKAWA: Over The Moon For You: High School Days"
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/55651'
+  anilist: 'https://anilist.co/anime/166104'
+  anidb: 'http://anidb.net/a18062'
+  kitsu: 'https://kitsu.io/anime/tonikaku-kawaii-joshikou-hen'
+  animeplanet: 'https://www.anime-planet.com/anime/tonikawa-over-the-moon-for-you-high-school-days'
+  official: 'http://tonikawa.com/'
+  subreddit: '/r/Tonikawa'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
 #---
 #title: ''
 #title_en: ''
