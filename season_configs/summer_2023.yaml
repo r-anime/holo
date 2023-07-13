@@ -11,7 +11,7 @@ info:
   official: 'https://ai-no-idenshi.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-gene-of-ai'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -50,8 +50,7 @@ streams:
   nyaa: ''
 ---
 title: 'BLEACH: Sennen Kessen-hen - Ketsubetsu-tan -'
-title_en: ""
-alias: ['BLEACH: Thousand-Year Blood War - The Separation -']
+title_en: "BLEACH: Thousand-Year Blood War - The Separation -"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53998'
@@ -70,7 +69,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: 'https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1'
+  hulu|Hulu: 'https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1|13'
   disney|Disney: 'https://www.disneyplus.com/series/bleach-thousand-year-blood-war/4Afet1Q421gy'
   youtube: ''
   nyaa: ''
@@ -112,7 +111,7 @@ info:
   official: 'https://bungosd.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/bungo-stray-dogs'
+  crunchyroll: 'https://www.crunchyroll.com/bungo-stray-dogs|50'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -140,9 +139,9 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/cardfight-vanguard-overdress'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/cardfight-vanguard-overdress/'
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/tv/cardfight-vanguard-willdress'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -187,7 +186,7 @@ info:
   official: 'https://dekineko-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-masterful-cat-is-depressed-again-today'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -212,7 +211,7 @@ info:
   official: 'https://eiyukyoushitsu-anime.com/'
   subreddit: '/r/Eiyuu_Kyoushitsu'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/classroom-for-heroes'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -312,15 +311,15 @@ info:
   official: 'https://maousama.jp/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/the-devil-is-a-part-timer'
+  crunchyroll: 'https://www.crunchyroll.com/the-devil-is-a-part-timer|12'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-devil-is-a-part-timer/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/the-devil-is-a-part-timer-8534ee83-b681-4dbc-bad9-b9a1d3f08483'
   disney|Disney: ''
   youtube: ''
   nyaa: ''
@@ -462,10 +461,10 @@ info:
   official: 'https://jujutsukaisen.jp/'
   subreddit: '/r/JuJutsuKaisen'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/jujutsu-kaisen'
+  crunchyroll: 'https://www.crunchyroll.com/jujutsu-kaisen|24'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/jujutsu-kaisen'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -487,7 +486,7 @@ info:
   official: 'https://jihanki-anime.com/'
   subreddit: '/r/jidouhanbaiki'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/reborn-as-a-vending-machine-i-now-wander-the-dungeon'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -537,7 +536,7 @@ info:
   official: 'https://kanokari-official.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/rent-a-girlfriend#24'
+  crunchyroll: 'https://www.crunchyroll.com/rent-a-girlfriend|24'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -562,7 +561,7 @@ info:
   official: 'https://level1-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-unique-skill-makes-me-op-even-at-level-1'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -586,7 +585,7 @@ info:
   official: 'https://liar-liar-anime.com/'
   subreddit: '/r/LiarLiar'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/liar-liar'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -661,7 +660,7 @@ info:
   official: 'https://www.mononogatari-pr.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/malevolent-spirits-mononogatari'
+  crunchyroll: 'https://www.crunchyroll.com/malevolent-spirits-mononogatari|12'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -694,7 +693,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/mushoku-tensei-jobless-reincarnation-787a5fb4-9cba-4a69-96b2-4fb3b10c860a'
   disney|Disney: ''
   youtube: ''
   nyaa: ''
@@ -711,7 +710,7 @@ info:
   official: 'https://nanatsuma-pr.com/'
   subreddit: '/r/nanatsunomaken'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/reign-of-the-seven-spellblades'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -787,7 +786,7 @@ info:
   official: 'https://rurouni-kenshin.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/rurouni-kenshin'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -845,8 +844,8 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
+  hulu|Hulu: 'https://www.hulu.com/series/synduality-noir-10f2d56d-87f3-469f-8004-a0d2bab3d57d'
+  disney|Disney: 'https://www.disneyplus.com/series/synduality-noir/6Wyhb8bQ9XDr'
   youtube: ''
   nyaa: ''
 ---
@@ -862,7 +861,7 @@ info:
   official: 'https://www.tbs.co.jp/anime/seija/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-great-cleric'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -912,10 +911,10 @@ info:
   official: 'https://bocchan-anime.com/'
   subreddit: '/r/KuroMaid'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-duke-of-death-and-his-maid#12'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-duke-of-death-and-his-maid/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -937,7 +936,7 @@ info:
   official: 'https://shiroseijyo-anime.com/'
   subreddit: '/r/ShiroSeijo'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/saint-cecilia-and-pastor-lawrence'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -967,7 +966,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/spy-classroom'
+  hidive: 'https://www.hidive.com/tv/spy-classroom|12'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1062,7 +1061,7 @@ info:
   official: 'https://temple-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/tenpuru'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1112,7 +1111,7 @@ info:
   official: 'https://undeadgirl.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/undead-murder-farce'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1202,8 +1201,7 @@ streams:
   nyaa: ''
 ---
 title: 'Zom 100: Zombie ni Naru made ni Shitai 100 no Koto'
-title_en: ""
-alias: ['Zom 100: Bucket List of the Dead']
+title_en: "Zom 100: Bucket List of the Dead"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54112'
@@ -1213,6 +1211,31 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/zom-100-bucket-list-of-the-dead'
   official: 'https://zom100.com/'
   subreddit: '/r/Zombie100'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/zom-100-bucket-list-of-the-dead'
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: 'https://www.hulu.com/series/zom-100-bucket-list-of-the-dead-1015792d-f811-47f9-a28e-bf0b30332bf3'
+  disney|Disney: 'https://www.disneyplus.com/series/zom100-bucket-list-of-the-dead/3Nwug66q3ByD'
+  youtube: ''
+  nyaa: ''
+---
+title: 'Tonikaku Kawaii: Joshikou-hen'
+title_en: "TONIKAWA: Over The Moon For You: High School Days"
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/55651'
+  anilist: 'https://anilist.co/anime/166104'
+  anidb: 'http://anidb.net/a18062'
+  kitsu: 'https://kitsu.io/anime/tonikaku-kawaii-joshikou-hen'
+  animeplanet: 'https://www.anime-planet.com/anime/tonikawa-over-the-moon-for-you-high-school-days'
+  official: 'http://tonikawa.com/'
+  subreddit: '/r/Tonikawa'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1225,6 +1248,32 @@ streams:
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
+  nyaa: ''
+---
+title: 'Hanma Baki: Son of Ogre Season 2'
+alias: ['Baki Hanma Season 2']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/51318'
+  anilist: 'https://anilist.co/anime/146646'
+  anidb: 'http://anidb.net/a17271'
+  kitsu: ''
+  animeplanet: ''
+  official: 'https://baki-anime.jp/'
+  subreddit: '/r/Grapplerbaki'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  netflix: 'https://www.netflix.com/title/81236338'
   nyaa: ''
 #---
 #title: ''
