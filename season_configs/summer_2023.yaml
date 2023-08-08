@@ -141,7 +141,7 @@ streams:
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/cardfight-vanguard-overdress/'
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/cardfight-vanguard-willdress'
+  hidive: 'https://www.hidive.com/tv/cardfight-vanguard-willdress|25'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
