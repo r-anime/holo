@@ -114,7 +114,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/bungo-stray-dogs|50'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/bungo-stray-dogs/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -136,12 +136,12 @@ info:
   official: 'https://anime.cf-vanguard.com/overdress/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/cardfight-vanguard-overdress'
+  crunchyroll: 'https://www.crunchyroll.com/cardfight-vanguard-overdress|25'
   museasia: ''
   anione: ''
   funimation|Funimation: 'https://www.funimation.com/shows/cardfight-vanguard-overdress/'
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/tv/cardfight-vanguard-willdress'
+  hidive: 'https://www.hidive.com/tv/cardfight-vanguard-willdress|25'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1072,7 +1072,7 @@ streams:
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'TenPuru'
 ---
 title: 'Uchi no Kaisha no Chiisai Senpai no Hanashi'
 title_en: "My Tiny Senpai"
@@ -1109,7 +1109,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47226'
   animeplanet: 'http://www.anime-planet.com/anime/undead-murder-farce'
   official: 'https://undeadgirl.jp/'
-  subreddit: ''
+  subreddit: '/r/UndeadGirlMurderFarce'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/undead-murder-farce'
   museasia: ''
@@ -1155,7 +1155,7 @@ alias: ['Theatre of Darkness: Yamishibai 11']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55166'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/166829'
   anidb: 'http://anidb.net/a18020'
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/yamishibai-japanese-ghost-stories-11th-season'
@@ -1235,7 +1235,7 @@ info:
   kitsu: 'https://kitsu.io/anime/tonikaku-kawaii-joshikou-hen'
   animeplanet: 'https://www.anime-planet.com/anime/tonikawa-over-the-moon-for-you-high-school-days'
   official: 'http://tonikawa.com/'
-  subreddit: '/r/Tonikawa'
+  subreddit: '/r/TonikakuCawaii'
 streams:
   crunchyroll: ''
   museasia: ''
