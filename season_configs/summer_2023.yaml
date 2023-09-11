@@ -1275,6 +1275,59 @@ streams:
   youtube: ''
   netflix: 'https://www.netflix.com/title/81236338'
   nyaa: ''
+---
+title: 'FLCL: Grunge'
+title_en: ''
+alias: ['FLCL Season 4']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/51304'
+  anilist: 'https://anilist.co/anime/146472/FLCL-Grunge/'
+  anidb: 'https://anidb.net/anime/17264'
+  kitsu: 'https://kitsu.io/anime/flcl-grunge'
+  animeplanet: 'https://www.anime-planet.com/anime/flcl-grunge'
+  official: 'https://twitter.com/FLCL_USA'
+  subreddit: '/r/FLCL'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  bilibili|Bilibili: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: ''
+  nyaa: ''
+  max: 'https://www.max.com/'
+---
+title: 'Kyoukai Senki: Kyokkou no Souki'
+title_en: 'AMAIM: Warrior at the Borderline UltraSteel Ogre-Gear'
+alias: ['']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/54495'
+  anilist: 'https://anilist.co/anime/161647/Kyoukai-Senki-Kyokkou-no-Souki/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=17871'
+  kitsu: 'https://kitsu.io/anime/kyoukai-senki-kyokkou-no-souki'
+  animeplanet: 'https://www.anime-planet.com/anime/kyoukai-senki-kyokkou-no-souki'
+  official: 'https://www.kyoukai-senki.net/kyokko-no-souki/'
+  subreddit: '/r/KyoukaiSenki'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  bilibili|Bilibili: ''
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLZxqqBY932IJZernWL2CATr1bM_DedMUM'
+  nyaa: ''
 #---
 #title: ''
 #title_en: ''
