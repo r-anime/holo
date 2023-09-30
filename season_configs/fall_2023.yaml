@@ -205,7 +205,7 @@ info:
   official: 'https://s-rank-musume.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-daughter-left-the-nest-and-returned-an-s-rank-adventurer'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -920,7 +920,7 @@ info:
   official: 'https://meguminodaigo.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/firefighter-daigo-rescuer-in-orange'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -984,7 +984,7 @@ streams:
   nyaa: ''
 ---
 title: 'Overtake!'
-has_source: true
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/54301'
   anilist: 'https://anilist.co/anime/160515'
@@ -1019,7 +1019,7 @@ info:
   official: 'https://ojoutobankenkun.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/a-girl-her-guard-dog'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1288,7 +1288,7 @@ info:
   official: 'https://frieren-anime.jp/'
   subreddit: '/r/Frieren'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/frieren-beyond-journeys-end'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
