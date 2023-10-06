@@ -1,10 +1,12 @@
-from logging import debug, info, warning, error
-from datetime import datetime, timezone
-import requests
 import re
+from logging import debug, warning, error
+from typing import Any, Optional
 
-from .. import AbstractPollHandler
+import requests
+from bs4 import BeautifulSoup
+
 from data.models import Poll
+from .. import AbstractPollHandler
 
 class PollHandler(AbstractPollHandler):
 	OPTIONS = ['Excellent', 'Great', 'Good', 'Mediocre', 'Bad']
@@ -25,21 +27,21 @@ class PollHandler(AbstractPollHandler):
 	                   'poll-1[approval-validation-value]': '1',
 	                   'poll-1[basic]': '',
 	                   'voting-limits-dropdown': '3',
-			   'captcha-test-checkbox': 'on',
+	                   'captcha-test-checkbox': 'on',
 	                   'reddit-link-karma': '0',
 	                   'reddit-comment-karma': '200',
 	                   'reddit-days-old': '0',
 	                   'responses-input': '',
 	                   }
 
-	_poll_id_re = re.compile('youpoll.me/(\d+)', re.I)
+	_poll_id_re = re.compile(r'youpoll.me/(\d+)', re.I)
 	_poll_link = 'https://youpoll.me/{id}/'
 	_poll_results_link = 'https://youpoll.me/{id}/r'
 
-	def __init__(self):
+	def __init__(self) -> None:
 		super().__init__("youpoll")
 
-	def create_poll(self, title, submit, **kwargs):
+	def create_poll(self, title: str, submit: bool, **kwargs: Any)-> Optional[str]:
 		if not submit:
 			return None
 		#headers = _poll_post_headers
@@ -49,64 +51,62 @@ class PollHandler(AbstractPollHandler):
 		#resp = requests.post(_poll_post_url, data = data, headers = headers, **kwargs)
 		try:
 			resp = requests.post(self._poll_post_url, data = data, **kwargs)
-		except:
-			error("Could not create poll (exception in POST)")
+		except Exception as e:
+			error("Could not create poll (exception in POST): %s", e)
 			return None
 
 		if not resp.ok:
 			error("Could not create poll (resp !OK)")
 			return None
-		
+
 		match = self._poll_id_re.search(resp.url)
 		if not match:
 			error("Could not create poll (URL not found)")
 			return None
 		return match.group(1)
 
-	def get_link(self, poll):
+	def get_link(self, poll: Poll) -> str:
 		return self._poll_link.format(id = poll.id)
 
-	def get_results_link(self, poll):
+	def get_results_link(self, poll: Poll) -> str:
 		return self._poll_results_link.format(id = poll.id)
 
-	def get_score(self, poll):
+	def get_score(self, poll: Poll) -> Optional[float]:
 		debug(f"Getting score for show {poll.show_id} / episode {poll.episode}")
 		try:
 			response = self.request(self.get_results_link(poll), html = True)
-		except:
-			error(f"Couldn't get scores for poll {self.get_results_link(poll)} (query error)")
+			assert isinstance(response, BeautifulSoup)
+		except Exception as e:
+			error("Couldn't get scores for poll %s - query error: %s", self.get_results_link(poll), e)
 			return None
 
 		try:
-			# 5 points scale
-			divs = response.find_all('div', class_='basic-option-wrapper')
-			num_votes_str = response.find("span", class_="admin-total-votes").text
-			num_votes = int(num_votes_str.replace(',', ''))
+			labels = [x.text.strip() for x in response.find_all('div', 'rslt-plurality-txt')]
+			if diff := (set(labels) - set(self.OPTIONS)):
+				error("Aborted - found unexpected labels: %s", ",".join(diff))
+				return None
+			votes = [
+				int(x.text.strip().replace(',','').replace('.',''))
+				for x in response.find_all('div', 'rslt-plurality-votes')
+			]
+			num_votes = int(response.find('span', 'rslt-total-votes').text.strip())
 			if num_votes == 0:
 				warning('No vote recorded, no score returned')
 				return None
-			values = dict()
-			for div in divs:
-				label = div.find('span', class_='basic-option-title').text
-				if label not in self.OPTIONS:
-					error(f'Found unexpected label {label}, aborted')
-					return None
-				value_text = div.find('span', class_='basic-option-percent').text
-				score = float(value_text.strip('%')) / 100
-				values[label] = score
-			results = [values[k] for k in self.OPTIONS]
-			info(f'Results: {str(results)}')
-			total = sum([r * s for r, s in zip(results, range(5, 0, -1))])
-			total = round(total, 2)
-			return total
-		except:
-			error(f"Couldn't get scores for poll {self.get_results_link(poll)} (parsing error)")
+			votes_dict = dict(zip(labels, votes))
+			score = round(
+				sum(votes_dict[a] * i for i, a in enumerate(self.OPTIONS[::-1], 1))
+				/ num_votes,
+				2,
+			)
+			return score
+		except Exception as e:
+			error("Couldn't get scores for poll %s - parsing error: %s", self.get_results_link(poll), e)
 			return None
 
 
 	@staticmethod
-	def convert_score_str(score):
+	def convert_score_str(score: Optional[float]) -> str:
 		if score is None:
 			return '----'
-		else:
-			return str(score)
+		return str(score)
