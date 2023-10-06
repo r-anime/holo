@@ -95,10 +95,3 @@ class PollHandler(AbstractPollHandler):
 				e,
 			)
 			return None
-
-	@staticmethod
-	def convert_score_str(score: Optional[float]) -> str:
-		if score is None:
-			return "----"
-		else:
-			return str(score)

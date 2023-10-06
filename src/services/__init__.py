@@ -438,6 +438,13 @@ class AbstractPollHandler(ABC, Requestable):
 		"""
 		return None
 
+	@staticmethod
+	def convert_score_str(score: Optional[float]) -> str:
+		if score is None:
+			return '----'
+		return str(score)
+
+
 _poll_sites = dict()
 
 def _ensure_poll_handlers():

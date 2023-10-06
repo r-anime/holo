@@ -103,10 +103,3 @@ class PollHandler(AbstractPollHandler):
 		except Exception as e:
 			error("Couldn't get scores for poll %s - parsing error: %s", self.get_results_link(poll), e)
 			return None
-
-
-	@staticmethod
-	def convert_score_str(score: Optional[float]) -> str:
-		if score is None:
-			return '----'
-		return str(score)
