@@ -53,12 +53,15 @@ class PollHandler(AbstractPollHandler):
 			error("Could not create poll (exception in POST)")
 			return None
 
-		if resp.ok:
-			match = self._poll_id_re.search(resp.url)
-			return match.group(1)
-		else:
+		if not resp.ok:
 			error("Could not create poll (resp !OK)")
 			return None
+		
+		match = self._poll_id_re.search(resp.url)
+		if not match:
+			error("Could not create poll (URL not found)")
+			return None
+		return match.group(1)
 
 	def get_link(self, poll):
 		return self._poll_link.format(id = poll.id)
