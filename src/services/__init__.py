@@ -137,7 +137,7 @@ class Requestable:
 ###################
 
 from datetime import datetime
-from data.models import Episode, Stream, UnprocessedStream
+from data.models import Episode, PollSite, Stream, UnprocessedStream
 
 class AbstractServiceHandler(ABC, Requestable):
 	def __init__(self, key, name, is_generic):
@@ -460,4 +460,22 @@ def get_default_poll_handler() -> AbstractPollHandler:
 	:return: the handler
 	"""
 	_ensure_poll_handlers()
-	return _poll_sites["youpoll"]
+	return _poll_sites["polltab"]
+
+
+def get_poll_handler(
+		poll_site: Optional[PollSite] = None,
+		key: Optional[str] = None,
+	) -> Optional[AbstractPollHandler]:
+	"""
+	Returns an instance of a poll handler representing the given poll site.
+	:param poll_site: A poll site
+	:param key: A poll site key
+	:return: A poll handler instance
+	"""
+	_ensure_poll_handlers()
+	if poll_site is not None and poll_site.key in _poll_sites:
+		return _poll_sites[poll_site.key]
+	if key is not None and key in _poll_sites:
+		return _poll_sites[key]
+	return None
