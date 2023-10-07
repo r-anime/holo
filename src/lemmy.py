@@ -74,4 +74,4 @@ def get_text_post(url):
 # Utilities
 
 def get_shortlink_from_id(id):
-	return f"{_get_host_instance()}/post/{id}"
+	return f"http://{_get_host_instance()}/post/{id}"
