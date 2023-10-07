@@ -1,7 +1,7 @@
 from logging import debug, warning, error
 from abc import abstractmethod, ABC
 from types import ModuleType
-from typing import List, Dict, Optional, Iterable
+from typing import Any, List, Dict, Optional, Iterable
 
 # Common
 
@@ -403,7 +403,7 @@ class AbstractPollHandler(ABC, Requestable):
 		self.config = config
 
 	@abstractmethod
-	def create_poll(self, title, submit: bool) -> Optional[str]:
+	def create_poll(self, title: str, submit: bool, **kwargs: Any) -> Optional[str]:
 		"""
 		Create a new Poll.
 		:param title: title of this poll
@@ -467,7 +467,7 @@ def get_default_poll_handler() -> AbstractPollHandler:
 	:return: the handler
 	"""
 	_ensure_poll_handlers()
-	return _poll_sites["polltab"]
+	return _poll_sites["strawpoll"]
 
 
 def get_poll_handler(

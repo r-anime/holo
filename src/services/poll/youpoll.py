@@ -44,6 +44,7 @@ class PollHandler(AbstractPollHandler):
 	def create_poll(self, title: str, submit: bool, **kwargs: Any)-> Optional[str]:
 		if not submit:
 			return None
+		raise RuntimeError("Cannot create polls on youpoll.me")
 		#headers = _poll_post_headers
 		#headers['User-Agent'] = config.useragent
 		data = self._poll_post_data
