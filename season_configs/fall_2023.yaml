@@ -9,7 +9,7 @@ info:
   official: 'https://16bitsensation-al.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/16bit-sensation-another-layer'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -59,7 +59,7 @@ info:
   official: 'https://do-tennen.com/'
   subreddit: '/r/AtarashiiJoushi'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-new-boss-is-goofy'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -131,7 +131,7 @@ info:
   official: 'https://www.bullbuster.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/bullbuster'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -180,7 +180,7 @@ info:
   official: 'https://bokuame.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/protocol-rain'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -230,7 +230,7 @@ info:
   official: 'https://bousyoku-anime.com/'
   subreddit: '/r/BerserkOfGluttony'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/berserk-of-gluttony'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -255,7 +255,7 @@ info:
   official: 'https://butaliver-anime.com/'
   subreddit: '/r/HeatthePigLiver'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/butareba-the-story-of-a-man-turned-into-a-pig-'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -280,7 +280,7 @@ info:
   official: 'https://ball-ha-tomodachi.com/jryouth'
   subreddit: '/r/captaintsubasa'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/captain-tsubasa-junior-youth-arc'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -353,7 +353,7 @@ info:
   official: 'https://dekoboko-majo-anime.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-family-circumstances-of-the-irregular-witch'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -452,7 +452,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/hypnosismic-division-rap-battle-rhyme-anima'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/hypnosismic-division-rap-battle-rhyme-anima/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -474,7 +474,7 @@ info:
   official: 'https://hametsu-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-kingdoms-of-ruin'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -599,7 +599,7 @@ info:
   official: 'https://kamierabi.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/kamierabi-godapp'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -624,7 +624,7 @@ info:
   official: 'https://kamonohashiron.com/'
   subreddit: '/r/RonKamonohashi'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/ron-kamonohashis-forbidden-deductions'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -712,6 +712,7 @@ streams:
   nyaa: ''
 ---
 title: 'Kibo no Chikara ~Otona Precure 23~'
+title_en: "Power of Hope ~Precure Full Bloom~"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54716'
@@ -722,7 +723,7 @@ info:
   official: 'https://otonaprecure2023.com/'
   subreddit: '/r/precure'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/power-of-hope-precure-full-bloom'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -821,7 +822,7 @@ info:
   official: 'https://ikenaikyo.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -870,7 +871,7 @@ info:
   official: 'https://mfg-anime.com/'
   subreddit: '/r/MFGhost'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/mf-ghost'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -945,7 +946,7 @@ info:
   official: 'https://migitodali.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/migidali'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -994,7 +995,7 @@ info:
   official: 'https://komaki-motors.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/overtake'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1068,7 +1069,7 @@ info:
   official: 'https://potion-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/i-shall-survive-using-potions'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1140,7 +1141,7 @@ info:
   official: 'https://shy-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/shy'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1172,7 +1173,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/65d158d4-443f-44c7-bd2c-eae39f6c60e9'
   disney|Disney: ''
   youtube: ''
   nyaa: ''
@@ -1217,7 +1218,7 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/the-saints-magic-power-is-omnipotent'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-saints-magic-power-is-omnipotent/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
@@ -1263,7 +1264,7 @@ info:
   official: 'https://anime.shangrilafrontier.com/'
   subreddit: '/r/ShangriLaFrontier'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/shangri-la-frontier'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1316,12 +1317,12 @@ streams:
   crunchyroll: 'https://www.crunchyroll.com/the-rising-of-the-shield-hero'
   museasia: ''
   anione: ''
-  funimation|Funimation: ''
+  funimation|Funimation: 'https://www.funimation.com/shows/the-rising-of-the-shield-hero/'
   wakanim|Wakanim: ''
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/97f1d394-0ac7-48c2-bb1b-7b2575848441'
   disney|Disney: ''
   youtube: ''
   nyaa: ''
@@ -1338,7 +1339,7 @@ info:
   official: 'https://tearmoon-pr.com/'
   subreddit: '/r/Tearmoon_Empire'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/tearmoon-empire'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1362,7 +1363,7 @@ info:
   official: 'https://millionlive-anime.idolmaster-official.jp/'
   subreddit: '/r/TheaterDays'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-idolmster-million-live'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1387,7 +1388,7 @@ info:
   official: 'https://toaru-ossan.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/a-playthrough-of-a-certain-dudes-vrmmo-life'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1460,7 +1461,7 @@ info:
   official: 'https://under-ninja.jp/'
   subreddit: '/r/Under_Ninja_Anime'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/under-ninja'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1484,7 +1485,7 @@ info:
   official: 'https://anime-umamusume.jp/'
   subreddit: '/r/UmaMusume'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/umamusume-pretty-derby'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1509,7 +1510,7 @@ info:
   official: 'https://wataoshi-anime.com/'
   subreddit: '/r/WataOshi'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/im-in-love-with-the-villainess'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
