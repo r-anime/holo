@@ -7,7 +7,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46934'
   animeplanet: 'http://www.anime-planet.com/anime/16bit-sensation'
   official: 'https://16bitsensation-al.com/'
-  subreddit: ''
+  subreddit: '/r/16_bit_Sensation'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/16bit-sensation-another-layer'
   museasia: ''
@@ -34,7 +34,7 @@ info:
   official: 'https://arknights-anime.jp/'
   subreddit: '/r/arknights'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/arknights-prelude-to-dawn'
+  crunchyroll: 'https://www.crunchyroll.com/arknights'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -291,7 +291,7 @@ streams:
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
-  nyaa: ''
+  nyaa: '[CaptainTsubasaFansub] Captain Tsubasa - Junior Youth Arc'
 ---
 title: 'Dog Signal'
 has_source: true
@@ -763,6 +763,7 @@ streams:
 ---
 title: 'Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo'
 title_en: "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You"
+alias: ['Hyakkano']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54714'
@@ -784,7 +785,7 @@ streams:
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Hyakkano'
 ---
 title: 'Kizuna no Allele Season 2'
 has_source: true
@@ -1475,6 +1476,7 @@ streams:
   nyaa: ''
 ---
 title: 'Umamusume: Pretty Derby Season 3'
+alias: ['Uma Musume - Pretty Derby S3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53526'
@@ -1545,6 +1547,155 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Good Night World'
+title_en: ""
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/56146'
+  anilist: 'https://anilist.co/anime/167820'
+  anidb: 'http://anidb.net/a15547'
+  kitsu: 'https://kitsu.io/anime/47813'
+  animeplanet: 'http://www.anime-planet.com/anime/good-night-world'
+  official: 'https://gnw-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  netflix|Netflix: 'https://www.netflix.com/title/81340213'
+  youtube: ''
+  nyaa: ''
+---
+title: 'Gundam Build Metaverse'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/54902'
+  anilist: 'https://anilist.co/anime/163204'
+  anidb: 'http://anidb.net/a17959'
+  kitsu: ''
+  animeplanet: ''
+  official: 'https://gundam-bm.net/'
+  subreddit: '/r/Gundam'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLJV1h9xQ7Hx-41y3mef81FVIvQnWzMmXV'
+  nyaa: '[Anime-Releases] Gundam Build Metaverse'
+---
+title: 'Mask Danshi wa Koishitakunai noni'
+title_en: "Mask Danshi: This Shouldn't Lead to Love"
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/54792'
+  anilist: 'https://anilist.co/anime/162989'
+  anidb: 'http://anidb.net/a17928'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/mask-danshi-this-shouldnt-lead-to-love'
+  official: 'https://www.b-boy.jp/special/maskdanshi/oad.html'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Pluto'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/35737'
+  anilist: 'https://anilist.co/anime/99088'
+  anidb: 'http://anidb.net/a13225'
+  kitsu: 'https://kitsu.io/anime/13563'
+  animeplanet: 'http://www.anime-planet.com/anime/pluto'
+  official: 'https://pluto-anime.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Akuma-kun (2023)'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/48425'
+  anilist: 'https://anilist.co/anime/130706'
+  anidb: 'http://anidb.net/a16108'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/akuma-kun'
+  official: 'https://www.toei-anim.co.jp/akumakun/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  netflix|Netflix: 'https://www.netflix.com/title/81400498'
+  youtube: ''
+  nyaa: ''
+---
+title: 'Kengan Ashura Season 2'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/51369'
+  anilist: 'https://anilist.co/anime/146638'
+  anidb: 'http://anidb.net/a17274'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/kengan-ashura-2'
+  official: 'https://kengan.net/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  netflix|Netflix: 'https://www.netflix.com/title/80992228'
   youtube: ''
   nyaa: ''
 #---
