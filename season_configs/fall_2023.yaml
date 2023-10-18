@@ -373,7 +373,7 @@ info:
   anilist: 'https://anilist.co/anime/162670'
   anidb: 'http://anidb.net/a18064'
   kitsu: 'https://kitsu.io/anime/47246'
-  animeplanet: ''
+  animeplanet: 'http://www.anime-planet.com/anime/dr-stone-new-world-part-ii'
   official: 'https://dr-stone.jp/'
   subreddit: '/r/DrStone'
 streams:
@@ -524,7 +524,7 @@ info:
   official: 'https://hoshitele-anime.com/'
   subreddit: '/r/StardustTelepath'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/stardust-telepath'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -688,6 +688,7 @@ streams:
 ---
 title: 'Keikenzumi na Kimi to, Keiken Zero na Ore ga, Otsukiai suru Hanashi.'
 title_en: "You Were Experienced, I Was Not: Our Dating Story"
+alias: ['Our Dating Story: The Experienced You and The Inexperienced Me']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52990'
@@ -698,7 +699,7 @@ info:
   official: 'https://kimizero.com/'
   subreddit: '/r/KeikenZumi'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/our-dating-story-the-experienced-you-and-the-inexperienced-me'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -774,7 +775,7 @@ info:
   official: 'https://hyakkano.com/'
   subreddit: '/r/100Kanojo'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-100-girlfriends-who-really-really-really-really-really-love-you'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -960,7 +961,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Mokushiroku no Yonkishi'
+title: 'Nanatsu no Taizai: Mokushiroku no Yonkishi'
 title_en: "The Seven Deadly Sins: Four Knights of the Apocalypse"
 has_source: true
 info:
@@ -982,6 +983,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   disney|Disney: ''
+  netflix|Netflix: 'https://www.netflix.com/title/81562396'
   youtube: ''
   nyaa: ''
 ---
@@ -1045,7 +1047,7 @@ info:
   official: 'https://paradoxlive.jp/'
   subreddit: '/r/ParadoxLive'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/paradox-live-the-animation'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1537,7 +1539,7 @@ info:
   official: 'https://yuzukisan-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-yuzuki-familys-four-sons'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
