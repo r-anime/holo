@@ -1,0 +1,18 @@
+---
+name: Yaml Linting
+on: # yamllint disable-line rule:truthy
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
+jobs:
+  YAML_Linting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: YAML Linting
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          config_file: .github/config/.yamllint.yml

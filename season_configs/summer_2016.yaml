@@ -1,6 +1,7 @@
+---
 # Funimation shows without URLs:
 #   Danganronpa 3 (both shows on the same URL?)
-# 
+#
 # Missing shows:
 #   ReLIFE - all episodes aired at once ._.
 #   Momokuri - re-airing, airing two episodes at a time
@@ -279,15 +280,15 @@ info:
 streams:
     crunchyroll: http://www.crunchyroll.com/mob-psycho-100
     funimation: ''
-#---
-#title: Momokuri
-#type: tv
-#has_source: true
-#info:
+# ---
+# title: Momokuri
+# type: tv
+# has_source: true
+# info:
 #    mal: http://myanimelist.net/anime/30014/Momokuri
 #    anidb: http://anidb.net/perl-bin/animedb.pl?show=anime&aid=11073
 #    anilist: http://anilist.co/anime/21841/momokuri(TV)
-#streams:
+# streams:
 #    crunchyroll: ''
 #    funimation: ''
 ---

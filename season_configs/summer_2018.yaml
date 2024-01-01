@@ -1,3 +1,4 @@
+---
 title: 'Aguu: Tensai Ningyou'
 type: tv
 info:
@@ -95,8 +96,8 @@ info:
   anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12023'
   kitsu: 'https://kitsu.io/anime/flcl-progressive'
   official: 'http://flcl-anime.com/'
-#streams:
-#  adultswim|Adult Swim: 'http://www.adultswim.com/videos/flcl/'
+# streams:
+# adultswim|Adult Swim: 'http://www.adultswim.com/videos/flcl/'
 ---
 title: 'FLCL Alternative'
 type: tv

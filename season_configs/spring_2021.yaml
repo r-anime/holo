@@ -1,3 +1,4 @@
+---
 title: '86 EIGHTY-SIX'
 has_source: true
 info:
@@ -507,7 +508,7 @@ info:
   animeplanet: 'http://www.anime-planet.com/anime/gloomy-the-naughty-grizzly'
   official: 'https://gloomy-official.com/'
   subreddit: ''
-streams: 
+streams:
   crunchyroll: 'https://www.crunchyroll.com/gloomy-the-naughty-grizzly'
   museasia: ''
   anione: ''
@@ -1508,27 +1509,4 @@ streams:
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
-#---
-#title: ''
-#alias: ['']
-#has_source: true
-#info:
-#  mal: ''
-#  anilist: ''
-#  anidb: ''
-#  kitsu: ''
-#  animeplanet: ''
-#  official: ''
-#  subreddit: ''
-#streams:
-#  crunchyroll: ''
-#  museasia: ''
-#  funimation|Funimation: ''
-#  wakanim|Wakanim: ''
-#  hidive: ''
-#  animelab|AnimeLab: ''
-#  crunchyroll_nsfw|Crunchyroll: ''
-#  vrv|VRV: ''
-#  hulu|Hulu: ''
-#  youtube: ''
-#  nyaa: ''
+---

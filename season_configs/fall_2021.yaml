@@ -1,3 +1,4 @@
+---
 title: '"Deji" Meets Girl'
 has_source: false
 info:
@@ -1343,28 +1344,4 @@ streams:
   hulu|Hulu: ''
   youtube: ''
   nyaa: ''
-#---
-#title: ''
-#alias: ['']
-#has_source: true
-#info:
-#  mal: ''
-#  anilist: ''
-#  anidb: ''
-#  kitsu: ''
-#  animeplanet: ''
-#  official: ''
-#  subreddit: ''
-#streams:
-#  crunchyroll: ''
-#  museasia: ''
-#  funimation|Funimation: ''
-#  wakanim|Wakanim: ''
-#  hidive: ''
-#  animelab|AnimeLab: ''
-#  bilibili|Bilibili: ''
-#  crunchyroll_nsfw|Crunchyroll: ''
-#  vrv|VRV: ''
-#  hulu|Hulu: ''
-#  youtube: ''
-#  nyaa: ''
+---

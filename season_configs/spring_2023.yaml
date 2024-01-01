@@ -1,3 +1,4 @@
+---
 title: 'Alice Gear Aegis Expansion'
 title_en: ""
 has_source: true
@@ -1531,29 +1532,4 @@ streams:
   disney|Disney: 'https://www.disneyplus.com/series/oshi-no-ko/4xE7VXJDjfbd'
   youtube: ''
   nyaa: ''
-#---
-#title: ''
-#title_en: ''
-#alias: ['']
-#has_source: true
-#info:
-#  mal: ''
-#  anilist: ''
-#  anidb: ''
-#  kitsu: ''
-#  animeplanet: ''
-#  official: ''
-#  subreddit: ''
-#streams:
-#  crunchyroll: ''
-#  museasia: ''
-#  funimation|Funimation: ''
-#  wakanim|Wakanim: ''
-#  hidive: ''
-#  animelab|AnimeLab: ''
-#  bilibili|Bilibili: ''
-#  crunchyroll_nsfw|Crunchyroll: ''
-#  vrv|VRV: ''
-#  hulu|Hulu: ''
-#  youtube: ''
-#  nyaa: ''
+---
