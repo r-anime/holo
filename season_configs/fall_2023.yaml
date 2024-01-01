@@ -1,3 +1,4 @@
+---
 title: '16bit Sensation: Another Layer'
 has_source: true
 info:
@@ -1700,29 +1701,3 @@ streams:
   netflix|Netflix: 'https://www.netflix.com/title/80992228'
   youtube: ''
   nyaa: ''
-#---
-#title: ''
-#title_en: ''
-#alias: ['']
-#has_source: true
-#info:
-#  mal: ''
-#  anilist: ''
-#  anidb: ''
-#  kitsu: ''
-#  animeplanet: ''
-#  official: ''
-#  subreddit: ''
-#streams:
-#  crunchyroll: ''
-#  museasia: ''
-#  funimation|Funimation: ''
-#  wakanim|Wakanim: ''
-#  hidive: ''
-#  animelab|AnimeLab: ''
-#  bilibili|Bilibili: ''
-#  crunchyroll_nsfw|Crunchyroll: ''
-#  vrv|VRV: ''
-#  hulu|Hulu: ''
-#  youtube: ''
-#  nyaa: ''

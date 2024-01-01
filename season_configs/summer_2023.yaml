@@ -1,3 +1,4 @@
+---
 title: 'AI no Idenshi'
 title_en: ""
 alias: ['The Gene of AI']
@@ -774,7 +775,7 @@ streams:
   nyaa: ''
 ---
 title: 'Rurouni Kenshin: Meiji Kenkaku Romantan (2023)'
-#title_en: "Rurouni Kenshin (2023)"
+# title_en: "Rurouni Kenshin (2023)"
 alias: ['Samurai X']
 has_source: true
 info:
@@ -1328,29 +1329,3 @@ streams:
   hulu|Hulu: ''
   youtube: 'https://www.youtube.com/playlist?list=PLZxqqBY932IJZernWL2CATr1bM_DedMUM'
   nyaa: ''
-#---
-#title: ''
-#title_en: ''
-#alias: ['']
-#has_source: true
-#info:
-#  mal: ''
-#  anilist: ''
-#  anidb: ''
-#  kitsu: ''
-#  animeplanet: ''
-#  official: ''
-#  subreddit: ''
-#streams:
-#  crunchyroll: ''
-#  museasia: ''
-#  funimation|Funimation: ''
-#  wakanim|Wakanim: ''
-#  hidive: ''
-#  animelab|AnimeLab: ''
-#  bilibili|Bilibili: ''
-#  crunchyroll_nsfw|Crunchyroll: ''
-#  vrv|VRV: ''
-#  hulu|Hulu: ''
-#  youtube: ''
-#  nyaa: ''
