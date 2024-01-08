@@ -259,7 +259,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47111'
     animeplanet: 'http://www.anime-planet.com/anime/surgeon-elise'
     official: 'https://surgeon-elise.com/'
-    subreddit: ''
+    subreddit: '/r/SurgeonElise'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -284,7 +284,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47972'
     animeplanet: 'http://www.anime-planet.com/anime/gekkan-mousou-kagaku'
     official: 'https://moh-scientific-anime.com/'
-    subreddit: ''
+    subreddit: '/r/DelusionalMonthly'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -434,7 +434,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47078'
     animeplanet: 'http://www.anime-planet.com/anime/ishura'
     official: 'https://ishura-anime.com/'
-    subreddit: ''
+    subreddit: '/r/Ishura'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -584,7 +584,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47874'
     animeplanet: 'http://www.anime-planet.com/anime/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy'
     official: 'https://7th-timeloop.com/'
-    subreddit: ''
+    subreddit: '/r/7th_timeloop'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -784,7 +784,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47751'
     animeplanet: 'http://www.anime-planet.com/anime/the-demon-prince-of-momochi-house'
     official: 'https://www.momochisan-anime.com/'
-    subreddit: ''
+    subreddit: '/r/MomochiSan'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -986,7 +986,7 @@ info:
     official: 'https://saikyo-tank.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-strongest-tanks-labyrinth-raids-a-tank-with-a-rare-9999-resistance-skill-got-kicked-from-the-heros-party-'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -997,7 +997,7 @@ streams:
     hulu|Hulu: ''
     disney|Disney: ''
     youtube: ''
-    nyaa: ''
+    nyaa: 'Saikyou Tank no Meikyuu Kouryaku'
 ---
 title: 'Sasaki to Pii-chan'
 title_en: "Sasaki and Peeps"
@@ -1009,7 +1009,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46303'
     animeplanet: 'http://www.anime-planet.com/anime/sasaki-and-peeps'
     official: 'https://sasapi-anime.com/'
-    subreddit: ''
+    subreddit: '/r/SasakiAndPeeps'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1109,7 +1109,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46807'
     animeplanet: 'http://www.anime-planet.com/anime/my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-alpha-omega'
     official: 'https://sokushicheat-pr.com/'
-    subreddit: ''
+    subreddit: '/r/InstantDeathIsekai'
 streams:
     crunchyroll: ''
     museasia: ''
