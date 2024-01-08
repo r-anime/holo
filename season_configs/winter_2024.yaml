@@ -61,10 +61,10 @@ info:
     official: 'https://www.ao-ex.com/'
     subreddit: '/r/AoNoExorcist'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/blue-exorcist'
     museasia: ''
     anione: ''
-    funimation|Funimation: ''
+    funimation|Funimation: 'https://www.funimation.com/shows/blue-exorcist-the-movie/'
     wakanim|Wakanim: ''
     hidive: ''
     animelab|AnimeLab: ''
@@ -161,7 +161,7 @@ info:
     official: 'https://chiyumahou-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-wrong-way-to-use-healing-magic'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -411,7 +411,7 @@ info:
     official: 'https://mohunadeanime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/fluffy-paradise'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -444,8 +444,8 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: ''
-    disney|Disney: ''
+    hulu|Hulu: 'https://www.hulu.com/series/811bac64-a492-4f1e-ba7a-393c825daeec'
+    disney|Disney: 'https://www.disneyplus.com/series/ishura/hQ0p1WPHHQmZ'
     youtube: ''
     nyaa: ''
 ---
@@ -464,7 +464,7 @@ streams:
     crunchyroll: 'https://www.crunchyroll.com/bottom-tier-character-tomozaki'
     museasia: ''
     anione: ''
-    funimation|Funimation: ''
+    funimation|Funimation: 'https://www.funimation.com/shows/bottom-tier-character-tomozaki/'
     wakanim|Wakanim: ''
     hidive: ''
     animelab|AnimeLab: ''
@@ -511,7 +511,7 @@ info:
     official: 'https://talesofweddingrings-anime.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/tales-of-wedding-rings'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -536,7 +536,7 @@ info:
     official: 'https://kingdom-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/kingdom'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -561,7 +561,7 @@ info:
     official: 'https://www.vap.co.jp/warumonosan-anime/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/mr-villains-day-off'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -586,7 +586,7 @@ info:
     official: 'https://7th-timeloop.com/'
     subreddit: '/r/7th_timeloop'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -786,7 +786,7 @@ info:
     official: 'https://www.momochisan-anime.com/'
     subreddit: '/r/MomochiSan'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-demon-prince-of-momochi-house'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -811,7 +811,7 @@ info:
     official: 'https://nozomanufushi-anime.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-unwanted-undead-adventurer'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -836,7 +836,7 @@ info:
     official: 'https://sololeveling-anime.net/'
     subreddit: '/r/sololeveling'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/solo-leveling'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1011,7 +1011,7 @@ info:
     official: 'https://sasapi-anime.com/'
     subreddit: '/r/SasakiAndPeeps'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/sasaki-and-peeps'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1064,7 +1064,7 @@ streams:
     crunchyroll: 'https://www.crunchyroll.com/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside'
     museasia: ''
     anione: ''
-    funimation|Funimation: ''
+    funimation|Funimation: 'https://www.funimation.com/shows/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside/'
     wakanim|Wakanim: ''
     hidive: ''
     animelab|AnimeLab: ''
@@ -1236,7 +1236,7 @@ info:
     official: 'https://yubisaki-pr.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/a-sign-of-affection'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
