@@ -75,6 +75,9 @@ class ServiceHandler(AbstractServiceHandler):
 			show = stream.show
 			names = [show.name] + show.aliases + [stream.show_key]
 
+			if show.name_en:
+				names.append(show.name_en)
+
 			for name in names:
 				#debug(f"  Trying: {name}")
 				# Match if each word in the show name is in the torrent name
