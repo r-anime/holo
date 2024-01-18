@@ -69,7 +69,7 @@ class PollHandler(AbstractPollHandler):
 			return None
 
 		# Submit poll creation form
-		data = self._poll_post_data.format(token=token, question=title)
+		data = self._poll_post_data.format(token=token, question=title.replace('"', '\\"'))
 		try:
 			resp = requests.post(
 				self._poll_post_url,
