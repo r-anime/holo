@@ -90,12 +90,12 @@ def _is_valid_episode(episode_data, show_key):
     date = datetime.fromordinal(dateutil.parser.parse(date_string).toordinal())
 
     if date > datetime.utcnow():
-	    return False
+        return False
 
     date_diff = datetime.utcnow() - date
     if date_diff >= timedelta(days=2):
-	    debug("  Episode too old")
-	    return False
+        debug("  Episode too old")
+        return False
 
     return True
 
@@ -109,4 +109,4 @@ def _digest_episode(feed_episode):
     date_string = feed_episode.find("meta", itemprop="dateCreated")["content"]
     date = datetime.fromordinal(dateutil.parser.parse(date_string).toordinal())
 
-    return Episode(num, name, link, date)
+    return Episode(number=num, name=name, link=link, date=date)
