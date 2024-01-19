@@ -217,7 +217,7 @@ _num_extractors = [re.compile(x, re.I) for x in [
 	r"\[ember\] .+ s(?:\d+)e(\d+)",
 	r"(?:.+).S(?:\d+)E(\d+).Laelaps.Calling.(?:\d+)p.(?:.+)",
 	r"\[(?:SenritsuSubs|AtlasSubbed|Rakushun)\] .+ - (\d+)",
-	r".+ - S(?:\d+)E(\d+) ", # using the S01E12 format
+	r".+\Ws(?:eason)?[\s.]?\d+[\s.]?e(?:pisode)?[\s.]?(\d+)", # SxxEyy format (allow s/season, e/episode, ./space separation
 	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]", # Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 	r".*?[ _](\d+)[ _]\[\d+p\]", # No tag followed by quality
 	r".*?episode[ _](\d+)", # Completely unformatted, but with the "Episode XX" text
