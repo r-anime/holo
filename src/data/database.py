@@ -3,7 +3,7 @@ import sqlite3, re
 from functools import wraps, lru_cache
 from unidecode import unidecode
 from typing import Set, List, Optional
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from .models import Show, ShowType, Stream, LiteStream, Service, LinkSite, Link, Episode, EpisodeScore, UnprocessedStream, UnprocessedShow, PollSite, Poll
 
@@ -668,7 +668,7 @@ class DatabaseDatabase:
 
 	@db_error
 	def add_poll(self, show: Show, episode: Episode, site: PollSite, poll_id, commit=True):
-		ts = int(datetime.now(timezone.utc).timestamp())
+		ts = int(datetime.now(UTC).timestamp())
 		self.q.execute("INSERT INTO Polls (show, episode, poll_service, poll_id, timestamp) VALUES (?, ?, ?, ?, ?)", (show.id, episode.number, site.id, poll_id, ts))
 		if commit:
 			self.commit()
