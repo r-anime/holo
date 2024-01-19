@@ -21,10 +21,6 @@ def living_in(the_database):
 		return None
 	return DatabaseDatabase(db)
 
-def dict_factory(cursor, row) -> dict:
-    fields = [column[0] for column in cursor.description]
-    return dict(zip(fields, row))
-
 # Database
 
 def db_error(f):
@@ -56,7 +52,7 @@ def db_error_default(default_value):
 class DatabaseDatabase:
 	def __init__(self, db: sqlite3.Connection):
 		self._db = db
-		self._db.row_factory = dict_factory
+		self._db.row_factory = sqlite3.Row
 		self.q = self._db.cursor()
 
 		# Set up collations
