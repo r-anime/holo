@@ -2,7 +2,7 @@
 # Show search (RSS): https://www.nyaa.eu/?page=rss&cats=1_37&filter=2&term=
 
 from logging import debug, info, warning, error, exception
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 import re
 from urllib.parse import quote_plus as url_quote
 
@@ -171,7 +171,7 @@ def _is_valid_episode(feed_episode):
 		debug("  Excluded")
 		return False
 	episode_date = datetime(*feed_episode.published_parsed[:6])
-	date_diff = datetime.utcnow() - episode_date
+	date_diff = datetime.now(UTC).replace(tzinfo=None) - episode_date
 	if date_diff >= timedelta(days=2):
 		debug("  Episode too old")
 		return False
@@ -187,7 +187,7 @@ def _digest_episode(feed_episode):
 	episode_num = _extract_episode_num(title)
 	if episode_num is not None:
 		debug("  Match found, num={}".format(episode_num))
-		date = feed_episode["published_parsed"] or datetime.utcnow()
+		date = feed_episode["published_parsed"] or datetime.now(UTC).replace(tzinfo=None)
 		link = feed_episode["id"]
 		return Episode(episode_num, None, link, date)
 	debug("  No match found")

@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import UTC, datetime
 import enum
 import copy
 
@@ -69,9 +69,8 @@ class Episode:
 		return "Episode: {} | Episode {}, {} ({})".format(self.date, self.number, self.name, self.link)
 	
 	@property
-	def is_live(self, local=False):
-		now = datetime.now() if local else datetime.utcnow()
-		return now >= self.date
+	def is_live(self):
+		return datetime.now(UTC).replace(tzinfo=None) >= self.date
 
 class EpisodeScore:
 	def __init__(self, show_id, episode, site_id, score):
