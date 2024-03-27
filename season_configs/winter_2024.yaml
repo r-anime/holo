@@ -26,6 +26,7 @@ streams:
 ---
 title: 'Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen'
 title_en: "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord"
+alias: ['Akuyaku Reijou Level 99']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/54837'
@@ -151,6 +152,7 @@ streams:
 ---
 title: 'Chiyu Mahou no Machigatta Tsukaikata: Senjou wo Kakeru Kaifuku Youin'
 title_en: "The Wrong Way to Use Healing Magic"
+alias: ['Chiyu Mahou no Machigatta Tsukaikata','The Wrong Way to Use Healing Magic']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/49613'
@@ -576,6 +578,7 @@ streams:
 ---
 title: 'Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru'
 title_en: "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!"
+alias: ['7th Time Loop', 'Loop 7-kaime no Akuyaku Reijou wa']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/56352'
@@ -587,7 +590,7 @@ info:
     subreddit: '/r/7th_timeloop'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy'
-    museasia: ''
+    museasia: 'https://youtube.com/playlist?list=PLwLSw1_eDZl22NzEffbakJYVXiiWas9KH'
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
@@ -601,6 +604,7 @@ streams:
 ---
 title: 'Mashle: Magic and Muscles Season 2'
 title_en: ""
+alias: ['Mashle 2nd Season']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/55813'
@@ -1175,7 +1179,7 @@ streams:
     nyaa: ''
 ---
 title: 'Wonderful Precure!'
-title_en: ""
+title_en: "Wonderful Pretty Cure!"
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/57390'
@@ -1184,9 +1188,9 @@ info:
     kitsu: 'https://kitsu.io/anime/48275'
     animeplanet: 'http://www.anime-planet.com/anime/wonderful-pretty-cure'
     official: 'https://www.asahi.co.jp/precure/wonderful/'
-    subreddit: ''
+    subreddit: '/r/precure'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/wonderful-precure'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1284,6 +1288,30 @@ info:
     kitsu: 'https://kitsu.io/anime/47583'
     animeplanet: 'http://www.anime-planet.com/anime/yuuki-bakuhatsu-bang-bravern'
     official: 'https://bangbravern.com/'
+    subreddit: ''
+streams:
+    crunchyroll: 'https://www.crunchyroll.com/brave-bang-bravern'
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: ''
+    nyaa: ''
+---
+title: 'Ninja Kamui'
+has_source: false
+info:
+    mal: 'https://myanimelist.net/anime/56285'
+    anilist: 'https://anilist.co/anime/151639'
+    anidb: 'http://anidb.net/18132'
+    kitsu: 'https://kitsu.io/anime/ninja-kamui'
+    animeplanet: 'https://www.anime-planet.com/anime/ninja-kamui'
+    official: ''
     subreddit: ''
 streams:
     crunchyroll: ''
