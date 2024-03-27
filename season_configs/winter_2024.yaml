@@ -26,6 +26,7 @@ streams:
 ---
 title: 'Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen'
 title_en: "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord"
+alias: ['Akuyaku Reijou Level 99']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/54837'
@@ -109,14 +110,14 @@ info:
     kitsu: 'https://kitsu.io/anime/47634'
     animeplanet: 'http://www.anime-planet.com/anime/the-dangers-in-my-heart-2nd-season'
     official: 'https://bokuyaba-anime.com/'
-    subreddit: ''
+    subreddit: '/r/bokunokokoro'
 streams:
     crunchyroll: ''
     museasia: ''
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: 'https://www.hidive.com/tv/the-dangers-in-my-heart/season-2'
+    hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -134,7 +135,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47424'
     animeplanet: 'http://www.anime-planet.com/anime/cardfight-vanguard-divinez'
     official: 'https://anime.cf-vanguard.com/vgd/'
-    subreddit: ''
+    subreddit: '/r/cardfightvanguard'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/cardfight-vanguard-overdress'
     museasia: ''
@@ -151,6 +152,7 @@ streams:
 ---
 title: 'Chiyu Mahou no Machigatta Tsukaikata: Senjou wo Kakeru Kaifuku Youin'
 title_en: "The Wrong Way to Use Healing Magic"
+alias: ['Chiyu Mahou no Machigatta Tsukaikata','The Wrong Way to Use Healing Magic']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/49613'
@@ -309,7 +311,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47250'
     animeplanet: 'http://www.anime-planet.com/anime/high-card-season-2'
     official: 'https://highcard-anime.jp/'
-    subreddit: ''
+    subreddit: '/r/HighCard'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/high-card'
     museasia: ''
@@ -329,7 +331,7 @@ title_en: "Stick it around! Koinu"
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/57012'
-    anilist: ''
+    anilist: 'https://anilist.co/anime/169291'
     anidb: 'http://anidb.net/a18192'
     kitsu: ''
     animeplanet: ''
@@ -459,7 +461,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45761'
     animeplanet: 'http://www.anime-planet.com/anime/bottom-tier-character-tomozaki-new'
     official: 'http://tomozaki-koushiki.com/'
-    subreddit: ''
+    subreddit: '/r/Tomozaki_kun'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/bottom-tier-character-tomozaki'
     museasia: ''
@@ -534,7 +536,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46564'
     animeplanet: 'http://www.anime-planet.com/anime/kingdom-5'
     official: 'https://kingdom-anime.com/'
-    subreddit: ''
+    subreddit: '/r/Kingdom'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/kingdom'
     museasia: ''
@@ -576,6 +578,7 @@ streams:
 ---
 title: 'Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru'
 title_en: "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!"
+alias: ['7th Time Loop', 'Loop 7-kaime no Akuyaku Reijou wa']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/56352'
@@ -587,7 +590,7 @@ info:
     subreddit: '/r/7th_timeloop'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy'
-    museasia: ''
+    museasia: 'https://youtube.com/playlist?list=PLwLSw1_eDZl22NzEffbakJYVXiiWas9KH'
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
@@ -601,6 +604,7 @@ streams:
 ---
 title: 'Mashle: Magic and Muscles Season 2'
 title_en: ""
+alias: ['Mashle 2nd Season']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/55813'
@@ -609,7 +613,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47671'
     animeplanet: 'http://www.anime-planet.com/anime/mashle-magic-and-muscles-2nd-season'
     official: 'https://mashle.pw/'
-    subreddit: ''
+    subreddit: '/r/MASHLE'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/mashle-magic-and-muscles'
     museasia: ''
@@ -634,7 +638,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47185'
     animeplanet: 'http://www.anime-planet.com/anime/gushing-over-magical-girls'
     official: 'https://mahoako-anime.com/'
-    subreddit: ''
+    subreddit: '/r/MahouAko'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -659,7 +663,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46369'
     animeplanet: 'http://www.anime-planet.com/anime/the-witch-and-the-beast'
     official: 'https://www.tbs.co.jp/anime/majo/'
-    subreddit: ''
+    subreddit: '' # r/MajoToYaju exists but last post >1y ago
 streams:
     crunchyroll: 'https://www.crunchyroll.com/the-witch-and-the-beast'
     museasia: ''
@@ -809,7 +813,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46059'
     animeplanet: 'http://www.anime-planet.com/anime/the-unwanted-undead-adventurer'
     official: 'https://nozomanufushi-anime.jp/'
-    subreddit: ''
+    subreddit: '/r/Nozomanu'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/the-unwanted-undead-adventurer'
     museasia: ''
@@ -884,7 +888,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47483'
     animeplanet: 'http://www.anime-planet.com/anime/pon-no-michi'
     official: 'https://ponnomichi-pr.com/'
-    subreddit: ''
+    subreddit: '/r/ponnomichi'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -909,7 +913,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46079'
     animeplanet: 'http://www.anime-planet.com/anime/shaman-king-flowers'
     official: 'https://shamanking-project.com/'
-    subreddit: ''
+    subreddit: '/r/ShamanKing'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1134,7 +1138,7 @@ info:
     kitsu: 'https://kitsu.io/anime/45235'
     animeplanet: 'http://www.anime-planet.com/anime/tsuki-ga-michibiku-isekai-douchuu-2'
     official: 'https://tsukimichi.com/'
-    subreddit: ''
+    subreddit: '/r/TsukiMichi'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/tsukimichi-moonlit-fantasy-'
     museasia: ''
@@ -1159,14 +1163,14 @@ info:
     kitsu: 'https://kitsu.io/anime/46620'
     animeplanet: 'http://www.anime-planet.com/anime/urusei-yatsura-2022-season-2'
     official: 'https://uy-allstars.com/'
-    subreddit: ''
+    subreddit: '/r/uruseiyatsura'
 streams:
     crunchyroll: ''
     museasia: ''
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: 'https://www.hidive.com/tv/urusei-yatsura/season-3'
+    hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -1175,7 +1179,7 @@ streams:
     nyaa: ''
 ---
 title: 'Wonderful Precure!'
-title_en: ""
+title_en: "Wonderful Pretty Cure!"
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/57390'
@@ -1184,9 +1188,9 @@ info:
     kitsu: 'https://kitsu.io/anime/48275'
     animeplanet: 'http://www.anime-planet.com/anime/wonderful-pretty-cure'
     official: 'https://www.asahi.co.jp/precure/wonderful/'
-    subreddit: ''
+    subreddit: '/r/precure'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/wonderful-precure'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1259,7 +1263,7 @@ info:
     kitsu: 'https://kitsu.io/anime/47691'
     animeplanet: 'http://www.anime-planet.com/anime/a-sign-of-affection'
     official: 'https://yubisaki-pr.com/'
-    subreddit: ''
+    subreddit: '/r/ASignofAffection'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/a-sign-of-affection'
     museasia: ''
@@ -1284,6 +1288,30 @@ info:
     kitsu: 'https://kitsu.io/anime/47583'
     animeplanet: 'http://www.anime-planet.com/anime/yuuki-bakuhatsu-bang-bravern'
     official: 'https://bangbravern.com/'
+    subreddit: ''
+streams:
+    crunchyroll: 'https://www.crunchyroll.com/brave-bang-bravern'
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: ''
+    nyaa: ''
+---
+title: 'Ninja Kamui'
+has_source: false
+info:
+    mal: 'https://myanimelist.net/anime/56285'
+    anilist: 'https://anilist.co/anime/151639'
+    anidb: 'http://anidb.net/18132'
+    kitsu: 'https://kitsu.io/anime/ninja-kamui'
+    animeplanet: 'https://www.anime-planet.com/anime/ninja-kamui'
+    official: ''
     subreddit: ''
 streams:
     crunchyroll: ''
