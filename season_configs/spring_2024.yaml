@@ -1,32 +1,5 @@
 ---
-title: 'Ageo to Tim'
-title_en: ""
-alias: ['Ageo and Tim']
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: 'https://ageototim.com/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
-  youtube: ''
-  nyaa: ''
----
 title: 'Astro Note'
-title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/57391'
@@ -51,8 +24,7 @@ streams:
   nyaa: ''
 ---
 title: 'Bartender: Kami no Glass'
-title_en: ""
-alias: ['BARTENDER Glass of God']
+title_en: "Bartender: Glass of God"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53407'
@@ -63,7 +35,7 @@ info:
   official: 'https://bartender-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GVDHX85DV'
+  crunchyroll: 'https://www.crunchyroll.com/bartender-glass-of-god'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -77,7 +49,6 @@ streams:
   nyaa: ''
 ---
 title: 'Blue Archive The Animation'
-title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54309'
@@ -86,7 +57,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47075'
   animeplanet: 'http://www.anime-planet.com/anime/blue-archive-the-animation'
   official: 'https://sh-anime.shochiku.co.jp/bluearchive-anime/'
-  subreddit: ''
+  subreddit: '/r/BlueArchive'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -101,9 +72,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Boku no Hero Academia 7th Season'
-title_en: ""
-alias: ['My Hero Academia Season 7']
+title: 'Boku no Hero Academia Season 7'
+title_en: "My Hero Academia Season 7"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54789'
@@ -112,7 +82,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47232'
   animeplanet: 'http://www.anime-planet.com/anime/my-hero-academia-7'
   official: 'https://heroaca.com/'
-  subreddit: ''
+  subreddit: '/r/BokuNoHeroAcademia'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -128,8 +98,7 @@ streams:
   nyaa: ''
 ---
 title: 'Boukyaku Battery '
-title_en: ""
-alias: ['Oblivion Battery']
+title_en: "Oblivion Battery"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/56165'
@@ -153,9 +122,9 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Chibi Godzilla no Gyakushuu 2024'
-title_en: ""
-alias: ['Chibi Godzilla Raids Again 2024']
+title: 'Chibi Godzilla no Gyakushuu Season 2'
+title_en: "Chibi Godzilla Raids Again Season 2"
+alias: ['Chibi Godzilla no Gyakushuu 2024']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/58351'
@@ -180,7 +149,6 @@ streams:
   nyaa: ''
 ---
 title: 'Date A Live V'
-title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52196'
@@ -189,9 +157,9 @@ info:
   kitsu: 'https://kitsu.io/anime/46207'
   animeplanet: 'http://www.anime-planet.com/anime/date-a-live-v'
   official: 'https://date-a-live5th-anime.com/'
-  subreddit: ''
+  subreddit: '/r/datealive'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GYEX5E1G6'
+  crunchyroll: 'https://www.crunchyroll.com/date-a-live'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -205,8 +173,7 @@ streams:
   nyaa: ''
 ---
 title: 'Dekisokonai to Yobareta Moto Eiyuu wa, Jikka kara Tsuihou Sareta no de Suki Katte ni Ikiru Koto ni Shita'
-title_en: ""
-alias: ['The Banished Former Hero Lives as He Pleases']
+title_en: "The Banished Former Hero Lives as He Pleases"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55717'
@@ -230,8 +197,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'GIRLS BAND CRY'
-title_en: ""
+title: 'Girls Band Cry'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55102'
@@ -255,8 +221,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'HIGHSPEED Étoile'
-title_en: ""
+title: 'Highspeed Étoile'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52405'
@@ -281,8 +246,7 @@ streams:
   nyaa: ''
 ---
 title: 'Hananoi-kun to Koi no Yamai'
-title_en: ""
-alias: ['A Condition Called Love']
+title_en: "A Condition Called Love"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55597'
@@ -291,7 +255,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47574'
   animeplanet: 'http://www.anime-planet.com/anime/a-condition-called-love'
   official: 'https://hananoikun-pr.com/'
-  subreddit: ''
+  subreddit: '/r/AConditionCalledLove'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -307,8 +271,7 @@ streams:
   nyaa: ''
 ---
 title: 'Henjin no Salad Bowl'
-title_en: ""
-alias: ['A Salad Bowl of Eccentrics']
+title_en: "A Salad Bowl of Eccentrics"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55877'
@@ -317,7 +280,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/salad-bowl-of-eccentrics'
   official: 'https://www.tbs.co.jp/anime/hensara/'
-  subreddit: ''
+  subreddit: '/r/SaladBowlofEccentrics'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -332,9 +295,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Hibike! Euphonium 3'
-title_en: ""
-alias: ['Sound! Euphonium 3']
+title: 'Hibike! Euphonium Season 3'
+title_en: "Sound! Euphonium Season 3"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/39894'
@@ -345,7 +307,7 @@ info:
   official: 'http://anime-eupho.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GRDQNQW9Y'
+  crunchyroll: 'https://www.crunchyroll.com/sound-euphonium'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -359,7 +321,6 @@ streams:
   nyaa: ''
 ---
 title: 'Himitsu no AiPri'
-title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/57946'
@@ -384,8 +345,7 @@ streams:
   nyaa: ''
 ---
 title: 'Jiisan Baasan Wakagaeru'
-title_en: ""
-alias: ['Grandpa and Grandma Turn Young Again']
+title_en: "Grandpa and Grandma Turn Young Again"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/56230'
@@ -409,9 +369,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'KENKA DOKUGAKU'
-title_en: ""
-alias: ['Viral Hit']
+title: 'Kenka Dokugaku'
+title_en: "Viral Hit"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/58080'
@@ -436,8 +395,7 @@ streams:
   nyaa: ''
 ---
 title: 'Kaii to Otome to Kamikakushi'
-title_en: ""
-alias: ['Mysterious Disappearances']
+title_en: "Mysterious Disappearances"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54199'
@@ -462,8 +420,7 @@ streams:
   nyaa: ''
 ---
 title: 'Kaijuu 8-gou'
-title_en: ""
-alias: ['KAIJU No.8']
+title_en: "Kaiju No. 8"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/52588'
@@ -472,9 +429,9 @@ info:
   kitsu: 'https://kitsu.io/anime/46300'
   animeplanet: 'http://www.anime-planet.com/anime/kaiju-no-8'
   official: 'https://kaiju-no8.net/'
-  subreddit: ''
+  subreddit: '/r/KaijuNo8'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/kaiju-no-8'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -488,8 +445,7 @@ streams:
   nyaa: ''
 ---
 title: 'Kami wa Game ni Ueteiru.'
-title_en: ""
-alias: ["Gods' Game We Play"]
+title_en: "Gods' Game We Play"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/50869'
@@ -498,7 +454,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45789'
   animeplanet: 'http://www.anime-planet.com/anime/kami-wa-game-ni-ueteiru'
   official: 'https://godsgame-anime.com/'
-  subreddit: ''
+  subreddit: '/r/kamitogame'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -514,8 +470,7 @@ streams:
   nyaa: ''
 ---
 title: 'Karasu wa Aruji wo Erabanai'
-title_en: ""
-alias: ['YATAGARASU: The Raven Does Not Choose Its Master']
+title_en: "Yatagarasu: The Raven Does Not Choose Its Master"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/56980'
@@ -540,8 +495,7 @@ streams:
   nyaa: ''
 ---
 title: 'Kimetsu no Yaiba: Hashira Geiko-hen'
-title_en: ""
-alias: ['Demon Slayer: Kimetsu no Yaiba Hashira Training Arc']
+title_en: "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55701'
@@ -550,9 +504,9 @@ info:
   kitsu: 'https://kitsu.io/anime/47635'
   animeplanet: 'http://www.anime-planet.com/anime/kimetsu-no-yaiba-hashira-geiko-hen'
   official: 'https://kimetsu.com/anime/hashirageikohen/'
-  subreddit: ''
+  subreddit: '/r/KimetsuNoYaiba'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GY5P48XEY'
+  crunchyroll: 'https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -565,9 +519,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Kono Subarashii Sekai ni Shukufuku wo! 3'
-title_en: ""
-alias: ["KONOSUBA -God's blessing on this wonderful world! 3"]
+title: 'Kono Subarashii Sekai ni Shukufuku wo! Season 3'
+title_en: "KonoSuba: God's blessing on this wonderful world! Season 3"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/49458'
@@ -576,9 +529,9 @@ info:
   kitsu: 'https://kitsu.io/anime/44911'
   animeplanet: 'http://www.anime-planet.com/anime/konosuba-gods-blessing-on-this-wonderful-world-3'
   official: 'http://konosuba.com/3rd/'
-  subreddit: ''
+  subreddit: '/r/Konosuba'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GYE5K3GQR'
+  crunchyroll: 'https://www.crunchyroll.com/konosuba-gods-blessing-on-this-wonderful-world'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -591,34 +544,9 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Kumarba'
-title_en: ""
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: 'https://kumarba.com/pages/tv-anime'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
-  youtube: ''
-  nyaa: ''
----
-title: 'Kuroshitsuji -Kishuku Gakkou-hen-'
-title_en: ""
-alias: ['Black Butler -Public School Arc-']
+title: 'Kuroshitsuji: Kishuku Gakkou-hen'
+title_en: "Black Butler: Public School Arc"
+alias: ['Kuroshitsuji -Kishuku Gakkou-hen-']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55855'
@@ -627,7 +555,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/black-butler-2024'
   official: 'https://www.kuroshitsuji.tv/'
-  subreddit: ''
+  subreddit: '/r/blackbutler'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -643,8 +571,7 @@ streams:
   nyaa: ''
 ---
 title: 'Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life'
-title_en: ""
-alias: ["Chillin' in Another World with Level 2 Super Cheat Powers"]
+title_en: "Chillin' in Another World with Level 2 Super Cheat Powers"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/56923'
@@ -653,7 +580,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/chillin-in-another-world-with-level-2-super-cheat-powers'
   official: 'https://lv2-cheat.com/'
-  subreddit: ''
+  subreddit: '/r/Lv2KaraCheatDatta'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -668,9 +595,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Mahouka Koukou no Rettousei 3rd Season'
-title_en: ""
-alias: ['The Irregular at Magic High School Season 3']
+title: 'Mahouka Koukou no Rettousei Season 3'
+title_en: "The Irregular at Magic High School Season 3"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/50713'
@@ -679,9 +605,9 @@ info:
   kitsu: 'https://kitsu.io/anime/45700'
   animeplanet: ''
   official: 'https://mahouka.jp/3rd/'
-  subreddit: ''
+  subreddit: '/r/Mahouka'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GRMGDGZVR'
+  crunchyroll: 'https://www.crunchyroll.com/the-irregular-at-magic-high-school'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -694,9 +620,9 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Maou Gakuin no Futekigousha II Part 2'
-title_en: ""
-alias: ['The Misfit of Demon King Academy II Part 2']
+title: 'Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Part 2'
+title_en: "The Misfit of Demon King Academy II Part 2"
+alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/48418'
@@ -705,9 +631,9 @@ info:
   kitsu: 'https://kitsu.io/anime/45081'
   animeplanet: 'http://www.anime-planet.com/anime/the-misfit-of-demon-king-academy-2-part-ii'
   official: 'https://maohgakuin.com/'
-  subreddit: ''
+  subreddit: '/r/MaouGakuin'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GY243NN0R'
+  crunchyroll: 'https://www.crunchyroll.com/the-misfit-of-demon-king-academy'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -721,8 +647,7 @@ streams:
   nyaa: ''
 ---
 title: 'Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?'
-title_en: ""
-alias: ["An Archdemon's Dilemma: How to Love Your Elf Bride"]
+title_en: "An Archdemon's Dilemma: How to Love Your Elf Bride"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53434'
@@ -746,9 +671,9 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Mushoku Tensei Ⅱ: Isekai Ittara Honki Dasu 2nd Cour'
-title_en: ""
-alias: ['Mushoku Tensei: Jobless Reincarnation Season 2 Part 2']
+title: 'Mushoku Tensei: Isekai Ittara Honki Dasu Season 2 Part 2'
+title_en: "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2"
+alias: ['Mushoku Tensei', 'Jobless Reincarnation']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55888'
@@ -757,9 +682,9 @@ info:
   kitsu: 'https://kitsu.io/anime/47694'
   animeplanet: 'http://www.anime-planet.com/anime/mushoku-tensei-jobless-reincarnation-2nd-season-part-ii'
   official: 'https://mushokutensei.jp/'
-  subreddit: ''
+  subreddit: '/r/mushokutensei'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G24H1N3MP'
+  crunchyroll: 'https://www.crunchyroll.com/mushoku-tensei-jobless-reincarnation'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -772,8 +697,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'NIJIYON ANIMATION 2'
-title_en: ""
+title: 'Nijiyon Animation Season 2'
+alias: ['Nijiyon Animation 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/57623'
@@ -784,7 +709,7 @@ info:
   official: 'https://www.lovelive-anime.jp/nijigasaki/niji4anime.php'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GW4HM75PP'
+  crunchyroll: 'https://www.crunchyroll.com/nijiyon-animation'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -798,8 +723,7 @@ streams:
   nyaa: ''
 ---
 title: 'Oi! Tonbo'
-title_en: ""
-alias: ['Tonbo!']
+title_en: "Tonbo!"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55194'
@@ -824,8 +748,7 @@ streams:
   nyaa: ''
 ---
 title: 'One Room, Hiatari Futsuu, Tenshi-tsuki.'
-title_en: ""
-alias: ['Studio Apartment, Good Lighting, Angel Included']
+title_en: "Studio Apartment, Good Lighting, Angel Included"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/56838'
@@ -849,9 +772,9 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Ookami to Koushinryou MERCHANT MEETS THE WISE WOLF'
-title_en: ""
-alias: ['Spice and Wolf: merchant meets the wise wolf']
+title: 'Ookami to Koushinryou Merchant Meets the Wise Wolf'
+title_en: "Spice and Wolf: Merchant Meets the Wise Wolf"
+alias: ['Spice and Wolf']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51122'
@@ -860,7 +783,7 @@ info:
   kitsu: 'https://kitsu.io/anime/45930'
   animeplanet: 'http://www.anime-planet.com/anime/spice-and-wolf-new'
   official: 'https://spice-and-wolf.com/'
-  subreddit: ''
+  subreddit: '/r/SpiceandWolf'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -875,8 +798,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'RINKAI!'
-title_en: ""
+title: 'Rinkai!'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54859'
@@ -901,7 +823,7 @@ streams:
   nyaa: ''
 ---
 title: 'Re:Monster'
-title_en: ""
+alias: ['Reincarnated: Monster']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/56690'
@@ -910,7 +832,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47964'
   animeplanet: 'http://www.anime-planet.com/anime/re-monster'
   official: 'https://re-monster.com/'
-  subreddit: ''
+  subreddit: '/r/remonster'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -925,33 +847,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'SHIBUYA♡HACHI'
-title_en: ""
-has_source: true
-info:
-  mal: ''
-  anilist: ''
-  anidb: ''
-  kitsu: ''
-  animeplanet: ''
-  official: 'https://www.tv-tokyo.co.jp/anime/shibuya-hachi/'
-  subreddit: ''
-streams:
-  crunchyroll: ''
-  museasia: ''
-  anione: ''
-  funimation|Funimation: ''
-  wakanim|Wakanim: ''
-  hidive: ''
-  animelab|AnimeLab: ''
-  vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
-  youtube: ''
-  nyaa: ''
----
-title: 'SHINKALION Change The World'
-title_en: ""
+title: 'Shinkalion: Change the World'
+alias: ['Shinkalion']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/57798'
@@ -976,8 +873,7 @@ streams:
   nyaa: ''
 ---
 title: 'Sasayaku You ni Koi wo Utau'
-title_en: ""
-alias: ['Whisper Me a Love Song']
+title_en: "Whisper Me a Love Song"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54233'
@@ -986,14 +882,14 @@ info:
   kitsu: 'https://kitsu.io/anime/46971'
   animeplanet: 'http://www.anime-planet.com/anime/whisper-me-a-love-song'
   official: 'https://sasakoi-anime.com/'
-  subreddit: ''
+  subreddit: '/r/WhisperingYouLoveSong'
 streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/dashboard'
+  hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1002,8 +898,7 @@ streams:
   nyaa: ''
 ---
 title: 'Seiyuu Radio no Uraomote'
-title_en: ""
-alias: ['The Many Sides of Voice Actor Radio']
+title_en: "The Many Sides of Voice Actor Radio"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53912'
@@ -1012,7 +907,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46923'
   animeplanet: 'http://www.anime-planet.com/anime/seiyuu-radio-no-uraomote'
   official: 'https://seiyuradio-anime.com/'
-  subreddit: ''
+  subreddit: '/r/SeiyuuRadioUraomote'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1028,8 +923,8 @@ streams:
   nyaa: ''
 ---
 title: 'Sentai Daishikkaku'
-title_en: ""
-alias: ['GO! GO! Loser Ranger!']
+title_en: "Go! Go! Loser Ranger!"
+alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53770'
@@ -1048,8 +943,8 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: 'https://www.hulu.com/hub/anime'
-  disney|Disney: 'https://www.apps.disneyplus.com/'
+  hulu|Hulu: ''
+  disney|Disney: ''
   youtube: ''
   nyaa: ''
 ---
@@ -1065,7 +960,7 @@ info:
   official: 'https://anime.shadowverse.jp/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GYEX244X6'
+  crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1078,9 +973,9 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Shinigami Bocchan to Kuro Maid 3rd Season'
-title_en: ""
-alias: ['The Duke of Death and His Maid Season 3']
+title: 'Shinigami Bocchan to Kuro Maid Season 3'
+title_en: "The Duke of Death and His Maid Season 3"
+alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/56738'
@@ -1089,7 +984,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47984'
   animeplanet: 'http://www.anime-planet.com/anime/the-duke-of-death-and-his-maid-3rd-season'
   official: 'https://bocchan-anime.com/'
-  subreddit: ''
+  subreddit: '/r/KuroMaid'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/series/G79H23V0G'
   museasia: ''
@@ -1105,8 +1000,8 @@ streams:
   nyaa: ''
 ---
 title: 'Shuumatsu Train Doko e Iku?'
-title_en: ""
-alias: ['Train to the End of the World']
+title_en: "Train to the End of the World"
+alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53356'
@@ -1115,7 +1010,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46623'
   animeplanet: 'http://www.anime-planet.com/anime/shuumatsu-train-doko-e-iku'
   official: 'https://shumatsu-train.com/'
-  subreddit: ''
+  subreddit: '/r/ShuumatsuTrain'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1130,8 +1025,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'THE NEW GATE'
-title_en: ""
+title: 'The New Gate'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/57100'
@@ -1155,7 +1049,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'THE iDOLM@STER SHINY COLORS'
+title: 'The iDOLM@STER Shiny Colors'
 title_en: ""
 has_source: true
 info:
@@ -1165,7 +1059,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47222'
   animeplanet: 'http://www.anime-planet.com/anime/the-idolmaster-shiny-colors'
   official: 'https://shinycolors-anime.idolmaster-official.jp/'
-  subreddit: ''
+  subreddit: '/r/TheaterDays'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1181,7 +1075,6 @@ streams:
   nyaa: ''
 ---
 title: 'Tadaima, Okaeri'
-title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/56768'
@@ -1206,8 +1099,7 @@ streams:
   nyaa: ''
 ---
 title: 'Tensei Kizoku, Kantei Skill de Nariagaru'
-title_en: ""
-alias: ["As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World"]
+title_en: "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55265'
@@ -1231,9 +1123,9 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Tensei Shitara Slime Datta Ken 3rd Season'
-title_en: ""
-alias: ['That Time I Got Reincarnated as a Slime Season 3']
+title: 'Tensei Shitara Slime Datta Ken Season 3'
+title_en: "That Time I Got Reincarnated as a Slime Season 3"
+alias: ['Tensura', 'That Time I Got Reincarnated as a Slime Season 3']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53580'
@@ -1244,7 +1136,7 @@ info:
   official: 'https://www.ten-sura.com/anime/tensura'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1258,8 +1150,7 @@ streams:
   nyaa: ''
 ---
 title: 'Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu'
-title_en: ""
-alias: ['I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability']
+title_en: "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53516'
@@ -1284,7 +1175,6 @@ streams:
   nyaa: ''
 ---
 title: 'The Fable'
-title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/55911'
@@ -1303,13 +1193,12 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: 'https://www.hulu.com/hub/anime'
-  disney|Disney: 'https://www.disneyplus.com/series'
+  hulu|Hulu: ''
+  disney|Disney: ''
   youtube: ''
   nyaa: ''
 ---
 title: 'Tonari no Youkai-san'
-title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51461'
@@ -1333,8 +1222,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Touken Ranbu Kai -Kyoden Moyuru Honnouji-'
-title_en: ""
+title: 'Touken Ranbu Kai: Kyoden Moyuru Honnouji'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/51859'
@@ -1359,7 +1247,6 @@ streams:
   nyaa: ''
 ---
 title: 'Unnamed Memory'
-title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53835'
@@ -1368,7 +1255,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46921'
   animeplanet: 'http://www.anime-planet.com/anime/unnamed-memory'
   official: 'https://unnamedmemory.com/'
-  subreddit: ''
+  subreddit: '/r/UnnamedMemory'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1384,7 +1271,6 @@ streams:
   nyaa: ''
 ---
 title: 'Vampire Dormitory'
-title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/57031'
@@ -1408,8 +1294,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'WIND BREAKER'
-title_en: ""
+title: 'Wind Breaker'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54900'
@@ -1434,8 +1319,8 @@ streams:
   nyaa: ''
 ---
 title: 'Yoru no Kurage wa Oyogenai'
-title_en: ""
-alias: ["Jellyfish Can't Swim in the Night"]
+title_en: "Jellyfish Can't Swim in the Night"
+alias: [""]
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/54839'
@@ -1444,14 +1329,14 @@ info:
   kitsu: 'https://kitsu.io/anime/47233'
   animeplanet: 'http://www.anime-planet.com/anime/jellyfish-cant-swim-in-the-night'
   official: 'https://yorukura-anime.com/'
-  subreddit: ''
+  subreddit: '/r/JellyfishSwimNight'
 streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/dashboard'
+  hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1460,8 +1345,7 @@ streams:
   nyaa: ''
 ---
 title: 'Yozakura-san Chi no Daisakusen'
-title_en: ""
-alias: ['Mission: Yozakura Family']
+title_en: "Mission: Yozakura Family"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53865'
@@ -1470,7 +1354,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46869'
   animeplanet: 'http://www.anime-planet.com/anime/mission-yozakura-family'
   official: 'https://mission-yozakura-family.com/'
-  subreddit: ''
+  subreddit: '/r/MissionYozakuraFamily'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1480,14 +1364,13 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: 'https://www.hulu.com/hub/anime'
+  hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
   nyaa: ''
 ---
 title: 'Yuru Camp△ Season 3'
-title_en: ""
-alias: ['Laid-Back Camp Season 3']
+title_en: "Laid-Back Camp Season 3"
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53410'
@@ -1496,9 +1379,9 @@ info:
   kitsu: 'https://kitsu.io/anime/46649'
   animeplanet: 'http://www.anime-planet.com/anime/laid-back-camp-3rd-season'
   official: 'https://yurucamp.jp/third/'
-  subreddit: ''
+  subreddit: '/r/laidbackcamp'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/GRWEW95KR'
+  crunchyroll: 'https://www.crunchyroll.com/laid-back-camp'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1508,5 +1391,29 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Sand Land: The Series'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/57160'
+  anilist: 'https://anilist.co/anime/175642'
+  anidb: 'http://anidb.net/a18277'
+  kitsu: 'https://kitsu.io/anime/sand-land-the-series'
+  animeplanet: 'https://www.anime-planet.com/anime/sand-land-the-series'
+  official: 'https://sandland.jp/theseries/'
+  subreddit: ''
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/laid-back-camp'
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: 'https://www.hulu.com/series/ede9d04a-8330-4524-8976-40b1520d4633'
+  disney|Disney: 'https://disneyplus.com/series/sand-land-the-series/7I31jGPKAwz5'
   youtube: ''
   nyaa: ''
