@@ -986,7 +986,7 @@ info:
   official: 'https://bocchan-anime.com/'
   subreddit: '/r/KuroMaid'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/series/G79H23V0G'
+  crunchyroll: 'https://www.crunchyroll.com/the-duke-of-death-and-his-maid'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1395,6 +1395,7 @@ streams:
   nyaa: ''
 ---
 title: 'Sand Land: The Series'
+alias: ['Sand Land - The Series']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/57160'
