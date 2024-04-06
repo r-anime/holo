@@ -248,6 +248,7 @@ streams:
     vrv|VRV: ''
     hulu|Hulu: ''
     disney|Disney: ''
+    netflix|Netflix: 'https://www.netflix.com/title/81564899'
     youtube: ''
     nyaa: ''
 ---
