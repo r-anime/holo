@@ -107,7 +107,7 @@ info:
   kitsu: 'https://kitsu.io/anime/48388'
   animeplanet: ''
   official: 'https://boukyaku-battery.com/'
-  subreddit: ''
+  subreddit: '' # r/OblivionBattery exists but empty
 streams:
   crunchyroll: ''
   museasia: ''
@@ -206,7 +206,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47356'
   animeplanet: 'http://www.anime-planet.com/anime/girls-band-cry'
   official: 'https://girls-band-cry.com/'
-  subreddit: ''
+  subreddit: '/r/girlsbandcry'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -305,7 +305,7 @@ info:
   kitsu: 'https://kitsu.io/anime/42372'
   animeplanet: 'http://www.anime-planet.com/anime/hibike-euphonium-kumiko-3-nensei-hen'
   official: 'http://anime-eupho.com/'
-  subreddit: ''
+  subreddit: '/r/HibikeEuphonium'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/sound-euphonium'
   museasia: ''
@@ -479,7 +479,7 @@ info:
   kitsu: 'https://kitsu.io/anime/48185'
   animeplanet: 'http://www.anime-planet.com/anime/karasu-wa-aruji-wo-erabanai'
   official: 'https://www.nhk-character.com/karasu/'
-  subreddit: ''
+  subreddit: '' # r/Yatagarasu exists but no mods
 streams:
   crunchyroll: ''
   museasia: ''
@@ -707,7 +707,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/nijiyon-animation-2'
   official: 'https://www.lovelive-anime.jp/nijigasaki/niji4anime.php'
-  subreddit: ''
+  subreddit: '/r/LoveLive'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/nijiyon-animation'
   museasia: ''
@@ -757,7 +757,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/studio-apartment-good-lighting-angel-included'
   official: 'https://tenshitsuki.com/'
-  subreddit: ''
+  subreddit: '/r/StudioApartmentAngel'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -924,7 +924,7 @@ streams:
 ---
 title: 'Sentai Daishikkaku'
 title_en: "Go! Go! Loser Ranger!"
-alias: ['']
+alias: ['Ranger Reject']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53770'
@@ -933,7 +933,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46840'
   animeplanet: 'http://www.anime-planet.com/anime/go-go-loser-ranger'
   official: 'http://anime-sentai-daishikkaku.com/'
-  subreddit: ''
+  subreddit: '/r/RangerReject'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1034,7 +1034,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/the-new-gate'
   official: 'https://the-new-gate-pr.com/'
-  subreddit: ''
+  subreddit: '/r/TheNewGate'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1108,7 +1108,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47481'
   animeplanet: 'http://www.anime-planet.com/anime/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world'
   official: 'https://kanteiskill.com/'
-  subreddit: ''
+  subreddit: '/r/TenseiKizoku'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1134,7 +1134,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46729'
   animeplanet: 'http://www.anime-planet.com/anime/that-time-i-got-reincarnated-as-a-slime-season-3'
   official: 'https://www.ten-sura.com/anime/tensura'
-  subreddit: ''
+  subreddit: '/r/TenseiSlime'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime'
   museasia: ''
@@ -1404,9 +1404,9 @@ info:
   kitsu: 'https://kitsu.io/anime/sand-land-the-series'
   animeplanet: 'https://www.anime-planet.com/anime/sand-land-the-series'
   official: 'https://sandland.jp/theseries/'
-  subreddit: ''
+  subreddit: '/r/SandLand'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/laid-back-camp'
+  crunchyroll: ''
   museasia: ''
   anione: ''
   funimation|Funimation: ''
