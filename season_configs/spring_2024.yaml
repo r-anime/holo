@@ -257,7 +257,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47574'
   animeplanet: 'http://www.anime-planet.com/anime/a-condition-called-love'
   official: 'https://hananoikun-pr.com/'
-  subreddit: '/r/AConditionCalledLove'
+  subreddit: '/r/AConditionCalledLove_'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/a-condition-called-love'
   museasia: ''
@@ -1418,5 +1418,31 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: 'https://www.hulu.com/series/ede9d04a-8330-4524-8976-40b1520d4633'
   disney|Disney: 'https://disneyplus.com/series/sand-land-the-series/7I31jGPKAwz5'
+  youtube: ''
+  nyaa: ''
+---
+title: 'Boku no Hero Academia: Memories'
+title_en: "My Hero Academia: Memories"
+alias: ['Boku no Hero Academia - Memories']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/57519'
+  anilist: ''
+  anidb: ''
+  kitsu: ''
+  animeplanet: ''
+  official: 'https://heroaca.com/'
+  subreddit: '/r/BokuNoHeroAcademia'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/my-hero-academia'
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
   youtube: ''
   nyaa: ''
