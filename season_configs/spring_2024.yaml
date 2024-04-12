@@ -109,7 +109,7 @@ info:
   official: 'https://boukyaku-battery.com/'
   subreddit: '' # r/OblivionBattery exists but empty
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/oblivion-battery'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -125,7 +125,7 @@ streams:
 title: 'Chibi Godzilla no Gyakushuu Season 2'
 title_en: "Chibi Godzilla Raids Again Season 2"
 alias: ['Chibi Godzilla no Gyakushuu 2024']
-has_source: true
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/58351'
   anilist: 'https://anilist.co/anime/175869'
@@ -145,6 +145,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   disney|Disney: ''
+  youtube|Youtube: 'https://www.youtube.com/playlist?list=PLg0UgpeODbGH2QnvnptwCJMrwFtZ5Mdwb'
   youtube: ''
   nyaa: ''
 ---
@@ -358,7 +359,7 @@ info:
   official: 'https://jisanbasan.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/grandpa-and-grandma-turn-young-again'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -378,12 +379,12 @@ info:
   mal: 'https://myanimelist.net/anime/58080'
   anilist: 'https://anilist.co/anime/174653'
   anidb: 'http://anidb.net/a18490'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/48533'
   animeplanet: 'http://www.anime-planet.com/anime/viral-hit'
   official: 'https://kenkadokugaku.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/viral-hit'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -408,7 +409,7 @@ info:
   official: 'https://totokami.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/mysterious-disappearances'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -579,12 +580,12 @@ info:
   mal: 'https://myanimelist.net/anime/56923'
   anilist: 'https://anilist.co/anime/170130'
   anidb: 'http://anidb.net/a18247'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/48125'
   animeplanet: 'http://www.anime-planet.com/anime/chillin-in-another-world-with-level-2-super-cheat-powers'
   official: 'https://lv2-cheat.com/'
   subreddit: '/r/Lv2KaraCheatDatta'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/chillin-in-another-world-with-level-2-super-cheat-powers'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -650,6 +651,7 @@ streams:
 ---
 title: 'Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?'
 title_en: "An Archdemon's Dilemma: How to Love Your Elf Bride"
+alias: ['Madome']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/53434'
@@ -694,7 +696,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/787a5fb4-9cba-4a69-96b2-4fb3b10c860a'
   disney|Disney: ''
   youtube: ''
   nyaa: ''
@@ -756,7 +758,7 @@ info:
   mal: 'https://myanimelist.net/anime/56838'
   anilist: 'https://anilist.co/anime/169927'
   anidb: 'http://anidb.net/a18225'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/48049'
   animeplanet: 'http://www.anime-planet.com/anime/studio-apartment-good-lighting-angel-included'
   official: 'https://tenshitsuki.com/'
   subreddit: '/r/StudioApartmentAngel'
@@ -850,7 +852,7 @@ streams:
   nyaa: ''
 ---
 title: 'Shinkalion: Change the World'
-alias: ['Shinkalion']
+alias: ['Shinkalion Change the World','Shinkalion']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/57798'
@@ -911,7 +913,7 @@ info:
   official: 'https://seiyuradio-anime.com/'
   subreddit: '/r/SeiyuuRadioUraomote'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-many-sides-of-voice-actor-radio'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -945,8 +947,8 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
+  hulu|Hulu: 'https://www.hulu.com/series/9d994955-d20b-43c7-99be-3dfd3c6b6f22'
+  disney|Disney: 'https://www.disneyplus.com/series/go-go-loser-ranger/2VX5fKgeiVEl'
   youtube: ''
   nyaa: ''
 ---
@@ -1063,7 +1065,7 @@ info:
   official: 'https://shinycolors-anime.idolmaster-official.jp/'
   subreddit: '/r/TheaterDays'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-idolmster-shiny-colors'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1087,7 +1089,7 @@ info:
   official: 'https://tadaoka-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/tadaima-okaeri'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1112,7 +1114,7 @@ info:
   official: 'https://kanteiskill.com/'
   subreddit: '/r/TenseiKizoku'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1196,7 +1198,7 @@ streams:
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: 'https://www.hulu.com/series/the-fable-36c2be07-2f2e-400f-9da5-aed0b5d401cb'
-  disney|Disney: ''
+  disney|Disney: 'https://www.disneyplus.com/series/the-fable/5lo11H9f2Cg4'
   youtube: ''
   nyaa: ''
 ---
@@ -1211,7 +1213,7 @@ info:
   official: 'https://tonari-no-yokai-san.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/tonari-no-yokai-san'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1259,7 +1261,7 @@ info:
   official: 'https://unnamedmemory.com/'
   subreddit: '/r/UnnamedMemory'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/unnamed-memory'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1283,7 +1285,7 @@ info:
   official: 'https://vampire-dormitory.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/vampire-dormitory'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1367,7 +1369,7 @@ streams:
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: 'https://www.hulu.com/series/mission-yozakura-family-ac689bea-f955-4d95-8693-7b87b5a309cb'
-  disney|Disney: ''
+  disney|Disney: 'https://www.disneyplus.com/series/mission-yozakura-family/fiCVxc9GZNVm'
   youtube: ''
   nyaa: ''
 ---
