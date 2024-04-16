@@ -484,7 +484,7 @@ info:
   official: 'https://www.nhk-character.com/karasu/'
   subreddit: '' # r/Yatagarasu exists but no mods
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/yatagarasu-the-raven-does-not-choose-its-master'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -560,7 +560,7 @@ info:
   official: 'https://www.kuroshitsuji.tv/'
   subreddit: '/r/blackbutler'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/black-butler'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -636,7 +636,7 @@ info:
   official: 'https://maohgakuin.com/'
   subreddit: '/r/MaouGakuin'
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/the-misfit-of-demon-king-academy'
+  crunchyroll: 'https://www.crunchyroll.com/the-misfit-of-demon-king-academy#12'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1040,7 +1040,7 @@ info:
   official: 'https://the-new-gate-pr.com/'
   subreddit: '/r/TheNewGate'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-new-gate'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1063,7 +1063,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47222'
   animeplanet: 'http://www.anime-planet.com/anime/the-idolmaster-shiny-colors'
   official: 'https://shinycolors-anime.idolmaster-official.jp/'
-  subreddit: '/r/TheaterDays'
+  subreddit: '/r/ShinyColors'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/the-idolmster-shiny-colors'
   museasia: ''
@@ -1112,7 +1112,7 @@ info:
   kitsu: 'https://kitsu.io/anime/47481'
   animeplanet: 'http://www.anime-planet.com/anime/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world'
   official: 'https://kanteiskill.com/'
-  subreddit: '/r/TenseiKizoku'
+  subreddit: '/r/KanteiSkill'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world'
   museasia: ''
