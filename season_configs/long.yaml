@@ -11,10 +11,6 @@ info:
   subreddit: '/r/OnePiece'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/one-piece'
-  funimation|Funimation: 'https://www.funimation.com/shows/one-piece/'
-  animelab|AnimeLab: 'https://www.animelab.com/shows/one-piece'
-  vrv|VRV: 'https://vrv.co/series/GRMG8ZQZR/One-Piece'
-  nyaa: 'One Piece'
 ---
 title: 'Yu-Gi-Oh! VRAINS'
 alias: ['Yu☆Gi☆Oh! VRAINS', 'Yuu Gi Ou: Vrains']
