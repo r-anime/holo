@@ -660,7 +660,7 @@ info:
   kitsu: 'https://kitsu.io/anime/46687'
   animeplanet: 'http://www.anime-planet.com/anime/an-archdemons-dilemma-how-to-love-your-elf-bride'
   official: 'https://madome-anime.com/'
-  subreddit: ''
+  subreddit: '/r/AnArchdemonsDilemma'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/an-archdemons-dilemma-how-to-love-your-elf-bride'
   museasia: ''
@@ -874,7 +874,7 @@ streams:
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
-  nyaa: ''
+  nyaa: 'Shinkalion Change the World'
 ---
 title: 'Sasayaku You ni Koi wo Utau'
 title_en: "Whisper Me a Love Song"
@@ -1035,7 +1035,7 @@ info:
   mal: 'https://myanimelist.net/anime/57100'
   anilist: 'https://anilist.co/anime/170890'
   anidb: 'http://anidb.net/a18270'
-  kitsu: ''
+  kitsu: 'https://kitsu.io/anime/48214'
   animeplanet: 'http://www.anime-planet.com/anime/the-new-gate'
   official: 'https://the-new-gate-pr.com/'
   subreddit: '/r/TheNewGate'
@@ -1237,7 +1237,7 @@ info:
   official: 'https://touken-kai.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/touken-ranbu-kai-kyoden'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1447,4 +1447,29 @@ streams:
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: ''
+  nyaa: ''
+---
+title: 'Jantama Kan!!'
+title_en: "Mahjong Soul Kan!!"
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/57753'
+  anilist: 'https://anilist.co/anime/172964/Jongtama-Kan'
+  anidb: 'http://anidb.net/a18390'
+  kitsu: ''
+  animeplanet: 'http://www.anime-planet.com/anime/mahjong-soul-kan'
+  official: 'https://mahjongsoul-kang.jp/'
+  subreddit: '/r/mahjongsoul'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: 'https://www.youtube.com/playlist?list=PLoAgSyWcJ8j-fizVOQA1OuTDu1-kK1CI0'
   nyaa: ''
