@@ -83,7 +83,8 @@ if __name__ == "__main__":
 	parser.add_argument("-m", "--module", dest="module", nargs=1, choices=["setup", "edit", "episode", "update", "find", "create", "batch"], default=["episode"], help="runs the specified module")
 	parser.add_argument("-c", "--config", dest="config_file", nargs=1, default=["config.ini"], help="use or create the specified database location")
 	parser.add_argument("-d", "--database", dest="db_name", nargs=1, default=None, help="use or create the specified database location")
-	parser.add_argument("-s", "--subreddit", dest="subreddit", nargs=1, default=None, help="set the subreddit on which to make posts")
+	parser.add_argument("-s", "--subreddit", "--community", dest="subreddit", nargs=1, default=None, help="set the subreddit/community on which to make posts")
+	parser.add_argument("-l", "--lemmy-instance", dest="lemmy_instance", nargs=1, default=None, help="set the instance hosting the community (lemmy backend)")
 	parser.add_argument("-o", "--output", dest="output", nargs=1, default="db", help="set the output mode (db or yaml) if supported")
 	parser.add_argument("-L", "--log-dir", dest="log_dir", nargs=1, default=["logs"], help="set the log directory")
 	parser.add_argument("-v", "--version", action="version", version="{} v{}, {}".format(name, version, description))
@@ -107,6 +108,8 @@ if __name__ == "__main__":
 		c.database = args.db_name[0]
 	if args.subreddit is not None:
 		c.subreddit = args.subreddit[0]
+	if args.lemmy_instance is not None:
+		c.l_instance = args.lemmy_instance[0]
 
 	# Start
 	use_log = args.no_input
