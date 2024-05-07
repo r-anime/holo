@@ -135,4 +135,4 @@ def _digest_episode(feed_episode):
     link = episode_link
     date = datetime.utcnow() # Not included in stream !
 
-    return Episode(num, name, link, date)
+    return Episode(number=num, name=name, link=link, date=date)
