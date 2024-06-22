@@ -583,7 +583,7 @@ info:
   kitsu: 'https://kitsu.io/anime/48125'
   animeplanet: 'http://www.anime-planet.com/anime/chillin-in-another-world-with-level-2-super-cheat-powers'
   official: 'https://lv2-cheat.com/'
-  subreddit: '/r/Lv2KaraCheatDatta'
+  subreddit: '/r/ChillinAnotherWorld'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/chillin-in-another-world-with-level-2-super-cheat-powers'
   museasia: ''
@@ -1472,4 +1472,134 @@ streams:
   hulu|Hulu: ''
   disney|Disney: ''
   youtube: 'https://www.youtube.com/playlist?list=PLoAgSyWcJ8j-fizVOQA1OuTDu1-kK1CI0'
+  nyaa: ''
+---
+title: 'T.P BON'
+title_en: ""
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/56840'
+  anilist: 'https://anilist.co/anime/169930/TP-Bon/'
+  anidb: 'https://anidb.net/anime/18227'
+  kitsu: ''
+  animeplanet: ''
+  official: ''
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  netflix|Netflix: 'https://www.netflix.com/title/81497635'
+  youtube: ''
+  nyaa: ''
+---
+title: 'Dead Dead Demons Dededede Destruction'
+title_en: ""
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/58883'
+  anilist: 'https://anilist.co/anime/177697'
+  anidb: 'https://anidb.net/anime/17273'
+  kitsu: 'https://kitsu.io/anime/dead-dead-demons-dededede-destruction'
+  animeplanet: 'https://www.anime-planet.com/anime/dead-dead-demons-dededede-destruction-web'
+  official: 'https://dededede.jp/'
+  subreddit: '/r/Dededededestruction'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/dead-dead-demons-dededede-destruction'
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  netflix|Netflix: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Garouden: The Way of the Lone Wolf'
+title_en: ""
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/58717'
+  anilist: 'https://anilist.co/anime/177106'
+  anidb: 'https://anidb.net/anime/18593'
+  kitsu: 'https://kitsu.io/anime/garouden-the-way-of-the-lone-wolf'
+  animeplanet: 'https://www.anime-planet.com/anime/garouden-the-way-of-the-lone-wolf'
+  official: ''
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  netflix|Netflix: 'https://www.netflix.com/title/81215625'
+  youtube: ''
+  nyaa: ''
+---
+title: 'Code Geass: Dakkan no Rozé'
+title_en: "Code Geass: Rozé of the Recapture"
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/56835'
+  anilist: 'https://anilist.co/anime/126830'
+  anidb: 'https://anidb.net/anime/15910'
+  kitsu: 'https://kitsu.io/anime/code-geass-dakkan-no-z'
+  animeplanet: 'https://www.anime-planet.com/anime/code-geass-dakkan-no-roze'
+  official: 'https://geass.jp/roze/'
+  subreddit: 'r/CodeGeass'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: 'https://www.disneyplus.com/series/code-geass-roze-of-the-recapture/4XHzb6tQBRtd'
+  netflix|Netflix: ''
+  youtube: ''
+  nyaa: 'Code Geass - Dakkan no Roze'
+---
+title: 'Rising Impact'
+title_en: ""
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/57487'
+  anilist: 'https://anilist.co/anime/171115'
+  anidb: 'https://anidb.net/anime/18305'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/rising-impact'
+  official: ''
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  netflix|Netflix: 'https://www.netflix.com/title/81563026'
+  youtube: ''
   nyaa: ''
