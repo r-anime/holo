@@ -1137,7 +1137,7 @@ info:
     anilist: 'https://anilist.co/anime/139518'
     anidb: 'http://anidb.net/a16786'
     kitsu: 'https://kitsu.io/anime/45235'
-    animeplanet: 'http://www.anime-planet.com/anime/tsuki-ga-michibiku-isekai-douchuu-2'
+    animeplanet: 'https://www.anime-planet.com/anime/tsukimichi-moonlit-fantasy-2'
     official: 'https://tsukimichi.com/'
     subreddit: '/r/TsukiMichi'
 streams:
@@ -1181,7 +1181,7 @@ streams:
 ---
 title: 'Wonderful Precure!'
 title_en: "Wonderful Pretty Cure!"
-has_source: true
+has_source: false
 info:
     mal: 'https://myanimelist.net/anime/57390'
     anilist: 'https://anilist.co/anime/171030'
