@@ -36,12 +36,12 @@ info:
     official: 'https://ririsa-official.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/25-dimensional-seduction'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/24579'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -59,7 +59,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46525'
     animeplanet: 'http://www.anime-planet.com/anime/atri-my-dear-moments'
     official: 'https://atri-anime.com/'
-    subreddit: ''
+    subreddit: '/r/ATRImydearmoments'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -191,7 +191,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/24581'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -216,7 +216,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/24582'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -261,7 +261,7 @@ info:
     official: 'https://gijiharem.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/pseudo-harem'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -336,7 +336,7 @@ info:
     official: 'https://hazurewaku-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/failure-frame-i-became-the-strongest-and-annihilated-everything-with-low-level-spells'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -561,7 +561,7 @@ info:
     official: 'https://konofuka.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/quality-assurance-in-another-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -676,6 +676,7 @@ streams:
 ---
 title: 'Maougun Saikyou no Majutsushi wa Ningen datta'
 title_en: "The Strongest Magician in the Demon Lord's Army was a Human"
+alias: ['Maou Gun Saikyou no Majutsushi wa Ningen datta']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/57876'
@@ -866,7 +867,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/24576'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -886,7 +887,7 @@ info:
     official: 'https://ramenakaneko.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/ramen-akaneko'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1036,7 +1037,7 @@ info:
     official: 'https://shinmaiossan-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-ossan-newbie-adventurer-trained-to-death-by-the-most-powerful-party-became-invincible'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1059,7 +1060,7 @@ info:
     kitsu: 'https://kitsu.io/anime/48415'
     animeplanet: 'http://www.anime-planet.com/anime/shoushimin-series'
     official: 'https://shoshimin-anime.com/'
-    subreddit: ''
+    subreddit: '/r/Shoushimin'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1110,7 +1111,7 @@ info:
     official: 'https://tasogare-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/twilight-out-of-focus'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1131,11 +1132,11 @@ info:
     anilist: 'https://anilist.co/anime/174070'
     anidb: 'http://anidb.net/a18453'
     kitsu: 'https://kitsu.io/anime/48466'
-    animeplanet: ''
+    animeplanet: 'http://www.anime-planet.com/anime/tasuketsu-fate-of-the-majority'
     official: 'https://www.vap.co.jp/tasuketsu_anime/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/tasuketsu-fate-of-the-majority-'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1185,7 +1186,7 @@ info:
     official: 'https://roshidere.com/'
     subreddit: '/r/TokidokiBosottoRoshia'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/alya-sometimes-hides-her-feelings-in-russian'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1291,7 +1292,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/24567'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
