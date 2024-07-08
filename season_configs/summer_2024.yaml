@@ -411,7 +411,7 @@ info:
     official: 'https://tog-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/tower-of-god#13'
+    crunchyroll: 'https://www.crunchyroll.com/tower-of-god|13'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -461,7 +461,7 @@ info:
     official: 'https://kimisentv.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/our-last-crusade-or-the-rise-of-a-new-world#12'
+    crunchyroll: 'https://www.crunchyroll.com/our-last-crusade-or-the-rise-of-a-new-world|12'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -712,7 +712,7 @@ info:
     official: 'https://goddess-cafe.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/the-caf-terrace-and-its-goddesses#12'
+    crunchyroll: 'https://www.crunchyroll.com/the-caf-terrace-and-its-goddesses|12'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -812,7 +812,7 @@ info:
     official: 'https://nierautomata-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/nierautomata-ver11a#12'
+    crunchyroll: 'https://www.crunchyroll.com/nierautomata-ver11a|12'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -937,7 +937,7 @@ info:
     official: 'https://shy-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/shy#12'
+    crunchyroll: 'https://www.crunchyroll.com/shy|12'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -962,7 +962,7 @@ info:
     official: 'https://sengoku-youko.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/sengoku-youko#13'
+    crunchyroll: 'https://www.crunchyroll.com/sengoku-youko|13'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
