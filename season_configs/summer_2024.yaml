@@ -8,7 +8,7 @@ info:
     anidb: ''
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/head-start-at-birth'
-    official: ''
+    official: 'https://www.shusuisha.com/lp/info0saiji'
     subreddit: ''
 streams:
     crunchyroll: ''
@@ -34,7 +34,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46842'
     animeplanet: 'http://www.anime-planet.com/anime/25-dimensional-seduction'
     official: 'https://ririsa-official.com/'
-    subreddit: ''
+    subreddit: '/r/25DimensionalSeduct'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/25-dimensional-seduction'
     museasia: ''
@@ -224,7 +224,7 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Fair Tail: 100 Years Quest'
+title: 'Fairy Tail: 100 Years Quest'
 title_en: ""
 has_source: true
 info:
@@ -236,7 +236,7 @@ info:
     official: 'https://www.fairytail100yq.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/fairy-tail-100-years-ques'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -284,7 +284,7 @@ info:
     kitsu: 'https://kitsu.io/anime/46276'
     animeplanet: 'http://www.anime-planet.com/anime/gimai-seikatsu'
     official: 'https://gimaiseikatsu-anime.com/'
-    subreddit: ''
+    subreddit: '/r/GimaiSeikatsu'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/days-with-my-stepsister'
     museasia: ''
@@ -636,7 +636,7 @@ info:
     official: 'https://dahliya-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -762,7 +762,7 @@ info:
     official: 'https://mobkara.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/a-nobodys-way-up-to-an-exploration-hero'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -837,7 +837,7 @@ info:
     official: 'https://nigewaka.run/'
     subreddit: '/r/TheElusiveSamurai'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-elusive-samurai'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1012,7 +1012,7 @@ info:
     official: 'https://www.anime-shikanoko.jp/'
     subreddit: '/r/Nokotan'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/my-deer-friend-nokotan'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1062,7 +1062,7 @@ info:
     official: 'https://shoshimin-anime.com/'
     subreddit: '/r/Shoushimin'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/shoshimin-how-to-become-ordinary'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1161,7 +1161,7 @@ info:
     official: 'https://sakuna-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/sakuna-of-rice-and-ruin'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1211,7 +1211,7 @@ info:
     official: 'https://wistoria-anime.com/'
     subreddit: '/r/Wistoria'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/wistoria-wand-and-sword'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1262,7 +1262,7 @@ info:
     official: 'https://narenare-anime.com/'
     subreddit: '/r/NanareHananare'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/narenare-cheer-for-you-'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
