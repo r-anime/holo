@@ -61,7 +61,7 @@ info:
     official: 'https://atri-anime.com/'
     subreddit: '/r/ATRImydearmoments'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/atri-my-dear-moments-'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -111,7 +111,7 @@ info:
     official: 'https://bye2earth.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/bye-bye-earth'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -199,6 +199,31 @@ streams:
     youtube: ''
     nyaa: ''
 ---
+title: 'Egumi Legacy'
+title_en: ""
+has_source: false
+info:
+    mal: 'https://myanimelist.net/anime/58926'
+    anilist: 'https://anilist.co/anime/177097'
+    anidb: 'http://anidb.net/a18747'
+    kitsu: ''
+    animeplanet: 'http://www.anime-planet.com/anime/egumi-legacy'
+    official: 'https://egumilegacy.com/'
+    subreddit: ''
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: ''
+    nyaa: ''
+---
 title: 'Elf-san wa Yaserarenai.'
 title_en: "Plus-Sized Elf"
 has_source: true
@@ -236,7 +261,7 @@ info:
     official: 'https://www.fairytail100yq.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/fairy-tail-100-years-ques'
+    crunchyroll: 'https://www.crunchyroll.com/fairy-tail-100-years-quest'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -361,7 +386,7 @@ info:
     official: 'https://isekaishikkaku.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/no-longer-allowed-in-another-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -386,7 +411,7 @@ info:
     official: 'https://isekai-yururi-anime.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/a-journey-through-another-world-raising-kids-while-adventuring'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -411,7 +436,7 @@ info:
     official: 'https://tog-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/tower-of-god|13'
+    crunchyroll: 'https://www.crunchyroll.com/tower-of-god'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -436,7 +461,7 @@ info:
     official: 'https://mahoaku-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-magical-girl-and-the-evil-lieutenant-used-to-be-archenemies'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -503,10 +528,10 @@ title: 'Kinnikuman: Perfect Origin-hen Episode 0'
 title_en: "Kinnikuman: Perfect Origin Arc Episode 0"
 has_source: true
 info:
-    mal: ''
+    mal: 'https://myanimelist.net/anime/59162'
     anilist: ''
     anidb: ''
-    kitsu: ''
+    kitsu: 'https://kitsu.io/anime/49022'
     animeplanet: ''
     official: 'https://kin29man-anime.com/'
     subreddit: ''
@@ -661,7 +686,7 @@ info:
     official: 'https://makeine-anime.com/'
     subreddit: '/r/TooManyLosingHeroines'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/makeine-too-many-losing-heroines'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -787,7 +812,7 @@ info:
     official: 'https://www.nazeboku.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/why-does-nobody-remember-me-in-this-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -905,7 +930,7 @@ title_en: ""
 has_source: true
 info:
     mal: ''
-    anilist: ''
+    anilist: 'https://anilist.co/anime/150103'
     anidb: 'http://anidb.net/a17422'
     kitsu: ''
     animeplanet: ''
