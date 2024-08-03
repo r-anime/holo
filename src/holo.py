@@ -86,6 +86,7 @@ if __name__ == "__main__":
 	parser.add_argument("-s", "--subreddit", dest="subreddit", nargs=1, default=None, help="set the subreddit on which to make posts")
 	parser.add_argument("-o", "--output", dest="output", nargs=1, default="db", help="set the output mode (db or yaml) if supported")
 	parser.add_argument("-L", "--log-dir", dest="log_dir", nargs=1, default=["logs"], help="set the log directory")
+	parser.add_argument("-e", "--max-episodes", dest="max_episodes", type=int, default=0, help="set the maximum number of threads to post at once for a single show")
 	parser.add_argument("-v", "--version", action="version", version="{} v{}, {}".format(name, version, description))
 	parser.add_argument("--debug", action="store_true", default=False)
 	parser.add_argument("extra", nargs="*")
@@ -107,6 +108,8 @@ if __name__ == "__main__":
 		c.database = args.db_name[0]
 	if args.subreddit is not None:
 		c.subreddit = args.subreddit[0]
+	if args.max_episodes:
+		c.max_episodes = args.max_episodes
 
 	# Start
 	use_log = args.no_input
