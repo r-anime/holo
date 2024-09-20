@@ -36,7 +36,7 @@ def main(config, db, show_name, episode_count):
 	if not config.debug:
 		megathread_post = reddit.submit_text_post(config.subreddit, megathread_title, megathread_body)
 	else:
-                megathread_post = None
+		megathread_post = None
 		
 	if megathread_post is not None:
 		debug("Post successful")
@@ -50,6 +50,7 @@ def main(config, db, show_name, episode_count):
 	for i, url in enumerate(post_urls):
 		info(f"Episode {i}: {url}")
 	info(f"Megathread: {megathread_url}")
+	return megathread_post
 
 
 def _create_megathread_content(config, db, show, stream, episode_count):
