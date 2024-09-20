@@ -5,3 +5,4 @@ requests>=2.22.0
 Unidecode>=1.1.1
 PyYAML>=5.1.2
 python-dateutil>=2.8.0
+sqlite-spellfix>=1.1.0
