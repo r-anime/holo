@@ -1337,6 +1337,31 @@ info:
     official: 'https://www.monogatari-series.com/oms/'
     subreddit: '/r/araragi'
 streams:
+    crunchyroll: 'https://www.crunchyroll.com/monogatari-series-off-monster-season'
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: ''
+    nyaa: ''
+---
+title: 'Kengan Ashura Season 2 Part 2'
+title_en: ""
+has_source: true
+info:
+    mal: 'https://myanimelist.net/anime/56704'
+    anilist: 'https://anilist.co/anime/169692'
+    anidb: 'http://anidb.net/17274'
+    kitsu: 'https://kitsu.app/anime/kengan-ashura-season-2-part-2'
+    animeplanet: ''
+    official: 'https://kengan.net/'
+    subreddit: '/r/Kengan_Ashura'
+streams:
     crunchyroll: ''
     museasia: ''
     anione: ''
@@ -1347,5 +1372,61 @@ streams:
     vrv|VRV: ''
     hulu|Hulu: ''
     disney|Disney: ''
+    netflix|Netflix: 'https://www.netflix.com/title/80992228'
+    youtube: ''
+    nyaa: ''
+---
+title: 'Rick and Morty: The Anime'
+title_en: ""
+alias: ['Rick and Morty The Anime', 'Rick and Morty - The Anime']
+has_source: true
+info:
+    mal: 'https://myanimelist.net/anime/56057'
+    anilist: 'https://anilist.co/anime/150103'
+    anidb: 'http://anidb.net/17422'
+    kitsu: 'https://kitsu.io/anime/rick-and-morty-the-anime'
+    animeplanet: 'https://www.anime-planet.com/anime/rick-and-morty-the-anime'
+    official: ''
+    subreddit: '/r/rickandmorty'
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    netflix|Netflix: ''
+    max|Max: 'https://play.max.com/show/6ace005a-41eb-4e44-bf13-abdfaa9e5143'
+    youtube: ''
+    nyaa: ''
+---
+title: 'Terminator Zero'
+alias: ['Terminator 0']
+title_en: ""
+has_source: true
+info:
+    mal: 'https://myanimelist.net/anime/59390/Terminator_0'
+    anilist: 'https://anilist.co/anime/177814/Terminator-0'
+    anidb: 'https://anidb.net/anime/18275'
+    kitsu: 'https://kitsu.app/anime/terminator-zero/'
+    animeplanet: ''
+    official: ''
+    subreddit: '/r/Terminator'
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    netflix|Netflix: 'https://www.netflix.com/title/81217220'
     youtube: ''
     nyaa: ''
