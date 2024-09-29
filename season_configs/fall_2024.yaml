@@ -269,7 +269,7 @@ streams:
 ---
 title: 'Dandadan'
 title_en: ""
-alias: [ 'DAN DA DAN' ]
+alias: ['DAN DA DAN']
 has_source: true
 type: 'TV'
 info:
@@ -539,7 +539,7 @@ streams:
 ---
 title: 'Kabushikigaisha Magi-Lumière'
 title_en: "Magilumiere Magical Girls Inc."
-alias: [ 'Magilumiere Co. Ltd.', 'Kabushikigaisha Magilumiere' ]
+alias: ['Magilumiere Co. Ltd.','Kabushikigaisha Magilumiere']
 has_source: true
 type: 'TV'
 info:
@@ -620,7 +620,7 @@ streams:
 ---
 title: 'Kamonohashi Ron no Kindan Suiri Season 2'
 title_en: "Ron Kamonohashi’s Forbidden Deductions Season 2"
-alias: [ "" ]
+alias: [""]
 has_source: true
 type: 'TV'
 info:
@@ -1315,7 +1315,7 @@ streams:
     nyaa: ''
 ---
 title: 'Ranma ½ (2024)'
-alias: [ 'Ranma1/2' ]
+alias: ['Ranma1/2']
 has_source: true
 type: 'TV'
 info:
@@ -1768,7 +1768,7 @@ streams:
 ---
 title: 'Tsuma, Shougakusei ni Naru.'
 title_en: ""
-alias: [ 'TsumaSho' ]
+alias: ['TsumaSho']
 has_source: true
 type: 'TV'
 info:
