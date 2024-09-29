@@ -1,36 +1,11 @@
 ---
-title: '5-Okunen Button ~Sota Sugahara no Short Short~ Episode 13'
-title_en: ""
-alias: ['500000000 years button Episode 13']
-has_source: true
-info:
-    mal: ''
-    anilist: ''
-    anidb: ''
-    kitsu: ''
-    animeplanet: ''
-    official: 'https://500000000button.com/'
-    subreddit: ''
-streams:
-    crunchyroll: ''
-    museasia: ''
-    anione: ''
-    funimation|Funimation: ''
-    wakanim|Wakanim: ''
-    hidive: ''
-    animelab|AnimeLab: ''
-    vrv|VRV: ''
-    hulu|Hulu: ''
-    disney|Disney: ''
-    youtube: ''
-    nyaa: ''
----
 title: 'Acro Trip'
-title_en: ""
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/53723'
     anilist: 'https://anilist.co/anime/157965'
+    livechart: 'https://www.livechart.me/anime/11569'
     anidb: 'http://anidb.net/a17745'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/acro-trip'
@@ -51,9 +26,9 @@ streams:
     nyaa: ''
 ---
 title: 'Amagami-san Chi no Enmusubi'
-title_en: ""
-alias: ['Tying the Knot with an Amagami Sister']
+title_en: "Tying the Knot with an Amagami Sister"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/55071'
     anilist: 'https://anilist.co/anime/164172'
@@ -63,7 +38,7 @@ info:
     official: 'https://amagami-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/G24H1NWJ0'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -77,12 +52,13 @@ streams:
     nyaa: ''
 ---
 title: 'Ao no Exorcist Yuki no Hate-hen'
-title_en: ""
-alias: ['Blue Exorcist -Beyond the Snow Saga-']
+title_en: "Blue Exorcist: Beyond the Snow Saga"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58516'
     anilist: 'https://anilist.co/anime/176311'
+    livechart: 'https://www.livechart.me/anime/12608'
     anidb: 'http://anidb.net/a18561'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/blue-exorcist-beyond-the-snow-saga'
@@ -103,12 +79,13 @@ streams:
     nyaa: ''
 ---
 title: 'Ao no Hako'
-title_en: ""
-alias: ['Blue Box']
+title_en: "Blue Box"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57181'
     anilist: 'https://anilist.co/anime/170942'
+    livechart: 'https://www.livechart.me/anime/11380'
     anidb: 'http://anidb.net/a18278'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/blue-box'
@@ -129,12 +106,13 @@ streams:
     nyaa: ''
 ---
 title: 'Ao no Miburo'
-title_en: ""
-alias: ['Blue Miburo']
+title_en: "Blue Miburo"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56647'
     anilist: 'https://anilist.co/anime/169258'
+    livechart: 'https://www.livechart.me/anime/12327'
     anidb: 'http://anidb.net/a18193'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/the-blue-wolves-of-mibu'
@@ -154,13 +132,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Arifureta Shokugyou de Sekai Saikyou 3rd Season'
-title_en: ""
-alias: ["Arifureta: From Commonplace to World's Strongest Season 3"]
+title: 'Arifureta Shokugyou de Sekai Saikyou Season 3'
+title_en: "Arifureta: From Commonplace to World's Strongest Season 3"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/52995'
     anilist: 'https://anilist.co/anime/154473'
+    livechart: 'https://www.livechart.me/anime/11465'
     anidb: 'http://anidb.net/a17615'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/arifureta-from-commonplace-to-worlds-strongest-3rd-season'
@@ -175,22 +154,22 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: 'https://www.hulu.com/hub/anime'
+    hulu|Hulu: ''
     disney|Disney: ''
     youtube: ''
     nyaa: ''
 ---
-title: 'Asatir: Mirai no Mukashibanashi 2'
-title_en: ""
-alias: ["Future's Folktales 2"]
-has_source: true
+title: 'Asatir 2: Mirai no Mukashibanashi'
+title_en: "Future's Folktales 2"
+has_source: false
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/59499'
     anilist: ''
     anidb: ''
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/future-folktales-2nd-season'
-    official: 'null'
+    official: ''
     subreddit: ''
 streams:
     crunchyroll: ''
@@ -198,7 +177,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: 'https://www.hidive.com/dashboard'
+    hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -206,13 +185,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'BLEACH: Sennen Kessen-hen - Soukoku-tan -'
-title_en: ""
-alias: ['BLEACH: Thousand-Year Blood War - The Conflict -']
+title: 'Bleach: Sennen Kessen-hen - Soukoku-tan'
+title_en: "Bleach: Thousand-Year Blood War - The Conflict "
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56784'
     anilist: 'https://anilist.co/anime/169755'
+    livechart: 'https://www.livechart.me/anime/11468'
     anidb: 'http://anidb.net/a18220'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/bleach-thousand-year-blood-war-part-iii-the-conflict'
@@ -232,12 +212,15 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'BLUE LOCK VS. U-20 JAPAN'
+title: 'Blue Lock vs. U-20 Japan'
 title_en: ""
+alias: "Blue Lock Season 2"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/54865'
     anilist: 'https://anilist.co/anime/163146'
+    livechart: 'https://www.livechart.me/anime/11911'
     anidb: 'http://anidb.net/a17954'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/blue-lock-2nd-season'
@@ -257,13 +240,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Chi. -Chikyuu no Undou ni Tsuite-'
-title_en: ""
-alias: ['Orb: On the Movements of the Earth']
+title: 'Chi.: Chikyuu no Undou ni Tsuite'
+title_en: "Orb: On the Movements of the Earth"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/52215'
     anilist: 'https://anilist.co/anime/151514'
+    livechart: 'https://www.livechart.me/anime/11295'
     anidb: 'http://anidb.net/a17480'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/chi-chikyuu-no-undou-ni-tsuite'
@@ -287,9 +271,11 @@ title: 'Dandadan'
 title_en: ""
 alias: ['DAN DA DAN']
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57334'
     anilist: 'https://anilist.co/anime/171018'
+    livechart: 'https://www.livechart.me/anime/12428'
     anidb: 'http://anidb.net/a18290'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/dandadan'
@@ -304,17 +290,19 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: 'https://www.hulu.com/hub/anime'
+    hulu|Hulu: ''
     disney|Disney: ''
     youtube: ''
     nyaa: ''
 ---
-title: 'Dragon Ball DAIMA'
+title: 'Dragon Ball Daima'
 title_en: ""
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56894'
     anilist: 'https://anilist.co/anime/170083'
+    livechart: 'https://www.livechart.me/anime/12371'
     anidb: 'http://anidb.net/a18238'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/dragon-ball-daima'
@@ -329,18 +317,20 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: 'https://www.hulu.com/hub/anime'
+    hulu|Hulu: ''
     disney|Disney: ''
     youtube: ''
     nyaa: ''
 ---
 title: 'Dungeon ni Deai wo Motomeru no wa Machigatteiru no Darou ka V: Houjou no Megami-hen'
-title_en: ""
-alias: ['Is It Wrong to Try to Pick Up Girls in a Dungeon? V: Goddess of Fertility Arc']
+title_en: "Is It Wrong to Try to Pick Up Girls in a Dungeon? Season 5: Goddess of Fertility Arc"
+alias: [ "Danmachi Season 5", 'Is It Wrong to Try to Pick Up Girls in a Dungeon? Season 5' ]
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57066'
     anilist: 'https://anilist.co/anime/170732'
+    livechart: 'https://www.livechart.me/anime/12398'
     anidb: 'http://anidb.net/a18267'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-v'
@@ -352,7 +342,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: 'https://www.hidive.com/dashboard'
+    hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -361,12 +351,13 @@ streams:
     nyaa: ''
 ---
 title: 'Goukon ni Ittara Onna ga Inakatta Hanashi'
-title_en: ""
-alias: ["How I Attended an All-Guy's Mixer"]
+title_en: "How I Attended an All-Guy's Mixer"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56843'
     anilist: 'https://anilist.co/anime/169931'
+    livechart: 'https://www.livechart.me/anime/12360'
     anidb: 'http://anidb.net/a18228'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/how-i-attended-an-all-guys-mixer'
@@ -378,7 +369,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: 'https://www.hidive.com/dashboard'
+    hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -387,11 +378,12 @@ streams:
     nyaa: ''
 ---
 title: 'Haigakura'
-title_en: ""
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56420'
     anilist: 'https://anilist.co/anime/168537'
+    livechart: 'https://www.livechart.me/anime/12308'
     anidb: 'http://anidb.net/a18170'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/haigakura'
@@ -412,11 +404,12 @@ streams:
     nyaa: ''
 ---
 title: 'Hamidashi Creative'
-title_en: ""
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56461'
     anilist: ''
+    livechart: 'https://www.livechart.me/anime/12232'
     anidb: 'http://anidb.net/a18814'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/hamidashi-creative'
@@ -437,14 +430,15 @@ streams:
     nyaa: ''
 ---
 title: 'Hitoribocchi no Isekai Kouryaku'
-title_en: ""
-alias: ['Loner Life in Another World']
+title_en: "Loner Life in Another World"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57891'
     anilist: 'https://anilist.co/anime/173693'
+    livechart: 'https://www.livechart.me/anime/12508'
     anidb: 'http://anidb.net/a18432'
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/48449'
     animeplanet: 'http://www.anime-planet.com/anime/loner-life-in-another-world'
     official: 'https://bocchi-kouryaku.com/'
     subreddit: ''
@@ -454,7 +448,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: 'https://www.hidive.com/dashboard'
+    hidive: 'https://www.hidive.com/season/26571'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -463,12 +457,13 @@ streams:
     nyaa: ''
 ---
 title: 'Hoshifuru Oukoku no Nina'
-title_en: ""
-alias: ['Nina the Starry Bride']
+title_en: "Nina the Starry Bride"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57362'
     anilist: 'https://anilist.co/anime/171038'
+    livechart: 'https://www.livechart.me/anime/12429'
     anidb: 'http://anidb.net/a18291'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/nina-the-starry-bride'
@@ -488,13 +483,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Houkago Shounen Hanako-kun (Zoku-hen)'
-title_en: ""
-alias: ['After-school Hanako-kun (Sequel)']
+title: 'Houkago Shounen Hanako-kun Season 2'
+title_en: "After-school Hanako-kun Season 2"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57102'
     anilist: 'https://anilist.co/anime/170893'
+    livechart: 'https://www.livechart.me/anime/12405'
     anidb: 'http://anidb.net/a18272'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/after-school-hanako-kun-2'
@@ -514,13 +510,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Hyakushou Kizoku 2nd Season'
-title_en: ""
-alias: ["Hyakusho Kizoku-the farmer's days 2nd Season"]
+title: 'Hyakushou Kizoku Season 2'
+title_en: "yakusho Kizoku-the farmer's days Season 2"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57562'
     anilist: 'https://anilist.co/anime/171689'
+    livechart: 'https://www.livechart.me/anime/12462'
     anidb: 'http://anidb.net/a18328'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/hyakushou-kizoku-2'
@@ -541,12 +538,14 @@ streams:
     nyaa: ''
 ---
 title: 'Kabushikigaisha Magi-Lumière'
-title_en: ""
-alias: ['Magilumiere Magical Girls Inc.']
+title_en: "Magilumiere Magical Girls Inc."
+alias: ['Magilumiere Co. Ltd.', 'Kabushikigaisha Magilumiere']
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57360'
     anilist: 'https://anilist.co/anime/171025'
+    livechart: 'https://www.livechart.me/anime/12422'
     anidb: 'http://anidb.net/a18292'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/magilumiere-co-ltd'
@@ -569,9 +568,11 @@ streams:
 title: 'Kagaku × Bouken Survival!'
 title_en: ""
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58137'
     anilist: 'https://anilist.co/anime/174913'
+    livechart: 'https://www.livechart.me/anime/12533'
     anidb: 'http://anidb.net/a18685'
     kitsu: ''
     animeplanet: ''
@@ -591,10 +592,10 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'KamiErabi 2nd Season'
-title_en: ""
-alias: ['KamiErabi GOD.app Season 2']
-has_source: true
+title: 'KamiErabi Season 2'
+title_en: "KamiErabi GOD.app Season 2"
+has_source: false
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56967'
     anilist: 'https://anilist.co/anime/172199'
@@ -617,13 +618,15 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Kamonohashi Ron no Kindan Suiri 2nd Season'
-title_en: ""
-alias: ["Ron Kamonohashi’s Forbidden Deductions Season 2"]
+title: 'Kamonohashi Ron no Kindan Suiri Season 2'
+title_en: "Ron Kamonohashi’s Forbidden Deductions Season 2"
+alias: [""]
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57635'
     anilist: 'https://anilist.co/anime/172355'
+    livechart: 'https://www.livechart.me/anime/12477'
     anidb: 'http://anidb.net/a18350'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/ron-kamonohashis-forbidden-deductions-season-2'
@@ -644,13 +647,14 @@ streams:
     nyaa: ''
 ---
 title: 'Kankin Kuiki Level X'
-title_en: ""
-alias: ['Lockdown Zone: Level X']
+title_en: "Lockdown Zone: Level X"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/59505'
     anilist: 'https://anilist.co/anime/180923'
-    anidb: ''
+    livechart: 'https://www.livechart.me/anime/12792'
+    anidb: 'http://anidb.net/a18857'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/lockdown-zone-level-x'
     official: 'https://animationid.com/levelx/'
@@ -670,12 +674,13 @@ streams:
     nyaa: ''
 ---
 title: 'Kekkon suru tte, Hontou desu ka'
-title_en: ""
-alias: ['365 Days to the Wedding']
+title_en: "365 Days to the Wedding"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/55887'
     anilist: 'https://anilist.co/anime/165790'
+    livechart: 'https://www.livechart.me/anime/11956'
     anidb: 'http://anidb.net/a17984'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/365-days-to-the-wedding'
@@ -696,12 +701,13 @@ streams:
     nyaa: ''
 ---
 title: 'Kimi wa Meido-sama.'
-title_en: ""
-alias: ['You are Ms. Servant']
+title_en: "You are Ms. Servant"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57611'
     anilist: 'https://anilist.co/anime/172190'
+    livechart: 'https://www.livechart.me/anime/12473'
     anidb: 'http://anidb.net/a18344'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/you-are-ms-servant'
@@ -722,12 +728,13 @@ streams:
     nyaa: ''
 ---
 title: 'Kinoko Inu'
-title_en: ""
-alias: ['Kinokoinu: Mushroom Pup']
+title_en: "Kinokoinu: Mushroom Pup"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58854'
     anilist: 'https://anilist.co/anime/177581'
+    livechart: 'https://www.livechart.me/anime/12659'
     anidb: 'http://anidb.net/a18628'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/kinoko-inu-mushroom-pup'
@@ -748,11 +755,12 @@ streams:
     nyaa: ''
 ---
 title: 'Kumarba Season 2'
-title_en: ""
 has_source: true
+type: 'TV'
 info:
     mal: ''
     anilist: ''
+    livechart: 'https://www.livechart.me/anime/12710'
     anidb: ''
     kitsu: ''
     animeplanet: ''
@@ -772,13 +780,13 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Love Live! Superstar!! 3rd Season'
-title_en: ""
-alias: ['Love Live! Superstar!! Season 3']
+title: 'Love Live! Superstar!! Season 3'
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/53287'
     anilist: 'https://anilist.co/anime/155502'
+    livechart: 'https://www.livechart.me/anime/11549'
     anidb: 'http://anidb.net/a17665'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/love-live-superstar-season-3'
@@ -798,12 +806,13 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'MF GHOST 2nd Season'
-title_en: ""
+title: 'MF GHOST Season 2'
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57559'
     anilist: 'https://anilist.co/anime/171642'
+    livechart: 'https://www.livechart.me/anime/12461'
     anidb: 'http://anidb.net/a18327'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/mf-ghost-2nd-season'
@@ -824,12 +833,13 @@ streams:
     nyaa: ''
 ---
 title: 'Mahoutsukai ni Narenakatta Onnanoko no Hanashi.'
-title_en: ""
-alias: ["The Stories of Girls Who Couldn't Be Magicians"]
+title_en: "The Stories of Girls Who Couldn't Be Magicians"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58173'
     anilist: 'https://anilist.co/anime/107372'
+    livechart: 'https://www.livechart.me/anime/3832'
     anidb: 'http://anidb.net/a14461'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/mahoutsukai-ni-narenakatta-onnanoko-no-hanashi'
@@ -850,12 +860,13 @@ streams:
     nyaa: ''
 ---
 title: 'Maou 2099'
-title_en: ""
-alias: ['DEMON LORD 2099']
+title_en: "Demon Lord 2099"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/54853'
     anilist: 'https://anilist.co/anime/163135'
+    livechart: 'https://www.livechart.me/anime/11907'
     anidb: 'http://anidb.net/a17943'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/demon-lord-2099'
@@ -876,19 +887,20 @@ streams:
     nyaa: ''
 ---
 title: 'Maou-sama, Retry! R'
-title_en: ""
-alias: ['Demon Lord, Retry! R']
+title_en: "Demon Lord, Retry! R"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56400'
     anilist: 'https://anilist.co/anime/168500'
+    livechart: 'https://www.livechart.me/anime/12306'
     anidb: 'http://anidb.net/a18167'
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/47881'
     animeplanet: 'http://www.anime-planet.com/anime/demon-lord-retry-r'
     official: 'https://maousama-anime.com/2024/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GXJHM37KD'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -896,18 +908,19 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: 'https://www.hulu.com/hub/anime'
+    hulu|Hulu: 'https://www.hulu.com/series/fa88cddf-0752-4101-b7f8-e724d7483b3b'
     disney|Disney: ''
     youtube: ''
     nyaa: ''
 ---
 title: 'Mecha-Ude'
-title_en: ""
-alias: ['Mecha-Ude: Mechanical Arms']
-has_source: true
+title_en: "Mecha-Ude: Mechanical Arms"
+has_source: false
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/53033'
     anilist: 'https://anilist.co/anime/154673'
+    livechart: 'https://www.livechart.me/anime/11474'
     anidb: 'http://anidb.net/a17627'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/mecha-ude'
@@ -928,12 +941,13 @@ streams:
     nyaa: ''
 ---
 title: 'Murai no Koi'
-title_en: ""
-alias: ['Murai in Love']
+title_en: "Murai in Love"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/52080'
     anilist: 'https://anilist.co/anime/150930'
+    livechart: 'https://www.livechart.me/anime/11256'
     anidb: 'http://anidb.net/a17458'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/murai-no-koi'
@@ -954,14 +968,15 @@ streams:
     nyaa: ''
 ---
 title: 'Murder Mystery of the Dead'
-title_en: ""
 has_source: true
+type: 'TV'
 info:
-    mal: ''
-    anilist: ''
+    mal: 'https://myanimelist.net/anime/59892'
+    anilist: 'https://anilist.co/anime/181776'
+    livechart: 'https://www.livechart.me/anime/12844'
     anidb: ''
     kitsu: ''
-    animeplanet: ''
+    animeplanet: 'http://www.anime-planet.com/anime/murder-mystery-of-the-dead'
     official: 'https://of-the-dead.com/'
     subreddit: ''
 streams:
@@ -979,12 +994,13 @@ streams:
     nyaa: ''
 ---
 title: 'Nageki no Bourei wa Intai shitai'
-title_en: ""
-alias: ['Let This Grieving Soul Retire']
+title_en: "Let This Grieving Soul Retire"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58172'
     anilist: 'https://anilist.co/anime/175019'
+    livechart: 'https://www.livechart.me/anime/12535'
     anidb: 'http://anidb.net/a18498'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/let-this-grieving-soul-retire-woe-is-the-weakling-who-leads-the-strongest-party'
@@ -1004,13 +1020,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Nanatsu no Taizai: Mokushiroku no Yonkishi 2nd Season'
-title_en: ""
-alias: ['The Seven Deadly Sins: Four Knights of the Apocalypse Season 2']
+title: 'Nanatsu no Taizai: Mokushiroku no Yonkishi Season 2'
+title_en: "The Seven Deadly Sins: Four Knights of the Apocalypse Season 2"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58511'
     anilist: 'https://anilist.co/anime/176292'
+    livechart: 'https://www.livechart.me/anime/12606'
     anidb: 'http://anidb.net/a18558'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/the-seven-deadly-sins-four-knights-of-the-apocalypse-season-2'
@@ -1031,12 +1048,13 @@ streams:
     nyaa: ''
 ---
 title: 'Natsume Yuujinchou Shichi'
-title_en: ""
-alias: ["Natsume's Book of Friends Season 7"]
+title_en: "Natsume's Book of Friends Season 7"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/55823'
     anilist: 'https://anilist.co/anime/166611'
+    livechart: 'https://www.livechart.me/anime/12234'
     anidb: 'http://anidb.net/a18089'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/natsumes-book-of-friends-season-7'
@@ -1057,12 +1075,13 @@ streams:
     nyaa: ''
 ---
 title: 'NegaPosi Angler'
-title_en: ""
-alias: ['Negative Positive Angler']
-has_source: true
+title_en: "Negative Positive Angler"
+has_source: false
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/59425'
     anilist: 'https://anilist.co/anime/179919'
+    livechart: 'https://www.livechart.me/anime/12779'
     anidb: 'http://anidb.net/a18786'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/negative-positive-angler'
@@ -1083,12 +1102,13 @@ streams:
     nyaa: ''
 ---
 title: 'Neko ni Tensei shita Ojisan'
-title_en: ""
-alias: ['Neko Oji: The Guy that got Reincarnated as a Cat']
+title_en: "Neko Oji: The Guy that got Reincarnated as a Cat"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58395'
     anilist: 'https://anilist.co/anime/176191'
+    livechart: 'https://www.livechart.me/anime/12587'
     anidb: 'http://anidb.net/a18532'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/neko-ni-tensei-shita-oji-san'
@@ -1108,13 +1128,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Oi! Tonbo 2nd Season'
-title_en: ""
-alias: ['Tonbo! Season 2']
+title: 'Oi! Tonbo Season 2'
+title_en: "Tonbo! Season 2"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/59175'
     anilist: 'https://anilist.co/anime/178729'
+    livechart: 'https://www.livechart.me/anime/12720'
     anidb: 'http://anidb.net/a18721'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/tonbo-season-2'
@@ -1135,12 +1156,13 @@ streams:
     nyaa: ''
 ---
 title: 'Okaimono Panda!'
-title_en: ""
-alias: ['Rakuten Panda!']
+title_en: "Rakuten Panda!"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58827'
     anilist: 'https://anilist.co/anime/177603'
+    livechart: 'https://www.livechart.me/anime/12649'
     anidb: ''
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/okaimono-panda'
@@ -1161,12 +1183,13 @@ streams:
     nyaa: ''
 ---
 title: 'Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki'
-title_en: ""
-alias: ['The Healer Who Was Banished From His Party, Is, in Fact, the Strongest']
+title_en: "The Healer Who Was Banished From His Party, Is, in Fact, the Strongest"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57944'
     anilist: 'https://anilist.co/anime/174043'
+    livechart: 'https://www.livechart.me/anime/12514'
     anidb: 'http://anidb.net/a18451'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/party-kara-tsuihou-sareta-sono-chiyushi-jitsu-wa-saikyou-nitsuki'
@@ -1187,8 +1210,8 @@ streams:
     nyaa: ''
 ---
 title: 'Pochars'
-title_en: ""
-has_source: true
+has_source: false
+type: 'TV'
 info:
     mal: ''
     anilist: ''
@@ -1212,12 +1235,13 @@ streams:
     nyaa: ''
 ---
 title: 'Puniru wa Kawaii Slime'
-title_en: ""
-alias: ['Puniru is a cute slime']
+title_en: "Puniru is a cute slime"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57517'
     anilist: 'https://anilist.co/anime/171400'
+    livechart: 'https://www.livechart.me/anime/12454'
     anidb: 'http://anidb.net/a18315'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/puniru-wa-kawaii-slime'
@@ -1237,12 +1261,13 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Punirunes Puni 2'
-title_en: ""
-has_source: true
+title: 'Punirunes Puni Season 2'
+has_source: false
+type: 'TV'
 info:
-    mal: ''
+    mal: 'https://myanimelist.net/anime/59512'
     anilist: ''
+    livechart: 'https://www.livechart.me/anime/12752'
     anidb: ''
     kitsu: ''
     animeplanet: ''
@@ -1263,12 +1288,13 @@ streams:
     nyaa: ''
 ---
 title: 'Raise wa Tanin ga Ii'
-title_en: ""
-alias: ['Yakuza Fiancé: Raise wa Tanin ga Ii']
+title_en: "Yakuza Fiancé: Raise wa Tanin ga Ii"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56964'
     anilist: 'https://anilist.co/anime/170468'
+    livechart: 'https://www.livechart.me/anime/12378'
     anidb: 'http://anidb.net/a18249'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/yakuza-fiance-raise-wa-tanin-ga-ii'
@@ -1288,12 +1314,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Ranma1/2 (2024)'
-title_en: ""
+title: 'Ranma ½ (2024)'
+alias: ['Ranma1/2']
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/59145'
     anilist: 'https://anilist.co/anime/178533'
+    livechart: 'https://www.livechart.me/anime/12717'
     anidb: 'http://anidb.net/a18700'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/ranma-12-2024'
@@ -1313,13 +1341,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season'
-title_en: ""
-alias: ['Re:ZERO -Starting Life in Another World- Season 3']
+title: 'Re:Zero kara Hajimeru Isekai Seikatsu Season 3'
+title_en: "Re:Zero: Starting Life in Another World Season 3"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/54857'
     anilist: 'https://anilist.co/anime/163134'
+    livechart: 'https://www.livechart.me/anime/11908'
     anidb: 'http://anidb.net/a17947'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/rezero-starting-life-in-another-world-season-3'
@@ -1340,12 +1369,13 @@ streams:
     nyaa: ''
 ---
 title: 'Rekishi ni Nokoru Akujo ni Naru zo'
-title_en: ""
-alias: ["I'll Become a Villainess That Will Go Down in History"]
+title_en: "I'll Become a Villainess That Will Go Down in History"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56228'
     anilist: 'https://anilist.co/anime/168139'
+    livechart: 'https://www.livechart.me/anime/12293'
     anidb: 'http://anidb.net/a18154'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/rekishi-ni-nokoru-akujo-ni-naru-zo-akuyaku-reijou-ni-naru-hodo-ouji-no-dekiai-wa-kasoku-suru-you-desu'
@@ -1365,13 +1395,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Rurouni Kenshin -Meiji Kenkaku Romantan- Kyoto Douran'
-title_en: ""
-alias: ['Rurouni Kenshin -Kyoto Disturbance-']
+title: 'Rurouni Kenshin: Meiji Kenkaku Romantan - Kyoto Douran'
+title_en: "Rurouni Kenshin: Kyoto Disturbance"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57554'
     anilist: 'https://anilist.co/anime/171637'
+    livechart: 'https://www.livechart.me/anime/12458'
     anidb: 'http://anidb.net/a18323'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/rurouni-kenshin-kyoto-douran'
@@ -1391,13 +1422,40 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Saikyou no Shienshoku "Wajutsushi" de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru'
-title_en: ""
-alias: ["The Most Notorious "Talker" Runs the World's Greatest Clan"]
+title: 'Shibuya♡Hachi Part 2'
 has_source: true
+type: 'TV'
+info:
+    mal: 'https://myanimelist.net/anime/59485'
+    anilist: 'https://anilist.co/anime/181835'
+    livechart: 'https://www.livechart.me/anime/12852'
+    anidb: ''
+    kitsu: ''
+    animeplanet: ''
+    official: 'https://www.tv-tokyo.co.jp/anime/shibuya-hachi/'
+    subreddit: ''
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: ''
+    nyaa: ''
+---
+title: 'Saikyou no Shienshoku "Wajutsushi" de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru'
+title_en: "The Most Notorious \"Talker\" Runs the World's Greatest Clan"
+has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58714'
     anilist: 'https://anilist.co/anime/177104'
+    livechart: 'https://www.livechart.me/anime/12638'
     anidb: 'http://anidb.net/a18592'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/the-most-notorious-talker-runs-the-worlds-greatest-clan'
@@ -1418,12 +1476,13 @@ streams:
     nyaa: ''
 ---
 title: 'Sayonara Ryuusei, Konnichiwa Jinsei'
-title_en: ""
-alias: ['Goodbye, Dragon Life']
+title_en: "Goodbye, Dragon Life"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58445'
     anilist: 'https://anilist.co/anime/176053'
+    livechart: 'https://www.livechart.me/anime/12591'
     anidb: 'http://anidb.net/a18537'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/goodbye-dragon-life'
@@ -1443,13 +1502,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Seirei Gensouki 2nd Season'
-title_en: ""
-alias: ['Seirei Gensouki: Spirit Chronicles Season 2']
+title: 'Seirei Gensouki Season 2'
+title_en: "Seirei Gensouki: Spirit Chronicles Season 2"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/50306'
     anilist: 'https://anilist.co/anime/141182'
+    livechart: 'https://www.livechart.me/anime/10875'
     anidb: 'http://anidb.net/a16962'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/seirei-gensouki-spirit-chronicles-season-2'
@@ -1469,12 +1529,13 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Shangri-La Frontier 2nd Season'
-title_en: ""
+title: 'Shangri-La Frontier Season 2'
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58572'
     anilist: 'https://anilist.co/anime/176508'
+    livechart: 'https://www.livechart.me/anime/12620'
     anidb: 'http://anidb.net/a18578'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/shangri-la-frontier-2nd-season'
@@ -1495,12 +1556,13 @@ streams:
     nyaa: ''
 ---
 title: 'Shin Tennis no Ouji-sama: U-17 WORLD CUP SEMIFINAL'
-title_en: ""
-alias: ['The Prince of Tennis II U-17 World Cup Semifinal']
+title_en: "The Prince of Tennis II U-17 World Cup Semifinal"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/55570'
     anilist: 'https://anilist.co/anime/165810'
+    livechart: 'https://www.livechart.me/anime/12081'
     anidb: 'http://anidb.net/a18054'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/the-prince-of-tennis-ii-u-17-world-cup-semifinal'
@@ -1521,11 +1583,12 @@ streams:
     nyaa: ''
 ---
 title: 'Sword Art Online Alternative: Gun Gale Online II'
-title_en: ""
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/55994'
     anilist: 'https://anilist.co/anime/167141'
+    livechart: 'https://www.livechart.me/anime/12265'
     anidb: 'http://anidb.net/a18116'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/sword-art-online-alternative-gun-gale-online-ii'
@@ -1545,12 +1608,39 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'THE iDOLM@STER SHINY COLORS 2nd season'
-title_en: ""
+title: 'Sylvanian Families: Freya no Piece of Secrets'
 has_source: true
+type: 'TV'
+info:
+    mal: ''
+    anilist: ''
+    livechart: 'https://www.livechart.me/anime/12853'
+    anidb: ''
+    kitsu: ''
+    animeplanet: ''
+    official: 'https://www.sylvanianfamilies.com/ja-jp/special/tv/'
+    subreddit: ''
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: ''
+    nyaa: ''
+---
+title: 'The iDOLM@STER Shiny Colors Season 2'
+has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/58302'
     anilist: 'https://anilist.co/anime/175533'
+    livechart: 'https://www.livechart.me/anime/12547'
     anidb: 'http://anidb.net/a18523'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/the-idolmaster-shiny-colors-2nd-season'
@@ -1570,12 +1660,13 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'TRILLION GAME'
-title_en: ""
+title: 'Trillion Game'
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/56662'
     anilist: 'https://anilist.co/anime/169315'
+    livechart: 'https://www.livechart.me/anime/12329'
     anidb: 'http://anidb.net/a18195'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/trillion-game'
@@ -1595,13 +1686,14 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season'
-title_en: ""
-alias: ["As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 2"]
+title: 'Tensei Kizoku, Kantei Skill de Nariagaru Season 2'
+title_en: "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 2"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/59131'
     anilist: 'https://anilist.co/anime/178434'
+    livechart: 'https://www.livechart.me/anime/12713'
     anidb: 'http://anidb.net/a18707'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world-season-2'
@@ -1622,11 +1714,12 @@ streams:
     nyaa: ''
 ---
 title: 'Tohai - Ura Rate Mahjong Tohai Roku'
-title_en: ""
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57796'
     anilist: 'https://anilist.co/anime/173263'
+    livechart: 'https://www.livechart.me/anime/11378'
     anidb: 'http://anidb.net/a18404'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/touhai-ura-rate-mahjong-touhai-roku'
@@ -1649,9 +1742,11 @@ streams:
 title: 'Tono to Inu'
 title_en: ""
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57924'
     anilist: 'https://anilist.co/anime/174390'
+    livechart: 'https://www.livechart.me/anime/12512'
     anidb: 'http://anidb.net/a18715'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/tono-to-inu'
@@ -1675,9 +1770,11 @@ title: 'Tsuma, Shougakusei ni Naru.'
 title_en: ""
 alias: ['TsumaSho']
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/54726'
     anilist: 'https://anilist.co/anime/162785'
+    livechart: 'https://www.livechart.me/anime/11860'
     anidb: 'http://anidb.net/a17911'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/if-my-wife-became-an-elementary-school-student'
@@ -1698,11 +1795,12 @@ streams:
     nyaa: ''
 ---
 title: 'Uzumaki'
-title_en: ""
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/40333'
     anilist: 'https://anilist.co/anime/111314'
+    livechart: 'https://www.livechart.me/anime/9575'
     anidb: 'http://anidb.net/a15063'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/uzumaki-spiral-into-horror'
@@ -1723,12 +1821,13 @@ streams:
     nyaa: ''
 ---
 title: 'Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu'
-title_en: ""
-alias: ['The Do-Over Damsel Conquers the Dragon Emperor']
+title_en: "The Do-Over Damsel Conquers the Dragon Emperor"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/55150'
     anilist: 'https://anilist.co/anime/164299'
+    livechart: 'https://www.livechart.me/anime/11988'
     anidb: 'http://anidb.net/a18013'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/the-do-over-damsel-conquers-the-dragon-emperor'
@@ -1749,12 +1848,13 @@ streams:
     nyaa: ''
 ---
 title: 'Youkai Gakkou no Sensei Hajimemashita!'
-title_en: ""
-alias: ['A Terrified Teacher at Ghoul School!']
+title_en: "A Terrified Teacher at Ghoul School!"
 has_source: true
+type: 'TV'
 info:
     mal: 'https://myanimelist.net/anime/57533'
     anilist: 'https://anilist.co/anime/171545'
+    livechart: 'https://www.livechart.me/anime/12456'
     anidb: 'http://anidb.net/a18321'
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/a-terrified-teacher-at-ghoul-school'
