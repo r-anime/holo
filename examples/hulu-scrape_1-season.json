@@ -1,0 +1,478 @@
+{
+	"props": {
+		"pageProps": {
+			"pageTitle": "Watch Tengoku Daimakyo Streaming Online | Hulu (Free Trial)",
+			"asPath": "/series/tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+			"pageType": "BrowsePage",
+			"query": {
+				"entity": "series",
+				"id": "tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71"
+			},
+			"latestSeason": {
+				"firstEpPremiereDate": null,
+				"lastEpPremiereDate": null,
+				"season": "1",
+				"seasonPremiereDates": [],
+				"previousSeason": "1",
+				"hasContentAvailable": false,
+				"hasUpcomingSeason": false,
+				"hasLastEpPremiered": true
+			},
+			"layout": {
+				"locale": "en-US",
+				"bigFooter": [],
+				"components": [
+					{ "type": "navigation" },
+					{
+						"type": "detailentity_masthead",
+						"credits": null,
+						"disablePlayButton": false,
+						"disableMobilePlayButton": false,
+						"title": "Tengoku Daimakyo",
+						"entityId": "c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+						"description": "In the year 2024, grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.",
+						"entityType": "series",
+						"headline": [
+							"Original",
+							"1 season available (11 episodes)"
+						],
+						"isHuluOriginal": true,
+						"tags": [2023],
+						"trailerText": "Watch Trailer",
+						"trailerName": "Tengoku Daimakyo Trailer",
+						"trailerEAB": "EAB::39a449cc-02f1-4520-a37f-10198ef6e437::61724508::231364813",
+						"trailerId": "39a449cc-02f1-4520-a37f-10198ef6e437",
+						"network": "Hulu Original Series",
+						"isHuluOriginalContent": true,
+						"isOriginalContent": true,
+						"premiereDate": "2023-04-01T05:00:00Z",
+						"rating": null,
+						"genres": [
+							{
+								"name": "International",
+								"hubPath": "/hub/international-tv"
+							},
+							{
+								"name": "Science Fiction",
+								"hubPath": "/hub/science-fiction-tv"
+							},
+							{
+								"name": "Thriller",
+								"hubPath": "/hub/thriller-tv"
+							},
+							{
+								"name": "Anime",
+								"hubPath": "/hub/anime-tv"
+							}
+						],
+						"infoLine": "1 season available (11 episodes)",
+						"disableInfo": false,
+						"contentType": "series"
+					},
+					{
+						"type": "collection_tabs",
+						"tabs": [
+							{
+								"title": "Episodes",
+								"model": {
+									"type": "episode_collection",
+									"collection": {
+										"id": "94",
+										"href": "https://discover.hulu.com/content/v5/hubs/series/c0bba144-1fa6-4ee5-affc-1029c77cfb71/collections/94?schema=0&personalized_layout_id=H4sIAAAAAAAAAMu1MjIwMjYwMzAxNDewqCkptjI0szC1sLQwsTAAAgDrT-cRHwAAAA",
+										"name": "Episodes",
+										"theme": "episode_collection",
+										"enabledTileLinks": false,
+										"enableSignupModal": null,
+										"collectionHubPath": null,
+										"seasons": [
+											{
+												"name": "Season 1",
+												"number": 1
+											}
+										],
+										"items": [
+											{
+												"id": "d29e078f-5b54-4f75-8796-b3ef8737b8a3",
+												"href": null,
+												"eabId": "EAB::d29e078f-5b54-4f75-8796-b3ef8737b8a3::61723939::231192565",
+												"type": "episode",
+												"name": "Heaven and Hell",
+												"description": "Japan has collapsed after the Great Disaster. Kiruko accepts a request to take a boy named Maru to a place called Heaven. Meanwhile, children live behind the walls of a nursery in luscious green surroundings.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-04-01T12:00:00Z",
+												"season": 1,
+												"number": 1,
+												"duration": 1434,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											},
+											{
+												"id": "c81aa598-d6ac-4eda-a899-dc109116cf5f",
+												"href": null,
+												"eabId": "EAB::c81aa598-d6ac-4eda-a899-dc109116cf5f::61723941::231192563",
+												"type": "episode",
+												"name": "Two Confessions",
+												"description": "At a strange inn, Maru and Kiruko sink into a drowsy slumber. They awaken to something monstrous under the faint light of the moon. At the nursery, Tokio becomes more suspicious of the world around him. Meanwhile, Shiro receives an unexpected message.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-04-01T12:00:00Z",
+												"season": 1,
+												"number": 2,
+												"duration": 1424,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											},
+											{
+												"id": "645a8b33-f20b-4090-b52d-36297100c4b4",
+												"href": null,
+												"eabId": "EAB::645a8b33-f20b-4090-b52d-36297100c4b4::61723938::231344353",
+												"type": "episode",
+												"name": "Kiriko and Haruki",
+												"description": "Five years ago, in Asakusa, Robin, Haruki and his racer sister Kiriko had spent their days happily living in an orphanage.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-04-01T12:00:00Z",
+												"season": 1,
+												"number": 3,
+												"duration": 1424,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											},
+											{
+												"id": "478be705-8e2f-493f-be57-68ca33394aac",
+												"href": null,
+												"eabId": "EAB::478be705-8e2f-493f-be57-68ca33394aac::61724202::231651898",
+												"type": "episode",
+												"name": "Kuku",
+												"description": "Tokio is taken to see some bizarre-looking babies, and realizes just how little he understands about his surroundings. On a boat with no escape, Maru and Kiruko suffer a terrifying attack. As all is failing, t is up to Kiruko to devise a new strategy.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-04-01T12:00:00Z",
+												"season": 1,
+												"number": 4,
+												"duration": 1424,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											},
+											{
+												"id": "053f237d-c817-4567-9460-02e8252ac43b",
+												"href": null,
+												"eabId": "EAB::053f237d-c817-4567-9460-02e8252ac43b::61724203::232539697",
+												"type": "episode",
+												"name": "Day of Fate",
+												"description": "Maru and Kiruko return to Tokyo to find a neighborhood crowded with tents. When Maru goes off to a game center, Kiruko is left to gather information for herself, and hears a scary rumor.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-04-01T12:00:00Z",
+												"season": 1,
+												"number": 5,
+												"duration": 1424,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											},
+											{
+												"id": "782f80ad-a3cf-46fc-a104-f8a0fbb9bde9",
+												"href": null,
+												"eabId": "EAB::782f80ad-a3cf-46fc-a104-f8a0fbb9bde9::61725250::235005473",
+												"type": "episode",
+												"name": "100％ Safe Water",
+												"description": "Maru and Kiruko are on the hunt for the Immortal Order. On the way, they stay at a hotel run by a girl named Totori. Dumping their bags and searching for safe drinking water, they stumble upon a badly injured man.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-05-06T12:00:00Z",
+												"season": 1,
+												"number": 6,
+												"duration": 1425,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											},
+											{
+												"id": "38a17887-02e8-4f20-837e-e672cdfee183",
+												"href": null,
+												"eabId": "EAB::38a17887-02e8-4f20-837e-e672cdfee183::61725251::235236325",
+												"type": "episode",
+												"name": "The Immortal Order",
+												"description": "Maru and Kiruko find what they believe is the doctor and the Immortal Order. Instead, it is a hostile organization that is strongly opposed to the treatment that the Immortal Order provides.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-05-13T12:00:00Z",
+												"season": 1,
+												"number": 7,
+												"duration": 1424,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											},
+											{
+												"id": "7a0efea2-efe6-4f93-a2a4-6fb9fd80bb47",
+												"href": null,
+												"eabId": "EAB::7a0efea2-efe6-4f93-a2a4-6fb9fd80bb47::61725349::235820690",
+												"type": "episode",
+												"name": "Their Choices",
+												"description": "After killing the Man-Eaters, Maru and Kiruko finally meet Dr. Usami. He asks something difficult of them, and leads them both to a room where a horrifying scene awaits.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-05-20T12:00:00Z",
+												"season": 1,
+												"number": 8,
+												"duration": 1425,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											},
+											{
+												"id": "ec9d74f8-2541-4201-aed2-d732e9f04bc2",
+												"href": null,
+												"eabId": "EAB::ec9d74f8-2541-4201-aed2-d732e9f04bc2::187252150::236806253",
+												"type": "episode",
+												"name": "Children of the Nursery",
+												"description": "Maru and Kiruko discover that Dr. Usami had a button with the same pattern as the logo they found on the Kiru-Beam. They decide to follow it's trail, and meet a mysterious informant along the way. Meanwhile, back at the nursery, an emergency meeting is held.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-05-27T12:00:00Z",
+												"season": 1,
+												"number": 9,
+												"duration": 1424,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											},
+											{
+												"id": "ffba7648-c21e-4b5b-9dd2-d1b28aabf5bb",
+												"href": null,
+												"eabId": "EAB::ffba7648-c21e-4b5b-9dd2-d1b28aabf5bb::187616836::237893764",
+												"type": "episode",
+												"name": "The Walled Town",
+												"description": "Maru and Kiruko decide to head to the Ibaraki facility of the Takahara Academy. Since it's on the way, they agree to help Juichi confirm whether his baby is still alive. Arriving at the Walled Town, the situation is very different to what was expected.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-06-03T12:00:00Z",
+												"season": 1,
+												"number": 10,
+												"duration": 1424,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											},
+											{
+												"id": "c62aba03-e650-40f8-b383-f1011d51941f",
+												"href": null,
+												"eabId": "EAB::c62aba03-e650-40f8-b383-f1011d51941f::188093736::239009289",
+												"type": "episode",
+												"name": "The Test Begins",
+												"description": "Maru and Kiruko head to the Ibaraki facility after Juichi gives them his car. Meanwhile, a group of new 5th years join the academy. Mimihime notices that one child called Ohma seems very lonely, and tries to make friends. But Ohma has special reasons for keeping away from the other children.",
+												"rating": "TVMA",
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-06-10T12:00:00Z",
+												"season": 1,
+												"number": 11,
+												"duration": 1424,
+												"seriesName": "Tengoku Daimakyo",
+												"artwork": {}
+											}
+										]
+									},
+									"upsell": {
+										"seasons": 1,
+										"episodes": 11,
+										"name": "Tengoku Daimakyo"
+									}
+								}
+							},
+							{
+								"title": "Extras",
+								"model": {
+									"type": "grid_collection",
+									"title": "Extras",
+									"collection": {
+										"id": "241",
+										"href": "https://discover.hulu.com/content/v5/hubs/series/c0bba144-1fa6-4ee5-affc-1029c77cfb71/collections/241?schema=0&personalized_layout_id=H4sIAAAAAAAAAMu1MjIwMjYwMzAxNDewqCkptjI0szC1sLQwsTAAAgDrT-cRHwAAAA",
+										"name": "Extras",
+										"theme": "grid_collection",
+										"enabledTileLinks": false,
+										"enableSignupModal": null,
+										"collectionHubPath": null,
+										"seasons": null,
+										"items": [
+											{
+												"id": "39a449cc-02f1-4520-a37f-10198ef6e437",
+												"href": null,
+												"eabId": null,
+												"type": "extra",
+												"name": "Tengoku Daimakyo Trailer",
+												"description": "After the collapse of the world, Kiruko and Maru search for Heaven within the ruins of Japan.",
+												"rating": null,
+												"genres": [
+													"International",
+													"Science Fiction",
+													"Thriller",
+													"Anime"
+												],
+												"premiereDate": "2023-04-01T12:00:00Z",
+												"season": null,
+												"number": null,
+												"duration": 108,
+												"seriesName": null,
+												"artwork": {}
+											}
+										]
+									},
+									"upsell": {
+										"seasons": 1,
+										"episodes": 11,
+										"name": "Tengoku Daimakyo"
+									}
+								}
+							},
+							{
+								"title": "Details",
+								"model": {
+									"type": "collection_details",
+									"collection": {
+										"theme": "details",
+										"name": "About this Show"
+									},
+									"entityType": "series",
+									"tags": [2023],
+									"name": "Tengoku Daimakyo",
+									"credits": null,
+									"avFeatures": {
+										"items": ["hd"],
+										"truncatedItems": ["hd"]
+									},
+									"description": "In the year 2024, grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.",
+									"rating": null,
+									"genres": [
+										{
+											"name": "International",
+											"hubPath": "/hub/international-tv"
+										},
+										{
+											"name": "Science Fiction",
+											"hubPath": "/hub/science-fiction-tv"
+										},
+										{
+											"name": "Thriller",
+											"hubPath": "/hub/thriller-tv"
+										},
+										{
+											"name": "Anime",
+											"hubPath": "/hub/anime-tv"
+										}
+									]
+								}
+							}
+						],
+						"network": "Tengoku Daimakyo"
+					},
+					{
+						"type": "collection",
+						"collections": []
+					},
+					{
+						"type": "player"
+					},
+					{
+						"type": "signup_modal"
+					},
+					{
+						"type": "tier_modal"
+					}
+				],
+				"detailEntity": {
+					"type": "series",
+					"id": "c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+					"name": "Tengoku Daimakyo",
+					"description": "In the year 2024, grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.",
+					"network": "Hulu Original Series",
+					"premiereDate": "2023-04-01T05:00:00Z",
+					"artwork": {
+						"horizontalProgramTile": {
+							"path": "https://img1.hulu.com/user/v3/artwork/c0bba144-1fa6-4ee5-affc-1029c77cfb71?base_image_bucket_name=image_manager&base_image=7f6399a2-4cc7-46e2-81af-161f5c464107"
+						},
+						"verticalHero": {
+							"path": "https://img1.hulu.com/user/v3/artwork/c0bba144-1fa6-4ee5-affc-1029c77cfb71?base_image_bucket_name=image_manager&base_image=eb47ab4b-7489-4e1c-a3b0-18d1fe6cbe75"
+						}
+					},
+					"href": "https://www.hulu.com/series/tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71",
+					"requireLivePackage": false,
+					"redirectTo": null,
+					"latestSeason": {
+						"firstEpPremiereDate": null,
+						"lastEpPremiereDate": null,
+						"season": "1",
+						"seasonPremiereDates": [],
+						"previousSeason": "1",
+						"hasContentAvailable": false
+					},
+					"credits": null,
+					"latestTrailer": {
+						"title": "Tengoku Daimakyo Trailer",
+						"eabId": "EAB::39a449cc-02f1-4520-a37f-10198ef6e437::61724508::231364813",
+						"duration": "PT108S",
+						"uploadDate": "2023-04-29T04:00:00Z"
+					}
+				},
+				"metrics": {},
+				"options": {},
+				"program": {},
+				"requireLivePackage": false,
+				"redirectTo": null,
+				"metatags": [],
+				"title": "Watch Tengoku Daimakyo Streaming Online | Hulu (Free Trial)"
+			}
+		}
+	}
+}
