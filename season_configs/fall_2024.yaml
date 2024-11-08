@@ -294,7 +294,7 @@ streams:
     vrv|VRV: ''
     hulu|Hulu: 'https://www.hulu.com/series/bad0bb31-0fa5-4a69-b9a5-5e5ed5032a48'
     disney|Disney: ''
-    netflix|Netflix: 'https://www.netflix.com/us/title/81736884'
+    netflix|Netflix: 'https://www.netflix.com/title/81736884'
     youtube: ''
     nyaa: ''
 ---
@@ -1343,7 +1343,7 @@ streams:
     vrv|VRV: ''
     hulu|Hulu: ''
     disney|Disney: ''
-    netflix|Netflix: 'https://www.netflix.com/us/title/81171925'
+    netflix|Netflix: 'https://www.netflix.com/title/81171925'
     youtube: ''
     nyaa: ''
 ---
