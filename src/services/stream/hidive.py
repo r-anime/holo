@@ -1,6 +1,6 @@
 from logging import debug, info, warning, error, exception
 import re
-from datetime import datetime, timedelta
+from datetime import UTC, datetime
 
 from .. import AbstractServiceHandler
 from data.models import Episode, UnprocessedStream
@@ -133,6 +133,6 @@ def _digest_episode(feed_episode):
         name = None
 
     link = episode_link
-    date = datetime.utcnow() # Not included in stream !
+    date = datetime.now(UTC).replace(tzinfo=None) # Not included in stream !
 
     return Episode(num, name, link, date)
