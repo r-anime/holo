@@ -1,5 +1,5 @@
 from logging import debug, error, exception
-import sqlite3, re
+import sqlite3, sqlite_spellfix, re
 from functools import wraps, lru_cache
 from unidecode import unidecode
 from typing import Set, List, Optional
@@ -15,6 +15,8 @@ def living_in(the_database):
 	"""
 	try:
 		db = sqlite3.connect(the_database)
+		db.enable_load_extension(True)
+		db.load_extension(sqlite_spellfix.extension_path())
 		db.execute("PRAGMA foreign_keys=ON")
 	except sqlite3.OperationalError:
 		error("Failed to open database, {}".format(the_database))
@@ -180,6 +182,14 @@ class DatabaseDatabase:
 			FOREIGN KEY(poll_service) REFERENCES PollSites(id),
 			UNIQUE(show, episode) ON CONFLICT REPLACE
 		)""")
+
+		# The two inserts take minimal time < 0.005 when we have 1300 shows, so running them on setup is fine.
+		self.q.executescript("""CREATE VIRTUAL TABLE IF NOT EXISTS FuzzySearch;
+		                        INSERT INTO FuzzySearch (word) SELECT name FROM Shows
+		                            WHERE name NOT IN (SELECT word FROM FuzzySearch);
+		                        INSERT INTO FuzzySearch (word) SELECT name_en FROM Shows
+		                            WHERE name_en NOT NULL AND name_en NOT IN (SELECT word FROM FuzzySearch);
+							 """)
 
 		self.commit()
 
@@ -510,10 +520,31 @@ class DatabaseDatabase:
 			WHERE name = ?", (name,))
 		show = self.q.fetchone()
 		if show is None:
-			return None
+			self.q.execute(
+				"SELECT id, name, name_en, length, type, has_source, is_nsfw, enabled, delayed FROM Shows \
+				WHERE name_en = ?", (name,))
+			show = self.q.fetchone()
+			if show is None:
+				return None
+
 		show = Show(*show)
 		show.aliases = self.get_aliases(show)
 		return show
+
+	@db_error_default(None)
+	def get_show_by_name_fuzzy(self, text, count=1) -> Optional[Show]:
+		# The trailing * makes it a prefix search,
+		# which is more likely to match watch people are looking for.
+		text = text + "*"
+		self.q.execute("SELECT word FROM FuzzySearch WHERE word MATCH ? AND top=?", (text, count,))
+		names = self.q.fetchall()
+		if names is None:
+			return None
+
+		shows = []
+		for name in names:
+			shows.append(self.get_show_by_name(name[0]))
+		return shows[0] if count == 1 else shows
 
 	@db_error_default(list())
 	def get_aliases(self, show: Show) -> [str]:
@@ -531,6 +562,8 @@ class DatabaseDatabase:
 		has_source = raw_show.has_source
 		is_nsfw = raw_show.is_nsfw
 		self.q.execute("INSERT INTO Shows (name, name_en, length, type, has_source, is_nsfw) VALUES (?, ?, ?, ?, ?, ?)", (name, name_en, length, show_type, has_source, is_nsfw))
+		self.q.execute("INSERT INTO FuzzySearch (word) VALUES (?)", (name))
+		self.q.execute("INSERT INTO FuzzySearch (word) VALUES (?)", (name_en))
 		show_id = self.q.lastrowid
 		self.add_show_names(raw_show.name, *raw_show.more_names, id=show_id, commit=commit)
 
@@ -556,7 +589,9 @@ class DatabaseDatabase:
 		is_nsfw = raw_show.is_nsfw
 
 		if name_en:
-		    self.q.execute("UPDATE Shows SET name_en = ? WHERE id = ?", (name_en, show_id))
+			self.q.execute("DELETE FROM FuzzySearch WHERE word = (SELECT name_en FROM Shows WHERE id = ?)", (show_id,))
+			self.q.execute("INSERT INTO FuzzySearch (word) VALUES (?)", (name_en,))
+			self.q.execute("UPDATE Shows SET name_en = ? WHERE id = ?", (name_en, show_id))
 		if length != 0:
 			self.q.execute("UPDATE Shows SET length = ? WHERE id = ?", (length, show_id))
 		self.q.execute("UPDATE Shows SET type = ?, has_source = ?, is_nsfw = ? WHERE id = ?", (show_type, has_source, is_nsfw, show_id))

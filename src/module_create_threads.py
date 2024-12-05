@@ -25,7 +25,7 @@ def main(config, db, show_name, episode):
 			db.set_show_delayed(show, False)
 		for editing_episode in db.get_episodes(show):
 			_edit_reddit_post(config, db, show, stream, editing_episode, editing_episode.link, submit=not config.debug)
-		return True
+		return post_url
 	else:
 		error("  Episode not submitted")
-	return False
+		return None
