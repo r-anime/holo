@@ -199,17 +199,17 @@ def _digest_episode(feed_episode):
 _exludors = [re.compile(x, re.I) for x in [
 	"\.srt$",
 	r"\b(batch|vol(ume|\.)? ?\d+|dub|dubbed)\b",
-	r"\b(bd|bluray|bdrip)\b",
+	r"\b(bd(?:remux|rip)?|bluray)\b",
 	r"PV.?\d+",
 	r"pre-?air",
-	r"(blackjaxx|daddy|le m[eê]me|Almighty)", # blacklisted uploaders
+	r"(blackjaxx|daddy|le m[eê]me|Almighty|suskorin|S1PH3R|KawaSubs)", # blacklisted uploaders
 ]]
 _num_extractors = [re.compile(x, re.I) for x in [
 	# " - " separator between show and episode
 	r"\[(?:horriblesubs|SubsPlease|commie|hiryuu|kuusou|fff|merchant|lolisubs|hitoku|erai-raws|davinci|asenshi|mezashite|anonyneko|pas|ryuujitk|rip time)\] .+ - (\d+) ",
 	r"\[DameDesuYo\] .+ - (\d+)[ v]",
 	r"\[Some-Stuffs\] .+ (\d{3}) ",
-	r"\[(?:orz|hayaku|sxrp)\] .+ (\d+)", # No separator
+	r"\[(?:orz|hayaku|sxrp|Weeaboo-Shogun)\] .+ (\d+)", # No separator
 	r"\[(?:kaitou|gg)\]_.+_-_(\d+)_", # "_-_" separator
 	r"\[flysubs].+ - (\d+)\[.+\]", # "_-_" separator
 	r".+_(\d+)\[(?:please_sub_this_viz)\]", # "_-_" separator
@@ -218,8 +218,10 @@ _num_extractors = [re.compile(x, re.I) for x in [
 	r"\[seiya\] .+ - (\d+) \[.+\]",
 	r"\[U3-Web\] .+ \[EP(\d+)\]",
 	r"\[ember\] .+ s(?:\d+)e(\d+)",
+	r".+ (\d+) \[(?:Anon-kun Wa Sugoi)\]", # Group after title, spaces
 	r"(?:.+).S(?:\d+)E(\d+).Laelaps.Calling.(?:\d+)p.(?:.+)",
 	r"\[(?:SenritsuSubs|AtlasSubbed|Rakushun)\] .+ - (\d+)",
+	#r".+ - S(?:\d+)E(\d+) ", # using the S01E12 format
 	r".+\Ws(?:eason)?[\s.]?\d+[\s.]?e(?:pisode)?[\s.]?(\d+)", # SxxEyy format (allow s/season, e/episode, ./space separation
 	r"\[.*?\][ _][^\(\[]+[ _](?:-[ _])?(\d+)[ _]", # Generic to make a best guess. Does not include . separation due to the common "XXX vol.01" format
 	r".*?[ _](\d+)[ _]\[\d+p\]", # No tag followed by quality
