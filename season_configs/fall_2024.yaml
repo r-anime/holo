@@ -1878,3 +1878,58 @@ streams:
     disney|Disney: ''
     youtube: ''
     nyaa: ''
+---
+title: 'One Piece: Gyojin Tou-hen'
+title_en: "One Piece Log: Fish-Man Island Saga"
+alias: ['One Piece Log - Fish-Man Island Saga']
+has_source: true
+type: 'TV'
+info:
+    mal: 'https://myanimelist.net/anime/60108'
+    anilist: 'https://anilist.co/anime/183423'
+    livechart: 'https://www.livechart.me/anime/12883'
+    anidb: 'http://anidb.net/a18321'
+    kitsu: 'https://kitsu.app/anime/one-piece-gyojin-tou-hen'
+    animeplanet: ''
+    official: ''
+    subreddit: ''
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: ''
+    nyaa: ''
+---
+title: 'Beastars Final Season'
+alias: ['Beastars Season 3']
+has_source: true
+type: 'TV'
+info:
+    mal: 'https://myanimelist.net/anime/49469'
+    anilist: 'https://anilist.co/anime/136880'
+    anidb: 'http://anidb.net/a16443'
+    kitsu: 'https://kitsu.app/anime/beastars-final-season'
+    animeplanet: 'https://www.anime-planet.com/anime/beastars-final-season'
+    official: 'https://bst-animation.com/'
+    subreddit: '/r/Beastars'
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    netflix|Netflix: 'https://www.netflix.com/title/81054847'
+    youtube: ''
+    nyaa: ''
