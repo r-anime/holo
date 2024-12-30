@@ -123,7 +123,7 @@ info:
     kitsu: 'https://kitsu.app/anime/49040'
     animeplanet: 'http://www.anime-planet.com/anime/blue-exorcist-the-blue-night-saga'
     official: 'https://www.ao-ex.com/'
-    subreddit: ''
+    subreddit: '/r/AoNoExorcist'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/G649PJ0JY'
     museasia: ''
@@ -206,7 +206,7 @@ info:
     kitsu: 'https://kitsu.app/anime/47943'
     animeplanet: 'http://www.anime-planet.com/anime/bang-dream-ave-mujica'
     official: 'https://anime.bang-dream.com/avemujica/'
-    subreddit: ''
+    subreddit: '/r/BanGDream'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -262,7 +262,7 @@ info:
     kitsu: ''
     animeplanet: ''
     official: 'https://anime.cf-vanguard.com/vgd/'
-    subreddit: ''
+    subreddit: '/r/cardfightvanguard'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -290,7 +290,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48995'
     animeplanet: 'http://www.anime-planet.com/anime/class-no-daikirai-na-joshi-to-kekkonsuru-koto-ni-natta'
     official: 'https://kura-kon.com/'
-    subreddit: ''
+    subreddit: '/r/ClassnoDaikirai'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -345,7 +345,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48342'
     animeplanet: 'http://www.anime-planet.com/anime/dr-stone-science-future'
     official: 'https://dr-stone.jp/'
-    subreddit: ''
+    subreddit: '/r/DrStone'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GYEXQKJG6'
     museasia: ''
@@ -399,7 +399,7 @@ info:
     kitsu: 'https://kitsu.app/anime/47682'
     animeplanet: 'http://www.anime-planet.com/anime/fate-strange-fake'
     official: 'https://fate-strange-fake.com/'
-    subreddit: ''
+    subreddit: '/r/fatestaynight'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -455,7 +455,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48807'
     animeplanet: 'http://www.anime-planet.com/anime/the-quintessential-quintuplets'
     official: 'http://www.tbs.co.jp/anime/5hanayome/'
-    subreddit: ''
+    subreddit: '/r/5ToubunNoHanayome'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -482,7 +482,7 @@ info:
     kitsu: 'https://kitsu.app/anime/46011'
     animeplanet: 'http://www.anime-planet.com/anime/grisaia-phantom-trigger-tv'
     official: 'http://grisaia-pt.com/gptanime/'
-    subreddit: ''
+    subreddit: '/r/grisaia'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -538,7 +538,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/hana-wa-saku-shura-no-gotoku'
     official: 'https://hanashura-anime.com/'
-    subreddit: ''
+    subreddit: '/r/FlowerandAsura'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -620,7 +620,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48635'
     animeplanet: 'http://www.anime-planet.com/anime/ishura-2nd-season'
     official: 'https://ishura-anime.com/'
-    subreddit: ''
+    subreddit: '/r/Ishura'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -676,7 +676,7 @@ info:
     kitsu: 'https://kitsu.app/anime/46924'
     animeplanet: ''
     official: 'https://www.hanakokun.com/2nd/'
-    subreddit: ''
+    subreddit: '/r/hanakokun'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/G24H1N3ZP'
     museasia: ''
@@ -686,7 +686,7 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: 'https://www.hulu.com/hub/anime'
+    hulu|Hulu: ''
     disney|Disney: ''
     youtube: ''
     nyaa: ''
@@ -704,7 +704,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48348'
     animeplanet: 'http://www.anime-planet.com/anime/the-100-girlfriends-who-really-really-really-really-really-love-you-season-2'
     official: 'https://hyakkano.com/'
-    subreddit: ''
+    subreddit: '/r/100Kanojo'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GNVHKN933'
     museasia: ''
@@ -816,7 +816,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48857'
     animeplanet: 'http://www.anime-planet.com/anime/medaka-kuroiwa-is-impervious-to-my-charms'
     official: 'https://monaxmedaka.com/'
-    subreddit: ''
+    subreddit: '/r/MonaXMedaka'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -844,7 +844,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48649'
     animeplanet: 'http://www.anime-planet.com/anime/the-apothecary-diaries-2nd-season'
     official: 'https://kusuriyanohitorigoto.jp/season2/'
-    subreddit: ''
+    subreddit: '/r/KusuriyaNoHitorigoto'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/G3KHEVDJ7'
     museasia: ''
@@ -928,7 +928,7 @@ info:
     kitsu: 'https://kitsu.app/anime/47186'
     animeplanet: ''
     official: 'https://www.toei-anim.co.jp/tv/mahotsukai_precure2/'
-    subreddit: ''
+    subreddit: '/r/precure'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -992,8 +992,8 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: 'https://www.hulu.com/hub/anime'
-    disney|Disney: 'https://www.disneyplus.com/series'
+    hulu|Hulu: ''
+    disney|Disney: ''
     youtube: ''
     nyaa: ''
 ---
@@ -1065,7 +1065,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/welcome-to-japan-ms-elf'
     official: 'https://welcome-elfsan.com/'
-    subreddit: ''
+    subreddit: '/r/elfsan'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1121,7 +1121,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48671'
     animeplanet: 'http://www.anime-planet.com/anime/solo-leveling-season-2-arise-from-the-shadow'
     official: 'https://sololeveling-anime.net/'
-    subreddit: ''
+    subreddit: '/r/sololeveling/'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GDKHZEJ0K'
     museasia: ''
@@ -1176,7 +1176,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/sakamoto-days'
     official: 'https://sakamotodays.jp/'
-    subreddit: ''
+    subreddit: '/r/SakamotoDays'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1368,7 +1368,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/unnamed-memory-act-2'
     official: 'https://unnamedmemory.com/'
-    subreddit: ''
+    subreddit: '/r/UnnamedMemory'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/G9VHN9QXQ'
     museasia: ''
@@ -1396,7 +1396,7 @@ info:
     kitsu: 'https://kitsu.app/anime/47969'
     animeplanet: 'http://www.anime-planet.com/anime/my-happy-marriage-2nd-season'
     official: 'https://watakon-anime.com/'
-    subreddit: ''
+    subreddit: '/r/MyHappyMarriage'
 streams:
     crunchyroll: ''
     museasia: ''
