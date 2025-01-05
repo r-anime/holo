@@ -6,10 +6,10 @@ has_source: true
 type: TV Short
 info:
     mal: 'https://myanimelist.net/anime/60425'
-    anilist: ''
+    anilist: 'https://anilist.co/anime/185462'
     livechart: 'https://www.livechart.me/anime/12952'
     anidb: ''
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/49405'
     animeplanet: ''
     official: 'https://www.shusuisha.com/lp/info0saiji'
     subreddit: ''
@@ -74,7 +74,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/28118'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -97,7 +97,7 @@ info:
     official: 'https://atdk-a.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/ameku-md-doctor-detective'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -208,7 +208,7 @@ info:
     official: 'https://anime.bang-dream.com/avemujica/'
     subreddit: '/r/BanGDream'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/ave-mujica-the-die-is-cast-'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -292,7 +292,7 @@ info:
     official: 'https://kura-kon.com/'
     subreddit: '/r/ClassnoDaikirai'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/im-getting-married-to-a-girl-i-hate-in-my-class'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -484,7 +484,7 @@ info:
     official: 'http://grisaia-pt.com/gptanime/'
     subreddit: '/r/grisaia'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/grisaia-phantom-trigger'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -650,7 +650,7 @@ info:
     official: 'https://izuresaikyo-pr.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/possibly-the-greatest-alchemist-of-all-time'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -916,7 +916,7 @@ streams:
     nyaa: ''
 ---
 title: 'Mahoutsukai Precure!! Mirai Days'
-title_en: "Witchy PreCure!! Season 2"
+title_en: "Witchy Pretty Cure! Season 2"
 alias: ['']
 has_source: false
 type: TV
@@ -992,8 +992,8 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: ''
-    disney|Disney: ''
+    hulu|Hulu: 'https://www.hulu.com/series/bb33d0c2-b077-4bc0-a549-d2ca27d4afa8'
+    disney|Disney: 'https://www.disneyplus.com/series'
     youtube: ''
     nyaa: ''
 ---
@@ -1011,7 +1011,7 @@ info:
     official: 'https://sh-anime.shochiku.co.jp/momentary-lily/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/momentary-lily'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1044,7 +1044,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/28115'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -1095,7 +1095,7 @@ info:
     official: 'https://okitsura.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/okitsura-fell-in-love-with-an-okinawan-girl-but-i-just-wish-i-know-what-shes-saying'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1206,7 +1206,7 @@ info:
     official: 'https://salaryman-big4.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/headhunted-to-another-world-from-salaryman-to-big-four'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1266,7 +1266,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/28112'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -1455,6 +1455,33 @@ info:
     subreddit: ''
 streams:
     crunchyroll: 'https://www.crunchyroll.com/zenshu'
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: ''
+    nyaa: ''
+---
+title: 'minimini minini'
+title_en: ""
+has_source: true
+type: TV Short
+info:
+    mal: ''
+    anilist: ''
+    livechart: 'https://www.livechart.me/anime/12972'
+    anidb: ''
+    kitsu: ''
+    animeplanet: ''
+    official: 'https://x.com/minini_Japan'
+    subreddit: ''
+streams:
+    crunchyroll: ''
     museasia: ''
     anione: ''
     funimation|Funimation: ''
