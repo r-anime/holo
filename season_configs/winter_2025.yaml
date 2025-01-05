@@ -125,7 +125,7 @@ info:
     official: 'https://www.ao-ex.com/'
     subreddit: '/r/AoNoExorcist'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G649PJ0JY'
+    crunchyroll: 'https://www.crunchyroll.com/blue-exorcist'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -347,7 +347,7 @@ info:
     official: 'https://dr-stone.jp/'
     subreddit: '/r/DrStone'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GYEXQKJG6'
+    crunchyroll: 'https://www.crunchyroll.com/dr-stone'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -512,7 +512,7 @@ info:
     official: 'https://girumasu.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G8DHV784M'
+    crunchyroll: 'https://www.crunchyroll.com/i-may-be-a-guild-receptionist-but-ill-solo-any-boss-to-clock-out-on-time'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -568,7 +568,7 @@ info:
     official: 'https://kinomimaster.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/bogus-skill-fruitmaster-about-that-time-i-became-able-to-eat-unlimited-numbers-of-skill-fruits-that-kill-you'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -678,7 +678,7 @@ info:
     official: 'https://www.hanakokun.com/2nd/'
     subreddit: '/r/hanakokun'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G24H1N3ZP'
+    crunchyroll: 'https://www.crunchyroll.com/toilet-bound-hanako-kun'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -706,7 +706,7 @@ info:
     official: 'https://hyakkano.com/'
     subreddit: '/r/100Kanojo'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GNVHKN933'
+    crunchyroll: 'https://www.crunchyroll.com/the-100-girlfriends-who-really-really-really-really-really-love-you'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -846,7 +846,7 @@ info:
     official: 'https://kusuriyanohitorigoto.jp/season2/'
     subreddit: '/r/KusuriyaNoHitorigoto'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G3KHEVDJ7'
+    crunchyroll: 'https://www.crunchyroll.com/the-apothecary-diaries'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -874,7 +874,7 @@ info:
     official: 'https://magicmaker-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GP5HJ8417'
+    crunchyroll: 'https://www.crunchyroll.com/magic-maker-how-to-make-magic-in-another-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1123,7 +1123,7 @@ info:
     official: 'https://sololeveling-anime.net/'
     subreddit: '/r/sololeveling/'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GDKHZEJ0K'
+    crunchyroll: 'https://www.crunchyroll.com/solo-leveling'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1138,7 +1138,7 @@ streams:
 ---
 title: 'S-Rank Monster no "Behemoth" dakedo, Neko to Machigawarete Elf Musume no Pet toshite Kurashitemasu'
 title_en: "Beheneko: The Elf-Girl's Cat is Secretly an S-Ranked Monster!"
-alias: [""]
+alias: ["Beheneko"]
 has_source: true
 type: TV
 info:
@@ -1343,7 +1343,7 @@ info:
     official: 'https://uniteup.info/anime/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/GJ0H7Q5J9'
+    crunchyroll: 'https://www.crunchyroll.com/uniteup'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1370,7 +1370,7 @@ info:
     official: 'https://unnamedmemory.com/'
     subreddit: '/r/UnnamedMemory'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G9VHN9QXQ'
+    crunchyroll: 'https://www.crunchyroll.com/unnamed-memory'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1426,7 +1426,7 @@ info:
     official: 'https://www.tv-tokyo.co.jp/anime/yamishibai14/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G6WEM1V36'
+    crunchyroll: 'https://www.crunchyroll.com/theatre-of-darkness-yamishibai'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1454,34 +1454,7 @@ info:
     official: 'https://zenshu-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/series/G24H1NW8E'
-    museasia: ''
-    anione: ''
-    funimation|Funimation: ''
-    wakanim|Wakanim: ''
-    hidive: ''
-    animelab|AnimeLab: ''
-    vrv|VRV: ''
-    hulu|Hulu: ''
-    disney|Disney: ''
-    youtube: ''
-    nyaa: ''
----
-title: 'minimini minini'
-title_en: ""
-has_source: true
-type: TV Short
-info:
-    mal: ''
-    anilist: ''
-    livechart: 'https://www.livechart.me/anime/12972'
-    anidb: ''
-    kitsu: ''
-    animeplanet: ''
-    official: 'https://x.com/minini_Japan'
-    subreddit: ''
-streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/zenshu'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1520,4 +1493,31 @@ streams:
     hulu|Hulu: ''
     disney|Disney: ''
     youtube: ''
+    nyaa: ''
+---
+title: 'Yoru wa Neko to Issho Season 3'
+title_en: "Nights with a Cat Season 3"
+has_source: true
+type: TV
+info:
+    mal: 'https://myanimelist.net/anime/58199'
+    anilist: 'https://anilist.co/anime/175137/Yoru-wa-Neko-to-Issho-Season-3/'
+    livechart: 'https://www.livechart.me/anime/12541'
+    anidb: 'http://anidb.net/a18504'
+    kitsu: 'https://kitsu.app/anime/yoru-wa-neko-to-issho-season-3'
+    animeplanet: ''
+    official: ''
+    subreddit: ''
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: 'https://www.youtube.com/watch?v=QrCxF6kRB2o&list=PL21PGVTtHmxgpTZwSrn-1QMUcbaJdnxZM'
     nyaa: ''
