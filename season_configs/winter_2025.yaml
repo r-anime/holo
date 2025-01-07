@@ -236,7 +236,7 @@ info:
     official: 'https://botsurakukizoku-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/im-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -545,7 +545,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/28119'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -762,7 +762,7 @@ info:
     official: 'https://kisakikyouiku.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/i-want-to-escape-from-princess-lessons'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -818,7 +818,7 @@ info:
     official: 'https://monaxmedaka.com/'
     subreddit: '/r/MonaXMedaka'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/medaka-kuroiwa-is-impervious-to-my-charms'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -902,7 +902,7 @@ info:
     official: 'https://sh-anime.shochiku.co.jp/mahoyaku-anime/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/promise-of-wizard'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -993,7 +993,7 @@ streams:
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: 'https://www.hulu.com/series/bb33d0c2-b077-4bc0-a549-d2ca27d4afa8'
-    disney|Disney: 'https://www.disneyplus.com/series'
+    disney|Disney: 'https://www.disneyplus.com/series/medalist/4LgC0zEd5JEx'
     youtube: ''
     nyaa: ''
 ---
@@ -1449,7 +1449,7 @@ info:
     anilist: 'https://anilist.co/anime/176273'
     livechart: 'https://www.livechart.me/anime/12601'
     anidb: 'http://anidb.net/a18547'
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/48638'
     animeplanet: 'http://www.anime-planet.com/anime/zenshu'
     official: 'https://zenshu-anime.com/'
     subreddit: ''
