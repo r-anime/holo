@@ -777,7 +777,7 @@ streams:
 ---
 title: 'Kono Kaisha ni Suki na Hito ga Imasu'
 title_en: "I Have a Crush at Work"
-alias: ['']
+alias: ['Can You Keep a Secret?']
 has_source: true
 type: TV
 info:
@@ -887,9 +887,9 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Mahotsukai no Yakusoku'
+title: 'Mahoutsukai no Yakusoku'
 title_en: "Promise of Wizard"
-alias: ['']
+alias: ['Mahotsukai no Yakusoku']
 has_source: true
 type: TV
 info:
@@ -1123,7 +1123,7 @@ info:
     official: 'https://sololeveling-anime.net/'
     subreddit: '/r/sololeveling/'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/solo-leveling'
+    crunchyroll: 'https://www.crunchyroll.com/solo-leveling|13'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
