@@ -41,7 +41,7 @@ info:
     official: 'https://arank-party-ridatsu-official.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -153,7 +153,7 @@ info:
     official: 'https://arafo-tsuhan.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-daily-life-of-a-middle-aged-online-shopper-in-another-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -274,7 +274,7 @@ streams:
     vrv|VRV: ''
     hulu|Hulu: ''
     disney|Disney: ''
-    youtube: ''
+    youtube: 'https://www.youtube.com/playlist?list=PLZaz0lCoygoyg34cbrbAPlAYfwswfs70F'
     nyaa: ''
 ---
 title: 'Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.'
@@ -499,7 +499,7 @@ streams:
 ---
 title: 'Guild no Uketsukejou desu ga, Zangyou wa Iya nanode Boss wo Solo Toubatsu Shiyou to Omoimasu'
 title_en: "I May Be a Guild Receptionist, but I'll Solo Any Boss to Clock Out on Time"
-alias: [""]
+alias: ["Girumasu"]
 has_source: true
 type: TV
 info:
@@ -686,7 +686,7 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: ''
+    hulu|Hulu: 'https://www.hulu.com/series/toilet-bound-hanako-kun-87b3d986-cbae-47ce-9076-0fe61fce06e3'
     disney|Disney: ''
     youtube: ''
     nyaa: ''
@@ -1067,7 +1067,7 @@ info:
     official: 'https://welcome-elfsan.com/'
     subreddit: '/r/elfsan'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/welcome-to-japan-ms-elf'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1234,7 +1234,7 @@ info:
     official: 'https://isekai-red-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-red-ranger-becomes-an-adventurer-in-another-world'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1289,7 +1289,7 @@ info:
     official: 'https://aq-moe.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/aquarion-myth-of-emotions'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1370,7 +1370,7 @@ info:
     official: 'https://unnamedmemory.com/'
     subreddit: '/r/UnnamedMemory'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/unnamed-memory'
+    crunchyroll: 'https://www.crunchyroll.com/unnamed-memory|13'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
