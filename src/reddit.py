@@ -18,8 +18,7 @@ def _connect_reddit():
 	return praw.Reddit(client_id=_config.r_oauth_key, client_secret=_config.r_oauth_secret,
 					username=_config.r_username, password=_config.r_password,
 					user_agent=_config.useragent,
-					check_for_updates=False,
-					check_for_async=False)
+					check_for_updates=False)
 
 def _ensure_connection():
 	global _r
@@ -39,10 +38,10 @@ def submit_text_post(subreddit, title, body):
 		else:
 			warning('Flair not selectable, flairing will be disabled')
 			flair_id, flair_text = None, None
-
+                        
 		info("Submitting post to {}".format(subreddit))
 		new_post = _r.subreddit(subreddit).submit(title,
-							  selftext=body,
+		                                          selftext=body,
 							  flair_id=flair_id,
 							  flair_text=flair_text,
 							  send_replies=False)

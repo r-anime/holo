@@ -67,10 +67,6 @@ def main(config, args, extra_args):
 			info("Batch creating threads")
 			import module_batch_create as m
 			m.main(config, db, *extra_args)
-		elif config.module == "discord":
-			info("starting discord bot")
-			import module_discord as m
-			m.main(config, db, *extra_args)
 		else:
 			warning("This should never happen or you broke it!")
 	except:
@@ -84,7 +80,7 @@ if __name__ == "__main__":
 	import argparse
 	parser = argparse.ArgumentParser(description="{}, {}".format(name, description))
 	parser.add_argument("--no-input", dest="no_input", action="store_true", help="run without stdin and write to a log file")
-	parser.add_argument("-m", "--module", dest="module", nargs=1, choices=["setup", "edit", "episode", "update", "find", "create", "batch", "discord"], default=["episode"], help="runs the specified module")
+	parser.add_argument("-m", "--module", dest="module", nargs=1, choices=["setup", "edit", "episode", "update", "find", "create", "batch"], default=["episode"], help="runs the specified module")
 	parser.add_argument("-c", "--config", dest="config_file", nargs=1, default=["config.ini"], help="use or create the specified database location")
 	parser.add_argument("-d", "--database", dest="db_name", nargs=1, default=None, help="use or create the specified database location")
 	parser.add_argument("-s", "--subreddit", dest="subreddit", nargs=1, default=None, help="set the subreddit on which to make posts")
