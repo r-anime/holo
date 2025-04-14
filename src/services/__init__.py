@@ -136,7 +136,7 @@ class Requestable:
 # Service handler #
 ###################
 
-from datetime import datetime
+from datetime import UTC, datetime
 from data.models import Episode, Stream, UnprocessedStream
 
 class AbstractServiceHandler(ABC, Requestable):
@@ -168,7 +168,7 @@ class AbstractServiceHandler(ABC, Requestable):
 		:return: An iterable of live episodes
 		"""
 		episodes = self.get_all_episodes(stream, **kwargs)
-		today = datetime.utcnow().date()							#NOTE: Uses local time instead of UTC, but probably doesn't matter too much on a day scale
+		today = datetime.now(UTC).replace(tzinfo=None).date()							#NOTE: Uses local time instead of UTC, but probably doesn't matter too much on a day scale
 		return filter(lambda e: e.date.date() <= today, episodes)	# Update 9/14/16: It actually matters.
 	
 	@abstractmethod
