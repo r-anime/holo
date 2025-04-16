@@ -57,11 +57,10 @@ info:
   anilist: 'https://anilist.co/anime/179979'
   anidb: 'http://anidb.net/a18798'
   kitsu: 'https://kitsu.app/anime/49095'
-  animeplanet: ''
   official: 'https://aharen-pr.com/'
   subreddit: ''
 streams:
-  crunchyroll: 'https://www.crunchyroll.com/aharen-san-wa-hakarenai|12'
+  crunchyroll: 'https://www.crunchyroll.com/aharen-san-wa-hakarenai'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -304,7 +303,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Enn Enn no Shouboutai San no Shou'
+title: 'Enen no Shouboutai: San no Shou'
 title_en: "Fire Force Season 3"
 has_source: true
 info:
@@ -314,7 +313,7 @@ info:
   kitsu: 'https://kitsu.app/anime/46119'
   animeplanet: 'http://www.anime-planet.com/anime/fire-force-3rd-season'
   official: 'https://fireforce-anime.jp/'
-  subreddit: ''
+  subreddit: '/r/firebrigade'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/fire-force'
   museasia: ''
@@ -568,7 +567,7 @@ info:
   kitsu: ''
   animeplanet: ''
   official: 'https://kowloongr.jp/anime/index.html'
-  subreddit: ''
+  subreddit: '/r/KowloonGenericRomance'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -772,7 +771,7 @@ info:
   kitsu: 'https://kitsu.app/anime/49017'
   animeplanet: 'http://www.anime-planet.com/anime/black-butler-emerald-witch-arc'
   official: 'https://www.kuroshitsuji.tv/emeraldwitch/'
-  subreddit: ''
+  subreddit: '/r/blackbutler'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/black-butler'
   museasia: ''
@@ -797,7 +796,7 @@ info:
   kitsu: 'https://kitsu.app/anime/47778'
   animeplanet: 'http://www.anime-planet.com/anime/lazarus'
   official: 'https://lazarus.aniplex.co.jp/'
-  subreddit: ''
+  subreddit: '/r/LAZARUSAnime'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -923,7 +922,7 @@ info:
   kitsu: ''
   animeplanet: ''
   official: 'https://en.gundam.info/about-gundam/series-pages/gquuuuuux/'
-  subreddit: ''
+  subreddit: '/r/Gundam'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1179,7 +1178,7 @@ info:
   kitsu: 'https://kitsu.app/anime/49004'
   animeplanet: 'http://www.anime-planet.com/anime/go-go-loser-ranger-2nd-season'
   official: 'http://anime-sentai-daishikkaku.com/'
-  subreddit: ''
+  subreddit: '/r/RangerReject'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1257,7 +1256,7 @@ info:
   kitsu: 'https://kitsu.app/anime/48544'
   animeplanet: 'http://www.anime-planet.com/anime/the-shiunji-family-children'
   official: 'https://shiunjifamily.com/'
-  subreddit: ''
+  subreddit: '/r/ShiunjiKe'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1283,7 +1282,7 @@ info:
   kitsu: 'https://kitsu.app/anime/49201'
   animeplanet: 'http://www.anime-planet.com/anime/shoshimin-how-to-become-ordinary-2'
   official: 'https://shoshimin-anime.com/'
-  subreddit: ''
+  subreddit: '/r/Shoushimin'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/shoshimin-how-to-become-ordinary|10'
   museasia: ''
@@ -1309,7 +1308,7 @@ info:
   kitsu: 'https://kitsu.app/anime/45717'
   animeplanet: 'http://www.anime-planet.com/anime/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level-2nd-season'
   official: 'https://slime300-anime.com/'
-  subreddit: ''
+  subreddit: '/r/KillingSlimes'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level|12'
   museasia: ''
@@ -1359,7 +1358,7 @@ info:
   kitsu: 'https://kitsu.app/anime/45702'
   animeplanet: 'http://www.anime-planet.com/anime/summer-pockets'
   official: 'https://summerpockets-anime.jp/'
-  subreddit: ''
+  subreddit: '/r/SummerPockets'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1486,7 +1485,7 @@ info:
   kitsu: ''
   animeplanet: ''
   official: 'https://anime-cinderellagray.com/'
-  subreddit: ''
+  subreddit: '/r/UmaMusume'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1512,7 +1511,7 @@ info:
   kitsu: 'https://kitsu.app/anime/49435'
   animeplanet: ''
   official: 'https://vigilante-anime.com/'
-  subreddit: ''
+  subreddit: '/r/BokuNoHeroAcademia'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1562,7 +1561,7 @@ info:
   kitsu: ''
   animeplanet: ''
   official: 'https://witchwatch-anime.com/'
-  subreddit: ''
+  subreddit: '/r/WitchWatch'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1627,7 +1626,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Zenryoku Usagi (2023) 2nd Season'
+title: 'Zenryoku Usagi Season 2'
 title_en: ""
 has_source: true
 info:
@@ -1662,11 +1661,63 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/mono'
   official: 'https://mono-weekend.photo/'
+  subreddit: '/r/MonoSeries'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Moonrise'
+title_en: ""
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/38903'
+  anilist: 'https://anilist.co/anime/150654'
+  anidb: 'https://anidb.net/anime/14561'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/moonrise'
+  official: ''
   subreddit: ''
 streams:
   crunchyroll: ''
   museasia: ''
   anione: ''
+  netflix|Netflix: 'https://www.netflix.com/title/81251383'
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
+title: 'Lycoris Recoil -Friends are thieves of time.-'
+title_en: ""
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/59369'
+  anilist: 'https://anilist.co/anime/179706'
+  anidb: 'https://anidb.net/anime/17864'
+  kitsu: ''
+  animeplanet: ''
+  official: ''
+  subreddit: '/r/LycorisRecoil'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  netflix|Netflix: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
   hidive: ''
