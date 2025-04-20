@@ -8,7 +8,7 @@ import reddit
 from module_find_episodes import _create_reddit_post, _edit_reddit_post
 
 def main(config, db, show_name, episode):
-	int_episode = Episode(int(episode), None, None, None)
+	int_episode = Episode(number=int(episode))
 	reddit.init_reddit(config)
 
 	show = db.get_show_by_name(show_name)
