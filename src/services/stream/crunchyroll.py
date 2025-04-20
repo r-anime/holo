@@ -1,6 +1,6 @@
 from logging import debug, info, warning, error, exception
 import re
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 
 from .. import AbstractServiceHandler
 from data.models import Episode, UnprocessedStream
@@ -172,7 +172,7 @@ def _is_valid_episode(feed_episode, show_id):
 		return False
 	# Don't check really old episodes
 	episode_date = datetime(*feed_episode.published_parsed[:6])
-	date_diff = datetime.utcnow() - episode_date
+	date_diff = datetime.now(UTC).replace(tzinfo=None) - episode_date
 	if date_diff >= timedelta(days=2):
 		debug("  Episode too old")
 		return False
