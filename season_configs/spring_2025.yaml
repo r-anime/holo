@@ -36,7 +36,7 @@ info:
   official: 'https://apocalypse-hotel.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/apocalypse-hotel'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -85,7 +85,7 @@ info:
   official: 'https://anime-ann-e.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/anne-shirley'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -335,7 +335,7 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/60535'
   anilist: 'https://anilist.co/anime/185584'
-  anidb: ''
+  anidb: 'http://anidb.net/a19268'
   kitsu: ''
   animeplanet: ''
   official: 'https://www.tv-tokyo.co.jp/anime/everydayhost/'
@@ -435,7 +435,7 @@ title_en: ""
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/61197'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/189733'
   anidb: ''
   kitsu: ''
   animeplanet: ''
@@ -488,12 +488,12 @@ info:
   mal: 'https://myanimelist.net/anime/60658'
   anilist: 'https://anilist.co/anime/185939'
   anidb: 'http://anidb.net/a19083'
-  kitsu: ''
+  kitsu: 'https://kitsu.app/anime/49757'
   animeplanet: ''
   official: 'https://hibimeshi.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/food-for-the-soul'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -569,7 +569,7 @@ info:
   official: 'https://kowloongr.jp/anime/index.html'
   subreddit: '/r/KowloonGenericRomance'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/kowloon-generic-romance'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -588,7 +588,7 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/60070'
   anilist: 'https://anilist.co/anime/184289'
-  anidb: ''
+  anidb: 'http://anidb.net/a19270'
   kitsu: ''
   animeplanet: ''
   official: 'https://kaijyu-sekai.com/'
@@ -806,7 +806,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/lazarus-a47ec22b-79c9-4e65-9407-2f73778eca4b'
   disney|Disney: ''
   youtube: ''
   nyaa: ''
@@ -873,7 +873,7 @@ info:
   official: 'https://maebashi-witches.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/maebashi-witches'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -893,7 +893,7 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/60446'
   anilist: 'https://anilist.co/anime/185259'
-  anidb: ''
+  anidb: 'http://anidb.net/a19273'
   kitsu: ''
   animeplanet: ''
   official: 'https://www.gagbi-go.com/'
@@ -970,7 +970,7 @@ info:
   mal: 'https://myanimelist.net/anime/60377'
   anilist: 'https://anilist.co/anime/184989'
   anidb: 'http://anidb.net/a19011'
-  kitsu: ''
+  kitsu: 'https://kitsu.app/anime/49373'
   animeplanet: ''
   official: 'https://nazod-anime.com/'
   subreddit: ''
@@ -1001,7 +1001,7 @@ info:
   official: 'https://ninkoro.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/a-ninja-and-an-assassin-under-one-roof'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1066,6 +1066,31 @@ streams:
   youtube: ''
   nyaa: ''
 ---
+title: 'Princession Orchestra'
+title_en: ""
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/59078'
+  anilist: 'https://anilist.co/anime/178052'
+  anidb: 'http://anidb.net/a18690'
+  kitsu: 'https://kitsu.app/anime/48972'
+  animeplanet: 'http://www.anime-planet.com/anime/prinsession-orchestra'
+  official: 'https://princess-session.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
 title: 'Rock wa Lady no Tashinami deshite'
 title_en: "Rock is a Lady's Modesty"
 has_source: true
@@ -1097,7 +1122,7 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/60612'
   anilist: 'https://anilist.co/anime/185715'
-  anidb: ''
+  anidb: 'http://anidb.net/a19274'
   kitsu: ''
   animeplanet: ''
   official: 'https://www.tv-tokyo.co.jp/anime/shibuya-hachi/'
@@ -1123,7 +1148,7 @@ has_source: true
 info:
   mal: 'https://myanimelist.net/anime/60596'
   anilist: 'https://anilist.co/anime/185718'
-  anidb: ''
+  anidb: 'http://anidb.net/a19288'
   kitsu: ''
   animeplanet: ''
   official: 'https://saikyooh.gakken.jp/anime/'
@@ -1258,7 +1283,7 @@ info:
   official: 'https://shiunjifamily.com/'
   subreddit: '/r/ShiunjiKe'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/the-shiunji-family-children'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1360,7 +1385,7 @@ info:
   official: 'https://summerpockets-anime.jp/'
   subreddit: '/r/SummerPockets'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/summer-pockets'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1431,7 +1456,7 @@ info:
   mal: 'https://myanimelist.net/anime/60521'
   anilist: ''
   anidb: 'http://anidb.net/a19051'
-  kitsu: ''
+  kitsu: 'https://kitsu.app/anime/49779'
   animeplanet: ''
   official: 'https://anime-hinahima.com/'
   subreddit: ''
@@ -1513,7 +1538,7 @@ info:
   official: 'https://vigilante-anime.com/'
   subreddit: '/r/BokuNoHeroAcademia'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/my-hero-academia-vigilantes'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1563,7 +1588,7 @@ info:
   official: 'https://witchwatch-anime.com/'
   subreddit: '/r/WitchWatch'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/witch-watch'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1571,7 +1596,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/7f008578-f8b2-4c27-8e5b-64320349ce63'
   disney|Disney: ''
   youtube: ''
   nyaa: ''
@@ -1638,7 +1663,7 @@ info:
   official: 'https://zenryoku-usagi-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/zatsutabi-thats-journey-'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1663,7 +1688,7 @@ info:
   official: 'https://mono-weekend.photo/'
   subreddit: '/r/MonoSeries'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/mono'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
