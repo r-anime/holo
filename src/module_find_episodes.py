@@ -3,10 +3,13 @@ from datetime import date, timedelta
 
 import services
 from data.models import Stream
-import reddit
+import reddit, lemmy
 
 def main(config, db, **kwargs):
-	reddit.init_reddit(config)
+	if config.backend == "reddit":
+		reddit.init_reddit(config)
+	elif config.backend == "lemmy":
+		lemmy.init_lemmy(config)
 	
 	has_new_episode = []
 	
@@ -115,7 +118,7 @@ def _process_new_episode(config, db, show, stream, episode):
 		
 		# New episode!
 		if not already_seen and not episode_number_gap:
-			post_url = _create_reddit_post(config, db, show, stream, int_episode, submit=not config.debug)
+			post_url = _create_post(config, db, show, stream, int_episode, submit=not config.debug)
 			info("  Post URL: {}".format(post_url))
 			if post_url is not None:
 				post_url = post_url.replace("http:", "https:")
@@ -128,7 +131,7 @@ def _process_new_episode(config, db, show, stream, episode):
 					edit_history_length = int(4 * 13 / 2) # cols x rows / 2
 					editing_episodes.sort(key=lambda x: x.number)
 					for editing_episode in editing_episodes[-edit_history_length:]:
-						_edit_reddit_post(config, db, show, stream, editing_episode, editing_episode.link, submit=not config.debug)
+						_edit_post(config, db, show, stream, editing_episode, editing_episode.link, submit=not config.debug)
 			else:
 				error("  Episode not submitted")
 			
@@ -138,25 +141,34 @@ def _process_new_episode(config, db, show, stream, episode):
 	
 	return False
 
-def _create_reddit_post(config, db, show, stream, episode, submit=True):
+def _create_post(config, db, show, stream, episode, submit=True):
 	display_episode = stream.to_display_episode(episode)
 	
 	title, body = _create_post_contents(config, db, show, stream, display_episode)
 	if submit:
-		new_post = reddit.submit_text_post(config.subreddit, title, body)
-		if new_post is not None:
-			debug("Post successful")
-			return reddit.get_shortlink_from_id(new_post.id)
-		else:
-			error("Failed to submit post")
+		if config.backend == "reddit":
+			new_post = reddit.submit_text_post(config.subreddit, title, body)
+			if new_post is not None:
+				debug("Post successful")
+				return reddit.get_shortlink_from_id(new_post.id)
+		elif config.backend == "lemmy":
+			new_post = lemmy.submit_text_post(config.subreddit, title, body)
+			if new_post is not None:
+				debug("Post successful")
+				return lemmy.get_shortlink_from_id(new_post['id'])
+
+		error("Failed to submit post")
 	return None
 
-def _edit_reddit_post(config, db, show, stream, episode, url, submit=True):
+def _edit_post(config, db, show, stream, episode, url, submit=True):
 	display_episode = stream.to_display_episode(episode)
 	
 	_, body = _create_post_contents(config, db, show, stream, display_episode, quiet=True)
 	if submit:
-		reddit.edit_text_post(url, body)
+		if config.backend == "reddit":
+			reddit.edit_text_post(url, body)
+		if config.backend == "lemmy":
+			lemmy.edit_text_post(url, body)
 	return None
 
 def _create_post_contents(config, db, show, stream, episode, quiet=False):

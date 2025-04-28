@@ -1,7 +1,7 @@
 ![Holo, of course.](holo.png)
 
 # Holo
-Anime episode discussion post bot for [/r/anime](https://reddit.com/r/anime/). Monitors online stream services for newly published episodes and submits a post for each to Reddit.
+Anime episode discussion post bot for [/r/anime](https://reddit.com/r/anime/). Monitors online stream services for newly published episodes and submits a post for each to Reddit. Posting to Lemmy communities is also available.
 
 Currently operates under the account [/u/AutoLovepon](https://www.reddit.com/user/AutoLovepon/). (Previously [/u/Holo_of_Yoitsu](https://www.reddit.com/user/Holo_of_Yoitsu/))
 
@@ -14,6 +14,7 @@ Season configurations (show names and associated service URLs for each anime sea
 * `beautifulsoup4`
 * `praw`
 * `praw-script-oauth`
+* `pythorhead`
 * `unidecode`
 * `pyyaml`
 
