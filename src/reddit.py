@@ -92,4 +92,4 @@ def get_text_post(url):
 # Utilities
 
 def get_shortlink_from_id(id):
-	return "http://redd.it/{}".format(id)
+	return "https://www.reddit.com/r/anime/comments/{}".format(id)
