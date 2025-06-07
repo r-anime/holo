@@ -1,6 +1,6 @@
 from logging import debug, info, warning, error, exception
 import re
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 import dateutil.parser
 
 from .. import AbstractServiceHandler
@@ -89,13 +89,14 @@ def _is_valid_episode(episode_data, show_key):
     date_string = episode_data.find("meta", itemprop="datePublished")["content"]
     date = datetime.fromordinal(dateutil.parser.parse(date_string).toordinal())
 
-    if date > datetime.utcnow():
-	    return False
+    date_diff = datetime.now(UTC).replace(tzinfo=None) - date
 
-    date_diff = datetime.utcnow() - date
+    if date_diff < timedelta(0):
+        return False
+
     if date_diff >= timedelta(days=2):
-	    debug("  Episode too old")
-	    return False
+        debug("  Episode too old")
+        return False
 
     return True
 

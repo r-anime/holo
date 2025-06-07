@@ -1,6 +1,6 @@
 from logging import debug, info, warning, error, exception
 import re
-from datetime import datetime, timedelta
+from datetime import UTC, datetime
 
 from .. import AbstractServiceHandler
 from data.models import Episode, UnprocessedStream
@@ -161,7 +161,7 @@ def _digest_episode(feed_episode):
 
 	date_string = snippet["publishedAt"].replace('Z', '')
 	#date_string = snippet["publishedAt"].replace('Z', '+00:00') # Use this for offset-aware dates
-	date = datetime.fromisoformat(date_string) or datetime.utcnow()
+	date = datetime.fromisoformat(date_string) or datetime.now(UTC).replace(tzinfo=None)
 
 	link = _video_url.format(video_id=feed_episode["id"])
 	return Episode(episode_num, None, link, date)
