@@ -278,7 +278,7 @@ streams:
 ---
 title: 'Dandadan Season 2'
 title_en: ""
-alias: [ 'Dan Da Dan Season 2' ]
+alias: ['Dan Da Dan Season 2']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/60543'
@@ -921,7 +921,7 @@ streams:
 ---
 title: 'Ginga Tokkyuu Milky☆Subway'
 title_en: "Milky☆Subway The Galactic Limited Express"
-alias: [ "" ]
+alias: [""]
 has_source: false
 info:
     mal: 'https://myanimelist.net/anime/61274'
