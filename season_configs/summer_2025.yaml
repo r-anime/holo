@@ -1,6 +1,7 @@
 ---
-title: "9-nine- Ruler's Crown"
+title: "9: Ruler's Crown"
 title_en: ""
+alias: ["9-nine- Ruler's Crown"]
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/58957'
@@ -60,7 +61,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48796'
     animeplanet: 'http://www.anime-planet.com/anime/arknights-rise-from-ember'
     official: 'https://arknights-anime.jp/'
-    subreddit: ''
+    subreddit: '/r/arknights'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/arknights'
     museasia: ''
@@ -210,7 +211,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/city-the-animation'
     official: 'https://city-the-animation.com/'
-    subreddit: ''
+    subreddit: '/r/City'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -287,7 +288,7 @@ info:
     kitsu: 'https://kitsu.app/anime/49425'
     animeplanet: ''
     official: 'https://anime-dandadan.com/'
-    subreddit: ''
+    subreddit: '/r/Dandadan'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/dan-da-dan'
     museasia: ''
@@ -338,7 +339,7 @@ info:
     kitsu: 'https://kitsu.app/anime/49751'
     animeplanet: ''
     official: 'https://dr-stone.jp/'
-    subreddit: ''
+    subreddit: '/r/DrStone'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/dr-stone|12'
     museasia: ''
@@ -490,7 +491,7 @@ info:
     kitsu: 'https://kitsu.app/anime/49247'
     animeplanet: 'http://www.anime-planet.com/anime/grand-blue-season-2'
     official: 'http://grandblue-anime.com/'
-    subreddit: ''
+    subreddit: '/r/GrandBlue'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/grand-blue-dreaming'
     museasia: ''
@@ -515,7 +516,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48893'
     animeplanet: 'http://www.anime-planet.com/anime/the-summer-hikaru-died'
     official: 'https://hikanatsu-anime.com/'
-    subreddit: ''
+    subreddit: '/r/HikarugaShindaNatsu'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -592,7 +593,7 @@ info:
     kitsu: 'https://kitsu.app/anime/49057'
     animeplanet: 'http://www.anime-planet.com/anime/apocalypse-bringer-mynoghra-world-conquest-starts-with-the-civilization-of-ruin'
     official: 'https://mynoghra-anime.com/'
-    subreddit: ''
+    subreddit: '/r/Mynoghra'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -618,7 +619,7 @@ info:
     kitsu: 'https://kitsu.app/anime/49776'
     animeplanet: ''
     official: 'https://hanakokun.com/2nd/'
-    subreddit: ''
+    subreddit: '/r/hanakokun'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/toilet-bound-hanako-kun|12'
     museasia: ''
@@ -644,7 +645,7 @@ info:
     kitsu: 'https://kitsu.app/anime/47968'
     animeplanet: 'http://www.anime-planet.com/anime/reborn-as-a-vending-machine-i-now-wander-the-dungeon-2nd-season'
     official: 'https://jihanki-anime.com/'
-    subreddit: ''
+    subreddit: '/r/jidouhanbaiki'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/reborn-as-a-vending-machine-i-now-wander-the-dungeon'
     museasia: ''
@@ -722,7 +723,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48994'
     animeplanet: 'http://www.anime-planet.com/anime/kaiju-no-8-2nd-season'
     official: 'https://kaiju-no8.net/'
-    subreddit: ''
+    subreddit: '/r/KaijuNo8'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/kaiju-no-8'
     museasia: ''
@@ -748,7 +749,7 @@ info:
     kitsu: 'https://kitsu.app/anime/49067'
     animeplanet: 'http://www.anime-planet.com/anime/a-couple-of-cuckoos-season-2'
     official: 'https://cuckoos-anime.com/'
-    subreddit: ''
+    subreddit: '/r/Cuckoo'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/a-couple-of-cuckoos'
     museasia: ''
@@ -774,7 +775,7 @@ info:
     kitsu: 'https://kitsu.app/anime/49033'
     animeplanet: 'http://www.anime-planet.com/anime/rent-a-girlfriend-season-4'
     official: 'https://kanokari-official.com/'
-    subreddit: ''
+    subreddit: '/r/KanojoOkarishimasu'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/rent-a-girlfriend'
     museasia: ''
@@ -800,7 +801,7 @@ info:
     kitsu: ''
     animeplanet: ''
     official: 'http://kaoruhana-anime.com/'
-    subreddit: ''
+    subreddit: '/r/KaoruHanaWaRinToSaku'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1110,7 +1111,7 @@ info:
     kitsu: 'https://kitsu.app/anime/46227'
     animeplanet: 'http://www.anime-planet.com/anime/new-panty-and-stocking-with-garterbelt'
     official: 'https://newpsg.com/'
-    subreddit: ''
+    subreddit: '/r/pantyandstocking'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1187,7 +1188,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/mr-osomatsu-4th-season'
     official: 'https://osomatsusan.com/'
-    subreddit: ''
+    subreddit: '/r/Osomatsu'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1289,7 +1290,7 @@ info:
     kitsu: 'https://kitsu.app/anime/49332'
     animeplanet: ''
     official: 'https://sakamotodays.jp/'
-    subreddit: ''
+    subreddit: '/r/SakamotoDays'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1316,7 +1317,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48917'
     animeplanet: 'http://www.anime-planet.com/anime/seishun-buta-yarou-daigakusei-hen'
     official: 'https://ao-buta.com/santa/'
-    subreddit: ''
+    subreddit: '/r/SeishunButaYarou'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/rascal-does-not-dream-of-bunny-girl-senpai'
     museasia: ''
@@ -1368,7 +1369,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/secrets-of-the-silent-witch'
     official: 'https://silentwitch.net/'
-    subreddit: ''
+    subreddit: '/r/TheSilentWitch'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1394,7 +1395,7 @@ info:
     kitsu: 'https://kitsu.app/anime/46492'
     animeplanet: ''
     official: 'https://bisquedoll-anime.com/'
-    subreddit: ''
+    subreddit: '/r/SonoBisqueDoll'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/my-dress-up-darling'
     museasia: ''
@@ -1471,7 +1472,7 @@ info:
     kitsu: 'https://kitsu.app/anime/48968'
     animeplanet: 'http://www.anime-planet.com/anime/i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability-season-2'
     official: 'https://dainanaoji.com/'
-    subreddit: ''
+    subreddit: 'r/TenseiNanaOuji'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability'
     museasia: ''
@@ -1679,7 +1680,7 @@ info:
     kitsu: ''
     animeplanet: 'http://www.anime-planet.com/anime/call-of-the-night-season-2'
     official: 'https://yofukashi-no-uta.com/'
-    subreddit: ''
+    subreddit: '/r/YofukashiNoUta'
 streams:
     crunchyroll: ''
     museasia: ''
@@ -1694,9 +1695,9 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Yuusha Party wo Tsuihou sareta Shiromadoushi, S-Rank Boukensha ni Hirowareru ~Kono Shiromadoushi ga Kikakugai Sugiru~'
+title: 'Yuusha Party wo Tsuihou sareta Shiromadoushi, S-Rank Boukensha ni Hirowareru: Kono Shiromadoushi ga Kikakugai Sugiru'
 title_en: "Scooped Up by an S-Rank Adventurer!"
-alias: ['']
+alias: ['Yuusha Party wo Tsuihou sareta Shiromadoushi, S-Rank Boukensha ni Hirowareru ~Kono Shiromadoushi ga Kikakugai Sugiru~']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/59424'
@@ -1756,7 +1757,7 @@ info:
     kitsu: ''
     animeplanet: ''
     official: 'https://www.tbs.co.jp/anime/takopi_project/'
-    subreddit: ''
+    subreddit: '/r/TakopisOriginalSin'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/takopis-original-sin'
     museasia: ''
@@ -1833,7 +1834,7 @@ info:
     kitsu: ''
     animeplanet: ''
     official: 'https://www.lupin-3rd.net/zenigata-twolupins/'
-    subreddit: ''
+    subreddit: '/r/lupinthe3rd'
 streams:
     crunchyroll: ''
     museasia: ''
