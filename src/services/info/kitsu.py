@@ -7,11 +7,11 @@ from .. import AbstractInfoHandler
 from data.models import UnprocessedShow, ShowType
 
 class InfoHandler(AbstractInfoHandler):
-	_show_link_base = "https://kitsu.io/anime/{slug}"
-	_show_link_matcher = "https?://kitsu\.io/anime/([a-zA-Z0-9-]+)"
-	_season_url = "https://kitsu.io/api/edge/anime?filter[year]={year}&filter[season]={season}&filter[subtype]=tv&page[limit]=20"
+	_show_link_base = "https://kitsu.app/anime/{slug}"
+	_show_link_matcher = "https?://kitsu\.app/anime/([a-zA-Z0-9-]+)"
+	_season_url = "https://kitsu.app/api/edge/anime?filter[year]={year}&filter[season]={season}&filter[subtype]=tv&page[limit]=20"
 
-	_api_base = "https:///kitsu.io/api/edge/anime"
+	_api_base = "https:///kitsu.app/api/edge/anime"
 	
 	def __init__(self):
 		super().__init__("kitsu", "Kitsu")
