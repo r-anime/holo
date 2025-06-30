@@ -171,10 +171,14 @@ def _is_valid_episode(feed_episode, show_id):
 		debug("Is PV, ignoring")
 		return False
 	# Don't check really old episodes
-	episode_date = datetime(*feed_episode.published_parsed[:6])
-	date_diff = datetime.utcnow() - episode_date
-	if date_diff >= timedelta(days=2):
-		debug("  Episode too old")
+	try:
+		episode_date = datetime(*feed_episode.published_parsed[:6])
+		date_diff = datetime.utcnow() - episode_date
+		if date_diff >= timedelta(days=2):
+			debug("  Episode too old")
+			return False
+	except Exception as e:
+		# If date parsing fails
 		return False
 	return True
 
