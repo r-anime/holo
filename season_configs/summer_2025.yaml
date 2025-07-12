@@ -37,7 +37,7 @@ info:
     official: 'https://amekimi-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/with-you-and-the-rain'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -63,7 +63,7 @@ info:
     official: 'https://arknights-anime.jp/'
     subreddit: '/r/arknights'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/arknights'
+    crunchyroll: 'https://www.crunchyroll.com/arknights|16'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -93,7 +93,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/31577'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -232,7 +232,7 @@ has_source: false
 info:
     mal: 'https://myanimelist.net/anime/61765'
     anilist: 'https://anilist.co/anime/193883'
-    anidb: ''
+    anidb: 'http://anidb.net/a19427'
     kitsu: 'https://kitsu.app/anime/49962'
     animeplanet: ''
     official: 'https://chibigodzilla.jp/'
@@ -264,7 +264,7 @@ info:
     official: 'https://clevatess.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/clevatess'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -316,7 +316,7 @@ info:
     official: 'https://dekinnomogura.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/dekin-no-mogura-the-earthbound-mole'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -391,7 +391,7 @@ info:
     official: 'https://www.foodcourtjk-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/see-you-tomorrow-at-the-food-court'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -417,7 +417,7 @@ info:
     official: 'https://2solocamp-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/solo-camping-for-two'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -442,7 +442,7 @@ info:
     official: 'https://gachiakuta-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/gachiakuta'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -467,7 +467,7 @@ info:
     official: 'https://gacen-girl-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/cultural-exchange-with-a-game-centre-girl'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -569,7 +569,7 @@ info:
     official: 'https://hotel-inhumans.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/hotel-inhumans'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -595,7 +595,7 @@ info:
     official: 'https://mynoghra-anime.com/'
     subreddit: '/r/Mynoghra'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/apocalypse-bringer-mynoghra-world-conquest-starts-with-the-civilization-of-ruin'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -629,7 +629,7 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: ''
+    hulu|Hulu: 'https://www.hulu.com/series/toilet-bound-hanako-kun-87b3d986-cbae-47ce-9076-0fe61fce06e3'
     disney|Disney: ''
     youtube: ''
     nyaa: ''
@@ -699,7 +699,7 @@ info:
     official: 'https://kamitsubaki-anime.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/kamitsubaki-city-under-construction'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -751,7 +751,7 @@ info:
     official: 'https://cuckoos-anime.com/'
     subreddit: '/r/Cuckoo'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/a-couple-of-cuckoos'
+    crunchyroll: 'https://www.crunchyroll.com/a-couple-of-cuckoos|24'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -777,7 +777,7 @@ info:
     official: 'https://kanokari-official.com/'
     subreddit: '/r/KanojoOkarishimasu'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/rent-a-girlfriend'
+    crunchyroll: 'https://www.crunchyroll.com/rent-a-girlfriend|36'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -829,7 +829,7 @@ info:
     official: 'https://karaoke-muchusa.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/lets-go-karaoke'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -855,7 +855,7 @@ info:
     official: 'https://kizetsuyusha-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-shy-hero-and-the-assassin-princesses'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -874,7 +874,7 @@ alias: ['']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/59961'
-    anilist: ''
+    anilist: 'https://anilist.co/anime/195209'
     anidb: ''
     kitsu: ''
     animeplanet: ''
@@ -907,7 +907,7 @@ info:
     official: 'https://koujodenka-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/private-tutor-to-the-dukes-daughter'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -959,7 +959,7 @@ info:
     official: 'https://mattan-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/detectives-these-days-are-crazy'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -985,7 +985,7 @@ info:
     official: 'https://mikadono.family/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/dealing-with-mikadono-sisters-is-a-breeze'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1011,7 +1011,7 @@ info:
     official: 'https://mizuzokusei-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/the-water-magician'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1037,7 +1037,7 @@ info:
     official: 'https://karaoke-muchusa.com/muchusa/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/captivated-by-you'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1088,7 +1088,7 @@ info:
     official: 'https://anime-necronomico.help/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/necronomico-and-the-cosmic-horror-show'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1138,7 +1138,7 @@ info:
     official: 'https://nyailivi.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/nyaight-of-the-living-cat'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1164,7 +1164,7 @@ info:
     official: 'https://onmyo-kaiten.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/onmyo-kaiten-rebirth-verse'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1190,7 +1190,7 @@ info:
     official: 'https://osomatsusan.com/'
     subreddit: '/r/Osomatsu'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/mr-osomatsu|25'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1216,7 +1216,7 @@ info:
     official: 'https://puniru-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/puniru-is-a-kawaii-slime|12'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1267,7 +1267,7 @@ info:
     official: 'https://rurinohouseki.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/ruri-rocks'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1339,7 +1339,7 @@ has_source: true
 info:
     mal: 'https://myanimelist.net/anime/59865'
     anilist: 'https://anilist.co/anime/181867'
-    anidb: ''
+    anidb: 'http://anidb.net/a19439'
     kitsu: ''
     animeplanet: ''
     official: 'https://cryptoninja-sakuya.xyz/'
@@ -1371,7 +1371,7 @@ info:
     official: 'https://silentwitch.net/'
     subreddit: '/r/TheSilentWitch'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/secrets-of-the-silent-witch'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1397,7 +1397,7 @@ info:
     official: 'https://bisquedoll-anime.com/'
     subreddit: '/r/SonoBisqueDoll'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/my-dress-up-darling'
+    crunchyroll: 'https://www.crunchyroll.com/my-dress-up-darling|12'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1422,7 +1422,7 @@ info:
     official: 'https://tougenanki-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/tougen-anki'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1474,7 +1474,7 @@ info:
     official: 'https://dainanaoji.com/'
     subreddit: 'r/TenseiNanaOuji'
 streams:
-    crunchyroll: 'https://www.crunchyroll.com/i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability'
+    crunchyroll: 'https://www.crunchyroll.com/i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability|12'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1500,7 +1500,7 @@ info:
     official: 'https://tsuihosha-shokudo.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/welcome-to-the-outcasts-restaurant'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1526,7 +1526,7 @@ info:
     official: 'https://tsuyosaga-pr.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/new-saga'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1552,7 +1552,7 @@ info:
     official: 'https://turkey-project.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/turkey-time-to-strike'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1604,7 +1604,7 @@ info:
     official: 'https://watarikunxx-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/watari-kuns-is-about-to-collapse'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1650,13 +1650,13 @@ has_source: true
 info:
     mal: 'https://myanimelist.net/anime/61793'
     anilist: 'https://anilist.co/anime/194088'
-    anidb: ''
+    anidb: 'http://anidb.net/a19426'
     kitsu: ''
     animeplanet: ''
     official: 'https://www.tv-tokyo.co.jp/anime/yamishibai15/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/theatre-of-darkness-yamishibai'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1687,7 +1687,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/31574'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -1708,7 +1708,7 @@ info:
     official: 'https://tsuiho-shiromadoshi.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/scooped-up-by-an-s-rank-adventurer'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1734,7 +1734,7 @@ info:
     official: 'https://zutaboro-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/betrothed-to-my-sisters-ex'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
