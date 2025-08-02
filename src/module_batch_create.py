@@ -40,7 +40,7 @@ def main(config, db, show_name, episode_count):
 		
 	if megathread_post is not None:
 		debug("Post successful")
-		megathread_url = reddit.get_shortlink_from_id(megathread_post.id).replace("http:", "https:")
+		megathread_url = reddit.get_longlink_from_id(config.subreddit, megathread_post.id).replace("http:", "https:")
 	else:
 		error("Failed to submit post")
 		megathread_url = None

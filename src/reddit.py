@@ -91,5 +91,5 @@ def get_text_post(url):
 
 # Utilities
 
-def get_shortlink_from_id(id):
-	return "https://www.reddit.com/r/anime/comments/{}".format(id)
+def get_longlink_from_id(subreddit, id):
+	return "https://www.reddit.com/r/{}/comments/{}".format(subreddit, id)

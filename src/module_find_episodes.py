@@ -146,7 +146,7 @@ def _create_reddit_post(config, db, show, stream, episode, submit=True):
 		new_post = reddit.submit_text_post(config.subreddit, title, body)
 		if new_post is not None:
 			debug("Post successful")
-			return reddit.get_shortlink_from_id(new_post.id)
+			return reddit.get_longlink_from_id(config.subreddit, new_post.id)
 		else:
 			error("Failed to submit post")
 	return None
