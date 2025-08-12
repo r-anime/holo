@@ -272,8 +272,7 @@ class DatabaseDatabase:
 		elif show is not None:
 			debug("Getting all streams for show {}".format(show.id))
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
-							WHERE show = ? AND active = 1 AND \
-							(SELECT enabled FROM Shows WHERE id = show) = 1", (show.id,))
+							WHERE show = ? AND (SELECT enabled FROM Shows WHERE id = show) = 1", (show.id,))
 		elif unmatched:
 			debug("Getting unmatched streams")
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \

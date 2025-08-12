@@ -211,12 +211,11 @@ def _gen_text_streams(db, formats, show):
 
 	streams = db.get_streams(show=show)
 	for stream in streams:
-		if stream.active:
-			service = db.get_service(id=stream.service)
-			if service.enabled and service.use_in_post:
-				service_handler = services.get_service_handler(service)
-				text = safe_format(formats["stream"], service_name=service.name, stream_link=service_handler.get_stream_link(stream))
-				stream_texts.append(text)
+		service = db.get_service(id=stream.service)
+		if service.enabled and service.use_in_post:
+			service_handler = services.get_service_handler(service)
+			text = safe_format(formats["stream"], service_name=service.name, stream_link=service_handler.get_stream_link(stream))
+			stream_texts.append(text)
 		
 	lite_streams = db.get_lite_streams(show=show)
 	for lite_stream in lite_streams:
