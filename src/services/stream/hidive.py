@@ -6,8 +6,12 @@ from .. import AbstractServiceHandler
 from data.models import Episode, UnprocessedStream
 
 class ServiceHandler(AbstractServiceHandler):
-    _show_url = "https://www.hidive.com/tv/{id}"
-    _show_re = re.compile("hidive.com/tv/([\w-]+)", re.I)
+    # There are two ways to refer to a show on hidive: by show name with /tv/
+    # and by a numeric id with /season/. Since our sources have used both over time,
+    # we must support both versions.
+    _show_url = "https://www.hidive.com/{id}"
+    _show_res = [re.compile("hidive.com/(tv/[\w-]+)", re.I),
+                re.compile("hidive.com/(season/\d+)", re.I)]
 
     def __init__(self):
         super().__init__("hidive", "HIDIVE", False)
@@ -86,9 +90,10 @@ class ServiceHandler(AbstractServiceHandler):
         return self._show_url.format(id=stream.show_key)
 
     def extract_show_key(self, url):
-        match = self._show_re.search(url)
-        if match:
-            return match.group(1)
+        for re in self._show_res:
+            match = re.search(url)
+            if match:
+                return match.group(1)
         return None
 
 _episode_re = re.compile("(?:https://www.hidive.com)?/stream/[\w-]+/s\d{2}e(\d{3})", re.I)
