@@ -261,39 +261,26 @@ class DatabaseDatabase:
 		return stream
 
 	@db_error_default(list())
-	def get_streams(self, service=None, show=None, active=True, unmatched=False, missing_name=False) -> List[Stream]:
+	def get_streams(self, service=None, show=None, unmatched=False, missing_name=False) -> List[Stream]:
 		# Not the best combination of options, but it's only the usage needed
-		if service is not None and active == True:
+		if service is not None:
 			debug("Getting all active streams for service {}".format(service.key))
 			service = self.get_service(key=service.key)
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
 							WHERE service = ? AND active = 1 AND \
 							(SELECT enabled FROM Shows WHERE id = show) = 1", (service.id,))
-		elif service is not None and active == False:
-			debug("Getting all inactive streams for service {}".format(service.key))
-			service = self.get_service(key=service.key)
-			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
-							WHERE service = ? AND active = 0", (service.id,))
-		elif show is not None and active == True:
+		elif show is not None:
 			debug("Getting all streams for show {}".format(show.id))
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
-							WHERE show = ? AND active = 1 AND \
-							(SELECT enabled FROM Shows WHERE id = show) = 1", (show.id,))
-		elif show is not None and active == False:
-			debug("Getting all streams for show {}".format(show.id))
-			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
-							WHERE show = ? AND active = 0", (show.id,))
+							WHERE show = ? AND (SELECT enabled FROM Shows WHERE id = show) = 1", (show.id,))
 		elif unmatched:
 			debug("Getting unmatched streams")
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
 							WHERE show IS NULL")
-		elif missing_name and active == True:
+		elif missing_name:
 			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
 							WHERE (name IS NULL OR name = '') AND active = 1 AND \
 							(SELECT enabled FROM Shows WHERE id = show) = 1")
-		elif missing_name and active == False:
-			self.q.execute("SELECT id, service, show, show_id, show_key, name, remote_offset, display_offset, active FROM Streams \
-							WHERE (name IS NULL OR name = '') AND active = 0")
 		else:
 			error("A service or show must be provided to get streams")
 			return list()
