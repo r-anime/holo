@@ -68,9 +68,8 @@ def rate_limit(wait_length):
 class Requestable:
 	rate_limit_wait = 1
 	
-	@lru_cache(maxsize=100)
 	@rate_limit(rate_limit_wait)
-	def request(self, url, json=False, xml=False, html=False, rss=False, proxy=None, useragent=None, auth=None, timeout=10):
+	def request(self, url, json=False, xml=False, html=False, rss=False, proxy=None, useragent=None, auth=None, headers=None, timeout=10):
 		"""
 		Sends a request to the service.
 		:param url: The request URL
@@ -80,6 +79,7 @@ class Requestable:
 		:param proxy: Optional proxy, a tuple of address and port
 		:param useragent: Ideally should always be set
 		:param auth: Tuple of username and password to use for HTTP basic auth
+		:param headers: Any additional headers
 		:param timeout: Amount of time to wait for a response in seconds
 		:return: The response if successful, otherwise None
 		"""
@@ -91,7 +91,9 @@ class Requestable:
 				proxy = {"http": "http://{}:{}".format(*proxy)}
 				debug("Using proxy: {}", proxy)
 		
-		headers = {"User-Agent": useragent}
+		if headers == None:
+			headers = {}
+		headers["User-Agent"] = useragent
 		debug("Sending request")
 		debug("  URL={}".format(url))
 		debug("  Headers={}".format(headers))
