@@ -103,6 +103,7 @@ streams:
 ---
 title: 'Binan Koukou Chikyuu Bouei-bu Haikara!'
 title_en: ""
+alias: ['Cute High Earth Defense Club High Collar']
 has_source: false
 info:
     mal: 'https://myanimelist.net/anime/61239'
@@ -138,7 +139,7 @@ info:
     official: 'https://busamen-gachi-fighter.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/uglymug-epicfighter'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -213,6 +214,7 @@ info:
     official: 'https://city-the-animation.com/'
     subreddit: '/r/City'
 streams:
+    amazon|Amazon: 'https://www.primevideo.com/detail/0S1DSDV3YPNM8W8GZQK8FJTZ9H'
     crunchyroll: ''
     museasia: ''
     anione: ''
@@ -329,7 +331,7 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Dr. Stone Science Future'
+title: 'Dr. Stone Science Future Part 2'
 title_en: ""
 has_source: true
 info:
@@ -942,6 +944,7 @@ streams:
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
+
     disney|Disney: ''
     youtube: ''
     nyaa: ''
@@ -1265,7 +1268,7 @@ info:
     kitsu: ''
     animeplanet: ''
     official: 'https://rurinohouseki.com/'
-    subreddit: ''
+    subreddit: '/r/RuriRocks'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/ruri-rocks'
     museasia: ''
@@ -1565,7 +1568,7 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Utagoe ha Mille-Feuille'
+title: 'Utagoe wa Mille-Feuille'
 title_en: "Harmony of Mille-Feuille"
 alias: ['']
 has_source: true
@@ -1677,7 +1680,7 @@ info:
     mal: 'https://myanimelist.net/anime/58390'
     anilist: 'https://anilist.co/anime/175914'
     anidb: 'http://anidb.net/a18531'
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/48611'
     animeplanet: 'http://www.anime-planet.com/anime/call-of-the-night-season-2'
     official: 'https://yofukashi-no-uta.com/'
     subreddit: '/r/YofukashiNoUta'
@@ -1800,6 +1803,7 @@ streams:
 ---
 title: 'Bullet/Bullet'
 title_en: ""
+alias: ['Bullet Bullet']
 has_source: false
 info:
     mal: 'https://myanimelist.net/anime/53722'
@@ -1839,6 +1843,59 @@ streams:
     crunchyroll: ''
     museasia: ''
     anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: ''
+    nyaa: ''
+---
+title: 'PetitCure: Precure Fairies'
+title_en: ""
+alias: ['']
+has_source: true
+info:
+    mal: 'https://myanimelist.net/anime/61272'
+    anilist: 'https://anilist.co/anime/188394'
+    anidb: 'http://anidb.net/a19338'
+    kitsu: ''
+    animeplanet: ''
+    official: 'https://www.toei-anim.co.jp/petitcure/'
+    subreddit: '/r/precure'
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    funimation|Funimation: ''
+    wakanim|Wakanim: ''
+    hidive: ''
+    animelab|AnimeLab: ''
+    vrv|VRV: ''
+    hulu|Hulu: ''
+    disney|Disney: ''
+    youtube: 'https://www.youtube.com/playlist?list=PLNWdB6PgHXoCkVhRBMZvW8cA0K_4wisXD'
+    nyaa: ''
+---
+title: 'My Melody & Kuromi'
+title_en: ""
+alias: ['']
+has_source: true
+info:
+    mal: 'https://myanimelist.net/anime/60726'
+    anilist: 'https://anilist.co/anime/186043'
+    anidb: 'http://anidb.net/a19095'
+    kitsu: ''
+    animeplanet: ''
+    official: ''
+    subreddit: ''
+streams:
+    crunchyroll: ''
+    museasia: ''
+    anione: ''
+    netflix|Netflix: 'https://www.netflix.com/title/81318403'
     funimation|Funimation: ''
     wakanim|Wakanim: ''
     hidive: ''
