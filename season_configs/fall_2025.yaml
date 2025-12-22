@@ -37,7 +37,7 @@ info:
     official: 'https://anime-gintama.com/ginpachi/'
     subreddit: '/r/Gintama'
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/gintama-mr-ginpachis-zany-class'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -175,7 +175,7 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: ''
+    hulu|Hulu: 'https://www.hulu.com/series/b4859a95-39ba-4051-a550-256c42e70a1d'
     disney|Disney: ''
     youtube: ''
     nyaa: ''
@@ -579,7 +579,7 @@ info:
     official: 'http://isekai-quartet.com/tv/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/isekai-quartet'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -786,7 +786,7 @@ info:
     official: 'https://kingdom-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/kingdom'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -910,7 +910,7 @@ info:
     mal: 'https://myanimelist.net/anime/60619'
     anilist: 'https://anilist.co/anime/185801'
     anidb: 'http://anidb.net/a19075'
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/49651'
     animeplanet: 'http://www.anime-planet.com/anime/let-this-grieving-soul-retire-2nd-season'
     official: 'https://nageki-anime.com/'
     subreddit: ''
@@ -1010,9 +1010,9 @@ title_en: ""
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/62144'
-    anilist: ''
+    anilist: 'https://anilist.co/anime/198561'
     anidb: ''
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/50196'
     animeplanet: ''
     official: 'https://animationid.com/potion/'
     subreddit: ''
@@ -1151,7 +1151,7 @@ streams:
     hidive: ''
     animelab|AnimeLab: ''
     vrv|VRV: ''
-    hulu|Hulu: ''
+    hulu|Hulu: 'https://www.hulu.com/series/65d158d4-443f-44c7-bd2c-eae39f6c60e9'
     disney|Disney: ''
     youtube: ''
     nyaa: ''
@@ -1673,9 +1673,8 @@ streams:
     youtube: ''
     nyaa: ''
 ---
-title: 'Umamusume: Cinderella Gray Part 2'
+title: 'Umamusume: Cinderella Gray'
 title_en: ""
-alias: ['Umamusume: Cinderella Gray Cour 2']
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/61930'
