@@ -20,6 +20,8 @@ class Config:
 		self.r_oauth_key = None
 		self.r_oauth_secret = None
 		
+		self.max_episodes = 5
+		
 		self.services = dict()
 		
 		self.new_show_types = list()
@@ -68,6 +70,7 @@ def from_file(file_path):
 		config.r_password = sec.get("password", None)
 		config.r_oauth_key = sec.get("oauth_key", None)
 		config.r_oauth_secret = sec.get("oauth_secret", None)
+		config.max_episodes = sec.getint("max_episodes", 5)
 	
 	if "options" in parsed:
 		sec = parsed["options"]
