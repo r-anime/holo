@@ -164,7 +164,7 @@ def _digest_episode(feed_episode):
 	date = datetime.fromisoformat(date_string) or datetime.utcnow()
 
 	link = _video_url.format(video_id=feed_episode["id"])
-	return Episode(episode_num, None, link, date)
+	return Episode(number=episode_num, link=link, date=date)
 
 def _extract_episode_num(name):
 	debug(f"Extracting episode number from \"{name}\"")
@@ -177,4 +177,4 @@ def _extract_episode_num(name):
 			debug(f"  Match found, num={num}")
 			return num
 	debug("  No match found")
-	return none
+	return None

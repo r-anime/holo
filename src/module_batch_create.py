@@ -18,7 +18,7 @@ def main(config, db, show_name, episode_count):
 
 	post_urls = list()
 	for i in range(1, int_episode_count+1):
-		int_episode = Episode(i, None, None, None)
+		int_episode = Episode(number=i)
 		post_url = _create_reddit_post(config, db, show, stream, int_episode, submit=not config.debug)
 		info("  Post URL: {}".format(post_url))
 		if post_url is not None:
@@ -36,8 +36,8 @@ def main(config, db, show_name, episode_count):
 	if not config.debug:
 		megathread_post = reddit.submit_text_post(config.subreddit, megathread_title, megathread_body)
 	else:
-                megathread_post = None
-		
+		megathread_post = None
+
 	if megathread_post is not None:
 		debug("Post successful")
 		megathread_url = reddit.get_longlink_from_id(config.subreddit, megathread_post.id).replace("http:", "https:")
@@ -54,10 +54,10 @@ def main(config, db, show_name, episode_count):
 
 def _create_megathread_content(config, db, show, stream, episode_count):
 	title = _create_megathread_title(config, show, episode_count)
-	title = _format_post_text(config, db, title, config.post_formats, show, Episode(episode_count, None, None, None), stream)
+	title = _format_post_text(config, db, title, config.post_formats, show, Episode(number=episode_count), stream)
 	info("Title:\n"+title)
 
-	body = _format_post_text(config, db, config.batch_thread_post_body, config.post_formats, show, Episode(episode_count, None, None, None), stream)
+	body = _format_post_text(config, db, config.batch_thread_post_body, config.post_formats, show, Episode(number=episode_count), stream)
 	info("Body:\n"+body)
 	return title, body
 
