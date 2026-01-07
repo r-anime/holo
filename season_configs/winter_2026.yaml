@@ -12,7 +12,7 @@ info:
     official: 'https://omagoto.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365592'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -32,7 +32,7 @@ has_source: true
 info:
     mal: 'https://myanimelist.net/anime/62521'
     anilist: 'https://anilist.co/anime/199005'
-    anidb: ''
+    anidb: 'http://anidb.net/a19565'
     kitsu: ''
     animeplanet: ''
     official: 'https://animationid.com/kanael/'
@@ -64,7 +64,7 @@ info:
     official: 'https://anime-29sai-dokushin.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365607'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -168,7 +168,7 @@ info:
     official: 'https://arne.asmik-ace.co.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365733'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -246,7 +246,7 @@ info:
     official: 'https://darkmoon-tba.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365556'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -267,7 +267,7 @@ info:
     mal: 'https://myanimelist.net/anime/58886'
     anilist: 'https://anilist.co/anime/177679'
     anidb: 'http://anidb.net/a18646'
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/48884'
     animeplanet: 'http://www.anime-planet.com/anime/the-darwin-incident'
     official: 'https://darwinsincident.net/'
     subreddit: ''
@@ -401,7 +401,7 @@ info:
     official: 'https://goumonbaitokun.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365604'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -427,7 +427,7 @@ info:
     official: 'https://hanakimi-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365568'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -472,9 +472,9 @@ has_source: true
 info:
     mal: 'https://myanimelist.net/anime/62804'
     anilist: 'https://anilist.co/anime/200556'
-    anidb: ''
+    anidb: 'http://anidb.net/a19657'
     kitsu: 'https://kitsu.app/anime/50270'
-    animeplanet: ''
+    animeplanet: 'http://www.anime-planet.com/anime/high-school-kimengumi-2026'
     official: 'https://kimengumi.com/'
     subreddit: ''
 streams:
@@ -574,8 +574,8 @@ title_en: "Hoppechan: Mystery of the Sun Kingdom and the Black-Cheek Team"
 alias: ['']
 has_source: true
 info:
-    mal: ''
-    anilist: ''
+    mal: 'https://myanimelist.net/anime/63106'
+    anilist: 'https://anilist.co/anime/203148'
     anidb: ''
     kitsu: ''
     animeplanet: ''
@@ -608,7 +608,7 @@ info:
     official: 'https://ikoku-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365571'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -634,7 +634,7 @@ info:
     official: 'https://iseshachi.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365574'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -655,8 +655,8 @@ info:
     mal: 'https://myanimelist.net/anime/57658'
     anilist: 'https://anilist.co/anime/172463'
     anidb: 'http://anidb.net/a18363'
-    kitsu: ''
-    animeplanet: ''
+    kitsu: 'https://kitsu.app/anime/48363'
+    animeplanet: 'http://www.anime-planet.com/anime/jujutsu-kaisen-the-culling-game'
     official: 'https://jujutsukaisen.jp/'
     subreddit: '/r/JuJutsuKaisen'
 streams:
@@ -681,7 +681,7 @@ info:
     mal: 'https://myanimelist.net/anime/55825'
     anilist: 'https://anilist.co/anime/166613'
     anidb: 'http://anidb.net/a18090'
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/47679'
     animeplanet: 'http://www.anime-planet.com/anime/hells-paradise-jigokuraku-season-2'
     official: 'https://jigokuraku.com/'
     subreddit: ''
@@ -764,7 +764,7 @@ info:
     official: 'https://kinishite.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365775'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -790,7 +790,7 @@ info:
     official: 'https://kizoku-tensei.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365721'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -841,7 +841,7 @@ info:
     official: 'https://kunonanime.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365586'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -856,7 +856,7 @@ streams:
 ---
 title: 'Maou no Musume wa Yasashisugiru!!'
 title_en: "The Demon King's Daughter is Too Kind!!"
-alias: [""]
+alias: ["Maou no Musume wa Yasashi Sugiru!!"]
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/61884'
@@ -867,7 +867,7 @@ info:
     official: 'https://maomusu.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365778'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -919,7 +919,7 @@ info:
     official: 'https://mayochu-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365772'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -970,7 +970,7 @@ info:
     official: 'https://odayakakizoku-pr.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365550'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -996,7 +996,7 @@ info:
     official: 'https://okiraku-ryousyu-anime.jp/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365565'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1014,10 +1014,10 @@ title_en: "You don't know Gunma yet."
 alias: [""]
 has_source: true
 info:
-    mal: ''
-    anilist: ''
+    mal: 'https://myanimelist.net/anime/62864'
+    anilist: 'https://anilist.co/anime/202419'
     anidb: ''
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/50353'
     animeplanet: ''
     official: 'https://animationid.com/omagun/'
     subreddit: ''
@@ -1048,7 +1048,7 @@ info:
     official: 'https://anime-osalove.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365622'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1066,7 +1066,7 @@ title_en: ""
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/61969'
-    anilist: ''
+    anilist: 'https://anilist.co/anime/199446'
     anidb: ''
     kitsu: ''
     animeplanet: ''
@@ -1095,7 +1095,7 @@ info:
     anilist: 'https://anilist.co/anime/184951'
     anidb: 'http://anidb.net/a19010'
     kitsu: 'https://kitsu.app/anime/49372'
-    animeplanet: ''
+    animeplanet: 'http://www.anime-planet.com/anime/you-and-i-are-polar-opposites'
     official: 'https://sh-anime.shochiku.co.jp/seihantai_anime/'
     subreddit: ''
 streams:
@@ -1125,7 +1125,7 @@ info:
     official: 'https://shiboyugi-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365787'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1202,7 +1202,7 @@ info:
     official: 'https://tamon-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365598'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1254,33 +1254,7 @@ info:
     official: 'https://tomeiotoko-ningenonna.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
-    museasia: ''
-    anione: ''
-    funimation|Funimation: ''
-    wakanim|Wakanim: ''
-    hidive: ''
-    animelab|AnimeLab: ''
-    vrv|VRV: ''
-    hulu|Hulu: ''
-    disney|Disney: ''
-    youtube: ''
-    nyaa: ''
----
-title: 'Undead Unluck: Winter-hen'
-title_en: "Undead Unluck: Winter Arc"
-alias: ['']
-has_source: true
-info:
-    mal: 'https://myanimelist.net/anime/59435'
-    anilist: 'https://anilist.co/anime/179930'
-    anidb: 'http://anidb.net/a18789'
-    kitsu: 'https://kitsu.app/anime/49085'
-    animeplanet: ''
-    official: 'http://undead-unluck.net/'
-    subreddit: ''
-streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365610'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1376,15 +1350,15 @@ title_en: "Theatre of Darkness: Yamishibai Season 16"
 alias: ['']
 has_source: true
 info:
-    mal: ''
-    anilist: ''
+    mal: 'https://myanimelist.net/anime/63087'
+    anilist: 'https://anilist.co/anime/203939'
     anidb: ''
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/50390'
     animeplanet: ''
     official: 'https://www.tv-tokyo.co.jp/anime/yamishibai16/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/G6WEM1V36'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1435,7 +1409,7 @@ info:
     official: 'https://yuukawa-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00355229'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1461,7 +1435,7 @@ info:
     official: 'https://kiyou-bimbou.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00366764'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1508,12 +1482,12 @@ info:
     mal: 'https://myanimelist.net/anime/56009'
     anilist: 'https://anilist.co/anime/167152'
     anidb: 'http://anidb.net/a18124'
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/47759'
     animeplanet: 'http://www.anime-planet.com/anime/sentenced-to-be-a-hero-the-prison-records-of-penal-hero-unit-9004'
     official: 'https://yushakei-pj.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00356809'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
