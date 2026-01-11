@@ -35,6 +35,19 @@ def main(config, db, **kwargs):
 					info("  Show/episode not found")
 					continue
 
+				num_fetched_episodes = len({e.number for e in episodes})
+				latest_ep = db.get_latest_episode(show)
+				latest_ep_num = latest_ep.number if latest_ep else 0
+
+				if num_fetched_episodes > latest_ep_num + stream.remote_offset + config.max_episodes:
+					warning(
+						"Too many episodes (%s) found for show %s on service #%s",
+						num_fetched_episodes,
+						show.name,
+						stream.service,
+					)
+					continue
+
 				for episode in sorted(episodes, key=lambda e: e.number):
 					if _process_new_episode(config, db, show, stream, episode):
 						has_new_episode.append(show)
@@ -68,6 +81,19 @@ def main(config, db, **kwargs):
 
 					if not episodes:
 						info("  No episode found")
+						continue
+
+					num_fetched_episodes = len({e.number for e in episodes})
+					latest_ep = db.get_latest_episode(show)
+					latest_ep_num = latest_ep.number if latest_ep else 0
+
+					if num_fetched_episodes > latest_ep_num + stream.remote_offset + config.max_episodes:
+						warning(
+							"Too many episodes (%s) found for show %s on service #%s",
+							num_fetched_episodes,
+							show.name,
+							stream.service,
+						)
 						continue
 
 					for episode in sorted(episodes, key=lambda e: e.number):
