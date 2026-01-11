@@ -90,7 +90,7 @@ info:
     official: 'https://akudeki-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365613'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -104,7 +104,7 @@ streams:
     nyaa: ''
 ---
 title: 'Android wa Keiken Ninzuu ni Hairimasu ka??'
-title_en: "Does It Count If You Lose Your Virginity to an Android?"
+title_en: "Does It Count If You Lose Your Innocence to an Android?"
 alias: ['']
 has_source: true
 info:
@@ -126,6 +126,7 @@ streams:
     vrv|VRV: ''
     hulu|Hulu: ''
     disney|Disney: ''
+    oceanveil|Oceanveil: 'https://oceanveil.net/anime_titles/352'
     youtube: ''
     nyaa: ''
 ---
@@ -215,12 +216,12 @@ info:
     mal: 'https://myanimelist.net/anime/60509'
     anilist: 'https://anilist.co/anime/185514'
     anidb: 'http://anidb.net/a19046'
-    kitsu: ''
-    animeplanet: ''
+    kitsu: 'https://kitsu.app/anime/49401'
+    animeplanet: 'http://www.anime-planet.com/anime/champignon-no-majo'
     official: 'https://champignon-pr.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365553'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -297,7 +298,7 @@ info:
     official: 'https://dead-account.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365559'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -349,7 +350,7 @@ info:
     official: 'https://eris-seihai.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365781'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -458,7 +459,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/34351'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -504,7 +505,7 @@ info:
     official: 'https://hikuidori-project.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365724'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -712,7 +713,7 @@ info:
     official: 'https://jingai-kyoshitsu-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365542'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -891,14 +892,14 @@ info:
     kitsu: ''
     animeplanet: ''
     official: 'https://mabotai.jp/'
-    subreddit: '/r/ChainedSoldier'
+    subreddit: '/r/MatoSeiheiNoSlave'
 streams:
     crunchyroll: ''
     museasia: ''
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/34350'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -1249,8 +1250,8 @@ info:
     mal: 'https://myanimelist.net/anime/60395'
     anilist: 'https://anilist.co/anime/185039'
     anidb: 'http://anidb.net/a19015'
-    kitsu: ''
-    animeplanet: ''
+    kitsu: 'https://kitsu.app/anime/49375'
+    animeplanet: 'http://www.anime-planet.com/anime/the-invisible-man-and-his-soon-to-be-wife'
     official: 'https://tomeiotoko-ningenonna.com/'
     subreddit: ''
 streams:
@@ -1383,7 +1384,7 @@ info:
     official: 'https://www.samurai-trooper.net/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00367517'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1461,7 +1462,7 @@ info:
     official: 'https://yushanokuzu.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365730'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1508,7 +1509,7 @@ info:
     mal: 'https://myanimelist.net/anime/60058'
     anilist: 'https://anilist.co/anime/182587'
     anidb: 'http://anidb.net/a18901'
-    kitsu: ''
+    kitsu: 'https://kitsu.app/anime/49264'
     animeplanet: ''
     official: 'https://ichigoproduction.com/Season3/'
     subreddit: '/r/OshiNoKo'
