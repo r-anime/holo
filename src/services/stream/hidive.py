@@ -177,4 +177,4 @@ def _digest_episode(feed_episode):
     # The API does not return a timestamp.
     date = datetime.utcnow()
 
-    return Episode(num, name, link, date)
+    return Episode(number=num, name=name, link=link, date=date)

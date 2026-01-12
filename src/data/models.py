@@ -31,8 +31,6 @@ class DbEqMixin:
 
 class Show(DbEqMixin):
 	def __init__(self, id, name, name_en, length, show_type, has_source, is_nsfw, enabled, delayed):
-		# Note: arguments are order-sensitive
-		# Should probably be moved to keyword args, but not sure the best method on the database side
 		self.id = id
 		self.name = name
 		self.name_en = name_en
@@ -55,8 +53,7 @@ class Show(DbEqMixin):
 		return "Show: {} (id={}, type={}, len={})".format(self.name, self.id, self.type, self.length)
 
 class Episode:
-	def __init__(self, number, name, link, date):
-		# Note: arguments are order-sensitive
+	def __init__(self, number, name=None, link=None, date=None):
 		self.number = number
 		self.name = name		# Not stored in database
 		self.link = link
@@ -74,7 +71,7 @@ class Episode:
 		return now >= self.date
 
 class EpisodeScore:
-	def __init__(self, show_id, episode, site_id, score):
+	def __init__(self, show_id, episode, score, site_id=None):
 		self.show_id = show_id
 		self.episode = episode
 		self.site_id = site_id
@@ -82,7 +79,6 @@ class EpisodeScore:
 
 class Service(DbEqMixin):
 	def __init__(self, id, key, name, enabled, use_in_post):
-		# Note: arguments are order-sensitive
 		self.id = id
 		self.key = key
 		self.name = name
@@ -102,7 +98,6 @@ class Stream(DbEqMixin):
 			If a show should be numbered lower than 1 (ex. 0), display_offset should be negative.
 	"""
 	def __init__(self, id, service, show, show_id, show_key, name, remote_offset, display_offset, active):
-		# Note: arguments are order-sensitive
 		self.id = id
 		self.service = service
 		self.show = show
@@ -118,7 +113,7 @@ class Stream(DbEqMixin):
 	
 	@classmethod
 	def from_show(cls, show):
-		return Stream(-show.id, -1, show, show.id, show.name, show.name, 0, 0, 1)
+		return Stream(id=-show.id, service=-1, show=show, show_id=show.id, show_key=show.name, name=show.name, remote_offset=0, display_offset=0, active=1)
 	
 	def to_internal_episode(self, episode):
 		e = copy.copy(episode)
@@ -132,18 +127,16 @@ class Stream(DbEqMixin):
 
 class LinkSite(DbEqMixin):
 	def __init__(self, id, key, name, enabled):
-		# Note: arguments are order-sensitive
 		self.id = id
 		self.key = key
 		self.name = name
 		self.enabled = enabled == 1
 	
 	def __str__(self):
-		return "Link site: {} ({})".format(self.key, self.id, self.enabled)
+		return "Link site: {} {} ({})".format(self.key, self.id, self.enabled)
 
 class Link:
 	def __init__(self, site, show, site_key):
-		# Note: arguments are order-sensitive
 		self.site = site
 		self.show = show
 		self.site_key = site_key
@@ -180,7 +173,6 @@ class Poll:
 
 class LiteStream:
 	def __init__(self, show, service, service_name, url):
-		# Note: arguments are order-sensitive
 		self.show = show
 		self.service = service
 		self.service_name = service_name
@@ -190,19 +182,19 @@ class LiteStream:
 		return f"LiteStream: {self.service}|{self.service_name}, show={self.show}, url={self.url}"
 
 class UnprocessedShow:
-	def __init__(self, site_key, show_key, name, name_en, more_names, show_type, episode_count, has_source, is_nsfw):
+	def __init__(self, name, show_type, episode_count, has_source, is_nsfw=False, site_key=None, show_key=None, name_en=None, more_names=None):
 		self.site_key = site_key
 		self.show_key = show_key
 		self.name = name
 		self.name_en = name_en
-		self.more_names = more_names
+		self.more_names = more_names or []
 		self.show_type = show_type
 		self.episode_count = episode_count
 		self.has_source = has_source
 		self.is_nsfw = is_nsfw
 
 class UnprocessedStream:
-	def __init__(self, service_key, show_key, show_id, name, remote_offset, display_offset):
+	def __init__(self, service_key, show_key, remote_offset, display_offset, show_id=None, name=""):
 		self.service_key = service_key
 		self.show_key = show_key
 		self.show_id = show_id

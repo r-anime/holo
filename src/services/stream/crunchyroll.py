@@ -129,7 +129,7 @@ class ServiceHandler(AbstractServiceHandler):
 				debug("  Key: {}".format(key))
 				remote_offset, display_offset = self._get_stream_info(key)
 				
-				raw_stream = UnprocessedStream(self.key, key, None, title, remote_offset, display_offset)
+				raw_stream = UnprocessedStream(service_key=self.key, show_key=key, remote_offset=remote_offset, display_offset=display_offset, name=title)
 				raw_streams.append(raw_stream)
 		
 		return raw_streams
@@ -210,7 +210,7 @@ def _digest_episode(feed_episode):
 	date = feed_episode.published_parsed
 	debug("  date={}".format(date))
 	
-	return Episode(num, name, link, date)
+	return Episode(number=num, name=name, link=link, date=date)
 
 _slug_regex = re.compile("crunchyroll.com/([a-z0-9-]+)/", re.I)
 
