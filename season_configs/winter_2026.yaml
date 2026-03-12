@@ -739,7 +739,7 @@ info:
     official: 'https://kayachan.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365583'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1017,7 +1017,7 @@ has_source: true
 info:
     mal: 'https://myanimelist.net/anime/62864'
     anilist: 'https://anilist.co/anime/202419'
-    anidb: ''
+    anidb: 'http://anidb.net/a19821'
     kitsu: 'https://kitsu.app/anime/50353'
     animeplanet: ''
     official: 'https://animationid.com/omagun/'
@@ -1063,7 +1063,7 @@ streams:
     nyaa: ''
 ---
 title: 'Saioshi no Gikei wo Mederu tame, Nagaiki Shimasu!'
-title_en: ""
+title_en: "I'll Live a Long Life to Dote on My Favorite Stepbrother!"
 has_source: true
 info:
     mal: 'https://myanimelist.net/anime/61969'
@@ -1100,7 +1100,7 @@ info:
     official: 'https://sh-anime.shochiku.co.jp/seihantai_anime/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00365624'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1234,7 +1234,7 @@ streams:
     anione: ''
     funimation|Funimation: ''
     wakanim|Wakanim: ''
-    hidive: ''
+    hidive: 'https://www.hidive.com/season/34352'
     animelab|AnimeLab: ''
     vrv|VRV: ''
     hulu|Hulu: ''
@@ -1281,7 +1281,7 @@ info:
     official: 'https://uruwashi-anime.com/'
     subreddit: ''
 streams:
-    crunchyroll: ''
+    crunchyroll: 'https://www.crunchyroll.com/series/GT00334040'
     museasia: ''
     anione: ''
     funimation|Funimation: ''
@@ -1486,7 +1486,7 @@ info:
     kitsu: 'https://kitsu.app/anime/47759'
     animeplanet: 'http://www.anime-planet.com/anime/sentenced-to-be-a-hero-the-prison-records-of-penal-hero-unit-9004'
     official: 'https://yushakei-pj.com/'
-    subreddit: ''
+    subreddit: '/r/SentencedToBeAHero'
 streams:
     crunchyroll: 'https://www.crunchyroll.com/series/GT00356809'
     museasia: ''
@@ -1576,32 +1576,32 @@ streams:
     disney|Disney: ''
     youtube: ''
     nyaa: ''
-#---
-#title: 'Enn Enn no Shouboutai San no Shou Cour 2'
-#title_en: ""
-#alias: ['Fire Force Season 3 Part 2']
-#has_source: true
-#info:
-#    mal: 'https://myanimelist.net/anime/59229'
-#    anilist: 'https://anilist.co/anime/179062'
-#    anidb: 'http://anidb.net/a18742'
-#    kitsu: ''
-#    animeplanet: ''
-#    official: 'https://fireforce-anime.jp/'
-#    subreddit: ''
-#streams:
-#    crunchyroll: 'https://www.crunchyroll.com/series/GYQWNXPZY'
-#    museasia: ''
-#    anione: ''
-#    funimation|Funimation: ''
-#    wakanim|Wakanim: ''
-#    hidive: ''
-#    animelab|AnimeLab: ''
-#    vrv|VRV: ''
-#    hulu|Hulu: ''
-#    disney|Disney: ''
-#    youtube: ''
-#    nyaa: ''
+---
+title: 'Enen no Shouboutai: San no Shou'
+title_en: "Fire Force Season 3"
+alias: ['']
+has_source: true
+info:
+   mal: 'https://myanimelist.net/anime/59229'
+   anilist: 'https://anilist.co/anime/179062'
+   anidb: 'http://anidb.net/a18742'
+   kitsu: 'https://kitsu.app/anime/enen-no-shouboutai-san-no-shou-part-2'
+   animeplanet: ''
+   official: 'https://fireforce-anime.jp/'
+   subreddit: ''
+streams:
+   crunchyroll: 'https://www.crunchyroll.com/series/GYQWNXPZY'
+   museasia: ''
+   anione: ''
+   funimation|Funimation: ''
+   wakanim|Wakanim: ''
+   hidive: ''
+   animelab|AnimeLab: ''
+   vrv|VRV: ''
+   hulu|Hulu: ''
+   disney|Disney: ''
+   youtube: ''
+   nyaa: ''
 ---
 title: 'Fate/strange Fake'
 title_en: ""
@@ -1679,3 +1679,111 @@ streams:
     disney|Disney: ''
     youtube: ''
     nyaa: ''
+---
+title: 'Prism Rondo'
+title_en: "Love Through a Prism"
+alias: ['']
+has_source: true
+info:
+   mal: 'https://myanimelist.net/anime/63019'
+   anilist: 'https://anilist.co/anime/202955'
+   anidb: 'http://anidb.net/a19743'
+   kitsu: 'https://kitsu.app/anime/prism-rondo'
+   animeplanet: 'https://www.anime-planet.com/anime/love-through-a-prism'
+   official: ''
+   subreddit: ''
+streams:
+   crunchyroll: ''
+   museasia: ''
+   anione: ''
+   funimation|Funimation: ''
+   wakanim|Wakanim: ''
+   hidive: ''
+   animelab|AnimeLab: ''
+   vrv|VRV: ''
+   hulu|Hulu: ''
+   disney|Disney: ''
+   netflix|Netflix: 'https://www.netflix.com/title/81498882'
+   youtube: ''
+   nyaa: ''
+---
+title: 'Onee-chan Gokko'
+title_en: "Playing Sister"
+alias: ['']
+has_source: true
+info:
+   mal: ''
+   anilist: 'https://anilist.co/anime/207084/Oneechan-Gokko/'
+   anidb: 'http://anidb.net/a19871'
+   kitsu: ''
+   animeplanet: ''
+   official: 'https://harumakigohan.com/onego/'
+   subreddit: ''
+streams:
+   crunchyroll: ''
+   museasia: ''
+   anione: ''
+   funimation|Funimation: ''
+   wakanim|Wakanim: ''
+   hidive: ''
+   animelab|AnimeLab: ''
+   vrv|VRV: ''
+   hulu|Hulu: ''
+   disney|Disney: ''
+   netflix|Netflix: ''
+   youtube: 'https://www.youtube.com/playlist?list=PLgLoNaiAnCSf0ArHXvdfEja_wTedZaTQr'
+   nyaa: ''
+---
+title: 'Meitantei Precure'
+title_en: "Star Detective Precure!"
+alias: ['']
+has_source: false
+info:
+   mal: 'https://myanimelist.net/anime/63042/'
+   anilist: 'https://anilist.co/anime/202957/'
+   anidb: 'http://anidb.net/a19742'
+   kitsu: 'https://kitsu.app/anime/meitantei-precure'
+   animeplanet: 'https://www.anime-planet.com/anime/star-detective-pretty-cure'
+   official: 'https://www.toei-anim.co.jp/tv/precure/'
+   subreddit: '/r/precure'
+streams:
+   crunchyroll: 'http://crunchyroll.com/series/GT00369409'
+   museasia: ''
+   anione: ''
+   funimation|Funimation: ''
+   wakanim|Wakanim: ''
+   hidive: ''
+   animelab|AnimeLab: ''
+   vrv|VRV: ''
+   hulu|Hulu: ''
+   disney|Disney: ''
+   netflix|Netflix: ''
+   youtube: ''
+   nyaa: ''
+---
+title: 'Baki-dou'
+title_en: "Baki-dou: The Invincible Samurai"
+alias: ['']
+has_source: false
+info:
+   mal: 'https://myanimelist.net/anime/58573/'
+   anilist: 'https://anilist.co/anime/176509/'
+   anidb: 'http://anidb.net/a18579'
+   kitsu: 'https://kitsu.app/anime/baki-dou'
+   animeplanet: 'https://www.anime-planet.com/anime/baki-dou-the-invincible-samurai'
+   official: 'https://baki-anime.jp/'
+   subreddit: '/r/Grapplerbaki'
+streams:
+   crunchyroll: ''
+   museasia: ''
+   anione: ''
+   funimation|Funimation: ''
+   wakanim|Wakanim: ''
+   hidive: ''
+   animelab|AnimeLab: ''
+   vrv|VRV: ''
+   hulu|Hulu: ''
+   disney|Disney: ''
+   netflix|Netflix: 'https://www.netflix.com/title/81922765'
+   youtube: ''
+   nyaa: ''
