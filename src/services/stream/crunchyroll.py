@@ -7,7 +7,10 @@ from data.models import Episode, UnprocessedStream
 
 class ServiceHandler(AbstractServiceHandler):
 	_show_url = "http://crunchyroll.com/{id}"
-	_show_re = re.compile("crunchyroll.com/([\w-]+)", re.I)
+	# Supports both old- and new-style CR urls. Matching the end of old-style URLS is necessary
+	# because otherwise it will improperly accept part of new-style URLs as old-style URLs.
+	_show_res = [re.compile("crunchyroll.com/([\w-]+)/?$", re.I),
+				 re.compile("crunchyroll\.com/(series/\w+)", re.I)]
 	_episode_rss = "http://crunchyroll.com/{id}.rss"
 	_backup_rss = "http://crunchyroll.com/rss/anime"
 	_season_url = "http://crunchyroll.com/lineup"
@@ -118,7 +121,7 @@ class ServiceHandler(AbstractServiceHandler):
 				debug("  Show: {}".format(title))
 				url = show["href"]
 				debug("  URL: {}".format(url))
-				url_match = self._show_re.search(url)
+				url_match = extract_show_key(url)
 				if not url_match:
 					error("Failed to parse show URL: {}".format(url))
 					continue
@@ -142,9 +145,9 @@ class ServiceHandler(AbstractServiceHandler):
 		return self._show_url.format(id=stream.show_key)
 	
 	def extract_show_key(self, url):
-		match = self._show_re.search(url)
-		if match:
-			if match.group(1) != 'series':
+		for re in self._show_res:
+			match = re.search(url)
+			if match:
 				return match.group(1)
 		return None
 	
