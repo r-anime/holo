@@ -136,7 +136,7 @@ info:
   anidb: ''
   kitsu: ''
   animeplanet: ''
-  official: ''
+  official: 'https://animationid.com/ryddel/'
   subreddit: ''
 streams:
   crunchyroll: ''
@@ -397,7 +397,7 @@ info:
   official: 'http://booklove-anime.jp/'
   subreddit: '/r/HonzukiNoGekokujou'
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/G6793XKZY'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -526,7 +526,7 @@ info:
   official: 'https://jihanki-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GVDHX8504'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -682,7 +682,7 @@ info:
   official: 'https://kanokari-official.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/G6QWV3976'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1010,7 +1010,7 @@ info:
   mal: 'https://myanimelist.net/anime/63304'
   anilist: ''
   anidb: 'http://anidb.net/a19831'
-  kitsu: ''
+  kitsu: 'https://kitsu.app/anime/50570'
   animeplanet: ''
   official: 'https://animationid.com/mamonogurai/'
   subreddit: ''
@@ -1195,7 +1195,7 @@ info:
   official: 'https://www.niwatori-fighter.net/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00365727'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1203,7 +1203,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: 'https://www.hulu.com/hub/anime'
+  hulu|Hulu: 'https://www.hulu.com/series/75f4baad-151d-489d-8a9e-bec4ab49ed23'
   disney|Disney: 'https://www.disneyplus.com/browse/entity-eb5b776f-8162-491a-9aca-c1e9b56729e5'
   youtube: ''
   nyaa: ''
@@ -1213,10 +1213,10 @@ title_en: 'Odekake Kozame Season 2'
 alias: [""]
 has_source: true
 info:
-  mal: ''
-  anilist: ''
+  mal: 'https://myanimelist.net/anime/63125'
+  anilist: 'https://anilist.co/anime/204269'
   anidb: 'http://anidb.net/a19929'
-  kitsu: ''
+  kitsu: 'https://kitsu.app/anime/50459'
   animeplanet: 'http://www.anime-planet.com/anime/odekake-kozame-season-2'
   official: 'https://odekake-kozame.com/'
   subreddit: ''
@@ -1324,7 +1324,7 @@ info:
   official: 'https://otonarino-tenshisama.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/G9VHN91DJ'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1374,7 +1374,7 @@ info:
   kitsu: 'https://kitsu.app/anime/49746'
   animeplanet: 'http://www.anime-planet.com/anime/rezero-starting-life-in-another-world-season-4'
   official: 'http://re-zero-anime.jp/tv/'
-  subreddit: ''
+  subreddit: '/r/re_zero'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/series/GRGG9798R'
   museasia: ''
@@ -1607,7 +1607,7 @@ info:
   official: 'https://4seasons-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371636'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1813,6 +1813,86 @@ info:
   kitsu: 'https://kitsu.app/anime/49269'
   animeplanet: 'http://www.anime-planet.com/anime/mission-yozakura-family-season-2'
   official: 'https://mission-yozakura-family.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
+title: "Marika's Love Meter Malfunction"
+title_en: 'Marika-chan no Koukando wa Bukkowareteiru'
+alias: ['']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/62983'
+  anilist: 'https://anilist.co/anime/202523'
+  anidb: 'http://anidb.net/a19730'
+  kitsu: 'https://kitsu.app/anime/49269'
+  animeplanet: 'http://www.anime-planet.com/anime/marikas-love-meter-malfunction'
+  official: 'https://marikowa.af-original.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+  oceanveil|Oceanveil: 'https://oceanveil.net/anime_titles/399'
+---
+title: "Dorohedoro Season 2"
+title_en: ''
+alias: ['']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/57779'
+  anilist: 'https://anilist.co/anime/173172'
+  anidb: 'https://anidb.net/a18397'
+  kitsu: ''
+  animeplanet: 'https://www.anime-planet.com/anime/dorohedoro-2'
+  official: 'https://dorohedoro.net/'
+  subreddit: '/r/Dorohedoro'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371893/'
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+  netflix|Netflix: 'https://www.netflix.com/nz/title/80991903'
+---
+title: ""
+title_en: 'Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta Special'
+alias: ['I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too Special']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/56906'
+  anilist: 'https://anilist.co/anime/170110'
+  anidb: 'http://anidb.net/a18241'
+  kitsu: 'https://kitsu.app/anime/48138'
+  animeplanet: 'http://www.anime-planet.com/anime/i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world-too-new'
+  official: 'https://www.iseleve.com/'
   subreddit: ''
 streams:
   crunchyroll: ''
