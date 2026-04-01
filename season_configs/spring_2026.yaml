@@ -1407,7 +1407,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/dashboard'
+  hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1543,7 +1543,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: "The strongest job is apparently not a hero or a sage, but an appraiser (provisional)!"
+title: "The Strongest Job Is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!"
 title_en: 'Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?'
 alias: ['']
 has_source: true
@@ -1880,11 +1880,11 @@ streams:
   disney|Disney: ''
   youtube: ''
   nyaa: ''
-  netflix|Netflix: 'https://www.netflix.com/nz/title/80991903'
+  netflix|Netflix: 'https://www.netflix.com/title/80991903'
 ---
-title: ""
+title: "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too Special"
 title_en: 'Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta Special'
-alias: ['I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too Special']
+alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/56906'
