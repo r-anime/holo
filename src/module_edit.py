@@ -42,7 +42,7 @@ def _edit_with_file(db, edit_file):
 			error("Invalid show type \"{}\"".format(stype))
 			return False
 		
-		show = UnprocessedShow(None, None, name, name_en, [], stype, length, has_source, is_nsfw)
+		show = UnprocessedShow(name=name, name_en=name_en, show_type=stype, episode_count=length, has_source=has_source, is_nsfw=is_nsfw)
 		found_ids = db.search_show_ids_by_names(name, exact=True)
 		debug("Found ids: {found_ids}")
 		if len(found_ids) == 0:
@@ -102,7 +102,7 @@ def _edit_with_file(db, edit_file):
 					debug("    id={}".format(show_key))
 					
 					if not db.has_stream(service_id, show_key):
-						s = UnprocessedStream(service_id, show_key, None, "", remote_offset, 0)
+						s = UnprocessedStream(service_key=service_id, show_key=show_key, remote_offset=remote_offset, display_offset=0)
 						db.add_stream(s, show_id, commit=False)
 					else:
 						service = db.get_service(key=service_id)
