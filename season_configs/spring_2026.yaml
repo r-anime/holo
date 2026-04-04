@@ -165,7 +165,7 @@ info:
   official: 'http://diaace.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GYX0MZ58R'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -241,7 +241,7 @@ info:
   official: 'https://nakamura-kun.love/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00337506'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -267,7 +267,7 @@ info:
   official: 'https://haibarakun-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371668'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -416,9 +416,9 @@ alias: ['']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/63469'
-  anilist: ''
+  anilist: 'https://anilist.co/anime/207675'
   anidb: ''
-  kitsu: ''
+  kitsu: 'https://kitsu.app/anime/50614'
   animeplanet: 'http://www.anime-planet.com/anime/hyakki-yakoushou'
   official: ''
   subreddit: ''
@@ -541,7 +541,7 @@ streams:
 ---
 title: "Observation Records of My Fiancée: The Misadventures of a Self-Proclaimed Villainess"
 title_en: 'Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.'
-alias: ['']
+alias: ['An Observation Log of My Fiancée Who Calls Herself a Villainess']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/61687'
@@ -552,7 +552,7 @@ info:
   official: 'https://jisho-akuyaku-anime.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371887'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -604,7 +604,7 @@ info:
   official: 'https://dropsofgod-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371872'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -731,6 +731,31 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/kirio-fan-club'
   official: 'https://kirio-fc.com/'
+  subreddit: ''
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: 'https://www.hidive.com/season/35227'
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
+title: "Komekami! Girls"
+title_en: ''
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/63709'
+  anilist: 'https://anilist.co/anime/209940'
+  anidb: 'http://anidb.net/a19932'
+  kitsu: ''
+  animeplanet: ''
+  official: 'https://komekamigirls.com/'
   subreddit: ''
 streams:
   crunchyroll: ''
@@ -894,7 +919,7 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
+  hulu|Hulu: 'https://www.hulu.com/series/7c9b966e-4234-4994-b1ef-37242b834d72'
   disney|Disney: ''
   youtube: ''
   nyaa: ''
@@ -963,7 +988,7 @@ info:
   official: 'https://meitabe-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00375170'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1041,7 +1066,7 @@ info:
   official: 'https://www.tbs.co.jp/anime/matakoro/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371787'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1169,7 +1194,7 @@ info:
   official: 'https://nigetsuri-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371642'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1466,7 +1491,7 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: "Snownall Earth"
+title: "Snowball Earth"
 title_en: ''
 has_source: true
 info:
@@ -1478,7 +1503,7 @@ info:
   official: 'https://snowballearth.net/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371869'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1486,8 +1511,8 @@ streams:
   hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
-  hulu|Hulu: ''
-  disney|Disney: ''
+  hulu|Hulu: 'https://www.hulu.com/series/d17225cf-de1c-4257-81e0-061c355a3075'
+  disney|Disney: 'https://www.disneyplus.com/browse/entity-5ecc8b00-79fd-4c1a-81ed-f44260ef38d4'
   youtube: ''
   nyaa: ''
 ---
@@ -1525,7 +1550,7 @@ info:
   mal: 'https://myanimelist.net/anime/61831'
   anilist: 'https://anilist.co/anime/194317'
   anidb: 'http://anidb.net/a19381'
-  kitsu: ''
+  kitsu: 'https://kitsu.app/anime/49983'
   animeplanet: 'http://www.anime-planet.com/anime/the-beginning-after-the-end-season-2'
   official: 'https://saikyo2dome-tbate.com/'
   subreddit: ''
@@ -1556,7 +1581,7 @@ info:
   official: 'https://kanteishikari-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371875'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1737,7 +1762,7 @@ info:
   official: 'https://yominotsugai.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371630'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
