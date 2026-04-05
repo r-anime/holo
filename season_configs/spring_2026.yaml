@@ -154,7 +154,7 @@ streams:
 ---
 title: "Ace of the Diamond: Act II Season 2"
 title_en: 'Diamond no Ace: Act II Season 2'
-alias: ['Ace of the Diamond act II -Second Season-', 'Diamond no Ace act II -Second Season-']
+alias: ['Ace of the Diamond act II -Second Season-', 'Diamond no Ace act II -Second Season-', 'Ace of the Diamond Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/58877'
@@ -205,7 +205,7 @@ streams:
 ---
 title: "Ghost Concert: Missing Songs"
 title_en: ''
-has_source: true
+has_source: false
 info:
   mal: 'https://myanimelist.net/anime/62852'
   anilist: 'https://anilist.co/anime/201090'
@@ -215,7 +215,7 @@ info:
   official: 'https://ghostconcert-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00374796'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1458,7 +1458,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/season/35228'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
