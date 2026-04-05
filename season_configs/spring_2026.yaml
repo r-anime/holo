@@ -12,7 +12,7 @@ info:
   official: 'https://www.aishiteru-game.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371779'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -47,7 +47,7 @@ streams:
   vrv|VRV: ''
   hulu|Hulu: ''
   disney|Disney: ''
-  youtube: ''
+  youtube|Youtube: 'https://www.youtube.com/playlist?list=PLwfE82x42voBU9yH8QafeHXu8Pqw7UVLx'
   nyaa: ''
 ---
 title: "Scenes from Awajima"
@@ -114,7 +114,7 @@ info:
   official: 'https://kuranika.asmik-ace.co.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371673'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -386,7 +386,7 @@ streams:
 ---
 title: "Ascendance of a Bookworm: Adopted Daughter of an Archduke"
 title_en: 'Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryushu no Youjo'
-alias: ['']
+alias: ['Ascendance of a Bookworm', 'Ascendance of a Bookworm Season 4', 'Honzuki no Gekokujou Season 4']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/57466'
@@ -578,7 +578,7 @@ info:
   official: 'https://kusunokitei.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00374360'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -656,7 +656,7 @@ info:
   official: 'https://kanachoro-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371860'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -810,7 +810,7 @@ info:
   official: 'https://kujima-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371849'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -886,7 +886,7 @@ info:
   official: 'https://www.liargame-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371851'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -909,7 +909,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/mao'
   official: 'https://www.anime-mao.com/'
-  subreddit: ''
+  subreddit: '/r/RumikosMao'
 streams:
   crunchyroll: ''
   museasia: ''
@@ -1116,7 +1116,7 @@ info:
   official: 'https://needygirl-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371863'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1375,7 +1375,7 @@ info:
   official: 'https://ponsuka.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371923'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1478,7 +1478,7 @@ info:
   official: 'https://rilakkuma-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00374493'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1760,7 +1760,7 @@ info:
   kitsu: 'https://kitsu.app/anime/50023'
   animeplanet: 'http://www.anime-planet.com/anime/daemons-of-the-shadow-realm'
   official: 'https://yominotsugai.com/'
-  subreddit: ''
+  subreddit: '/r/YomiNoTsugai'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/series/GT00371630'
   museasia: ''
