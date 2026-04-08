@@ -50,7 +50,7 @@ streams:
   youtube|Youtube: 'https://www.youtube.com/playlist?list=PLwfE82x42voBU9yH8QafeHXu8Pqw7UVLx'
   nyaa: ''
 ---
-title: "Scenes from Awajima"
+title: "Hundred Scenes of Awajima"
 title_en: 'Awajima Hyakkei'
 alias: ['']
 has_source: true
@@ -127,8 +127,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: "Daikenja Riddle no Jikan Gyakkou"
-title_en: ''
+title: "The Great Sage Ryddel and the Hands of Time"
+title_en: 'Daikenja Riddle no Jikan Gyakkou'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/63433'
@@ -293,7 +293,7 @@ info:
   official: 'https://eren-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371659'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -324,7 +324,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/season/35231'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -505,7 +505,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/season/35229'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -539,9 +539,9 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: "Observation Records of My Fiancée: The Misadventures of a Self-Proclaimed Villainess"
+title: "An Observation Log of My Fiancée Who Calls Herself a Villainess"
 title_en: 'Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.'
-alias: ['An Observation Log of My Fiancée Who Calls Herself a Villainess']
+alias: ['Observation Records of My Fiancée: The Misadventures of a Self-Proclaimed Villainess']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/61687'
@@ -827,8 +827,8 @@ title: "Kumarba Season 3"
 title_en: ''
 has_source: true
 info:
-  mal: ''
-  anilist: ''
+  mal: 'https://myanimelist.net/anime/63383'
+  anilist: 'https://anilist.co/anime/206950'
   anidb: ''
   kitsu: ''
   animeplanet: ''
@@ -936,7 +936,7 @@ info:
   official: 'https://www.marriagetoxin-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371857'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1079,8 +1079,8 @@ streams:
   youtube: ''
   nyaa: ''
 ---
-title: 'Megami "Isekai Tensei Nani ni Naritai Desu ka" Ore "Yuusha no Rokkotsu de"'
-title_en: ''
+title: 'My Ribdiculous Reincarnation'
+title_en: 'Megami "Isekai Tensei Nani ni Naritai Desu ka" Ore "Yuusha no Rokkotsu de"'
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/63376'
@@ -1091,7 +1091,7 @@ info:
   official: 'https://rokkotsu-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371665'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1289,7 +1289,7 @@ title_en: 'Oshiri Tantei (2026)'
 alias: ['']
 has_source: true
 info:
-  mal: ''
+  mal: 'https://myanimelist.net/anime/63762'
   anilist: ''
   anidb: ''
   kitsu: ''
@@ -1414,6 +1414,32 @@ streams:
   youtube: ''
   nyaa: ''
 ---
+title: "Re:Zero Starting Break Time From Zero Season 4"
+title_en: 'Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) Season 4'
+alias: ['Re:Zero Starting Break Time Season 4']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/63830'
+  anilist: ''
+  anidb: ''
+  kitsu: ''
+  animeplanet: ''
+  official: 'http://re-zero-anime.jp/tv/'
+  subreddit: '/r/re_zero'
+streams:
+  crunchyroll: ''
+  museasia: ''
+  anione: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: ''
+  vrv|VRV: ''
+  hulu|Hulu: ''
+  disney|Disney: ''
+  youtube: ''
+  nyaa: ''
+---
 title: "Petals of Reincarnation"
 title_en: 'Reincarnation no Kaben'
 alias: ['']
@@ -1432,7 +1458,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/season/35228'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1453,12 +1479,12 @@ info:
   official: 'https://replico.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00374288'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: 'https://www.hidive.com/season/35228'
+  hidive: ''
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
@@ -1658,7 +1684,7 @@ info:
   official: 'http://www.tadaoja-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371775'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1710,7 +1736,7 @@ info:
   official: 'https://tongari-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00258001'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
