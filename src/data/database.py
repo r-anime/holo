@@ -180,7 +180,11 @@ class DatabaseDatabase:
 			FOREIGN KEY(poll_service) REFERENCES PollSites(id),
 			UNIQUE(show, episode) ON CONFLICT REPLACE
 		)""")
-
+		# FuzzySearch virtual table
+		try:
+			self.q.execute("CREATE VIRTUAL TABLE IF NOT EXISTS FuzzySearch USING spellfix1")
+		except sqlite3.OperationalError:
+			warning("spellfix1 extension not loaded, fuzzy search will be disabled")
 		self.commit()
 
 	def register_services(self, services):
@@ -510,7 +514,6 @@ class DatabaseDatabase:
 	@db_error_default(None)
 	def add_show(self, raw_show: UnprocessedShow, commit=True) -> int:
 		debug("Inserting show: {}".format(raw_show))
-
 		name = raw_show.name
 		name_en = raw_show.name_en
 		length = raw_show.episode_count
@@ -519,8 +522,8 @@ class DatabaseDatabase:
 		is_nsfw = raw_show.is_nsfw
 		self.q.execute("INSERT INTO Shows (name, name_en, length, type, has_source, is_nsfw) VALUES (?, ?, ?, ?, ?, ?)", (name, name_en, length, show_type, has_source, is_nsfw))
 		show_id = self.q.lastrowid
-		self.add_show_names(raw_show.name, *raw_show.more_names, id=show_id, commit=commit)
-
+		self.add_show_names(raw_show.name, *raw_show.more_names, id=show_id, commit=False)
+		self.update_fuzzy_search(name, name_en, commit=False)
 		if commit:
 			self.commit()
 		return show_id
@@ -528,6 +531,15 @@ class DatabaseDatabase:
 	@db_error
 	def add_alias(self, show_id: int, alias: str, commit=True):
 		self.q.execute("INSERT INTO Aliases (show, alias) VALUES (?, ?)", (show_id, alias))
+		if commit:
+			self.commit()
+
+	@db_error
+	def update_fuzzy_search(self, name, name_en=None, commit=True):
+		debug("Updating fuzzy search for: {}".format(name))
+		self.q.execute("INSERT INTO FuzzySearch (word) VALUES (?)", (name,))
+		if name_en:
+			self.q.execute("INSERT INTO FuzzySearch (word) VALUES (?)", (name_en,))
 		if commit:
 			self.commit()
 
