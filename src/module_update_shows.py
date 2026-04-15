@@ -86,6 +86,7 @@ def _check_missing_stream_info(config, db, update_db=True):
 		debug("  id={}".format(stream.show_id))
 		if update_db:
 			db.update_stream(stream, name=stream.name, show_id=stream.show_id, show_key=stream.show_key, commit=False)
+			db.update_fuzzy_search(stream.name, commit=False)
 	
 	if update_db:
 		db.commit()
