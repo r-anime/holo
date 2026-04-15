@@ -2,6 +2,7 @@ from logging import debug, info, warning, error
 from datetime import date, timedelta
 
 import services
+from data.database import DatabaseDatabase
 from data.models import Stream
 import reddit
 
@@ -247,7 +248,7 @@ def _gen_text_links(db, formats, show):
 
 	return "\n".join(link_texts) + '\n' + '\n'.join(link_texts_bottom)
 
-def _gen_text_discussions(db, formats, show, stream):
+def _gen_text_discussions(db: DatabaseDatabase, formats, show, stream):
 	episodes = db.get_episodes(show)
 	debug("Num previous episodes: {}".format(len(episodes)))
 	N_LINES = 13
@@ -259,8 +260,12 @@ def _gen_text_discussions(db, formats, show, stream):
 		table = []
 		for episode in episodes:
 			episode = stream.to_display_episode(episode)
-			poll_handler = services.get_default_poll_handler()
 			poll = db.get_poll(show, episode)
+			if poll:
+				poll_site = db.get_poll_site(id=poll.service_id)
+				poll_handler = services.get_poll_handler(poll_site=poll_site)
+			else:
+				poll_handler = services.get_default_poll_handler()
 			if poll is None:
 				score = None
 				poll_link = None
@@ -287,12 +292,12 @@ def _gen_text_aliases(db, formats, show):
 		return ""
 	return safe_format(formats["aliases"], aliases=", ".join(aliases))
 
-def _gen_text_poll(db, config, formats, show, episode):
-	handler = services.get_default_poll_handler()
+def _gen_text_poll(db: DatabaseDatabase, config, formats, show, episode):
 	title = config.post_poll_title.format(show = show.name, episode = episode.number)
 
 	poll = db.get_poll(show, episode)
 	if poll is None:
+		handler = services.get_default_poll_handler()
 		poll_id = handler.create_poll(title, headers = {'User-Agent': config.useragent}, submit=not config.debug)
 		if poll_id:
 			site = db.get_poll_site(key=handler.key)
@@ -300,6 +305,8 @@ def _gen_text_poll(db, config, formats, show, episode):
 			poll = db.get_poll(show, episode)
 
 	if poll is not None:
+		poll_site = db.get_poll_site(id=poll.service_id)
+		handler = services.get_poll_handler(poll_site=poll_site)
 		poll_url = handler.get_link(poll)
 		poll_results_url = handler.get_results_link(poll)
 		return safe_format(formats["poll"], poll_url=poll_url, poll_results_url=poll_results_url)
