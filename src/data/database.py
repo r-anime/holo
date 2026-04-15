@@ -701,7 +701,7 @@ class DatabaseDatabase:
 		return polls
 
 	# Searching
-	@db_error_default(set())
+    @db_error_default(set())
 	def search_show_ids_by_names(self, *names, exact=False) -> Set[Show]:
 		shows = set()
 		for name in names:
@@ -715,6 +715,16 @@ class DatabaseDatabase:
 				debug("  Found match: {} | {}".format(match[0], match[1]))
 				shows.add(match[0])
 		return shows
+
+    @db_error
+	def update_fuzzy_search(self, name, name_en=None, commit=True):
+		debug("Updating fuzzy search for: {}".format(name))
+	    # These are the lines that fix the "missing comma" bug
+		self.q.execute("INSERT INTO FuzzySearch (word) VALUES (?)", (name,))
+		if name_en:
+			self.q.execute("INSERT INTO FuzzySearch (word) VALUES (?)", (name_en,))
+		if commit:
+			self.commit()
 
 # Helper methods
 
