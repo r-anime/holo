@@ -526,6 +526,7 @@ class DatabaseDatabase:
 		self.update_fuzzy_search(name, name_en, commit=False)
 		if commit:
 			self.commit()
+		self.update_fuzzy_search(name, name_en, commit=False)
 		return show_id
 
 	@db_error
