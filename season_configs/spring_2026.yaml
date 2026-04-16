@@ -63,7 +63,7 @@ info:
   official: 'https://awajima-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00374363'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -345,7 +345,7 @@ info:
   official: 'https://himekishi-anime.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00362253'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -630,7 +630,7 @@ info:
   official: 'https://kamiina-botan.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371890'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -708,7 +708,7 @@ info:
   official: 'https://kill-blue.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371896'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -861,7 +861,7 @@ info:
   official: 'https://witch-classroom.com/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00374357'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -934,7 +934,7 @@ info:
   kitsu: ''
   animeplanet: 'http://www.anime-planet.com/anime/marriagetoxin'
   official: 'https://www.marriagetoxin-anime.com/'
-  subreddit: ''
+  subreddit: '/r/MarriageToxin'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/series/GT00371857'
   museasia: ''
@@ -951,7 +951,7 @@ streams:
 ---
 title: "Magical Sisters Lulutto Lilly"
 title_en: 'Mahou no Shimai Lulutto Lilly'
-alias: ['']
+alias: ['Mahou no Shimai LuluttoLilly']
 has_source: false
 info:
   mal: 'https://myanimelist.net/anime/59176'
@@ -1323,7 +1323,7 @@ info:
   official: 'https://otagal.jp/'
   subreddit: ''
 streams:
-  crunchyroll: ''
+  crunchyroll: 'https://www.crunchyroll.com/series/GT00371662'
   museasia: ''
   anione: ''
   funimation|Funimation: ''
@@ -1416,7 +1416,7 @@ streams:
 ---
 title: "Re:Zero Starting Break Time From Zero Season 4"
 title_en: 'Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) Season 4'
-alias: ['Re:Zero Starting Break Time Season 4']
+alias: ['Re:Zero Starting Break Time Season 4', 'Re:Zero Break Time Season 4']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/63830'
@@ -1751,7 +1751,7 @@ streams:
 ---
 title: "Wistoria: Wand and Sword Season 2"
 title_en: 'Tsue to Tsurugi no Wistoria Season 2'
-alias: ['']
+alias: ['Tsue to Tsurugi no Wistoria Season 2']
 has_source: true
 info:
   mal: 'https://myanimelist.net/anime/59983'
@@ -1810,7 +1810,7 @@ info:
   anilist: 'https://anilist.co/anime/180745'
   anidb: 'http://anidb.net/a18844'
   kitsu: 'https://kitsu.app/anime/49194'
-  animeplanet: 'http://www.anime-planet.com/anime/the-classroom-of-a-black-cat-and-a-witch'
+  animeplanet: 'http://www.anime-planet.com/anime/classroom-of-the-elite-4th-season'
   official: 'http://you-zitsu.com/'
   subreddit: ''
 streams:
@@ -1845,7 +1845,7 @@ streams:
   anione: ''
   funimation|Funimation: ''
   wakanim|Wakanim: ''
-  hidive: ''
+  hidive: 'https://www.hidive.com/season/35232'
   animelab|AnimeLab: ''
   vrv|VRV: ''
   hulu|Hulu: ''
