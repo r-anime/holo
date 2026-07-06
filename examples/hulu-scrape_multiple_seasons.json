@@ -1,0 +1,4183 @@
+{
+	"props": {
+		"pageProps": {
+			"pageTitle": "Watch Attack on Titan Streaming Online | Hulu (Free Trial)",
+			"asPath": "/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88",
+			"pageType": "BrowsePage",
+			"query": {
+				"entity": "series",
+				"id": "attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88"
+			},
+			"appsFlyerBannerKey": "",
+			"_sentryTraceData": "ce918cbcd1ed4a91acc39537c411f035-bb95792b767ee9d8-1",
+			"_sentryBaggage": "sentry-environment=production,sentry-release=hitch%402.33.0,sentry-public_key=dfddf0aabbab4be4937d4082aad36bab,sentry-trace_id=ce918cbcd1ed4a91acc39537c411f035,sentry-sample_rate=0.05",
+			"latestSeason": {
+				"season": "4",
+				"previousSeason": "3",
+				"hasUpcomingSeason": false,
+				"hasLastEpPremiered": true
+			},
+			"layout": {
+				"locale": "en-US",
+				"bigFooter": [],
+				"bundle": {},
+				"components": [
+					{ "type": "navigation" },
+					{
+						"type": "detailentity_masthead",
+						"credits": [],
+						"disablePlayButton": false,
+						"disableMobilePlayButton": false,
+						"title": "Attack on Titan",
+						"entityId": "9c91ffa3-dc20-48bf-8bc5-692e37c76d88",
+						"description": "From the director of Death Note comes Attack on Titan. Many years ago, humanity was forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. This is their story.",
+						"entityType": "series",
+						"backgroundArtwork": {
+							"path": "https://img3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=image_manager&base_image=ca0b85ac-b988-4231-8c53-396406e9e64d",
+							"hue": 20
+						},
+						"brandArtwork": null,
+						"verticalTileArtwork": {
+							"path": "https://img3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=image_manager&base_image=0d6eb2f9-891d-4076-8ce9-22a297b9f2ca",
+							"hue": 25
+						},
+						"titleArtwork": {
+							"path": "https://img3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=image_manager&base_image=6704b395-0845-4820-a507-a9b9be1d5e84"
+						},
+						"headline": ["4 seasons available (175 episodes)"],
+						"isHuluOriginal": false,
+						"tags": [2013],
+						"trailerText": "Watch Trailer",
+						"trailerName": "Attack on Titan Final Season Part 2 - PV 2",
+						"trailerEAB": "EAB::a2ee9bf4-37c5-4720-801c-ed5d88ea11b3::61703763::176894325",
+						"trailerId": "a2ee9bf4-37c5-4720-801c-ed5d88ea11b3",
+						"requirePremium": false,
+						"network": "Crunchyroll",
+						"isHuluOriginalContent": false,
+						"isOriginalContent": false,
+						"premiereDate": "2013-04-07T00:00:00Z",
+						"rating": "TVMA",
+						"genres": [
+							{
+								"name": "Action",
+								"hubPath": "/hub/action-tv"
+							},
+							{
+								"name": "Animation",
+								"hubPath": null
+							},
+							{
+								"name": "Fantasy",
+								"hubPath": "/hub/fantasy-tv"
+							},
+							{
+								"name": "International",
+								"hubPath": "/hub/international-tv"
+							},
+							{
+								"name": "Anime",
+								"hubPath": "/hub/anime-tv"
+							}
+						],
+						"infoLine": "4 seasons available (175 episodes)",
+						"disableInfo": false,
+						"contentType": "series"
+					},
+					{
+						"type": "collection_tabs",
+						"tabs": [
+							{
+								"title": "Episodes",
+								"model": {
+									"type": "episode_collection",
+									"collection": {
+										"id": "94",
+										"href": "https://discover.hulu.com/content/v5/hubs/series/9c91ffa3-dc20-48bf-8bc5-692e37c76d88/collections/94?schema=0&personalized_layout_id=H4sIAAAAAAAAAMu1MjIwMjYwMzAxNDcwrykptjI0szC1sLQwMTIAAgAi8yitHwAAAA",
+										"name": "Episodes",
+										"theme": "episode_collection",
+										"enabledTileLinks": false,
+										"enableSignupModal": null,
+										"collectionHubPath": null,
+										"seasons": [
+											{
+												"name": "Season 1",
+												"number": 1
+											},
+											{
+												"name": "Season 2",
+												"number": 2
+											},
+											{
+												"name": "Season 3",
+												"number": 3
+											},
+											{
+												"name": "Season 4",
+												"number": 4
+											}
+										],
+										"items": [
+											{
+												"id": "03f9f5bf-2add-4c27-be58-c93ae518e8ea",
+												"href": null,
+												"eabId": "EAB::03f9f5bf-2add-4c27-be58-c93ae518e8ea::60870845::183890678",
+												"type": "episode",
+												"name": "(Dub) To You, in 2000 Years / The Fall of Shiganshina, Part 1",
+												"description": "After 100 years of peace, humanity is suddenly reminded of the terror of being at the Titans' mercy.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-04-07T12:00:00Z",
+												"season": 1,
+												"number": 1,
+												"duration": 1561,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "ad4b7bd5-3102-4a67-9362-ee12cbcb4e84",
+												"href": null,
+												"eabId": "EAB::ad4b7bd5-3102-4a67-9362-ee12cbcb4e84::60211296::195956942",
+												"type": "episode",
+												"name": "(Sub) To You, in 2000 Years/The Fall of Shiganshina, Part 1",
+												"description": "After 100 years of peace, humanity is suddenly reminded of the terror of being at the Titans' mercy.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-04-07T12:00:00Z",
+												"season": 1,
+												"number": 1,
+												"duration": 1462,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "039ca8e0-6a93-46cb-af94-9c013ca23a74",
+												"href": null,
+												"eabId": "EAB::039ca8e0-6a93-46cb-af94-9c013ca23a74::61087259::23111387",
+												"type": "episode",
+												"name": "(Dub) Beast Titan",
+												"description": "Coupled with the military's cover up of a previous incident, the shocking discovery inside the wall causes a stir. Elsewhere, while the new Scout recruits are held for observation, a surprising threat appears.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-04-01T12:30:00Z",
+												"season": 2,
+												"number": 1,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "406774fe-7a9f-4b4a-95c8-285fa70e917b",
+												"href": null,
+												"eabId": "EAB::406774fe-7a9f-4b4a-95c8-285fa70e917b::60866945::2775390",
+												"type": "episode",
+												"name": "(Sub) Beast Titan",
+												"description": "Coupled with the military's cover-up of a previous incident, the shocking discovery inside the wall causes a stir. Elsewhere, while the new Scout recruits are held for observation, a surprising threat appears.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-04-01T12:00:00Z",
+												"season": 2,
+												"number": 1,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "cf6ae05e-6e2a-42a9-986a-3c66bf05948c",
+												"href": null,
+												"eabId": "EAB::cf6ae05e-6e2a-42a9-986a-3c66bf05948c::61384202::64515078",
+												"type": "episode",
+												"name": "(Dub) Smoke Signal",
+												"description": "Eren recovers and undergoes testing on his Titan abilities; the scouts learn a threat from within the government may destroy their operation.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-07-22T12:00:00Z",
+												"season": 3,
+												"number": 1,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "b57797d6-7da0-447f-b4fc-16af12bc069b",
+												"href": null,
+												"eabId": "EAB::b57797d6-7da0-447f-b4fc-16af12bc069b::61155782::31033774",
+												"type": "episode",
+												"name": "(Sub) Smoke Signal",
+												"description": "After barely surviving Eren's recovery, a rising threat from the shadows puts everyone's lives in danger again.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-07-22T12:00:00Z",
+												"season": 3,
+												"number": 1,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "9cd961dd-22f4-4527-95b9-993be7e65a5e",
+												"href": null,
+												"eabId": "EAB::9cd961dd-22f4-4527-95b9-993be7e65a5e::61694681::166829933",
+												"type": "episode",
+												"name": "(Dub) The Other Side of the Sea",
+												"description": "As Marley battles the Mid-East Alliance to end a four-year war, a group of Warrior candidates on the front lines compete to be the successor of the Armored Titan.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2020-12-06T12:00:00Z",
+												"season": 4,
+												"number": 1,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "1c69f4d3-6d77-4ff9-a5ab-7a6e9257eb3b",
+												"href": null,
+												"eabId": "EAB::1c69f4d3-6d77-4ff9-a5ab-7a6e9257eb3b::61605912::117885537",
+												"type": "episode",
+												"name": "(Sub) The Other Side of the Sea",
+												"description": "As Marley battles the Mid-East Alliance to end a four-year war, a group of Warrior candidates on the front lines compete to be the successor of the Armored Titan.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2020-12-06T12:00:00Z",
+												"season": 4,
+												"number": 1,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "e5bf6070-1e58-4bc0-b725-776f5f46cc42",
+												"href": null,
+												"eabId": "EAB::e5bf6070-1e58-4bc0-b725-776f5f46cc42::60870844::3146713",
+												"type": "episode",
+												"name": "(Dub) That Day: The Fall of Shiganshina, Part 2",
+												"description": "That Day: The Fall of Shiganshina, Part 2: After the Titans break through the wall, the citizens of Shiganshina must run for their lives. Those that do make it to safety find a harsh life waiting for them, however.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-04-14T00:00:00Z",
+												"season": 1,
+												"number": 2,
+												"duration": 1471,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "cf3e621a-bdc1-431f-8518-d4d95be4e393",
+												"href": null,
+												"eabId": "EAB::cf3e621a-bdc1-431f-8518-d4d95be4e393::60211297::195957048",
+												"type": "episode",
+												"name": "(Sub) That Day: The Fall of Shiganshina, Part 2",
+												"description": "After the Titans break through the wall, the citizens of Shiganshina must run for their lives. Those that do make it to safety find a harsh life waiting for them, however.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-04-14T00:00:00Z",
+												"season": 1,
+												"number": 2,
+												"duration": 1462,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "7049b7fa-30ec-4b0c-acbe-1e3c86d1c127",
+												"href": null,
+												"eabId": "EAB::7049b7fa-30ec-4b0c-acbe-1e3c86d1c127::61087260::183883034",
+												"type": "episode",
+												"name": "(Dub) I'm Home",
+												"description": "With the appearance of Titans within Wall Rose, Sasha and Conny ride as messengers to warn their villages of the impending threat.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-04-08T00:00:00Z",
+												"season": 2,
+												"number": 2,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "9c397517-1996-4efa-b8be-cc0899945e0a",
+												"href": null,
+												"eabId": "EAB::9c397517-1996-4efa-b8be-cc0899945e0a::60870815::2877469",
+												"type": "episode",
+												"name": "(Sub) I'm Home",
+												"description": "With the appearance of Titans within Wall Rose, Sasha and Conny ride as messengers to warn their villages of the impending threat.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-04-08T12:00:00Z",
+												"season": 2,
+												"number": 2,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "8455fcc1-d52a-4061-a471-784ed009acbd",
+												"href": null,
+												"eabId": "EAB::8455fcc1-d52a-4061-a471-784ed009acbd::61383896::64515095",
+												"type": "episode",
+												"name": "(Dub) Pain",
+												"description": "The Scouts take a stand against a new enemy, but it's not just Titans they'll be fighting anymore.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-07-29T00:00:00Z",
+												"season": 3,
+												"number": 2,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "6ccbfce8-d4df-495e-8141-215033d38853",
+												"href": null,
+												"eabId": "EAB::6ccbfce8-d4df-495e-8141-215033d38853::61160124::31673442",
+												"type": "episode",
+												"name": "(Sub) Pain",
+												"description": "The Scouts take a stand against a new enemy, but it's not just Titans they'll be fighting anymore.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-07-29T12:00:00Z",
+												"season": 3,
+												"number": 2,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "7273b806-5e7f-4f25-8ef0-3758d0ba9a7e",
+												"href": null,
+												"eabId": "EAB::7273b806-5e7f-4f25-8ef0-3758d0ba9a7e::61694719::166829965",
+												"type": "episode",
+												"name": "(Dub) Midnight Train",
+												"description": "Though glad the war is over, both the Eldian Warriors and Marley brass realize that neither have a future unless they finish the job of retaking the Founding Titan.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2020-12-13T20:00:00Z",
+												"season": 4,
+												"number": 2,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "a7e72471-d229-449a-9e05-4faef5b8677c",
+												"href": null,
+												"eabId": "EAB::a7e72471-d229-449a-9e05-4faef5b8677c::61608157::118549359",
+												"type": "episode",
+												"name": "(Sub) Midnight Train",
+												"description": "Though glad the war is over, both the Eldian Warriors and Marley brass realize that neither have a future unless they finish the job of retaking the Founding Titan.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2020-12-13T12:00:00Z",
+												"season": 4,
+												"number": 2,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "248c05ae-52aa-4424-8bf5-5d36230c1421",
+												"href": null,
+												"eabId": "EAB::248c05ae-52aa-4424-8bf5-5d36230c1421::60870835::3146699",
+												"type": "episode",
+												"name": "(Dub) A Dim Light Amid Despair: Humanity's Comeback, Part 1",
+												"description": "Dim Light Amid Despair: Humanity's Comeback, Part 1, A: Eren begins his training with the Cadet Corps, but questions about his painful past overwhelm him. When he struggles with a maneuvering exercise, Berholt and Reiner offer kindly advice.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-04-21T00:00:00Z",
+												"season": 1,
+												"number": 3,
+												"duration": 1471,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "4cd43f4d-13fd-4624-a169-a958481e1383",
+												"href": null,
+												"eabId": "EAB::4cd43f4d-13fd-4624-a169-a958481e1383::60211298::195962117",
+												"type": "episode",
+												"name": "(Sub) A Dim Light Amid Despair / Humanity's Comeback, Part 1",
+												"description": "Eren begins his training with the Cadet Corps, but questions about his painful past overwhelm him. When he struggles with a maneuvering exercise, Berholt and Reiner offer kindly advice.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-04-21T12:00:00Z",
+												"season": 1,
+												"number": 3,
+												"duration": 1462,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "fe3ce843-7127-4813-a93f-66c75e9f3d47",
+												"href": null,
+												"eabId": "EAB::fe3ce843-7127-4813-a93f-66c75e9f3d47::61087265::23111324",
+												"type": "episode",
+												"name": "(Dub) Southwestward",
+												"description": "The Scouts search for a hole in the wall while Eren and the others learn that someone close may be hiding all the answers.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-04-15T00:00:00Z",
+												"season": 2,
+												"number": 3,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "975af6c0-3a8c-477b-b82d-1970c4adc8cf",
+												"href": null,
+												"eabId": "EAB::975af6c0-3a8c-477b-b82d-1970c4adc8cf::60874666::3067190",
+												"type": "episode",
+												"name": "(Sub) Southwestward",
+												"description": "The Scouts search for a hole in the wall while Eren and the others learn that someone close may be hiding all the answers.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-04-15T12:00:00Z",
+												"season": 2,
+												"number": 3,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "a6d0b116-f7a1-4285-89cb-0c079e46609f",
+												"href": null,
+												"eabId": "EAB::a6d0b116-f7a1-4285-89cb-0c079e46609f::61383964::64515081",
+												"type": "episode",
+												"name": "(Dub) Old Story",
+												"description": "Historia and Erwin look back on their past, revealing shady actions taken by the government and a motivation for change.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-08-05T00:00:00Z",
+												"season": 3,
+												"number": 3,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "300c02e5-d640-4a4f-a5d0-fa2f1aac65ea",
+												"href": null,
+												"eabId": "EAB::300c02e5-d640-4a4f-a5d0-fa2f1aac65ea::61163161::32081856",
+												"type": "episode",
+												"name": "(Sub) Old Story",
+												"description": "Historia and Erwin look back on their past, revealing a shady government with a hidden agenda and inspiration for an uprising.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-08-05T12:00:00Z",
+												"season": 3,
+												"number": 3,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "8805e9ce-5d98-42eb-9944-868e85bc7887",
+												"href": null,
+												"eabId": "EAB::8805e9ce-5d98-42eb-9944-868e85bc7887::61694724::166829936",
+												"type": "episode",
+												"name": "(Dub) The Door of Hope",
+												"description": "Reiner reflects on his past, remembering what pushed him to become a Warrior and keep moving forward when all hope was lost.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2020-12-20T20:00:00Z",
+												"season": 4,
+												"number": 3,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "7dd2866d-2cc0-409f-b3c5-d2ce9fb3d363",
+												"href": null,
+												"eabId": "EAB::7dd2866d-2cc0-409f-b3c5-d2ce9fb3d363::61610339::119237475",
+												"type": "episode",
+												"name": "(Sub) The Door of Hope",
+												"description": "Reiner reflects on his past, remembering what pushed him to become a Warrior and keep moving forward when all hope was lost.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2020-12-20T12:00:00Z",
+												"season": 4,
+												"number": 3,
+												"duration": 1457,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "ffac8205-57dd-4731-a784-753400c9327f",
+												"href": null,
+												"eabId": "EAB::ffac8205-57dd-4731-a784-753400c9327f::60870850::183890661",
+												"type": "episode",
+												"name": "(Dub) Night of the Closing Ceremony / Humanity's Comeback, Part 2",
+												"description": "Humanity's Comeback, Part 2, The: Annie proves her skill in a sparring session, Jan dreams of serving alongside the King, and graduation day brings shocking revelations - along with a sudden outbreak of violence!",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-04-28T00:00:00Z",
+												"season": 1,
+												"number": 4,
+												"duration": 1471,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "8cdde91d-55a7-4d6a-a4fd-8ddab526c018",
+												"href": null,
+												"eabId": "EAB::8cdde91d-55a7-4d6a-a4fd-8ddab526c018::60211299::195962123",
+												"type": "episode",
+												"name": "(Sub) Night of the Closing Ceremony / Humanity's Comeback, Part 2",
+												"description": "Annie proves her skill in a sparring session, Jan dreams of serving alongside the King, and graduation day brings shocking revelations - along with a sudden outbreak of violence!",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-04-28T00:00:00Z",
+												"season": 1,
+												"number": 4,
+												"duration": 1462,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "8fcb95f2-926d-4830-9e3c-d837fafc52c1",
+												"href": null,
+												"eabId": "EAB::8fcb95f2-926d-4830-9e3c-d837fafc52c1::61087266::183883035",
+												"type": "episode",
+												"name": "(Dub) Soldier",
+												"description": "Unarmed and overwhelmed by the Titan assault on the castle, the only hope for the Scouts may lie in a promise and a secret.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-04-22T00:00:00Z",
+												"season": 2,
+												"number": 4,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "aded8980-cfe7-4f76-890b-18d374f2eb75",
+												"href": null,
+												"eabId": "EAB::aded8980-cfe7-4f76-890b-18d374f2eb75::60878217::3263249",
+												"type": "episode",
+												"name": "(Sub) Soldier",
+												"description": "Unarmed and overwhelmed by the Titan assault on the castle, the only hope for the Scouts may lie in a promise and a secret.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-04-22T12:00:00Z",
+												"season": 2,
+												"number": 4,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "314361d9-2fb5-4241-8c08-e83eb9bbc166",
+												"href": null,
+												"eabId": "EAB::314361d9-2fb5-4241-8c08-e83eb9bbc166::61383974::64515073",
+												"type": "episode",
+												"name": "(Dub) Trust",
+												"description": "On the run and running out of time, the Scouts must entrust their lives to others if they plan on surviving.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-08-12T12:00:00Z",
+												"season": 3,
+												"number": 4,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "f07ec868-07bc-4477-aa59-90ff1f1f239e",
+												"href": null,
+												"eabId": "EAB::f07ec868-07bc-4477-aa59-90ff1f1f239e::61166757::32675444",
+												"type": "episode",
+												"name": "(Sub) Trust",
+												"description": "On the run and running out of time, the Scouts must entrust their lives to others if they plan on surviving.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-08-12T12:00:00Z",
+												"season": 3,
+												"number": 4,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "f6cf8993-0337-4c7c-9079-42e0a35a0807",
+												"href": null,
+												"eabId": "EAB::f6cf8993-0337-4c7c-9079-42e0a35a0807::61694727::166829931",
+												"type": "episode",
+												"name": "(Dub) From One Hand to Another",
+												"description": "A sudden visit from the Tybur family shakes up the Marleyan military. Meanwhile, Falco smuggles letters for a friend and helps two old comrades reunite.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2020-12-27T12:00:00Z",
+												"season": 4,
+												"number": 4,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "6083a31b-856c-4932-916e-bc7f86f5395b",
+												"href": null,
+												"eabId": "EAB::6083a31b-856c-4932-916e-bc7f86f5395b::61613208::119868603",
+												"type": "episode",
+												"name": "(Sub) From One Hand to Another",
+												"description": "A sudden visit from the Tybur family shakes up the Marleyan military. Meanwhile, Falco smuggles letters for a friend and helps two old comrades reunite.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2020-12-27T12:00:00Z",
+												"season": 4,
+												"number": 4,
+												"duration": 1457,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "4a52f10b-cf9b-4b32-a4ff-1fb3f3f42d25",
+												"href": null,
+												"eabId": "EAB::4a52f10b-cf9b-4b32-a4ff-1fb3f3f42d25::60870849::183890668",
+												"type": "episode",
+												"name": "(Dub) First Battle / Attack on Trost, Part 1",
+												"description": "Eren faces off against the Colossal Titan after it appears out of nowhere and knocks a strategic hole in the Rose Wall gate. As Titans swarm the city, the newly graduated Cadets are called in to fight in brutal battle that won't be without casualties.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-05-05T00:00:00Z",
+												"season": 1,
+												"number": 5,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "782d6c23-7e01-4ed1-b5cc-b7290920b987",
+												"href": null,
+												"eabId": "EAB::782d6c23-7e01-4ed1-b5cc-b7290920b987::60214794::195962120",
+												"type": "episode",
+												"name": "(Sub) First Battle / Attack on Trost, Part 1",
+												"description": "Eren faces off against the Colossal Titan after it appears out of nowhere and knocks a strategic hole in the Rose Wall gate. As Titans swarm the city, the newly graduated Cadets are called in to fight in brutal battle that won't be without casualties.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-05-05T12:00:00Z",
+												"season": 1,
+												"number": 5,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "c492cd7f-19ac-439b-98f2-944fde4cc98b",
+												"href": null,
+												"eabId": "EAB::c492cd7f-19ac-439b-98f2-944fde4cc98b::61087267::183883052",
+												"type": "episode",
+												"name": "(Dub) Historia",
+												"description": "Utgard Castle comes crumbling down as Ymir desperately battles the Titans. Now, Christa must fulfill the promise they made long ago during winter training.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-04-29T00:00:00Z",
+												"season": 2,
+												"number": 5,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "11a7e699-c43a-46d9-a9cc-3b3e278be313",
+												"href": null,
+												"eabId": "EAB::11a7e699-c43a-46d9-a9cc-3b3e278be313::60881650::3884202",
+												"type": "episode",
+												"name": "(Sub) Historia",
+												"description": "Utgard Castle comes crumbling down as Ymir desperately battles the Titans. Now, Christa must fulfill the promise they made long ago during winter training.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-04-29T12:00:00Z",
+												"season": 2,
+												"number": 5,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "91d5d55b-9618-48f5-a1a8-1123e30f8d3b",
+												"href": null,
+												"eabId": "EAB::91d5d55b-9618-48f5-a1a8-1123e30f8d3b::61383986::64515271",
+												"type": "episode",
+												"name": "(Dub) Reply",
+												"description": "Erwin pleads his case for the Scouts to be spared, but an unforeseen announcement puts the fate of humanity at risk.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-08-19T00:00:00Z",
+												"season": 3,
+												"number": 5,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "07768f28-2e76-47fc-b086-beb5cb1791d1",
+												"href": null,
+												"eabId": "EAB::07768f28-2e76-47fc-b086-beb5cb1791d1::61170679::33160130",
+												"type": "episode",
+												"name": "(Sub) Reply",
+												"description": "Erwin pleads his case for the Scouts to be spared, but an unforeseen announcement puts the fate of humanity at risk.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-08-19T12:00:00Z",
+												"season": 3,
+												"number": 5,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "e3d3ebc9-0c83-47d6-a25b-4be3468fe8a4",
+												"href": null,
+												"eabId": "EAB::e3d3ebc9-0c83-47d6-a25b-4be3468fe8a4::61694726::166829942",
+												"type": "episode",
+												"name": "(Dub) Declaration of War",
+												"description": "While Willy Tybur reveals the truth in a shocking speech to the world, tensions rise behind the stage as Eren and Reiner meet face to face.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-01-10T12:00:00Z",
+												"season": 4,
+												"number": 5,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "5aaca52f-a02c-4150-9135-caf5db72e49c",
+												"href": null,
+												"eabId": "EAB::5aaca52f-a02c-4150-9135-caf5db72e49c::61617562::121268852",
+												"type": "episode",
+												"name": "(Sub) Declaration of War",
+												"description": "While Willy Tybur reveals the truth in a shocking speech to the world, tensions rise behind the stage as Eren and Reiner meet face to face.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-01-10T12:00:00Z",
+												"season": 4,
+												"number": 5,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "22d5ee25-12d0-4b4e-83be-77feeb975387",
+												"href": null,
+												"eabId": "EAB::22d5ee25-12d0-4b4e-83be-77feeb975387::60870848::3146726",
+												"type": "episode",
+												"name": "(Dub) The World the Girl Saw / The Struggle for Trost: Part 2",
+												"description": "World the Girl Saw: The Struggle for Trost, Part 2, The: Armin tries to cope with the loss of his friends and allies after Titans massacre his squad. Elsewhere in the city, Mikasa manages to take out several of the monsters, which brings back tragic memories of her past and the first time she met Eren.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-05-12T00:00:00Z",
+												"season": 1,
+												"number": 6,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "7df0c5c1-38fe-456a-bbf6-cb2c456e5bf5",
+												"href": null,
+												"eabId": "EAB::7df0c5c1-38fe-456a-bbf6-cb2c456e5bf5::60218591::195962167",
+												"type": "episode",
+												"name": "(Sub) The World Seen by a Young Girl / Attack on Trost, Part 2",
+												"description": "Armin tries to cope with the loss of his friends and allies after Titans massacre his squad. Elsewhere in the city, Mikasa manages to take out several of the monsters, which brings back tragic memories of her past and the first time she met Eren.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-05-12T12:00:00Z",
+												"season": 1,
+												"number": 6,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "459eb94d-0e4c-4a7b-8e08-29752e4cf0fb",
+												"href": null,
+												"eabId": "EAB::459eb94d-0e4c-4a7b-8e08-29752e4cf0fb::61087262::23111356",
+												"type": "episode",
+												"name": "(Dub) Warrior",
+												"description": "Following the battle, the Scouts regroup atop the wall only to find more questions than answers. Before they leave for Trost to get medical attention, Reiner must fulfill what he came to do.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-05-06T07:00:00Z",
+												"season": 2,
+												"number": 6,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "94f49953-ae4e-41a1-8422-e3d12f44634d",
+												"href": null,
+												"eabId": "EAB::94f49953-ae4e-41a1-8422-e3d12f44634d::60885857::4253649",
+												"type": "episode",
+												"name": "(Sub) Warrior",
+												"description": "Following the battle, the Scouts regroup atop the wall only to find more questions than answers. Before they leave for Trost to get medical attention, Reiner must fulfill what he came to do.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-05-06T12:00:00Z",
+												"season": 2,
+												"number": 6,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "3283ac61-4076-4860-bf37-07e541fffc20",
+												"href": null,
+												"eabId": "EAB::3283ac61-4076-4860-bf37-07e541fffc20::61383923::64515274",
+												"type": "episode",
+												"name": "(Dub) Sin",
+												"description": "While sins of the past reveal new truths, both sides prepare for the upcoming showdown before they run out of time.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-08-26T12:00:00Z",
+												"season": 3,
+												"number": 6,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "997a598c-7f23-47b1-9760-ea4e39596f6c",
+												"href": null,
+												"eabId": "EAB::997a598c-7f23-47b1-9760-ea4e39596f6c::61174675::33693268",
+												"type": "episode",
+												"name": "(Sub) Sin",
+												"description": "While sins of the past reveal new truths, both sides prepare for the upcoming showdown before they run out of time.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-08-26T12:00:00Z",
+												"season": 3,
+												"number": 6,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "761d3831-e798-47e8-aa41-723d2ca96e62",
+												"href": null,
+												"eabId": "EAB::761d3831-e798-47e8-aa41-723d2ca96e62::61694721::166829929",
+												"type": "episode",
+												"name": "(Dub) The War Hammer Titan",
+												"description": "Eren's rampage is thwarted by the War Hammer Titan whose tenacity leaves him stumped. With Marley's military joining the fight, he'll be hard-pressed to survive on his own.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-01-17T12:00:00Z",
+												"season": 4,
+												"number": 6,
+												"duration": 1435,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "c0af9713-f01b-4868-a7ad-b4db6efe0f66",
+												"href": null,
+												"eabId": "EAB::c0af9713-f01b-4868-a7ad-b4db6efe0f66::61619872::122018993",
+												"type": "episode",
+												"name": "(Sub) The War Hammer Titan",
+												"description": "Eren's rampage is thwarted by the War Hammer Titan whose tenacity leaves him stumped. With Marley's military joining the fight, he'll be hard-pressed to survive on his own.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-01-17T12:00:00Z",
+												"season": 4,
+												"number": 6,
+												"duration": 1457,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "67eeaf55-7e65-4b36-91f8-96c456852d41",
+												"href": null,
+												"eabId": "EAB::67eeaf55-7e65-4b36-91f8-96c456852d41::60870834::183890660",
+												"type": "episode",
+												"name": "(Dub) The Tiniest of Blades / Attack on Trost, Part 3",
+												"description": "After the retreat bell sounds, many cadets find themselves without enough fuel to scale the wall back to safety. Mikasa begins to lose hope once she hears of the deaths in Armin's squad.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-05-19T00:00:00Z",
+												"season": 1,
+												"number": 7,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "63e8115f-299a-4b18-8ab2-154731e0b54e",
+												"href": null,
+												"eabId": "EAB::63e8115f-299a-4b18-8ab2-154731e0b54e::60218951::195956975",
+												"type": "episode",
+												"name": "(Sub) The Tiniest of Blades / Attack on Trost, Part 3",
+												"description": "After the retreat bell sounds, many cadets find themselves without enough fuel to scale the wall back to safety. Mikasa begins to lose hope once she hears of the deaths in Armin's squad, but the appearance of a new type of Titan stokes her will to fight.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-05-19T12:00:00Z",
+												"season": 1,
+												"number": 7,
+												"duration": 1450,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "5c0b1d54-a066-44cb-ba8c-da4095dfa271",
+												"href": null,
+												"eabId": "EAB::5c0b1d54-a066-44cb-ba8c-da4095dfa271::61087261::23111315",
+												"type": "episode",
+												"name": "(Dub) Close Combat",
+												"description": "With a new enemy revealed, Eren and the Scouts fight back using all the techniques at their disposal. However, the Armored and Colossal Titan have other plans in mind.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-05-13T00:00:00Z",
+												"season": 2,
+												"number": 7,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "a67c0d15-7cc1-4c09-a964-c730bb42cba0",
+												"href": null,
+												"eabId": "EAB::a67c0d15-7cc1-4c09-a964-c730bb42cba0::60889664::4485783",
+												"type": "episode",
+												"name": "(Sub) Close Combat",
+												"description": "With a new enemy revealed, Eren and the Scouts fight back using all the techniques at their disposal. However, the Armored and Colossal Titan have other plans in mind.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-05-13T12:00:00Z",
+												"season": 2,
+												"number": 7,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "6ba6891e-be34-473c-9053-8d3a1666f18e",
+												"href": null,
+												"eabId": "EAB::6ba6891e-be34-473c-9053-8d3a1666f18e::61383946::64515070",
+												"type": "episode",
+												"name": "(Dub) Wish",
+												"description": "As battle breaks out to prevent the ritual, Historia makes a shocking decision which leads to catastrophe.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-09-02T00:00:00Z",
+												"season": 3,
+												"number": 7,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "97637a4f-dc5a-4440-9e68-721efdc27e0e",
+												"href": null,
+												"eabId": "EAB::97637a4f-dc5a-4440-9e68-721efdc27e0e::61179309::34235913",
+												"type": "episode",
+												"name": "(Sub) Wish",
+												"description": "As battle breaks out to prevent the ritual, Historia makes a shocking decision which leads to catastrophe.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-09-02T12:00:00Z",
+												"season": 3,
+												"number": 7,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "b69a321c-1401-4fc9-8423-ae16512d9980",
+												"href": null,
+												"eabId": "EAB::b69a321c-1401-4fc9-8423-ae16512d9980::61694703::183883337",
+												"type": "episode",
+												"name": "(Dub) Assault",
+												"description": "The forces of Paradis begin their assault, but the Warriors stand their ground. As Marley troops close in around them, Eren struggles to break the War Hammer's defenses.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-01-24T12:00:00Z",
+												"season": 4,
+												"number": 7,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "00ac79f1-1446-4ba7-83ad-f7e815c0bebc",
+												"href": null,
+												"eabId": "EAB::00ac79f1-1446-4ba7-83ad-f7e815c0bebc::61621708::122778840",
+												"type": "episode",
+												"name": "(Sub) Assault",
+												"description": "The forces of Paradis begin their assault, but the Warriors stand their ground. As Marley troops close in around them, Eren struggles to break the War Hammer's defenses.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-01-24T12:00:00Z",
+												"season": 4,
+												"number": 7,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "b58ac30b-07e0-453d-bbcc-ea182566988c",
+												"href": null,
+												"eabId": "EAB::b58ac30b-07e0-453d-bbcc-ea182566988c::60870856::3132201",
+												"type": "episode",
+												"name": "(Dub) I Can Hear His Heartbeat: The Struggle for Trost, Part 4",
+												"description": "Armin comes up with a risky plan that pits Titan against Titan as the abandoned Cadets attempt to take back their headquarters. Getting into the building might be possible but getting out alive and refueled will mean facing more of the giants.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-05-26T00:00:00Z",
+												"season": 1,
+												"number": 8,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "2283b959-6544-4317-8a31-d409559249b7",
+												"href": null,
+												"eabId": "EAB::2283b959-6544-4317-8a31-d409559249b7::60222452::195962126",
+												"type": "episode",
+												"name": "(Sub) I Can Hear His Heartbeat: The Struggle for Trost, Part 4",
+												"description": "Armin comes up with a risky plan that pits Titan against Titan as the abandoned Cadets attempt to take back their headquarters. Getting into the building might be possible, but getting out alive and refueled will mean facing more of the giants.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-05-26T12:00:00Z",
+												"season": 1,
+												"number": 8,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "1e0407d2-26c9-4e2b-a5d8-01414b0e798f",
+												"href": null,
+												"eabId": "EAB::1e0407d2-26c9-4e2b-a5d8-01414b0e798f::61087268::23111354",
+												"type": "episode",
+												"name": "(Dub) The Hunters",
+												"description": "Without a way to pursue the Titans, the Scouts have no choice but to recuperate as they wait for reinforcements. But do they still have faith in Eren?",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-05-20T12:00:00Z",
+												"season": 2,
+												"number": 8,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "4e3016d2-d498-4973-afec-cd98de6e9ba1",
+												"href": null,
+												"eabId": "EAB::4e3016d2-d498-4973-afec-cd98de6e9ba1::60893758::4720842",
+												"type": "episode",
+												"name": "(Sub) The Hunters",
+												"description": "Without a way to pursue the Titans, the Scouts have no choice but to recuperate as they wait for reinforcements. But do they still have faith in Eren?",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-05-20T12:00:00Z",
+												"season": 2,
+												"number": 8,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "a49de2dd-6c81-47a4-93ed-a8370af96519",
+												"href": null,
+												"eabId": "EAB::a49de2dd-6c81-47a4-93ed-a8370af96519::61383849::64428130",
+												"type": "episode",
+												"name": "(Dub) Outside the Walls of Orvud District",
+												"description": "Outside the Walls of Orvud District: When everything falls apart, Eren must believe in himself to save his friends. But, Eren alone may not be enough to stop the impending doom.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-09-09T00:00:00Z",
+												"season": 3,
+												"number": 8,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "e56a1614-8f15-4507-a84f-74bf3709d3e6",
+												"href": null,
+												"eabId": "EAB::e56a1614-8f15-4507-a84f-74bf3709d3e6::61183021::34885953",
+												"type": "episode",
+												"name": "(Sub) Outside the Walls of Orvud District",
+												"description": "When everything falls apart, Eren must believe in himself to save his friends. But Eren alone may not be enough to stop the impending doom.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-09-09T12:00:00Z",
+												"season": 3,
+												"number": 8,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "81c209b9-6dea-4bc8-96b4-11e4a0faba4a",
+												"href": null,
+												"eabId": "EAB::81c209b9-6dea-4bc8-96b4-11e4a0faba4a::61694723::166829945",
+												"type": "episode",
+												"name": "(Dub) Assassin's Bullet",
+												"description": "With no Titans left to threaten their escape, the Scouts retreat on the airship. Determined to make them pay for trampling on her home, Gabi chases after with gun in hand.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-01-31T20:00:00Z",
+												"season": 4,
+												"number": 8,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "58126672-6037-4fc7-99f9-5180d5bb770b",
+												"href": null,
+												"eabId": "EAB::58126672-6037-4fc7-99f9-5180d5bb770b::61625005::123520580",
+												"type": "episode",
+												"name": "(Sub) Assassin's Bullet",
+												"description": "With no Titans left to threaten their escape, the Scouts retreat on the airship. Determined to make them pay for trampling on her home, Gabi chases after with gun in hand.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-01-31T12:00:00Z",
+												"season": 4,
+												"number": 8,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "93e77951-abd4-4f14-8739-fc83a3c3c92d",
+												"href": null,
+												"eabId": "EAB::93e77951-abd4-4f14-8739-fc83a3c3c92d::60870851::183890667",
+												"type": "episode",
+												"name": "(Dub) What Happened to His Left Arm? / Attack On Trost Part 5",
+												"description": "Whereabouts of His Left Arm: The Struggle for Trost, Part 5: A miraculous return is met with anger and fear. Cannons are fixed on Eren as he struggles to remember what happened to him inside the belly of a monster.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-06-02T00:00:00Z",
+												"season": 1,
+												"number": 9,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "52460318-26b0-4301-8b10-0bc93edfe0c7",
+												"href": null,
+												"eabId": "EAB::52460318-26b0-4301-8b10-0bc93edfe0c7::60225168::195962133",
+												"type": "episode",
+												"name": "(Sub) What Happened to His Left Arm? / Attack On Trost Part 5",
+												"description": "A miraculous return is met with anger and fear. Cannons are fixed on Eren as he struggles to remember what happened to him inside the belly of a monster and how he ended up humankind's enemy. One question is all that matters: is Eren human or Titan?",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-06-02T12:00:00Z",
+												"season": 1,
+												"number": 9,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "c893867e-57ca-4481-aa04-e3b520d46a49",
+												"href": null,
+												"eabId": "EAB::c893867e-57ca-4481-aa04-e3b520d46a49::61087269::32953560",
+												"type": "episode",
+												"name": "(Dub) Opening",
+												"description": "The Scouts rally and charge in pursuit, but Reiner is not quite himself while the group is trapped in the giant forest until nightfall.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-05-27T00:00:00Z",
+												"season": 2,
+												"number": 9,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "2a01299b-1903-4e1c-ae3a-1ccfdd844ae8",
+												"href": null,
+												"eabId": "EAB::2a01299b-1903-4e1c-ae3a-1ccfdd844ae8::60898992::4955475",
+												"type": "episode",
+												"name": "(Sub) Opening",
+												"description": "The Scouts rally and charge in pursuit, but Reiner is not quite himself while the group is trapped in the giant forest until nightfall.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-05-27T00:00:00Z",
+												"season": 2,
+												"number": 9,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "1a78b7f1-6a39-4c71-89d9-494e500cb53e",
+												"href": null,
+												"eabId": "EAB::1a78b7f1-6a39-4c71-89d9-494e500cb53e::61384253::64428157",
+												"type": "episode",
+												"name": "(Dub) Ruler of the Walls",
+												"description": "Desperate to stop the approaching monstrosity, the Scouts resort to unconventional tactics before it destroys everything in its path.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-09-16T12:00:00Z",
+												"season": 3,
+												"number": 9,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "9daabdd6-5bd2-474c-8419-667fa0526201",
+												"href": null,
+												"eabId": "EAB::9daabdd6-5bd2-474c-8419-667fa0526201::61186839::35469781",
+												"type": "episode",
+												"name": "(Sub) Ruler of the Walls",
+												"description": "Desperate to stop the approaching monstrosity, the Scouts resort to unconventional tactics before it destroys everything in its path.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-09-16T12:00:00Z",
+												"season": 3,
+												"number": 9,
+												"duration": 1461,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "480bec5c-cc8e-467f-bc45-7a668b37438a",
+												"href": null,
+												"eabId": "EAB::480bec5c-cc8e-467f-bc45-7a668b37438a::61694725::166829943",
+												"type": "episode",
+												"name": "(Dub) Brave Volunteers",
+												"description": "As Paradis deals with the aftermath of the raid on Liberio, Armin looks back into the past to meet the volunteer soldiers who reshaped their world.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-02-07T20:00:00Z",
+												"season": 4,
+												"number": 9,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "3607870f-d0ee-43b4-a960-2ab51b804503",
+												"href": null,
+												"eabId": "EAB::3607870f-d0ee-43b4-a960-2ab51b804503::61627490::124252467",
+												"type": "episode",
+												"name": "(Sub) Brave Volunteers",
+												"description": "As Paradis deals with the aftermath of the raid on Liberio, Armin looks back in the past to meeting the volunteer soldiers who reshaped their world.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-02-07T12:00:00Z",
+												"season": 4,
+												"number": 9,
+												"duration": 1457,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "02eaf6c5-5cc9-412d-b763-7aaea3a12f85",
+												"href": null,
+												"eabId": "EAB::02eaf6c5-5cc9-412d-b763-7aaea3a12f85::60870852::183890653",
+												"type": "episode",
+												"name": "(Dub) Response: The Struggle for Trost Part 6",
+												"description": "Response: The Struggle for Trost Part 6: Cadets respond to Eren's terrifying transformation with doubt and fear as he struggles to understand it himself. If Armin can't talk the commander into using Eren's newfound powers for the good of humankind, all hope of stopping the Titans might be lost.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2014-07-12T00:00:00Z",
+												"season": 1,
+												"number": 10,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "0462e991-23b8-4401-87e5-c15b38302a5a",
+												"href": null,
+												"eabId": "EAB::0462e991-23b8-4401-87e5-c15b38302a5a::60227621::195962217",
+												"type": "episode",
+												"name": "(Sub) The Response / Attack on Trost, Part 6",
+												"description": "Cadets respond to Eren's terrifying transformation with doubt and fear as he struggles to understand it himself. If Armin can't talk the commander into using Eren's newfound powers for the good of humankind, all hope of stopping the Titans might be lost.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-06-09T12:00:00Z",
+												"season": 1,
+												"number": 10,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "aabf5d9c-5de9-4bfc-8e7c-6b443be2ff8a",
+												"href": null,
+												"eabId": "EAB::aabf5d9c-5de9-4bfc-8e7c-6b443be2ff8a::61087264::23111330",
+												"type": "episode",
+												"name": "(Dub) Children",
+												"description": "When their group finally flees, Ymir wonders whether she should lie or stay true to herself, even if it means ruining the lives and futures of those she cares about.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-06-03T00:00:00Z",
+												"season": 2,
+												"number": 10,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "a3e866b2-c2b2-4651-aaaa-5199cd818cd8",
+												"href": null,
+												"eabId": "EAB::a3e866b2-c2b2-4651-aaaa-5199cd818cd8::60902968::5230092",
+												"type": "episode",
+												"name": "(Sub) Children",
+												"description": "When their group finally flees, Ymir wonders whether she should lie or stay true to herself, even if it means ruining the lives and future of those she cares about.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-06-03T12:00:00Z",
+												"season": 2,
+												"number": 10,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "7d615c94-a9a5-46e2-b032-68a749476bc9",
+												"href": null,
+												"eabId": "EAB::7d615c94-a9a5-46e2-b032-68a749476bc9::61384015::64276822",
+												"type": "episode",
+												"name": "(Dub) Friends",
+												"description": "Kenny recalls the life which has brought him to death's door, but he gets to decide whether to live on or not.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-09-23T12:00:00Z",
+												"season": 3,
+												"number": 10,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "bfa61784-ca0b-49f9-9448-cf86f8bddae0",
+												"href": null,
+												"eabId": "EAB::bfa61784-ca0b-49f9-9448-cf86f8bddae0::61190916::35999783",
+												"type": "episode",
+												"name": "(Sub) Friends",
+												"description": "Kenny recalls the life which has brought him to death's door, but he gets to decide whether to live on or not.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-09-23T12:00:00Z",
+												"season": 3,
+												"number": 10,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "55c4e0ff-3e7d-4cc2-87a2-3d326bbf024e",
+												"href": null,
+												"eabId": "EAB::55c4e0ff-3e7d-4cc2-87a2-3d326bbf024e::61694722::166829947",
+												"type": "episode",
+												"name": "(Dub) A Sound Argument",
+												"description": "Two years ago, Paradis welcomed their first visitor, who was surprised to see one of its own; obtaining their help will be critical in a three-part plan to protect Paradis.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-02-14T20:00:00Z",
+												"season": 4,
+												"number": 10,
+												"duration": 1450,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "7d5bfc56-3ab0-48a9-897f-26aa60ca0058",
+												"href": null,
+												"eabId": "EAB::7d5bfc56-3ab0-48a9-897f-26aa60ca0058::61630005::125000390",
+												"type": "episode",
+												"name": "(Sub) A Sound Argument",
+												"description": "Two years ago, Paradis welcomed their first visitor who was surprised to see one of their own. Obtaining their help will be critical in a three-part plan to protect Paradis.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-02-14T12:00:00Z",
+												"season": 4,
+												"number": 10,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "4cfd224e-ee6a-4615-b0a2-04ca721411b1",
+												"href": null,
+												"eabId": "EAB::4cfd224e-ee6a-4615-b0a2-04ca721411b1::60870843::183890679",
+												"type": "episode",
+												"name": "(Dub) Idol / Attack On Trost, Part 7",
+												"description": "Plans are created to use Eren's Titan powers to seal the hole in the wall in an attempt reclaim Trost. But with the government's bloodstained history and vocal dissenters in the military ranks, the biggest threat to humankind may not be the Titans.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-06-16T00:00:00Z",
+												"season": 1,
+												"number": 11,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "33ba487f-a418-4833-8dd7-ba1bd49fd37d",
+												"href": null,
+												"eabId": "EAB::33ba487f-a418-4833-8dd7-ba1bd49fd37d::60232095::195962212",
+												"type": "episode",
+												"name": "(Sub) Idol / Attack on Trost, Part 7",
+												"description": "Plans are created to use Eren's Titan powers to seal the hole in the wall in an attempt to reclaim Trost. But with the government's bloodstained history and vocal dissenters in the military ranks, the biggest threat to humankind may not be the Titans.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-06-16T12:00:00Z",
+												"season": 1,
+												"number": 11,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "d05dd904-e641-43b5-9d02-de52cb0edab3",
+												"href": null,
+												"eabId": "EAB::d05dd904-e641-43b5-9d02-de52cb0edab3::61087263::23111334",
+												"type": "episode",
+												"name": "(Dub) Charge",
+												"description": "While the recruits attempt to reason with Bertholdt, Commander Erwin charges forth in a desperate strategy to topple the Armored Titan.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-06-10T00:00:00Z",
+												"season": 2,
+												"number": 11,
+												"duration": 1393,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "78bb22ca-779b-4c5a-90cf-74c963fbfc43",
+												"href": null,
+												"eabId": "EAB::78bb22ca-779b-4c5a-90cf-74c963fbfc43::60907763::5438728",
+												"type": "episode",
+												"name": "(Sub) Charge",
+												"description": "While the recruits attempt to reason with Bertholdt, Commander Erwin charges forth in a desperate strategy to topple the Armored Titan.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-06-10T12:00:00Z",
+												"season": 2,
+												"number": 11,
+												"duration": 1473,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "d68644ae-7e46-4252-a852-05d776c3e3db",
+												"href": null,
+												"eabId": "EAB::d68644ae-7e46-4252-a852-05d776c3e3db::61383983::64428178",
+												"type": "episode",
+												"name": "(Dub) Bystander",
+												"description": "Having seen a glimpse of his father's past, Eren attempts to track down a man who might shed some light on his father's secrets.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-10-07T00:00:00Z",
+												"season": 3,
+												"number": 11,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "15484b3a-6b25-4f06-855f-77d728b29dcd",
+												"href": null,
+												"eabId": "EAB::15484b3a-6b25-4f06-855f-77d728b29dcd::61204259::37192828",
+												"type": "episode",
+												"name": "(Sub) Bystander",
+												"description": "Having seen a glimpse of his father's past, Eren attempts to track down a man who might shed some light on his father's secrets.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-10-07T12:00:00Z",
+												"season": 3,
+												"number": 11,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "4356f5a9-6ccd-444c-8a25-2351a1e7e184",
+												"href": null,
+												"eabId": "EAB::4356f5a9-6ccd-444c-8a25-2351a1e7e184::61694713::166829970",
+												"type": "episode",
+												"name": "(Dub) Deceiver",
+												"description": "Trapped on the world's most dangerous island, Falco and Gabi will do anything to survive; elsewhere, the public demands answers when it learns the savior of Paradis has been detained.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-02-21T20:00:00Z",
+												"season": 4,
+												"number": 11,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "09b59b12-ab28-4ce3-805b-886a748cdc9b",
+												"href": null,
+												"eabId": "EAB::09b59b12-ab28-4ce3-805b-886a748cdc9b::61632503::125741868",
+												"type": "episode",
+												"name": "(Sub) Deceiver",
+												"description": "Trapped on the world's most dangerous island, Falco and Gabi will do anything to survive. Elsewhere, the public demands answers when they learn the savior of Paradis has been detained.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-02-21T12:00:00Z",
+												"season": 4,
+												"number": 11,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "11a13c66-0595-4a61-8271-efe63cbfa004",
+												"href": null,
+												"eabId": "EAB::11a13c66-0595-4a61-8271-efe63cbfa004::60870846::3146720",
+												"type": "episode",
+												"name": "(Dub) Flaw / Attack on Trost, Part 8",
+												"description": "The plan to reclaim Trost falls apart when Eren's newfound powers turn him into a mindless giant.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-06-23T00:00:00Z",
+												"season": 1,
+												"number": 12,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "42e60e31-5087-4d48-bd3d-697ff587dbae",
+												"href": null,
+												"eabId": "EAB::42e60e31-5087-4d48-bd3d-697ff587dbae::60233551::195962210",
+												"type": "episode",
+												"name": "(Sub) Flaw / Attack on Trost, Part 8",
+												"description": "The plan to reclaim Trost falls apart when Eren's newfound powers turn him into a mindless giant. As Titans continue to swarm the city, it's up to Armin and Mikasa to make sure the cadets massacred during the mission haven't died in vain.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-06-23T12:00:00Z",
+												"season": 1,
+												"number": 12,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "e249d1da-5f17-4894-986c-dbd3cd837a2c",
+												"href": null,
+												"eabId": "EAB::e249d1da-5f17-4894-986c-dbd3cd837a2c::61087270::183883029",
+												"type": "episode",
+												"name": "(Dub) Scream",
+												"description": "Eren's confrontation with a smiling Titan raises questions about his powers, but any answers will come at a cost.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-06-17T12:00:00Z",
+												"season": 2,
+												"number": 12,
+												"duration": 1363,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "b78c36b1-901e-4be2-9099-b823521f6f6f",
+												"href": null,
+												"eabId": "EAB::b78c36b1-901e-4be2-9099-b823521f6f6f::60912237::5847945",
+												"type": "episode",
+												"name": "(Sub) Scream",
+												"description": "Eren's confrontation with a smiling Titan raises questions about his powers, but any answers will come at a cost.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2017-06-17T12:00:00Z",
+												"season": 2,
+												"number": 12,
+												"duration": 1443,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "374f9331-f888-4ee4-9dc9-7dae8c216b61",
+												"href": null,
+												"eabId": "EAB::374f9331-f888-4ee4-9dc9-7dae8c216b61::61384002::64515149",
+												"type": "episode",
+												"name": "(Dub) Night of the Battle to Retake the Wall",
+												"description": "The Scouts enjoy a feast before retaking Wall Maria. They'll soon uncover what's hidden within the basement, once and for all.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-10-14T12:00:00Z",
+												"season": 3,
+												"number": 12,
+												"duration": 1445,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "2cc5d63f-76aa-4e57-b77e-bc63ac7df069",
+												"href": null,
+												"eabId": "EAB::2cc5d63f-76aa-4e57-b77e-bc63ac7df069::61209321::37860994",
+												"type": "episode",
+												"name": "(Sub) Night of the Battle to Retake the Wall",
+												"description": "The Scouts enjoy a feast before retaking Wall Maria. They'll soon uncover what's hidden within the basement, once and for all.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2018-10-14T12:00:00Z",
+												"season": 3,
+												"number": 12,
+												"duration": 1442,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "6116b488-93d1-4329-a117-886e6f0b9a04",
+												"href": null,
+												"eabId": "EAB::6116b488-93d1-4329-a117-886e6f0b9a04::61694701::166829967",
+												"type": "episode",
+												"name": "(Dub) Guides",
+												"description": "While Hange and Pyxis piece together Zeke's true intentions, tension builds outside HQ where Armin and Mikasa plead for permission to speak with Eren.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-02-28T12:00:00Z",
+												"season": 4,
+												"number": 12,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "295ede78-39d5-4ae1-9e24-51433f375d4f",
+												"href": null,
+												"eabId": "EAB::295ede78-39d5-4ae1-9e24-51433f375d4f::61635309::126517506",
+												"type": "episode",
+												"name": "(Sub) Guides",
+												"description": "While Hange and Pyxis piece together Zeke's true intentions, tension builds outside HQ where Armin and Mikasa plead for permission to speak with Eren.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-02-28T12:00:00Z",
+												"season": 4,
+												"number": 12,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "1d2f4893-c32c-4a11-b534-f3d818eb3288",
+												"href": null,
+												"eabId": "EAB::1d2f4893-c32c-4a11-b534-f3d818eb3288::60870840::3132195",
+												"type": "episode",
+												"name": "(Dub) Primal Desire / Attack on Trost Part 9",
+												"description": "Jean takes desperate measures to replace his broken maneuvering device. Meanwhile, Eren is able to plug the hole in the wall thanks to the help of his fellow cadets, but the cost of humanity's first victory against the Titans will be gigantic.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-06-30T23:30:00Z",
+												"season": 1,
+												"number": 13,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "0c96b145-9e49-4260-8d44-49d00b396c28",
+												"href": null,
+												"eabId": "EAB::0c96b145-9e49-4260-8d44-49d00b396c28::60236685::195962215",
+												"type": "episode",
+												"name": "(Sub) Primal Desire / Attack on Trost Part 9",
+												"description": "Jean takes desperate measures to replace his broken maneuvering device. Meanwhile, Eren is able to plug the hole in the wall thanks to the help of his fellow cadets, but the cost of humanity's first victory against the Titans will be gigantic.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-06-30T12:00:00Z",
+												"season": 1,
+												"number": 13,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "516aa6de-c76c-4ed3-b934-cec2c6b9eb3a",
+												"href": null,
+												"eabId": "EAB::516aa6de-c76c-4ed3-b934-cec2c6b9eb3a::61504229::88773172",
+												"type": "episode",
+												"name": "(Dub) The Town Where Everything Began",
+												"description": "The operation to retake Wall Maria commences in Shiganshina, the town where everything began. But when the Scouts arrive, something seems very wrong.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-04-28T12:00:00Z",
+												"season": 3,
+												"number": 13,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "91101490-a71d-4c90-80e8-9883055ee1ef",
+												"href": null,
+												"eabId": "EAB::91101490-a71d-4c90-80e8-9883055ee1ef::61338479::55787401",
+												"type": "episode",
+												"name": "(Sub) The Town Where Everything Began",
+												"description": "The operation to retake Wall Maria commences in Shiganshina, the town where everything began. But when the Scouts arrive, something seems very wrong.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-04-28T12:00:00Z",
+												"season": 3,
+												"number": 13,
+												"duration": 1464,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "e67cb30d-77d6-4e3d-ae32-e626238237d4",
+												"href": null,
+												"eabId": "EAB::e67cb30d-77d6-4e3d-ae32-e626238237d4::61694700::166829953",
+												"type": "episode",
+												"name": "(Dub) Children of the Forest",
+												"description": "Gabi and Falco seek out a fellow Marleyan who's surprised to see Warrior candidates. The truth of what happened at Ragako may shed some light on Zeke's secret plans.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-03-07T12:00:00Z",
+												"season": 4,
+												"number": 13,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "8b0275ab-645d-4f26-a0cc-00ec1aca507a",
+												"href": null,
+												"eabId": "EAB::8b0275ab-645d-4f26-a0cc-00ec1aca507a::61637680::127239118",
+												"type": "episode",
+												"name": "(Sub) Children of the Forest",
+												"description": "Gabi and Falco seek out a fellow Marleyan who's surprised to see Warrior candidates. The truth of what happened at Ragako may shed some light on Zeke's secret plans.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-03-07T12:00:00Z",
+												"season": 4,
+												"number": 13,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "4d90ea13-8f77-4a25-b062-2a95c8c40041",
+												"href": null,
+												"eabId": "EAB::4d90ea13-8f77-4a25-b062-2a95c8c40041::60870853::3146734",
+												"type": "episode",
+												"name": "(Dub) Still Can’t Look Him in the Eye / Eve of the Counteroffensive, Part 1",
+												"description": "A special military tribunal will decide Eren's fate. The Military Police calls for his execution while the Scout Regiment argues that he is a powerful resource for humankind, and Mikasa is put on the spot when asked about the events of the Trost mission.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-07-14T00:00:00Z",
+												"season": 1,
+												"number": 14,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "567280d7-7def-44a1-90bc-08294aaf2291",
+												"href": null,
+												"eabId": "EAB::567280d7-7def-44a1-90bc-08294aaf2291::60242454::195962225",
+												"type": "episode",
+												"name": "(Sub) Still Can't Look Him in the Eye/Eve of the Counteroffensive, Part 1",
+												"description": "A special military tribunal will decide Eren's fate. The Military Police calls for his execution while the Scout Regiment argues that he is a powerful resource for humankind, and Mikasa is put on the spot when asked about the events of the Trost mission.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-07-14T12:00:00Z",
+												"season": 1,
+												"number": 14,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "a0050eb1-a788-4152-b193-12f63855c7a1",
+												"href": null,
+												"eabId": "EAB::a0050eb1-a788-4152-b193-12f63855c7a1::61504259::88773141",
+												"type": "episode",
+												"name": "(Dub) Thunder Spears",
+												"description": "Against a rush of enemies, the Scouts scramble to defend their horses. But despite falling into a trap, they have their own surprise for the Armored Titan.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-05-05T12:00:00Z",
+												"season": 3,
+												"number": 14,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "b73dc1f7-116b-4b38-adae-f6e0fe133ab7",
+												"href": null,
+												"eabId": "EAB::b73dc1f7-116b-4b38-adae-f6e0fe133ab7::61343398::56461312",
+												"type": "episode",
+												"name": "(Sub) Thunder Spears",
+												"description": "Against a rush of enemies, the Scouts scramble to defend their horses. But despite falling into a trap, they have their own surprise for the Armored Titan.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-05-05T12:00:00Z",
+												"season": 3,
+												"number": 14,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "6f09c00f-f9f5-4072-9d0b-069f21d64a11",
+												"href": null,
+												"eabId": "EAB::6f09c00f-f9f5-4072-9d0b-069f21d64a11::61694705::166829959",
+												"type": "episode",
+												"name": "(Dub) Savagery",
+												"description": "Armin and Mikasa speak with Eren, but are astounded by what he says. In the forest, Levi considers feeding the Beast Titan to someone new, but Zeke has other plans in mind.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-03-14T12:00:00Z",
+												"season": 4,
+												"number": 14,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "9f43a84c-1704-45e7-a30f-e9c069aa5e93",
+												"href": null,
+												"eabId": "EAB::9f43a84c-1704-45e7-a30f-e9c069aa5e93::61641566::128547321",
+												"type": "episode",
+												"name": "(Sub) Savagery",
+												"description": "Armin and Mikasa speak with Eren, but are astounded by what he says. In the forest, Levi considers feeding the Beast Titan to someone new, but Zeke has other plans in mind.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-03-14T21:00:00Z",
+												"season": 4,
+												"number": 14,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "07078501-6126-41a4-913d-f10c90d6ac4c",
+												"href": null,
+												"eabId": "EAB::07078501-6126-41a4-913d-f10c90d6ac4c::60870832::3141867",
+												"type": "episode",
+												"name": "(Dub) Special Operations Squad: Eve of the Counterattack, Part 2",
+												"description": "The Scout Regiment moves Eren to an old abandoned castle where he will continue his training. Hanzi visits and reveals that she's been putting two captured Titans through a series of tests and trials-experiments that she wants Eren's help with.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-07-20T23:30:00Z",
+												"season": 1,
+												"number": 15,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "330c89ae-c9f1-489c-8cf4-f3ef2c38a8e7",
+												"href": null,
+												"eabId": "EAB::330c89ae-c9f1-489c-8cf4-f3ef2c38a8e7::60245829::195962228",
+												"type": "episode",
+												"name": "(Sub) Special Tactical Force/Eve of the Counteroffensive, Part 2",
+												"description": "The Scout Regiment moves Eren to an old abandoned castle where he will continue his training. Hanzi visits and reveals that she's been putting two captured Titans through a series of tests and trials - experiments that she wants Eren's help with.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-07-21T12:00:00Z",
+												"season": 1,
+												"number": 15,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "64bece63-f701-4880-bc49-4d7f90cfc0d8",
+												"href": null,
+												"eabId": "EAB::64bece63-f701-4880-bc49-4d7f90cfc0d8::61504285::88773159",
+												"type": "episode",
+												"name": "(Dub) Descent",
+												"description": "Though their Thunder Spears prove effective, the Scouts' celebration is short-lived as disaster descends upon Shiganshina.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-05-12T12:00:00Z",
+												"season": 3,
+												"number": 15,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "e2d325b6-b2e6-455f-b317-485c4f24c770",
+												"href": null,
+												"eabId": "EAB::e2d325b6-b2e6-455f-b317-485c4f24c770::61348531::57215862",
+												"type": "episode",
+												"name": "(Sub) Descent",
+												"description": "Though their Thunder Spears prove effective, the Scouts' celebration is short-lived as disaster descends upon Shiganshina.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-05-12T12:00:00Z",
+												"season": 3,
+												"number": 15,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "9efeafbd-7d17-4bc2-808e-d524b9199e8e",
+												"href": null,
+												"eabId": "EAB::9efeafbd-7d17-4bc2-808e-d524b9199e8e::61694689::166829935",
+												"type": "episode",
+												"name": "(Dub) Sole Salvation",
+												"description": "A look into Zeke's past shows his struggle to become a Warrior. His plans to end the suffering of all Eldians stems from a chance friendship made in his youth.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-03-21T12:00:00Z",
+												"season": 4,
+												"number": 15,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "3f1dbbce-fc1e-4072-a481-af6b6557a2e3",
+												"href": null,
+												"eabId": "EAB::3f1dbbce-fc1e-4072-a481-af6b6557a2e3::61641901::128664322",
+												"type": "episode",
+												"name": "(Sub) Sole Salvation",
+												"description": "A look into Zeke's past shows his struggle to become a Warrior. His plans to end the suffering of all Eldians stems from a chance friendship made in his youth.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-03-21T12:00:00Z",
+												"season": 4,
+												"number": 15,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "0e385db0-48e5-4cf6-bb9a-c69a25560617",
+												"href": null,
+												"eabId": "EAB::0e385db0-48e5-4cf6-bb9a-c69a25560617::60870837::3146705",
+												"type": "episode",
+												"name": "(Dub) What Should I Do Now / Eve of the Counteroffensive, Part 3",
+												"description": "Everyone is a suspect in the investigation to find out who killed the two test-subject Titans. Meanwhile, the Cadets pick which corps they'll be joining, but after the harrowing events in the Trost attack, many are uncertain which branch to choose.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-07-28T00:00:00Z",
+												"season": 1,
+												"number": 16,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "94398bbd-e3dd-40ed-971e-8b1a8cdc5d14",
+												"href": null,
+												"eabId": "EAB::94398bbd-e3dd-40ed-971e-8b1a8cdc5d14::60248693::195962234",
+												"type": "episode",
+												"name": "(Sub) What Should I Do Now / Eve of the Counteroffensive, Part 3",
+												"description": "Everyone is a suspect in the investigation to find out who killed the two test-subject Titans. Meanwhile, the Cadets pick which corps they'll be joining, but after the harrowing events in the Trost attack, many are uncertain which branch to choose.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-07-28T12:00:00Z",
+												"season": 1,
+												"number": 16,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "cd6f01b2-860b-4b11-abe9-0bd41232e53b",
+												"href": null,
+												"eabId": "EAB::cd6f01b2-860b-4b11-abe9-0bd41232e53b::61504357::88773186",
+												"type": "episode",
+												"name": "(Dub) Perfect Game",
+												"description": "While one front in the battle is rained on by flames, the other is battered by boulders. With no way out, the Scouts are forced to fight or die trying.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-05-19T12:00:00Z",
+												"season": 3,
+												"number": 16,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "d5517234-7faa-4db4-b837-92e627c7ca27",
+												"href": null,
+												"eabId": "EAB::d5517234-7faa-4db4-b837-92e627c7ca27::61353764::57961715",
+												"type": "episode",
+												"name": "(Sub) Perfect Game",
+												"description": "While one front in the battle is rained on by flames, the other is battered by boulders. With no way out, the Scouts are forced to fight or die trying.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-05-19T12:00:00Z",
+												"season": 3,
+												"number": 16,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "c4b92169-d51b-4b60-94d9-ddfee93b4b14",
+												"href": null,
+												"eabId": "EAB::c4b92169-d51b-4b60-94d9-ddfee93b4b14::61694714::166829956",
+												"type": "episode",
+												"name": "(Dub) Above and Below",
+												"description": "With the Jaegerists now in charge, Zeke's master plan is revealed. But before it is put in motion, Eren recruits help to flush out any invaders in their midst.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-03-28T12:00:00Z",
+												"season": 4,
+												"number": 16,
+												"duration": 1434,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "fb4e4199-3257-436a-8f68-cc05bbfe19cf",
+												"href": null,
+												"eabId": "EAB::fb4e4199-3257-436a-8f68-cc05bbfe19cf::61643783::129431493",
+												"type": "episode",
+												"name": "(Sub) Above and Below",
+												"description": "With the Jaegerists now in charge, Zeke's master plan is revealed. But before it is put in motion, Eren recruits help to flush out any invaders in their midst.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2021-03-28T12:00:00Z",
+												"season": 4,
+												"number": 16,
+												"duration": 1443,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "e3a97eff-0402-40eb-abbd-7fd0f80d692d",
+												"href": null,
+												"eabId": "EAB::e3a97eff-0402-40eb-abbd-7fd0f80d692d::60870841::3141875",
+												"type": "episode",
+												"name": "(Dub) Female Titan / The 57th Expedition, Part 1",
+												"description": "As the Scout Regiment begins its push toward Shiganshina, they encounter an intelligent Female Titan unlike any they've seen before. When Armin hypothesizes that it's really a human that's been turned into a Titan, he, Jean, and Reiner attempt to stop it.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-08-04T23:30:00Z",
+												"season": 1,
+												"number": 17,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "269f76c5-bb50-486c-99fc-4ad913a98022",
+												"href": null,
+												"eabId": "EAB::269f76c5-bb50-486c-99fc-4ad913a98022::60251754::195962231",
+												"type": "episode",
+												"name": "(Sub) Female Titan / The 57th Expedition, Part 1",
+												"description": "As the Scout Regiment begins its push toward Shiganshina, they encounter an intelligent Female Titan unlike any they've seen before. When Armin hypothesizes that it's really a human that's been turned into a Titan, he, Jean, and Reiner attempt to stop it.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-08-04T00:00:00Z",
+												"season": 1,
+												"number": 17,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "bed33ae3-0c1d-4d06-84ae-6d68655d7cef",
+												"href": null,
+												"eabId": "EAB::bed33ae3-0c1d-4d06-84ae-6d68655d7cef::61504325::88773156",
+												"type": "episode",
+												"name": "(Dub) Hero",
+												"description": "As Erwin's heroic charge buys Levi time to confront the Beast Titan, Armin comes up with a plan of his own that lays it all on the line.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-05-26T12:00:00Z",
+												"season": 3,
+												"number": 17,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "736ffbbb-96f3-469c-99ea-53f8a824486f",
+												"href": null,
+												"eabId": "EAB::736ffbbb-96f3-469c-99ea-53f8a824486f::61360001::58814378",
+												"type": "episode",
+												"name": "(Sub) Hero",
+												"description": "As Erwin's heroic charge buys Levi time to confront the Beast Titan, Armin comes up with a plan of his own that lays it all on the line.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-05-26T12:00:00Z",
+												"season": 3,
+												"number": 17,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "e0e5cd09-2d1b-48d2-a071-3588249d0f88",
+												"href": null,
+												"eabId": "EAB::e0e5cd09-2d1b-48d2-a071-3588249d0f88::61722365::227613862",
+												"type": "episode",
+												"name": "(Dub) Judgment",
+												"description": "Caught off guard by Marley's surprise attack, Eren fends off their Titans alone. As the battle rages on above, the Scouts consider Eren's motives from the underground dungeons.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-01-09T12:00:00Z",
+												"season": 4,
+												"number": 17,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "386f7bdd-4b2f-4c24-ae88-d758b50b6de4",
+												"href": null,
+												"eabId": "EAB::386f7bdd-4b2f-4c24-ae88-d758b50b6de4::61694153::162471068",
+												"type": "episode",
+												"name": "(Sub) Judgment",
+												"description": "Caught off guard by Marley's surprise attack, Eren fends off their Titans alone. As the battle rages on above, the Scouts consider Eren's motives from the underground dungeons.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-01-09T12:00:00Z",
+												"season": 4,
+												"number": 17,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "802fe976-dca3-4ea7-9ba4-cb5410c082c4",
+												"href": null,
+												"eabId": "EAB::802fe976-dca3-4ea7-9ba4-cb5410c082c4::60870854::183890658",
+												"type": "episode",
+												"name": "(Dub) Forest of Giant Trees/The 57th Expedition, Part 2",
+												"description": "As the Female Titan continues to tear its way through the Scout Regiment, Levi makes a bold decision to split the ranks and send Eren and the supply wagons through a huge forest. Is his strategy genius, or does it spell certain death for the scouts?",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-08-11T00:00:00Z",
+												"season": 1,
+												"number": 18,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "7d28bc88-9748-49ac-a90a-5cef42545496",
+												"href": null,
+												"eabId": "EAB::7d28bc88-9748-49ac-a90a-5cef42545496::60254655::195962238",
+												"type": "episode",
+												"name": "(Sub) Forest of Giant Trees/The 57th Expedition, Part 2",
+												"description": "As the Female Titan continues to tear its way through the Scout Regiment, Levi makes a bold decision to split the ranks and send Eren and the supply wagons through a huge forest. Is his strategy genius, or does it spell certain death for the scouts?",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-08-11T12:00:00Z",
+												"season": 1,
+												"number": 18,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "6afd09ba-7215-415f-9324-bf116bec86b1",
+												"href": null,
+												"eabId": "EAB::6afd09ba-7215-415f-9324-bf116bec86b1::61504294::88773144",
+												"type": "episode",
+												"name": "(Dub) Midnight Sun",
+												"description": "While picking up the pieces from the costly battle, tensions rise when deciding which of the wounded Scouts to use the single syringe on.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-06-02T12:00:00Z",
+												"season": 3,
+												"number": 18,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "f656f7da-f03f-4c9f-81ae-1fd5c2d0e660",
+												"href": null,
+												"eabId": "EAB::f656f7da-f03f-4c9f-81ae-1fd5c2d0e660::61364241::59592841",
+												"type": "episode",
+												"name": "(Sub) Midnight Sun",
+												"description": "While picking up the pieces from the costly battle, tensions rise when deciding which of the wounded Scouts to use the single syringe on.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-06-02T12:00:00Z",
+												"season": 3,
+												"number": 18,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "86bb4f0e-7f90-4306-b964-7ff44bc7c54b",
+												"href": null,
+												"eabId": "EAB::86bb4f0e-7f90-4306-b964-7ff44bc7c54b::61722371::227613836",
+												"type": "episode",
+												"name": "(Dub) Sneak Attack",
+												"description": "The Beast Titan joins the fray, but General Magath is determined to take him down. Meanwhile, with the city in flames, Colt and Gabi rush to rescue Falco who's held captive by the Jaegerists.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-01-16T12:00:00Z",
+												"season": 4,
+												"number": 18,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "fa49d2c1-62ef-450a-a363-7bf81291b0ef",
+												"href": null,
+												"eabId": "EAB::fa49d2c1-62ef-450a-a363-7bf81291b0ef::61694754::163618496",
+												"type": "episode",
+												"name": "(Sub) Sneak Attack",
+												"description": "The Beast Titan joins the fray, but General Magath is determined to take him down. Meanwhile, with the city in flames, Colt and Gabi rush to rescue Falco who's held captive by the Jaegerists.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-01-16T16:00:00Z",
+												"season": 4,
+												"number": 18,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "5197000f-d950-4380-a05e-60b919edbf53",
+												"href": null,
+												"eabId": "EAB::5197000f-d950-4380-a05e-60b919edbf53::60870838::3141873",
+												"type": "episode",
+												"name": "(Dub) Bite/The 57th Expedition, Part 3\t",
+												"description": "The 57th Exterior Scouting Mission, Part 3: A memory of Eren testing out his Titan powers sheds new light on how his abilities work. As the Female Titan continues to slaughter members of the Scout Regiment, Eren is faced with a difficult decisions: does he trust his teammates or act out on his own?",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-08-18T12:00:00Z",
+												"season": 1,
+												"number": 19,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "b5d6b56a-2208-4045-a71a-7b42c24a59b7",
+												"href": null,
+												"eabId": "EAB::b5d6b56a-2208-4045-a71a-7b42c24a59b7::60257255::196053594",
+												"type": "episode",
+												"name": "(Sub) Bite/The 57th Expedition, Part 3",
+												"description": "A memory of Eren testing out his Titan powers sheds new light on how his abilities work. As the Female Titan continues to slaughter members of the Scout Regiment, Eren is faced with a difficult decisions: does he trust his teammates or act out on his own?",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-08-18T12:00:00Z",
+												"season": 1,
+												"number": 19,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "02a85533-5f55-4dfe-afa1-c4c5c1c7b6d5",
+												"href": null,
+												"eabId": "EAB::02a85533-5f55-4dfe-afa1-c4c5c1c7b6d5::61504340::88773153",
+												"type": "episode",
+												"name": "(Dub) The Basement",
+												"description": "The secrets hidden in Grisha's basement await in the ruins of Shiganshina. There, the Scouts hope to find answers to the world worth more than the price they paid.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-06-09T12:00:00Z",
+												"season": 3,
+												"number": 19,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "7e35fe01-4561-4b66-b5c6-94d20e0b6685",
+												"href": null,
+												"eabId": "EAB::7e35fe01-4561-4b66-b5c6-94d20e0b6685::61367683::60217388",
+												"type": "episode",
+												"name": "(Sub) The Basement",
+												"description": "The secrets hidden in Grisha's basement await in the ruins of Shiganshina. There, the Scouts hope to find answers to the world worth more than the price they paid.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-06-09T12:00:00Z",
+												"season": 3,
+												"number": 19,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "990ebd07-84de-4ed6-adbe-37c137ed60d3",
+												"href": null,
+												"eabId": "EAB::990ebd07-84de-4ed6-adbe-37c137ed60d3::61722372::227613847",
+												"type": "episode",
+												"name": "(Dub) Two Brothers",
+												"description": "Colt pleads with Zeke to not use his scream and turn Falco into a Titan. All the while, soldiers and Titans clash in battle as Eren struggles to make contact with his brother.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-01-23T12:00:00Z",
+												"season": 4,
+												"number": 19,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "83ff5214-b5ed-423d-a127-c690549c2155",
+												"href": null,
+												"eabId": "EAB::83ff5214-b5ed-423d-a127-c690549c2155::61695301::164620007",
+												"type": "episode",
+												"name": "(Sub) Two Brothers",
+												"description": "Colt pleads with Zeke to not use his scream and turn Falco into a Titan. All the while, soldiers and Titans clash in battle as Eren struggles to make contact with his brother.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-01-23T12:00:00Z",
+												"season": 4,
+												"number": 19,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "2c579969-e45d-4218-906a-47f29cd381e6",
+												"href": null,
+												"eabId": "EAB::2c579969-e45d-4218-906a-47f29cd381e6::60870833::3141870",
+												"type": "episode",
+												"name": "(Dub) Erwin Smith/The 57th Expedition, Part 4",
+												"description": "Erwin Smith: The 57th Exterior Scouting Mission, Part 4: The Female Titan has been captured, and it's Erwin's goal to find out who the human is lurking inside it. Meanwhile, the Scouts realize that the reason Levi told no one about their true mission outside the wall is because there is a spy among their ranks.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-08-25T23:30:00Z",
+												"season": 1,
+												"number": 20,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "f4409c5b-7487-4b6a-88ae-3b2ebe1026cf",
+												"href": null,
+												"eabId": "EAB::f4409c5b-7487-4b6a-88ae-3b2ebe1026cf::60261162::196053597",
+												"type": "episode",
+												"name": "(Sub) Erwin Smith/The 57th Expedition, Part 4",
+												"description": "The Female Titan has been captured, and it's Erwin's goal to find out who the human is lurking inside it. Meanwhile, the Scouts realize that the reason Levi told no one about their true mission outside the wall is because there is a spy among them.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-08-25T12:00:00Z",
+												"season": 1,
+												"number": 20,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "3c679eb0-41ce-45eb-854f-a10ba5fd9953",
+												"href": null,
+												"eabId": "EAB::3c679eb0-41ce-45eb-854f-a10ba5fd9953::61504307::88773175",
+												"type": "episode",
+												"name": "(Dub) That Day",
+												"description": "A look into Grisha's memories shows Eren the many secrets his father was hiding, including one which led to his mother's demise.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-06-16T12:00:00Z",
+												"season": 3,
+												"number": 20,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "c238900a-e314-442f-87f7-5aa0f0d1ab02",
+												"href": null,
+												"eabId": "EAB::c238900a-e314-442f-87f7-5aa0f0d1ab02::61371564::60952738",
+												"type": "episode",
+												"name": "(Sub) That Day",
+												"description": "A look into Grisha's memories shows Eren the many secrets his father was hiding, including one which led to his mother's demise.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-06-16T12:00:00Z",
+												"season": 3,
+												"number": 20,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "1f3e5a35-f6b3-4b05-8655-8f4f802c143c",
+												"href": null,
+												"eabId": "EAB::1f3e5a35-f6b3-4b05-8655-8f4f802c143c::61722367::227613865",
+												"type": "episode",
+												"name": "(Dub) Memories of the Future",
+												"description": "Zeke takes Eren through Grisha's memories to show him how he's been brainwashed. But in doing so, Zeke discovers something about Eren that he never knew.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-01-30T12:00:00Z",
+												"season": 4,
+												"number": 20,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "0dd0e04d-8c34-41ec-9d08-177f125f47e3",
+												"href": null,
+												"eabId": "EAB::0dd0e04d-8c34-41ec-9d08-177f125f47e3::61695953::165703844",
+												"type": "episode",
+												"name": "(Sub) Memories of the Future",
+												"description": "Zeke takes Eren through Grisha's memories to show him how he's been brainwashed. But in doing so, Zeke discovers something about Eren that he never knew.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-01-30T12:00:00Z",
+												"season": 4,
+												"number": 20,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "50465121-2ef6-4964-88bb-35314853791e",
+												"href": null,
+												"eabId": "EAB::50465121-2ef6-4964-88bb-35314853791e::60870842::183890688",
+												"type": "episode",
+												"name": "(Dub) Iron Hammer/The 57th Expedition, Part 5",
+												"description": "The 57th Exterior Scouting Mission, Part 5: A traitor has infiltrated the Scout Regiment, destroying their ranks from within.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-09-01T23:30:00Z",
+												"season": 1,
+												"number": 21,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "eb47773b-b290-42cf-97d5-ff69d0eb6638",
+												"href": null,
+												"eabId": "EAB::eb47773b-b290-42cf-97d5-ff69d0eb6638::60263204::195962282",
+												"type": "episode",
+												"name": "(Sub) Iron Hammer/The 57th Expedition, Part 5",
+												"description": "A traitor has infiltrated the Scout Regiment, destroying their ranks from within. When cornered, she once again takes the form of the Female Titan - but this time, Eren's not going to let her get away without one insanely brutal fight.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-09-01T12:00:00Z",
+												"season": 1,
+												"number": 21,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "e3bc7c7c-3eb4-4603-b1e5-2a74458d81d8",
+												"href": null,
+												"eabId": "EAB::e3bc7c7c-3eb4-4603-b1e5-2a74458d81d8::61504277::88355296",
+												"type": "episode",
+												"name": "(Dub) Attack Titan",
+												"description": "Eren learns how all paths connect in the story that his father began. If Grisha is to pay for his sins, he must fight for freedom and take a stand.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-06-23T12:00:00Z",
+												"season": 3,
+												"number": 21,
+												"duration": 1460,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "3bc7f41e-0968-4d52-aedd-35a8b6573d4a",
+												"href": null,
+												"eabId": "EAB::3bc7f41e-0968-4d52-aedd-35a8b6573d4a::61375067::61643658",
+												"type": "episode",
+												"name": "(Sub) Attack Titan",
+												"description": "Eren learns how all paths connect in the story that his father began. If Grisha is to pay for his sins, he must fight for freedom and take a stand.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-06-23T12:00:00Z",
+												"season": 3,
+												"number": 21,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "1834c674-1ac0-48e8-aef0-7fe2f7b2af49",
+												"href": null,
+												"eabId": "EAB::1834c674-1ac0-48e8-aef0-7fe2f7b2af49::61722366::227613856",
+												"type": "episode",
+												"name": "(Dub) From You, 2,000 Years Ago",
+												"description": "For 2,000 years, the Founder Ymir has been waiting--a slave to those with royal blood. However, Eren's yearning for freedom gives her a choice that could shake things up.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2020-02-08T12:00:00Z",
+												"season": 4,
+												"number": 21,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "f0774a01-5641-4e6c-8075-ba8c7e49ea98",
+												"href": null,
+												"eabId": "EAB::f0774a01-5641-4e6c-8075-ba8c7e49ea98::61696419::166643184",
+												"type": "episode",
+												"name": "(Sub) From You, 2,000 Years Ago",
+												"description": "For 2,000 years, the Founder Ymir has been waiting--a slave to those with royal blood. However, Eren's yearning for freedom gives her a choice that could shake things up.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-02-06T12:00:00Z",
+												"season": 4,
+												"number": 21,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "69fc6b9d-9177-42a7-82aa-96b43d34b2c3",
+												"href": null,
+												"eabId": "EAB::69fc6b9d-9177-42a7-82aa-96b43d34b2c3::60870836::183890654",
+												"type": "episode",
+												"name": "(Dub) The Defeated: The 57th Exterior Scouting Mission, Part 6",
+												"description": "After watching Eren get swallowed by the Female Titan, Mikasa and Levi follow the brutal monster in the hopes that he's still alive inside her. As the Scout Regiment tries to recover from the devastating losses of the operation, emotions run high.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-09-08T00:00:00Z",
+												"season": 1,
+												"number": 22,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "7100a4f0-0049-4129-acf6-28a215d5f1b8",
+												"href": null,
+												"eabId": "EAB::7100a4f0-0049-4129-acf6-28a215d5f1b8::60266367::196061146",
+												"type": "episode",
+												"name": "(Sub) The Defeated: The 57th Exterior Scouting Mission, Part 6",
+												"description": "After watching Eren get swallowed by the Female Titan, Mikasa and Levi follow the brutal monster in the hopes that he's still alive inside her. As the Scout Regiment tries to recover from the devastating losses of the operation, emotions run high.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-09-08T00:00:00Z",
+												"season": 1,
+												"number": 22,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "ef0fe05a-d7e7-4ca8-922e-cd52e052ab9b",
+												"href": null,
+												"eabId": "EAB::ef0fe05a-d7e7-4ca8-922e-cd52e052ab9b::61504302::88773682",
+												"type": "episode",
+												"name": "(Dub) The Other Side of the Wall",
+												"description": "Though it's met with hope and despair, the truth is made public. The Scouts then venture beyond the walls to see if it's everything they dreamed of.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-06-30T12:00:00Z",
+												"season": 3,
+												"number": 22,
+												"duration": 1445,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "ff8a99bc-0b27-4f97-9286-56eed0cbc1fe",
+												"href": null,
+												"eabId": "EAB::ff8a99bc-0b27-4f97-9286-56eed0cbc1fe::61379033::62333868",
+												"type": "episode",
+												"name": "(Sub) The Other Side of the Wall",
+												"description": "Though it's met with hope and despair, the truth is made public. The Scouts then venture beyond the walls to see if it's everything they dreamed of.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2019-06-30T12:00:00Z",
+												"season": 3,
+												"number": 22,
+												"duration": 1443,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "5e07dc7e-fff8-4a8a-83f0-c9f7e391e505",
+												"href": null,
+												"eabId": "EAB::5e07dc7e-fff8-4a8a-83f0-c9f7e391e505::61722373::227613845",
+												"type": "episode",
+												"name": "(Dub) Thaw",
+												"description": "With no walls left on the island and Shiganshina full of Titans, the Scouts must battle their former comrades. In the midst of it all, Gabi is determined to find and rescue Falco at whatever cost.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-02-15T12:00:00Z",
+												"season": 4,
+												"number": 22,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "fbbe3381-8992-4724-8df2-723360e7ac7e",
+												"href": null,
+												"eabId": "EAB::fbbe3381-8992-4724-8df2-723360e7ac7e::61696853::167628762",
+												"type": "episode",
+												"name": "(Sub) Thaw",
+												"description": "With no walls left on the island and Shiganshina full of Titans, the Scouts must battle their former comrades. In the midst of it all, Gabi is determined to find and rescue Falco at whatever cost.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-02-13T12:00:00Z",
+												"season": 4,
+												"number": 22,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "5dd6f34d-85f7-44ac-beab-7e5dfc6e449b",
+												"href": null,
+												"eabId": "EAB::5dd6f34d-85f7-44ac-beab-7e5dfc6e449b::60870847::183890759",
+												"type": "episode",
+												"name": "(Dub) Smile/Stohess District Raid, Part 1",
+												"description": "After the failed scouting expedition, Eren and his superiors are summoned to the capital. Annie witnesses just how deep corruption runs in the Military Police, and agrees to join Armin in a plot to defy the government - but nothing is really as it seems.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-09-15T23:30:00Z",
+												"season": 1,
+												"number": 23,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "73753f21-dd2d-427f-b708-e4272a12dec2",
+												"href": null,
+												"eabId": "EAB::73753f21-dd2d-427f-b708-e4272a12dec2::60269257::196053622",
+												"type": "episode",
+												"name": "(Sub) Smile/Stohess District Raid, Part 1",
+												"description": "After the failed scouting expedition, Eren and his superiors are summoned to the capital. Annie witnesses just how deep corruption runs in the Military Police, and agrees to join Armin in a plot to defy the government - but nothing is really as it seems.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-09-15T12:00:00Z",
+												"season": 1,
+												"number": 23,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "feefc9e0-d5b9-4c33-be42-af78e6a7e575",
+												"href": null,
+												"eabId": "EAB::feefc9e0-d5b9-4c33-be42-af78e6a7e575::61722370::227613848",
+												"type": "episode",
+												"name": "(Dub) Sunset",
+												"description": "The rumbling is set in motion once all hardening is undone, but this also sets Annie free. As the Jaegerists take control of the island, Conny races towards Ragako to feed Falco to his Titan mother.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-02-22T12:00:00Z",
+												"season": 4,
+												"number": 23,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "20f996bb-adf5-4288-ae51-615c4080296e",
+												"href": null,
+												"eabId": "EAB::20f996bb-adf5-4288-ae51-615c4080296e::61697499::168642431",
+												"type": "episode",
+												"name": "(Sub) Sunset",
+												"description": "The rumbling is set in motion once all hardening is undone, but this also sets Annie free. As the Jaegerists take control of the island, Conny races towards Ragako to feed Falco to his Titan mother.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-02-20T12:00:00Z",
+												"season": 4,
+												"number": 23,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "5229f97b-63be-4f75-8832-2ce9379beac1",
+												"href": null,
+												"eabId": "EAB::5229f97b-63be-4f75-8832-2ce9379beac1::60870855::183890670",
+												"type": "episode",
+												"name": "(Dub) Compassion/Stohess District Raid, Part 2",
+												"description": "When the identity of the Female Titan is finally revealed, she goes on a rampage within Wall Sina. Eren is hesitant to fight her, but Armin and Mikasa throw themselves into of the battle in a desperate attempt to stop the towering monster.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-09-22T23:30:00Z",
+												"season": 1,
+												"number": 24,
+												"duration": 1468,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "2948b1de-dbcd-4c0c-a5a7-b080756d73e2",
+												"href": null,
+												"eabId": "EAB::2948b1de-dbcd-4c0c-a5a7-b080756d73e2::60272657::196053600",
+												"type": "episode",
+												"name": "(Sub) Compassion / Stohess District Raid, Part 2",
+												"description": "When the identity of the Female Titan is finally revealed, she goes on a rampage within Wall Sina. Eren is hesitant to fight her, but Armin and Mikasa throw themselves into of the battle in a desperate attempt to stop the towering monster.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-09-22T00:00:00Z",
+												"season": 1,
+												"number": 24,
+												"duration": 1459,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "46a18bd7-9e32-4870-926c-c7e50600054b",
+												"href": null,
+												"eabId": "EAB::46a18bd7-9e32-4870-926c-c7e50600054b::61722361::227613850",
+												"type": "episode",
+												"name": "(Dub) Pride",
+												"description": "Upon reaching Ragako, Conny hatches a plan to trick Falco into being eaten by his mother. Elsewhere, hero of the Eldian Empire, Jean, is to execute Yelena and Onyankopon for their crimes against humanity.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-02-27T12:00:00Z",
+												"season": 4,
+												"number": 24,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "95ad7626-ba80-4c33-be23-9bfa51bb9754",
+												"href": null,
+												"eabId": "EAB::95ad7626-ba80-4c33-be23-9bfa51bb9754::61698186::169732003",
+												"type": "episode",
+												"name": "(Sub) Pride",
+												"description": "Upon reaching Ragako, Conny hatches a plan to trick Falco into being eaten by his mother. Elsewhere, hero of the Eldian Empire, Jean, is to execute Yelena and Onyankopon for their crimes against humanity.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-02-27T12:00:00Z",
+												"season": 4,
+												"number": 24,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "d5e31578-c75f-4256-9192-80cfe8f33fb5",
+												"href": null,
+												"eabId": "EAB::d5e31578-c75f-4256-9192-80cfe8f33fb5::60870839::183890677",
+												"type": "episode",
+												"name": "(Dub) Wall: Assault on Stohess, Part 3",
+												"description": "Eren goes head-to-head with the Female Titan in a fight that demolishes the Stohess District inside Wall Sina. As the casualties skyrocket and Annie tries to escape over the wall, Erwin must deal with the consequences of his plan.",
+												"rating": "TV14",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2014-11-01T12:00:00Z",
+												"season": 1,
+												"number": 25,
+												"duration": 1453,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "6d5b2a65-2bd7-4d87-8c07-c239bbcbd4f8",
+												"href": null,
+												"eabId": "EAB::6d5b2a65-2bd7-4d87-8c07-c239bbcbd4f8::60276323::196053678",
+												"type": "episode",
+												"name": "(Sub) The Wall/Stohess District Raid, Part 3",
+												"description": "Eren goes head-to-head with the Female Titan in a fight that demolishes the Stohess District inside Wall Sina. As the number of casualties skyrockets and Annie tries to escape over the wall, Erwin must deal with the consequences of his plan.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-09-29T12:00:00Z",
+												"season": 1,
+												"number": 25,
+												"duration": 1444,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "ae7dc3e6-3d74-473f-9f9c-7963fb951a3c",
+												"href": null,
+												"eabId": "EAB::ae7dc3e6-3d74-473f-9f9c-7963fb951a3c::61722303::227102678",
+												"type": "episode",
+												"name": "(Dub) Night of the End",
+												"description": "Deep in the forest, an unlikely rabble of Marley stragglers and island fugitives attempt to set their hatred aside and talk around a campfire without killing each other.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-03-06T12:00:00Z",
+												"season": 4,
+												"number": 25,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "3462dad9-7613-4f7e-ad93-c2351a3e931f",
+												"href": null,
+												"eabId": "EAB::3462dad9-7613-4f7e-ad93-c2351a3e931f::61698946::170902726",
+												"type": "episode",
+												"name": "(Sub) Night of the End",
+												"description": "Deep in the forest, an unlikely rabble of Marley stragglers and island fugitives attempt to set their hatred aside and talk around a campfire without killing each other.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-03-06T12:00:00Z",
+												"season": 4,
+												"number": 25,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "8055c91d-0286-4b26-ad75-62ac5fb50f60",
+												"href": null,
+												"eabId": "EAB::8055c91d-0286-4b26-ad75-62ac5fb50f60::61722359::227613843",
+												"type": "episode",
+												"name": "(Dub) Traitor",
+												"description": "The Azumabito's flying boat is guarded by a port full of Jaegerists, but the Scouts are reluctant to kill their former friends. If they wish to avoid bloodshed, they can't afford their plan to go wrong.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-03-13T12:00:00Z",
+												"season": 4,
+												"number": 26,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "ee484947-0dcb-4ead-a040-8aaabd3b6516",
+												"href": null,
+												"eabId": "EAB::ee484947-0dcb-4ead-a040-8aaabd3b6516::61699635::171923062",
+												"type": "episode",
+												"name": "(Sub) Traitor",
+												"description": "The Azumabito's flying boat is guarded by a port full of Jaegerists, but the Scouts are reluctant to kill their former friends. If they wish to avoid bloodshed, they can't afford their plan to go wrong.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-03-13T12:00:00Z",
+												"season": 4,
+												"number": 26,
+												"duration": 1458,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "508d174d-fc2f-40ba-938c-cef169e46cfd",
+												"href": null,
+												"eabId": "EAB::508d174d-fc2f-40ba-938c-cef169e46cfd::61722375::227613853",
+												"type": "episode",
+												"name": "(Dub) Retrospective",
+												"description": "For the flying boat to take off, the mechanics need half a day to service it. Knowing they'll never last that long with Jaegerist reinforcements on the way, the crew is forced to change their plans.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-03-20T12:00:00Z",
+												"season": 4,
+												"number": 27,
+												"duration": 1449,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "a700d1ff-976d-48ca-a592-f9cb3b48ff9f",
+												"href": null,
+												"eabId": "EAB::a700d1ff-976d-48ca-a592-f9cb3b48ff9f::61700455::172906070",
+												"type": "episode",
+												"name": "(Sub) Retrospective",
+												"description": "For the flying boat to take off, the mechanics need half a day to service it. Knowing they'll never last that long with Jaegerist reinforcements on the way, the crew is forced to change their plans.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-03-20T12:00:00Z",
+												"season": 4,
+												"number": 27,
+												"duration": 1457,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "9c564fee-01d2-4094-8429-cd8698ceb8b2",
+												"href": null,
+												"eabId": "EAB::9c564fee-01d2-4094-8429-cd8698ceb8b2::61722376::227613859",
+												"type": "episode",
+												"name": "(Dub) The Dawn of Humanity",
+												"description": "Regardless of where it all began, Eren commits to his path of destruction during the Scouts' first visit to the Marleyan mainland, leaving Mikasa to wonder if things could've been different.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-04-03T12:00:00Z",
+												"season": 4,
+												"number": 28,
+												"duration": 1434,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "15713e9d-313c-4d29-8bdf-8eef41fdeeb6",
+												"href": null,
+												"eabId": "EAB::15713e9d-313c-4d29-8bdf-8eef41fdeeb6::61702117::176303369",
+												"type": "episode",
+												"name": "(Sub) The Dawn of Humanity",
+												"description": "Regardless of where it all began, Eren commits to his path of destruction during the Scouts' first visit to the Marleyan mainland, leaving Mikasa to wonder if things could've been different.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2022-04-03T12:00:00Z",
+												"season": 4,
+												"number": 28,
+												"duration": 1443,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											},
+											{
+												"id": "3488e755-bf9c-480e-9fa0-ffc2bf5fa045",
+												"href": null,
+												"eabId": "EAB::3488e755-bf9c-480e-9fa0-ffc2bf5fa045::61722978::225524378",
+												"type": "episode",
+												"name": "(Sub) The Final Chapters Special 1",
+												"description": "As the rumbling advances, the remaining members of the Scout Regiment race against the clock with their Marleyan and Azumabito allies to catch up to Eren and stop the rumbling before the rest of the world is crushed under the Wall Titans' feet.",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2023-03-03T12:00:00Z",
+												"season": 4,
+												"number": 29,
+												"duration": 3663,
+												"seriesName": "Attack on Titan",
+												"artwork": {}
+											}
+										]
+									},
+									"upsell": {
+										"seasons": 4,
+										"episodes": 175,
+										"name": "Attack on Titan"
+									}
+								}
+							},
+							{
+								"title": "Extras",
+								"model": {
+									"type": "grid_collection",
+									"title": "Extras",
+									"collection": {
+										"id": "241",
+										"href": "https://discover.hulu.com/content/v5/hubs/series/9c91ffa3-dc20-48bf-8bc5-692e37c76d88/collections/241?schema=0&personalized_layout_id=H4sIAAAAAAAAAMu1MjIwMjYwMzAxNDcwrykptjI0szC1sLQwMTIAAgAi8yitHwAAAA",
+										"name": "Extras",
+										"theme": "grid_collection",
+										"enabledTileLinks": false,
+										"enableSignupModal": null,
+										"collectionHubPath": null,
+										"seasons": null,
+										"items": [
+											{
+												"id": "a2ee9bf4-37c5-4720-801c-ed5d88ea11b3",
+												"href": null,
+												"eabId": null,
+												"type": "extra",
+												"name": "Attack on Titan Final Season Part 2 - PV 2",
+												"description": "Attack on Titan Final Season trailer",
+												"rating": "TVMA",
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": "2013-04-07T00:00:00Z",
+												"season": null,
+												"number": null,
+												"duration": 100,
+												"seriesName": null,
+												"artwork": {}
+											},
+											{
+												"id": "c06aa0a3-2f69-4750-aaf1-f9cd439c50b9",
+												"href": null,
+												"eabId": null,
+												"type": "extra",
+												"name": "(Sub) Since That Day",
+												"description": "In the wake of the mission to take back Trost, Eren recollects the events that led to humanity's current state - starting with the day the Colossal Titan first appeared in Shiganshina.",
+												"rating": null,
+												"genres": [
+													"Action",
+													"Animation",
+													"Fantasy",
+													"International",
+													"Anime"
+												],
+												"premiereDate": null,
+												"season": null,
+												"number": null,
+												"duration": 1459,
+												"seriesName": null,
+												"artwork": {}
+											}
+										]
+									},
+									"upsell": {
+										"seasons": 4,
+										"episodes": 175,
+										"name": "Attack on Titan"
+									}
+								}
+							},
+							{
+								"title": "Details",
+								"model": {
+									"type": "collection_details",
+									"collection": {
+										"theme": "details",
+										"name": "About this Show"
+									},
+									"entityType": "series",
+									"tags": [2013],
+									"name": "Attack on Titan",
+									"credits": [
+										{
+											"prefix": "Starring:",
+											"seoSchemaProp": "actor",
+											"items": [
+												"Yûki Kaji",
+												"Yui Ishikawa",
+												"Marina Inoue",
+												"Kisho Taniyama",
+												"Yu Shimamura"
+											],
+											"truncatedItems": [
+												"Yûki Kaji",
+												"Yui Ishikawa",
+												"Marina Inoue"
+											]
+										}
+									],
+									"avFeatures": {
+										"items": ["hd"],
+										"truncatedItems": ["hd"]
+									},
+									"description": "From the director of Death Note comes Attack on Titan. Many years ago, humanity was forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. This is their story.",
+									"rating": "TVMA",
+									"genres": [
+										{
+											"name": "Action",
+											"hubPath": "/hub/action-tv"
+										},
+										{
+											"name": "Animation",
+											"hubPath": null
+										},
+										{
+											"name": "Fantasy",
+											"hubPath": "/hub/fantasy-tv"
+										},
+										{
+											"name": "International",
+											"hubPath": "/hub/international-tv"
+										},
+										{
+											"name": "Anime",
+											"hubPath": "/hub/anime-tv"
+										}
+									]
+								}
+							}
+						],
+						"network": "Attack on Titan"
+					},
+					{
+						"type": "collection",
+						"collections": []
+					},
+					{
+						"type": "player"
+					},
+					{
+						"type": "signup_modal"
+					},
+					{
+						"type": "tier_modal"
+					}
+				],
+				"detailEntity": {
+					"type": "series",
+					"id": "9c91ffa3-dc20-48bf-8bc5-692e37c76d88",
+					"name": "Attack on Titan",
+					"description": "From the director of Death Note comes Attack on Titan. Many years ago, humanity was forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. This is their story.",
+					"network": "Crunchyroll",
+					"premiereDate": "2013-04-07T00:00:00Z",
+					"artwork": {
+						"horizontalProgramTile": {
+							"path": "https://img3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=image_manager&base_image=f8b052de-8f1e-4f1a-bf58-1390f3598000"
+						},
+						"verticalHero": {
+							"path": "https://img3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=image_manager&base_image=0d6eb2f9-891d-4076-8ce9-22a297b9f2ca"
+						}
+					},
+					"href": "https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88",
+					"requireLivePackage": false,
+					"redirectTo": null,
+					"latestSeason": {
+						"season": "4",
+						"previousSeason": "3"
+					},
+					"credits": [
+						{
+							"prefix": "Starring:",
+							"seoSchemaProp": "actor",
+							"items": [
+								"Yûki Kaji",
+								"Yui Ishikawa",
+								"Marina Inoue",
+								"Kisho Taniyama",
+								"Yu Shimamura"
+							],
+							"truncatedItems": [
+								"Yûki Kaji",
+								"Yui Ishikawa",
+								"Marina Inoue"
+							]
+						}
+					],
+					"latestTrailer": {
+						"title": "Attack on Titan Final Season Part 2 - PV 2",
+						"eabId": "EAB::a2ee9bf4-37c5-4720-801c-ed5d88ea11b3::61703763::176894325",
+						"duration": "PT100S",
+						"uploadDate": "2022-04-20T19:00:00Z"
+					}
+				},
+				"metrics": {
+					"collectionCount": 4
+				},
+				"options": {},
+				"program": {},
+				"metatags": [],
+				"title": "Watch Attack on Titan Streaming Online | Hulu (Free Trial)"
+			},
+			"collectionCount": 4,
+			"config": {},
+			"isAppsFlyer": false
+		}
+	}
+}
