@@ -192,7 +192,7 @@ def _digest_episode(feed_episode):
 		debug("  Match found, num={}".format(episode_num))
 		date = feed_episode["published_parsed"] or datetime.utcnow()
 		link = feed_episode["id"]
-		return Episode(episode_num, None, link, date)
+		return Episode(number=episode_num, link=link, date=date)
 	debug("  No match found")
 	return None
 

@@ -45,7 +45,7 @@ class InfoHandler(AbstractInfoHandler):
 			id = child.find("id").text
 			name = child.find("title").text
 			more_names = [child.find("english").text]
-			show = UnprocessedShow(self.key, id, name, more_names, ShowType.UNKNOWN, 0, False)
+			show = UnprocessedShow(site_key=self.key, show_key=id, name=name, show_type=ShowType.UNKNOWN, episode_count=0, has_source=False, more_names=more_names)
 			shows.append(show)
 		
 		return shows
@@ -71,7 +71,7 @@ class InfoHandler(AbstractInfoHandler):
 		info("  English: {}".format(name_english))
 		
 		names = [name_english]
-		return UnprocessedShow(self.key, id, None, names, ShowType.UNKNOWN, 0, False)
+		return UnprocessedShow(site_key=self.key, show_key=show_id, name=None, show_type=ShowType.UNKNOWN, episode_count=0, has_source=False, more_names=names)
 	
 	def get_episode_count(self, link, **kwargs):
 		debug("Getting episode count")
@@ -150,7 +150,7 @@ class InfoHandler(AbstractInfoHandler):
 			episode_count = None if episode_count == "?" else int(episode_count)
 			has_source = show.find(class_="source").string != "Original"
 			
-			new_shows.append(UnprocessedShow(self.key, show_key, title, more_names, show_type, episode_count, has_source))
+			new_shows.append(UnprocessedShow(site_key=self.key, show_key=show_key, name=title, more_names=more_names, show_type=show_type, episode_count=episode_count, has_source=has_source))
 		
 		return new_shows
 	
