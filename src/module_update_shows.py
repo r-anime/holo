@@ -2,6 +2,7 @@ from logging import debug, info, warning, error
 from datetime import datetime, timedelta
 
 import services
+from data.database import DatabaseDatabase
 
 def main(config, db, **kwargs):
 	# Find data not provided by the edit module
@@ -122,13 +123,14 @@ def _check_new_episode_scores(config, db, update_db):
 			else:
 				info("  Already has scores, ignoring")
 
-def _record_poll_scores(config, db, update_db):
+def _record_poll_scores(config, db: DatabaseDatabase, update_db):
 	polls = db.get_polls(missing_score=True)
-	handler = services.get_default_poll_handler()
-	info(f"Record scores for service {handler.key}")
 
 	updated = 0
 	for poll in polls:
+		poll_site = db.get_poll_site(id=poll.service_id)
+		handler = services.get_poll_handler(poll_site=poll_site)
+		info(f"Record score for service {handler.key}")
 		if timedelta(days=8) < datetime.now() - poll.date < timedelta(days=93) :
 			score = handler.get_score(poll)
 			info(f"Updating poll score for show {poll.show_id} / episode {poll.episode} ({score})")
